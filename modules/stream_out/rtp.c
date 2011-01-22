@@ -1122,6 +1122,10 @@ static sout_stream_id_t *Add( sout_stream_t *p_stream, es_format_t *p_fmt )
             id->pf_packetize = rtp_packetize_split;
             rtp_set_ptime (id, 20, 1);
             break;
+        case VLC_CODEC_S24B:
+            id->psz_enc = "L24";
+            id->pf_packetize = rtp_packetize_split;
+            break;
         case VLC_CODEC_S16B:
         case VLC_CODEC_S16L:
             if( p_fmt->audio.i_channels == 1 && p_fmt->audio.i_rate == 44100 )
