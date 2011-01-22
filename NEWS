@@ -8,13 +8,13 @@ Audio output:
    and with the Mozilla VLC web browser plugin.
 
 Access:
- * Fix the Audio-CD crash when looking for CDDB data on Win32
+ * Fix the Audio-CD crash when looking for CDDB data on Windows
 
 Decoders:
  * Support for MPC SV7 and SV8 on Windows and Mac OS X (Unix was already working)
  * Enabled FluidSynth MIDI playback plugin on Mac OS X
- * Faster VP8 decoding with recent codecs
- * Fix Heap corruption in subtitle decoders, potentially exploitable,
+ * Faster VP8 decoding with recent codecs libraries
+ * Fix heap corruption in subtitle decoders, potentially exploitable,
    discovered by Harry Sintonen - sintonen at iki.fi
 
 Demuxers:
@@ -29,7 +29,7 @@ Subtitles and renderer:
 Visualization:
  * Fix projectM visualization for Linux in all locales
  * Fix projectM visualization support for Windows
- * Various projectM improvements
+ * Various projectM improvements: the module should be working now
 
 Interfaces:
  * Qt4: fixes for media keys processing and MCE remotes
@@ -40,11 +40,12 @@ Miscellaneous fixes:
  * XDG screensaver
  * Transcode integer overflow
  * HTTP Icy metadata reading
+ * Windows: revert to 1.1.4 performance timers
 
 Translations:
  * Update translations for Chinese, Nippon, Slovak, Estonian, Spanish, Galician,
-   Swedish, Bulgarian, French, Bengalese, German, Slovak, Japanese, Dutch, Polish,
-   Indonesian, Sinhala and Irish
+   Swedish, Bulgarian, French, Bengalese, German, Slovak, Japanese, Dutch,
+   Polish, Hungarian, Indonesian, Sinhala and Irish
 
 
 Changes between 1.1.4.1 and 1.1.5:
