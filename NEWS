@@ -3,8 +3,9 @@ Changes between 1.1.5 and 1.1.6:
 
 Audio output:
  * multiple fixes and improvements on PulseAudio output
-   WE STRONGLY advise PACKAGERS to update libpulse to 0.9.22
-   Especially, if you care about phonon-VLC backend for KDE
+   PACKAGERS are VERY STRONGLY advised to update libpulse to 0.9.22.
+   Update is required to use PulseAudio with the Phonon-VLC backend (KDE)
+   and with the Mozilla VLC web browser plugin.
 
 Access:
  * Fix the Audio-CD crash when looking for CDDB data on Win32
