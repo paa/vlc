@@ -19,6 +19,7 @@ Decoders:
 Demuxers:
  * Fix Buffer overflow in Real demuxer CVE-2010-3907 / VideoLAN-SA-1007
  * Fix some asf/wmv seeking issue, when seek didn't go to a keyframe
+ * Support for 24-bits PCM over RTP (audio/L24)
 
 Subtitles and renderer:
  * Do not auto-detect .txt files for subtitles
