@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the VLC package.
 # $Id$
 #
-# Gabor Kelemen <kelemeng at gnome dot hu>, 2005, 2006, 2007, 2008, 2009, 2010.
+# Gabor Kelemen <kelemeng at gnome dot hu>, 2005, 2006, 2007, 2008, 2009, 2010, 2011.
 msgid ""
 msgstr ""
-"Project-Id-Version: vlchu\n"
+"Project-Id-Version: vlc 1.1.6\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2011-01-10 20:52+0000\n"
-"PO-Revision-Date: 2010-06-24 20:43+0200\n"
+"PO-Revision-Date: 2011-01-21 01:55+0100\n"
 "Last-Translator: Gabor Kelemen <kelemeng at gnome dot hu>\n"
 "Language-Team: Hungarian <gnome at fsf dot hu>\n"
 "Language: \n"
@@ -7098,14 +7098,12 @@ msgid "Address of the release callback function"
 msgstr "Az elengedési visszahívás-függvény címe"
 
 #: modules/access/imem.c:118
-#, fuzzy
 msgid "Size"
-msgstr "Méretek"
+msgstr "Méret"
 
 #: modules/access/imem.c:120
-#, fuzzy
 msgid "Size of stream in bytes"
-msgstr "Az egyes szeletek bájtokban megadott méretének korlátozása"
+msgstr "Az adatfolyam mérete bájtokban"
 
 #: modules/access/imem.c:123 modules/access/imem.c:124
 msgid "Memory input"
@@ -10363,13 +10361,12 @@ msgid "Picture coding mode"
 msgstr "Képkódolási mód"
 
 #: modules/codec/dirac.c:105
-#, fuzzy
 msgid ""
 "Field coding is where interlaced fields are coded separately as opposed to a "
 "pseudo-progressive frame"
 msgstr ""
-"A mezőkódolás esetén az összekapcsolt mezők külön vannak kódolva, szemben az "
-"ál-progresszív képkockával"
+"A mezőkódolás esetén a váltottsoros mezők külön vannak kódolva, szemben az "
+"álprogresszív képkockával"
 
 #: modules/codec/dirac.c:110
 msgid "auto - let encoder decide based upon input (Best)"
@@ -10380,9 +10377,8 @@ msgid "force coding frame as single picture"
 msgstr "kódoló képkocka kényszerítése egyetlen képként"
 
 #: modules/codec/dirac.c:112
-#, fuzzy
 msgid "force coding frame as separate interlaced fields"
-msgstr "kódoló képkocka kényszerítése külön összekapcsolt mezőkként"
+msgstr "kódoló képkocka kényszerítése külön váltottsoros mezőkként"
 
 #: modules/codec/dirac.c:116
 msgid "Width of motion compensation blocks"
@@ -14160,67 +14156,57 @@ msgid "Podcast Info"
 msgstr "Podcast információi"
 
 #: modules/demux/playlist/podcast.c:256
-#, fuzzy
 msgid "Podcast Link"
-msgstr "Podcast információi"
+msgstr "Podcast hivatkozás"
 
 #: modules/demux/playlist/podcast.c:257
-#, fuzzy
 msgid "Podcast Copyright"
-msgstr "Szerzői jog"
+msgstr "Podcast szerzői joga"
 
 #: modules/demux/playlist/podcast.c:258
-#, fuzzy
 msgid "Podcast Category"
-msgstr "Podcast feldolgozó"
+msgstr "Podcast kategóriája"
 
 #: modules/demux/playlist/podcast.c:259 modules/demux/playlist/podcast.c:311
-#, fuzzy
 msgid "Podcast Keywords"
-msgstr "Podcast feldolgozó"
+msgstr "Podcast kulcsszavai"
 
 #: modules/demux/playlist/podcast.c:260 modules/demux/playlist/podcast.c:312
-#, fuzzy
 msgid "Podcast Subtitle"
-msgstr "Podcast mérete"
+msgstr "Podcast felirata"
 
 #: modules/demux/playlist/podcast.c:266 modules/demux/playlist/podcast.c:313
 msgid "Podcast Summary"
 msgstr "Podcast összefoglalója"
 
 #: modules/demux/playlist/podcast.c:307
-#, fuzzy
 msgid "Podcast Publication Date"
-msgstr "Moduláció típusa"
+msgstr "Podcast közzétételi dátuma"
 
 #: modules/demux/playlist/podcast.c:308
-#, fuzzy
 msgid "Podcast Author"
-msgstr "Podcast információi"
+msgstr "Podcast szerzője"
 
 #: modules/demux/playlist/podcast.c:309
-#, fuzzy
 msgid "Podcast Subcategory"
-msgstr "Podcast összefoglalója"
+msgstr "Podcast alkategóriája"
 
 #: modules/demux/playlist/podcast.c:310
-#, fuzzy
 msgid "Podcast Duration"
-msgstr "Telítettség"
+msgstr "Podcast hossza"
 
 #: modules/demux/playlist/podcast.c:314
-#, fuzzy
 msgid "Podcast Type"
-msgstr "Podcast feldolgozó"
+msgstr "Podcast típusa"
 
 #: modules/demux/playlist/podcast.c:328
 msgid "Podcast Size"
 msgstr "Podcast mérete"
 
 #: modules/demux/playlist/podcast.c:329
-#, fuzzy, c-format
+#, c-format
 msgid "%s bytes"
-msgstr "Elküldött bájtok"
+msgstr "%s bájt"
 
 #: modules/demux/playlist/shoutcast.c:409
 msgid "Shoutcast"
@@ -17921,7 +17907,6 @@ msgid "Use VLC pace"
 msgstr "VLC sebesség használata"
 
 #: modules/gui/qt4/components/open_panels.cpp:874
-#, fuzzy
 msgid "Auto connection"
 msgstr "Automatikus csatlakozás"
 
@@ -17984,22 +17969,19 @@ msgstr "Ezen podcast-feliratkozás eltávolítása"
 
 #: modules/gui/qt4/components/playlist/selector.cpp:267
 msgid "My Computer"
-msgstr ""
+msgstr "Sajátgép"
 
 #: modules/gui/qt4/components/playlist/selector.cpp:269
-#, fuzzy
 msgid "Devices"
-msgstr "Eszköz"
+msgstr "Eszközök"
 
 #: modules/gui/qt4/components/playlist/selector.cpp:271
-#, fuzzy
 msgid "Local Network"
-msgstr "Hálózat"
+msgstr "Helyi hálózat"
 
 #: modules/gui/qt4/components/playlist/selector.cpp:273
-#, fuzzy
 msgid "Internet"
-msgstr "Interlingue"
+msgstr "Internet"
 
 #: modules/gui/qt4/components/playlist/selector.cpp:295
 msgid "Subscribe to a podcast"
@@ -18747,14 +18729,12 @@ msgid "&Reset Preferences"
 msgstr "Beállítások &visszaállítása"
 
 #: modules/gui/qt4/dialogs/preferences.cpp:300
-#, fuzzy
 msgid "Cannot save Configuration"
-msgstr "Lua felület beállítása"
+msgstr "A beállítások nem menthetők"
 
 #: modules/gui/qt4/dialogs/preferences.cpp:301
-#, fuzzy
 msgid "Preferences file could not be saved"
-msgstr "A fájl nem ellenőrizhető"
+msgstr "A beállításfájl nem menthető"
 
 #: modules/gui/qt4/dialogs/preferences.cpp:318
 msgid "Are you sure you want to reset your VLC media player preferences?"
@@ -20373,9 +20353,8 @@ msgid "Lua HTTP"
 msgstr "Lua HTTP"
 
 #: modules/misc/lua/vlc.c:112
-#, fuzzy
 msgid "Lua RC"
-msgstr "Lua borítógrafika"
+msgstr "Lua RC"
 
 #: modules/misc/lua/vlc.c:114
 msgid "Lua Telnet"
@@ -22452,14 +22431,13 @@ msgid "Device type"
 msgstr "Eszköztípus"
 
 #: modules/video_filter/atmo/atmo.cpp:136
-#, fuzzy
 msgid ""
 "Choose your preferred hardware from the list, or choose AtmoWin Software to "
 "delegate processing to the external process - with more options"
 msgstr ""
 "Válassza ki a listából a hardverét, vagy válassza az AtmoWin szoftver "
 "lehetőséget külső folyamat megbízásához a feldolgozással; ez több "
-"lehetőséget nyújt."
+"lehetőséget nyújt"
 
 #: modules/video_filter/atmo/atmo.cpp:153
 msgid "AtmoWin Software"
@@ -22498,7 +22476,6 @@ msgid "DMX address for each channel"
 msgstr "Az egyes csatornák DMX-címe"
 
 #: modules/video_filter/atmo/atmo.cpp:166
-#, fuzzy
 msgid ""
 "Define here the DMX base address for each channel use , or ; to separate the "
 "values"
@@ -22887,7 +22864,6 @@ msgid "Channel / Zone Assignment"
 msgstr "Csatorna/zónakiosztás"
 
 #: modules/video_filter/atmo/atmo.cpp:330
-#, fuzzy
 msgid ""
 "for devices with more than five channels / zones write down here for each "
 "channel the zone number to show and separate the values with , or ; and use "
@@ -22936,13 +22912,13 @@ msgid "Gradient bitmap searchpath"
 msgstr "Átmenet bitkép keresési útvonala"
 
 #: modules/video_filter/atmo/atmo.cpp:349
-#, fuzzy
 msgid ""
 "Now preferred option to assign gradient bitmaps, put them as zone_0.bmp, "
 "zone_1.bmp etc. into one folder and set the foldername here"
 msgstr ""
-"Ha átmenet bitképeket szeretne társítani, akkor helyezze azokat egy mappába "
-"zone_0.bmp, zone_1.bmp stb. néven, és adja meg itt a mappa nevét"
+"Az előnyben részesített lehetőség az átmenet bitképek társítása, helyezze "
+"azokat egy mappába zone_0.bmp, zone_1.bmp stb. néven, és adja meg itt a "
+"mappa nevét"
 
 #: modules/video_filter/atmo/atmo.cpp:354
 msgid "Filename of AtmoWin*.exe"
@@ -25640,34 +25616,28 @@ msgid "The height of the video window, in pixels."
 msgstr "A videoablak magassága képpontban."
 
 #: modules/visualization/projectm.cpp:67
-#, fuzzy
 msgid "Mesh width"
-msgstr "Videó szélessége"
+msgstr "Rács szélessége"
 
 #: modules/visualization/projectm.cpp:68
-#, fuzzy
 msgid "The width of the mesh, in pixels."
-msgstr "A mozaik teljes szélessége képpontban."
+msgstr "A rács szélessége képpontban."
 
 #: modules/visualization/projectm.cpp:70
-#, fuzzy
 msgid "Mesh height"
-msgstr "Csúcs magassága"
+msgstr "Rács magassága"
 
 #: modules/visualization/projectm.cpp:71
-#, fuzzy
 msgid "The height of the mesh, in pixels."
-msgstr "A mozaik teljes magassága képpontban."
+msgstr "A rács magassága képpontban."
 
 #: modules/visualization/projectm.cpp:73
-#, fuzzy
 msgid "Texture size"
-msgstr "Mozdulatok"
+msgstr "Mintázat mérete"
 
 #: modules/visualization/projectm.cpp:74
-#, fuzzy
 msgid "The size of the texture, in pixels."
-msgstr "A videoablak szélessége képpontban."
+msgstr "A mintázat mérete képpontban."
 
 #: modules/visualization/projectm.cpp:77
 msgid "projectM"
@@ -25977,7 +25947,6 @@ msgid "Enter the URL of the network stream here."
 msgstr "Adja meg a hálózati műsor URL-címét."
 
 #: linux/modules/gui/qt4/ui/open_net.h:97
-#, fuzzy
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
 "REC-html40/strict.dtd\">\n"
@@ -26014,7 +25983,7 @@ msgstr ""
 "#838383;\">http://www.example.com/stream.avi</span></p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:"
-"#838383;\">rtp://@1234</span></p>\n"
+"#838383;\">rtp://@:1234</span></p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:"
 "#838383;\">mms://mms.examples.com/stream.asx</span></p>\n"
@@ -26713,686 +26682,681 @@ msgstr "Ismétlés"
 msgid "Media Manager List"
 msgstr "Médiakezelési lista"
 
-#~ msgid "GME demuxer (Game_Music_Emu)"
-#~ msgstr "GME szétválasztó (Game_Music_Emu)"
+msgid "GME demuxer (Game_Music_Emu)"
+msgstr "GME szétválasztó (Game_Music_Emu)"
 
+msgid "Method used by libdvdcss for decryption"
+msgstr "libdvdcss visszafejtő eljárása"
+
+msgid ""
+"Set the method used by libdvdcss for key decryption.\n"
+"title: decrypted title key is guessed from the encrypted sectors of the "
+"stream. Thus it should work with a file as well as the DVD device. But it "
+"sometimes takes much time to decrypt a title key and may even fail. With "
+"this method, the key is only checked at the beginning of each title, so it "
+"won't work if the key changes in the middle of a title.\n"
+"disc: the disc key is first cracked, then all title keys can be decrypted "
+"instantly, which allows us to check them often.\n"
+"key: the same as \"disc\" if you don't have a file with player keys at "
+"compilation time. If you do, the decryption of the disc key will be faster "
+"with this method. It is the one that was used by libcss.\n"
+"The default method is: key."
+msgstr ""
+"Állítsa be a kulcsvisszafejtésre a libdvdcss által használt módot.\n"
+"cím: a visszafejtett címkulcsot a műsor titkosított szektoraiból találja ki. "
+"Ezért ez fájloknál és DVD eszközöknél is működik. Néha viszont sok időbe "
+"telik a visszafejtés, és akár sikertelen is lehet. Ennél a módnál a kulcsot "
+"csak a címek elején ellenőrzi, ezért nem fog működni, ha a kulcs megváltozik "
+"a közepén.\n"
+"lemez: először a lemezkulcs kerül feltörésre, ezután az összes címkulcs "
+"azonnal visszafejthető, így sűrűn lehet őket ellenőrizni.\n"
+"kulcs: ugyanaz mint a „lemez”, amennyiben nem áll rendelkezésre egy "
+"lejátszók kulcsait tartalmazó fájl fordítási időben. Ha pedig van ilyen, "
+"akkor a lemezkulcs visszafejtése jóval gyorsabb. Ezt használta a libcss.\n"
+"Az alapértelmezett mód: kulcs."
+
+msgid "%s: option `%s' is ambiguous\n"
+msgstr "%s: a(z) „%s” kapcsoló nem egyértelmű\n"
+
+msgid "%s: option `--%s' doesn't allow an argument\n"
+msgstr "%s: a(z) „--%s” kapcsoló nem enged meg argumentumot\n"
+
+msgid "%s: option `%c%s' doesn't allow an argument\n"
+msgstr "%s: a(z) „%c%s” kapcsoló nem enged meg argumentumot\n"
+
+msgid "%s: option `%s' requires an argument\n"
+msgstr "%s: a(z) „%s” kapcsolóhoz argumentum szükséges\n"
+
+msgid "%s: unrecognized option `%s%s'\n"
+msgstr "%s: a kapcsoló („%s%s”) ismeretlen\n"
+
+msgid "%s: illegal option -- %c\n"
+msgstr "%s: illegális kapcsoló -- %c\n"
+
+msgid "%s: invalid option -- %c\n"
+msgstr "%s: érvénytelen kapcsoló -- %c\n"
+
+msgid "%s: option requires an argument -- %c\n"
+msgstr "%s: a kapcsoló egy argumentumot igényel -- %c\n"
+
+msgid "%s: option `-W %s' is ambiguous\n"
+msgstr "%s: a „-W %s” kapcsoló nem egyértelmű\n"
+
+msgid "%s: option `-W %s' doesn't allow an argument\n"
+msgstr "%s: a „-W %s” kapcsoló nem enged meg argumentumot\n"
+
+msgid "key and mouse event handling at vout level."
+msgstr "Billentyű- és egéresemények kezelése videokimeneti szinten."
+
+msgid ""
+"This parameter accepts values : 1 (full event handling support), 2 (event "
+"handling only for fullscreen) or 3 (No event handling). Full event handling "
+"support is the default value."
+msgstr ""
+"Lehetséges értékek: 1 (teljes eseménykezelés-támogatás), 2 (eseménykezelés "
+"csak teljes képernyőn) vagy 3 (nincs eseménykezelés). Az alapértelmezés a "
+"teljes eseménykezelés."
+
+msgid "Full support"
+msgstr "Teljes támogatás"
+
+msgid ""
+"Toggle wallpaper mode in video output. Only works with the directx video "
+"output for the time being."
+msgstr ""
+"A videokimenet háttérkép módjának átváltása. Jelenleg csak a directx "
+"videokimenettel működik."
+
+msgid "full"
+msgstr "teljes"
+
+msgid ""
+"This integer when viewed in binary is a debugging mask\n"
+"meta info          1\n"
+"events             2\n"
+"MRL                4\n"
+"external call      8\n"
+"all calls (0x10)  16\n"
+"LSN       (0x20)  32\n"
+"seek      (0x40)  64\n"
+"libcdio   (0x80) 128\n"
+"libcddb  (0x100) 256\n"
+msgstr ""
+"Ez az egész szám bináris formában egy hibakereső maszk\n"
+"meta információ 1\n"
+"események 2\n"
+"MRL 4\n"
+"külső hívás 8\n"
+"összes hívás (0x10) 16\n"
+"LSN (0x20 32\n"
+"tekerés (0x40) 64\n"
+"libcdio (0x80) 128\n"
+"libcddb (0x100) 256\n"
+
+msgid ""
+"How many CD blocks to get on a single CD read. Generally on newer/faster "
+"CDs, this increases throughput at the expense of a little more memory usage "
+"and initial delay. SCSI-MMC limitations generally don't allow for more than "
+"25 blocks per access."
+msgstr ""
+"Egy CD olvasással hány CD adatblokk kerüljön beolvasásra. Újabb/gyorsabb CD-"
+"ken általában növeli az átviteli sebességet némileg több memóriahasználat és "
+"kezdeti késleltetés árán. A SCSI-MMC korlátozásai többnyire nem tesznek "
+"lehetővé hozzáférésenként 25 blokknál többet."
+
+msgid ""
+"Format used in the GUI Playlist Title. Similar to the Unix date \n"
+"Format specifiers that start with a percent sign. Specifiers are: \n"
+"   %a : The artist (for the album)\n"
+"   %A : The album information\n"
+"   %C : Category\n"
+"   %e : The extended data (for a track)\n"
+"   %I : CDDB disk ID\n"
+"   %G : Genre\n"
+"   %M : The current MRL\n"
+"   %m : The CD-DA Media Catalog Number (MCN)\n"
+"   %n : The number of tracks on the CD\n"
+"   %p : The artist/performer/composer in the track\n"
+"   %T : The track number\n"
+"   %s : Number of seconds in this track\n"
+"   %S : Number of seconds in the CD\n"
+"   %t : The track title or MRL if no title\n"
+"   %Y : The year 19xx or 20xx\n"
+"   %% : a % \n"
+msgstr ""
+"A GUI lejátszólistánál használt formátumok. Hasonlóak a Unix dátum\n"
+"formátumleírókhoz, amelyek százalékjellel kezdődnek. A leírók:\n"
+"   %a: Az előadó (a lemez előadója)\n"
+"   %A: Információk a lemezről\n"
+"   %C: Kategória\n"
+"   %e: Kiterjesztett adatok (számhoz)\n"
+"   %I: CDDB lemez azonosító\n"
+"   %G: Műfaj\n"
+"   %M: A jelenlegi MRL\n"
+"   %m: CD-DA média katalógusszáma (MCN)\n"
+"   %n: A zeneszámok darabszáma a CD-n\n"
+"   %p: A zeneszám előadója/szerzője\n"
+"   %T: A zeneszám sorszáma\n"
+"   %s: A zeneszám hossza másodpercben.\n"
+"   %S: A CD hossza másodpercben\n"
+"   %t: a szám címe, vagy MRL, ha nincs cím\n"
+"   %Y: Az év; 19xx vagy 20xx\n"
+"   %%: egy % jel \n"
+
+msgid ""
+"Format used in the GUI Playlist Title. Similar to the Unix date \n"
+"Format specifiers that start with a percent sign. Specifiers are: \n"
+"   %M : The current MRL\n"
+"   %m : The CD-DA Media Catalog Number (MCN)\n"
+"   %n : The number of tracks on the CD\n"
+"   %T : The track number\n"
+"   %s : Number of seconds in this track\n"
+"   %S : Number of seconds in the CD\n"
+"   %t : The track title or MRL if no title\n"
+"   %% : a % \n"
+msgstr ""
+"A GUI lejátszólista címében használt formátumok. Hasonlóak a Unix dátum\n"
+"formátumleírókhoz, amelyek százalékjellel kezdődnek. A leírók:\n"
+"   %M: A jelenlegi MRL\n"
+"   %m: CD-DA média katalógusszám (MCN)\n"
+"   %n: A zeneszámok darabszáma a CD-n\n"
+"   %T: A zeneszám sorszáma\n"
+"   %s: A zeneszám hossza másodpercben.\n"
+"   %S: A CD hossza másodpercben\n"
+"   %t: a szám címe, vagy MRL, ha nincs cím\n"
+"   %%: A % \n"
+
+msgid "Enable CD paranoia?"
+msgstr "Engedélyezi a CD paranoiat?"
+
+msgid ""
+"Select whether to use CD Paranoia for jitter/error correction.\n"
+"none: no paranoia - fastest.\n"
+"overlap: do only overlap detection - not generally recommended.\n"
+"full: complete jitter and error correction detection - slowest.\n"
+msgstr ""
+"Válassza ki, hogy a program használja-e a CD PARANOIA jitter/hibajavítását\n"
+"none: nincs paranoia – leggyorsabb\n"
+"overlap: csak átfedés-érzékelést végez – nem javasolt.\n"
+"full: teljes jitter és hibajavítás érzékelés – leglassabb.\n"
+
+msgid "Compact Disc Digital Audio (CD-DA) input"
+msgstr "Compact Disc Digital Audio (CD-DA) bemenet"
+
+msgid "If set, audio controls and audio jack output are used"
+msgstr ""
+"Ha be van állítva, a hangvezérlők és a hangkimenet lesznek használatban."
+
+msgid "Do CD-Text lookups?"
+msgstr "Végezzen CD-szöveg keresést?"
+
+msgid "If set, get CD-Text information"
+msgstr "Ha be van állítva, CD-szöveg információt kap"
+
+msgid "Use Navigation-style playback?"
+msgstr "Használja a navigáció stílusú lejátszást?"
+
+msgid "Tracks are navigated via Navagation rather than a playlist entries"
+msgstr ""
+"A számokat nem lejátszólista bejegyzéseken, hanem a navigáción keresztül "
+"keresi"
+
+msgid "CDDB lookups"
+msgstr "CDDB kikeresések"
+
+msgid "If set, lookup CD-DA track information using the CDDB protocol"
+msgstr ""
+"Ha be van állítva, akkor a CDDB protokoll használatával CD-DA szám "
+"információkat keres."
+
+msgid "Contact this CDDB server look up CD-DA information"
+msgstr ""
+"Kapcsolat felvétele ezzel a CDDB kiszolgálóval CD-DA információk kereséséhez"
+
+msgid "CDDB server uses this port number to communicate on"
+msgstr "A CDDB kiszolgáló ezt a portot használja kommunikációra"
+
+msgid "Cache CDDB lookups?"
+msgstr "Gyorsítótárazza a CDDB kereséseket?"
+
+msgid "If set cache CDDB information about this CD"
+msgstr "Ha be van állítva, gyorsítótárazza erről a CD-ről a CDDB információkat"
+
+msgid "Contact CDDB via the HTTP protocol?"
+msgstr "HTTP protokoll használatával kapcsolódik a CDDB-hez?"
+
+msgid "If set, the CDDB server gets information via the CDDB HTTP protocol"
+msgstr ""
+"Ha be van állítva, a CDDB kiszolgáló HTTP protokollon keresztül kap "
+"információt."
+
+msgid "Time (in seconds) to wait for a response from the CDDB server"
+msgstr "A CDDB kiszolgálótól válaszra várakozási idő (másodpercekben)"
+
+msgid "Directory to cache CDDB requests"
+msgstr "A CDDB kérések gyorsítótárazására használt könyvtár"
+
+msgid "Prefer CD-Text info to CDDB info?"
+msgstr "CD-szöveg előnyben részesítése a CDDB információkkal szemben?"
+
+msgid ""
+"If set, CD-Text information will be preferred to CDDB information when both "
+"are available"
+msgstr ""
+"Ha be van állítva, a CD-szöveg információkat használja a CDDB információk "
+"helyett, ha mindkettő rendelkezésre áll"
+
+msgid "Media Catalog Number (MCN)"
+msgstr "Média katalógusszáma (MCN)"
+
+msgid ""
+"DirectX device number: 0 default device, 1..N device by number(Note that the "
+"default device appears as 0 AND another number)."
+msgstr ""
+"DirectX eszközszám: 0 az alapértelmezett eszköz, 1-N az eszköz sorszám "
+"szerint (vegye észre, hogy az alapértelmezett eszköz 0-val ÉS egy másik "
+"számmal is elérhető)."
+
+msgid ""
+"This module make possible making video stream from raw-image generating (to "
+"memory) from rendering program uses libvlc. To use this module from libvlc "
+"set --codec to invmem, set all --invmem-* options in vlc_argv an use "
+"libvlc_media_new(libvlc, \"fake://\", &ex);. Besides is simillar to vmem "
+"video output module."
+msgstr ""
+"Ez a modul lehetővé teszi videoműsor előállítását a libvlc-t használó "
+"megjelenítőprogramból előálló nyers képből. A modul libvlc-ből való "
+"használatához állítsa a --codec értékét invmem-re, minden --invmem-* "
+"beállítást a vlc_argv-ben és használja a libvlc_media_new(libvlc, \"fake://"
+"\", &ex); hívást. Emellett ez hasonló a vmem videokimeneti modulhoz."
+
+msgid "Faster, less precise scenecut detection"
+msgstr "Gyorsabb, kevésbé pontos vágásérzékelés"
+
+msgid ""
+"Faster, less precise scenecut detection. Required and implied by multi-"
+"threading."
+msgstr ""
+"Gyorsabb, kevésbé pontos vágásérzékelés. A többszálúság igényli és "
+"következménye."
+
+msgid "Act as master"
+msgstr "Viselkedjen elsődlegesként"
+
+msgid "Ask"
+msgstr "Kérdezzen"
+
+msgid "Open files from all sub-folders as well?"
+msgstr "Megnyitja a fájlokat az összes alkönyvtárban is?"
+
+msgid "Drop files to play"
+msgstr "Ejtse ide a lejátszandó fájlokat"
+
+msgid "50%"
+msgstr "50%"
+
+msgid "100%"
+msgstr "100%"
+
+msgid "200%"
+msgstr "200%"
+
+msgid "Take Screen Shot"
+msgstr "Képernyőkép készítése"
+
+msgid "VLC's last release for your OS is the 0.9 series."
+msgstr "A VLC utolsó kiadása erre az operációs rendszerre a 0.9-es sorozat."
+
+msgid ""
+"VLC's last release for your OS is VLC 0.8.6i, which is prone to known "
+"security issues."
+msgstr ""
+"A VLC utolsó kiadása erre az operációs rendszerre a 0.8.6i, amely biztonsági "
+"hibákat tartalmaz."
+
+msgid ""
+"VLC's last release for your OS is VLC 0.7.2, which is highly out of date and "
+"prone to known security issues. We recommend you to update your Mac to a "
+"modern version of Mac OS X."
+msgstr ""
+"A VLC utolsó kiadása erre az operációs rendszerre a 0.7.2, amely biztonsági "
+"hibákat tartalmaz. Javasoljuk a Mac frissítését a Mac OS X korszerűbb "
+"változatára."
+
+msgid "Your version of Mac OS X is no longer supported"
+msgstr "A Mac OS X ezen verziója már nem támogatott"
+
+msgid ""
+"VLC media player %s requires Mac OS X 10.5 or higher.\n"
+"\n"
+"%@"
+msgstr ""
+"A VLC médialejátszó %s a Mac OS X 10.5 vagy újabb változatát igényli.\n"
+"\n"
+"%@"
+
+msgid "Checking for updates was not enabled in this build."
+msgstr "A frissítések keresése nem engedélyezett ebben a változatban."
+
+msgid "Do you want VLC to check for updates automatically?"
+msgstr "Szeretné, hogy a VLC automatikusan keresse a frissítéseket?"
+
+msgid "You can change this option in VLC's update window later on."
+msgstr "Ezt a beállítást a VLC frissítési ablakában módosíthatja."
+
+msgid "The current release is %d.%d.%d%c."
+msgstr "A jelenlegi kiadás: %d.%d.%d%c."
+
+msgid "Automatically play a file when selected in the file selection list"
+msgstr "A fájllistában kijelölt fájl automatikus lejátszása"
+
+msgid "Owner"
+msgstr "Tulajdonos"
+
+msgid "00:00:00"
+msgstr "00:00:00"
+
+msgid "MRL:"
+msgstr "MRL:"
+
+msgid "udp"
+msgstr "udp"
+
+msgid "udp6"
+msgstr "udp6"
+
+msgid "rtp"
+msgstr "rtp"
+
+msgid "rtp4"
+msgstr "rtp4"
+
+msgid "ftp"
+msgstr "ftp"
+
+msgid "http"
+msgstr "http"
+
+msgid "sout"
+msgstr "sout"
+
+msgid "ntsc"
+msgstr "ntsc"
+
+msgid "secam"
+msgstr "secam"
+
+msgid "240x192"
+msgstr "240x192"
+
+msgid "320x240"
+msgstr "320x240"
+
+msgid "qsif"
+msgstr "qsif"
+
+msgid "qcif"
+msgstr "qcif"
+
+msgid "sif"
+msgstr "sif"
+
+msgid "cif"
+msgstr "cif"
+
+msgid "vga"
+msgstr "vga"
+
+msgid "kHz"
+msgstr "kHz"
+
+msgid "Hz/s"
+msgstr "Hz/mp"
+
+msgid "huffyuv"
+msgstr "huffyuv"
+
+msgid "mp1v"
+msgstr "mp1v"
+
+msgid "mp2v"
+msgstr "mp2v"
+
+msgid "mp4v"
+msgstr "mp4v"
+
+msgid "H263"
+msgstr "H263"
+
+msgid "WMV1"
+msgstr "WMV1"
+
+msgid "WMV2"
+msgstr "WMV2"
+
+msgid "URL:"
+msgstr "URL:"
+
+msgid "127.0.0.1"
+msgstr "127.0.0.1"
+
+msgid "localhost"
+msgstr "localhost"
+
+msgid "localhost.localdomain"
+msgstr "localhost.localdomain"
+
+msgid "239.0.0.42"
+msgstr "239.0.0.42"
+
+msgid "OGG"
+msgstr "OGG"
+
+msgid "alaw"
+msgstr "alaw"
+
+msgid "ulaw"
+msgstr "ulaw"
+
+msgid "mpga"
+msgstr "mpga"
+
+msgid "mp3"
+msgstr "mp3"
+
+msgid "a52"
+msgstr "a52"
+
+msgid "vorb"
+msgstr "vorb"
+
+msgid ""
+"VLC media player is an MPEG, MPEG 2, MP3 and DivX player that accepts input "
+"from local or network sources and is licensed under the GPL (http://www.gnu."
+"org/copyleft/gpl.html)."
+msgstr ""
+"A VLC egy MPEG, MPEG2, MP3 és DivX fájlok helyi illetve hálózati "
+"lejátszására szolgáló, GPL licencű médialejátszó (http://www.gnu.org/"
+"copyleft/gpl.html)."
+
+msgid "Authors: the VideoLAN Team, http://www.videolan.org/team/"
+msgstr "Szerzők: a VideoLAN csapat, http://www.videolan.org/team/"
+
+msgid "(c) 1996-2004 the the VideoLAN team team"
+msgstr "(c) 1996-2004 a VideoLAN csapat"
+
+msgid "Couldn't find pixmap file: %s"
+msgstr "A képfájl nem található: %s"
+
+msgid "Statistics about the currently playing media or stream."
+msgstr "Különböző statisztikák a jelenleg lejátszott médiáról vagy műsorról."
+
+msgid "Complete look with information area"
+msgstr "Teljes felület információs területtel"
+
+msgid "256 corresponds to 100%, 1024 to 400%"
+msgstr "A 256 100 százaléknak, az 1024 400 százaléknak felel meg"
+
+msgid "last.fm"
+msgstr "Last.fm"
+
+msgid "Association Setup"
+msgstr "Társítások beállítása"
+
+msgid ""
+"The VideoLAN team <videolan@videolan.org>\n"
+"http://www.videolan.org/"
+msgstr ""
+"A VideoLAN csapat <videolan@videolan.org>\n"
+"http://www.videolan.org/"
+
+msgid ""
+"Alternatively, you can build an MRL using one of the following predefined "
+"targets:"
+msgstr ""
+"Ezen kívül összeállíthat MRL-t az alábbi előregyártott MRL-ek egyikének "
+"segítségével is:"
+
+msgid ""
+"Embed the video inside the interface instead of having it in a separate "
+"window."
+msgstr "A videó a felületen belül jelenik meg, nem külön ablakban."
+
+msgid "WinCE dialogs provider"
+msgstr "WinCE párbeszéd-szolgáltató"
+
+msgid "Gtk+ GUI helper"
+msgstr "Gtk+ GUI segéd"
+
+msgid "Run as standalone Qt/Embedded GUI Server"
+msgstr "Futtatás önálló QT/beágyazott GUI kiszolgálóként"
+
+msgid ""
+"Use this option to run as standalone Qt/Embedded GUI Server. This option is "
+"equivalent to the -qws option from normal Qt."
+msgstr ""
+"Ennek segítségével önálló QT/beágyazott GUI kiszolgálóként futtathatja a "
+"programot. Ez a beállítás megegyezik a normál QT -qws beállításával."
+
+msgid "Qt Embedded GUI helper"
+msgstr "QT beágyazott GUI segéd"
+
+msgid "C module that does nothing"
+msgstr "C modul, ami semmit sem csinál"
+
+msgid "Les Guignols"
+msgstr "Les Guignols"
+
+msgid "Canal +"
+msgstr "Canal +"
+
+msgid "Freebox TV listing (French ISP free.fr services)"
+msgstr "Freebox TV műsor (a free.fr szolgáltatása)"
+
+msgid "kind of filtering which should be use to calcuate the color output"
+msgstr "A színkimenet számításához használandó szűrés fajtája"
+
+msgid "left"
+msgstr "bal"
+
+msgid ""
+"VLC will directly use your AtmoLight hardware without running the external "
+"AtmoWinA.exe Userspace driver."
+msgstr ""
+"A VLC közvetlenül használja az AtmoLight hardvert a külső AtmoWinA.exe "
+"illesztőprogram használata nélkül."
+
+msgid "Choose between the built-in AtmoLight driver or the external"
+msgstr "Választás a beépített vagy a külső AtmoLight illesztőprogram között"
+
+msgid "Enter the connection of your AtmoLight hardware"
+msgstr "Adja meg az AtmoLight hardverének kapcsolatát"
+
+msgid "Offset X offset (automatic compensation)"
+msgstr "X eltolás eltolása (automatikus ellensúlyozás)"
+
+msgid ""
+"Select if you want an automatic offset in horizontal (in case of "
+"misalignment due to autoratio control)"
+msgstr ""
+"Válassza ki, ha automatikus vízszintes eltolást kíván használni (az "
+"automatikus arányvezérlés miatti hibás igazítás esetén)"
+
+msgid "Uncheck if you have not used xinerama"
+msgstr "Törölje, ha nem használt xinerama-t"
+
+msgid "Core Animation OpenGL Layer (Mac OS X)"
+msgstr "Alapvető animációs OpenGL réteg (Mac OS X)"
+
+msgid ""
+"There are two ways to make a fullscreen window, unfortunately each one has "
+"its drawbacks.\n"
+"1) Let the window manager handle your fullscreen window (default), but "
+"things like taskbars will likely show on top of the video.\n"
+"2) Completely bypass the window manager, but then nothing will be able to "
+"show on top of the video."
+msgstr ""
+"A teljes képernyős mód kétféleképpen hozható létre, sajnos mindkettőnek "
+"vannak hátrányai.\n"
+"1, Az ablakkezelő kezelje a teljes képernyős ablakot (alapértelmezett), de a "
+"feladatsávokhoz hasonló dolgok megjelenhetnek az ablak felett.\n"
+"2, Az ablakkezelő teljes megkerülése, de ezután semmi sem jelenhet meg az "
+"ablak fölött."
+
+msgid ""
+"Screen to use in fullscreen mode. For instance set it to 0 for first screen, "
+"1 for the second."
+msgstr ""
+"A teljes képernyős módban használandó képernyő. Az első képernyőhöz például "
+"állítsa 0, a másodikhoz pedig 1 értékre."
+
+msgid ""
+"If your graphics card provides several adaptors, you need to choose which "
+"one will be used (you shouldn't have to change this)."
+msgstr ""
+"Ha a videokártyája több csatolót biztosít, akkor ki kell választania a "
+"használandót (ezt nem szükséges módosítania)."
+
+msgid ""
+"If you graphics card provides several adaptors, this option allows you to "
+"choose which one will be used (you shouldn't have to change this)."
+msgstr ""
+"Ha a videokártyája több csatolót biztosít, akkor ki kell választania a "
+"használandót (ezt nem szükséges módosítania)."
+
+msgid ""
+"Choose the screen you want to use in fullscreen mode. For instance set it to "
+"0 for first screen, 1 for the second."
+msgstr ""
+"Válassza ki a teljes képernyős módban használandó képernyőt. Az első "
+"képernyőhöz például állítsa 0, a másodikhoz pedig 1 értékre."
+
+msgid "You can choose the crop style to apply."
+msgstr "Kiválaszthatja az alkalmazandó levágási stílust."
+
+msgid "XCB"
+msgstr "XCB"
+
+msgid "(Experimental) XCB video window"
+msgstr "(kísérleti) XCB videoablak"
+
+msgid "Number of stars to draw with random effect."
+msgstr "A véletlen hatással rajzolandó csillagok száma."
+
+msgid ""
+"If your graphics card provides several adaptors, you have to choose which "
+"one will be used (you shouldn't have to change this)."
+msgstr ""
+"Ha a videokártyája több csatolót biztosít, akkor ki kell választania a "
+"használandót (ezt nem szükséges módosítania)."
+
+#, fuzzy
 #~ msgid ""
 #~ "Address of the locking callback function. This function must fill in "
 #~ "valid plane memory address information for use by the video renderer."
 #~ msgstr ""
 #~ "A zárolási visszahívás-függvény címe. Ennek a függvénynek érvényes "
-#~ "memóriacím-információkat kell visszaadnia, amelyet a videomegjelenítő fog "
-#~ "használni."
-
-#~ msgid "Method used by libdvdcss for decryption"
-#~ msgstr "libdvdcss visszafejtő eljárása"
-
-#~ msgid ""
-#~ "Set the method used by libdvdcss for key decryption.\n"
-#~ "title: decrypted title key is guessed from the encrypted sectors of the "
-#~ "stream. Thus it should work with a file as well as the DVD device. But it "
-#~ "sometimes takes much time to decrypt a title key and may even fail. With "
-#~ "this method, the key is only checked at the beginning of each title, so "
-#~ "it won't work if the key changes in the middle of a title.\n"
-#~ "disc: the disc key is first cracked, then all title keys can be decrypted "
-#~ "instantly, which allows us to check them often.\n"
-#~ "key: the same as \"disc\" if you don't have a file with player keys at "
-#~ "compilation time. If you do, the decryption of the disc key will be "
-#~ "faster with this method. It is the one that was used by libcss.\n"
-#~ "The default method is: key."
-#~ msgstr ""
-#~ "Állítsa be a kulcsvisszafejtésre a libdvdcss által használt módot.\n"
-#~ "cím: a visszafejtett címkulcsot a műsor titkosított szektoraiból találja "
-#~ "ki. Ezért ez fájloknál és DVD eszközöknél is működik. Néha viszont sok "
-#~ "időbe telik a visszafejtés, és akár sikertelen is lehet. Ennél a módnál a "
-#~ "kulcsot csak a címek elején ellenőrzi, ezért nem fog működni, ha a kulcs "
-#~ "megváltozik a közepén.\n"
-#~ "lemez: először a lemezkulcs kerül feltörésre, ezután az összes címkulcs "
-#~ "azonnal visszafejthető, így sűrűn lehet őket ellenőrizni.\n"
-#~ "kulcs: ugyanaz mint a „lemez”, amennyiben nem áll rendelkezésre egy "
-#~ "lejátszók kulcsait tartalmazó fájl fordítási időben. Ha pedig van ilyen, "
-#~ "akkor a lemezkulcs visszafejtése jóval gyorsabb. Ezt használta a libcss.\n"
-#~ "Az alapértelmezett mód: kulcs."
-
-#~ msgid "%s: option `%s' is ambiguous\n"
-#~ msgstr "%s: a(z) „%s” kapcsoló nem egyértelmű\n"
-
-#~ msgid "%s: option `--%s' doesn't allow an argument\n"
-#~ msgstr "%s: a(z) „--%s” kapcsoló nem enged meg argumentumot\n"
-
-#~ msgid "%s: option `%c%s' doesn't allow an argument\n"
-#~ msgstr "%s: a(z) „%c%s” kapcsoló nem enged meg argumentumot\n"
-
-#~ msgid "%s: option `%s' requires an argument\n"
-#~ msgstr "%s: a(z) „%s” kapcsolóhoz argumentum szükséges\n"
-
-#~ msgid "%s: unrecognized option `%s%s'\n"
-#~ msgstr "%s: a kapcsoló („%s%s”) ismeretlen\n"
-
-#~ msgid "%s: illegal option -- %c\n"
-#~ msgstr "%s: illegális kapcsoló -- %c\n"
-
-#~ msgid "%s: invalid option -- %c\n"
-#~ msgstr "%s: érvénytelen kapcsoló -- %c\n"
-
-#~ msgid "%s: option requires an argument -- %c\n"
-#~ msgstr "%s: a kapcsoló egy argumentumot igényel -- %c\n"
-
-#~ msgid "%s: option `-W %s' is ambiguous\n"
-#~ msgstr "%s: a „-W %s” kapcsoló nem egyértelmű\n"
-
-#~ msgid "%s: option `-W %s' doesn't allow an argument\n"
-#~ msgstr "%s: a „-W %s” kapcsoló nem enged meg argumentumot\n"
-
-#~ msgid "key and mouse event handling at vout level."
-#~ msgstr "Billentyű- és egéresemények kezelése videokimeneti szinten."
-
-#~ msgid ""
-#~ "This parameter accepts values : 1 (full event handling support), 2 (event "
-#~ "handling only for fullscreen) or 3 (No event handling). Full event "
-#~ "handling support is the default value."
-#~ msgstr ""
-#~ "Lehetséges értékek: 1 (teljes eseménykezelés-támogatás), 2 "
-#~ "(eseménykezelés csak teljes képernyőn) vagy 3 (nincs eseménykezelés). Az "
-#~ "alapértelmezés a teljes eseménykezelés."
-
-#~ msgid "Full support"
-#~ msgstr "Teljes támogatás"
-
-#~ msgid ""
-#~ "Toggle wallpaper mode in video output. Only works with the directx video "
-#~ "output for the time being."
-#~ msgstr ""
-#~ "A videokimenet háttérkép módjának átváltása. Jelenleg csak a directx "
-#~ "videokimenettel működik."
-
-#~ msgid "full"
-#~ msgstr "teljes"
-
-#~ msgid ""
-#~ "This integer when viewed in binary is a debugging mask\n"
-#~ "meta info          1\n"
-#~ "events             2\n"
-#~ "MRL                4\n"
-#~ "external call      8\n"
-#~ "all calls (0x10)  16\n"
-#~ "LSN       (0x20)  32\n"
-#~ "seek      (0x40)  64\n"
-#~ "libcdio   (0x80) 128\n"
-#~ "libcddb  (0x100) 256\n"
-#~ msgstr ""
-#~ "Ez az egész szám bináris formában egy hibakereső maszk\n"
-#~ "meta információ 1\n"
-#~ "események 2\n"
-#~ "MRL 4\n"
-#~ "külső hívás 8\n"
-#~ "összes hívás (0x10) 16\n"
-#~ "LSN (0x20 32\n"
-#~ "tekerés (0x40) 64\n"
-#~ "libcdio (0x80) 128\n"
-#~ "libcddb (0x100) 256\n"
-
-#~ msgid ""
-#~ "How many CD blocks to get on a single CD read. Generally on newer/faster "
-#~ "CDs, this increases throughput at the expense of a little more memory "
-#~ "usage and initial delay. SCSI-MMC limitations generally don't allow for "
-#~ "more than 25 blocks per access."
-#~ msgstr ""
-#~ "Egy CD olvasással hány CD adatblokk kerüljön beolvasásra. Újabb/gyorsabb "
-#~ "CD-ken általában növeli az átviteli sebességet némileg több "
-#~ "memóriahasználat és kezdeti késleltetés árán. A SCSI-MMC korlátozásai "
-#~ "többnyire nem tesznek lehetővé hozzáférésenként 25 blokknál többet."
-
-#~ msgid ""
-#~ "Format used in the GUI Playlist Title. Similar to the Unix date \n"
-#~ "Format specifiers that start with a percent sign. Specifiers are: \n"
-#~ "   %a : The artist (for the album)\n"
-#~ "   %A : The album information\n"
-#~ "   %C : Category\n"
-#~ "   %e : The extended data (for a track)\n"
-#~ "   %I : CDDB disk ID\n"
-#~ "   %G : Genre\n"
-#~ "   %M : The current MRL\n"
-#~ "   %m : The CD-DA Media Catalog Number (MCN)\n"
-#~ "   %n : The number of tracks on the CD\n"
-#~ "   %p : The artist/performer/composer in the track\n"
-#~ "   %T : The track number\n"
-#~ "   %s : Number of seconds in this track\n"
-#~ "   %S : Number of seconds in the CD\n"
-#~ "   %t : The track title or MRL if no title\n"
-#~ "   %Y : The year 19xx or 20xx\n"
-#~ "   %% : a % \n"
-#~ msgstr ""
-#~ "A GUI lejátszólistánál használt formátumok. Hasonlóak a Unix dátum\n"
-#~ "formátumleírókhoz, amelyek százalékjellel kezdődnek. A leírók:\n"
-#~ "   %a: Az előadó (a lemez előadója)\n"
-#~ "   %A: Információk a lemezről\n"
-#~ "   %C: Kategória\n"
-#~ "   %e: Kiterjesztett adatok (számhoz)\n"
-#~ "   %I: CDDB lemez azonosító\n"
-#~ "   %G: Műfaj\n"
-#~ "   %M: A jelenlegi MRL\n"
-#~ "   %m: CD-DA média katalógusszáma (MCN)\n"
-#~ "   %n: A zeneszámok darabszáma a CD-n\n"
-#~ "   %p: A zeneszám előadója/szerzője\n"
-#~ "   %T: A zeneszám sorszáma\n"
-#~ "   %s: A zeneszám hossza másodpercben.\n"
-#~ "   %S: A CD hossza másodpercben\n"
-#~ "   %t: a szám címe, vagy MRL, ha nincs cím\n"
-#~ "   %Y: Az év; 19xx vagy 20xx\n"
-#~ "   %%: egy % jel \n"
-
-#~ msgid ""
-#~ "Format used in the GUI Playlist Title. Similar to the Unix date \n"
-#~ "Format specifiers that start with a percent sign. Specifiers are: \n"
-#~ "   %M : The current MRL\n"
-#~ "   %m : The CD-DA Media Catalog Number (MCN)\n"
-#~ "   %n : The number of tracks on the CD\n"
-#~ "   %T : The track number\n"
-#~ "   %s : Number of seconds in this track\n"
-#~ "   %S : Number of seconds in the CD\n"
-#~ "   %t : The track title or MRL if no title\n"
-#~ "   %% : a % \n"
-#~ msgstr ""
-#~ "A GUI lejátszólista címében használt formátumok. Hasonlóak a Unix dátum\n"
-#~ "formátumleírókhoz, amelyek százalékjellel kezdődnek. A leírók:\n"
-#~ "   %M: A jelenlegi MRL\n"
-#~ "   %m: CD-DA média katalógusszám (MCN)\n"
-#~ "   %n: A zeneszámok darabszáma a CD-n\n"
-#~ "   %T: A zeneszám sorszáma\n"
-#~ "   %s: A zeneszám hossza másodpercben.\n"
-#~ "   %S: A CD hossza másodpercben\n"
-#~ "   %t: a szám címe, vagy MRL, ha nincs cím\n"
-#~ "   %%: A % \n"
-
-#~ msgid "Enable CD paranoia?"
-#~ msgstr "Engedélyezi a CD paranoiat?"
-
-#~ msgid ""
-#~ "Select whether to use CD Paranoia for jitter/error correction.\n"
-#~ "none: no paranoia - fastest.\n"
-#~ "overlap: do only overlap detection - not generally recommended.\n"
-#~ "full: complete jitter and error correction detection - slowest.\n"
-#~ msgstr ""
-#~ "Válassza ki, hogy a program használja-e a CD PARANOIA jitter/"
-#~ "hibajavítását\n"
-#~ "none: nincs paranoia – leggyorsabb\n"
-#~ "overlap: csak átfedés-érzékelést végez – nem javasolt.\n"
-#~ "full: teljes jitter és hibajavítás érzékelés – leglassabb.\n"
-
-#~ msgid "Compact Disc Digital Audio (CD-DA) input"
-#~ msgstr "Compact Disc Digital Audio (CD-DA) bemenet"
-
-#~ msgid "If set, audio controls and audio jack output are used"
-#~ msgstr ""
-#~ "Ha be van állítva, a hangvezérlők és a hangkimenet lesznek használatban."
-
-#~ msgid "Do CD-Text lookups?"
-#~ msgstr "Végezzen CD-szöveg keresést?"
-
-#~ msgid "If set, get CD-Text information"
-#~ msgstr "Ha be van állítva, CD-szöveg információt kap"
-
-#~ msgid "Use Navigation-style playback?"
-#~ msgstr "Használja a navigáció stílusú lejátszást?"
-
-#~ msgid "Tracks are navigated via Navagation rather than a playlist entries"
-#~ msgstr ""
-#~ "A számokat nem lejátszólista bejegyzéseken, hanem a navigáción keresztül "
-#~ "keresi"
-
-#~ msgid "CDDB lookups"
-#~ msgstr "CDDB kikeresések"
-
-#~ msgid "If set, lookup CD-DA track information using the CDDB protocol"
-#~ msgstr ""
-#~ "Ha be van állítva, akkor a CDDB protokoll használatával CD-DA szám "
-#~ "információkat keres."
-
-#~ msgid "Contact this CDDB server look up CD-DA information"
-#~ msgstr ""
-#~ "Kapcsolat felvétele ezzel a CDDB kiszolgálóval CD-DA információk "
-#~ "kereséséhez"
-
-#~ msgid "CDDB server uses this port number to communicate on"
-#~ msgstr "A CDDB kiszolgáló ezt a portot használja kommunikációra"
-
-#~ msgid "Cache CDDB lookups?"
-#~ msgstr "Gyorsítótárazza a CDDB kereséseket?"
-
-#~ msgid "If set cache CDDB information about this CD"
-#~ msgstr ""
-#~ "Ha be van állítva, gyorsítótárazza erről a CD-ről a CDDB információkat"
-
-#~ msgid "Contact CDDB via the HTTP protocol?"
-#~ msgstr "HTTP protokoll használatával kapcsolódik a CDDB-hez?"
-
-#~ msgid "If set, the CDDB server gets information via the CDDB HTTP protocol"
-#~ msgstr ""
-#~ "Ha be van állítva, a CDDB kiszolgáló HTTP protokollon keresztül kap "
-#~ "információt."
-
-#~ msgid "Time (in seconds) to wait for a response from the CDDB server"
-#~ msgstr "A CDDB kiszolgálótól válaszra várakozási idő (másodpercekben)"
-
-#~ msgid "Directory to cache CDDB requests"
-#~ msgstr "A CDDB kérések gyorsítótárazására használt könyvtár"
-
-#~ msgid "Prefer CD-Text info to CDDB info?"
-#~ msgstr "CD-szöveg előnyben részesítése a CDDB információkkal szemben?"
-
-#~ msgid ""
-#~ "If set, CD-Text information will be preferred to CDDB information when "
-#~ "both are available"
-#~ msgstr ""
-#~ "Ha be van állítva, a CD-szöveg információkat használja a CDDB információk "
-#~ "helyett, ha mindkettő rendelkezésre áll"
-
-#~ msgid "Media Catalog Number (MCN)"
-#~ msgstr "Média katalógusszáma (MCN)"
-
-#~ msgid ""
-#~ "DirectX device number: 0 default device, 1..N device by number(Note that "
-#~ "the default device appears as 0 AND another number)."
-#~ msgstr ""
-#~ "DirectX eszközszám: 0 az alapértelmezett eszköz, 1-N az eszköz sorszám "
-#~ "szerint (vegye észre, hogy az alapértelmezett eszköz 0-val ÉS egy másik "
-#~ "számmal is elérhető)."
-
-#~ msgid ""
-#~ "This module make possible making video stream from raw-image generating "
-#~ "(to memory) from rendering program uses libvlc. To use this module from "
-#~ "libvlc set --codec to invmem, set all --invmem-* options in vlc_argv an "
-#~ "use libvlc_media_new(libvlc, \"fake://\", &ex);. Besides is simillar to "
-#~ "vmem video output module."
-#~ msgstr ""
-#~ "Ez a modul lehetővé teszi videoműsor előállítását a libvlc-t használó "
-#~ "megjelenítőprogramból előálló nyers képből. A modul libvlc-ből való "
-#~ "használatához állítsa a --codec értékét invmem-re, minden --invmem-* "
-#~ "beállítást a vlc_argv-ben és használja a libvlc_media_new(libvlc, "
-#~ "\"fake://\", &ex); hívást. Emellett ez hasonló a vmem videokimeneti "
-#~ "modulhoz."
-
-#~ msgid "Faster, less precise scenecut detection"
-#~ msgstr "Gyorsabb, kevésbé pontos vágásérzékelés"
-
-#~ msgid ""
-#~ "Faster, less precise scenecut detection. Required and implied by multi-"
-#~ "threading."
-#~ msgstr ""
-#~ "Gyorsabb, kevésbé pontos vágásérzékelés. A többszálúság igényli és "
-#~ "következménye."
-
-#~ msgid "Act as master"
-#~ msgstr "Viselkedjen elsődlegesként"
-
-#~ msgid "Ask"
-#~ msgstr "Kérdezzen"
-
-#~ msgid "Open files from all sub-folders as well?"
-#~ msgstr "Megnyitja a fájlokat az összes alkönyvtárban is?"
-
-#~ msgid "Drop files to play"
-#~ msgstr "Ejtse ide a lejátszandó fájlokat"
-
-#~ msgid "50%"
-#~ msgstr "50%"
-
-#~ msgid "100%"
-#~ msgstr "100%"
-
-#~ msgid "200%"
-#~ msgstr "200%"
-
-#~ msgid "Take Screen Shot"
-#~ msgstr "Képernyőkép készítése"
-
-#~ msgid "VLC's last release for your OS is the 0.9 series."
-#~ msgstr "A VLC utolsó kiadása erre az operációs rendszerre a 0.9-es sorozat."
-
-#~ msgid ""
-#~ "VLC's last release for your OS is VLC 0.8.6i, which is prone to known "
-#~ "security issues."
-#~ msgstr ""
-#~ "A VLC utolsó kiadása erre az operációs rendszerre a 0.8.6i, amely "
-#~ "biztonsági hibákat tartalmaz."
-
-#~ msgid ""
-#~ "VLC's last release for your OS is VLC 0.7.2, which is highly out of date "
-#~ "and prone to known security issues. We recommend you to update your Mac "
-#~ "to a modern version of Mac OS X."
-#~ msgstr ""
-#~ "A VLC utolsó kiadása erre az operációs rendszerre a 0.7.2, amely "
-#~ "biztonsági hibákat tartalmaz. Javasoljuk a Mac frissítését a Mac OS X "
-#~ "korszerűbb változatára."
-
-#~ msgid "Your version of Mac OS X is no longer supported"
-#~ msgstr "A Mac OS X ezen verziója már nem támogatott"
-
-#~ msgid ""
-#~ "VLC media player %s requires Mac OS X 10.5 or higher.\n"
-#~ "\n"
-#~ "%@"
-#~ msgstr ""
-#~ "A VLC médialejátszó %s a Mac OS X 10.5 vagy újabb változatát igényli.\n"
-#~ "\n"
-#~ "%@"
-
-#~ msgid "Checking for updates was not enabled in this build."
-#~ msgstr "A frissítések keresése nem engedélyezett ebben a változatban."
-
-#~ msgid "Do you want VLC to check for updates automatically?"
-#~ msgstr "Szeretné, hogy a VLC automatikusan keresse a frissítéseket?"
-
-#~ msgid "You can change this option in VLC's update window later on."
-#~ msgstr "Ezt a beállítást a VLC frissítési ablakában módosíthatja."
-
-#~ msgid "The current release is %d.%d.%d%c."
-#~ msgstr "A jelenlegi kiadás: %d.%d.%d%c."
-
-#~ msgid "Automatically play a file when selected in the file selection list"
-#~ msgstr "A fájllistában kijelölt fájl automatikus lejátszása"
-
-#~ msgid "Owner"
-#~ msgstr "Tulajdonos"
-
-#~ msgid "00:00:00"
-#~ msgstr "00:00:00"
-
-#~ msgid "MRL:"
-#~ msgstr "MRL:"
-
-#~ msgid "udp"
-#~ msgstr "udp"
-
-#~ msgid "udp6"
-#~ msgstr "udp6"
-
-#~ msgid "rtp"
-#~ msgstr "rtp"
-
-#~ msgid "rtp4"
-#~ msgstr "rtp4"
-
-#~ msgid "ftp"
-#~ msgstr "ftp"
-
-#~ msgid "http"
-#~ msgstr "http"
-
-#~ msgid "sout"
-#~ msgstr "sout"
-
-#~ msgid "ntsc"
-#~ msgstr "ntsc"
-
-#~ msgid "secam"
-#~ msgstr "secam"
-
-#~ msgid "240x192"
-#~ msgstr "240x192"
-
-#~ msgid "320x240"
-#~ msgstr "320x240"
-
-#~ msgid "qsif"
-#~ msgstr "qsif"
-
-#~ msgid "qcif"
-#~ msgstr "qcif"
-
-#~ msgid "sif"
-#~ msgstr "sif"
-
-#~ msgid "cif"
-#~ msgstr "cif"
-
-#~ msgid "vga"
-#~ msgstr "vga"
-
-#~ msgid "kHz"
-#~ msgstr "kHz"
-
-#~ msgid "Hz/s"
-#~ msgstr "Hz/mp"
-
-#~ msgid "huffyuv"
-#~ msgstr "huffyuv"
-
-#~ msgid "mp1v"
-#~ msgstr "mp1v"
-
-#~ msgid "mp2v"
-#~ msgstr "mp2v"
-
-#~ msgid "mp4v"
-#~ msgstr "mp4v"
-
-#~ msgid "H263"
-#~ msgstr "H263"
-
-#~ msgid "WMV1"
-#~ msgstr "WMV1"
-
-#~ msgid "WMV2"
-#~ msgstr "WMV2"
-
-#~ msgid "URL:"
-#~ msgstr "URL:"
-
-#~ msgid "127.0.0.1"
-#~ msgstr "127.0.0.1"
-
-#~ msgid "localhost"
-#~ msgstr "localhost"
-
-#~ msgid "localhost.localdomain"
-#~ msgstr "localhost.localdomain"
-
-#~ msgid "239.0.0.42"
-#~ msgstr "239.0.0.42"
-
-#~ msgid "OGG"
-#~ msgstr "OGG"
-
-#~ msgid "alaw"
-#~ msgstr "alaw"
-
-#~ msgid "ulaw"
-#~ msgstr "ulaw"
-
-#~ msgid "mpga"
-#~ msgstr "mpga"
-
-#~ msgid "mp3"
-#~ msgstr "mp3"
-
-#~ msgid "a52"
-#~ msgstr "a52"
-
-#~ msgid "vorb"
-#~ msgstr "vorb"
-
-#~ msgid ""
-#~ "VLC media player is an MPEG, MPEG 2, MP3 and DivX player that accepts "
-#~ "input from local or network sources and is licensed under the GPL (http://"
-#~ "www.gnu.org/copyleft/gpl.html)."
-#~ msgstr ""
-#~ "A VLC egy MPEG, MPEG2, MP3 és DivX fájlok helyi illetve hálózati "
-#~ "lejátszására szolgáló, GPL licencű médialejátszó (http://www.gnu.org/"
-#~ "copyleft/gpl.html)."
-
-#~ msgid "Authors: the VideoLAN Team, http://www.videolan.org/team/"
-#~ msgstr "Szerzők: a VideoLAN csapat, http://www.videolan.org/team/"
-
-#~ msgid "(c) 1996-2004 the the VideoLAN team team"
-#~ msgstr "(c) 1996-2004 a VideoLAN csapat"
-
-#~ msgid "Couldn't find pixmap file: %s"
-#~ msgstr "A képfájl nem található: %s"
-
-#~ msgid "Statistics about the currently playing media or stream."
-#~ msgstr ""
-#~ "Különböző statisztikák a jelenleg lejátszott médiáról vagy műsorról."
-
-#~ msgid "Complete look with information area"
-#~ msgstr "Teljes felület információs területtel"
-
-#~ msgid "256 corresponds to 100%, 1024 to 400%"
-#~ msgstr "A 256 100 százaléknak, az 1024 400 százaléknak felel meg"
-
-#~ msgid "last.fm"
-#~ msgstr "Last.fm"
-
-#~ msgid "Association Setup"
-#~ msgstr "Társítások beállítása"
-
-#~ msgid ""
-#~ "The VideoLAN team <videolan@videolan.org>\n"
-#~ "http://www.videolan.org/"
-#~ msgstr ""
-#~ "A VideoLAN csapat <videolan@videolan.org>\n"
-#~ "http://www.videolan.org/"
-
-#~ msgid ""
-#~ "Alternatively, you can build an MRL using one of the following predefined "
-#~ "targets:"
-#~ msgstr ""
-#~ "Ezen kívül összeállíthat MRL-t az alábbi előregyártott MRL-ek egyikének "
-#~ "segítségével is:"
-
-#~ msgid ""
-#~ "Embed the video inside the interface instead of having it in a separate "
-#~ "window."
-#~ msgstr "A videó a felületen belül jelenik meg, nem külön ablakban."
-
-#~ msgid "WinCE dialogs provider"
-#~ msgstr "WinCE párbeszéd-szolgáltató"
-
-#~ msgid "Gtk+ GUI helper"
-#~ msgstr "Gtk+ GUI segéd"
-
-#~ msgid "Run as standalone Qt/Embedded GUI Server"
-#~ msgstr "Futtatás önálló QT/beágyazott GUI kiszolgálóként"
-
-#~ msgid ""
-#~ "Use this option to run as standalone Qt/Embedded GUI Server. This option "
-#~ "is equivalent to the -qws option from normal Qt."
-#~ msgstr ""
-#~ "Ennek segítségével önálló QT/beágyazott GUI kiszolgálóként futtathatja a "
-#~ "programot. Ez a beállítás megegyezik a normál QT -qws beállításával."
-
-#~ msgid "Qt Embedded GUI helper"
-#~ msgstr "QT beágyazott GUI segéd"
-
-#~ msgid "C module that does nothing"
-#~ msgstr "C modul, ami semmit sem csinál"
-
-#~ msgid "Les Guignols"
-#~ msgstr "Les Guignols"
-
-#~ msgid "Canal +"
-#~ msgstr "Canal +"
-
-#~ msgid "Freebox TV listing (French ISP free.fr services)"
-#~ msgstr "Freebox TV műsor (a free.fr szolgáltatása)"
-
-#~ msgid "kind of filtering which should be use to calcuate the color output"
-#~ msgstr "A színkimenet számításához használandó szűrés fajtája"
-
-#~ msgid "left"
-#~ msgstr "bal"
-
-#~ msgid ""
-#~ "VLC will directly use your AtmoLight hardware without running the "
-#~ "external AtmoWinA.exe Userspace driver."
-#~ msgstr ""
-#~ "A VLC közvetlenül használja az AtmoLight hardvert a külső AtmoWinA.exe "
-#~ "illesztőprogram használata nélkül."
-
-#~ msgid "Choose between the built-in AtmoLight driver or the external"
-#~ msgstr "Választás a beépített vagy a külső AtmoLight illesztőprogram között"
-
-#~ msgid "Enter the connection of your AtmoLight hardware"
-#~ msgstr "Adja meg az AtmoLight hardverének kapcsolatát"
-
-#~ msgid "Offset X offset (automatic compensation)"
-#~ msgstr "X eltolás eltolása (automatikus ellensúlyozás)"
-
-#~ msgid ""
-#~ "Select if you want an automatic offset in horizontal (in case of "
-#~ "misalignment due to autoratio control)"
-#~ msgstr ""
-#~ "Válassza ki, ha automatikus vízszintes eltolást kíván használni (az "
-#~ "automatikus arányvezérlés miatti hibás igazítás esetén)"
-
-#~ msgid "Uncheck if you have not used xinerama"
-#~ msgstr "Törölje, ha nem használt xinerama-t"
-
-#~ msgid "Core Animation OpenGL Layer (Mac OS X)"
-#~ msgstr "Alapvető animációs OpenGL réteg (Mac OS X)"
-
-#~ msgid ""
-#~ "There are two ways to make a fullscreen window, unfortunately each one "
-#~ "has its drawbacks.\n"
-#~ "1) Let the window manager handle your fullscreen window (default), but "
-#~ "things like taskbars will likely show on top of the video.\n"
-#~ "2) Completely bypass the window manager, but then nothing will be able to "
-#~ "show on top of the video."
-#~ msgstr ""
-#~ "A teljes képernyős mód kétféleképpen hozható létre, sajnos mindkettőnek "
-#~ "vannak hátrányai.\n"
-#~ "1, Az ablakkezelő kezelje a teljes képernyős ablakot (alapértelmezett), "
-#~ "de a feladatsávokhoz hasonló dolgok megjelenhetnek az ablak felett.\n"
-#~ "2, Az ablakkezelő teljes megkerülése, de ezután semmi sem jelenhet meg az "
-#~ "ablak fölött."
-
-#~ msgid ""
-#~ "Screen to use in fullscreen mode. For instance set it to 0 for first "
-#~ "screen, 1 for the second."
-#~ msgstr ""
-#~ "A teljes képernyős módban használandó képernyő. Az első képernyőhöz "
-#~ "például állítsa 0, a másodikhoz pedig 1 értékre."
-
-#~ msgid ""
-#~ "If your graphics card provides several adaptors, you need to choose which "
-#~ "one will be used (you shouldn't have to change this)."
-#~ msgstr ""
-#~ "Ha a videokártyája több csatolót biztosít, akkor ki kell választania a "
-#~ "használandót (ezt nem szükséges módosítania)."
-
-#~ msgid ""
-#~ "If you graphics card provides several adaptors, this option allows you to "
-#~ "choose which one will be used (you shouldn't have to change this)."
-#~ msgstr ""
-#~ "Ha a videokártyája több csatolót biztosít, akkor ki kell választania a "
-#~ "használandót (ezt nem szükséges módosítania)."
-
-#~ msgid ""
-#~ "Choose the screen you want to use in fullscreen mode. For instance set it "
-#~ "to 0 for first screen, 1 for the second."
-#~ msgstr ""
-#~ "Válassza ki a teljes képernyős módban használandó képernyőt. Az első "
-#~ "képernyőhöz például állítsa 0, a másodikhoz pedig 1 értékre."
-
-#~ msgid "You can choose the crop style to apply."
-#~ msgstr "Kiválaszthatja az alkalmazandó levágási stílust."
-
-#~ msgid "XCB"
-#~ msgstr "XCB"
-
-#~ msgid "(Experimental) XCB video window"
-#~ msgstr "(kísérleti) XCB videoablak"
-
-#~ msgid "Number of stars to draw with random effect."
-#~ msgstr "A véletlen hatással rajzolandó csillagok száma."
-
-#~ msgid ""
-#~ "If your graphics card provides several adaptors, you have to choose which "
-#~ "one will be used (you shouldn't have to change this)."
-#~ msgstr ""
-#~ "Ha a videokártyája több csatolót biztosít, akkor ki kell választania a "
-#~ "használandót (ezt nem szükséges módosítania)."
+#~ "memóriacímet kell visszaadnia, amelyet a videomegjelenítő fog használni."
 
 #, fuzzy
 #~ msgid ""
@@ -27913,7 +27877,7 @@ msgstr "Médiakezelési lista"
 
 #, fuzzy
 #~ msgid "Size:"
-#~ msgstr "Méretek"
+#~ msgstr "Méret"
 
 #, fuzzy
 #~ msgid "Frequency:"
