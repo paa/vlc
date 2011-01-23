@@ -1238,7 +1238,7 @@ msgstr "Tevgerên Mişkê"
 #: src/modules/cache.c:213
 #: src/modules/cache.c:532
 msgid "C"
-msgstr "C"
+msgstr "kur"
 
 #: src/libvlc.c:1138
 msgid "Running vlc with the default interface. Use 'cvlc' to use vlc without interface."

@@ -1251,7 +1251,7 @@ msgstr "মাউসের পদক্ষেপ"
 #. xgettext: Translate "C" to the language code: "fr", "en_GB", "nl", "ru"...
 #: src/libvlc.c:337 src/libvlc.c:441
 msgid "C"
-msgstr "C "
+msgstr "bn"
 
 #: src/libvlc.c:1115
 msgid ""
