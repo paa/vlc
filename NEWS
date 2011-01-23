@@ -30,6 +30,7 @@ Visualization:
  * Fix projectM visualization for Linux in all locales
  * Fix projectM visualization support for Windows
  * Various projectM improvements: the module should be working now
+ * Fix goom crash on Windows XP and MacOS
 
 Interfaces:
  * Qt4: fixes for media keys processing and MCE remotes
