@@ -1324,7 +1324,8 @@ endif
 ifdef HAVE_DARWIN
 	patch -p0 < Patches/goom2k4-osx.patch
 endif
-	(cd $@; rm -f configure; ACLOCAL="aclocal -I m4/" autoreconf -ivf)
+	patch -p0 < Patches/goom2k4-noxmmx.patch
+	(cd $@; rm -f configure; autoreconf -ivf)
 
 .goom2k4: goom
 	(cd $<; $(HOSTCC) ./configure $(HOSTCONF) --prefix=$(PREFIX) --disable-shared --enable-static --disable-glibtest --disable-gtktest && make && make install)
