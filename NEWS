@@ -2,30 +2,30 @@ Changes between 1.1.5 and 1.1.6:
 ---------------------------------
 
 Audio output:
- * multiple fixes and improvements on PulseAudio output
+ * Multiple fixes and improvements on PulseAudio output
    PACKAGERS are VERY STRONGLY advised to update libpulse to 0.9.22.
    Update is required to use PulseAudio with the Phonon-VLC backend (KDE)
    and with the Mozilla VLC web browser plugin.
 
 Access:
- * Fix the Audio-CD crash when looking for CDDB data on Windows
+ * Fix the Audio CD crash when looking for CDDB metadata on Windows
 
 Decoders:
  * Support for MPC SV7 and SV8 on Windows and Mac OS X (Unix was already working)
  * Enabled FluidSynth MIDI playback plugin on Mac OS X
- * Faster VP8 decoding with recent codecs libraries
- * Fix heap corruption in subtitle decoders, potentially exploitable,
-   discovered by Harry Sintonen - sintonen at iki.fi
+ * Faster VP8/Webm decoding with recent codecs libraries
 
 Demuxers:
  * Fix Buffer overflow in Real demuxer CVE-2010-3907 / VideoLAN-SA-1007
- * Fix some asf/wmv seeking issue, when seek didn't go to a keyframe
+ * Fix some asf/wmv seeking issues, notably when seek didn't go to a keyframe
  * Support for 24-bits PCM over RTP (audio/L24)
 
 Subtitles and renderer:
  * Do not auto-detect .txt files for subtitles
  * Mark more freetype options as safe
  * Mac OS X: fixed fontconfig cache creation
+ * Fix heap corruption in subtitle decoders, potentially exploitable,
+   discovered by Harry Sintonen - sintonen at iki.fi
 
 Visualization:
  * Fix projectM visualization for Linux in all locales
