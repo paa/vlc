@@ -1,6 +1,8 @@
 Changes between 1.1.6 and 1.1.7-git:
 ---------------------------------
 
+Interfaces:
+ * KDE: work around file dialog freeze due to KMimeTypeRepository and QProcess
 
 Changes between 1.1.5 and 1.1.6:
 ---------------------------------
@@ -40,7 +42,6 @@ Visualization:
 Interfaces:
  * Qt4: fixes for media keys processing and MCE remotes
  * Qt4: various fixes and portability improvements
- * KDE: work-around open dialog first slow opening because of KMimeTypeRepository
 
 Miscellaneous fixes:
  * KDE device solid actions
