@@ -1,9 +1,8 @@
 # translation of ja.po to Japanese
 # Japanese translation for VLC
-# Copyright (C) 2002, 2004 the VideoLAN team
-# Fumio Nakayama <fumio.n6a@gmail.com>, 2002,2009-2010.
+# Copyright (C) 2002, 2004-2011 the VideoLAN team
+# Fumio Nakayama <fumio.n6a@gmail.com>, 2002,2009-2011.
 # Tadashi Jokagi <elf@elf.no-ip.org>, 2004-2009.
-# $Id$
 #
 msgid ""
 msgstr ""
@@ -1479,7 +1478,7 @@ msgid ""
 "This is the verbosity level (0=only errors and standard messages, "
 "1=warnings, 2=debug)."
 msgstr ""
-"メッセージの出力レベル(0:エラーと標準メッセージのみ, 1:警告, 2=デバッグ)で"
+"メッセージの出力レベル(0:エラーと標準メッセージのみ, 1:警告, 2:デバッグ)で"
 "す。"
 
 #: src/libvlc-module.c:200
@@ -4485,7 +4484,7 @@ msgstr "OSDメニューのハイライトを上側のウィジェットに移動
 
 #: src/libvlc-module.c:1511
 msgid "Highlight widget below"
-msgstr "下側いにウィジェットをハイライト"
+msgstr "下側にウィジェットをハイライト"
 
 #: src/libvlc-module.c:1513
 msgid "Move OSD menu highlight to the widget below"
@@ -5650,7 +5649,7 @@ msgstr "DiSEqCシステムの衛星番号"
 
 #: modules/access/bda/bda.c:86 modules/access/dvb/access.c:108
 msgid "[0=no diseqc, 1-4=satellite number]."
-msgstr "[0=DiSQqCなし, 1-4=衛星番号]"
+msgstr "[0=DiSEqCなし, 1-4=衛星番号]"
 
 #: modules/access/bda/bda.c:89 modules/access/dvb/access.c:110
 msgid "LNB voltage"
@@ -6085,7 +6084,7 @@ msgid ""
 "don't specify anything the default size for your device will be used. You "
 "can specify a standard size (cif, d1, ...) or <width>x<height>."
 msgstr ""
-"DIrectShowプラグインで表示されるビデオサイズを指定します。もし何も指定されな"
+"DirectShowプラグインで表示されるビデオサイズを指定します。もし何も指定されな"
 "ければ、デバイスのデフォルトのサイズが使用されます。標準サイズ(cif, d1, ...)"
 "または、<幅>x<高さ>で指定します。"
 
@@ -6223,7 +6222,7 @@ msgid ""
 "AM Tuner mode. Can be one of Default (0), TV (1),AM Radio (2), FM Radio (3) "
 "or DSS (4)."
 msgstr ""
-"AMチューナーモードを0:デフォルト, 1:TV, 2:AMラジオ, 4:FMラジオ, 4:DSSから選択"
+"AMチューナーモードを0:デフォルト, 1:TV, 2:AMラジオ, 3:FMラジオ, 4:DSSから選択"
 "します。"
 
 #: modules/access/dshow/dshow.cpp:167
@@ -6497,7 +6496,7 @@ msgstr "DVDReadはブロック%dを読み込むことができませんでした
 #: modules/access/dvdread.c:540
 #, c-format
 msgid "DVDRead could not read %d/%d blocks at 0x%02x."
-msgstr "DVDRead could not read %d/%d blocks at 0x%02x."
+msgstr "DVDReadは%d/%dブロックを0x%02xで読み込むことができませんでした。"
 
 #: modules/access/eyetv.m:56
 msgid "Channel number"
@@ -7835,7 +7834,7 @@ msgstr "libv4l2ラッパーを使用"
 
 #: modules/access/v4l2.c:111
 msgid "Reset v4l2 controls"
-msgstr "v412制御のリセット"
+msgstr "v4l2制御のリセット"
 
 #: modules/access/v4l2.c:113
 msgid "Reset controls to defaults provided by the v4l2 driver."
@@ -8023,7 +8022,7 @@ msgstr "V4L2キャプチャーのキャッシュ値をミリ秒で指定しま�
 
 #: modules/access/v4l2.c:192
 msgid "v4l2 driver controls"
-msgstr "v412ドライバ制御"
+msgstr "v4l2ドライバ制御"
 
 #: modules/access/v4l2.c:194
 msgid ""
@@ -18076,7 +18075,7 @@ msgstr "同期化"
 
 #: modules/gui/qt4/dialogs/extended.cpp:80
 msgid "v4l2 controls"
-msgstr "v412制御"
+msgstr "v4l2制御"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:61
 msgid "Privacy and Network Policies"
@@ -19181,7 +19180,7 @@ msgid ""
 " - a zone always present to show information as lyrics, album arts...\n"
 " - minimal mode with limited controls"
 msgstr ""
-"VLVの起動方法:\n"
+"VLCの起動方法:\n"
 "- ノーマルモード\n"
 "- 詩やアルバムアートを常にゾーンに表示\n"
 "- 最小化モード（最低限度の制御）"
@@ -23990,7 +23989,7 @@ msgstr ""
 "デフォルトでは、OSDメニューのピクチャーは200ミリ秒ごとに更新されます。更新間"
 "隔を短くすることは、変換エラーを生じる可能性があります。OSDメニューのエンコー"
 "ディングには非常に多くのCPU能力が必要なため、このオプションの設定は注意してく"
-"ださい。設定可能は値は、0～1000ミリ秒の範囲です。"
+"ださい。設定可能な値は、0～1000ミリ秒の範囲です。"
 
 #: modules/video_filter/osdmenu.c:76 modules/video_filter/remoteosd.c:102
 msgid "Alpha transparency value (default 255)"
@@ -24975,7 +24974,7 @@ msgid ""
 "improve performances by using the most efficient one."
 msgstr ""
 "最適なフォーマットを使用してパフォーマンスの改善を試みるかわりに、特定のクロ"
-"マフォーマットをSDLレンダラーを強制します。"
+"マフォーマットにSDLレンダラーを強制します。"
 
 #: modules/video_output/sdl.c:66
 msgid "Simple DirectMedia Layer video output"
@@ -25148,7 +25147,7 @@ msgstr "YUVフレームを書き込むデバイス、FIFOまたは、ファイ�
 
 #: modules/video_output/yuv.c:48
 msgid "YUV4MPEG2 header (default disabled)"
-msgstr "YUV5MPEG2ヘッダー(デフォルト 無効)"
+msgstr "YUV4MPEG2ヘッダー(デフォルト 無効)"
 
 #: modules/video_output/yuv.c:49
 msgid ""
@@ -26303,5 +26302,5 @@ msgstr "ループ"
 msgid "Media Manager List"
 msgstr "メディアマネージャーリスト"
 
-#~ msgid "Webm"
-#~ msgstr "Webm"
+msgid "Webm"
+msgstr "Webm"
