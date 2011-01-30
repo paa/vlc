@@ -10,6 +10,9 @@ Mac OS X port:
  * Running VLC in 64bit mode requires Mac OS X 10.6.0 or later for speed
    and stability reasons
 
+Demuxers:
+ * Fix for Matroska / WebM remote code execution vulnerability.
+
 
 Changes between 1.1.6 and 1.1.6.1:
 ----------------------------------
