@@ -1,5 +1,5 @@
-Changes between 1.1.6 and 1.1.7-git:
-----------------------------------
+Changes between 1.1.6 and 1.1.7:
+--------------------------------
 
 Linux port:
  * Integration with the KDE GUI platform is disabled due to KDE bugs
@@ -12,6 +12,10 @@ Mac OS X port:
 
 Demuxers:
  * Fix for Matroska / WebM remote code execution vulnerability.
+   VideoLAN-SA-1102
+
+Translations:
+ * Update for Hebrew, Japanese, Danish and Russian translations
 
 
 Changes between 1.1.6 and 1.1.6.1:
