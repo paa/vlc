@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vlc\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2011-01-23 16:34+0100\n"
+"POT-Creation-Date: 2011-01-30 22:05+0100\n"
 "PO-Revision-Date: 2009-09-15 17:57+0300\n"
 "Last-Translator: Osama Khalid <osamak.wfm@gmail.com>\n"
 "Language-Team: Arabic <>\n"
@@ -856,7 +856,7 @@ msgid "Audio Channels"
 msgstr "قنوات الصوت"
 
 #: src/audio_output/output.c:104 src/audio_output/output.c:139
-#: modules/access/alsa.c:67 modules/access/oss.c:63 modules/access/v4l2.c:258
+#: modules/access/alsa.c:67 modules/access/oss.c:64 modules/access/v4l2.c:258
 #: modules/audio_output/alsa.c:198 modules/audio_output/alsa.c:229
 #: modules/audio_output/directx.c:448 modules/audio_output/oss.c:202
 #: modules/audio_output/portaudio.c:403 modules/audio_output/sdl.c:179
@@ -907,15 +907,15 @@ msgstr "مفتاح"
 msgid "boolean"
 msgstr "بولياني"
 
-#: src/config/file.c:630 src/libvlc.c:1588
+#: src/config/file.c:630 src/libvlc.c:1595
 msgid "integer"
 msgstr "عدد صحيح"
 
-#: src/config/file.c:639 src/libvlc.c:1618
+#: src/config/file.c:639 src/libvlc.c:1625
 msgid "float"
 msgstr "تعويم"
 
-#: src/config/file.c:662 src/libvlc.c:1566
+#: src/config/file.c:662 src/libvlc.c:1573
 msgid "string"
 msgstr "وتر"
 
@@ -1276,17 +1276,17 @@ msgstr "حركة الفأرة"
 msgid "C"
 msgstr "ar"
 
-#: src/libvlc.c:1115
+#: src/libvlc.c:1122
 msgid ""
 "Running vlc with the default interface. Use 'cvlc' to use vlc without "
 "interface."
 msgstr ""
 
-#: src/libvlc.c:1239
+#: src/libvlc.c:1246
 msgid "To get exhaustive help, use '-H'."
 msgstr ""
 
-#: src/libvlc.c:1243 src/libvlc-module.c:1521
+#: src/libvlc.c:1250 src/libvlc-module.c:1521
 #, c-format
 msgid ""
 "Usage: %s [options] [stream] ...\n"
@@ -1323,50 +1323,50 @@ msgid ""
 "  vlc://quit                     Special item to quit VLC\n"
 msgstr ""
 
-#: src/libvlc.c:1634
+#: src/libvlc.c:1641
 msgid " (default enabled)"
 msgstr "(المبدئي مُمكّن)"
 
-#: src/libvlc.c:1635
+#: src/libvlc.c:1642
 msgid " (default disabled)"
 msgstr "(تعطيل الوضع الإفتراضي)"
 
-#: src/libvlc.c:1798 src/libvlc.c:1801 src/libvlc.c:1809 src/libvlc.c:1814
+#: src/libvlc.c:1805 src/libvlc.c:1808 src/libvlc.c:1816 src/libvlc.c:1821
 msgid "Note:"
 msgstr "ملاحظة:"
 
-#: src/libvlc.c:1799 src/libvlc.c:1802
+#: src/libvlc.c:1806 src/libvlc.c:1809
 msgid "add --advanced to your command line to see advanced options."
 msgstr ""
 
-#: src/libvlc.c:1810 src/libvlc.c:1815
+#: src/libvlc.c:1817 src/libvlc.c:1822
 #, c-format
 msgid ""
 "%d module(s) were not displayed because they only have advanced options.\n"
 msgstr ""
 
-#: src/libvlc.c:1822 src/libvlc.c:1826
+#: src/libvlc.c:1829 src/libvlc.c:1833
 msgid ""
 "No matching module found. Use --list or --list-verbose to list available "
 "modules."
 msgstr ""
 
-#: src/libvlc.c:1916
+#: src/libvlc.c:1923
 #, fuzzy, c-format
 msgid "VLC version %s (%s)\n"
 msgstr "VLC نسخة %s\n"
 
-#: src/libvlc.c:1918
+#: src/libvlc.c:1925
 #, fuzzy, c-format
 msgid "Compiled by %s on %s (%s)\n"
 msgstr "تأليف بواسطة %s@%s.%s\n"
 
-#: src/libvlc.c:1920
+#: src/libvlc.c:1927
 #, c-format
 msgid "Compiler: %s\n"
 msgstr "المؤلف: %s\n"
 
-#: src/libvlc.c:1955
+#: src/libvlc.c:1962
 msgid ""
 "\n"
 "Dumped content to vlc-help.txt file.\n"
@@ -1374,7 +1374,7 @@ msgstr ""
 "\n"
 "vlc-help.txt محتوى محوّل إلى الملف.\n"
 
-#: src/libvlc.c:1975
+#: src/libvlc.c:1982
 msgid ""
 "\n"
 "Press the RETURN key to continue...\n"
@@ -5450,16 +5450,16 @@ msgstr "(0.1-2.0)عامل مقياس "
 msgid "3D Now! memcpy"
 msgstr "memcpy! الآن 3D"
 
-#: modules/access/alsa.c:69 modules/access/oss.c:65
+#: modules/access/alsa.c:69 modules/access/oss.c:66
 msgid "Capture the audio stream in stereo."
 msgstr "إلتقاط السمعي في الستريو"
 
-#: modules/access/alsa.c:71 modules/access/oss.c:66
+#: modules/access/alsa.c:71 modules/access/oss.c:67
 #: modules/access_output/shout.c:94
 msgid "Samplerate"
 msgstr "معدّل الإعتيان"
 
-#: modules/access/alsa.c:73 modules/access/oss.c:68
+#: modules/access/alsa.c:73 modules/access/oss.c:69
 #, fuzzy
 msgid ""
 "Samplerate of the captured audio stream, in Hz (eg: 11025, 22050, 44100, "
@@ -5474,7 +5474,7 @@ msgstr "(مثال:  11025 ،22050 ، 44100) Hzتردد أخذ العينات ل�
 #: modules/access/fake.c:44 modules/access/ftp.c:58
 #: modules/access/gnomevfs.c:48 modules/access/http.c:81
 #: modules/access/imem.c:49 modules/access/jack.c:60
-#: modules/access/mms/mms.c:49 modules/access/mtp.c:63 modules/access/oss.c:70
+#: modules/access/mms/mms.c:49 modules/access/mtp.c:63 modules/access/oss.c:71
 #: modules/access/pvr.c:59 modules/access/rtmp/access.c:43
 #: modules/access/screen/screen.c:40 modules/access/screen/xcb.c:33
 #: modules/access/sftp.c:51 modules/access/smb.c:61 modules/access/tcp.c:41
@@ -7076,17 +7076,17 @@ msgstr "دخل MTP"
 msgid "MTP"
 msgstr "MTP"
 
-#: modules/access/oss.c:72
+#: modules/access/oss.c:73
 #, fuzzy
 msgid ""
 "Caching value for OSS captures. This value should be set in milliseconds."
 msgstr ".بالملي ثانية ، v4l  (Video 4 Linux)حجم الخبء للتدفقات "
 
-#: modules/access/oss.c:80
+#: modules/access/oss.c:81
 msgid "OSS"
 msgstr "OSS"
 
-#: modules/access/oss.c:81
+#: modules/access/oss.c:82
 msgid "OSS input"
 msgstr "دخل OSS"
 
@@ -8131,7 +8131,7 @@ msgstr ""
 msgid "Video4Linux2 Compressed A/V"
 msgstr "دخْل فديو4 لنكس2"
 
-#: modules/access/v4l2.c:2968
+#: modules/access/v4l2.c:2969
 msgid "Reset controls to default"
 msgstr "أعد ضبط المتحكمات إلى المبدئي"
 
@@ -12532,22 +12532,22 @@ msgstr "واجهة التخكم عن بعد HTTP"
 msgid "HTTP SSL"
 msgstr "HTTP SSL"
 
-#: modules/control/lirc.c:46
+#: modules/control/lirc.c:47
 #, fuzzy
 msgid "Change the lirc configuration file"
 msgstr "تشكيل الملفات"
 
-#: modules/control/lirc.c:48
+#: modules/control/lirc.c:49
 msgid ""
 "Tell lirc to read this configuration file. By default it searches in the "
 "users home directory."
 msgstr ""
 
-#: modules/control/lirc.c:58
+#: modules/control/lirc.c:59
 msgid "Infrared"
 msgstr ""
 
-#: modules/control/lirc.c:61
+#: modules/control/lirc.c:62
 msgid "Infrared remote control interface"
 msgstr "واجهة التخكم عن بعد بتحت أحمر"
 
@@ -19412,7 +19412,19 @@ msgstr "تشغيل القائمة عند تحميلها \n"
 msgid "Start in minimal view (without menus)"
 msgstr "مظهر مُصغّر بدون قوائم"
 
-#: modules/gui/qt4/qt4.cpp:170
+#: modules/gui/qt4/qt4.cpp:167
+msgid "Ignore keyboard volume buttons."
+msgstr ""
+
+#: modules/gui/qt4/qt4.cpp:169
+msgid ""
+"With this option checked, the volume up, volume down and mute buttons on "
+"your keyboard will always change your system volume. With this option "
+"unchecked, the volume buttons will change VLC's volume when VLC is selected "
+"and change the system volume when VLC is not selected."
+msgstr ""
+
+#: modules/gui/qt4/qt4.cpp:176
 msgid "Qt interface"
 msgstr "واجهة Qt"
 

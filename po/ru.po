@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2011-01-23 16:34+0100\n"
+"POT-Creation-Date: 2011-01-30 22:05+0100\n"
 "PO-Revision-Date: 2011-01-27 10:37+0300\n"
 "Last-Translator: Konstantin Pavlov <thresh@videolan.org>\n"
 "Language-Team: Russian <translators@videolan.org>\n"
@@ -24,7 +24,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-Language: Russian\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-Country: RUSSIAN FEDERATION\n"
 
 #: include/vlc_common.h:923
@@ -173,7 +174,8 @@ msgid "Subtitles/OSD"
 msgstr "Субтитры/индикация"
 
 #: include/vlc_config_cat.h:84
-msgid "Settings related to On-Screen-Display, subtitles and \"overlay subpictures\""
+msgid ""
+"Settings related to On-Screen-Display, subtitles and \"overlay subpictures\""
 msgstr "Настройки экранной индикации, субтитров и наложенных слоёв"
 
 #: include/vlc_config_cat.h:93
@@ -410,7 +412,8 @@ msgid "CPU features"
 msgstr "Особенности CPU"
 
 #: include/vlc_config_cat.h:190
-msgid "You can choose to disable some CPU accelerations here. Use with extreme care!"
+msgid ""
+"You can choose to disable some CPU accelerations here. Use with extreme care!"
 msgstr ""
 "Отключение некоторых наборов дополнительных инструкций центрального "
 "процессора. Не стоит что-либо менять в этом разделе, если вы не уверены на "
@@ -865,7 +868,7 @@ msgid "Audio Channels"
 msgstr "Аудио-каналы"
 
 #: src/audio_output/output.c:104 src/audio_output/output.c:139
-#: modules/access/alsa.c:67 modules/access/oss.c:63 modules/access/v4l2.c:258
+#: modules/access/alsa.c:67 modules/access/oss.c:64 modules/access/v4l2.c:258
 #: modules/audio_output/alsa.c:198 modules/audio_output/alsa.c:229
 #: modules/audio_output/directx.c:448 modules/audio_output/oss.c:202
 #: modules/audio_output/portaudio.c:403 modules/audio_output/sdl.c:179
@@ -916,15 +919,15 @@ msgstr "key"
 msgid "boolean"
 msgstr "boolean"
 
-#: src/config/file.c:630 src/libvlc.c:1588
+#: src/config/file.c:630 src/libvlc.c:1595
 msgid "integer"
 msgstr "целое"
 
-#: src/config/file.c:639 src/libvlc.c:1618
+#: src/config/file.c:639 src/libvlc.c:1625
 msgid "float"
 msgstr "дробное"
 
-#: src/config/file.c:662 src/libvlc.c:1566
+#: src/config/file.c:662 src/libvlc.c:1573
 msgid "string"
 msgstr "строка"
 
@@ -1107,7 +1110,8 @@ msgstr "Этот источник не открывается"
 #: src/input/input.c:2489
 #, c-format
 msgid "VLC is unable to open the MRL '%s'. Check the log for details."
-msgstr "VLC не может открыть MRL '%s'. Ищите более подробную информацию в лог-файле."
+msgstr ""
+"VLC не может открыть MRL '%s'. Ищите более подробную информацию в лог-файле."
 
 #: src/input/input.c:2608
 msgid "VLC can't recognize the input's format"
@@ -1115,7 +1119,8 @@ msgstr "VLC не может определить формат входных д�
 
 #: src/input/input.c:2609
 #, c-format
-msgid "The format of '%s' cannot be detected. Have a look at the log for details."
+msgid ""
+"The format of '%s' cannot be detected. Have a look at the log for details."
 msgstr ""
 "Формат в '%s' не может быть определен. В журнал записана подробная "
 "информация."
@@ -1281,7 +1286,7 @@ msgstr "Жесты мыши"
 msgid "C"
 msgstr "ru"
 
-#: src/libvlc.c:1115
+#: src/libvlc.c:1122
 msgid ""
 "Running vlc with the default interface. Use 'cvlc' to use vlc without "
 "interface."
@@ -1289,11 +1294,11 @@ msgstr ""
 "Запуск vlc с интерфейсом по умолчанию. Используйте 'cvlc' для запуска vlc "
 "без интерфейса."
 
-#: src/libvlc.c:1239
+#: src/libvlc.c:1246
 msgid "To get exhaustive help, use '-H'."
 msgstr "Для получения исчерпывающей справки используйте \"-H\"."
 
-#: src/libvlc.c:1243 src/libvlc-module.c:1521
+#: src/libvlc.c:1250 src/libvlc-module.c:1521
 #, c-format
 msgid ""
 "Usage: %s [options] [stream] ...\n"
@@ -1366,30 +1371,31 @@ msgstr ""
 "  vlc://quit                           Специальный элемент для выхода из "
 "VLC\n"
 
-#: src/libvlc.c:1634
+#: src/libvlc.c:1641
 msgid " (default enabled)"
 msgstr " (по умолчанию включено)"
 
-#: src/libvlc.c:1635
+#: src/libvlc.c:1642
 msgid " (default disabled)"
 msgstr " (по умолчанию выключено)"
 
-#: src/libvlc.c:1798 src/libvlc.c:1801 src/libvlc.c:1809 src/libvlc.c:1814
+#: src/libvlc.c:1805 src/libvlc.c:1808 src/libvlc.c:1816 src/libvlc.c:1821
 msgid "Note:"
 msgstr "Примечание:"
 
-#: src/libvlc.c:1799 src/libvlc.c:1802
+#: src/libvlc.c:1806 src/libvlc.c:1809
 msgid "add --advanced to your command line to see advanced options."
 msgstr "добавьте --advanced к команде чтобы увидеть дополнительные опции."
 
-#: src/libvlc.c:1810 src/libvlc.c:1815
+#: src/libvlc.c:1817 src/libvlc.c:1822
 #, c-format
-msgid "%d module(s) were not displayed because they only have advanced options.\n"
+msgid ""
+"%d module(s) were not displayed because they only have advanced options.\n"
 msgstr ""
 "Модуль(и) %d не были показаны, так как у них есть только расширенные "
 "параметры.\n"
 
-#: src/libvlc.c:1822 src/libvlc.c:1826
+#: src/libvlc.c:1829 src/libvlc.c:1833
 #, fuzzy
 msgid ""
 "No matching module found. Use --list or --list-verbose to list available "
@@ -1398,22 +1404,22 @@ msgstr ""
 "Подходящий модуль не найден. Чтобы получить список имеющихся модулей, "
 "следует использовать --list или--list-verbose."
 
-#: src/libvlc.c:1916
+#: src/libvlc.c:1923
 #, fuzzy, c-format
 msgid "VLC version %s (%s)\n"
 msgstr "VLC версия %s\n"
 
-#: src/libvlc.c:1918
+#: src/libvlc.c:1925
 #, fuzzy, c-format
 msgid "Compiled by %s on %s (%s)\n"
 msgstr "Скомпилировано %s@%s.%s\n"
 
-#: src/libvlc.c:1920
+#: src/libvlc.c:1927
 #, c-format
 msgid "Compiler: %s\n"
 msgstr "Компилятор: %s\n"
 
-#: src/libvlc.c:1955
+#: src/libvlc.c:1962
 msgid ""
 "\n"
 "Dumped content to vlc-help.txt file.\n"
@@ -1421,7 +1427,7 @@ msgstr ""
 "\n"
 "Содержимое сохранено в файл vlc-help.txt .\n"
 
-#: src/libvlc.c:1975
+#: src/libvlc.c:1982
 msgid ""
 "\n"
 "Press the RETURN key to continue...\n"
@@ -1641,7 +1647,8 @@ msgid "Default audio volume"
 msgstr "Громкость по умолчанию"
 
 #: src/libvlc-module.c:270
-msgid "You can set the default audio output volume here, in a range from 0 to 1024."
+msgid ""
+"You can set the default audio output volume here, in a range from 0 to 1024."
 msgstr "Уровень громкости вывода аудио по умолчанию в диапазоне от 0 до 1024."
 
 #: src/libvlc-module.c:273
@@ -1900,7 +1907,8 @@ msgstr "Координата X видео"
 msgid ""
 "You can enforce the position of the top left corner of the video window (X "
 "coordinate)."
-msgstr "Вы можете назначить позицию верхнего левого угла окна видео (координата Х)."
+msgstr ""
+"Вы можете назначить позицию верхнего левого угла окна видео (координата Х)."
 
 #: src/libvlc-module.c:401
 msgid "Video Y coordinate"
@@ -1922,7 +1930,8 @@ msgstr "Заголовок видео"
 msgid ""
 "Custom title for the video window (in case the video is not embedded in the "
 "interface)."
-msgstr "Заголовок окна вывода видео (в случае, если видео не встроено в интерфейс)."
+msgstr ""
+"Заголовок окна вывода видео (в случае, если видео не встроено в интерфейс)."
 
 #: src/libvlc-module.c:411
 msgid "Video alignment"
@@ -2076,7 +2085,8 @@ msgstr "Видео на рабочем столе"
 
 #: src/libvlc-module.c:454
 #, fuzzy
-msgid "The wallpaper mode allows you to display the video as the desktop background."
+msgid ""
+"The wallpaper mode allows you to display the video as the desktop background."
 msgstr ""
 "Этот режим позволяет показывать видео на рабочем столе. Обратите внимания, "
 "что этот параметр работает только в режиме слоев и рабочий стол должен быть "
@@ -2106,7 +2116,8 @@ msgstr "Расположение названия дорожки"
 
 #: src/libvlc-module.c:467
 msgid "Place on video where to display the title (default bottom center)."
-msgstr "Расположение названия дорожки на видео-изображении (по умолчанию снизу)."
+msgstr ""
+"Расположение названия дорожки на видео-изображении (по умолчанию снизу)."
 
 #: src/libvlc-module.c:469
 msgid "Hide cursor and fullscreen controller after x milliseconds"
@@ -2417,7 +2428,8 @@ msgstr "Тихая синхронизация"
 msgid ""
 "This avoids flooding the message log with debug output from the video output "
 "synchronization mechanism."
-msgstr "Позволяет не забивать лог сообщениями механизма синхронизации видео вывода."
+msgstr ""
+"Позволяет не забивать лог сообщениями механизма синхронизации видео вывода."
 
 #: src/libvlc-module.c:618
 #, fuzzy
@@ -2553,7 +2565,8 @@ msgstr "Интерфейс вывода групповой передачи"
 
 #: src/libvlc-module.c:680
 msgid "Default multicast interface. This overrides the routing table."
-msgstr "Интерфейс групповой передачи по умолчанию. Замещает таблицу маршрутизации."
+msgstr ""
+"Интерфейс групповой передачи по умолчанию. Замещает таблицу маршрутизации."
 
 #: src/libvlc-module.c:682
 msgid "IPv4 multicast output interface address"
@@ -3097,7 +3110,8 @@ msgid "Preferred encoders list"
 msgstr "Список предпочитаемых кодировщиков"
 
 #: src/libvlc-module.c:940
-msgid "This allows you to select a list of encoders that VLC will use in priority."
+msgid ""
+"This allows you to select a list of encoders that VLC will use in priority."
 msgstr ""
 "Список кодировщиков, которые VLC будет использовать, в зависимости от их "
 "приоритета."
@@ -3118,7 +3132,8 @@ msgstr ""
 msgid ""
 "These options allow you to set default global options for the stream output "
 "subsystem."
-msgstr "Эти параметры позволяют задать общие настройки для подсистемы вывода потока."
+msgstr ""
+"Эти параметры позволяют задать общие настройки для подсистемы вывода потока."
 
 #: src/libvlc-module.c:957
 msgid "Default stream output chain"
@@ -3217,7 +3232,8 @@ msgid "Preferred packetizer list"
 msgstr "Cписок предпочитаемых упаковщиков"
 
 #: src/libvlc-module.c:999
-msgid "This allows you to select the order in which VLC will choose its packetizers."
+msgid ""
+"This allows you to select the order in which VLC will choose its packetizers."
 msgstr ""
 "Этот параметр позволяет выбирать порядок, в котором VLC будет использовать "
 "упаковщики."
@@ -3278,7 +3294,8 @@ msgstr "Включить поддержку MMX"
 msgid ""
 "If your processor supports the MMX instructions set, VLC can take advantage "
 "of them."
-msgstr "Если ваш процессор поддерживает набор команд MMX, VLC может их использовать."
+msgstr ""
+"Если ваш процессор поддерживает набор команд MMX, VLC может их использовать."
 
 #: src/libvlc-module.c:1035
 msgid "Enable CPU 3D Now! support"
@@ -3312,7 +3329,8 @@ msgstr "Включить поддержку SSE"
 msgid ""
 "If your processor supports the SSE instructions set, VLC can take advantage "
 "of them."
-msgstr "Если ваш процессор поддерживает набор команд SSE, VLC может их использовать."
+msgstr ""
+"Если ваш процессор поддерживает набор команд SSE, VLC может их использовать."
 
 #: src/libvlc-module.c:1050
 msgid "Enable CPU SSE2 support"
@@ -3322,7 +3340,8 @@ msgstr "Включить поддержку SSE2"
 msgid ""
 "If your processor supports the SSE2 instructions set, VLC can take advantage "
 "of them."
-msgstr "Если ваш процессор поддерживает набор команд SSE2, VLC может их использовать."
+msgstr ""
+"Если ваш процессор поддерживает набор команд SSE2, VLC может их использовать."
 
 #: src/libvlc-module.c:1055
 #, fuzzy
@@ -3334,7 +3353,8 @@ msgstr "Включить поддержку SSE"
 msgid ""
 "If your processor supports the SSE3 instructions set, VLC can take advantage "
 "of them."
-msgstr "Если ваш процессор поддерживает набор команд SSE, VLC может их использовать."
+msgstr ""
+"Если ваш процессор поддерживает набор команд SSE, VLC может их использовать."
 
 #: src/libvlc-module.c:1060
 #, fuzzy
@@ -3346,7 +3366,8 @@ msgstr "Включить поддержку SSE"
 msgid ""
 "If your processor supports the SSSE3 instructions set, VLC can take "
 "advantage of them."
-msgstr "Если ваш процессор поддерживает набор команд SSE, VLC может их использовать."
+msgstr ""
+"Если ваш процессор поддерживает набор команд SSE, VLC может их использовать."
 
 #: src/libvlc-module.c:1065
 #, fuzzy
@@ -3358,7 +3379,8 @@ msgstr "Включить поддержку SSE"
 msgid ""
 "If your processor supports the SSE4.1 instructions set, VLC can take "
 "advantage of them."
-msgstr "Если ваш процессор поддерживает набор команд SSE, VLC может их использовать."
+msgstr ""
+"Если ваш процессор поддерживает набор команд SSE, VLC может их использовать."
 
 #: src/libvlc-module.c:1070
 #, fuzzy
@@ -3370,7 +3392,8 @@ msgstr "Включить поддержку SSE2"
 msgid ""
 "If your processor supports the SSE4.2 instructions set, VLC can take "
 "advantage of them."
-msgstr "Если ваш процессор поддерживает набор команд SSE2, VLC может их использовать."
+msgstr ""
+"Если ваш процессор поддерживает набор команд SSE2, VLC может их использовать."
 
 #: src/libvlc-module.c:1075
 msgid "Enable CPU AltiVec support"
@@ -3480,7 +3503,8 @@ msgstr ""
 "на уровне доступа (к источникам)."
 
 #: src/libvlc-module.c:1123
-msgid "This option is useful if you want to lower the latency when reading a stream"
+msgid ""
+"This option is useful if you want to lower the latency when reading a stream"
 msgstr "Эта опция полезна для уменьшения времени ожидания при чтении потока"
 
 #: src/libvlc-module.c:1126
@@ -3704,7 +3728,8 @@ msgstr "Всегда воспроизводить файлы в случайно
 
 #: src/libvlc-module.c:1239
 msgid "VLC will randomly play files in the playlist until interrupted."
-msgstr "Всегда воспроизводить файлы из плейлиста в случайном порядке до прерывания."
+msgstr ""
+"Всегда воспроизводить файлы из плейлиста в случайном порядке до прерывания."
 
 #: src/libvlc-module.c:1241
 msgid "Repeat all"
@@ -3876,7 +3901,8 @@ msgstr "Следующий"
 
 #: src/libvlc-module.c:1301
 msgid "Select the hotkey to use to skip to the next item in the playlist."
-msgstr "Выберите горячую клавишу для переключения на следующий элемент плейлиста."
+msgstr ""
+"Выберите горячую клавишу для переключения на следующий элемент плейлиста."
 
 #: src/libvlc-module.c:1302 modules/control/hotkeys.c:702
 #: modules/gui/macosx/about.m:194 modules/gui/macosx/controls.m:1031
@@ -3890,7 +3916,8 @@ msgstr "Предыдущий"
 
 #: src/libvlc-module.c:1303
 msgid "Select the hotkey to use to skip to the previous item in the playlist."
-msgstr "Выберите горячую клавишу для переключения на предыдущий элемент плейлиста."
+msgstr ""
+"Выберите горячую клавишу для переключения на предыдущий элемент плейлиста."
 
 #: src/libvlc-module.c:1304 modules/gui/macosx/controls.m:1023
 #: modules/gui/macosx/embeddedwindow.m:72 modules/gui/macosx/intf.m:603
@@ -4661,7 +4688,8 @@ msgstr "Размеры скачков"
 
 #: src/libvlc-module.c:2732
 msgid "print help for VLC (can be combined with --advanced and --help-verbose)"
-msgstr "показать справку по VLC (может совмещаться с --advanced и --help-verbose)"
+msgstr ""
+"показать справку по VLC (может совмещаться с --advanced и --help-verbose)"
 
 #: src/libvlc-module.c:2735
 msgid "Exhaustive help for VLC and its modules"
@@ -4685,7 +4713,8 @@ msgstr "показать список доступных модулей"
 
 #: src/libvlc-module.c:2744
 msgid "print a list of available modules with extra detail"
-msgstr "показать список доступных модулей с указанием дополнительной информации"
+msgstr ""
+"показать список доступных модулей с указанием дополнительной информации"
 
 #: src/libvlc-module.c:2746
 msgid ""
@@ -5562,16 +5591,16 @@ msgstr "Коэффициент масштабирования"
 msgid "3D Now! memcpy"
 msgstr "3D Now! memcpy"
 
-#: modules/access/alsa.c:69 modules/access/oss.c:65
+#: modules/access/alsa.c:69 modules/access/oss.c:66
 msgid "Capture the audio stream in stereo."
 msgstr "Захватывать аудио-поток в стерео-режиме"
 
-#: modules/access/alsa.c:71 modules/access/oss.c:66
+#: modules/access/alsa.c:71 modules/access/oss.c:67
 #: modules/access_output/shout.c:94
 msgid "Samplerate"
 msgstr "Частота дискретизации"
 
-#: modules/access/alsa.c:73 modules/access/oss.c:68
+#: modules/access/alsa.c:73 modules/access/oss.c:69
 msgid ""
 "Samplerate of the captured audio stream, in Hz (eg: 11025, 22050, 44100, "
 "48000)"
@@ -5587,7 +5616,7 @@ msgstr ""
 #: modules/access/fake.c:44 modules/access/ftp.c:58
 #: modules/access/gnomevfs.c:48 modules/access/http.c:81
 #: modules/access/imem.c:49 modules/access/jack.c:60
-#: modules/access/mms/mms.c:49 modules/access/mtp.c:63 modules/access/oss.c:70
+#: modules/access/mms/mms.c:49 modules/access/mtp.c:63 modules/access/oss.c:71
 #: modules/access/pvr.c:59 modules/access/rtmp/access.c:43
 #: modules/access/screen/screen.c:40 modules/access/screen/xcb.c:33
 #: modules/access/sftp.c:51 modules/access/smb.c:61 modules/access/tcp.c:41
@@ -5597,7 +5626,8 @@ msgid "Caching value in ms"
 msgstr "Размер кэша в мс."
 
 #: modules/access/alsa.c:77
-msgid "Caching value for Alsa captures. This value should be set in milliseconds."
+msgid ""
+"Caching value for Alsa captures. This value should be set in milliseconds."
 msgstr "Размер кэша для захвата с ALSA. Значение указывается в миллисекундах."
 
 #: modules/access/alsa.c:81
@@ -5645,7 +5675,8 @@ msgid "Blu-Ray Disc Input"
 msgstr "Ввод с диска Blu-ray"
 
 #: modules/access/bda/bda.c:48 modules/access/dvb/access.c:85
-msgid "Caching value for DVB streams. This value should be set in milliseconds."
+msgid ""
+"Caching value for DVB streams. This value should be set in milliseconds."
 msgstr "Размер кэша для потока DVB. Значение указывается в миллисекундах."
 
 #: modules/access/bda/bda.c:51 modules/access/dvb/access.c:88
@@ -5896,7 +5927,8 @@ msgstr "Наземная пропускная способность"
 
 #: modules/access/bda/bda.c:148 modules/access/dvb/access.c:147
 msgid "Terrestrial bandwidth [0=auto,6,7,8 in MHz]"
-msgstr "Наземная пропускная способность. Значение указывается в МГц [0=авто,6,7,8]"
+msgstr ""
+"Наземная пропускная способность. Значение указывается в МГц [0=авто,6,7,8]"
 
 #: modules/access/bda/bda.c:151 modules/gui/qt4/components/open_panels.cpp:998
 msgid "6 MHz"
@@ -6129,7 +6161,8 @@ msgstr "DSS"
 msgid ""
 "Caching value for DirectShow streams. This value should be set in "
 "milliseconds."
-msgstr "Размер кэша для потока DirectShow. Значение указывается в миллисекундах."
+msgstr ""
+"Размер кэша для потока DirectShow. Значение указывается в миллисекундах."
 
 #: modules/access/dshow/dshow.cpp:103 modules/access/v4l.c:81
 #: modules/gui/qt4/components/open_panels.cpp:757
@@ -6213,7 +6246,8 @@ msgid "Device properties"
 msgstr "Настройки устройства"
 
 #: modules/access/dshow/dshow.cpp:130
-msgid "Show the properties dialog of the selected device before starting the stream."
+msgid ""
+"Show the properties dialog of the selected device before starting the stream."
 msgstr "Показать окно настроек выбранного устройства перед началом вещания."
 
 #: modules/access/dshow/dshow.cpp:132
@@ -6309,8 +6343,10 @@ msgid "Number of audio channels"
 msgstr "Количество аудио-каналов"
 
 #: modules/access/dshow/dshow.cpp:169
-msgid "Select audio input format with the given number of audio channels (if non 0)"
-msgstr "Выбрать формат аудио-ввода с данным количеством аудио-каналов (если не 0)"
+msgid ""
+"Select audio input format with the given number of audio channels (if non 0)"
+msgstr ""
+"Выбрать формат аудио-ввода с данным количеством аудио-каналов (если не 0)"
 
 #: modules/access/dshow/dshow.cpp:171
 #: modules/stream_out/transcode/transcode.c:93
@@ -6407,7 +6443,8 @@ msgid "HTTP user name"
 msgstr "Имя пользователя"
 
 #: modules/access/dvb/access.c:164
-msgid "User name the administrator will use to log into the internal HTTP server."
+msgid ""
+"User name the administrator will use to log into the internal HTTP server."
 msgstr ""
 "Имя пользователя с правами администратора для доступа к внутреннему HTTP-"
 "серверу."
@@ -6417,7 +6454,8 @@ msgid "HTTP password"
 msgstr "Пароль"
 
 #: modules/access/dvb/access.c:169
-msgid "Password the administrator will use to log into the internal HTTP server."
+msgid ""
+"Password the administrator will use to log into the internal HTTP server."
 msgstr "Пароль администратора для доступа к внутреннему HTTP-серверу."
 
 #: modules/access/dvb/access.c:172
@@ -6544,8 +6582,10 @@ msgid "Playback failure"
 msgstr "Воспроизведение не удалось"
 
 #: modules/access/dvdnav.c:332
-msgid "VLC cannot set the DVD's title. It possibly cannot decrypt the entire disc."
-msgstr "Не удаётся установить главу DVD. Возможно, не удаётся дешифровать весь диск."
+msgid ""
+"VLC cannot set the DVD's title. It possibly cannot decrypt the entire disc."
+msgstr ""
+"Не удаётся установить главу DVD. Возможно, не удаётся дешифровать весь диск."
 
 #: modules/access/dvdread.c:83
 msgid "DVD without menus"
@@ -6583,16 +6623,20 @@ msgstr ""
 "для входа Composite"
 
 #: modules/access/eyetv.m:63
-msgid "Caching value for EyeTV captures. This value should be set in milliseconds."
-msgstr "Величина кэша для захвата с EyeTV. Значение указывается в миллисекундах."
+msgid ""
+"Caching value for EyeTV captures. This value should be set in milliseconds."
+msgstr ""
+"Величина кэша для захвата с EyeTV. Значение указывается в миллисекундах."
 
 #: modules/access/eyetv.m:68
 msgid "EyeTV input"
 msgstr "Ввод с EyeTV"
 
 #: modules/access/fake.c:46
-msgid "Caching value for fake streams. This value should be set in milliseconds."
-msgstr "Размер кэша для фиктивных потоков. Значение указывается в миллисекундах."
+msgid ""
+"Caching value for fake streams. This value should be set in milliseconds."
+msgstr ""
+"Размер кэша для фиктивных потоков. Значение указывается в миллисекундах."
 
 #: modules/access/fake.c:48 modules/access/pvr.c:85 modules/access/v4l.c:130
 #: modules/access/v4l2.c:101
@@ -6747,7 +6791,8 @@ msgid "Directory input"
 msgstr "Источник DirectShow"
 
 #: modules/access/ftp.c:60
-msgid "Caching value for FTP streams. This value should be set in milliseconds."
+msgid ""
+"Caching value for FTP streams. This value should be set in milliseconds."
 msgstr "Размер кэша для потока FTP. Значение указывается в миллисекундах."
 
 #: modules/access/ftp.c:62
@@ -6808,8 +6853,10 @@ msgid "Your connection attempt to the server was rejected."
 msgstr "Сервер отклонил эту попытку подключения."
 
 #: modules/access/gnomevfs.c:50
-msgid "Caching value for GnomeVFS streams.This value should be set in milliseconds."
-msgstr "Размер кэша для потоков GnomeVFS. Значение указывается в миллисекундах."
+msgid ""
+"Caching value for GnomeVFS streams.This value should be set in milliseconds."
+msgstr ""
+"Размер кэша для потоков GnomeVFS. Значение указывается в миллисекундах."
 
 #: modules/access/gnomevfs.c:54
 msgid "GnomeVFS input"
@@ -6837,7 +6884,8 @@ msgid "If your HTTP proxy requires a password, set it here."
 msgstr "Если для HTTP-прокси требуется пароль, укажите его здесь."
 
 #: modules/access/http.c:83
-msgid "Caching value for HTTP streams. This value should be set in milliseconds."
+msgid ""
+"Caching value for HTTP streams. This value should be set in milliseconds."
 msgstr "Размер кэша для потока HTTP. Значение указывается в миллисекундах."
 
 #: modules/access/http.c:86
@@ -6853,7 +6901,8 @@ msgid "Auto re-connect"
 msgstr "Автоматически восстанавливать соединение"
 
 #: modules/access/http.c:92
-msgid "Automatically try to reconnect to the stream in case of a sudden disconnect."
+msgid ""
+"Automatically try to reconnect to the stream in case of a sudden disconnect."
 msgstr "Автоматически пытаться восстановить соединение в случае обрыва."
 
 #: modules/access/http.c:95
@@ -6913,12 +6962,15 @@ msgstr "HTTP-авторизация"
 #: modules/access/http.c:548
 #, c-format
 msgid "Please enter a valid login name and a password for realm %s."
-msgstr "Пожалуйста, введите правильные имя и пароль пользователя для области %s."
+msgstr ""
+"Пожалуйста, введите правильные имя и пароль пользователя для области %s."
 
 #: modules/access/imem.c:51
 #, fuzzy
-msgid "Caching value for imem streams. This value should be set in milliseconds."
-msgstr "Размер кэша для фиктивных потоков. Значение указывается в миллисекундах."
+msgid ""
+"Caching value for imem streams. This value should be set in milliseconds."
+msgstr ""
+"Размер кэша для фиктивных потоков. Значение указывается в миллисекундах."
 
 #: modules/access/imem.c:56
 #, fuzzy
@@ -7090,7 +7142,8 @@ msgstr "Автоматическое соединение"
 
 #: modules/access/jack.c:69
 msgid "Automatically connect VLC input ports to available output ports."
-msgstr "Автоматическое соединение портов ввода VLC с доступными портами вывода."
+msgstr ""
+"Автоматическое соединение портов ввода VLC с доступными портами вывода."
 
 #: modules/access/jack.c:72
 msgid "JACK audio input"
@@ -7119,7 +7172,8 @@ msgid "Memory-mapped file input"
 msgstr "Ввод из спроецированного файла"
 
 #: modules/access/mms/mms.c:51
-msgid "Caching value for MMS streams. This value should be set in milliseconds."
+msgid ""
+"Caching value for MMS streams. This value should be set in milliseconds."
 msgstr "Размер кэша для потоков MMS. Значение указывается в миллисекундах."
 
 #: modules/access/mms/mms.c:54
@@ -7180,15 +7234,16 @@ msgstr "Ввод с MTP"
 msgid "MTP"
 msgstr "MTP"
 
-#: modules/access/oss.c:72
-msgid "Caching value for OSS captures. This value should be set in milliseconds."
+#: modules/access/oss.c:73
+msgid ""
+"Caching value for OSS captures. This value should be set in milliseconds."
 msgstr "Размер кэша для захватов с OSS. Значение указывается в миллисекундах."
 
-#: modules/access/oss.c:80
+#: modules/access/oss.c:81
 msgid "OSS"
 msgstr "OSS"
 
-#: modules/access/oss.c:81
+#: modules/access/oss.c:82
 msgid "OSS input"
 msgstr "Ввод с OSS"
 
@@ -7244,7 +7299,8 @@ msgstr "Частота захвата (в кГц), если возможно и�
 
 #: modules/access/pvr.c:86 modules/access/v4l.c:131
 msgid "Framerate to capture, if applicable (-1 for autodetect)."
-msgstr "Частота кадров захвата, если возможно применение (-1 для автоопределения)."
+msgstr ""
+"Частота кадров захвата, если возможно применение (-1 для автоопределения)."
 
 #: modules/access/pvr.c:89
 msgid "Key interval"
@@ -7310,8 +7366,10 @@ msgid "Channel"
 msgstr "Канал"
 
 #: modules/access/pvr.c:113
-msgid "Channel of the card to use (Usually, 0 = tuner, 1 = composite, 2 = svideo)"
-msgstr "Используемый канал карты (обычно 0 = приёмник, 1 = композитный, 2 = s-video)"
+msgid ""
+"Channel of the card to use (Usually, 0 = tuner, 1 = composite, 2 = svideo)"
+msgstr ""
+"Используемый канал карты (обычно 0 = приёмник, 1 = композитный, 2 = s-video)"
 
 #: modules/access/pvr.c:119 modules/access/v4l.c:142
 msgid "Automatic"
@@ -7362,7 +7420,8 @@ msgstr ""
 "проверить соединения и драйверы."
 
 #: modules/access/rtmp/access.c:45
-msgid "Caching value for RTMP streams. This value should be set in milliseconds."
+msgid ""
+"Caching value for RTMP streams. This value should be set in milliseconds."
 msgstr "Величина кэша для RTMP-потоков. Значение указывается в миллисекундах."
 
 #: modules/access/rtmp/access.c:48
@@ -7400,7 +7459,8 @@ msgstr "Длина буфера для устранения дрожания в 
 
 #: modules/access/rtp/rtp.c:46
 msgid "How long to wait for late RTP packets (and delay the performance)."
-msgstr "Как долго следует ждать отстающие RTP-пакеты (и задерживать исполнение)."
+msgstr ""
+"Как долго следует ждать отстающие RTP-пакеты (и задерживать исполнение)."
 
 #: modules/access/rtp/rtp.c:48
 msgid "RTCP (local) port"
@@ -7440,7 +7500,8 @@ msgstr "Максимум RTP-источников"
 
 #: modules/access/rtp/rtp.c:64
 msgid "How many distinct active RTP sources are allowed at a time."
-msgstr "Сколько различных активных RTP-источников разрешено в каждый момент времени."
+msgstr ""
+"Сколько различных активных RTP-источников разрешено в каждый момент времени."
 
 #: modules/access/rtp/rtp.c:66
 msgid "RTP source timeout (sec)"
@@ -7482,10 +7543,12 @@ msgstr "RTP"
 
 #: modules/access/rtp/rtp.c:88
 msgid "Real-Time Protocol (RTP) input"
-msgstr "Ввод по Протоколу для передачи данных в реальном масштабе времени (RTP)"
+msgstr ""
+"Ввод по Протоколу для передачи данных в реальном масштабе времени (RTP)"
 
 #: modules/access/rtsp/access.c:48
-msgid "Caching value for RTSP streams. This value should be set in milliseconds."
+msgid ""
+"Caching value for RTSP streams. This value should be set in milliseconds."
 msgstr "Размер кэша для потоков RTSP. Значение указывается в миллисекундах."
 
 #: modules/access/rtsp/access.c:52 modules/access/rtsp/access.c:53
@@ -7510,7 +7573,8 @@ msgid "The requested RTSP session could not be established."
 msgstr "Невозможно установить требуемую RTSP-сессию."
 
 #: modules/access/screen/screen.c:42 modules/access/screen/xcb.c:35
-msgid "Caching value for screen capture. This value should be set in milliseconds."
+msgid ""
+"Caching value for screen capture. This value should be set in milliseconds."
 msgstr "Размер кэша для захвата экрана. Значение указывается в миллисекундах."
 
 #: modules/access/screen/screen.c:46
@@ -7565,7 +7629,8 @@ msgstr "Изображение указателя мыши"
 
 #: modules/access/screen/screen.c:80
 #, fuzzy
-msgid "If specified, will use the image to draw the mouse pointer on the capture."
+msgid ""
+"If specified, will use the image to draw the mouse pointer on the capture."
 msgstr ""
 "Если указано, то это изображение будет использоваться на захвате в качестве "
 "указателя мыши."
@@ -7627,7 +7692,8 @@ msgstr "Ввод для захвата экрана"
 
 #: modules/access/sftp.c:53
 #, fuzzy
-msgid "Caching value for SFTP streams. This value should be set in milliseconds."
+msgid ""
+"Caching value for SFTP streams. This value should be set in milliseconds."
 msgstr "Размер кэша для потока FTP. Значение указывается в миллисекундах."
 
 #: modules/access/sftp.c:54
@@ -7672,10 +7738,12 @@ msgstr "HTTP-авторизация"
 #: modules/access/sftp.c:138
 #, fuzzy, c-format
 msgid "Please enter a valid login and password for the sftp connexion to %s"
-msgstr "Пожалуйста, введите правильные имя и пароль пользователя для области %s."
+msgstr ""
+"Пожалуйста, введите правильные имя и пароль пользователя для области %s."
 
 #: modules/access/smb.c:63
-msgid "Caching value for SMB streams. This value should be set in milliseconds."
+msgid ""
+"Caching value for SMB streams. This value should be set in milliseconds."
 msgstr "Размер кэша для потоков SMB. Значение указывается в миллисекундах."
 
 #: modules/access/smb.c:65
@@ -7703,7 +7771,8 @@ msgid "SMB input"
 msgstr "Ввод с SMB"
 
 #: modules/access/tcp.c:43
-msgid "Caching value for TCP streams. This value should be set in milliseconds."
+msgid ""
+"Caching value for TCP streams. This value should be set in milliseconds."
 msgstr "Размер кэша для потоков TCP. Значение указывается в миллисекундах."
 
 #: modules/access/tcp.c:50
@@ -7715,7 +7784,8 @@ msgid "TCP input"
 msgstr "Ввод с TCP"
 
 #: modules/access/udp.c:51
-msgid "Caching value for UDP streams. This value should be set in milliseconds."
+msgid ""
+"Caching value for UDP streams. This value should be set in milliseconds."
 msgstr "Размер кэша для потоков UDP. Значение указывается в миллисекундах."
 
 #: modules/access/udp.c:58
@@ -7727,7 +7797,8 @@ msgid "UDP input"
 msgstr "Ввод с UDP"
 
 #: modules/access/v4l.c:79
-msgid "Caching value for V4L captures. This value should be set in milliseconds."
+msgid ""
+"Caching value for V4L captures. This value should be set in milliseconds."
 msgstr "Размер кэша для захвата с V4L. Значение указывается в миллисекундах."
 
 #: modules/access/v4l.c:83
@@ -7747,7 +7818,8 @@ msgstr ""
 "(например I420 (по умолчанию), RV24, и т.д.)"
 
 #: modules/access/v4l.c:94
-msgid "Channel of the card to use (Usually, 0 = tuner, 1 = composite, 2 = svideo)."
+msgid ""
+"Channel of the card to use (Usually, 0 = tuner, 1 = composite, 2 = svideo)."
 msgstr "Канал карты (обычно, 0 = тюнер, 1 = композитный вход, 2 - s-video)."
 
 #: modules/access/v4l.c:99
@@ -7959,7 +8031,8 @@ msgstr "Уровень чёрного"
 
 #: modules/access/v4l2.c:128
 msgid "Black level of the video input (if supported by the v4l2 driver)."
-msgstr "Уровень чёрного во входящем видео (если поддерживается драйвером v4l2)."
+msgstr ""
+"Уровень чёрного во входящем видео (если поддерживается драйвером v4l2)."
 
 #: modules/access/v4l2.c:129
 msgid "Auto white balance"
@@ -7991,7 +8064,8 @@ msgstr "Баланс красного"
 
 #: modules/access/v4l2.c:139
 msgid "Red balance of the video input (if supported by the v4l2 driver)."
-msgstr "Баланс красного во входящем видео (если поддерживается драйвером v4l2)."
+msgstr ""
+"Баланс красного во входящем видео (если поддерживается драйвером v4l2)."
 
 #: modules/access/v4l2.c:140
 msgid "Blue balance"
@@ -8023,7 +8097,8 @@ msgid "Auto gain"
 msgstr "Автоматическое усиление"
 
 #: modules/access/v4l2.c:151
-msgid "Automatically set the video input's gain (if supported by the v4l2 driver)."
+msgid ""
+"Automatically set the video input's gain (if supported by the v4l2 driver)."
 msgstr ""
 "Устанавливать усиление входящего видео автоматически (если поддерживается "
 "драйвером v4l2)."
@@ -8057,7 +8132,8 @@ msgid "Horizontal centering"
 msgstr "Горизонтальное центрирование"
 
 #: modules/access/v4l2.c:164
-msgid "Set the camera's horizontal centering (if supported by the v4l2 driver)."
+msgid ""
+"Set the camera's horizontal centering (if supported by the v4l2 driver)."
 msgstr ""
 "Установить горизонтальное центрирование камеры (если поддерживается "
 "драйвером v4l2)."
@@ -8094,7 +8170,8 @@ msgstr "Низкие частоты"
 
 #: modules/access/v4l2.c:180
 msgid "Bass level of the audio input (if supported by the v4l2 driver)."
-msgstr "Уровень низких частот на аудио-входе (если поддерживается драйвером v4l2)."
+msgstr ""
+"Уровень низких частот на аудио-входе (если поддерживается драйвером v4l2)."
 
 #: modules/access/v4l2.c:181
 msgid "Treble"
@@ -8102,7 +8179,8 @@ msgstr "Высокие частоты"
 
 #: modules/access/v4l2.c:183
 msgid "Treble level of the audio input (if supported by the v4l2 driver)."
-msgstr "Уровень высоких частот на аудио-входе (если поддерживается драйвером v4l2)."
+msgstr ""
+"Уровень высоких частот на аудио-входе (если поддерживается драйвером v4l2)."
 
 #: modules/access/v4l2.c:184
 msgid "Loudness"
@@ -8113,8 +8191,10 @@ msgid "Loudness of the audio input (if supported by the v4l2 driver)."
 msgstr "Громкость на аудио-входе (если поддерживается драйвером v4l2)."
 
 #: modules/access/v4l2.c:190
-msgid "Caching value for V4L2 captures. This value should be set in milliseconds."
-msgstr "Величина кэша для захватов с V4L2. Это значение указывается в миллисекундах."
+msgid ""
+"Caching value for V4L2 captures. This value should be set in milliseconds."
+msgstr ""
+"Величина кэша для захватов с V4L2. Это значение указывается в миллисекундах."
 
 #: modules/access/v4l2.c:192
 msgid "v4l2 driver controls"
@@ -8225,7 +8305,7 @@ msgstr "Настройки драйвера v4l2, если поддержива�
 msgid "Video4Linux2 Compressed A/V"
 msgstr "Аудио/видео, сжатое Video4Linux2"
 
-#: modules/access/v4l2.c:2968
+#: modules/access/v4l2.c:2969
 msgid "Reset controls to default"
 msgstr "Установить значения по умолчанию"
 
@@ -8387,7 +8467,8 @@ msgstr "Использовать длину дорожки как макс. ед
 msgid ""
 "If set, the length of the seek bar is the track rather than the length of an "
 "entry."
-msgstr "Установить длину полосы перемотки, как длину дорожки вместо длины записи."
+msgstr ""
+"Установить длину полосы перемотки, как длину дорожки вместо длины записи."
 
 #: modules/access/vcdx/vcd.c:119
 msgid "Show extended VCD info?"
@@ -8482,7 +8563,8 @@ msgstr ""
 
 #: modules/access_output/http.c:75
 msgid "Path to the x509 PEM certificate file that will be used for HTTPS."
-msgstr "Путь к файлу сертификатов x509 PEM, который будет использован для HTTPS."
+msgstr ""
+"Путь к файлу сертификатов x509 PEM, который будет использован для HTTPS."
 
 #: modules/access_output/http.c:78
 msgid ""
@@ -8628,7 +8710,8 @@ msgstr "Вывод в IceCAST"
 msgid ""
 "Default caching value for outbound UDP streams. This value should be set in "
 "milliseconds."
-msgstr "Размер кэша для исходящих потоков UDP. Значение указывается в миллисекундах."
+msgstr ""
+"Размер кэша для исходящих потоков UDP. Значение указывается в миллисекундах."
 
 #: modules/access_output/udp.c:69
 msgid "Group packets"
@@ -8970,7 +9053,8 @@ msgstr "Вкл. внутр. повыш. микширование"
 
 #: modules/audio_filter/converter/a52tofloat32.c:91
 msgid "Enable the internal upmixing algorithm (not recommended)."
-msgstr "Включить внутренний алгоритм повышающего микширования (не рекомендуется)"
+msgstr ""
+"Включить внутренний алгоритм повышающего микширования (не рекомендуется)"
 
 #: modules/audio_filter/converter/a52tofloat32.c:95
 msgid "ATSC A/52 (AC-3) audio decoder"
@@ -9382,7 +9466,8 @@ msgid "HAL AudioUnit output"
 msgstr "Вывод аудио через HAL AudioUnit"
 
 #: modules/audio_output/auhal.c:270
-msgid "The selected audio output device is exclusively in use by another program."
+msgid ""
+"The selected audio output device is exclusively in use by another program."
 msgstr ""
 "Выбранное устройство вывода аудио находится в исключительном пользовании "
 "другой программы."
@@ -9750,7 +9835,8 @@ msgid "Allow speed tricks"
 msgstr "Расшир. возможности по управлению скоростью"
 
 #: modules/codec/avcodec/avcodec.h:104
-msgid "Allow non specification compliant speedup tricks. Faster but error-prone."
+msgid ""
+"Allow non specification compliant speedup tricks. Faster but error-prone."
 msgstr ""
 "Использование недокументированных возможностей по увеличению скорости. Более "
 "быстрый, но и более подверженный ошибкам."
@@ -9858,7 +9944,8 @@ msgstr "Частота B-кадров"
 
 #: modules/codec/avcodec/avcodec.h:151
 msgid "Number of B frames that will be coded between two reference frames."
-msgstr "Число B-кадров, которые будут закодированы между двумя референсными кадрами."
+msgstr ""
+"Число B-кадров, которые будут закодированы между двумя референсными кадрами."
 
 #: modules/codec/avcodec/avcodec.h:154
 msgid "Video bitrate tolerance"
@@ -9874,7 +9961,8 @@ msgstr "Чересстрочное кодирование"
 
 #: modules/codec/avcodec/avcodec.h:158
 msgid "Enable dedicated algorithms for interlaced frames."
-msgstr "Задействовать специальный алгоритм для кадров с чересстрочной развёрткой."
+msgstr ""
+"Задействовать специальный алгоритм для кадров с чересстрочной развёрткой."
 
 #: modules/codec/avcodec/avcodec.h:161
 msgid "Interlaced motion estimation"
@@ -9882,7 +9970,8 @@ msgstr "Чересстрочная оценка движения"
 
 #: modules/codec/avcodec/avcodec.h:162
 msgid "Enable interlaced motion estimation algorithms. This requires more CPU."
-msgstr "Включить чересстрочные алгоритмы оценки движения. Требует более мощного CPU."
+msgstr ""
+"Включить чересстрочные алгоритмы оценки движения. Требует более мощного CPU."
 
 #: modules/codec/avcodec/avcodec.h:165
 msgid "Pre-motion estimation"
@@ -9996,7 +10085,8 @@ msgstr "Квантование trellis"
 
 #: modules/codec/avcodec/avcodec.h:215
 msgid "Enable trellis quantization (rate distortion for block coefficients)."
-msgstr "Включить квантование trellis (rate distortion для коэффициентов макроблока)."
+msgstr ""
+"Включить квантование trellis (rate distortion для коэффициентов макроблока)."
 
 #: modules/codec/avcodec/avcodec.h:218
 msgid "Fixed quantizer scale"
@@ -10015,7 +10105,8 @@ msgid "Strict standard compliance"
 msgstr "Строгое следование стандартам"
 
 #: modules/codec/avcodec/avcodec.h:223
-msgid "Force a strict standard compliance when encoding (accepted values: -1, 0, 1)."
+msgid ""
+"Force a strict standard compliance when encoding (accepted values: -1, 0, 1)."
 msgstr ""
 "Включить строгое следование стандартом при кодировании (допустимые значения: "
 "-1, 0, 1)."
@@ -10217,7 +10308,8 @@ msgid "Chroma format"
 msgstr "Формат цветности"
 
 #: modules/codec/dirac.c:88
-msgid "Picking chroma format will force a conversion of the video into that format"
+msgid ""
+"Picking chroma format will force a conversion of the video into that format"
 msgstr ""
 
 #: modules/codec/dirac.c:93
@@ -10603,7 +10695,8 @@ msgid "Chroma"
 msgstr "Цветность"
 
 #: modules/codec/invmem.c:71 modules/video_output/vmem.c:52
-msgid "Output chroma for the memory image as a 4-character string, eg. \"RV32\"."
+msgid ""
+"Output chroma for the memory image as a 4-character string, eg. \"RV32\"."
 msgstr ""
 "Цветность на выходе для изображения в памяти (строка из 4 символов, "
 "например, \"RV32\")."
@@ -11259,7 +11352,8 @@ msgid "UTF-8 subtitles autodetection"
 msgstr "Автоопределение UTF-8"
 
 #: modules/codec/subtitles/subsdec.c:198
-msgid "This enables automatic detection of UTF-8 encoding within subtitles files."
+msgid ""
+"This enables automatic detection of UTF-8 encoding within subtitles files."
 msgstr "Автоматическое определение кодировки UTF-8 в файлах субтитров."
 
 #: modules/codec/subtitles/subsdec.c:201
@@ -11347,7 +11441,8 @@ msgstr "Игнорировать флажок субтитров"
 
 #: modules/codec/telx.c:61
 msgid "Ignore the subtitle flag, try this if your subtitles don't appear."
-msgstr "Игнорировать флажок субтитров. Используется, если субтитры не появляются."
+msgstr ""
+"Игнорировать флажок субтитров. Используется, если субтитры не появляются."
 
 #: modules/codec/telx.c:64
 msgid "Workaround for France"
@@ -11411,7 +11506,8 @@ msgstr "Режим VBR"
 
 #: modules/codec/twolame.c:64
 msgid "Use Variable BitRate. Default is to use Constant BitRate (CBR)."
-msgstr "Использовать переменный битрейт. По умолчанию используется постоянный (CBR)."
+msgstr ""
+"Использовать переменный битрейт. По умолчанию используется постоянный (CBR)."
 
 #: modules/codec/twolame.c:65
 msgid "Psycho-acoustic model"
@@ -12002,7 +12098,8 @@ msgid "Maximum motion vector length"
 msgstr "Максимальная длина вектора движения"
 
 #: modules/codec/x264.c:279
-msgid "Maximum motion vector length in pixels. -1 is automatic, based on level."
+msgid ""
+"Maximum motion vector length in pixels. -1 is automatic, based on level."
 msgstr ""
 "Максимальная длина вектора движения в пикселах. -1 - автоматически, в "
 "зависимости от уровня."
@@ -12336,7 +12433,8 @@ msgstr "Страница телетекста"
 
 #: modules/codec/zvbi.c:59
 msgid "Open the indicated Teletext page.Default page is index 100"
-msgstr "Открыть указанную страницу телетекста. Страница по умолчанию - индекс 100"
+msgstr ""
+"Открыть указанную страницу телетекста. Страница по умолчанию - индекс 100"
 
 #: modules/codec/zvbi.c:62
 msgid "Text is always opaque"
@@ -12626,12 +12724,12 @@ msgstr "Интерфейс управления HTTP"
 msgid "HTTP SSL"
 msgstr "HTTP SSL"
 
-#: modules/control/lirc.c:46
+#: modules/control/lirc.c:47
 #, fuzzy
 msgid "Change the lirc configuration file"
 msgstr "Используемый файл конфигурации LIRC"
 
-#: modules/control/lirc.c:48
+#: modules/control/lirc.c:49
 msgid ""
 "Tell lirc to read this configuration file. By default it searches in the "
 "users home directory."
@@ -12640,11 +12738,11 @@ msgstr ""
 "управления в Линукс. По умолчанию поиск производится в директории home "
 "пользователей."
 
-#: modules/control/lirc.c:58
+#: modules/control/lirc.c:59
 msgid "Infrared"
 msgstr "ИК"
 
-#: modules/control/lirc.c:61
+#: modules/control/lirc.c:62
 msgid "Infrared remote control interface"
 msgstr "Интерфейс управления через ИК-связь"
 
@@ -12661,7 +12759,8 @@ msgid "motion control interface"
 msgstr "Интерфейс управления движением"
 
 #: modules/control/motion.c:82
-msgid "Use HDAPS, AMS, APPLESMC or UNIMOTION motion sensors to rotate the video"
+msgid ""
+"Use HDAPS, AMS, APPLESMC or UNIMOTION motion sensors to rotate the video"
 msgstr ""
 "Использовать сенсоры движения HDAPS, AMS, APPLESMC или UNIMOTION для "
 "поворота видео"
@@ -12684,7 +12783,8 @@ msgstr "IP адрес главного клиента"
 
 #: modules/control/netsync.c:63
 #, fuzzy
-msgid "The IP address of the network master clock to use for clock synchronisation."
+msgid ""
+"The IP address of the network master clock to use for clock synchronisation."
 msgstr "IP адрес главного клиента для сетевой синхронизации."
 
 #: modules/control/netsync.c:66
@@ -12694,7 +12794,8 @@ msgstr "Время ожидания для TCP/UDP (мс)"
 
 #: modules/control/netsync.c:67
 #, fuzzy
-msgid "Amount of time (in ms) to wait before aborting network reception of data."
+msgid ""
+"Amount of time (in ms) to wait before aborting network reception of data."
 msgstr ""
 "Время ожидания (в мс) до прекращения получения данных по сети. Окончательный "
 "отказ произойдёт после 10 попыток."
@@ -12786,7 +12887,8 @@ msgid "Show stream position"
 msgstr "Показывать позицию в потоке"
 
 #: modules/control/rc.c:161
-msgid "Show the current position in seconds within the stream from time to time."
+msgid ""
+"Show the current position in seconds within the stream from time to time."
 msgstr "Показывать текущую позицию в секундах в потоке время от времени."
 
 #: modules/control/rc.c:164
@@ -12979,7 +13081,8 @@ msgstr "| get_time . . показать секунды, прошедшие с н
 
 #: modules/control/rc.c:832
 msgid "| is_playing . . . .  1 if a stream plays, 0 otherwise"
-msgstr "| is_playing . . . .  1 - если проигрывается поток, 0 - в противном случае"
+msgstr ""
+"| is_playing . . . .  1 - если проигрывается поток, 0 - в противном случае"
 
 #: modules/control/rc.c:833
 msgid "| get_title . . . . .  the title of the current stream"
@@ -13021,7 +13124,8 @@ msgstr "| vtrack [X] . . . . . . . . . . . выбрать/считать вид�
 
 #: modules/control/rc.c:843
 msgid "| vratio [X]  . . . . . . . set/get video aspect ratio"
-msgstr "| vratio [X]  . . . . . . . установить/считать соотношение сторон видео"
+msgstr ""
+"| vratio [X]  . . . . . . . установить/считать соотношение сторон видео"
 
 #: modules/control/rc.c:844
 msgid "| vcrop [X]  . . . . . . . . . . .  set/get video crop"
@@ -13337,7 +13441,8 @@ msgstr "Порт"
 msgid ""
 "This is the TCP port on which this interface will listen. It defaults to "
 "4212."
-msgstr "TCP-порт, на котором будет слушать интерфейс. Значение по умолчанию - 4212."
+msgstr ""
+"TCP-порт, на котором будет слушать интерфейс. Значение по умолчанию - 4212."
 
 #: modules/control/telnet.c:82 modules/misc/lua/vlc.c:82
 msgid ""
@@ -13829,7 +13934,8 @@ msgstr "Демультиплексор MusePack"
 msgid ""
 "This is the frame rate used as a fallback when playing MPEG video elementary "
 "streams."
-msgstr "Желательная частота кадров при проигрывании элементарных потоков видео MPEG4."
+msgstr ""
+"Желательная частота кадров при проигрывании элементарных потоков видео MPEG4."
 
 #: modules/demux/mpeg/es.c:56
 msgid "MPEG-I/II/4 / A52 / DTS / MLP audio"
@@ -14091,7 +14197,8 @@ msgstr ""
 #: modules/demux/rawaud.c:51
 #, fuzzy
 msgid "FOURCC code of the raw input format. This is a four character string."
-msgstr "Принудительное использование цветности. Это строка из четырёх символов."
+msgstr ""
+"Принудительное использование цветности. Это строка из четырёх символов."
 
 #: modules/demux/rawaud.c:53
 #, fuzzy
@@ -14110,8 +14217,10 @@ msgid "Raw audio demuxer"
 msgstr "Демультиплексор Raw Video"
 
 #: modules/demux/rawdv.c:41
-msgid "The demuxer will advance timestamps if the input can't keep up with the rate."
-msgstr "Перенести отметки времени вперёд, если вход не справляется со скоростью."
+msgid ""
+"The demuxer will advance timestamps if the input can't keep up with the rate."
+msgstr ""
+"Перенести отметки времени вперёд, если вход не справляется со скоростью."
 
 #: modules/demux/rawdv.c:49
 msgid "DV (Digital Video) demuxer"
@@ -14141,7 +14250,8 @@ msgstr ""
 
 #: modules/demux/rawvid.c:57
 msgid "Force chroma. This is a four character string."
-msgstr "Принудительное использование цветности. Это строка из четырёх символов."
+msgstr ""
+"Принудительное использование цветности. Это строка из четырёх символов."
 
 #: modules/demux/rawvid.c:59 modules/stream_out/switcher.c:96
 msgid "Aspect ratio"
@@ -14149,7 +14259,8 @@ msgstr "Соотношение сторон"
 
 #: modules/demux/rawvid.c:61
 msgid "Aspect ratio (4:3, 16:9). Default assumes square pixels."
-msgstr "Соотношение сторон (4:3, 16:9). По умолчанию пикселы считаются квадратными."
+msgstr ""
+"Соотношение сторон (4:3, 16:9). По умолчанию пикселы считаются квадратными."
 
 #: modules/demux/rawvid.c:65
 msgid "Raw video demuxer"
@@ -14224,7 +14335,8 @@ msgstr ""
 "покадровым отображением без фиксированной скорости)."
 
 #: modules/demux/subtitle_asa.c:54
-msgid "Force the subtiles format. Use \"auto\", the set of supported values varies."
+msgid ""
+"Force the subtiles format. Use \"auto\", the set of supported values varies."
 msgstr ""
 "Принудительное использование этого формата субтитров. Выбирайте "
 "\"автоматически\", набор поддерживаемых значений может быть разным."
@@ -14260,7 +14372,8 @@ msgstr "Быстрое вещание UDP"
 
 #: modules/demux/ts.c:122
 msgid "Sends TS to specific ip:port by udp (you must know what you are doing)."
-msgstr "Посылает TS на указанный ip:port по UDP (вы должны знать, что вы делаете)."
+msgstr ""
+"Посылает TS на указанный ip:port по UDP (вы должны знать, что вы делаете)."
 
 #: modules/demux/ts.c:124
 msgid "MTU for out mode"
@@ -14474,7 +14587,8 @@ msgstr ""
 
 #: modules/gui/fbosd.c:111
 msgid "Filename of image file to use on the overlay framebuffer."
-msgstr "Название файла изображения для использования на кадровом буфере наложения."
+msgstr ""
+"Название файла изображения для использования на кадровом буфере наложения."
 
 #: modules/gui/fbosd.c:113
 msgid "Transparency of the image"
@@ -14594,7 +14708,8 @@ msgid "Display on overlay framebuffer"
 msgstr "Отобразить на кадровом буфере наложения"
 
 #: modules/gui/fbosd.c:157
-msgid "All rendered images and text will be displayed on the overlay framebuffer."
+msgid ""
+"All rendered images and text will be displayed on the overlay framebuffer."
 msgstr ""
 "Все визуализированные изображения и текст будут отображены на кадровом "
 "буфере наложения."
@@ -14710,7 +14825,8 @@ msgid "No input"
 msgstr "Нет входа"
 
 #: modules/gui/macosx/bookmarks.m:214
-msgid "No input found. A stream must be playing or paused for bookmarks to work."
+msgid ""
+"No input found. A stream must be playing or paused for bookmarks to work."
 msgstr ""
 "Нет входного потока. Поток должен находиться в режиме воспроизведения или "
 "паузы."
@@ -15408,7 +15524,8 @@ msgid "Use media key control when VLC is in background"
 msgstr ""
 
 #: modules/gui/macosx/macosx.m:99
-msgid "By default, VLC will accept media key events also when being in background."
+msgid ""
+"By default, VLC will accept media key events also when being in background."
 msgstr ""
 
 #: modules/gui/macosx/macosx.m:103
@@ -16375,7 +16492,8 @@ msgstr "Theora это кодек общего назначения (исполь
 
 #: modules/gui/macosx/wizard.m:161 modules/gui/macosx/wizard.m:212
 msgid "Dummy codec (do not transcode, useable with all encapsulation formats)"
-msgstr "Фиктивный кодек (не кодирует, используется со всеми форматами контейнера)"
+msgstr ""
+"Фиктивный кодек (не кодирует, используется со всеми форматами контейнера)"
 
 #: modules/gui/macosx/wizard.m:180
 msgid ""
@@ -16386,16 +16504,20 @@ msgstr ""
 "ASF, OGG и RAW)"
 
 #: modules/gui/macosx/wizard.m:184
-msgid "MPEG Audio Layer 3 (useable with MPEG PS, MPEG TS, MPEG1, ASF, OGG and RAW)"
-msgstr "MPEG Audio Layer 3 (используется с MPEG PS, MPEG TS, MPEG1, ASF, OGG и RAW)"
+msgid ""
+"MPEG Audio Layer 3 (useable with MPEG PS, MPEG TS, MPEG1, ASF, OGG and RAW)"
+msgstr ""
+"MPEG Audio Layer 3 (используется с MPEG PS, MPEG TS, MPEG1, ASF, OGG и RAW)"
 
 #: modules/gui/macosx/wizard.m:188
 msgid "Audio format for MPEG4 (useable with MPEG TS and MPEG4)"
 msgstr "Аудио формат для MPEG4 (используется с MPEG TS и MPEG4)"
 
 #: modules/gui/macosx/wizard.m:191
-msgid "DVD audio format (useable with MPEG PS, MPEG TS, MPEG1, ASF, OGG and RAW)"
-msgstr "Аудио формат DVD (используется с MPEG PS, MPEG TS, MPEG1, ASF, OGG и RAW)"
+msgid ""
+"DVD audio format (useable with MPEG PS, MPEG TS, MPEG1, ASF, OGG and RAW)"
+msgstr ""
+"Аудио формат DVD (используется с MPEG PS, MPEG TS, MPEG1, ASF, OGG и RAW)"
 
 #: modules/gui/macosx/wizard.m:195
 msgid "Vorbis is a free audio codec (useable with OGG)"
@@ -16403,7 +16525,8 @@ msgstr "Vorbis - это свободный аудио кодек (использ
 
 #: modules/gui/macosx/wizard.m:198
 msgid "FLAC is a lossless audio codec (useable with OGG and RAW)"
-msgstr "FLAC - это аудио-кодек, сжимающий без потерь (используется с OGG и RAW)"
+msgstr ""
+"FLAC - это аудио-кодек, сжимающий без потерь (используется с OGG и RAW)"
 
 #: modules/gui/macosx/wizard.m:202
 msgid "A free audio codec dedicated to compression of voice (useable with OGG)"
@@ -16813,7 +16936,8 @@ msgid "A file where to save the stream has to be selected."
 msgstr "Должен быть выбран файл для сохранения потока."
 
 #: modules/gui/macosx/wizard.m:1157
-msgid "Enter either a valid path or use the \"Choose\" button to select a location."
+msgid ""
+"Enter either a valid path or use the \"Choose\" button to select a location."
 msgstr ""
 "Необходимо либо ввести правильный путь, либо нажать на кнопку \"Выбрать\" и "
 "выбрать расположение."
@@ -17473,7 +17597,8 @@ msgstr "Комментарий"
 
 #: modules/gui/qt4/components/info_panels.cpp:325
 msgid "Extra metadata and other information are shown in this panel.\n"
-msgstr "В этой панели показаны дополнительные мета-данные и другая информация.\n"
+msgstr ""
+"В этой панели показаны дополнительные мета-данные и другая информация.\n"
 
 #: modules/gui/qt4/components/info_panels.cpp:404
 msgid ""
@@ -17998,7 +18123,8 @@ msgstr "Сохранить файл..."
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:139
 #: modules/gui/qt4/dialogs/convert.cpp:113
 #, fuzzy
-msgid "Containers (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv *.webm)"
+msgid ""
+"Containers (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv *.webm)"
 msgstr "Контейнеры (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv)"
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:151
@@ -18011,7 +18137,8 @@ msgid "Path"
 msgstr "Путь"
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:210
-msgid "This module outputs the transcoded stream to a network  via the mms protocol."
+msgid ""
+"This module outputs the transcoded stream to a network  via the mms protocol."
 msgstr ""
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:255
@@ -18442,7 +18569,9 @@ msgid ""
 "If your clipboard contains a valid URL\n"
 "or the path to a file on your computer,\n"
 "it will be automatically selected."
-msgstr "Если буфер обмена содержит действительный URL или путь к файлу на вашем компьютере, он будет выбран автоматически."
+msgstr ""
+"Если буфер обмена содержит действительный URL или путь к файлу на вашем "
+"компьютере, он будет выбран автоматически."
 
 #: modules/gui/qt4/dialogs/plugins.cpp:58
 msgid "Plugins and extensions"
@@ -19087,7 +19216,8 @@ msgstr "Показывать расширенные настройки, а не 
 msgid ""
 "Show advanced preferences and not simple preferences when opening the "
 "preferences dialog."
-msgstr "При открытии окна настроек показывать не простые настройки, а расширенные."
+msgstr ""
+"При открытии окна настроек показывать не простые настройки, а расширенные."
 
 #: modules/gui/qt4/qt4.cpp:76 modules/gui/skins2/src/skin_main.cpp:540
 msgid "Systray icon"
@@ -19292,7 +19422,19 @@ msgstr "Автоматическое сохранение уровня гром�
 msgid "Start in minimal view (without menus)"
 msgstr "упрощённый вид без меню"
 
-#: modules/gui/qt4/qt4.cpp:170
+#: modules/gui/qt4/qt4.cpp:167
+msgid "Ignore keyboard volume buttons."
+msgstr ""
+
+#: modules/gui/qt4/qt4.cpp:169
+msgid ""
+"With this option checked, the volume up, volume down and mute buttons on "
+"your keyboard will always change your system volume. With this option "
+"unchecked, the volume buttons will change VLC's volume when VLC is selected "
+"and change the system volume when VLC is not selected."
+msgstr ""
+
+#: modules/gui/qt4/qt4.cpp:176
 msgid "Qt interface"
 msgstr "Интерфейс Qt"
 
@@ -19774,7 +19916,8 @@ msgstr "Сохранить необработанные данные кодек�
 msgid ""
 "Save the raw codec data if you have selected/forced the dummy decoder in the "
 "main options."
-msgstr "Сохранить необработанные данные кодека, если вы выбрали фиктивны декодер."
+msgstr ""
+"Сохранить необработанные данные кодека, если вы выбрали фиктивны декодер."
 
 #: modules/misc/dummy/dummy.c:56
 msgid ""
@@ -19949,7 +20092,8 @@ msgstr "Эффект шрифта"
 msgid ""
 "It is possible to apply effects to the rendered text to improve its "
 "readability."
-msgstr "Применение эффектов к отображаемому тексту для повышения его читаемости."
+msgstr ""
+"Применение эффектов к отображаемому тексту для повышения его читаемости."
 
 #: modules/misc/freetype.c:135
 msgid "Background"
@@ -19990,7 +20134,8 @@ msgid "Number of resumed TLS sessions"
 msgstr "Количество восстановленных сессий TLS"
 
 #: modules/misc/gnutls.c:86
-msgid "This is the maximum number of resumed TLS sessions that the cache will hold."
+msgid ""
+"This is the maximum number of resumed TLS sessions that the cache will hold."
 msgstr ""
 "Максимальное количество восстановленных сессий TSL, которые будут храниться "
 "в кэше."
@@ -20318,7 +20463,8 @@ msgid "Shadow offset"
 msgstr "Смещение тени"
 
 #: modules/misc/notify/xosd.c:77
-msgid "Offset between the text and the shadow (in pixels, defaults to 2 pixels)."
+msgid ""
+"Offset between the text and the shadow (in pixels, defaults to 2 pixels)."
 msgstr "Смещение между текстом и тенью (в пикселах, по умолчанию 2)."
 
 #: modules/misc/notify/xosd.c:81
@@ -20470,8 +20616,10 @@ msgid "SVG template file"
 msgstr "Файл шаблона SVG"
 
 #: modules/misc/svg.c:69
-msgid "Location of a file holding a SVG template for automatic string conversion"
-msgstr "Путь к файлу, содержащего шаблон SVG для автоматического преобразования строк"
+msgid ""
+"Location of a file holding a SVG template for automatic string conversion"
+msgstr ""
+"Путь к файлу, содержащего шаблон SVG для автоматического преобразования строк"
 
 #: modules/misc/win32text.c:59
 msgid "Filename for the font you want to use"
@@ -20609,7 +20757,8 @@ msgstr "Видео PID"
 msgid ""
 "Assign a fixed PID to the video stream. The PCR PID will automatically be "
 "the video."
-msgstr "Назначить фиксированный PID видео потоку. PCR PID автоматически будет видео."
+msgstr ""
+"Назначить фиксированный PID видео потоку. PCR PID автоматически будет видео."
 
 #: modules/mux/mpeg/ts.c:101
 msgid "Audio PID"
@@ -20799,7 +20948,8 @@ msgid "CSA Key"
 msgstr "Ключ CSA"
 
 #: modules/mux/mpeg/ts.c:170
-msgid "CSA encryption key. This must be a 16 char string (8 hexadecimal bytes)."
+msgid ""
+"CSA encryption key. This must be a 16 char string (8 hexadecimal bytes)."
 msgstr ""
 "Ключ шифрования CSA. Значение указывается в виде строки длиной 16 символов "
 "(8 шестнадцатеричных байт)."
@@ -20988,7 +21138,8 @@ msgid "SAP timeout (seconds)"
 msgstr "Таймаут SAP (секунды)"
 
 #: modules/services_discovery/sap.c:94
-msgid "Delay after which SAP items get deleted if no new announcement is received."
+msgid ""
+"Delay after which SAP items get deleted if no new announcement is received."
 msgstr ""
 "Таймаут, после которого элемент SAP будет удален, если на него не пришло "
 "никаких оповещений."
@@ -21527,7 +21678,8 @@ msgstr "Описание сессии"
 msgid ""
 "This allows you to give a short description with details about the stream, "
 "that will be announced in the SDP (Session Descriptor)."
-msgstr "Дать короткое описание потока, которое будет указано в SDP (Описание сессии)."
+msgstr ""
+"Дать короткое описание потока, которое будет указано в SDP (Описание сессии)."
 
 #: modules/stream_out/rtp.c:98 modules/stream_out/standard.c:76
 msgid "Session URL"
@@ -21575,7 +21727,8 @@ msgid "Audio port"
 msgstr "Порт аудио"
 
 #: modules/stream_out/rtp.c:117
-msgid "This allows you to specify the default audio port for the RTP streaming."
+msgid ""
+"This allows you to specify the default audio port for the RTP streaming."
 msgstr "Порт аудио для вещания по RTP."
 
 #: modules/stream_out/rtp.c:118
@@ -21583,7 +21736,8 @@ msgid "Video port"
 msgstr "Порт видео"
 
 #: modules/stream_out/rtp.c:120
-msgid "This allows you to specify the default video port for the RTP streaming."
+msgid ""
+"This allows you to specify the default video port for the RTP streaming."
 msgstr "Порт видео для вещания по RTP."
 
 #: modules/stream_out/rtp.c:128
@@ -21603,7 +21757,8 @@ msgstr ""
 msgid ""
 "Default caching value for outbound RTP streams. This value should be set in "
 "milliseconds."
-msgstr "Размер кэша для исходящих потоков UDP. Значение указывается в миллисекундах."
+msgstr ""
+"Размер кэша для исходящих потоков UDP. Значение указывается в миллисекундах."
 
 #: modules/stream_out/rtp.c:138
 msgid "Transport protocol"
@@ -21742,7 +21897,8 @@ msgid "Output destination"
 msgstr "Адрес назначения вывода (dst)"
 
 #: modules/stream_out/standard.c:53
-msgid "Destination (URL) to use for the stream. Overrides path and bind parameters"
+msgid ""
+"Destination (URL) to use for the stream. Overrides path and bind parameters"
 msgstr ""
 "Используемый адрес назначения (URL) для потока. Переопределяет параметры "
 "path и bind"
@@ -21780,7 +21936,8 @@ msgstr "Группа сессии"
 msgid ""
 "This allows you to specify a group for the session, that will be announced "
 "if you choose to use SAP."
-msgstr "Группа сессии, которая будет указана в оповещениях при использовании SAP."
+msgstr ""
+"Группа сессии, которая будет указана в оповещениях при использовании SAP."
 
 #: modules/stream_out/standard.c:101
 msgid "Standard stream output"
@@ -21858,7 +22015,8 @@ msgstr "Видео-кодировщик"
 msgid ""
 "This is the video encoder module that will be used (and its associated "
 "options)."
-msgstr "Используемый модуль видео-кодировщика (и все его соответствующие параметры)"
+msgstr ""
+"Используемый модуль видео-кодировщика (и все его соответствующие параметры)"
 
 #: modules/stream_out/transcode/transcode.c:48
 msgid "Destination video codec"
@@ -21933,7 +22091,8 @@ msgstr "Аудио-кодировщик"
 msgid ""
 "This is the audio encoder module that will be used (and its associated "
 "options)."
-msgstr "Используемый модуль аудио-кодировщика (и все его соответствующие параметры)"
+msgstr ""
+"Используемый модуль аудио-кодировщика (и все его соответствующие параметры)"
 
 #: modules/stream_out/transcode/transcode.c:87
 msgid "Destination audio codec"
@@ -21952,7 +22111,8 @@ msgid "Target bitrate of the transcoded audio stream."
 msgstr "Конечный битрейт перекодированного аудио-потока."
 
 #: modules/stream_out/transcode/transcode.c:95
-msgid "Sample rate of the transcoded audio stream (11250, 22500, 44100 or 48000)."
+msgid ""
+"Sample rate of the transcoded audio stream (11250, 22500, 44100 or 48000)."
 msgstr ""
 "Частота дискретизации перекодированного аудио-потока (11250, 22500, 44100 "
 "или 48000)."
@@ -22022,7 +22182,8 @@ msgid "OSD menu"
 msgstr "Экранное меню"
 
 #: modules/stream_out/transcode/transcode.c:124
-msgid "Stream the On Screen Display menu (using the osdmenu subpicture module)."
+msgid ""
+"Stream the On Screen Display menu (using the osdmenu subpicture module)."
 msgstr "Показывать экранное меню (используя модуль слоя osdmenu)."
 
 #: modules/stream_out/transcode/transcode.c:126
@@ -22038,8 +22199,10 @@ msgid "High priority"
 msgstr "Высокий приоритет"
 
 #: modules/stream_out/transcode/transcode.c:131
-msgid "Runs the optional encoder thread at the OUTPUT priority instead of VIDEO."
-msgstr "Запустить отдельный поток для кодировщика с приоритетом OUTPUT вместо VIDEO."
+msgid ""
+"Runs the optional encoder thread at the OUTPUT priority instead of VIDEO."
+msgstr ""
+"Запустить отдельный поток для кодировщика с приоритетом OUTPUT вместо VIDEO."
 
 #: modules/stream_out/transcode/transcode.c:134
 msgid "Synchronise on audio track"
@@ -22049,7 +22212,8 @@ msgstr "Синхронизировать по аудио-дорожке"
 msgid ""
 "This option will drop/duplicate video frames to synchronise the video track "
 "on the audio track."
-msgstr "Этот параметр будет удалять/добавлять кадры для синхронизации видео и аудио."
+msgstr ""
+"Этот параметр будет удалять/добавлять кадры для синхронизации видео и аудио."
 
 #: modules/stream_out/transcode/transcode.c:140
 msgid ""
@@ -22358,7 +22522,8 @@ msgid "Pause-Fadesteps"
 msgstr "Переходов в цвет паузы"
 
 #: modules/video_filter/atmo/atmo.cpp:215
-msgid "Number of steps to change current color to pause color (each step takes 40ms)"
+msgid ""
+"Number of steps to change current color to pause color (each step takes 40ms)"
 msgstr ""
 "Количество переходов для изменения текущего цвета на цвет паузы (каждый "
 "переход длится 40 мс)"
@@ -22442,7 +22607,8 @@ msgid "Use Software White adjust"
 msgstr "Программная корректировка белого"
 
 #: modules/video_filter/atmo/atmo.cpp:243
-msgid "Should the buildin driver do a white adjust or your LED stripes? recommend."
+msgid ""
+"Should the buildin driver do a white adjust or your LED stripes? recommend."
 msgstr ""
 "Корректировка встроенным драйвером баланса белого на СИД-полосках "
 "(рекомендуется)"
@@ -22491,7 +22657,8 @@ msgstr "Усиление краёв"
 msgid ""
 "Increasing this value will result in color more depending on the border of "
 "the frame."
-msgstr "При увеличении этого значения усиливается зависимость цвета от границ кадра."
+msgstr ""
+"При увеличении этого значения усиливается зависимость цвета от границ кадра."
 
 #: modules/video_filter/atmo/atmo.cpp:265
 msgid "Overall brightness of your LED stripes"
@@ -22528,7 +22695,8 @@ msgid "Filter length (ms)"
 msgstr "Продолжительность фильтра (мс)"
 
 #: modules/video_filter/atmo/atmo.cpp:276
-msgid "Time it takes until a color is completely changed. This prevents flickering."
+msgid ""
+"Time it takes until a color is completely changed. This prevents flickering."
 msgstr "Время, за которое цвет полностью изменяется. Предотвращает мерцание."
 
 #: modules/video_filter/atmo/atmo.cpp:278
@@ -22555,7 +22723,8 @@ msgid "Output Color filter mode"
 msgstr "Модуль фильтра вывода видео"
 
 #: modules/video_filter/atmo/atmo.cpp:285
-msgid "defines the how the output color should be calculated based on previous color"
+msgid ""
+"defines the how the output color should be calculated based on previous color"
 msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:294
@@ -22683,7 +22852,8 @@ msgid "Zone 4: Summary gradient"
 msgstr "Градиент сводки"
 
 #: modules/video_filter/atmo/atmo.cpp:345
-msgid "Defines a small bitmap with 64x48 pixels, containing a grayscale gradient"
+msgid ""
+"Defines a small bitmap with 64x48 pixels, containing a grayscale gradient"
 msgstr ""
 "Определяет битовый массив размером 64х48 пикселов, содержащий градиент "
 "оттенков серого"
@@ -22834,7 +23004,8 @@ msgid "Bar width in pixel (default : 10)"
 msgstr ""
 
 #: modules/video_filter/audiobargraph_v.c:67
-msgid "Width in pixel of each bar in the BarGraph to be displayed (default : 10)."
+msgid ""
+"Width in pixel of each bar in the BarGraph to be displayed (default : 10)."
 msgstr ""
 
 #: modules/video_filter/audiobargraph_v.c:88
@@ -23254,7 +23425,8 @@ msgid "Number of non black pixels "
 msgstr "Количество нечёрных пикселов"
 
 #: modules/video_filter/crop.c:95
-msgid "The maximum of non-black pixels in a line to consider that the line is black."
+msgid ""
+"The maximum of non-black pixels in a line to consider that the line is black."
 msgstr ""
 "Максимальное количество пикселов в строке, не являющихся чёрными, при "
 "котором считается, что линия чёрная."
@@ -23277,7 +23449,8 @@ msgstr "Порог яркости"
 
 #: modules/video_filter/crop.c:102
 msgid "Maximum luminance to consider a pixel as black (0-255)."
-msgstr "Максимальная яркость, при которой считается, что пиксел чёрный (0-255)."
+msgstr ""
+"Максимальная яркость, при которой считается, что пиксел чёрный (0-255)."
 
 #: modules/video_filter/crop.c:106
 msgid "Crop video filter"
@@ -23488,7 +23661,8 @@ msgstr "Режим искажения"
 
 #: modules/video_filter/gradient.c:63
 msgid "Distort mode, one of \"gradient\", \"edge\" and \"hough\"."
-msgstr "Режим искажения. Допустимые значения: \"Градиент\", \"Край\" и \"Хафа\"."
+msgstr ""
+"Режим искажения. Допустимые значения: \"Градиент\", \"Край\" и \"Хафа\"."
 
 #: modules/video_filter/gradient.c:65
 msgid "Gradient image type"
@@ -23568,7 +23742,8 @@ msgstr "Количество повторов анимации логотипа"
 
 #: modules/video_filter/logo.c:53
 msgid "Number of loops for the logo animation.-1 = continuous, 0 = disabled"
-msgstr "Количество повторов для анимации логотипа. -1 - бесконечно, 0 - выключить"
+msgstr ""
+"Количество повторов для анимации логотипа. -1 - бесконечно, 0 - выключить"
 
 #: modules/video_filter/logo.c:55
 msgid "Logo individual image time in ms"
@@ -23593,7 +23768,8 @@ msgstr "Прозрачность логотипа"
 
 #: modules/video_filter/logo.c:65
 #, fuzzy
-msgid "Logo opacity value (from 0 for full transparency to 255 for full opacity)."
+msgid ""
+"Logo opacity value (from 0 for full transparency to 255 for full opacity)."
 msgstr ""
 "Значение прозрачности логотипа (от 0 для полной прозрачности до 255 для "
 "полной непрозрачности)."
@@ -24039,7 +24215,8 @@ msgid "OpenCV filter chroma"
 msgstr "Цветность фильтра OpenCV"
 
 #: modules/video_filter/opencv_wrapper.c:91
-msgid "Chroma to convert picture to before sending it to the internal OpenCV filter"
+msgid ""
+"Chroma to convert picture to before sending it to the internal OpenCV filter"
 msgstr ""
 "Цветность, в которую переводится изображение, прежде чем передать его "
 "внутреннему фильтру OpenCV"
@@ -24157,7 +24334,8 @@ msgid "On Screen Display menu"
 msgstr "Экранное меню"
 
 #: modules/video_filter/panoramix.c:58
-msgid "Select the number of horizontal video windows in which to split the video"
+msgid ""
+"Select the number of horizontal video windows in which to split the video"
 msgstr "Выбрать количество видео-окон, на которое делить видео по горизонтали."
 
 #: modules/video_filter/panoramix.c:62
@@ -24208,7 +24386,8 @@ msgstr "Смягчение"
 msgid ""
 "Check this option if you want attenuate blended zone by this plug-in (if "
 "option is unchecked, attenuate is made by opengl)"
-msgstr "Смягчение зоны смешивания (если отключено, то смягчение осуществляет OpenGL)"
+msgstr ""
+"Смягчение зоны смешивания (если отключено, то смягчение осуществляет OpenGL)"
 
 #: modules/video_filter/panoramix.c:101
 msgid "Attenuation, begin (in %)"
@@ -24251,7 +24430,8 @@ msgid "Gamma (Red) correction"
 msgstr "Гамма-коррекция красного"
 
 #: modules/video_filter/panoramix.c:117
-msgid "Select the gamma for the correction of blended zone (Red or Y component)"
+msgid ""
+"Select the gamma for the correction of blended zone (Red or Y component)"
 msgstr "Гамма для коррекции зоны смешивания (Красный или Y-компонент)"
 
 #: modules/video_filter/panoramix.c:120
@@ -24259,7 +24439,8 @@ msgid "Gamma (Green) correction"
 msgstr "Гамма-коррекция зелёного"
 
 #: modules/video_filter/panoramix.c:121
-msgid "Select the gamma for the correction of blended zone (Green or U component)"
+msgid ""
+"Select the gamma for the correction of blended zone (Green or U component)"
 msgstr "Гамма для коррекции зоны смешивания (Зелёный или U-компонент)"
 
 #: modules/video_filter/panoramix.c:124
@@ -24267,7 +24448,8 @@ msgid "Gamma (Blue) correction"
 msgstr "Гамма-коррекция синего"
 
 #: modules/video_filter/panoramix.c:125
-msgid "Select the gamma for the correction of blended zone (Blue or V component)"
+msgid ""
+"Select the gamma for the correction of blended zone (Blue or V component)"
 msgstr "Гамма для коррекции зоны смешивания (Синий или V-компонент)"
 
 #: modules/video_filter/panoramix.c:128
@@ -24417,7 +24599,8 @@ msgid "Make one tile a black slot"
 msgstr "Сделать одну ячейку чёрной"
 
 #: modules/video_filter/puzzle.c:48
-msgid "Make one slot black. Other tiles can only be swapped with the black slot."
+msgid ""
+"Make one slot black. Other tiles can only be swapped with the black slot."
 msgstr ""
 "Создание свободного сегмента. Другие ячейки могут меняться местами только с "
 "ним."
@@ -24459,7 +24642,8 @@ msgid "VNC poll interval"
 msgstr "Интервал между опросами VNC"
 
 #: modules/video_filter/remoteosd.c:88
-msgid "In this interval an update from VNC is requested, default every 300 ms. "
+msgid ""
+"In this interval an update from VNC is requested, default every 300 ms. "
 msgstr ""
 "Через этот интервал запрашивается обновление из VNC, по умолчанию каждые 300 "
 "мс."
@@ -24475,7 +24659,8 @@ msgstr ""
 "ffnetdev."
 
 #: modules/video_filter/remoteosd.c:96
-msgid "Send mouse events to VNC host. Not needed for use as VDR ffnetdev client."
+msgid ""
+"Send mouse events to VNC host. Not needed for use as VDR ffnetdev client."
 msgstr ""
 "Передавать события от мыши на узел VNC. Не требуется при использовании в "
 "качестве клиента VDR ffnetdev."
@@ -24543,7 +24728,8 @@ msgstr "Скорость рассылок"
 
 #: modules/video_filter/rss.c:133
 msgid "Speed of the RSS/Atom feeds in microseconds (bigger is slower)."
-msgstr "Скорость рассылок RSS/Atom в микросекундах (чем больше, тем медленнее)."
+msgstr ""
+"Скорость рассылок RSS/Atom в микросекундах (чем больше, тем медленнее)."
 
 #: modules/video_filter/rss.c:134
 msgid "Max length"
@@ -24672,7 +24858,8 @@ msgid "Recording ratio"
 msgstr "Частота записи"
 
 #: modules/video_filter/scene.c:71
-msgid "Ratio of images to record. 3 means that one image out of three is recorded."
+msgid ""
+"Ratio of images to record. 3 means that one image out of three is recorded."
 msgstr ""
 "Частота записи изображений. Например, 3 означает, что будет записано каждое "
 "третье изображение."
@@ -25079,7 +25266,8 @@ msgstr "Устройство фреймбуфера OMAP"
 
 #: modules/video_output/omapfb.c:80
 msgid "OMAP Framebuffer device to use for rendering (usually /dev/fb0)."
-msgstr "Устройство фреймбуфера OMAP, используемое для рендеринга (обычно /dev/fb0)."
+msgstr ""
+"Устройство фреймбуфера OMAP, используемое для рендеринга (обычно /dev/fb0)."
 
 #: modules/video_output/omapfb.c:84
 msgid ""
@@ -25147,8 +25335,10 @@ msgid "Height of the snapshot image."
 msgstr "Высота изображения стоп-кадра."
 
 #: modules/video_output/snapshot.c:62
-msgid "Output chroma for the snapshot image (a 4 character string, like \"RV32\")."
-msgstr "Тип выходная цветности стоп-кадра (строка из 4 символов, например \"RV32\")."
+msgid ""
+"Output chroma for the snapshot image (a 4 character string, like \"RV32\")."
+msgstr ""
+"Тип выходная цветности стоп-кадра (строка из 4 символов, например \"RV32\")."
 
 #: modules/video_output/snapshot.c:65
 msgid "Cache size (number of images)"
@@ -25334,7 +25524,8 @@ msgid "Goom animation speed"
 msgstr "Скорость анимации Goom"
 
 #: modules/visualization/goom.c:67
-msgid "This allows you to set the animation speed (between 1 and 10, defaults to 6)."
+msgid ""
+"This allows you to set the animation speed (between 1 and 10, defaults to 6)."
 msgstr "Позволяет установить скорость анимации (между 1 и 10, по умолчанию 6)."
 
 #: modules/visualization/goom.c:73
@@ -26476,4 +26667,3 @@ msgstr "Цикл"
 #: modules/gui/qt4/ui/vlm.h:303
 msgid "Media Manager List"
 msgstr "Список медиа-менеджера"
-
