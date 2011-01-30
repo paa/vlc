@@ -206,8 +206,5 @@ int main( int i_argc, const char *ppsz_argv[] )
     for (int i = 1; i < argc; i++)
         LocaleFree (argv[i]);
 
-    /* Do not run exit handlers. Some of them are buggy (e.g. KDE IO scheduler)
-     * and crash. Also some will crash because their library may be already
-     * unloaded (dlclose()). */
-    _exit (0);
+    return 0;
 }
