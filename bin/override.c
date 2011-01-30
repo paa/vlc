@@ -33,6 +33,7 @@ void vlc_enable_override (void);
 
 #include <stdarg.h>
 #include <stdio.h>
+#include <string.h>
 #include <stdlib.h>
 #include <dlfcn.h>
 #include <pthread.h>
