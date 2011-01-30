@@ -6,9 +6,6 @@ Changes between 1.1.6 and 1.1.7-git:
 Changes between 1.1.6 and 1.1.6.1:
 ----------------------------------
 
-Interfaces:
- * KDE: work around file dialog freeze due to KMimeTypeRepository and QProcess
-
 Source:
  * Fix libnotify, lirc, pulse building and packaging for Unix/Linux
 
