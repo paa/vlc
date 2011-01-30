@@ -1,7 +1,11 @@
 Changes between 1.1.6 and 1.1.7-git:
 ----------------------------------
 
-Mac OS X Port:
+Linux port:
+ * Integration with the KDE GUI platform is disabled due to KDE bugs
+   #234484 and #260719.
+
+Mac OS X port:
  * Updated live555 library to fix playback of RTSP and Freebox streams
  * Running VLC in 64bit mode requires Mac OS X 10.6.0 or later for speed
    and stability reasons
@@ -11,7 +15,7 @@ Changes between 1.1.6 and 1.1.6.1:
 ----------------------------------
 
 Source:
- * Fix libnotify, lirc, pulse building and packaging for Unix/Linux
+ * Fix libnotify, lirc, pulse compilation and packaging for Unix/Linux
 
 
 Changes between 1.1.5 and 1.1.6:
