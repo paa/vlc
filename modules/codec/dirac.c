@@ -205,7 +205,7 @@ vlc_module_begin()
     set_subcategory( SUBCAT_INPUT_VCODEC )
     set_description( N_("Dirac video encoder using dirac-research library") )
     set_shortname( "Dirac" )
-    set_capability( "encoder", 100 )
+    set_capability( "encoder", 110 )
     set_callbacks( OpenEncoder, CloseEncoder )
 
     add_float( ENC_CFG_PREFIX ENC_QUALITY_FACTOR, 5.5, NULL,
