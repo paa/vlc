@@ -3,6 +3,8 @@ Changes between 1.1.6 and 1.1.7-git:
 
 Mac OS X Port:
  * Updated live555 library to fix playback of RTSP and Freebox streams
+ * Running VLC in 64bit mode requires Mac OS X 10.6.0 or later for speed
+   and stability reasons
 
 
 Changes between 1.1.6 and 1.1.6.1:
