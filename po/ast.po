@@ -4,7 +4,7 @@
 # Xuacu Saturio <xuacusk8@gmail.com>, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: vlc\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2011-01-30 22:05+0100\n"
 "PO-Revision-Date: 2010-10-14 22:34+0100\n"

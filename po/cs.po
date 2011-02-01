@@ -10,7 +10,7 @@
 # Tomáš Chvátal <scarabeus@gentoo.org>, 2008, 2, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: cs\n"
+"Project-Id-Version: vlc\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2011-01-30 22:05+0100\n"
 "PO-Revision-Date: 2010-01-04 11:52Stedn\n"

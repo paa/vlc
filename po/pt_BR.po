@@ -6,7 +6,7 @@
 # Sidney Doria <sidney at  dsc.ufcg.edu d0t br>, 2008-2010
 msgid ""
 msgstr ""
-"Project-Id-Version: pt_BR\n"
+"Project-Id-Version: vlc\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2011-01-30 22:05+0100\n"
 "PO-Revision-Date: 2010-11-03 21:45-0300\n"
