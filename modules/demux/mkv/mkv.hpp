@@ -92,13 +92,15 @@
 #include "matroska/KaxSegment.h"
 #include "matroska/KaxTag.h"
 #include "matroska/KaxTags.h"
+#include "matroska/KaxVersion.h"
+#if LIBMATROSKA_VERSION < 0x010100
 #include "matroska/KaxTagMulti.h"
+#endif
 #include "matroska/KaxTracks.h"
 #include "matroska/KaxTrackAudio.h"
 #include "matroska/KaxTrackVideo.h"
 #include "matroska/KaxTrackEntryData.h"
 #include "matroska/KaxContentEncoding.h"
-#include "matroska/KaxVersion.h"
 
 #include "ebml/StdIOCallback.h"
 

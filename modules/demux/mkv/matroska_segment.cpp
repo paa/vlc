@@ -220,6 +220,7 @@ void matroska_segment_c::LoadTags( KaxTags *tags )
                     }
                     ep->Up();
                 }
+#if LIBMATROSKA_VERSION < 0x010100
                 else if( MKV_IS_ID( el, KaxTagGeneral ) )
                 {
                     msg_Dbg( &sys.demuxer, "|   + General" );
@@ -288,6 +289,7 @@ void matroska_segment_c::LoadTags( KaxTags *tags )
                 {
                     msg_Dbg( &sys.demuxer, "|   + Multi Title" );
                 }
+#endif
                 else
                 {
                     msg_Dbg( &sys.demuxer, "|   + LoadTag Unknown (%s)", typeid( *el ).name() );
