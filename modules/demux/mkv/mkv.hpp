@@ -121,6 +121,12 @@ extern "C" {
 
 #define MKV_IS_ID( el, C ) ( el != NULL && typeid( *el ) == typeid( C ) )
 
+#if LIBEBML_VERSION < 0x010000
+#define EBML_INFO(ref)             ref::ClassInfos
+#define EBML_ID(ref)               ref::ClassInfos.GlobalId
+#define EBML_CLASS_CONTEXT(ref)    ref::ClassInfos.Context
+#define EBML_CONTEXT(e)            (e)->Generic().Context
+#endif
 
 using namespace LIBMATROSKA_NAMESPACE;
 using namespace std;
