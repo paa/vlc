@@ -4,22 +4,22 @@
 # Copyright (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
 # This file is distributed under the same license as the vlc package.
 #
-# Mindaugas Baranauskas <embar@users.berlios.de>, 2009, 2010.
+# Mindaugas Baranauskas <embar@users.berlios.de>, 2009, 2010, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: vlc\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2011-01-30 22:05+0100\n"
-"PO-Revision-Date: 2010-11-07 18:53+0200\n"
+"PO-Revision-Date: 2011-02-06 23:21+0200\n"
 "Last-Translator: Mindaugas Baranauskas <embar@users.berlios.de>\n"
 "Language-Team: Lithuanian <embar@users.berlios.de>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
-"%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.0\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%"
+"100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.2\n"
 
 #: include/vlc_common.h:923
 msgid ""
@@ -352,7 +352,7 @@ msgstr "VOD"
 
 #: include/vlc_config_cat.h:171
 msgid "VLC's implementation of Video On Demand"
-msgstr "Vaizdo pagal pareikalavimą (angl. Video On Demand) VLC grotuve"
+msgstr "Vaizdo pagal pareikalavimą (angl. Video On Demand) VLC leistuvėje"
 
 #: include/vlc_config_cat.h:175 src/libvlc-module.c:2111
 #: src/playlist/engine.c:131 modules/demux/playlist/playlist.c:69
@@ -399,7 +399,7 @@ msgstr "Sudėtingesnės nuostatos. Naudokite atsargiai."
 
 #: include/vlc_config_cat.h:189
 msgid "CPU features"
-msgstr "AK galimybės"
+msgstr "Procesoriaus galimybės"
 
 #: include/vlc_config_cat.h:190
 msgid ""
@@ -763,14 +763,14 @@ msgid ""
 "can <b>promote</b> VLC media player.</p></body></html>"
 msgstr ""
 "<html><head><meta http-equiv=\"Content-Type\" content=\"text/html; "
-"charset=utf-8\" /></head><body><h2>Jus sveikina VLC grotuvo žinynas </"
+"charset=utf-8\" /></head><body><h2>Jus sveikina VLC leistuvės žinynas </"
 "h2><h3>Dokumentacija</h3><p>VLC dokumentaciją galite rasti VideoLAN <a href="
 "\"http://wiki.videolan.org\">wiki</a> svetainėje.</p><p>Jei esate pirmą "
-"kartą naudojatės VLC grotuvu, perskaitykite<br><a href=\"http://wiki."
-"videolan.org/Documentation:VLC_for_dummies\"><em>VLC grotuvo pradžiamokslį</"
-"em></a>.</p> <p>Šiek tiek informacijos, kaip naudotis grotuvu rasite "
+"kartą naudojatės VLC leistuve, perskaitykite<br><a href=\"http://wiki."
+"videolan.org/Documentation:VLC_for_dummies\"><em>VLC leistuvės pradžiamokslį</"
+"em></a>.</p> <p>Šiek tiek informacijos, kaip naudotis leistuve rasite "
 "dokumente<br><a href=\"http://wiki.videolan.org/Documentation:Play_HowTo"
-"\"><em>Kaip groti rinkmenas VLC grotuvu</em></a>.</p><p>Naudingos "
+"\"><em>Kaip groti rinkmenas VLC leistuve</em></a>.</p><p>Naudingos "
 "informacijos apie įrašymą, konvertavimą, perkodavimą, kodavimą, srauto "
 "tankinimą ir transliavimą turėtumėte rasti <a href=\"http://wiki.videolan."
 "org/Documentation:Streaming_HowTo\">transliavimo žinyne</a>.</p><p>Jei "
@@ -787,7 +787,7 @@ msgstr ""
 "projekto </h3><p>Jūs galite prisidėti prie VideoLAN projekto padėdami VLC "
 "bendruomenei, kurdami apipavidalinimus, versdami dokumentaciją, išbandydami "
 "ir programuodami. Taip pat galite suteikti piniginę ir materialinę paramą. "
-"Be abejo, galite <b>reklamuoti</b> VLC grotuvą.</p></body></html>"
+"Be abejo, galite <b>reklamuoti</b> VLC leistuvę.</p></body></html>"
 
 #: src/audio_output/filters.c:166 src/audio_output/filters.c:215
 #: src/audio_output/filters.c:238
@@ -1261,7 +1261,7 @@ msgid ""
 "Running vlc with the default interface. Use 'cvlc' to use vlc without "
 "interface."
 msgstr ""
-"VLC paleidžiama naudojant numatytąją sąsają. Norėdami naudoti grotuvą be "
+"VLC paleidžiama naudojant numatytąją sąsają. Norėdami naudoti leistuvę be "
 "sąsajos, naudokite „cvlc“."
 
 #: src/libvlc.c:1246
@@ -1460,7 +1460,7 @@ msgid ""
 "list of interface modules. (common values are \"rc\" (remote control), \"http"
 "\", \"gestures\" ...)"
 msgstr ""
-"Jūs galite pasirinkti „papildomas sąsajas“ VLC grotuvui. Jos bus "
+"Jūs galite pasirinkti „papildomas sąsajas“ VLC leistuvei. Jos bus "
 "paleidžiamos pagrindinės sąsajos fone. Sudarykite dvitaškiais atskirtų "
 "sąsajos modulių sąrašą. (bendru atveju galimos vertės: „rc“ (nuotolinis "
 "valdymas), „http“, „gestures“ ...)"
@@ -2004,7 +2004,7 @@ msgstr "Vaizdas pagrindiniame lange"
 
 #: src/libvlc-module.c:432
 msgid "Embed the video output in the main interface."
-msgstr "Vaizdą rodyti pagrindiniame grotuvo lange."
+msgstr "Vaizdą rodyti pagrindiniame leistuvės lange."
 
 #: src/libvlc-module.c:434 modules/video_output/ggi.c:57
 msgid "X11 display"
@@ -3219,12 +3219,13 @@ msgid ""
 "These options allow you to enable special CPU optimizations. You should "
 "always leave all these enabled."
 msgstr ""
-"Šios parinktys leidžia jums įgalinti specifinį AK optimizavimą. Visuomet "
+"Šios parinktys leidžia jums įgalinti specifinį procesoriaus optimizavimą. "
+"Visuomet "
 "turėtumėte jas palikti įjungtas."
 
 #: src/libvlc-module.c:1030
 msgid "Enable CPU MMX support"
-msgstr "Įgalinti AK „MMX“ palaikymą"
+msgstr "Įgalinti procesoriaus „MMX“ palaikymą"
 
 #: src/libvlc-module.c:1032
 msgid ""
@@ -3236,7 +3237,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1035
 msgid "Enable CPU 3D Now! support"
-msgstr "Įgalinti AK „3D Now!“ palaikymą"
+msgstr "Įgalinti procesoriaus „3D Now!“ palaikymą"
 
 #: src/libvlc-module.c:1037
 msgid ""
@@ -3248,7 +3249,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1040
 msgid "Enable CPU MMX EXT support"
-msgstr "Įgalinti AK „MMX EXT“ palaikymą"
+msgstr "Įgalinti procesoriaus „MMX EXT“ palaikymą"
 
 #: src/libvlc-module.c:1042
 msgid ""
@@ -3260,7 +3261,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1045
 msgid "Enable CPU SSE support"
-msgstr "Įgalinti AK „SSE“ palaikymą"
+msgstr "Įgalinti procesoriaus „SSE“ palaikymą"
 
 #: src/libvlc-module.c:1047
 msgid ""
@@ -3272,7 +3273,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1050
 msgid "Enable CPU SSE2 support"
-msgstr "Įgalinti AK „SSE2“ palaikymą"
+msgstr "Įgalinti procesoriaus „SSE2“ palaikymą"
 
 #: src/libvlc-module.c:1052
 msgid ""
@@ -3284,7 +3285,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1055
 msgid "Enable CPU SSE3 support"
-msgstr "Įgalinti AK „SSE3“ palaikymą"
+msgstr "Įgalinti procesoriaus „SSE3“ palaikymą"
 
 #: src/libvlc-module.c:1057
 msgid ""
@@ -3296,7 +3297,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1060
 msgid "Enable CPU SSSE3 support"
-msgstr "Įgalinti AK „SSSE3“ palaikymą"
+msgstr "Įgalinti procesoriaus „SSSE3“ palaikymą"
 
 #: src/libvlc-module.c:1062
 msgid ""
@@ -3308,7 +3309,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1065
 msgid "Enable CPU SSE4.1 support"
-msgstr "Įgalinti AK „SSE4.1“ palaikymą"
+msgstr "Įgalinti procesoriaus „SSE4.1“ palaikymą"
 
 #: src/libvlc-module.c:1067
 msgid ""
@@ -3320,7 +3321,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1070
 msgid "Enable CPU SSE4.2 support"
-msgstr "Įgalinti AK „SSE4.2“ palaikymą"
+msgstr "Įgalinti procesoriaus „SSE4.2“ palaikymą"
 
 #: src/libvlc-module.c:1072
 msgid ""
@@ -3332,7 +3333,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1075
 msgid "Enable CPU AltiVec support"
-msgstr "Įgalinti AK „AltiVec“ palaikymą"
+msgstr "Įgalinti procesoriaus „AltiVec“ palaikymą"
 
 #: src/libvlc-module.c:1077
 msgid ""
@@ -3703,7 +3704,7 @@ msgid ""
 "The media library is automatically saved and reloaded each time you start "
 "VLC."
 msgstr ""
-"Mediateka automatiškai įrašoma ir atkuriama kas kart paleidus VLC grotuvą."
+"Mediateka automatiškai įrašoma ir atkuriama kas kart paleidus VLC leistuvę."
 
 #: src/libvlc-module.c:1266
 msgid "Display playlist tree"
@@ -4576,7 +4577,7 @@ msgstr "VLM"
 
 #: src/libvlc-module.c:2019
 msgid "CPU"
-msgstr "AK"
+msgstr "Procesorius"
 
 #: src/libvlc-module.c:2048
 msgid "Special modules"
@@ -4785,7 +4786,7 @@ msgstr "Atsiųsta rinkmena „%s“ buvo sugadinta. Todėl ji ištrinta."
 
 #: src/misc/update.c:734
 msgid "Update VLC media player"
-msgstr "Atnaujinti VLC grotuvą"
+msgstr "Atnaujinti VLC leistuvę"
 
 #: src/misc/update.c:735
 msgid ""
@@ -6913,9 +6914,8 @@ msgid "Display aspect ratio"
 msgstr "Ekrano santykis"
 
 #: modules/access/imem.c:96
-#, fuzzy
 msgid "Display aspect ratio of a video elementary stream"
-msgstr "Siųsti visus elementariuosius srautus"
+msgstr "Rodyti elementariojo srauto vaizdo pločio ir aukščio santykį"
 
 #: modules/access/imem.c:100
 msgid "Frame rate of a video elementary stream"
@@ -6926,37 +6926,32 @@ msgid "Callback cookie string"
 msgstr ""
 
 #: modules/access/imem.c:104
-#, fuzzy
 msgid "Text identifier for the callback functions"
-msgstr "Naudotino srauto garso takelio ID."
+msgstr ""
 
 #: modules/access/imem.c:106 modules/codec/invmem.c:67
 msgid "Callback data"
 msgstr ""
 
 #: modules/access/imem.c:108
-#, fuzzy
 msgid "Data for the get and release functions"
-msgstr "Naudotino srauto garso takelio ID."
+msgstr ""
 
 #: modules/access/imem.c:110
 msgid "Get function"
 msgstr "Gauti funkciją"
 
 #: modules/access/imem.c:112
-#, fuzzy
 msgid "Address of the get callback function"
-msgstr "Naudotino srauto garso takelio ID."
+msgstr ""
 
 #: modules/access/imem.c:114
-#, fuzzy
 msgid "Release function"
-msgstr "Atrakinti funkciją"
+msgstr ""
 
 #: modules/access/imem.c:116
-#, fuzzy
 msgid "Address of the release callback function"
-msgstr "Naudotino srauto garso takelio ID."
+msgstr ""
 
 #: modules/access/imem.c:118
 msgid "Size"
@@ -8587,9 +8582,8 @@ msgid ""
 msgstr ""
 
 #: modules/audio_filter/audiobargraph_a.c:59
-#, fuzzy
 msgid "Time window to use in ms (default 5000)"
-msgstr "Naudotinas bitų dažnis (-1 – numatytasis)."
+msgstr ""
 
 #: modules/audio_filter/audiobargraph_a.c:60
 msgid ""
@@ -8629,9 +8623,8 @@ msgid ""
 msgstr ""
 
 #: modules/audio_filter/audiobargraph_a.c:84
-#, fuzzy
 msgid "Audio part of the BarGraph function"
-msgstr "Naudotino srauto garso takelio ID."
+msgstr ""
 
 #: modules/audio_filter/audiobargraph_a.c:85
 msgid "audiobargraph_a"
@@ -9565,7 +9558,8 @@ msgid ""
 "time. It's useful with low CPU power but it can produce distorted pictures."
 msgstr ""
 "Galima dalinai iškoduoti ar praleisti kadrą(us), kai nepakanka laiko. "
-"Naudinga mažo galingumo AK, bet tuomet gali būti nudomi sugadinti vaizdai."
+"Naudinga mažo galingumo procesoriams, bet tuomet gali būti rodomi sugadinti "
+"vaizdai."
 
 #: modules/codec/avcodec/avcodec.h:102
 msgid "Allow speed tricks"
@@ -9689,7 +9683,8 @@ msgstr "Judesio perėjimo numatymas"
 #: modules/codec/avcodec/avcodec.h:162
 msgid "Enable interlaced motion estimation algorithms. This requires more CPU."
 msgstr ""
-"Įgalinti judesio perėjimo numatymo algoritmus. Tai reikalauja daugiau AK "
+"Įgalinti judesio perėjimo numatymo algoritmus. Tai reikalauja daugiau "
+"procesoriaus "
 "išteklių."
 
 #: modules/codec/avcodec/avcodec.h:165
@@ -11811,7 +11806,7 @@ msgstr ""
 
 #: modules/codec/x264.c:353
 msgid "CPU optimizations"
-msgstr "AK optimizavimas"
+msgstr "Procesoriaus optimizavimas"
 
 #: modules/codec/x264.c:354
 msgid "Use assembler CPU optimizations."
@@ -13570,9 +13565,8 @@ msgid "Podcast Keywords"
 msgstr "Prenumeruojamos laidos raktažodžiai"
 
 #: modules/demux/playlist/podcast.c:260 modules/demux/playlist/podcast.c:312
-#, fuzzy
 msgid "Podcast Subtitle"
-msgstr "Prenumeruojamos laidos dydis"
+msgstr "Prenumeruojamos laidos subtitrai"
 
 #: modules/demux/playlist/podcast.c:266 modules/demux/playlist/podcast.c:313
 msgid "Podcast Summary"
@@ -14155,7 +14149,7 @@ msgstr ""
 
 #: modules/gui/macosx/about.m:92 modules/gui/macosx/intf.m:617
 msgid "About VLC media player"
-msgstr "Apie VLC grotuvą"
+msgstr "Apie VLC leistuvę"
 
 #: modules/gui/macosx/about.m:96
 #, c-format
@@ -14173,7 +14167,7 @@ msgstr "Licencija"
 
 #: modules/gui/macosx/about.m:192
 msgid "VLC media player Help"
-msgstr "VLC grotuvo žinynas"
+msgstr "VLC leistuvės žinynas"
 
 #: modules/gui/macosx/about.m:195 modules/gui/macosx/controls.m:540
 #: modules/gui/macosx/intf.m:708
@@ -14388,7 +14382,7 @@ msgstr "Prasukti į priekį"
 #: modules/gui/qt4/main_interface.cpp:1041
 #: modules/video_output/xcb/window.c:322
 msgid "VLC media player"
-msgstr "VLC grotuvas"
+msgstr "VLC leistuvė"
 
 #: modules/gui/macosx/equalizer.m:146 modules/gui/qt4/ui/equalizer.h:128
 msgid "2 Pass"
@@ -14667,7 +14661,7 @@ msgstr "Uždaryti langą"
 
 #: modules/gui/macosx/intf.m:717
 msgid "Player..."
-msgstr "Grotuvas..."
+msgstr "Leistuvė..."
 
 #: modules/gui/macosx/intf.m:718
 msgid "Controller..."
@@ -14712,7 +14706,7 @@ msgstr "Pagalba"
 
 #: modules/gui/macosx/intf.m:730
 msgid "VLC media player Help..."
-msgstr "VLC grotuvo žinynas..."
+msgstr "VLC leistuvės žinynas..."
 
 #: modules/gui/macosx/intf.m:731
 msgid "ReadMe / FAQ..."
@@ -15504,7 +15498,7 @@ msgid ""
 "Beware this will reset the VLC media player preferences.\n"
 "Are you sure you want to continue?"
 msgstr ""
-"Dėmesio, tai atstatys VLC grotuvo parinktis.\n"
+"Dėmesio, tai atstatys VLC leistuvės parinktis.\n"
 "Ar tikrai norite tęsti?"
 
 #: modules/gui/macosx/prefs_widgets.m:1224
@@ -16651,7 +16645,7 @@ msgstr "     <pgup>,<pgdown> Naršyti skydelyje blokais"
 
 #: modules/gui/ncurses.c:1657
 msgid "[Player]"
-msgstr "[Grotuvas]"
+msgstr "[Leistuvė]"
 
 #: modules/gui/ncurses.c:1660
 #, c-format
@@ -17588,10 +17582,10 @@ msgid ""
 msgstr ""
 "<p><i>VideoLAN</i> norėtų, kad programa jungtųsi prie tinklo tik gavusi "
 "leidimą.</p>\n"
-" <p><b>VLC grotuvas</b> gali parsisiųsti informaciją iš žiniatinklio, "
+" <p><b>VLC leistuvė</b> gali parsisiųsti informaciją iš žiniatinklio, "
 "siekdamas gauti <b>kūrinių informaciją</b> arba tikrindamas, ar yra "
 "<b>atnaujinimų</b>.</p>\n"
-"<p><i>VLC grotuvas</i> <b>nesiunčia</b> ir nerenka informacijos, nebent "
+"<p><i>VLC leistuvė</i> <b>nesiunčia</b> ir nerenka informacijos, nebent "
 "anonimiškai apie jūsų naudojimąsi.</p>\n"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:83
@@ -17632,7 +17626,7 @@ msgid ""
 "platform.\n"
 "\n"
 msgstr ""
-"VLC yra nemokamas laisvai platinamas grotuvas, įkoduojantis ir "
+"VLC yra nemokamas laisvai platinamas leistuvė, įkoduojantis ir "
 "transliuojantis tai, ką gali nuskaityti iš rinkmenų, CD, DVD, tinklo srautų, "
 "įrašymo įrenginių ir ne tik!\n"
 "VLC naudoja savo vidines kodavimo priemones ir veikia visose "
@@ -17687,7 +17681,7 @@ msgstr "Dėkojame"
 
 #: modules/gui/qt4/dialogs/help.cpp:201
 msgid "VLC media player updates"
-msgstr "VLC grotuvo atnaujinimai"
+msgstr "VLC leistuvės atnaujinimai"
 
 #: modules/gui/qt4/dialogs/help.cpp:207
 msgid "&Recheck version"
@@ -18195,7 +18189,7 @@ msgstr "Visos rinkmenos"
 
 #: modules/gui/qt4/main_interface.cpp:995
 msgid "Control menu for the player"
-msgstr "Grotuvo valdymo meniu"
+msgstr "Leistuvės valdymo meniu"
 
 #: modules/gui/qt4/main_interface.cpp:1038
 msgid "Paused"
@@ -18475,11 +18469,11 @@ msgstr "&Grojimas"
 
 #: modules/gui/qt4/menus.cpp:1081
 msgid "Hide VLC media player in taskbar"
-msgstr "Slėpti VLC grotuvą užduočių juostoje"
+msgstr "Slėpti VLC leistuvę užduočių juostoje"
 
 #: modules/gui/qt4/menus.cpp:1087
 msgid "Show VLC media player"
-msgstr "Rodyti VLC grotuvą"
+msgstr "Rodyti VLC leistuvę"
 
 #: modules/gui/qt4/menus.cpp:1097
 msgid "&Open Media"
@@ -18511,7 +18505,7 @@ msgid ""
 "basic actions."
 msgstr ""
 "Kai VLC ženkliukas rodomas sistemos dėkle, galite atlikti pagrindinius "
-"grotuvo veiksmus."
+"leistuvės veiksmus."
 
 #: modules/gui/qt4/qt4.cpp:81
 msgid "Start VLC with only a systray icon"
@@ -18519,7 +18513,7 @@ msgstr "VLC paleisti sistemos dėkle"
 
 #: modules/gui/qt4/qt4.cpp:82
 msgid "VLC will start with just an icon in your taskbar"
-msgstr "Paleidus VLC, grotuvas bus rodomas tik sistemos dėkle"
+msgstr "Paleidus VLC, leistuvė bus rodoma tik sistemos dėkle"
 
 #: modules/gui/qt4/qt4.cpp:85
 msgid "Resize interface to the native video size"
@@ -18555,7 +18549,7 @@ msgid ""
 "playlist item changes, when VLC is minimized or hidden."
 msgstr ""
 "Rodyti pranešimą su atlikėjo ir takelio pavadinimu keičiantis atliekamam "
-"kūriniui, kai VLC grotuvas sumažintas ar paslėptas."
+"kūriniui, kai VLC leistuvė sumažinta ar paslėpta."
 
 #: modules/gui/qt4/qt4.cpp:100
 msgid "Advanced options"
@@ -18645,7 +18639,7 @@ msgstr "Sąrašas žodžių, atskirtų | filtravimui"
 #: modules/gui/qt4/qt4.cpp:138
 msgid "Regular expression used to filter the recent items played in the player"
 msgstr ""
-"Pastovi išraiška naudojama paskiausiai atliktų kūrinių filtravimui grotuve"
+"Pastovi išraiška naudojama paskiausiai atliktų kūrinių filtravimui leistuve"
 
 #: modules/gui/qt4/qt4.cpp:141
 msgid "Define the colors of the volume slider "
@@ -21545,9 +21539,8 @@ msgid "Depending on your MoMoLight hardware choose 3 or 4 channels"
 msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:173
-#, fuzzy
 msgid "Count of fnordlicht's"
-msgstr "Kanalų skaičius"
+msgstr "„fnordlicht“ skaičius"
 
 #: modules/video_filter/atmo/atmo.cpp:174
 msgid "Depending on the amount your fnordlicht hardware choose 1 to 4 channels"
@@ -22016,49 +22009,43 @@ msgid ""
 msgstr ""
 
 #: modules/video_filter/audiobargraph_v.c:52
-#, fuzzy
 msgid "X coordinate of the bargraph."
-msgstr "Kaukės X koordinatė"
+msgstr "Stulpelinės diagramos x koordinatė."
 
 #: modules/video_filter/audiobargraph_v.c:54
-#, fuzzy
 msgid "Y coordinate of the bargraph."
-msgstr "Kaukės Y koordinatė"
+msgstr "Stulpelinės diagramos y koordinatė."
 
 #: modules/video_filter/audiobargraph_v.c:55
-#, fuzzy
 msgid "Transparency of the bargraph"
-msgstr "Paveikslo skaidrumas"
+msgstr "Stulpelinės diagramos skaidrumas"
 
 #: modules/video_filter/audiobargraph_v.c:56
-#, fuzzy
 msgid ""
 "Bargraph transparency value (from 0 for full transparency to 255 for full "
 "opacity)."
 msgstr ""
-"Logotipo skaidrumo lygis (nuo 0 visiškam skaidrumui iki 255 iki visiško "
+"Stulpelinės diagramos skaidrumo lygis (nuo 0 visiškam skaidrumui iki 255 iki "
+"visiško "
 "nepermatomumo.)"
 
 #: modules/video_filter/audiobargraph_v.c:58
-#, fuzzy
 msgid "Bargraph position"
-msgstr "Logotipo padėtis"
+msgstr "Stulpelinės diagramos padėtis"
 
 #: modules/video_filter/audiobargraph_v.c:60
-#, fuzzy
 msgid ""
 "Enforce the bargraph position on the video (0=center, 1=left, 2=right, "
 "4=top, 8=bottom, you can also use combinations of these values, eg 6 = top-"
 "right)."
 msgstr ""
-"Nustatyti logotipo padėtį (0=centre, 1=kairėje, 2=dešinėje, 4=viršuje, "
-"8=apačioje; taip pat galite derinti šias reikšmes, pvz., 6 = viršuje "
-"dešinėje)."
+"Nustatyti stulpelinės diagramos padėtį (0=centre, 1=kairėje, "
+"2=dešinėje, 4=viršuje, 8=apačioje; taip pat galite derinti "
+"šias reikšmes, pvz., 6 = viršuje dešinėje)."
 
 #: modules/video_filter/audiobargraph_v.c:63
-#, fuzzy
 msgid "Alarm"
-msgstr "Alsa"
+msgstr ""
 
 #: modules/video_filter/audiobargraph_v.c:64
 msgid "Signals a silence and displays and alert (0=no alarm, 1=alarm)."
@@ -22075,38 +22062,32 @@ msgstr ""
 
 #: modules/video_filter/audiobargraph_v.c:88
 #: modules/video_filter/audiobargraph_v.c:106
-#, fuzzy
 msgid "Audio Bar Graph Video sub filter"
-msgstr "Garsas/Vaizdas"
+msgstr "Garso stulpelinės diagramos vaizdo pofiltris"
 
 #: modules/video_filter/audiobargraph_v.c:89
-#, fuzzy
 msgid "Audio Bar Graph Video"
-msgstr "Garsas/Vaizdas"
+msgstr "Garso stulpelinės diagramos vaizdas"
 
 #: modules/video_filter/ball.c:109
-#, fuzzy
 msgid "Ball color"
-msgstr "Šrifto spalva"
+msgstr "Kamuoliukų spalva"
 
 #: modules/video_filter/ball.c:110
 msgid "Ball color, one of \"red\", \"blue\" and \"green\"."
 msgstr ""
 
 #: modules/video_filter/ball.c:112
-#, fuzzy
 msgid "Edge visible"
-msgstr "Visada matoma"
+msgstr "Matomi kraštai"
 
 #: modules/video_filter/ball.c:113
-#, fuzzy
 msgid "Set edge visibility."
-msgstr "Visada matoma"
+msgstr "Nurodyti kratų matomumą."
 
 #: modules/video_filter/ball.c:115
-#, fuzzy
 msgid "Ball speed"
-msgstr "N&ormalus greitis"
+msgstr "Kamuoliukų greitis"
 
 #: modules/video_filter/ball.c:116
 msgid ""
@@ -22115,9 +22096,8 @@ msgid ""
 msgstr ""
 
 #: modules/video_filter/ball.c:119
-#, fuzzy
 msgid "Ball size"
-msgstr "Kambario dydis"
+msgstr "Kamuoliukų dydis"
 
 #: modules/video_filter/ball.c:120
 msgid ""
@@ -22126,9 +22106,8 @@ msgid ""
 msgstr ""
 
 #: modules/video_filter/ball.c:123
-#, fuzzy
 msgid "Gradient threshold"
-msgstr "Filtro slenkstis"
+msgstr "Gradiento slenkstis"
 
 #: modules/video_filter/ball.c:124
 msgid "Set gradient threshold for edge computation."
@@ -22139,14 +22118,12 @@ msgid "Augmented reality ball game"
 msgstr ""
 
 #: modules/video_filter/ball.c:135
-#, fuzzy
 msgid "Ball video filter"
-msgstr "Sienos vaizdo filtras"
+msgstr "Kamuoliukų vaizdo filtras"
 
 #: modules/video_filter/ball.c:136
-#, fuzzy
 msgid "Ball"
-msgstr "visi"
+msgstr "Kamuoliukai"
 
 #: modules/video_filter/blend.c:44
 msgid "Video pictures blending"
@@ -23539,7 +23516,8 @@ msgid ""
 "looking pictures."
 msgstr ""
 "galutinio apdorojimo kokybė. Vertė nuo 0 iki 6 \n"
-"Aukštesnis lygis reikalauja žymiai didesnių AK išteklių, bet sukuriamas "
+"Aukštesnis lygis reikalauja žymiai didesnių procesoriaus išteklių, bet "
+"sukuriamas "
 "geriau atrodantis paveikslėlis."
 
 #: modules/video_filter/postproc.c:66
@@ -24103,9 +24081,8 @@ msgid "HD1000 video output"
 msgstr "HD1000 vaizdo išvestis"
 
 #: modules/video_output/macosx.m:69
-#, fuzzy
 msgid "Mac OS X OpenGL video output (requires drawable-nsobject)"
-msgstr "Minimali Mac OS X OpenGL vaizdo išvestis (atveriama lange be rėmelių)"
+msgstr ""
 
 #: modules/video_output/msw/direct3d.c:57
 msgid "Enable desktop mode "
@@ -24333,7 +24310,7 @@ msgstr "X11 vaizdo langas (XCB)"
 #: modules/video_output/xcb/window.c:291
 msgctxt "ASCII"
 msgid "VLC media player"
-msgstr "VLC grotuvas"
+msgstr "VLC leistuve"
 
 #. xgettext: This is a plain ASCII spelling of "VLC"
 #. for the ICCCM window name. This must be pure ASCII.
@@ -24438,7 +24415,7 @@ msgid ""
 "will be prettier but more CPU intensive)."
 msgstr ""
 "Leidžia jums nustatyti Goom ekrano skiriamąją gebą (didesne skiriamąja geba "
-"vaizdas gražesnis, tačiau reikalauja daugiau AK išteklių)."
+"vaizdas gražesnis, tačiau reikalauja daugiau procesoriaus išteklių)."
 
 #: modules/visualization/goom.c:66
 msgid "Goom animation speed"
@@ -24500,34 +24477,28 @@ msgid "The height of the video window, in pixels."
 msgstr "Vaizdo lango aukštis, taškeliais."
 
 #: modules/visualization/projectm.cpp:67
-#, fuzzy
 msgid "Mesh width"
-msgstr "Vaizdo plotis"
+msgstr ""
 
 #: modules/visualization/projectm.cpp:68
-#, fuzzy
 msgid "The width of the mesh, in pixels."
-msgstr "Vaizdo lango plotis, taškeliais."
+msgstr ""
 
 #: modules/visualization/projectm.cpp:70
-#, fuzzy
 msgid "Mesh height"
-msgstr "Piko aukštis"
+msgstr ""
 
 #: modules/visualization/projectm.cpp:71
-#, fuzzy
 msgid "The height of the mesh, in pixels."
-msgstr "Vaizdo lango aukštis, taškeliais."
+msgstr ""
 
 #: modules/visualization/projectm.cpp:73
-#, fuzzy
 msgid "Texture size"
-msgstr "Gestai"
+msgstr "Tekstūros dydis"
 
 #: modules/visualization/projectm.cpp:74
-#, fuzzy
 msgid "The size of the texture, in pixels."
-msgstr "Vaizdo lango plotis, taškeliais."
+msgstr "Tekstūros dydis, taškeliais."
 
 #: modules/visualization/projectm.cpp:77
 msgid "projectM"
@@ -24839,7 +24810,6 @@ msgid "Enter the URL of the network stream here."
 msgstr "Čia įveskite tinklo srauto URL."
 
 #: modules/gui/qt4/ui/open_net.h:97
-#, fuzzy
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
 "REC-html40/strict.dtd\">\n"
@@ -24873,16 +24843,16 @@ msgstr ""
 "weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:"
-"#838383;\">http://www.example.com/stream.avi</span></p>\n"
+"#838383;\">http://www.pavyzdys.com/stream.avi</span></p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:"
-"#838383;\">rtp://@1234</span></p>\n"
+"#838383;\">rtp://@:1234</span></p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:"
-"#838383;\">mms://mms.examples.com/stream.asx</span></p>\n"
+"#838383;\">mms://mms.pavyzdys.com/stream.asx</span></p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:"
-"#838383;\">rtsp://server.example.org:8080/test.sdp</span></p>\n"
+"#838383;\">rtsp://serveris.pavyzdys.org:8080/testas.sdp</span></p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:"
 "#838383;\">http://www.yourtube.com/watch?v=gg64x</span></p></body></html>"
@@ -25092,9 +25062,8 @@ msgid "Codecs"
 msgstr "Kodekai"
 
 #: modules/gui/qt4/ui/sprefs_input.h:310
-#, fuzzy
 msgid "Skip H.264 in-loop deblocking filter"
-msgstr "Praleisti kartojimo filtrą"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_input.h:311
 msgid "Video quality post-processing level"
@@ -25134,9 +25103,8 @@ msgid "RTP over RTSP (TCP)"
 msgstr "RTP vietoj RTSP (TCP)"
 
 #: modules/gui/qt4/ui/sprefs_input.h:324
-#, fuzzy
 msgid "Live555 stream transport"
-msgstr "Srauto išvestis į rinkmeną"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:373
 msgid "Instances"
@@ -25493,9 +25461,8 @@ msgid "Mask"
 msgstr "Kaukė"
 
 #: modules/gui/qt4/ui/video_effects.h:1185
-#, fuzzy
 msgid "Subpicture filters"
-msgstr "Srauto filtrai"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1186
 msgid "Video filters"
