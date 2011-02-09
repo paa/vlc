@@ -25259,9 +25259,9 @@ msgid ""
 msgstr ""
 "Votre pilote vidéo ne supporte pas la résolution demandée : %ux%u pixels. La "
 "résolution maximale supportée est %<PRIu32>x%<PRIu32>.\n"
-"La sortie vidéo accéléré sera inhibée. Cependant, utiliser des résolutions "
-"très grandes pour la vidéo est souvent case de sévères dégradations de la "
-"performance."
+"La sortie vidéo accélérée sera inhibée. Cependant, utiliser des résolutions "
+"très grandes pour la vidéo peut provoquer de fortes dégradations des "
+"performances."
 
 #: modules/video_output/yuv.c:41
 msgid "device, fifo or filename"
