@@ -80,7 +80,7 @@ vlc_module_begin ()
     set_description( N_("Dirac video encoder using libschroedinger") )
     set_capability( "encoder", 105 )
     set_callbacks( OpenEncoder, CloseEncoder )
-    add_shortcut( "schroedinger", "schro" )
+    add_shortcut( "schroedinger" )
 
     int i_numopts =  schro_encoder_get_n_settings();
     /* Allocate for schro encoder options + chroma format + coding mode
@@ -103,18 +103,18 @@ vlc_module_begin ()
         ppsz_enc_options[i] = strdup( p_setting->name );
         switch( p_setting->type ) {
             case SCHRO_ENCODER_SETTING_TYPE_BOOLEAN:
-                add_bool( p_cfg_setting_name, p_setting->default_value, p_setting->name, p_setting->name, b_advanced );
+                add_bool( p_cfg_setting_name, p_setting->default_value, NULL, p_setting->name, p_setting->name, b_advanced );
                 break;
             case SCHRO_ENCODER_SETTING_TYPE_INT:
-                add_integer( p_cfg_setting_name, p_setting->default_value, p_setting->name, p_setting->name, b_advanced );
+                add_integer( p_cfg_setting_name, p_setting->default_value, NULL, p_setting->name, p_setting->name, b_advanced );
                 change_integer_range( p_setting->min, p_setting->max );
                 break;
             case SCHRO_ENCODER_SETTING_TYPE_DOUBLE:
-                add_float( p_cfg_setting_name, p_setting->default_value, p_setting->name, p_setting->name, b_advanced );
+                add_float( p_cfg_setting_name, p_setting->default_value, NULL, p_setting->name, p_setting->name, b_advanced );
                 change_float_range( p_setting->min, p_setting->max );
                 break;
             case SCHRO_ENCODER_SETTING_TYPE_ENUM:
-                add_string( p_cfg_setting_name, p_setting->enum_list[(int)p_setting->default_value], p_setting->name, p_setting->name, b_advanced );
+                add_string( p_cfg_setting_name, p_setting->enum_list[(int)p_setting->default_value], NULL, p_setting->name, p_setting->name, b_advanced );
                 vlc_config_set( p_config, VLC_CONFIG_LIST, (int)(p_setting->max-p_setting->min+1), p_setting->enum_list, p_setting->enum_list, 0 );
                 break;
             default:
@@ -124,12 +124,12 @@ vlc_module_begin ()
     }
 
     ppsz_enc_options[i_numopts] = strdup( ENC_CHROMAFMT );
-    add_string( ENC_CFG_PREFIX ENC_CHROMAFMT, "420",
+    add_string( ENC_CFG_PREFIX ENC_CHROMAFMT, "420", NULL,
                 ENC_CHROMAFMT_TEXT, ENC_CHROMAFMT_LONGTEXT, false )
     change_string_list( enc_chromafmt_list, enc_chromafmt_list_text, 0 );
 
     ppsz_enc_options[i_numopts+1] = strdup( ENC_CODINGMODE );
-    add_bool( ENC_CFG_PREFIX ENC_CODINGMODE, true,
+    add_bool( ENC_CFG_PREFIX ENC_CODINGMODE, true, NULL,
                 ENC_CODINGMODE_TEXT, ENC_CODINGMODE_LONGTEXT, false )
 
     ppsz_enc_options[i_numopts+2] = NULL;
