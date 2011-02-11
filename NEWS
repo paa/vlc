@@ -1,6 +1,16 @@
 Changes between 1.1.7 and 1.1.8-git:
 --------------------------------
 
+Interfaces:
+ * Luarc and luatelnet fixes
+
+Encoder:
+ * new libschroedinger-based Dirac codec encoder
+
+Translations:
+ * Update for Finnish, Galician, Dutch, Chinese, German, Japanese, Lithuanian,
+   Slovak, French
+
 
 Changes between 1.1.6 and 1.1.7:
 --------------------------------
