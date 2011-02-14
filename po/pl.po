@@ -18827,7 +18827,7 @@ msgstr "Otwórz listę odtwarzania..."
 
 #: modules/gui/qt4/dialogs_provider.cpp:558
 msgid "XSPF playlist (*.xspf)"
-msgstr "Lista odtwarzania XSPF (*.xpsf)"
+msgstr "Lista odtwarzania XSPF (*.xspf)"
 
 #: modules/gui/qt4/dialogs_provider.cpp:559
 msgid "M3U8 playlist (*.m3u)"

@@ -13996,7 +13996,7 @@ msgstr "Parseur Podcast"
 
 #: modules/demux/playlist/playlist.c:111
 msgid "XSPF playlist import"
-msgstr "Import de liste de lecture XPSF"
+msgstr "Import de liste de lecture XSPF"
 
 #: modules/demux/playlist/playlist.c:117
 msgid "New winamp 5.2 shoutcast import"
