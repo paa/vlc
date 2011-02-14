@@ -20125,7 +20125,7 @@ msgstr "Esportazione scaletta M3U"
 
 #: modules/misc/playlist/export.c:56
 msgid "M3U8 playlist export"
-msgstr "Esportazione scaletta M3U("
+msgstr "Esportazione scaletta M3U8"
 
 #: modules/misc/playlist/export.c:62
 msgid "XSPF playlist export"

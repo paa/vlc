@@ -20403,7 +20403,7 @@ msgstr "Exportar a lista de reproducción M3U"
 
 #: modules/misc/playlist/export.c:56
 msgid "M3U8 playlist export"
-msgstr "Exportar a lista de reproducción M3U"
+msgstr "Exportar a lista de reproducción M3U8"
 
 #: modules/misc/playlist/export.c:62
 msgid "XSPF playlist export"
