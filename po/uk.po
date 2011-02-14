@@ -18725,8 +18725,8 @@ msgid "XSPF playlist (*.xspf)"
 msgstr "Список відтворення XSPF (*.xspf)"
 
 #: modules/gui/qt4/dialogs_provider.cpp:559
-msgid "M3U8 playlist (*.m3u)"
-msgstr "Список відтворення M3U8 (*.m3u)"
+msgid "M3U8 playlist (*.m3u8)"
+msgstr "Список відтворення M3U8 (*.m3u8)"
 
 #: modules/gui/qt4/dialogs_provider.cpp:560
 msgid "M3U playlist (*.m3u)"
