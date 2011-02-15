@@ -3933,6 +3933,14 @@ if test "${enable_skins2}" = "yes" ||
     fi
   fi
 
+  if test "${SYS}" != "mingw32" -a "${SYS}" != "darwin"; then
+    PKG_CHECK_MODULES([XPM], [xpm],, [skins2_missing_lib="yes"])
+    PKG_CHECK_MODULES([XEXT], [xext],, [skins2_missing_lib="yes"])
+    if test "${enable_skins2}" = "yes"; then
+      AC_MSG_ERROR([Could not find Xpm and/or Xext (required for skins2)])
+    fi
+  fi
+
   if test "${skins2_missing_lib}" = "no" && (test "${SYS}" = "mingw32"); then
     VLC_ADD_PLUGIN([skins2])
     ALIASES="${ALIASES} svlc"
@@ -3950,9 +3958,9 @@ if test "${enable_skins2}" = "yes" ||
   else if test "${skins2_missing_lib}" = "no"; then
     VLC_ADD_PLUGIN([skins2])
     ALIASES="${ALIASES} svlc"
-    VLC_ADD_CPPFLAGS([skins2],[-Imodules/gui/skins2 ${X_CFLAGS} -DX11_SKINS])
+    VLC_ADD_CPPFLAGS([skins2],[-Imodules/gui/skins2 ${X_CFLAGS} ${XEXT_XFLAGS} ${XPM_CLFAGS} -DX11_SKINS])
     VLC_ADD_CXXFLAGS([skins2],[-O2 -fno-rtti])
-    VLC_ADD_LIBS([skins2],[${X_LIBS} ${X_PRE_LIBS} -lXext -lXpm -lX11])
+    VLC_ADD_LIBS([skins2],[${X_LIBS} ${X_PRE_LIBS} ${XEXT_LIBS} ${XPM_LIBS} -lX11])
     need_xid_provider="no"
   fi fi fi
 fi
