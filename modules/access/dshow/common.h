@@ -97,3 +97,25 @@ struct access_sys_t
     int            i_chroma;
     bool           b_chroma; /* Force a specific chroma on the dshow input */
 };
+
+/* http://msdn.microsoft.com/en-us/library/dd373441%28v=vs.85%29.aspx */
+typedef enum tagAMTunerModeType {
+    AMTUNER_MODE_DEFAULT    = 0x0000,
+    AMTUNER_MODE_TV         = 0x0001,
+    AMTUNER_MODE_FM_RADIO   = 0x0002,
+    AMTUNER_MODE_AM_RADIO   = 0x0004,
+    AMTUNER_MODE_DSS        = 0x0008 
+} AMTunerModeType;
+
+typedef enum tagAMTunerSubChannel {
+    AMTUNER_SUBCHAN_NO_TUNE = -2,
+    AMTUNER_SUBCHAN_DEFAULT = -1
+} AMTunerSubChannel;
+
+/* http://msdn.microsoft.com/en-us/library/dd407232%28v=vs.85%29.aspx */
+typedef enum tagTunerInputType {
+    TunerInputCable = 0,
+    TunerInputAntenna = TunerInputCable + 1
+} TunerInputType;
+
+#define AMPROPERTY_PIN_CATEGORY 0
