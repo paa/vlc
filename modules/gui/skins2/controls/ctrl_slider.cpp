@@ -36,11 +36,10 @@
 
 
 #define RANGE 40
-#define SCROLL_STEP 0.05f
 
-static inline float scroll( bool up, float pct )
+static inline float scroll( bool up, float pct, float step )
 {
-    return pct + (up? SCROLL_STEP : -SCROLL_STEP);
+    return pct + (up? step : -step);
 }
 
 
@@ -259,7 +258,8 @@ void CtrlSliderCursor::CmdScroll::execute()
     // XXX Two of these in this file, figure out where it really belongs.
     int dir = static_cast<EvtScroll*>(m_pParent->m_pEvt)->getDirection();
     m_pParent->m_rVariable.set( scroll( EvtScroll::kUp == dir,
-                                        m_pParent->m_rVariable.get() ) );
+                                        m_pParent->m_rVariable.get(),
+                                        m_pParent->m_rVariable.getStep()) );
 }
 
 
@@ -405,7 +405,8 @@ void CtrlSliderBg::handleEvent( EvtGeneric &rEvent )
     {
         // XXX Two of these in this file, figure out where it really belongs.
         int dir = static_cast<EvtScroll*>(&rEvent)->getDirection();
-        m_rVariable.set( scroll( EvtScroll::kUp == dir, m_rVariable.get() ) );
+        m_rVariable.set( scroll( EvtScroll::kUp == dir,
+                                 m_rVariable.get(), m_rVariable.getStep() ) );
     }
 }
 
