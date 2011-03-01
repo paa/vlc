@@ -154,6 +154,8 @@ bool ThemeLoader::extractTarGz( const string &tarFile, const string &rootDir )
 
 bool ThemeLoader::extractZip( const string &zipFile, const string &rootDir )
 {
+    bool b_isWsz = strstr( zipFile.c_str(), ".wsz" );
+
     // Try to open the ZIP file
     unzFile file = unzOpen( zipFile.c_str() );
     unz_global_info info;
@@ -165,7 +167,7 @@ bool ThemeLoader::extractZip( const string &zipFile, const string &rootDir )
     // Extract all the files in the archive
     for( unsigned long i = 0; i < info.number_entry; i++ )
     {
-        if( !extractFileInZip( file, rootDir ) )
+        if( !extractFileInZip( file, rootDir, b_isWsz ) )
         {
             msg_Warn( getIntf(), "error while unzipping %s",
                       zipFile.c_str() );
@@ -190,7 +192,8 @@ bool ThemeLoader::extractZip( const string &zipFile, const string &rootDir )
 }
 
 
-bool ThemeLoader::extractFileInZip( unzFile file, const string &rootDir )
+bool ThemeLoader::extractFileInZip( unzFile file, const string &rootDir,
+                                    bool isWsz )
 {
     // Read info for the current file
     char filenameInZip[256];
@@ -202,16 +205,11 @@ bool ThemeLoader::extractFileInZip( unzFile file, const string &rootDir )
         return false;
     }
 
-#ifdef WIN32
-
     // Convert the file name to lower case, because some winamp skins
     // use the wrong case...
-    for( size_t i=0; i< strlen( filenameInZip ); i++)
-    {
-        filenameInZip[i] = tolower( filenameInZip[i] );
-    }
-
-#endif
+    if( isWsz )
+        for( size_t i = 0; i < strlen( filenameInZip ); i++ )
+            filenameInZip[i] = tolower( filenameInZip[i] );
 
     // Allocate the buffer
     void *pBuffer = malloc( ZIP_BUFFER_SIZE );
