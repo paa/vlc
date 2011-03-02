@@ -1,19 +1,19 @@
 # VLC meediaesitaja eesti keele tõlge.
 # Estonian translation of VLC media player.
 #
-# Copyright (C) 2008-2010 VideoLAN.
+# Copyright (C) 2008-2011 VideoLAN.
 # This file is distributed under the same license as the VLC package.
 #
 # Eero <eerove gmail com> 2009.
-# Mihkel <turakas gmail com> 2010.
+# Mihkel <turakas gmail com> 2010-2011.
 # Mattias Põldaru <mahfiaz gmail com> 2010.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: vlc 1.1.6\n"
+"Project-Id-Version: vlc 1.1.8\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2011-01-30 22:05+0100\n"
-"PO-Revision-Date: 2011-01-15 23:25+0200\n"
+"PO-Revision-Date: 2011-03-02 17:31+0200\n"
 "Last-Translator: mihkel <turakas gmail com>\n"
 "Language-Team: Estonian\n"
 "Language: \n"
@@ -950,8 +950,8 @@ msgid ""
 "VLC does not support the audio or video format \"%4.4s\". Unfortunately "
 "there is no way for you to fix this."
 msgstr ""
-"VLC ei toeta seda audio või video vormingut \"%4.4s\". Kahjuks pole võimalik "
-"sinna midagi parata."
+"VLC ei toeta seda audio või video vormingut \"%4.4s\". Kahjuks pole sinul "
+"siin midagi ära teha."
 
 #: src/input/es_out.c:954 src/input/es_out.c:959 src/libvlc-module.c:362
 #: modules/access/vcdx/access.c:460 modules/access/vcdx/info.c:226
@@ -1801,9 +1801,10 @@ msgid ""
 "options."
 msgstr ""
 "Need valikud lubavad sul muuta videoväljundi alamsüsteemi käitumist. Sa saad "
-"näiteks võimaldada videofiltreid (ülerealaotus, pildi kohendamine, jne.). "
-"Lülita need filtrid siin sisse ja seadista neid \"videofiltrite\" moodulite "
-"sektsioonis. Sa saad määrata ka palju erinevaid video valikuid."
+"näiteks võimaldada videofiltreid (ülerealaotuse eemaldamine, pildi "
+"kohendamine, jne.). Lülita need filtrid siin sisse ja seadista neid "
+"\"videofiltrite\" moodulite sektsioonis. Sa saad määrata ka palju erinevaid "
+"video valikuid."
 
 #: src/libvlc-module.c:376
 msgid "Video output module"
@@ -2093,17 +2094,17 @@ msgstr ""
 #: modules/gui/macosx/intf.m:701 modules/gui/qt4/dialogs/convert.cpp:86
 #: modules/video_filter/deinterlace.c:133
 msgid "Deinterlace"
-msgstr "Ülerealaotus"
+msgstr "Ülerealaotuse eemldamine"
 
 #: src/libvlc-module.c:485 src/video_output/video_output.c:1990
 #: modules/gui/macosx/intf.m:702 modules/gui/macosx/intf.m:703
 #: modules/video_filter/deinterlace.c:118
 msgid "Deinterlace mode"
-msgstr "Ülerealaotuse režiim"
+msgstr "Ülerealaotuse eemaldamise režiim"
 
 #: src/libvlc-module.c:487
 msgid "Deinterlace method to use for video processing."
-msgstr "Kasutatav ülerealaotuse meetod video töötlemisel."
+msgstr "Kasutatav ülerealaotuse eemamldamise meetod video töötlemisel."
 
 #: src/libvlc-module.c:493 modules/video_filter/deinterlace.c:129
 msgid "Discard"
@@ -2175,7 +2176,7 @@ msgid ""
 "instance deinterlacing, or distort the video."
 msgstr ""
 "See lisab järeltöötluse filtreid parandamaks pildi kvaliteeti, näiteks "
-"ülerealaotus, või halvendades seda."
+"ülerealaotuse eemaldamine, või halvendades seda."
 
 #: src/libvlc-module.c:524
 msgid "Video snapshot directory (or filename)"
@@ -2843,7 +2844,7 @@ msgstr ""
 "See määrab, kui suur on subtiitri- ja filmifaili sobivuse hägusus.\n"
 "Valikud on:\n"
 "0 = subtiitreid ei tuvastata\n"
-"1 = igasugune subtiitrite fail<\n"
+"1 = igasugune subtiitrite fail\n"
 "2 = igasugune subtiitrite fail, mis sisaldab filmi nime\n"
 "3 = subtiitrite fail, mis sobib filmi nimega, kuid sisaldab täiendavaid "
 "märke\n"
@@ -4334,11 +4335,11 @@ msgstr "Suurendusteguri vähendamine."
 
 #: src/libvlc-module.c:1448
 msgid "Cycle deinterlace modes"
-msgstr "Ülerelaotusrežiimi vahetamine"
+msgstr "Ülerelaotuse eemaldamise režiimi vahetamine"
 
 #: src/libvlc-module.c:1449
 msgid "Cycle through deinterlace modes."
-msgstr "Ülerelaotusrežiimide vahel vahetamine."
+msgstr "Ülerelaotuse eemaldamise režiimide vahel vahetamine."
 
 #: src/libvlc-module.c:1450
 msgid "Show interface"
@@ -9544,7 +9545,7 @@ msgstr "FFmpeg audio/video enkooder"
 
 #: modules/codec/avcodec/avcodec.c:212
 msgid "FFmpeg deinterlace video filter"
-msgstr "FFmpeg ülerealaotuse videofilter"
+msgstr "FFmpeg ülerealaotuse eemaldamise videofilter"
 
 #: modules/codec/avcodec/avcodec.h:72 modules/codec/avcodec/avcodec.h:74
 msgid "Direct rendering"
@@ -9719,7 +9720,7 @@ msgstr "Video bitikiiruse tolerants kbit/s"
 
 #: modules/codec/avcodec/avcodec.h:157
 msgid "Interlaced encoding"
-msgstr "Üle rea enkoodimine"
+msgstr "Ülerea enkoodimine"
 
 #: modules/codec/avcodec/avcodec.h:158
 msgid "Enable dedicated algorithms for interlaced frames."
@@ -10337,19 +10338,19 @@ msgstr "Pildifaili külgede suhe (4:3, 16:9). Vaikimisi on ruutpiksel."
 
 #: modules/codec/fake.c:70 modules/stream_out/transcode/transcode.c:60
 msgid "Deinterlace video"
-msgstr "Ülerealaotusega video"
+msgstr "Eemaldatud ülerealaotuse video"
 
 #: modules/codec/fake.c:72
 msgid "Deinterlace the image after loading it."
-msgstr "Ülerealaota pilt peale tema laadimist."
+msgstr "Eemalda ülerealaotuse pilt peale tema laadimist."
 
 #: modules/codec/fake.c:73 modules/stream_out/transcode/transcode.c:63
 msgid "Deinterlace module"
-msgstr "Ülerealaotuse moodul"
+msgstr "Ülerealaotuse eemaldamise moodul"
 
 #: modules/codec/fake.c:75
 msgid "Deinterlace module to use."
-msgstr "Kasutatav ülerealaotuse moodul."
+msgstr "Kasutatav ülerealaotuse eemaldamise moodul."
 
 #: modules/codec/fake.c:76 modules/video_output/omapfb.c:82
 #: modules/video_output/yuv.c:44
@@ -12340,11 +12341,11 @@ msgstr "Algupärane suurus"
 
 #: modules/control/hotkeys.c:618
 msgid "Deinterlace off"
-msgstr "Ülerealaotus välja"
+msgstr "Ülerealaotuse eemaldamise välja"
 
 #: modules/control/hotkeys.c:638
 msgid "Deinterlace on"
-msgstr "Ülerealaotus sisse"
+msgstr "Ülerealaotuse eemaldamine sisse"
 
 #: modules/control/hotkeys.c:671
 #, c-format
@@ -12591,7 +12592,7 @@ msgstr "Avamine"
 #: modules/gui/macosx/intf.m:2017 modules/gui/macosx/intf.m:2018
 #: modules/gui/qt4/menus.cpp:793 modules/misc/notify/xosd.c:235
 msgid "Pause"
-msgstr "Pausimine"
+msgstr "Pausi"
 
 #: modules/control/rc.c:74
 msgid "End"
@@ -18445,8 +18446,9 @@ msgid "XSPF playlist (*.xspf)"
 msgstr "XSPF esitusloend (*.xspf)"
 
 #: modules/gui/qt4/dialogs_provider.cpp:559
+#, fuzzy
 msgid "M3U8 playlist (*.m3u8)"
-msgstr "M3U8 esitusloend (*.m3u8)"
+msgstr "M3U8 esitusloend (*.m3u)"
 
 #: modules/gui/qt4/dialogs_provider.cpp:560
 msgid "M3U playlist (*.m3u)"
@@ -18670,11 +18672,11 @@ msgstr "&Kärbi"
 
 #: modules/gui/qt4/menus.cpp:632
 msgid "&Deinterlace"
-msgstr "&Ülerealaotus"
+msgstr "&Ülerealaotuse eemaldamine"
 
 #: modules/gui/qt4/menus.cpp:633
 msgid "&Deinterlace mode"
-msgstr "&Ülerealaotuse režiim"
+msgstr "&Ülerealaotuse eemaldamise režiim"
 
 #: modules/gui/qt4/menus.cpp:634
 msgid "&Post processing"
@@ -18991,7 +18993,7 @@ msgstr "Rakendus käivitub minivaates (ilma menüüdeta)"
 
 #: modules/gui/qt4/qt4.cpp:167
 msgid "Ignore keyboard volume buttons."
-msgstr ""
+msgstr "Eira klaviatuuri helitugevusnuppe."
 
 #: modules/gui/qt4/qt4.cpp:169
 msgid ""
@@ -19000,6 +19002,10 @@ msgid ""
 "unchecked, the volume buttons will change VLC's volume when VLC is selected "
 "and change the system volume when VLC is not selected."
 msgstr ""
+"Kui see valik on valitud, siis helitugevus üles ja alla ning vaigistamise "
+"nupp sinu klaviatuuril muudavad süsteemi helitugevust. Kui see valik ei ole "
+"valitud, siis helitugevuse nupud muudavad VLC helitugevust, kui VLC on "
+"valitud ja süsteemi helitugevust, kui VLC ei ole valitud."
 
 #: modules/gui/qt4/qt4.cpp:176
 msgid "Qt interface"
@@ -19070,6 +19076,8 @@ msgid ""
 "You can disable all transparency effects if you want. This is mainly useful "
 "when moving windows does not behave correctly."
 msgstr ""
+"Soovi korral saad keelata kõik läbipaistvuse efektid. Seda on mõistlik "
+"kasutada, kui akende liigutamine ei toimi korralikult."
 
 #: modules/gui/skins2/src/skin_main.cpp:548
 #: modules/gui/skins2/src/skin_main.cpp:549
@@ -19088,7 +19096,7 @@ msgstr ""
 
 #: modules/gui/skins2/src/skin_main.cpp:578
 msgid "Skins"
-msgstr "Rüü"
+msgstr "Rüüd"
 
 #: modules/gui/skins2/src/skin_main.cpp:579
 msgid "Skinnable Interface"
@@ -19632,6 +19640,7 @@ msgid ""
 "It is possible to apply effects to the rendered text to improve its "
 "readability."
 msgstr ""
+"Renderdatud tekstile on võimalik lisadaefekte, parandamaks tema loetavust."
 
 #: modules/misc/freetype.c:135
 msgid "Background"
@@ -20220,6 +20229,9 @@ msgid ""
 "downloads and allow the user to start previewing the file while it is "
 "downloading."
 msgstr ""
+"Loo \"Fast Start\" failid. \"Fast Start\" failid on allalaadimisteks "
+"optimeeritud ja lubavad kautajal käivitada faili eelvaade juba allalaadimise "
+"ajal."
 
 #: modules/mux/mp4.c:58
 msgid "MP4/MOV muxer"
@@ -20492,13 +20504,15 @@ msgstr "MPEG4 video tükeldaja"
 
 #: modules/packetizer/mpegvideo.c:57
 msgid "Sync on Intra Frame"
-msgstr ""
+msgstr "Sünkroniseeri Intra kaadril"
 
 #: modules/packetizer/mpegvideo.c:58
 msgid ""
 "Normally the packetizer would sync on the next full frame. This flags "
 "instructs the packetizer to sync on the first Intra Frame found."
 msgstr ""
+"Tükeldaja sünkroniseerib tavaliselt järgmisel täiskaadril. See valik laseb "
+"tükeldajal sünkroniseerida esimesel leitud Intra kaadril."
 
 #: modules/packetizer/mpegvideo.c:71
 msgid "MPEG-I/II video packetizer"
@@ -20797,7 +20811,7 @@ msgstr "Viivitus millisekundites, enne kui kohahoidja tööle hakkab."
 
 #: modules/stream_out/bridge.c:76
 msgid "Wait for I frame before toggling placholder"
-msgstr ""
+msgstr "Oota I kaadrit enne kohahoidja lülitamist"
 
 #: modules/stream_out/bridge.c:78
 msgid ""
@@ -20942,11 +20956,11 @@ msgstr "Määra sellele pildipealdisele indetifitseeriv string"
 
 #: modules/stream_out/mosaic_bridge.c:115
 msgid "Sample aspect ratio"
-msgstr "Diskreedi külgede suhe"
+msgstr "Diskreedi külgedesuhe"
 
 #: modules/stream_out/mosaic_bridge.c:117
 msgid "Sample aspect ratio of the destination (1:1, 3:4, 2:3)."
-msgstr ""
+msgstr "Sihtfaili diskreedi külgedesuhe (1:1, 3:4, 2:3)"
 
 #: modules/stream_out/mosaic_bridge.c:119
 #: modules/stream_out/transcode/transcode.c:78
@@ -21030,7 +21044,7 @@ msgstr "RAOP"
 
 #: modules/stream_out/raop.c:162
 msgid "Remote Audio Output Protocol stream output"
-msgstr ""
+msgstr "RAOP (Remote Audio Output Protocol) voo väljund"
 
 #: modules/stream_out/record.c:50
 msgid "Destination prefix"
@@ -21077,6 +21091,8 @@ msgid ""
 "This allows you to specify the muxer used for the streaming output. Default "
 "is to use no muxer (standard RTP stream)."
 msgstr ""
+"See lubab sul määrata voo väljundiks mukserit. Vaikimisi mukserit ei "
+"kasutata (standardne RTP voog)."
 
 #: modules/stream_out/rtp.c:90 modules/stream_out/standard.c:62
 msgid "Session name"
@@ -21086,7 +21102,7 @@ msgstr "Seansi nimi"
 msgid ""
 "This is the name of the session that will be announced in the SDP (Session "
 "Descriptor)."
-msgstr ""
+msgstr "See on seansi nimi, mida teavitatakse SDP-s (Session Descriptor)."
 
 #: modules/stream_out/rtp.c:94 modules/stream_out/standard.c:72
 msgid "Session description"
@@ -21097,6 +21113,8 @@ msgid ""
 "This allows you to give a short description with details about the stream, "
 "that will be announced in the SDP (Session Descriptor)."
 msgstr ""
+"See lubub sul anda lühikese kirjelduse voo detailide kohta, mis teavitatakse "
+"ka SDP-s (Session Descriptor)."
 
 #: modules/stream_out/rtp.c:98 modules/stream_out/standard.c:76
 msgid "Session URL"
@@ -21108,6 +21126,9 @@ msgid ""
 "website of the streaming organization), that will be announced in the SDP "
 "(Session Descriptor)."
 msgstr ""
+"See lubab sul anda voo kohta URL-i rohkemate detailidega (tihti "
+"voogedastusorganisatsiooni veebileht), mis teavitatakse ka SDP-s (Session "
+"Descriptor)."
 
 #: modules/stream_out/rtp.c:103 modules/stream_out/standard.c:81
 msgid "Session email"
@@ -21118,6 +21139,8 @@ msgid ""
 "This allows you to give a contact mail address for the stream, that will be "
 "announced in the SDP (Session Descriptor)."
 msgstr ""
+"See lubab sul anda voole kontaktiks meili aadressi, mis teavitatakse ka SDP-"
+"s (Session Descriptor)."
 
 #: modules/stream_out/rtp.c:107 modules/stream_out/standard.c:85
 msgid "Session phone number"
@@ -21128,6 +21151,8 @@ msgid ""
 "This allows you to give a contact telephone number for the stream, that will "
 "be announced in the SDP (Session Descriptor)."
 msgstr ""
+"See lubub sul anda voole kontakstiks telefoninumbri, mis teavitatakse ka SDP-"
+"s (Session Descriptor)."
 
 #: modules/stream_out/rtp.c:114
 msgid "This allows you to specify the base port for the RTP streaming."
@@ -21183,6 +21208,8 @@ msgid ""
 "RTP packets will be integrity-protected and ciphered with this Secure RTP "
 "master shared secret key."
 msgstr ""
+"RDP paketid on terviklikkuse kontrolliga ja krüpteeritud selle turvalise RTP "
+"primaarse jagatud salajase võtmega."
 
 #: modules/stream_out/rtp.c:159
 msgid "MP4A LATM"
@@ -21205,6 +21232,8 @@ msgid ""
 "Address of the video prerender callback functionthis function will set the "
 "buffer where render will be done"
 msgstr ""
+"Video eelrenderduse väljakutsefunktsiooni aadress. See funktsioon määrab "
+"puhvri, kus renderdamine toimub."
 
 #: modules/stream_out/smem.c:64
 msgid "Audio prerender callback"
@@ -21215,6 +21244,8 @@ msgid ""
 "Address of the audio prerender callback function.this function will set the "
 "buffer where render will be done"
 msgstr ""
+"Audio eelrenderduse väljakutsefunktsiooni aadress. See funktsioon määrab "
+"puhvri, kus renderdamine toimub."
 
 #: modules/stream_out/smem.c:68
 msgid "Video postrender callback"
@@ -21225,6 +21256,8 @@ msgid ""
 "Address of the video postrender callback function.this function will be "
 "called when the render is into the buffer"
 msgstr ""
+"Video järelrenderduse väljakutsefunktsiooni aadress. See funktsioon "
+"kutsutakse siis, kui renderdus jõuab puhvrisse."
 
 #: modules/stream_out/smem.c:72
 msgid "Audio postrender callback"
@@ -21235,6 +21268,8 @@ msgid ""
 "Address of the audio postrender callback function.this function will be "
 "called when the render is into the buffer"
 msgstr ""
+"Audio järelrenderduse väljakutsefunktsiooni aadress. See funktsioon "
+"kutsutakse siis, kui renderdus jõuab puhvrisse"
 
 #: modules/stream_out/smem.c:76
 msgid "Video Callback data"
@@ -21261,6 +21296,8 @@ msgid ""
 "Time Synchronisation option for output. If true, stream will render as "
 "usual, else it will be rendered as fast as possible."
 msgstr ""
+"Aja sünkroniseerimise väljundi valikud. Kui tõene, siis renderdatakse nagu "
+"tavaliselt, vastasel korral renderdatakse nii kiiresti, kui võimalik."
 
 #: modules/stream_out/smem.c:95
 msgid "Smem"
@@ -21286,10 +21323,11 @@ msgstr "Väljundi sihtkoht"
 msgid ""
 "Destination (URL) to use for the stream. Overrides path and bind parameters"
 msgstr ""
+"Kasutatav voo sihtkoht (URL). Tühistab asukoha ja sidumise parameetrid."
 
 #: modules/stream_out/standard.c:54
 msgid "address to bind to (helper setting for dst)"
-msgstr ""
+msgstr "aadress, kuhu siduda (dst abistaja seaded)"
 
 #: modules/stream_out/standard.c:56
 msgid ""
@@ -21299,7 +21337,7 @@ msgstr ""
 
 #: modules/stream_out/standard.c:58
 msgid "filename for stream (helper setting for dst)"
-msgstr ""
+msgstr "voo failinimi (dst abistaja seaded)"
 
 #: modules/stream_out/standard.c:60
 msgid ""
@@ -21316,6 +21354,8 @@ msgid ""
 "This allows you to specify a group for the session, that will be announced "
 "if you choose to use SAP."
 msgstr ""
+"See lubab sul määrata grupi seansiks, mis teavitatakse, kui valid "
+"kasutamiseks SAP-i."
 
 #: modules/stream_out/standard.c:101
 msgid "Standard stream output"
@@ -21393,7 +21433,7 @@ msgstr "Video enkooder"
 msgid ""
 "This is the video encoder module that will be used (and its associated "
 "options)."
-msgstr ""
+msgstr "See on kasutatav video enkoodri moodul (ja temaga seotud valikud)."
 
 #: modules/stream_out/transcode/transcode.c:48
 msgid "Destination video codec"
@@ -21430,11 +21470,11 @@ msgstr "Videovoo väljundi sihtkaadrikiirus."
 
 #: modules/stream_out/transcode/transcode.c:62
 msgid "Deinterlace the video before encoding."
-msgstr "Laota video üle rea enne enkoodimist."
+msgstr "Eemalda video ülerealaotus enne enkoodimist."
 
 #: modules/stream_out/transcode/transcode.c:65
 msgid "Specify the deinterlace module to use."
-msgstr "Määra kasutatav ülerealaotuse moodul."
+msgstr "Määra kasutatav ülerealaotuse eemaldamise moodul."
 
 #: modules/stream_out/transcode/transcode.c:72
 msgid "Maximum video width"
@@ -21457,6 +21497,8 @@ msgid ""
 "Video filters will be applied to the video streams (after overlays are "
 "applied). You can enter a colon-separated list of filters."
 msgstr ""
+"Videofiltrid rakendatakse videovoole (peale ülekatete rakendamist). Võid "
+"sisestada kooloniga eraldatud nimekirja filtridest."
 
 #: modules/stream_out/transcode/transcode.c:83
 msgid "Audio encoder"
@@ -21466,7 +21508,7 @@ msgstr "Audio enkooder"
 msgid ""
 "This is the audio encoder module that will be used (and its associated "
 "options)."
-msgstr ""
+msgstr "See on kasutatav audio enkoodri moodul (ja temaga seotud valikud)."
 
 #: modules/stream_out/transcode/transcode.c:87
 msgid "Destination audio codec"
@@ -21511,6 +21553,8 @@ msgid ""
 "Audio filters will be applied to the audio streams (after conversion filters "
 "are applied). You can enter a colon-separated list of filters."
 msgstr ""
+"Audiofiltrid rakendatakse audiovoogudele (peale teisenduste filtrite "
+"rakendamist). Võid sisestada kooloniga eraldatud nimekirja filtridest."
 
 #: modules/stream_out/transcode/transcode.c:107
 msgid "Subtitles encoder"
@@ -21521,6 +21565,7 @@ msgid ""
 "This is the subtitles encoder module that will be used (and its associated "
 "options)."
 msgstr ""
+"See on kasutatav subtiitrite enkoodri moodul (ja temaga seatud valikud)."
 
 #: modules/stream_out/transcode/transcode.c:111
 msgid "Destination subtitles codec"
@@ -21528,7 +21573,7 @@ msgstr "Sihi subtiitrite koodek"
 
 #: modules/stream_out/transcode/transcode.c:113
 msgid "This is the subtitles codec that will be used."
-msgstr "Seda subtiitrite koodekit kasutatakse."
+msgstr "See on kasutatav subtiitrite koodek."
 
 #: modules/stream_out/transcode/transcode.c:117
 msgid ""
@@ -21537,6 +21582,10 @@ msgid ""
 "overlayed directly onto the video. You can specify a colon-separated list of "
 "subpicture modules"
 msgstr ""
+"See lubab sul lisada ülekatteid (tuntud ka kui \"pildipealis\") "
+"transkodeeritud videovoole. Filtrite poolt loodud pildipealised asetatakse "
+"otse video peale. Võid määrata kooloniga eraldatud nimekirja pildipealiste "
+"moodulidest."
 
 #: modules/stream_out/transcode/transcode.c:122
 #: modules/video_filter/osdmenu.c:118
@@ -21546,7 +21595,7 @@ msgstr "OSD-menüü"
 #: modules/stream_out/transcode/transcode.c:124
 msgid ""
 "Stream the On Screen Display menu (using the osdmenu subpicture module)."
-msgstr ""
+msgstr "Voogedasta OSD menüü (kasutades osdmenu alampildi moodulit)."
 
 #: modules/stream_out/transcode/transcode.c:126
 msgid "Number of threads"
@@ -21574,12 +21623,16 @@ msgid ""
 "This option will drop/duplicate video frames to synchronise the video track "
 "on the audio track."
 msgstr ""
+"See valik hülgab/kloonib videokaadreid, et hoida video ja audio rajad "
+"sünkroonis."
 
 #: modules/stream_out/transcode/transcode.c:140
 msgid ""
 "The transcoder will drop frames if your CPU can't keep up with the encoding "
 "rate."
 msgstr ""
+"Transkooder hülgab kaadreid, kui sinu arvuti CPU ei suuda enkodeerimise "
+"kiirusega sammu pidada."
 
 #: modules/stream_out/transcode/transcode.c:155
 msgid "Transcode stream output"
@@ -21628,6 +21681,8 @@ msgid ""
 "When this mode is enabled, pixels will be shown as black or white. The "
 "threshold value will be the brighness defined below."
 msgstr ""
+"Kui see režiim on võimaldatud, siis kuvatakse pikslid musta või valgena. "
+"Läve väärtus on allpool määratud heleduse väärtus."
 
 #: modules/video_filter/adjust.c:68
 msgid "Image contrast (0-2)"
@@ -21679,7 +21734,7 @@ msgstr "Pildi kohendamine"
 
 #: modules/video_filter/alphamask.c:39
 msgid "Use an image's alpha channel as a transparency mask."
-msgstr ""
+msgstr "Kasuta pildi alfaknalit, kui läbipaistvuse maski."
 
 #: modules/video_filter/alphamask.c:41
 msgid "Transparency mask"
@@ -21687,11 +21742,11 @@ msgstr "Läbipaistvuse mask"
 
 #: modules/video_filter/alphamask.c:43
 msgid "Alpha blending transparency mask. Uses a png alpha channel."
-msgstr ""
+msgstr "Alfakanali suldandumise mask. Kasutab png alfakanalit."
 
 #: modules/video_filter/alphamask.c:62
 msgid "Alpha mask video filter"
-msgstr ""
+msgstr "Alfakanali maski videofilter"
 
 #: modules/video_filter/alphamask.c:63
 msgid "Alpha mask"
@@ -21712,6 +21767,19 @@ msgid ""
 "You can also have a look at pictures and some movies showing such a device "
 "in live action."
 msgstr ""
+"See moodul lubab sul juhtida arvutiga ühendatud niinimetatud AtmoLight "
+"seadet.\n"
+"AtmoLight on kodukootud versioon seadmest, mida Phillips kutsub AmbiLight-"
+"ks.\n"
+"Kui soovid enam informatsiooni, siis külasta meid lehtedel:\n"
+"\n"
+"http://www.vdr-wiki.de/wiki/index.php/Atmo-plugin\n"
+"http://www.vdr-wiki.de/wiki/index.php/AtmoWin\n"
+"\n"
+"Sealt leida detailset infot, kuidas seadet ise ehitada ja kust saada "
+"vajalikke komponente.\n"
+"Samuti saad vaadata pilte ja mõningaid videosid, mis näitavad sellist seadet "
+"tegevuses."
 
 #: modules/video_filter/atmo/atmo.cpp:135
 msgid "Device type"
@@ -21722,6 +21790,8 @@ msgid ""
 "Choose your preferred hardware from the list, or choose AtmoWin Software to "
 "delegate processing to the external process - with more options"
 msgstr ""
+"Vali nimekirjas oma eelistatud riistvara või vali AtmoWin tarkvara, et "
+"delegeerida töötlemine välisele protsessile - koos enamate valikutega."
 
 #: modules/video_filter/atmo/atmo.cpp:153
 msgid "AtmoWin Software"
@@ -21753,17 +21823,19 @@ msgstr "AtmoLight kanalite arv"
 
 #: modules/video_filter/atmo/atmo.cpp:163
 msgid "How many AtmoLight channels, should be emulated with that DMX device"
-msgstr ""
+msgstr "Kui mitu AtmoLight kanalit peaks selle DMX seadmega emuleerima"
 
 #: modules/video_filter/atmo/atmo.cpp:165
 msgid "DMX address for each channel"
-msgstr ""
+msgstr "DMX aadress igale kanalile"
 
 #: modules/video_filter/atmo/atmo.cpp:166
 msgid ""
 "Define here the DMX base address for each channel use , or ; to separate the "
 "values"
 msgstr ""
+"Siin määra iga kasutatava kanali DMX baasaadress. Kasuta , või ; eraldamaks "
+"väärtusi"
 
 #: modules/video_filter/atmo/atmo.cpp:169
 msgid "Count of channels"
@@ -21771,7 +21843,7 @@ msgstr "Kanalite arv"
 
 #: modules/video_filter/atmo/atmo.cpp:170
 msgid "Depending on your MoMoLight hardware choose 3 or 4 channels"
-msgstr ""
+msgstr "Sõltuvalt sinu riistvarast vali 3 või 4 kanalit"
 
 #: modules/video_filter/atmo/atmo.cpp:173
 msgid "Count of fnordlicht's"
@@ -21779,7 +21851,7 @@ msgstr "fnordlicht-de arv"
 
 #: modules/video_filter/atmo/atmo.cpp:174
 msgid "Depending on the amount your fnordlicht hardware choose 1 to 4 channels"
-msgstr ""
+msgstr "Sõltuvalt sinu fnordlicht riistvara kogusest vali 1 kuni 4 kanalit"
 
 #: modules/video_filter/atmo/atmo.cpp:185
 msgid "Save Debug Frames"
@@ -21795,23 +21867,23 @@ msgstr "Silumiskaadrite kaust"
 
 #: modules/video_filter/atmo/atmo.cpp:188
 msgid "The path where the debugframes should be saved"
-msgstr ""
+msgstr "Asukoht, kuhu silumiskaadrid tuleks salvestada"
 
 #: modules/video_filter/atmo/atmo.cpp:192
 msgid "Extracted Image Width"
-msgstr ""
+msgstr "Eraldatud pildi laius"
 
 #: modules/video_filter/atmo/atmo.cpp:193
 msgid "The width of the mini image for further processing (64 is default)"
-msgstr ""
+msgstr "Minipildi laius edasiseks töötlemiseks (vaikimisi 64)"
 
 #: modules/video_filter/atmo/atmo.cpp:196
 msgid "Extracted Image Height"
-msgstr ""
+msgstr "Eraldatud pildi kõrgus"
 
 #: modules/video_filter/atmo/atmo.cpp:197
 msgid "The height of the mini image for further processing (48 is default)"
-msgstr ""
+msgstr "Minipildi kõrgus edasiseks töötlemiseks (vaikimisi 48)"
 
 #: modules/video_filter/atmo/atmo.cpp:200
 msgid "Mark analyzed pixels"
@@ -21819,7 +21891,7 @@ msgstr "Analüüsitud pikslite märkimine"
 
 #: modules/video_filter/atmo/atmo.cpp:201
 msgid "makes the sample grid visible on screen as white pixels"
-msgstr ""
+msgstr "muudab näidisvõrgu ekraanil nähtavaks, kui valged pikslid"
 
 #: modules/video_filter/atmo/atmo.cpp:204
 msgid "Color when paused"
@@ -21857,12 +21929,12 @@ msgstr "Pausi värvi sinine komponent"
 
 #: modules/video_filter/atmo/atmo.cpp:214
 msgid "Pause-Fadesteps"
-msgstr ""
+msgstr "Paus-hajumissamm"
 
 #: modules/video_filter/atmo/atmo.cpp:215
 msgid ""
 "Number of steps to change current color to pause color (each step takes 40ms)"
-msgstr ""
+msgstr "Sammude arv muutamks aktiine värv pausivärviks (iga samm on 40 ms)"
 
 #: modules/video_filter/atmo/atmo.cpp:218
 msgid "End-Red"
@@ -21890,7 +21962,7 @@ msgstr "Seiskamise värvi sinine komponent"
 
 #: modules/video_filter/atmo/atmo.cpp:224
 msgid "End-Fadesteps"
-msgstr ""
+msgstr "Lõpu hajumissamm"
 
 #: modules/video_filter/atmo/atmo.cpp:225
 msgid ""
@@ -21920,7 +21992,7 @@ msgstr "Tsoone vasakul / paremal pool"
 
 #: modules/video_filter/atmo/atmo.cpp:234
 msgid "left and right side having allways the same number of zones"
-msgstr ""
+msgstr "vasakul ja paremal poolel on alati sama arv tsoone"
 
 #: modules/video_filter/atmo/atmo.cpp:236
 msgid "Calculate a average zone"
@@ -21934,7 +22006,7 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:242
 msgid "Use Software White adjust"
-msgstr ""
+msgstr "Kasuta tarkvaralist valge kohandamist"
 
 #: modules/video_filter/atmo/atmo.cpp:243
 msgid ""
@@ -22154,7 +22226,7 @@ msgstr "Tsoon 4: summaarne üleminek"
 #: modules/video_filter/atmo/atmo.cpp:345
 msgid ""
 "Defines a small bitmap with 64x48 pixels, containing a grayscale gradient"
-msgstr ""
+msgstr "Määrab väikese, hallskaala üleminekuga, 64x48 pikslit pikselrastri."
 
 #: modules/video_filter/atmo/atmo.cpp:348
 msgid "Gradient bitmap searchpath"
@@ -22220,7 +22292,7 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:535
 msgid "Change channel assignment (fixes wrong wiring)"
-msgstr ""
+msgstr "Muuda kanali määratlust (paranda vale kaabelduse)"
 
 #: modules/video_filter/atmo/atmo.cpp:568
 msgid "Adjust the white light to your LED stripes"
@@ -22279,12 +22351,12 @@ msgstr ""
 
 #: modules/video_filter/audiobargraph_v.c:66
 msgid "Bar width in pixel (default : 10)"
-msgstr ""
+msgstr "Riba laius pikslites (vaikimisi : 10)"
 
 #: modules/video_filter/audiobargraph_v.c:67
 msgid ""
 "Width in pixel of each bar in the BarGraph to be displayed (default : 10)."
-msgstr ""
+msgstr "Kuvatava BarGraph-i iga riba laius pikslites (vaikimisi : 10)."
 
 #: modules/video_filter/audiobargraph_v.c:88
 #: modules/video_filter/audiobargraph_v.c:106
@@ -22301,7 +22373,7 @@ msgstr "Palli värv"
 
 #: modules/video_filter/ball.c:110
 msgid "Ball color, one of \"red\", \"blue\" and \"green\"."
-msgstr ""
+msgstr "Palli värv. Üks järgmistest: \"punane\", \"sinine\" või \"roheline\"."
 
 #: modules/video_filter/ball.c:112
 msgid "Edge visible"
@@ -22365,7 +22437,7 @@ msgstr ""
 
 #: modules/video_filter/blendbench.c:54
 msgid "Alpha of the blended image"
-msgstr ""
+msgstr "Sulandatava pildi alfakanal"
 
 #: modules/video_filter/blendbench.c:55
 msgid "Alpha with which the blend image is blended"
@@ -22373,7 +22445,7 @@ msgstr ""
 
 #: modules/video_filter/blendbench.c:57
 msgid "Image to be blended onto"
-msgstr ""
+msgstr "Pilt, millesse sulanduda"
 
 #: modules/video_filter/blendbench.c:58
 msgid "The image which will be used to blend onto"
@@ -22381,7 +22453,7 @@ msgstr ""
 
 #: modules/video_filter/blendbench.c:60
 msgid "Chroma for the base image"
-msgstr ""
+msgstr "Baaspildi värviformaat"
 
 #: modules/video_filter/blendbench.c:61
 msgid "Chroma which the base image will be loaded in"
@@ -22389,7 +22461,7 @@ msgstr ""
 
 #: modules/video_filter/blendbench.c:63
 msgid "Image which will be blended"
-msgstr ""
+msgstr "Pild, mida sulandatakse"
 
 #: modules/video_filter/blendbench.c:64
 msgid "The image blended onto the base image"
@@ -22405,7 +22477,7 @@ msgstr ""
 
 #: modules/video_filter/blendbench.c:73
 msgid "Blending benchmark filter"
-msgstr ""
+msgstr "Sulandamise jõudlusefilter"
 
 #: modules/video_filter/blendbench.c:74
 msgid "Blendbench"
@@ -22413,7 +22485,7 @@ msgstr ""
 
 #: modules/video_filter/blendbench.c:79
 msgid "Benchmarking"
-msgstr ""
+msgstr "Jõudluse võrdlemine"
 
 #: modules/video_filter/blendbench.c:85
 msgid "Base image"
@@ -22485,7 +22557,7 @@ msgstr "Väljundi laius"
 
 #: modules/video_filter/canvas.c:85
 msgid "Output (canvas) image width"
-msgstr ""
+msgstr "Väljundpildi (lõuendi) laius"
 
 #: modules/video_filter/canvas.c:86
 msgid "Output height"
@@ -22493,7 +22565,7 @@ msgstr "Väljundi kõrgus"
 
 #: modules/video_filter/canvas.c:88
 msgid "Output (canvas) image height"
-msgstr ""
+msgstr "Väljundpildi (lõuendi) kõrgus"
 
 #: modules/video_filter/canvas.c:89
 msgid "Output picture aspect ratio"
@@ -22537,7 +22609,7 @@ msgstr "Kloonide arv"
 
 #: modules/video_filter/clone.c:40
 msgid "Number of video windows in which to clone the video."
-msgstr ""
+msgstr "Videoakende arv, kuhu pilti kloonida."
 
 #: modules/video_filter/clone.c:43
 msgid "Video output modules"
@@ -22592,7 +22664,7 @@ msgstr "Sarnasuse lävi"
 
 #: modules/video_filter/crop.c:73
 msgid "Crop geometry (pixels)"
-msgstr ""
+msgstr "Kärpimise geomeetria (pikslites)"
 
 #: modules/video_filter/crop.c:74
 msgid ""
@@ -22606,7 +22678,7 @@ msgstr "Automaatne kärpimine"
 
 #: modules/video_filter/crop.c:77
 msgid "Automatically detect black borders and crop them."
-msgstr ""
+msgstr "Automaatselt tuvasta mustad ääres ja kärbi need."
 
 #: modules/video_filter/crop.c:79
 msgid "Remove borders of the video and replace them by black borders"
@@ -22625,7 +22697,7 @@ msgstr ""
 
 #: modules/video_filter/crop.c:85
 msgid "Manual ratio"
-msgstr ""
+msgstr "Manuaalne külgedesuhe"
 
 #: modules/video_filter/crop.c:86
 msgid "Force a ratio (0 for automatic). Value is x1000: 1333 means 4/3."
@@ -22654,7 +22726,7 @@ msgstr ""
 
 #: modules/video_filter/crop.c:94
 msgid "Number of non black pixels "
-msgstr ""
+msgstr "Mitte-mustade pikslite arv "
 
 #: modules/video_filter/crop.c:95
 msgid ""
@@ -22770,19 +22842,19 @@ msgstr "Padd"
 
 #: modules/video_filter/deinterlace.c:119
 msgid "Deinterlace method to use for local playback."
-msgstr "Ülerealaotus kohalikul esitusel."
+msgstr "Ülerealaotuse eemaldamine kohalikul esitusel."
 
 #: modules/video_filter/deinterlace.c:121
 msgid "Streaming deinterlace mode"
-msgstr "Ülerealaotus voogedastusel"
+msgstr "Ülerealaotuse eemaldamine voogedastusel"
 
 #: modules/video_filter/deinterlace.c:122
 msgid "Deinterlace method to use for streaming."
-msgstr "Voogedastusel kasutatav ülerealaotuse meetod."
+msgstr "Voogedastusel kasutatav ülerealaotuse eemaldamise meetod."
 
 #: modules/video_filter/deinterlace.c:132
 msgid "Deinterlacing video filter"
-msgstr "Ülerealaotuse videofilter"
+msgstr "Ülerealaotuse eemaldamise videofilter"
 
 #: modules/video_filter/dynamicoverlay/dynamicoverlay.c:60
 msgid "Input FIFO"
@@ -23520,7 +23592,7 @@ msgstr "ülekattuva ala pikkus (%)"
 
 #: modules/video_filter/panoramix.c:90
 msgid "Select in percent the length of the blended zone"
-msgstr "Vali sulandatud tsooni pikkus protsentides"
+msgstr "Vali ühistsooni pikkus protsentides"
 
 #: modules/video_filter/panoramix.c:93
 msgid "height of the overlapping area (in %)"
@@ -23528,7 +23600,7 @@ msgstr "ülekattuva ala kõrgus (%)"
 
 #: modules/video_filter/panoramix.c:94
 msgid "Select in percent the height of the blended zone (case of 2x2 wall)"
-msgstr "Vali sulandatud tsooni kõrgus protsentides (2x2 sein)"
+msgstr "Vali ühistsooni kõrgus protsentides (2x2 sein)"
 
 #: modules/video_filter/panoramix.c:97
 msgid "Attenuation"
@@ -23539,8 +23611,8 @@ msgid ""
 "Check this option if you want attenuate blended zone by this plug-in (if "
 "option is unchecked, attenuate is made by opengl)"
 msgstr ""
-"Vali see valik, kui soovid suldandatud tsooni selle pluginaga nõrgendada "
-"(kui valik pole valitud, siis nõrgenemine toimub opengl-is)"
+"Vali see valik, kui soovid ühistsooni selle pluginaga nõrgendada (kui valik "
+"pole valitud, siis nõrgenemine toimub opengl-is)"
 
 #: modules/video_filter/panoramix.c:101
 msgid "Attenuation, begin (in %)"
@@ -23548,7 +23620,7 @@ msgstr "Nõrgenemine, algus (%)"
 
 #: modules/video_filter/panoramix.c:102
 msgid "Select in percent the Lagrange coeff of the beginning blended zone"
-msgstr "Vali sulandunud tsooni alguse Lagrange koefitsent protsentides"
+msgstr "Vali ühistsooni alguse Lagrange koefitsent protsentides"
 
 #: modules/video_filter/panoramix.c:105
 msgid "Attenuation, middle (in %)"
@@ -23556,7 +23628,7 @@ msgstr "Nõrgenemise, keskel (%)"
 
 #: modules/video_filter/panoramix.c:106
 msgid "Select in percent the Lagrange coeff of the middle of blended zone"
-msgstr "Vali sulandunud tsooni keskosa Lagrange koefitsent protsentides"
+msgstr "Vali ühistsooni keskosa Lagrange koefitsent protsentides"
 
 #: modules/video_filter/panoramix.c:109
 msgid "Attenuation, end (in %)"
@@ -23564,7 +23636,7 @@ msgstr "Nõrgenemine, lõpp (%)"
 
 #: modules/video_filter/panoramix.c:110
 msgid "Select in percent the Lagrange coeff of the end of blended zone"
-msgstr "Vali sulandunud tsooni lõpu Lagrange koefitsent protsentides"
+msgstr "Vali ühistsooni lõpu Lagrange koefitsent protsentides"
 
 #: modules/video_filter/panoramix.c:113
 msgid "middle position (in %)"
@@ -23575,8 +23647,7 @@ msgid ""
 "Select in percent (50 is center) the position of the middle point (Lagrange) "
 "of blended zone"
 msgstr ""
-"Vali segatud tsooni keskpunkti (Lagrange) positsioon protsentides (50 on "
-"keskel)"
+"Vali ühistsooni keskpunkti (Lagrange) positsioon protsentides (50 on keskel)"
 
 #: modules/video_filter/panoramix.c:116
 msgid "Gamma (Red) correction"
@@ -23585,7 +23656,7 @@ msgstr "Gamma parandus (punane)"
 #: modules/video_filter/panoramix.c:117
 msgid ""
 "Select the gamma for the correction of blended zone (Red or Y component)"
-msgstr "Vali segatud tsooni gamma parandus (punane või Y komponent)"
+msgstr "Vali ühistsooni gamma parandus (punane või Y komponent)"
 
 #: modules/video_filter/panoramix.c:120
 msgid "Gamma (Green) correction"
@@ -23594,7 +23665,7 @@ msgstr "Gamma parandus (roheline)"
 #: modules/video_filter/panoramix.c:121
 msgid ""
 "Select the gamma for the correction of blended zone (Green or U component)"
-msgstr "Vali segatud tsooni gamma parandus (roheline või U komponent)"
+msgstr "Vali ühistsooni gamma parandus (roheline või U komponent)"
 
 #: modules/video_filter/panoramix.c:124
 msgid "Gamma (Blue) correction"
@@ -23607,51 +23678,51 @@ msgstr "Vali segatud tsooni gamma parandus (sinine või V komponent)"
 
 #: modules/video_filter/panoramix.c:128
 msgid "Black Crush for Red"
-msgstr ""
+msgstr "Punase kanali adaptiivne mustpunkt"
 
 #: modules/video_filter/panoramix.c:129
 msgid "Select the Black Crush of blended zone (Red or Y component)"
-msgstr ""
+msgstr "Vali ühistsooni mustpunkti adaptimisviis (punane või Y component)"
 
 #: modules/video_filter/panoramix.c:130
 msgid "Black Crush for Green"
-msgstr ""
+msgstr "Rohelise kanali adaptiive mustpunkt"
 
 #: modules/video_filter/panoramix.c:131
 msgid "Select the Black Crush of blended zone (Green or U component)"
-msgstr ""
+msgstr "Vali ühistsooni mustpunkti adaptimisviis (roheline või U komponent)"
 
 #: modules/video_filter/panoramix.c:132
 msgid "Black Crush for Blue"
-msgstr ""
+msgstr "Sinise kanali adaptiivne mustpunkt"
 
 #: modules/video_filter/panoramix.c:133
 msgid "Select the Black Crush of blended zone (Blue or V component)"
-msgstr ""
+msgstr "Vali ühistsooni mustpunkti adaptimisviis (sinine või V komponent)"
 
 #: modules/video_filter/panoramix.c:135
 msgid "White Crush for Red"
-msgstr ""
+msgstr "Punase kanali adaptiive valgepunkt"
 
 #: modules/video_filter/panoramix.c:136
 msgid "Select the White Crush of blended zone (Red or Y component)"
-msgstr ""
+msgstr "Vali ühistsooni valgepunkti adaptimisviis (punane või Y komponent)"
 
 #: modules/video_filter/panoramix.c:137
 msgid "White Crush for Green"
-msgstr ""
+msgstr "Rohelise kanali valgepunkt"
 
 #: modules/video_filter/panoramix.c:138
 msgid "Select the White Crush of blended zone (Green or U component)"
-msgstr ""
+msgstr "Vali ühistsooni valgepunkti adaptimisviis (roheline või U komponent)"
 
 #: modules/video_filter/panoramix.c:139
 msgid "White Crush for Blue"
-msgstr ""
+msgstr "Sinise kanali valgepunkt"
 
 #: modules/video_filter/panoramix.c:140
 msgid "Select the White Crush of blended zone (Blue or V component)"
-msgstr ""
+msgstr "Vali ühistsooni valgepunkti adaptimisviis (sinine või V komponent)"
 
 #: modules/video_filter/panoramix.c:142
 msgid "Black Level for Red"
@@ -23659,7 +23730,7 @@ msgstr "Musta nivoo punase jaoks"
 
 #: modules/video_filter/panoramix.c:143
 msgid "Select the Black Level of blended zone (Red or Y component)"
-msgstr "Vali segatud tsooni musta nivoo (punane või Y komponent)"
+msgstr "Vali ühistsooni musta nivoo (punane või Y komponent)"
 
 #: modules/video_filter/panoramix.c:144
 msgid "Black Level for Green"
@@ -23667,7 +23738,7 @@ msgstr "Musta nivoo rohelise jaoks"
 
 #: modules/video_filter/panoramix.c:145
 msgid "Select the Black Level of blended zone (Green or U component)"
-msgstr "Vali segatud tsooni must nivoo (roheline või U komponent)"
+msgstr "Vali ühistsooni must nivoo (roheline või U komponent)"
 
 #: modules/video_filter/panoramix.c:146
 msgid "Black Level for Blue"
@@ -23675,7 +23746,7 @@ msgstr "Musta nivoo sinise jaoks"
 
 #: modules/video_filter/panoramix.c:147
 msgid "Select the Black Level of blended zone (Blue or V component)"
-msgstr "Vali segatud tsooni musta nivoo (sinine või V komponent)"
+msgstr "Vali ühistsooni musta nivoo (sinine või V komponent)"
 
 #: modules/video_filter/panoramix.c:149
 msgid "White Level for Red"
@@ -23683,7 +23754,7 @@ msgstr "Valge nivoo punase jaoks"
 
 #: modules/video_filter/panoramix.c:150
 msgid "Select the White Level of blended zone (Red or Y component)"
-msgstr "Vali segatud tsooni valge nivoo (punane või Y komponent)"
+msgstr "Vali ühistsooni valge nivoo (punane või Y komponent)"
 
 #: modules/video_filter/panoramix.c:151
 msgid "White Level for Green"
@@ -23691,7 +23762,7 @@ msgstr "Valge nivoo rohelise jaoks"
 
 #: modules/video_filter/panoramix.c:152
 msgid "Select the White Level of blended zone (Green or U component)"
-msgstr "Vali segatud tsooni valge nivoo (roheline või U komponent)"
+msgstr "Vali ühistsooni valge nivoo (roheline või U komponent)"
 
 #: modules/video_filter/panoramix.c:153
 msgid "White Level for Blue"
@@ -23699,7 +23770,7 @@ msgstr "Valge nivoo sinise jaoks"
 
 #: modules/video_filter/panoramix.c:154
 msgid "Select the White Level of blended zone (Blue or V component)"
-msgstr "Vali segatud tsooni valge nivoo (sinine või V komponent)"
+msgstr "Vali ühistsooni valge nivoo (sinine või V komponent)"
 
 #: modules/video_filter/postproc.c:60
 msgid "Post processing quality"
@@ -25481,7 +25552,7 @@ msgstr "Taustapildi režiim lubatud"
 
 #: modules/gui/qt4/ui/sprefs_video.h:322
 msgid "Deinterlacing"
-msgstr "Ülerealaotus"
+msgstr "Ülerealaotuse eemaldamine"
 
 #: modules/gui/qt4/ui/sprefs_video.h:323
 msgid "Force Aspect Ratio"
