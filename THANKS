@@ -82,6 +82,7 @@ Colin Simmonds <colin_simmonds at Mac.lover.org> - compile fix for Mac OS X
 Cristian Secară <cristi at secarica dot ro> - Romanian l10n
 Cyril Mathé <cmathe at actech-innovation dot com> - WebPlugin features and improvements
 Damian Ivereigh <damian at cisco.com> - ac3dec uninitialized data structure fix
+Damien Erambert <damien dot erambert at me dot com> - Mac OS X button graphics (v1.1.8)
 Daniel Dreibrodt, aka aLtgLasS <daniel d.t dreibrodt -@t- gmx d0t de> - VLC 0.8.5 default skin, skins, design and help on the forum and the wiki
 Daniel Fischer <dan at subsignal dot org> - Shoutcast output support
 Daniel Nylander <info @t danielnylander at se> - Swedish translation
