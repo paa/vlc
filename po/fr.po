@@ -6558,7 +6558,7 @@ msgstr "%.1f MHz (%d services)"
 
 #: modules/access/dvb/scan.c:327
 msgid "Scanning DVB"
-msgstr "Recherche DVB-T"
+msgstr "Recherche DVB"
 
 #: modules/access/dvdnav.c:68 modules/access/dvdread.c:70
 msgid "DVD angle"
