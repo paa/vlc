@@ -586,9 +586,8 @@ describe:
                     &i_code );
         else
         {
-            const char *psz_tmp = strstr( psz_error, "RTSP" );
-            if( psz_tmp )
-                sscanf( psz_tmp, "RTSP/%*s%3u", &i_code );
+            if( strstr( psz_error, "401" ) )
+                i_code = 401;
             else
                 i_code = 0;
         }
@@ -739,8 +738,7 @@ static int SessionsSetup( demux_t *p_demux )
                 {
                     /* if we get an unsupported transport error, toggle TCP
                      * use and try again */
-                    if( !strstr(p_sys->env->getResultMsg(),
-                                "461 Unsupported Transport")
+                    if( !strstr(p_sys->env->getResultMsg(),"461")
                         || !p_sys->rtsp->setupMediaSubsession( *sub, False,
                                                !toBool( b_rtsp_tcp ), False ) )
                     {
