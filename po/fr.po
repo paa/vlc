@@ -21175,7 +21175,7 @@ msgstr "Découverte Universal Plug'n'Play"
 #: modules/services_discovery/xcb_apps.c:84
 #: modules/services_discovery/xcb_apps.c:149
 msgid "Screen capture"
-msgstr "Entrée capture d'écran"
+msgstr "Capture d'écran"
 
 #: modules/services_discovery/xcb_apps.c:150
 msgid "Your window manager does not provide a list of applications."
