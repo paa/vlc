@@ -1600,6 +1600,7 @@ static void DecoderPlaySpu( decoder_t *p_dec, subpicture_t *p_subpic,
     }
 }
 
+#ifdef ENABLE_SOUT
 static void DecoderPlaySout( decoder_t *p_dec, block_t *p_sout_block,
                              bool b_telx )
 {
@@ -1670,6 +1671,7 @@ static void DecoderPlaySout( decoder_t *p_dec, block_t *p_sout_block,
         }
     }
 }
+#endif
 
 /* */
 static void DecoderFlushBuffering( decoder_t *p_dec )
@@ -1728,6 +1730,7 @@ static void DecoderFlushBuffering( decoder_t *p_dec )
     }
 }
 
+#ifdef ENABLE_SOUT
 /* This function process a block for sout
  */
 static void DecoderProcessSout( decoder_t *p_dec, block_t *p_block )
@@ -1784,6 +1787,7 @@ static void DecoderProcessSout( decoder_t *p_dec, block_t *p_block )
         }
     }
 }
+#endif
 
 /* This function process a video block
  */
