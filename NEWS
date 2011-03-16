@@ -5,7 +5,7 @@ Mac OS X Interface:
  * New UI graphics by Damien Erambert
 
 Interfaces:
- * Oldrc interface is again the default RC interface
+ * Oldrc interface is again the default RC interface, on Windows
  * Luarc, luahttp and luatelnet fixes
  * Qt and Mac OS X fixes
  * numerous Skins2 fixes, notably winamp2 skins
