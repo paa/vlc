@@ -36,6 +36,9 @@
 #include "dialogs_provider.hpp" /* Open Subtitle file */
 #include "util/qt_dirs.hpp"
 #include <vlc_intf_strings.h>
+#ifdef WIN32
+  #include <vlc_charset.h> /* FromWide for Win32 */
+#endif
 
 #include <QFileDialog>
 #include <QDialogButtonBox>
@@ -295,17 +298,25 @@ DiscOpenPanel::DiscOpenPanel( QWidget *_parent, intf_thread_t *_p_intf ) :
     ui.deviceCombo->setToolTip( qtr(I_DEVICE_TOOLTIP) );
 
 #ifdef WIN32 /* Disc drives probing for Windows */
-    char szDrives[512];
+    wchar_t szDrives[512];
     szDrives[0] = '\0';
-    if( GetLogicalDriveStringsA( sizeof( szDrives ) - 1, szDrives ) )
+    if( GetLogicalDriveStringsW( sizeof( szDrives ) - 1, szDrives ) )
     {
-        char *drive = szDrives;
+        wchar_t *drive = szDrives;
         UINT oldMode = SetErrorMode( SEM_FAILCRITICALERRORS );
         while( *drive )
         {
-            if( GetDriveTypeA(drive) == DRIVE_CDROM )
+            if( GetDriveTypeW(drive) == DRIVE_CDROM )
             {
-                ui.deviceCombo->addItem( drive );
+                wchar_t psz_name[512] = L"";
+                GetVolumeInformationW( drive, psz_name, 511, NULL, NULL, NULL, NULL, 0 );
+
+                QString displayName = FromWide( drive );
+                if( !EMPTY_STR(psz_name) ) {
+                    displayName = displayName + " - "  + FromWide( psz_name );
+                }
+
+                ui.deviceCombo->addItem( displayName, FromWide( drive ) );
             }
 
             /* go to next drive */
