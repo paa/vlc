@@ -20,6 +20,7 @@ Access/Demuxers/Codecs:
  * ogg, rstp input, video filters minor fixes
  * taglib's replaygain is fixed for mp3
  * vobsub support has an improved auto-detection
+ * fix a crash in malformed ape files
 
 Miscellaneous fixes in:
  * Pulseaudio audio output, notably for usb cards
