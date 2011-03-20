@@ -206,19 +206,25 @@ vlc_module_begin ()
         change_action_add( ConfigDevicesCallback, N_("Configure") )
 
     add_string( "dshow-size", NULL, NULL, SIZE_TEXT, SIZE_LONGTEXT, false)
+        change_safe()
 
     add_string( "dshow-aspect-ratio", "4:3", NULL, ASPECT_TEXT, ASPECT_LONGTEXT, false)
+        change_safe()
 
     add_string( "dshow-chroma", NULL, NULL, CHROMA_TEXT, CHROMA_LONGTEXT, true )
+        change_safe()
 
     add_float( "dshow-fps", 0.0f, NULL, FPS_TEXT, FPS_LONGTEXT, true )
+        change_safe()
 
     add_bool( "dshow-config", false, NULL, CONFIG_TEXT, CONFIG_LONGTEXT, true )
 
     add_bool( "dshow-tuner", false, NULL, TUNER_TEXT, TUNER_LONGTEXT, true )
+        change_safe()
 
     add_integer( "dshow-tuner-channel", 0, NULL, CHANNEL_TEXT, CHANNEL_LONGTEXT,
                 true )
+        change_safe()
 
     add_integer( "dshow-tuner-country", 0, NULL, COUNTRY_TEXT, COUNTRY_LONGTEXT,
                 true )
@@ -226,15 +232,18 @@ vlc_module_begin ()
     add_integer( "dshow-tuner-input", 0, NULL, TUNER_INPUT_TEXT,
                  TUNER_INPUT_LONGTEXT, true )
         change_integer_list( pi_tuner_input, ppsz_tuner_input_text, NULL )
+        change_safe()
 
     add_integer( "dshow-video-input",  -1, NULL, VIDEO_IN_TEXT,
                  VIDEO_IN_LONGTEXT, true )
+        change_safe()
 
     add_integer( "dshow-video-output", -1, NULL, VIDEO_OUT_TEXT,
                  VIDEO_OUT_LONGTEXT, true )
 
     add_integer( "dshow-audio-input",  -1, NULL, AUDIO_IN_TEXT,
                  AUDIO_IN_LONGTEXT, true )
+        change_safe()
 
     add_integer( "dshow-audio-output", -1, NULL, AUDIO_OUT_TEXT,
                  AUDIO_OUT_LONGTEXT, true )
@@ -242,6 +251,7 @@ vlc_module_begin ()
     add_integer( "dshow-amtuner-mode", AMTUNER_MODE_TV, NULL,
                 AMTUNER_MODE_TEXT, AMTUNER_MODE_LONGTEXT, false)
         change_integer_list( pi_amtuner_mode, ppsz_amtuner_mode_text, NULL )
+        change_safe()
 
     add_integer( "dshow-audio-channels", 0, NULL, AUDIO_CHANNELS_TEXT,
                  AUDIO_CHANNELS_LONGTEXT, true )
