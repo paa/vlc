@@ -1,4 +1,4 @@
-Changes between 1.1.7 and 1.1.8-git:
+Changes between 1.1.7 and 1.1.8:
 --------------------------------
 
 Mac OS X Interface:
@@ -26,6 +26,7 @@ Miscellaneous fixes in:
  * Pulseaudio audio output, notably for usb cards
  * Stacktraces are now limited in size on Windows
  * Video resolution is now limited to 8192x8192, for security reasons
+   See CORE-2011-0208
  * Configure and build system improvements
  * DirectShow and BDA build headers have been updated
 
