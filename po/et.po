@@ -5,7 +5,7 @@
 # This file is distributed under the same license as the VLC package.
 #
 # Eero <eerove gmail com> 2009.
-# Mihkel <turakas gmail com> 2010-2011.
+# Mihkel <turakas gmail com> 2010,2011.
 # Mattias Põldaru <mahfiaz gmail com> 2010.
 #
 msgid ""
@@ -13,10 +13,10 @@ msgstr ""
 "Project-Id-Version: vlc 1.1.8\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2011-03-22 22:53+0000\n"
-"PO-Revision-Date: 2011-03-02 17:31+0200\n"
+"PO-Revision-Date: 2011-03-23 13:28+0200\n"
 "Last-Translator: mihkel <turakas gmail com>\n"
 "Language-Team: Estonian\n"
-"Language: \n"
+"Language: et\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -8160,7 +8160,7 @@ msgstr "Rakendus"
 
 #: modules/access/vcdx/info.c:65
 msgid "Preparer"
-msgstr ""
+msgstr "Preparer"
 
 #: modules/access/vcdx/info.c:66
 msgid "Vol #"
@@ -8596,7 +8596,7 @@ msgstr ""
 
 #: modules/audio_filter/audiobargraph_a.c:59
 msgid "Time window to use in ms (default 5000)"
-msgstr ""
+msgstr "Kasutatav ajaaken millisekundites (vaikimisi 5000)"
 
 #: modules/audio_filter/audiobargraph_a.c:60
 msgid ""
@@ -9685,6 +9685,8 @@ msgid ""
 "Skipping the loop filter (aka deblocking) usually has a detrimental effect "
 "on quality. However it provides a big speedup for high definition streams."
 msgstr ""
+"Kordustefiltri vahelejätmisel (aka deblokkimisel) on kahjulik efekt "
+"kvaliteedile. Kuigi kõrge eraldusvõimega voogudel on tuntav kiirusevõit."
 
 #: modules/codec/avcodec/avcodec.h:138
 msgid "Hardware decoding"
@@ -10806,23 +10808,23 @@ msgid "RealVideo library decoder"
 msgstr "RealVideo teegi dekooder"
 
 #: modules/codec/schroedinger.c:65
-#, fuzzy
 msgid "Automate picture coding mode"
-msgstr "Pildi kodeerimise režiim"
+msgstr "Automatiseeri pildi kodeerimise režiimi"
 
 #: modules/codec/schroedinger.c:66
 msgid ""
 "Use the input picture to determine how to code it - interlaced or progressive"
 msgstr ""
+"Kasuta sisndpilti otsustamaks, kuidas teda kodeerida - ülerealaotus või "
+"progressiivne"
 
 #: modules/codec/schroedinger.c:74
 msgid "Schroedinger video decoder"
 msgstr "Schroedinger video dekooder"
 
 #: modules/codec/schroedinger.c:80
-#, fuzzy
 msgid "Dirac video encoder using libschroedinger"
-msgstr "Dirac video enkooder kasutades dirac-research teeki"
+msgstr "Dirac video enkooder kasutades libschroedinger teeki"
 
 #: modules/codec/sdl_image.c:60
 msgid "SDL Image decoder"
@@ -13295,7 +13297,7 @@ msgstr "Faili salvestaja"
 
 #: modules/demux/dirac.c:41
 msgid "Value to adjust dts by"
-msgstr ""
+msgstr "Väärtus, mille järgi dts-i kohandada"
 
 #: modules/demux/dirac.c:54
 msgid "Dirac video demuxer"
@@ -13397,6 +13399,8 @@ msgid ""
 "Sets the username for the connection, if no username or password are set in "
 "the url."
 msgstr ""
+"Määrab ühenduse jaoks kasutajanime, kui kasutajanime ega salasõna ei ole url-"
+"is määratud."
 
 #: modules/demux/live555.cpp:93
 msgid "RTSP password"
@@ -13407,6 +13411,8 @@ msgid ""
 "Sets the password for the connection, if no username or password are set in "
 "the url."
 msgstr ""
+"Määrab ühenduse jaoks salasõna, kui ühtegi kasutajanime ega salasõna ei ole "
+"url-is määratud."
 
 #: modules/demux/live555.cpp:98
 msgid "RTP/RTSP/SDP demuxer (using Live555)"
@@ -13464,6 +13470,8 @@ msgid ""
 "This is the desired frame rate when playing MJPEG from a file. Use 0 (this "
 "is the default value) for a live stream (from a camera)."
 msgstr ""
+"See on soovitud kaadrikiirus MJPEG faili esitamisel. kasuta 0-i (mis on ka "
+"vaikeväärtus) live voogude jaoks kaamerast."
 
 #: modules/demux/mjpeg.c:54
 msgid "M-JPEG camera demuxer"
@@ -17609,6 +17617,10 @@ msgid ""
 "You can define a unique one or configure them \n"
 "individually in the advanced preferences."
 msgstr ""
+"Kui see valik on tühi, siis kasutatakse\n"
+"erinevaid väärtusi DVD, VCD ja CDDA jaoks.\n"
+"Võid määrata unikaalse väärtuse või seadistada\n"
+"neid individuaalselt peamiste eelistuste alt."
 
 #: modules/gui/qt4/components/simple_preferences.cpp:527
 msgid "This is VLC's skinnable interface. You can download other skins at"
@@ -18461,9 +18473,8 @@ msgid "XSPF playlist (*.xspf)"
 msgstr "XSPF esitusloend (*.xspf)"
 
 #: modules/gui/qt4/dialogs_provider.cpp:559
-#, fuzzy
 msgid "M3U8 playlist (*.m3u8)"
-msgstr "M3U8 esitusloend (*.m3u)"
+msgstr "M3U8 esitusloend (*.m3u8)"
 
 #: modules/gui/qt4/dialogs_provider.cpp:560
 msgid "M3U playlist (*.m3u)"
@@ -19101,13 +19112,15 @@ msgstr "Kasuta rüüga esitusloendit"
 
 #: modules/gui/skins2/src/skin_main.cpp:550
 msgid "Display video in a skinned window if any"
-msgstr "Kuva video võimalusel rüüga aknas"
+msgstr "Võimalusel kuva video rüüga aknas"
 
 #: modules/gui/skins2/src/skin_main.cpp:552
 msgid ""
 "When set to 'no', this parameter is intended to give old skins a chance to "
 "play back video even though no video tag is implemented"
 msgstr ""
+"Kui seatud väärtusele 'ei', siis see parameeter peaks andma vanale rüüle "
+"võimaluse esitada videot, kuigi video silti pole implementeeritud."
 
 #: modules/gui/skins2/src/skin_main.cpp:578
 msgid "Skins"
@@ -19498,6 +19511,8 @@ msgid ""
 "Save the raw codec data if you have selected/forced the dummy decoder in the "
 "main options."
 msgstr ""
+"Salvesta raw koodeki andmed, kui sa oled valinud/sundinud liba koodeki "
+"valikute alt."
 
 #: modules/misc/dummy/dummy.c:56
 msgid ""
@@ -19505,6 +19520,9 @@ msgid ""
 "the quiet mode will not bring this command box but can also be pretty "
 "annoying when you want to stop VLC and no video window is open."
 msgstr ""
+"Vaikimisi avab libaliidese plugin DOS akna. Akent ei kuvata, kui võimaldad "
+"vaikse režiimi. Samas võib see olla üsna häiriv, kui soovid VLC-d peatada, "
+"aga ühtegi akent pole."
 
 #: modules/misc/dummy/dummy.c:64
 msgid "Dummy interface function"
@@ -19584,12 +19602,16 @@ msgid ""
 "set to something different than 0 this option will override the relative "
 "font size."
 msgstr ""
+"See on fondi vaikesuurus, mis videol renderdatakse. Kui väärtuseks on "
+"määratud midagi muud peale nulli, siis tühistatakse suhteline fondi suurus."
 
 #: modules/misc/freetype.c:106 modules/misc/win32text.c:66
 msgid ""
 "The opacity (inverse of transparency) of the text that will be rendered on "
 "the video. 0 = transparent, 255 = totally opaque. "
 msgstr ""
+"Renderdatava teksti läbipaistmatus (läbipaistvuse vastand) videol. 0 = "
+"läbipaistev, 255 = täiesti läbipaistmatu."
 
 #: modules/misc/freetype.c:109 modules/misc/quartztext.c:86
 #: modules/misc/win32text.c:69
@@ -19604,6 +19626,10 @@ msgid ""
 "then blue. #000000 = black, #FF0000 = red, #00FF00 = green, #FFFF00 = yellow "
 "(red + green), #FFFFFF = white"
 msgstr ""
+"Videol renderdatava teksti värv. Väärtus peab olema 16nd koodis (nagu HTML "
+"värvid). Kaks esimest märki on punase jaoks, siis roheline ja sinine. "
+"#000000 = must, #FF0000 = punane, #00FF00 = roheline, #FFFF00 = kollane "
+"(punane + roheline), #FFFFFF = valge"
 
 #: modules/misc/freetype.c:114 modules/misc/quartztext.c:82
 #: modules/misc/win32text.c:74
@@ -19615,6 +19641,8 @@ msgid ""
 "This is the relative default size of the fonts that will be rendered on the "
 "video. If absolute font size is set, relative size will be overridden."
 msgstr ""
+"See on videol rendertatava teksti fondi suhteline suurus. Kui absoluutne "
+"fondi suurus on määratud, siis suhteline suurus tühistatakse."
 
 #: modules/misc/freetype.c:121 modules/misc/quartztext.c:104
 #: modules/misc/win32text.c:81
@@ -19645,6 +19673,8 @@ msgid ""
 "This renders the font using \"paletized YUV\". This option is only needed if "
 "you want to encode into DVB subtitles"
 msgstr ""
+"See renderdab fonte kasutades \"paletitud YUV-d\". Seda valikut kasutatakse "
+"ainult siis, kui soovid kodeerida DVB subtiitritesse"
 
 #: modules/misc/freetype.c:125
 msgid "Font Effect"
@@ -20050,13 +20080,15 @@ msgstr "HTML esitusloendi eksport"
 
 #: modules/misc/quartztext.c:81
 msgid "Name for the font you want to use"
-msgstr "Fondi nimi, mida soovid kasutada"
+msgstr "Soovitud fondi nimi"
 
 #: modules/misc/quartztext.c:83 modules/misc/win32text.c:75
 msgid ""
 "This is the relative default size of the fonts that will be rendered on the "
 "video. If absolute font size is set, relative size will be overriden."
 msgstr ""
+"See on videol rendetatava teksti fondi suhteline suurus. Kui absoluutne "
+"fondi suurus on määraud, siis suhteline suurus tühistatakse."
 
 #: modules/misc/quartztext.c:107
 msgid "Text renderer for Mac"
@@ -20149,7 +20181,7 @@ msgstr "SVG mallifail"
 #: modules/misc/svg.c:69
 msgid ""
 "Location of a file holding a SVG template for automatic string conversion"
-msgstr ""
+msgstr "Automaatse stringiteisenduse jaoks kasutatava SVG mallifaili asukoht"
 
 #: modules/misc/win32text.c:59
 msgid "Filename for the font you want to use"
@@ -20347,7 +20379,7 @@ msgstr ""
 
 #: modules/mux/mpeg/ts.c:120
 msgid "SDT Descriptors (requires --sout-ts-es-id-pid)"
-msgstr ""
+msgstr "SDT deskriptorid (vajab --sout-ts-es-id-pid)"
 
 #: modules/mux/mpeg/ts.c:121
 msgid ""
@@ -20627,6 +20659,8 @@ msgstr "SAP aegumine (sekundit)"
 msgid ""
 "Delay after which SAP items get deleted if no new announcement is received."
 msgstr ""
+"Aeg, mille järel SAP teated kustutatakse, kui ühtegi uut teadet pole vastu "
+"võetud."
 
 #: modules/services_discovery/sap.c:96
 msgid "Try to parse the announce"
@@ -21040,6 +21074,8 @@ msgid ""
 "Output volume for analog output: 0 for silence, 1..255 from almost silent to "
 "very loud."
 msgstr ""
+"Analoogväljundi helitase: 0 on vaikus, 1..255 peaagu vaikusest kuni väga "
+"valjuni."
 
 #: modules/stream_out/raop.c:155
 msgid "Password for target device."
@@ -22027,6 +22063,8 @@ msgstr "Kasuta tarkvaralist valge kohandamist"
 msgid ""
 "Should the buildin driver do a white adjust or your LED stripes? recommend."
 msgstr ""
+"Kas sisseehitatud draiver peaks tegema valge korrigeerimist või sinu LED "
+"triibud? Soovitatav."
 
 #: modules/video_filter/atmo/atmo.cpp:245
 msgid "White Red"
@@ -22034,7 +22072,7 @@ msgstr "Valge punane"
 
 #: modules/video_filter/atmo/atmo.cpp:246
 msgid "Red value of a pure white on your LED stripes."
-msgstr ""
+msgstr "Punase väärtus puhtal valgel sinu LED triipudel."
 
 #: modules/video_filter/atmo/atmo.cpp:248
 msgid "White Green"
@@ -22042,7 +22080,7 @@ msgstr "Valge roheline"
 
 #: modules/video_filter/atmo/atmo.cpp:249
 msgid "Green value of a pure white on your LED stripes."
-msgstr ""
+msgstr "Rohelise väärtus puhtal valgel sinu LED triipudel."
 
 #: modules/video_filter/atmo/atmo.cpp:251
 msgid "White Blue"
@@ -22050,7 +22088,7 @@ msgstr "Valge sinine"
 
 #: modules/video_filter/atmo/atmo.cpp:252
 msgid "Blue value of a pure white on your LED stripes."
-msgstr ""
+msgstr "Sinise väärtus puhtal valgel sinu LED triipudel."
 
 #: modules/video_filter/atmo/atmo.cpp:255
 msgid "Serial Port/Device"
@@ -22061,6 +22099,8 @@ msgid ""
 "Name of the serial port where the AtmoLight controller is attached to.\n"
 "On Windows usually something like COM1 or COM2. On Linux /dev/ttyS01 f.e."
 msgstr ""
+"Jadapordi nimi, kuhu AtmoLight kontroller on ühendatud.\n"
+"Windowsis on ta COM1 või COM2 vms, linuxis /dev/ttyS01"
 
 #: modules/video_filter/atmo/atmo.cpp:261
 msgid "Edge Weightning"
@@ -22074,7 +22114,7 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:265
 msgid "Overall brightness of your LED stripes"
-msgstr ""
+msgstr "Sinu LED triipude üleüldine heledus"
 
 #: modules/video_filter/atmo/atmo.cpp:266
 msgid "Darkness Limit"
@@ -22279,11 +22319,11 @@ msgstr "Vali seadme tüüp ja ühendus"
 
 #: modules/video_filter/atmo/atmo.cpp:400
 msgid "Illuminate the room with this color on pause"
-msgstr ""
+msgstr "Pausi ajal valgusta tuba selle värviga"
 
 #: modules/video_filter/atmo/atmo.cpp:416
 msgid "Illuminate the room with this color on shutdown"
-msgstr ""
+msgstr "Seiskamise ajal valgusta tuba selle värviga"
 
 #: modules/video_filter/atmo/atmo.cpp:427
 msgid "DMX options"
@@ -22311,7 +22351,7 @@ msgstr "Muuda kanali määratlust (paranda vale kaabelduse)"
 
 #: modules/video_filter/atmo/atmo.cpp:568
 msgid "Adjust the white light to your LED stripes"
-msgstr ""
+msgstr "Kohanda valget valgust sinu LED triipudel"
 
 #: modules/video_filter/atmo/atmo.cpp:590
 msgid "Change gradients"
@@ -22464,7 +22504,7 @@ msgstr "Pilt, millesse sulanduda"
 
 #: modules/video_filter/blendbench.c:58
 msgid "The image which will be used to blend onto"
-msgstr ""
+msgstr "Pilt, mida kastatakse sisse sulandumiseks"
 
 #: modules/video_filter/blendbench.c:60
 msgid "Chroma for the base image"
@@ -22472,7 +22512,7 @@ msgstr "Baaspildi värviformaat"
 
 #: modules/video_filter/blendbench.c:61
 msgid "Chroma which the base image will be loaded in"
-msgstr ""
+msgstr "Värviformaat, millesse baaspilt laetakse"
 
 #: modules/video_filter/blendbench.c:63
 msgid "Image which will be blended"
@@ -22760,7 +22800,7 @@ msgstr ""
 
 #: modules/video_filter/crop.c:101
 msgid "Luminance threshold "
-msgstr ""
+msgstr "Heleduse künnis "
 
 #: modules/video_filter/crop.c:102
 msgid "Maximum luminance to consider a pixel as black (0-255)."
@@ -22776,39 +22816,39 @@ msgstr "Kärpimine nurjus"
 
 #: modules/video_filter/crop.c:380 modules/video_filter/crop.c:471
 msgid "VLC could not open the video output module."
-msgstr ""
+msgstr "VLC ei suutnud avada videoväljuni moodulit."
 
 #: modules/video_filter/croppadd.c:46
 msgid "Pixels to crop from top"
-msgstr ""
+msgstr "Ülevalt kärbitavate pikslite arv"
 
 #: modules/video_filter/croppadd.c:48
 msgid "Number of pixels to crop from the top of the image."
-msgstr ""
+msgstr "Pildi ülevalt servast kärbitavate pikslite arv."
 
 #: modules/video_filter/croppadd.c:49
 msgid "Pixels to crop from bottom"
-msgstr ""
+msgstr "Alt kärbitavate pikslite arv"
 
 #: modules/video_filter/croppadd.c:51
 msgid "Number of pixels to crop from the bottom of the image."
-msgstr ""
+msgstr "Pildi alt servast kärbitavate pikslite arv."
 
 #: modules/video_filter/croppadd.c:52
 msgid "Pixels to crop from left"
-msgstr ""
+msgstr "Vasakult kärbitatavate pikslite arv"
 
 #: modules/video_filter/croppadd.c:54
 msgid "Number of pixels to crop from the left of the image."
-msgstr ""
+msgstr "Pildi vasakust servast kärbitavate pikslite arv."
 
 #: modules/video_filter/croppadd.c:55
 msgid "Pixels to crop from right"
-msgstr ""
+msgstr "Paremalt kärbitavate pikslite arv"
 
 #: modules/video_filter/croppadd.c:57
 msgid "Number of pixels to crop from the right of the image."
-msgstr ""
+msgstr "Pildi paremast servast kärbitavate pikslite arv."
 
 #: modules/video_filter/croppadd.c:59
 msgid "Pixels to padd to top"
@@ -22877,7 +22917,7 @@ msgstr "Sisendi FIFO"
 
 #: modules/video_filter/dynamicoverlay/dynamicoverlay.c:61
 msgid "FIFO which will be read for commands"
-msgstr ""
+msgstr "FIFO, mida loetakse käskude jaoks"
 
 #: modules/video_filter/dynamicoverlay/dynamicoverlay.c:63
 msgid "Output FIFO"
@@ -22885,7 +22925,7 @@ msgstr "Väljundi FIFO"
 
 #: modules/video_filter/dynamicoverlay/dynamicoverlay.c:64
 msgid "FIFO which will be written to for responses"
-msgstr ""
+msgstr "FIFO, mida kirjutatakse vastu"
 
 #: modules/video_filter/dynamicoverlay/dynamicoverlay.c:67
 msgid "Dynamic video overlay"
@@ -22901,7 +22941,7 @@ msgstr "Pildi mask"
 
 #: modules/video_filter/erase.c:55
 msgid "Image mask. Pixels with an alpha value greater than 50% will be erased."
-msgstr ""
+msgstr "Pildi mask. Pikslid alfa väärtusega enam kui 50%, kustutatakse."
 
 #: modules/video_filter/erase.c:58
 msgid "X coordinate of the mask."
@@ -22913,7 +22953,7 @@ msgstr "Maski Y-koordinaat."
 
 #: modules/video_filter/erase.c:62
 msgid "Remove zones of the video using a picture as mask"
-msgstr ""
+msgstr "Eemalda video tsoonid, kasutades pilti maskina"
 
 #: modules/video_filter/erase.c:67
 msgid "Erase video filter"
@@ -22929,7 +22969,7 @@ msgstr "Eemaldatav RGB komponent"
 
 #: modules/video_filter/extract.c:63
 msgid "RGB component to extract. 0 for Red, 1 for Green and 2 for Blue."
-msgstr ""
+msgstr "Eemaldatav RGB komponent. 0 punase, 1 rohelise ja 2 sinise jaoks."
 
 #: modules/video_filter/extract.c:74
 msgid "Extract RGB component video filter"
@@ -22969,13 +23009,14 @@ msgstr ""
 
 #: modules/video_filter/gradient.c:65
 msgid "Gradient image type"
-msgstr ""
+msgstr "Ülemineku pildi tüüp"
 
 #: modules/video_filter/gradient.c:66
 msgid ""
 "Gradient image type (0 or 1). 0 will turn the image to white while 1 will "
 "keep colors."
 msgstr ""
+"Ülemineku pildi tüüp (0 või 1). 0 muudab pildi valgeks, 1 säilitab värvid."
 
 #: modules/video_filter/gradient.c:69
 msgid "Apply cartoon effect"
@@ -22983,7 +23024,7 @@ msgstr "Multika efekti rakendamine"
 
 #: modules/video_filter/gradient.c:70
 msgid "Apply cartoon effect. It is only used by \"gradient\" and \"edge\"."
-msgstr ""
+msgstr "Rakenda multika efekt. Seda kasutavad ainult \"üleminek\" ja \"serv\"."
 
 #: modules/video_filter/gradient.c:73
 msgid "Apply color gradient or edge detection effects"
@@ -23015,11 +23056,11 @@ msgstr "Teralisus"
 
 #: modules/video_filter/invert.c:50
 msgid "Invert video filter"
-msgstr ""
+msgstr "Invertimise videofilter"
 
 #: modules/video_filter/invert.c:51
 msgid "Color inversion"
-msgstr ""
+msgstr "Värvi invertimine"
 
 #: modules/video_filter/logo.c:48
 msgid "Logo filenames"
@@ -23034,27 +23075,27 @@ msgstr ""
 
 #: modules/video_filter/logo.c:52
 msgid "Logo animation # of loops"
-msgstr ""
+msgstr "Logo animatsiooni korduste arv"
 
 #: modules/video_filter/logo.c:53
 msgid "Number of loops for the logo animation.-1 = continuous, 0 = disabled"
-msgstr ""
+msgstr "Logo animatsiooni korduste arv. -1 = pidev, 0 = keelatud"
 
 #: modules/video_filter/logo.c:55
 msgid "Logo individual image time in ms"
-msgstr ""
+msgstr "Logo individuaalne pildi aeg millisekundites"
 
 #: modules/video_filter/logo.c:56
 msgid "Individual image display time of 0 - 60000 ms."
-msgstr ""
+msgstr "Individuaalne pildi kuvamise aeg 0 - 60000 ms."
 
 #: modules/video_filter/logo.c:59
 msgid "X coordinate of the logo. You can move the logo by left-clicking it."
-msgstr ""
+msgstr "Logo x-koordinaat. Vasaku klõpsuga saad logo asukohta muuta."
 
 #: modules/video_filter/logo.c:62
 msgid "Y coordinate of the logo. You can move the logo by left-clicking it."
-msgstr ""
+msgstr "Logo y-koordinaat. Vasaku klõpsuga saad logo asukohta muuta."
 
 #: modules/video_filter/logo.c:64
 msgid "Opacity of the logo"
@@ -23064,6 +23105,8 @@ msgstr "Logo katvus"
 msgid ""
 "Logo opacity value (from 0 for full transparency to 255 for full opacity)."
 msgstr ""
+"Logo katvuse väärtus (nullist, kui täiesti läbipaistvast 255-ni, kui täiesti "
+"läbipaistmatust)."
 
 #: modules/video_filter/logo.c:67
 msgid "Logo position"
