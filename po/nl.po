@@ -1,7 +1,6 @@
 # Dutch translation for VLC.
 # Copyright (C) 2004 Free Software Foundation, Inc.
-# Copyright (C) 2004-2008, the VideoLAN team
-# $Id: vlc_nl.po,v 1.5 2007/11/08 17:02:28 myckel Exp $
+# Copyright (C) 2004-2011, the VideoLAN team
 #
 # Thomas De Rocker <thomasderocker.at.h0tmail.d0t.c0m>, 2008-2011
 # Myckel Habets <myckel at sdf dot lonestar dot org>, 2007-2010
@@ -13,7 +12,7 @@ msgstr ""
 "Project-Id-Version: VLC Media Player\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2011-03-22 22:53+0000\n"
-"PO-Revision-Date: 2011-02-14 18:42+0100\n"
+"PO-Revision-Date: 2011-03-23 19:48+0100\n"
 "Last-Translator: Thomas De Rocker <thomasderocker.at.h0tmail.d0t.c0m>\n"
 "Language-Team: Dutch\n"
 "Language: nl\n"
@@ -11053,23 +11052,23 @@ msgid "RealVideo library decoder"
 msgstr "RealVide-bibliotheekdecoder"
 
 #: modules/codec/schroedinger.c:65
-#, fuzzy
 msgid "Automate picture coding mode"
-msgstr "Afbeeldingcoderingsmodus"
+msgstr "Beeldcodeermodus automatiseren"
 
 #: modules/codec/schroedinger.c:66
 msgid ""
 "Use the input picture to determine how to code it - interlaced or progressive"
 msgstr ""
+"Gebruik de invoerafbeelding om aan te tonen hoe te coderen - geïnterlinieerd "
+"of progressief"
 
 #: modules/codec/schroedinger.c:74
 msgid "Schroedinger video decoder"
 msgstr "Schroedinger videodecoder"
 
 #: modules/codec/schroedinger.c:80
-#, fuzzy
 msgid "Dirac video encoder using libschroedinger"
-msgstr "Dirac videocodeerder, gebruikmakend van de dirac-onderzoek bibliotheek"
+msgstr "Dirac video-encoder, gebruikmakend van libschroedinger"
 
 #: modules/codec/sdl_image.c:60
 msgid "SDL Image decoder"
