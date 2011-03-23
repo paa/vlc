@@ -1,6 +1,6 @@
 # translation of vlc-lt-trunk.po to Lietuvių
 # Lithuanian translation for vlc
-# Copyright (C) 2006-2010 the VideoLAN team
+# Copyright (C) 2006-2011 the VideoLAN team
 # Copyright (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
 # This file is distributed under the same license as the vlc package.
 #
@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: vlc\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2011-03-22 22:53+0000\n"
-"PO-Revision-Date: 2011-02-06 23:21+0200\n"
+"PO-Revision-Date: 2011-03-23 08:09+0200\n"
 "Last-Translator: Mindaugas Baranauskas <embar@users.berlios.de>\n"
 "Language-Team: Lithuanian <embar@users.berlios.de>\n"
 "Language: lt\n"
@@ -174,7 +174,7 @@ msgstr ""
 
 #: include/vlc_config_cat.h:93
 msgid "Input / Codecs"
-msgstr "Įvestis / Kodavimas"
+msgstr "Įvestis / kodavimas"
 
 #: include/vlc_config_cat.h:94
 msgid "Settings for input, demultiplexing, decoding and encoding"
@@ -910,7 +910,7 @@ msgstr "žodis"
 #: src/playlist/loadsave.c:162
 #: modules/gui/qt4/components/playlist/selector.cpp:263
 msgid "Media Library"
-msgstr "Mediateka"
+msgstr "Fonoteka"
 
 #: src/input/control.c:217
 #, c-format
@@ -3057,15 +3057,15 @@ msgstr ""
 
 #: src/libvlc-module.c:945
 msgid "Prefer system plugins over VLC"
-msgstr "Vietoj VLC įskiepių naudoti sistemos įskiepius"
+msgstr "Vietoj VLC papildinių naudoti sistemos papildinius"
 
 #: src/libvlc-module.c:947
 msgid ""
 "Indicates whether VLC will prefer native plugins installed on system over "
 "VLC owns plugins whenever a choice is available."
 msgstr ""
-"Nurodo, ar VLC pirmenybę teiks sistemoje įdiegtiems įskiepiams, o ne VLC "
-"nuosaviems įskiepiams kai tik bus galima tarp jų rinktis."
+"Nurodo, ar VLC pirmenybę teiks sistemoje įdiegtiems papildiniams, o ne VLC "
+"nuosaviems papildiniams kai tik bus galima tarp jų rinktis."
 
 #: src/libvlc-module.c:956
 msgid ""
@@ -3466,12 +3466,12 @@ msgstr "VLM rinkmena nuskaitoma kaip galima greičiau po VLM paleidimo."
 
 #: src/libvlc-module.c:1141
 msgid "Use a plugins cache"
-msgstr "Naudoti įskiepių podėlį"
+msgstr "Naudoti papildinių podėlį"
 
 #: src/libvlc-module.c:1143
 msgid "Use a plugins cache which will greatly improve the startup time of VLC."
 msgstr ""
-"Podėlio įskiepio naudojimas žymiai prailgina VLC programos paleidimo laiką."
+"Podėlio papildinio naudojimas žymiai prailgina VLC programos paleidimo laiką."
 
 #: src/libvlc-module.c:1145
 msgid "Locally collect statistics"
@@ -3703,7 +3703,7 @@ msgid ""
 "The media library is automatically saved and reloaded each time you start "
 "VLC."
 msgstr ""
-"Mediateka automatiškai įrašoma ir atkuriama kas kart paleidus VLC leistuvę."
+"Fonoteka automatiškai įrašoma ir atkuriama kas kart paleidus VLC leistuvę."
 
 #: src/libvlc-module.c:1268
 msgid "Display playlist tree"
@@ -4584,7 +4584,7 @@ msgstr "Specialūs moduliai"
 
 #: src/libvlc-module.c:2056 modules/gui/qt4/dialogs/plugins.cpp:66
 msgid "Plugins"
-msgstr "Įskiepiai"
+msgstr "Papildiniai"
 
 #: src/libvlc-module.c:2067
 msgid "Performance options"
@@ -4651,7 +4651,7 @@ msgstr "naudoti kitą konfigūracijos rinkmeną"
 
 #: src/libvlc-module.c:2758
 msgid "resets the current plugins cache"
-msgstr "atstato dabartinių įskiepių podėlį"
+msgstr "atstato dabartinių papildinių podėlį"
 
 #: src/libvlc-module.c:2760
 msgid "print version information"
@@ -6053,7 +6053,7 @@ msgid ""
 "Name of the video device that will be used by the DirectShow plugin. If you "
 "don't specify anything, the default device will be used."
 msgstr ""
-"DirectShow įskiepio naudotino vaizdo įrenginio pavadinimas. Jei nieko "
+"DirectShow papildinio naudotino vaizdo įrenginio pavadinimas. Jei nieko "
 "nenurodyta, bus naudojamas numatytasis įrenginys."
 
 #: modules/access/dshow/dshow.cpp:110
@@ -6067,7 +6067,7 @@ msgid ""
 "Name of the audio device that will be used by the DirectShow plugin. If you "
 "don't specify anything, the default device will be used. "
 msgstr ""
-"DirectShow įskiepio naudotino garso įrenginio pavadinimas. Jei nieko "
+"DirectShow papildinio naudotino garso įrenginio pavadinimas. Jei nieko "
 "nenurodyta, bus naudojamas numatytasis įrenginys."
 
 #: modules/access/dshow/dshow.cpp:115
@@ -6081,7 +6081,7 @@ msgid ""
 "don't specify anything the default size for your device will be used. You "
 "can specify a standard size (cif, d1, ...) or <width>x<height>."
 msgstr ""
-"DirectShow įskiepio rodomo vaizdo dydis. Jei nieko nenurodoma, naudojamas "
+"DirectShow papildinio rodomo vaizdo dydis. Jei nieko nenurodoma, naudojamas "
 "numatytasis jūsų įrenginio dydis. Galite nurodyti dydžio standartą (cif, "
 "d1...) arba <plotis>x<aukštis>."
 
@@ -6352,38 +6352,39 @@ msgstr ""
 #: modules/access/dvb/access.c:178 modules/access_output/http.c:74
 #: modules/control/http/http.c:57
 msgid "Certificate file"
-msgstr "Sertifikato rinkmena"
+msgstr "Liudijimo rinkmena"
 
 #: modules/access/dvb/access.c:179
 msgid "HTTP interface x509 PEM certificate file (enables SSL)"
-msgstr ""
+msgstr "HTTP sąsajos x509 PEM liudijimo rinkmena (įgalina SSL)"
 
 #: modules/access/dvb/access.c:182 modules/access_output/http.c:77
 #: modules/control/http/http.c:60
 msgid "Private key file"
-msgstr ""
+msgstr "Privačiojo rakto rinkmena"
 
 #: modules/access/dvb/access.c:183
 msgid "HTTP interface x509 PEM private key file"
-msgstr ""
+msgstr "HTTP sąsajos x509 PEM privačiojo rakto rinkmena"
 
 #: modules/access/dvb/access.c:185 modules/access_output/http.c:81
 #: modules/control/http/http.c:62
 msgid "Root CA file"
-msgstr ""
+msgstr "Vyriausiosios LĮ rinkmena"
 
 #: modules/access/dvb/access.c:186
 msgid "HTTP interface x509 PEM trusted root CA certificates file"
 msgstr ""
+"HTTP sąsajos x509 PEM patikimos vyriausiosios liudijimų įstaigos rinkmena"
 
 #: modules/access/dvb/access.c:189 modules/access_output/http.c:86
 #: modules/control/http/http.c:65
 msgid "CRL file"
-msgstr ""
+msgstr "ALS rinkmena"
 
 #: modules/access/dvb/access.c:190
 msgid "HTTP interface Certificates Revocation List file"
-msgstr ""
+msgstr "HTTP sąsajos atšauktų liudijimų sąrašo rinkmena"
 
 #: modules/access/dvb/access.c:194
 msgid "DVB input with v4l2 support"
@@ -15137,7 +15138,7 @@ msgid ""
 "Make sure that you installed VLC's EyeTV plugin."
 msgstr ""
 "VLC negali prisijungti prie EyeTV.\n"
-"Įsitikinkite, kad į VLC įdiegėte EyeTV įskiepį."
+"Įsitikinkite, kad į VLC įdiegėte EyeTV papildinį."
 
 #: modules/gui/macosx/open.m:239
 msgid "Launch EyeTV now"
@@ -15145,7 +15146,7 @@ msgstr ""
 
 #: modules/gui/macosx/open.m:240
 msgid "Download Plugin"
-msgstr "Atsisiųsti įskiepį"
+msgstr "Atsisiųsti papildinį"
 
 #: modules/gui/macosx/open.m:306
 msgid "Load subtitles file:"
@@ -17639,9 +17640,9 @@ msgid ""
 "platform.\n"
 "\n"
 msgstr ""
-"VLC yra nemokamas laisvai platinamas leistuvė, įkoduojantis ir "
-"transliuojantis tai, ką gali nuskaityti iš rinkmenų, CD, DVD, tinklo srautų, "
-"įrašymo įrenginių ir ne tik!\n"
+"VLC yra nemokama laisvai platinama leistuvė, įkoduojanti ir transliuojanti "
+"tai, ką gali nuskaityti ne tik iš rinkmenų, CD, DVD, tinklo srautų, įrašymo "
+"įrenginių.\n"
 "VLC naudoja savo vidines kodavimo priemones ir veikia visose "
 "populiariausiose operacinėse sistemose.\n"
 "\n"
@@ -17875,7 +17876,7 @@ msgstr ""
 
 #: modules/gui/qt4/dialogs/plugins.cpp:58
 msgid "Plugins and extensions"
-msgstr "Įskiepiai ir plėtiniai"
+msgstr "Papildiniai ir plėtiniai"
 
 #: modules/gui/qt4/dialogs/plugins.cpp:64
 msgid "Extensions"
@@ -17899,7 +17900,7 @@ msgstr "Daugiau informacijos..."
 
 #: modules/gui/qt4/dialogs/plugins.cpp:218
 msgid "Reload extensions"
-msgstr "Perkrauti plėtinius"
+msgstr "Iš naujo įkelti plėtinius"
 
 #: modules/gui/qt4/dialogs/plugins.cpp:492
 msgid "Version"
@@ -18169,8 +18170,9 @@ msgid "XSPF playlist (*.xspf)"
 msgstr "XSPF grojaraštis (*.xspf)"
 
 #: modules/gui/qt4/dialogs_provider.cpp:559
+#, fuzzy
 msgid "M3U8 playlist (*.m3u8)"
-msgstr "M3U8 grojaraštis (*.m3u8)"
+msgstr "M3U8 grojaraštis (*.m3u)"
 
 #: modules/gui/qt4/dialogs_provider.cpp:560
 msgid "M3U playlist (*.m3u)"
@@ -18707,11 +18709,11 @@ msgstr ""
 
 #: modules/gui/qt4/qt4.cpp:161
 msgid "Load extensions on startup"
-msgstr "Įskiepius įkelti paleidimo metu"
+msgstr "Papildinius įkelti paleidimo metu"
 
 #: modules/gui/qt4/qt4.cpp:162
 msgid "Automatically load the extensions module on startup"
-msgstr "Automatiškai įkelti įskiepių modulius paleidimo metu"
+msgstr "Automatiškai įkelti papildinių modulius paleidimo metu"
 
 #: modules/gui/qt4/qt4.cpp:165
 msgid "Start in minimal view (without menus)"
@@ -19591,7 +19593,7 @@ msgstr "Gauti viršelius naudojant lua scenarijus"
 
 #: modules/misc/lua/vlc.c:158
 msgid "Lua Extension"
-msgstr "Lua įskiepis"
+msgstr "Lua papildinys"
 
 #: modules/misc/lua/vlc.c:164
 msgid "Lua SD Module"
@@ -19607,7 +19609,7 @@ msgstr "Prancūzijos televizija"
 
 #: modules/misc/notify/growl.m:97
 msgid "Growl Notification Plugin"
-msgstr "Growl pranešimo įskiepis"
+msgstr "Growl pranešimo papildinys"
 
 #: modules/misc/notify/growl.m:279
 msgid "Now playing"
@@ -19635,7 +19637,7 @@ msgstr "Growl UDP prievadas Growl serveryje."
 
 #: modules/misc/notify/growl_udp.c:82
 msgid "Growl UDP Notification Plugin"
-msgstr "Growl UDP pranešimo įskiepis"
+msgstr "Growl UDP pranešimo papildinys"
 
 #: modules/misc/notify/msn.c:67 modules/misc/notify/telepathy.c:67
 msgid "Title format string"
@@ -22414,9 +22416,9 @@ msgid ""
 "higher ratio (ie, to a more \"flat\" image). The value is x1000: 1333 means "
 "4/3."
 msgstr ""
-"Didžiausias paveikslėlio santykis. Apkirpimo įskiepis niekada neapkirps, kad "
-"paveikslėlio santykis būtų didesnis nei nurodyta. Vertė x1000: 1333 reiškia "
-"4/3."
+"Didžiausias paveikslėlio santykis. Apkirpimo papildinys niekada neapkirps, "
+"kad paveikslėlio santykis būtų didesnis nei nurodyta. Vertė x1000: 1333 "
+"reiškia 4/3."
 
 #: modules/video_filter/crop.c:85
 msgid "Manual ratio"
