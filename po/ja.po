@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vlc 1.1.0\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2011-03-22 22:53+0000\n"
-"PO-Revision-Date: 2011-01-31 22:58+0900\n"
+"POT-Creation-Date: 2011-03-28 22:52+0100\n"
+"PO-Revision-Date: 2011-03-26 16:35+0900\n"
 "Last-Translator: Fumio Nakayama <fumio.n6a@gmail.com>\n"
 "Language-Team: VideoLAN's Translators <translators@videolan.org>\n"
 "Language: ja\n"
@@ -10874,23 +10874,21 @@ msgid "RealVideo library decoder"
 msgstr "RealVideoライブラリーデコーダー"
 
 #: modules/codec/schroedinger.c:65
-#, fuzzy
 msgid "Automate picture coding mode"
-msgstr "ピクチャーコーディングモード"
+msgstr "自動画像コーディングモード"
 
 #: modules/codec/schroedinger.c:66
 msgid ""
 "Use the input picture to determine how to code it - interlaced or progressive"
-msgstr ""
+msgstr "入力画像のコード化(インターレース/プログレッシブ)を自動判別します。"
 
 #: modules/codec/schroedinger.c:74
 msgid "Schroedinger video decoder"
 msgstr "Schroedingerビデオデコーダー"
 
 #: modules/codec/schroedinger.c:80
-#, fuzzy
 msgid "Dirac video encoder using libschroedinger"
-msgstr "Diracリサーチライブラリ使用のDiracビデオエンコーダー"
+msgstr "libschroedinger使用のDiracビデオエンコーダー"
 
 #: modules/codec/sdl_image.c:60
 msgid "SDL Image decoder"
