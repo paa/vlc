@@ -9,14 +9,14 @@
 # Loba Yeasmeen <loba@ankur.org.bd>, 2009.
 # Sadia Afroz <sadia@ankur.org.bd>, 2009, 2010.
 # Jamil Ahmed <jamil@ankur.org.bd>, 2010.
-# Israt Jahan <israt@ankur.org.bd>, 2010.
+# Israt Jahan <israt@ankur.org.bd>, 2010, 2011.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: vlc\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2011-03-22 22:53+0000\n"
-"PO-Revision-Date: 2011-01-12 12:45+0600\n"
+"PO-Revision-Date: 2011-04-04 12:45+0600\n"
 "Last-Translator: israt <israt@ankur.org.bd>\n"
 "Language-Team: Bengali <ankur-bd-l10n@googlegroups.com>\n"
 "Language: bn\n"
@@ -10882,23 +10882,23 @@ msgid "RealVideo library decoder"
 msgstr "RealVideo লাইব্রেরি ডিকোডার"
 
 #: modules/codec/schroedinger.c:65
-#, fuzzy
 msgid "Automate picture coding mode"
-msgstr "ছবি কোডিং মোড"
+msgstr "স্বয়ংক্রিয় ছবি কোডিং মোড"
 
 #: modules/codec/schroedinger.c:66
 msgid ""
 "Use the input picture to determine how to code it - interlaced or progressive"
 msgstr ""
+"কিভাবে কোড করতে হবে তা জানার জন্য ইনপুট ছবি ব্যবহার - ইন্টারলেসেড অথবা "
+"প্রগ্রেসিভ"
 
 #: modules/codec/schroedinger.c:74
 msgid "Schroedinger video decoder"
 msgstr "Schroedinger ভিডিও ডিকোডার"
 
 #: modules/codec/schroedinger.c:80
-#, fuzzy
 msgid "Dirac video encoder using libschroedinger"
-msgstr "dirac-রিসার্চ লাইব্রেরি ব্যবহার করে Dirac ভিডিও এনকোডিং"
+msgstr "libschroedinger ব্যবহার করে Dirac ভিডিও এনকোডার"
 
 #: modules/codec/sdl_image.c:60
 msgid "SDL Image decoder"
@@ -19243,7 +19243,7 @@ msgstr "নূন্যতম দর্শন দিয়ে শুরু হয় (
 
 #: modules/gui/qt4/qt4.cpp:167
 msgid "Ignore keyboard volume buttons."
-msgstr ""
+msgstr "কীবোর্ড ভলিউম বোতাম অগ্রাহ্য।"
 
 #: modules/gui/qt4/qt4.cpp:169
 msgid ""
@@ -19252,6 +19252,11 @@ msgid ""
 "unchecked, the volume buttons will change VLC's volume when VLC is selected "
 "and change the system volume when VLC is not selected."
 msgstr ""
+"এই অপশন কি নির্বাচন করলে। আপনার কীবোর্ডের বিভিন্ন অপশন, যেমন ভলিউম বাড়ানো, "
+"ভলিউম কমানো, বা শব্দ বন্ধ করা ইত্যাদি সব সময় আপনার সিস্টেমের ভলিউমে প্রভাব "
+"ফেলবে। এই অপশনটি নির্বাচন না করলে, যদি ভিএলসি নির্বাচন করা থাকে তবে ভলিউম "
+"বোতাম বাড়ানো, কমানো করলে ভিএলসির শব্দ কমানো, বাড়ান হবে, যদি ভিএলসি নির্বাচন "
+"করা না থাকে তবে সিস্টেমের শব্দ বাড়ানো, কমানো হবে।"
 
 #: modules/gui/qt4/qt4.cpp:176
 msgid "Qt interface"
