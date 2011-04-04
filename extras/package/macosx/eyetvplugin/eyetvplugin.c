@@ -1,7 +1,7 @@
 /*****************************************************************************
 * eyetvplugin.c: Plug-In for the EyeTV software to connect to VLC
 *****************************************************************************
-* Copyright (C) 2006-2007 the VideoLAN team
+* Copyright (C) 2006-2011 the VideoLAN team
 * $Id$
 *
 * Authors: Felix Kühne <fkuehne at videolan dot org>
@@ -309,13 +309,10 @@ static long VLCEyeTVPluginPacketsArrived(VLCEyeTVPluginGlobals_t *globals, EyeTV
                             {
                                 if( globals->activePIDs[i].pid == pid )
                                 {
-                                    if( packetBufferSize <= (sizeof(packetBuffer)-sizeof(TransportStreamPacket)) )
-                                    {
-                                        /* copy packet in our buffer */
-                                        memcpy(packetBuffer+packetBufferSize, *packets, sizeof(TransportStreamPacket));
-                                        packetBufferSize += sizeof(TransportStreamPacket);
-                                    }
-                                    else
+                                    
+                                    memcpy(packetBuffer+packetBufferSize, *packets, sizeof(TransportStreamPacket));
+                                    packetBufferSize += sizeof(TransportStreamPacket);
+                                    if( packetBufferSize > (sizeof(packetBuffer)-sizeof(TransportStreamPacket)) )
                                     {
                                         /* flush buffer to VLC */
                                         ssize_t sent = write(i_vlcSock, packetBuffer, packetBufferSize);
@@ -331,6 +328,7 @@ static long VLCEyeTVPluginPacketsArrived(VLCEyeTVPluginGlobals_t *globals, EyeTV
                                         }
                                         packetBufferSize = 0;
                                     }
+
                                     if( i > 0 )
                                     {
                                        /* if we assume that consecutive packets would have the same PID in most cases,
