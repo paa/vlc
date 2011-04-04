@@ -124,10 +124,11 @@ const NSTimeInterval HOLD_RECOGNITION_TIME_INTERVAL=0.4;
             [cookieToButtonMapping setObject:[NSNumber numberWithInt:kRemoteButtonLeft_Hold]      forKey:@"33_21_20_13_12_2_"];
             [cookieToButtonMapping setObject:[NSNumber numberWithInt:kRemoteButtonMenu_Hold]      forKey:@"33_21_20_2_33_21_20_2_"];
             [cookieToButtonMapping setObject:[NSNumber numberWithInt:kRemoteButtonPlay_Sleep]     forKey:@"37_33_21_20_2_37_33_21_20_2_"];
-            [cookieToButtonMapping setObject:[NSNumber numberWithInt:kRemoteControl_Switched]     forKey:@"19_"];
+            [cookieToButtonMapping setObject:[NSNumber numberWithInt:kRemoteControl_Switched]     forKey:@"42_33_23_21_20_2_33_23_21_20_2_"];
+            [cookieToButtonMapping setObject:[NSNumber numberWithInt:k2009RemoteButtonSwitched]     forKey:@"42_33_21_20_8_2_33_21_20_8_2_"];
             [cookieToButtonMapping setObject:[NSNumber numberWithInt:k2009RemoteButtonPlay]       forKey:@"33_21_20_8_2_33_21_20_8_2_"];
             [cookieToButtonMapping setObject:[NSNumber numberWithInt:k2009RemoteButtonFullscreen] forKey:@"33_21_20_3_2_33_21_20_3_2_"];
-            switchCookie = @"19_";
+            switchCookie = @"42_33_23_21_20_2_33_23_21_20_2_";
         }
     }
     
