@@ -686,7 +686,7 @@ static VLCWizard *_o_sharedInstance = nil;
         if ([o_t4_ckb_video state] == NSOnState)
         {
             NSNumber * theNum;
-            theNum = [NSNumber numberWithInt:[o_t4_pop_videoCodec indexOfSelectedItem]];
+            theNum = [NSNumber numberWithInt:[[o_t4_pop_videoCodec selectedItem]tag]];
             [o_userSelections setObject:@"YES" forKey:@"trnscdVideo"];
             [o_userSelections setObject:[o_t4_pop_videoBitrate titleOfSelectedItem]
                 forKey:@"trnscdVideoBitrate"];
@@ -700,7 +700,7 @@ static VLCWizard *_o_sharedInstance = nil;
         if ([o_t4_ckb_audio state] == NSOnState)
         {
             NSNumber * theNum;
-            theNum = [NSNumber numberWithInt:[o_t4_pop_audioCodec indexOfSelectedItem]];
+            theNum = [NSNumber numberWithInt:[[o_t4_pop_audioCodec selectedItem]tag]];
             [o_userSelections setObject:@"YES" forKey:@"trnscdAudio"];
             [o_userSelections setObject:[o_t4_pop_audioBitrate titleOfSelectedItem]
                 forKey:@"trnscdAudioBitrate"];
