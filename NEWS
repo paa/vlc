@@ -6,6 +6,10 @@ Mac OS X Interface:
  * improved Apple Remote handling
  * layout fixes in the Preferences and Controls windows
 
+Mac OS X Port:
+ * fixed Growl local notification plugin
+ * the app bundle includes the Growl framework now
+
 
 Changes between 1.1.7 and 1.1.8:
 --------------------------------
