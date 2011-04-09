@@ -1,6 +1,11 @@
 Changes between 1.1.8 and 1.1.9-git:
 --------------------------------
 
+Mac OS X Interface:
+ * fixed bugs in the Streaming / Transcoding wizard
+ * improved Apple Remote handling
+ * layout fixes in the Preferences and Controls windows
+
 
 Changes between 1.1.7 and 1.1.8:
 --------------------------------
