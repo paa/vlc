@@ -458,7 +458,7 @@ VLC-release.app: vlc
 	cp -R $(CONTRIB_DIR)/Sparkle/Sparkle.framework $(top_builddir)/tmp/extras/contrib/Sparkle
 	mkdir -p $(top_builddir)/tmp/extras/contrib/Growl
 	cp -R $(CONTRIB_DIR)/Growl/Growl.framework $(top_builddir)/tmp/extras/contrib/Growl
-    mkdir -p $(top_builddir)/tmp/modules/audio_output
+	mkdir -p $(top_builddir)/tmp/modules/audio_output
 	mkdir -p $(top_builddir)/tmp/modules/gui/macosx
 	for i in \
 	    AppleRemote.h \
