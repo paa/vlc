@@ -136,7 +136,7 @@
                                             view_rect.size.height )];
 
         view_rect = [o_time frame];
-        [o_time setFrame: NSMakeRect( view_rect.origin.x+15,
+        [o_time setFrame: NSMakeRect( view_rect.origin.x+10,
                                      view_rect.origin.y,
                                      view_rect.size.width,
                                      view_rect.size.height )];

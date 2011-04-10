@@ -12,7 +12,9 @@
     </object>
     <object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
       <bool key="EncodedWithXMLCoder">YES</bool>
-      <integer value="2"/>
+      <integer value="21"/>
+      <integer value="3568"/>
+      <integer value="2417"/>
     </object>
     <object class="NSArray" key="IBDocument.PluginDependencies">
       <bool key="EncodedWithXMLCoder">YES</bool>
@@ -3369,7 +3371,7 @@
         <nil key="NSUserInterfaceItemIdentifier"/>
         <string key="NSWindowContentMaxSize">{1.7976931348623157e+308, 1.7976931348623157e+308}</string>
         <object class="NSView" key="NSWindowView" id="351701434">
-          <nil key="NSNextResponder"/>
+          <reference key="NSNextResponder"/>
           <int key="NSvFlags">256</int>
           <object class="NSMutableArray" key="NSSubviews">
             <bool key="EncodedWithXMLCoder">YES</bool>
@@ -3500,7 +3502,7 @@
             <object class="NSSlider" id="400811827">
               <reference key="NSNextResponder" ref="351701434"/>
               <int key="NSvFlags">290</int>
-              <string key="NSFrame">{{158, 6}, {17, 15}}</string>
+              <string key="NSFrame">{{158, 6}, {9, 15}}</string>
               <reference key="NSSuperview" ref="351701434"/>
               <bool key="NSEnabled">YES</bool>
               <object class="NSSliderCell" key="NSCell" id="295635233">
@@ -3618,12 +3620,12 @@
             <object class="NSTextField" id="262403346">
               <reference key="NSNextResponder" ref="351701434"/>
               <int key="NSvFlags">289</int>
-              <string key="NSFrame">{{172, 7}, {46, 13}}</string>
+              <string key="NSFrame">{{165, 7}, {53, 13}}</string>
               <reference key="NSSuperview" ref="351701434"/>
               <bool key="NSEnabled">YES</bool>
               <object class="NSTextFieldCell" key="NSCell" id="742071211">
                 <int key="NSCellFlags">-2079195584</int>
-                <int key="NSCellFlags2">138413056</int>
+                <int key="NSCellFlags2">71304192</int>
                 <string key="NSContents">0:00:00</string>
                 <reference key="NSSupport" ref="188716167"/>
                 <reference key="NSControlView" ref="262403346"/>
@@ -3643,7 +3645,8 @@
               <string key="NSExtension">NSView</string>
             </object>
           </object>
-          <string key="NSFrame">{{7, 11}, {238, 63}}</string>
+          <string key="NSFrameSize">{238, 63}</string>
+          <reference key="NSSuperview"/>
         </object>
         <string key="NSScreenRect">{{0, 0}, {1280, 778}}</string>
         <string key="NSMaxSize">{1.7976931348623157e+308, 1.7976931348623157e+308}</string>
@@ -4428,7 +4431,7 @@
         <string key="NSMaxSize">{1.7976931348623157e+308, 1.7976931348623157e+308}</string>
       </object>
       <object class="NSCustomView" id="191392701">
-        <nil key="NSNextResponder"/>
+        <reference key="NSNextResponder"/>
         <int key="NSvFlags">268</int>
         <object class="NSMutableArray" key="NSSubviews">
           <bool key="EncodedWithXMLCoder">YES</bool>
@@ -4674,6 +4677,7 @@
           </object>
         </object>
         <string key="NSFrameSize">{308, 43}</string>
+        <reference key="NSSuperview"/>
         <string key="NSClassName">NSView</string>
       </object>
       <object class="NSWindowTemplate" id="747974943">
@@ -9700,12 +9704,12 @@ LCAuLi4</string>
               <reference ref="545549073"/>
               <reference ref="802390514"/>
               <reference ref="266027916"/>
-              <reference ref="262403346"/>
               <reference ref="400811827"/>
               <reference ref="750753776"/>
               <reference ref="627102071"/>
               <reference ref="528539871"/>
               <reference ref="645169405"/>
+              <reference ref="262403346"/>
             </object>
             <reference key="parent" ref="284663135"/>
           </object>
@@ -10145,13 +10149,13 @@ LCAuLi4</string>
               <reference ref="53303040"/>
               <reference ref="707945673"/>
               <reference ref="912239067"/>
-              <reference ref="103992698"/>
               <reference ref="375346007"/>
               <reference ref="61056269"/>
               <reference ref="664576649"/>
               <reference ref="89989527"/>
               <reference ref="243080123"/>
               <reference ref="924964262"/>
+              <reference ref="103992698"/>
             </object>
             <reference key="parent" ref="0"/>
             <string key="objectName">Control Toolbar</string>
@@ -11474,9 +11478,11 @@ LCAuLi4</string>
           <string>2421.ImportedFromIB2</string>
           <string>2422.CustomClassName</string>
           <string>2422.IBPluginDependency</string>
+          <string>2422.IBViewBoundsToFrameTransform</string>
           <string>2422.ImportedFromIB2</string>
           <string>2423.CustomClassName</string>
           <string>2423.IBPluginDependency</string>
+          <string>2423.IBViewBoundsToFrameTransform</string>
           <string>2423.ImportedFromIB2</string>
           <string>2425.IBPluginDependency</string>
           <string>2425.ImportedFromIB2</string>
@@ -11641,6 +11647,7 @@ LCAuLi4</string>
           <string>3574.ImportedFromIB2</string>
           <string>3575.CustomClassName</string>
           <string>3575.IBPluginDependency</string>
+          <string>3575.IBViewBoundsToFrameTransform</string>
           <string>3575.ImportedFromIB2</string>
           <string>3576.CustomClassName</string>
           <string>3576.IBPluginDependency</string>
@@ -11676,6 +11683,7 @@ LCAuLi4</string>
           <string>3654.ImportedFromIB2</string>
           <string>3698.CustomClassName</string>
           <string>3698.IBPluginDependency</string>
+          <string>3698.IBViewBoundsToFrameTransform</string>
           <string>3698.ImportedFromIB2</string>
           <string>3706.IBPluginDependency</string>
           <string>3706.ImportedFromIB2</string>
@@ -12299,9 +12307,15 @@ LCAuLi4</string>
           <boolean value="YES"/>
           <string>VLCTimeField</string>
           <string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+          <object class="NSAffineTransform">
+            <bytes key="NSTransformStruct">P4AAAL+AAABDLAAAwZAAAA</bytes>
+          </object>
           <boolean value="YES"/>
           <string>MPSlider</string>
           <string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+          <object class="NSAffineTransform">
+            <bytes key="NSTransformStruct">P4AAAL+AAABDHgAAwZgAAA</bytes>
+          </object>
           <boolean value="YES"/>
           <string>com.apple.InterfaceBuilder.CocoaPlugin</string>
           <boolean value="YES"/>
@@ -12455,7 +12469,7 @@ LCAuLi4</string>
           <string>{{334, 373}, {208, 363}}</string>
           <string>com.apple.InterfaceBuilder.CocoaPlugin</string>
           <boolean value="YES"/>
-          <string>{{0, 702}, {308, 43}}</string>
+          <string>{{329, 702}, {308, 43}}</string>
           <string>com.apple.InterfaceBuilder.CocoaPlugin</string>
           <boolean value="YES"/>
           <string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -12466,6 +12480,9 @@ LCAuLi4</string>
           <boolean value="YES"/>
           <string>VLCTimeField</string>
           <string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+          <object class="NSAffineTransform">
+            <bytes key="NSTransformStruct">P4AAAL+AAABDfAAAwfgAAA</bytes>
+          </object>
           <boolean value="YES"/>
           <string>MPSlider</string>
           <string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -12505,6 +12522,9 @@ LCAuLi4</string>
           <boolean value="YES"/>
           <string>VLBrushedMetalImageView</string>
           <string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+          <object class="NSAffineTransform">
+            <bytes key="NSTransformStruct">AUMAAABAAAAAA</bytes>
+          </object>
           <boolean value="YES"/>
           <string>com.apple.InterfaceBuilder.CocoaPlugin</string>
           <boolean value="YES"/>
