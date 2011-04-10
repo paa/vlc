@@ -12,8 +12,8 @@
     </object>
     <object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
       <bool key="EncodedWithXMLCoder">YES</bool>
-      <integer value="21"/>
       <integer value="3568"/>
+      <integer value="21"/>
       <integer value="2417"/>
     </object>
     <object class="NSArray" key="IBDocument.PluginDependencies">
@@ -3625,7 +3625,7 @@
               <bool key="NSEnabled">YES</bool>
               <object class="NSTextFieldCell" key="NSCell" id="742071211">
                 <int key="NSCellFlags">-2079195584</int>
-                <int key="NSCellFlags2">71304192</int>
+                <int key="NSCellFlags2">138413056</int>
                 <string key="NSContents">0:00:00</string>
                 <reference key="NSSupport" ref="188716167"/>
                 <reference key="NSControlView" ref="262403346"/>
@@ -12288,9 +12288,9 @@ LCAuLi4</string>
           <boolean value="YES"/>
           <string>com.apple.InterfaceBuilder.CocoaPlugin</string>
           <boolean value="YES"/>
-          <string>{{309, 683}, {238, 63}}</string>
+          <string>{{321, 522}, {238, 63}}</string>
           <string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-          <string>{{309, 683}, {238, 63}}</string>
+          <string>{{321, 522}, {238, 63}}</string>
           <boolean value="YES"/>
           <string>com.apple.InterfaceBuilder.CocoaPlugin</string>
           <boolean value="YES"/>
@@ -12469,7 +12469,7 @@ LCAuLi4</string>
           <string>{{334, 373}, {208, 363}}</string>
           <string>com.apple.InterfaceBuilder.CocoaPlugin</string>
           <boolean value="YES"/>
-          <string>{{329, 702}, {308, 43}}</string>
+          <string>{{560, 698}, {308, 43}}</string>
           <string>com.apple.InterfaceBuilder.CocoaPlugin</string>
           <boolean value="YES"/>
           <string>com.apple.InterfaceBuilder.CocoaPlugin</string>
