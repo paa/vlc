@@ -368,6 +368,11 @@ static bool GetFiltersStatus( intf_thread_t *p_intf,
     [o_btn_equalizer setState: NSOffState];
 }
 
+- (void)windowDidBecomeKey:(NSNotification *)aNotification
+{
+    [o_btn_equalizer setState: NSOnState];
+}
+
 - (void)awakeFromNib
 {
     int i;
