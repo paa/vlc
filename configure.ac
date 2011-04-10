@@ -452,12 +452,12 @@ VLC_ADD_LIBS([libvlccore],[${LTLIBICONV}])
 dnl Check for broken versions of mingw-runtime compatability library
 AS_IF([test "${SYS}" = "mingw32" -o "${SYS}" = "mingwce"], [
     AC_MSG_CHECKING(for broken mingw-runtime)
-    AC_PREPROC_IFELSE([
+    AC_PREPROC_IFELSE([AC_LANG_SOURCE([
 #include <_mingw.h>
 #if (__MINGW32_MAJOR_VERSION == 3) && (__MINGW32_MINOR_VERSION < 15)
 # error Attempting to use mingw-runtime with broken vsnprintf support
 #endif
-], [
+])], [
         AC_MSG_RESULT([ok])
 ], [
         AC_MSG_RESULT([present])
@@ -524,13 +524,13 @@ dnl See sourceware.org bugs 5058 and 5443.
 dnl Ubuntu alone has 20 bug numbers for this...
 dnl
 AC_MSG_CHECKING(for buggy GNU/libc versions)
-AC_PREPROC_IFELSE([
+AC_PREPROC_IFELSE([AC_LANG_SOURCE([
 #include <limits.h>
 #if defined (__GLIBC__) && (__GLIBC__ == 2) \
   && (__GLIBC_MINOR__ >= 5) && (__GLIBC_MINOR__ <= 7)
 # error GNU/libc with dcgettext killer bug!
 #endif
-], [
+])], [
   AC_MSG_RESULT([not present])
 ], [
   AC_MSG_RESULT([found])
@@ -1539,7 +1539,7 @@ AS_IF([test "${CFLAGS_TUNING}"],
     CFLAGS="${CFLAGS} ${CFLAGS_TUNING}"
 
     AC_MSG_CHECKING([whether $CC accepts ${CFLAGS_TUNING}])
-    AC_COMPILE_IFELSE([ ],
+    AC_COMPILE_IFELSE([AC_LANG_SOURCE([])],
                       [tuning="yes"],
                       [CFLAGS_TUNING=""; tuning="no"
                        AS_IF([test "${with_tuning}"],
