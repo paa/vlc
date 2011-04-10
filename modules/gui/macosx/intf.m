@@ -2932,6 +2932,7 @@ end:
 // see [af97f24d528acab89969d6541d83f17ce1ecd580] that introduced the removal of setjmp() and longjmp() 
 - (void)terminate:(id)sender
 {
+    [self activateIgnoringOtherApps:YES];
     [self stop:sender];
 }
 

@@ -6,6 +6,7 @@ Mac OS X Interface:
  * improved Apple Remote handling
  * layout fixes in the Preferences and Controls windows
  * fixed incomplete list of hotkeys in the Preferences dialog
+ * fixed Quit through Apple Events (Dock menu, App Switcher, AppleScript, etc.)
 
 Mac OS X Port:
  * fixed Growl local notification plugin
