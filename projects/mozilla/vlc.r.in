@@ -71,6 +71,8 @@ resource 'STR#' (127)
         /* WebM */
         "WebM video",
         "WebM audio",
+        /* AMR */
+        "AMR audio",
     };
 };
 
@@ -128,6 +130,8 @@ resource 'STR#' (128,"MIME Type")
         /* WebM */
         "video/webm", "webm",
         "audio/webm", "webm",
+        /* AMR */
+        "audio/amr", "amr",
 
     };
 };
