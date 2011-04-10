@@ -5,6 +5,7 @@ Mac OS X Interface:
  * fixed bugs in the Streaming / Transcoding wizard
  * improved Apple Remote handling
  * layout fixes in the Preferences and Controls windows
+ * fixed incomplete list of hotkeys in the Preferences dialog
 
 Mac OS X Port:
  * fixed Growl local notification plugin

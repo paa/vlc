@@ -645,23 +645,32 @@ static inline char * __config_GetLabel( vlc_object_t *p_this, const char *psz_na
     /********************
      * hotkeys settings *
      ********************/
-    const struct hotkey *p_hotkeys = p_intf->p_libvlc->p_hotkeys;
     [o_hotkeySettings release];
     o_hotkeySettings = [[NSMutableArray alloc] init];
     NSMutableArray *o_tempArray_desc = [[NSMutableArray alloc] init];
-    i = 1;
 
-    while( i < 100 )
+    module_t *p_main = module_get_main();
+    assert( p_main );
+    unsigned confsize;
+    module_config_t *p_config;
+
+    p_config = module_config_get (p_main, &confsize);
+    
+    for (size_t i = 0; i < confsize; i++)
     {
-        p_item = config_FindConfig( VLC_OBJECT(p_intf), p_hotkeys[i].psz_action );
-        if( !p_item )
-            break;
-
-        [o_tempArray_desc addObject: _NS( p_item->psz_text )];
-        [o_hotkeySettings addObject: [NSNumber numberWithInt: p_item->value.i]];
-
-        i++;
+        module_config_t *p_item = p_config + i;
+        
+        if( (p_item->i_type & CONFIG_ITEM) && p_item->psz_name != NULL
+           && !strncmp( p_item->psz_name , "key-", 4 )
+           && !EMPTY_STR( p_item->psz_text ) )
+        {
+            [o_tempArray_desc addObject: _NS( p_item->psz_text )];
+            [o_hotkeySettings addObject: [NSNumber numberWithInt:p_item->value.i]];
+        }
     }
+    module_config_free (p_config);
+    module_release (p_main);
+
     [o_hotkeyDescriptions release];
     o_hotkeyDescriptions = [[NSArray alloc] initWithArray: o_tempArray_desc copyItems: YES];
     [o_tempArray_desc release];
