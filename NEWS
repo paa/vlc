@@ -1,5 +1,11 @@
-Changes between 1.1.8 and 1.1.9-git:
+Changes between 1.1.8 and 1.1.9:
 --------------------------------
+
+Windows and Mac OS X:
+ * Update of external library modplug, to address a security issue
+
+Demuxers:
+ * mp4: Fix heap-based buffer overflow
 
 Mac OS X Interface:
  * fixed bugs in the Streaming / Transcoding wizard
@@ -11,6 +17,11 @@ Mac OS X Interface:
 Mac OS X Port:
  * fixed Growl local notification plugin
  * the app bundle includes the Growl framework now
+ * eyeTV fixes
+
+Translations:
+ * Update of Lithuanian, Estonian, Chinese, Japanese, Bengali and Dutch
+   translations
 
 
 Changes between 1.1.7 and 1.1.8:
