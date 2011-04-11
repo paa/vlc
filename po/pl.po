@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vlc 1.1.x\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2011-03-22 22:53+0000\n"
-"PO-Revision-Date: 2011-02-01 23:15+0100\n"
+"POT-Creation-Date: 2011-04-11 23:31+0100\n"
+"PO-Revision-Date: 2011-04-07 17:31+0100\n"
 "Last-Translator: Michał Trzebiatowski <hippie_1968@hotmail.com>\n"
 "Language-Team: Polish\n"
 "Language: pl\n"
@@ -82,7 +82,7 @@ msgstr "Ustawienia skrótów klawiszowych"
 #: src/libvlc-module.c:1575 modules/access/imem.c:69
 #: modules/gui/macosx/intf.m:668 modules/gui/macosx/output.m:170
 #: modules/gui/macosx/playlistinfo.m:114 modules/gui/macosx/simple_prefs.m:184
-#: modules/gui/macosx/wizard.m:380
+#: modules/gui/macosx/wizard.m:378
 #: modules/gui/qt4/components/info_panels.cpp:507
 #: modules/gui/qt4/components/simple_preferences.cpp:83
 #: modules/services_discovery/mediadirs.c:77 modules/stream_out/es.c:93
@@ -138,12 +138,13 @@ msgstr "Różne ustawienia dźwięku i modułów"
 #: src/libvlc-module.c:1628 modules/access/imem.c:69
 #: modules/gui/macosx/intf.m:681 modules/gui/macosx/output.m:160
 #: modules/gui/macosx/playlistinfo.m:103 modules/gui/macosx/simple_prefs.m:188
-#: modules/gui/macosx/wizard.m:381
+#: modules/gui/macosx/wizard.m:379
 #: modules/gui/qt4/components/info_panels.cpp:508
 #: modules/gui/qt4/components/simple_preferences.cpp:85
 #: modules/misc/dummy/dummy.c:106 modules/services_discovery/mediadirs.c:70
 #: modules/stream_out/es.c:101 modules/stream_out/transcode/transcode.c:161
-#: modules/gui/qt4/ui/profiles.h:476 modules/gui/qt4/ui/sprefs_video.h:321
+#: modules/gui/qt4/ui/profiles.h:476
+#: modules/gui/qt4/ui/sprefs_video.h:321
 msgid "Video"
 msgstr "Obraz"
 
@@ -539,7 +540,7 @@ msgstr "&O"
 
 #: include/vlc_intf_strings.h:65 modules/control/rc.c:72
 #: modules/gui/macosx/embeddedwindow.m:69
-#: modules/gui/macosx/embeddedwindow.m:173 modules/gui/macosx/intf.m:602
+#: modules/gui/macosx/embeddedwindow.m:202 modules/gui/macosx/intf.m:602
 #: modules/gui/macosx/intf.m:647 modules/gui/macosx/intf.m:739
 #: modules/gui/macosx/intf.m:746 modules/gui/macosx/intf.m:2025
 #: modules/gui/macosx/intf.m:2026 modules/gui/macosx/intf.m:2027
@@ -688,7 +689,8 @@ msgid ""
 msgstr ""
 "Powiększ część obrazu. Możesz wybrać cześć obrazu która ma być powiększona."
 
-#: include/vlc_intf_strings.h:117 modules/gui/qt4/ui/video_effects.h:1141
+#: include/vlc_intf_strings.h:117
+#: modules/gui/qt4/ui/video_effects.h:1141
 msgid "Waves"
 msgstr "Fale"
 
@@ -1004,7 +1006,7 @@ msgid "Original ID"
 msgstr "Oryginalny identyfikator"
 
 #: src/input/es_out.c:2895 src/input/es_out.c:2898 modules/access/imem.c:72
-#: modules/gui/macosx/wizard.m:385 modules/gui/qt4/ui/profiles.h:477
+#: modules/gui/macosx/wizard.m:383 modules/gui/qt4/ui/profiles.h:477
 #: modules/gui/qt4/ui/profiles.h:496
 msgid "Codec"
 msgstr "Kodek"
@@ -1041,7 +1043,8 @@ msgstr "Bitów na próbkę"
 #: src/input/es_out.c:2937 modules/access/pvr.c:96
 #: modules/access_output/shout.c:91 modules/demux/playlist/shoutcast.c:412
 #: modules/gui/qt4/components/open_panels.cpp:921
-#: modules/gui/qt4/ui/profiles.h:478 modules/gui/qt4/ui/profiles.h:497
+#: modules/gui/qt4/ui/profiles.h:478
+#: modules/gui/qt4/ui/profiles.h:497
 msgid "Bitrate"
 msgstr "Przepływność"
 
@@ -1099,7 +1102,7 @@ msgstr "Format '%s' nie może być usunięty. Zajrzyj do dziennika dla szczegó�
 
 #: src/input/meta.c:51 src/input/var.c:187 modules/gui/macosx/intf.m:663
 #: modules/gui/macosx/intf.m:664 modules/gui/macosx/open.m:190
-#: modules/gui/macosx/playlistinfo.m:76 modules/gui/macosx/wizard.m:348
+#: modules/gui/macosx/playlistinfo.m:76 modules/gui/macosx/wizard.m:346
 #: modules/gui/qt4/components/open_panels.cpp:376 modules/mux/asf.c:56
 #: modules/gui/qt4/ui/open_disk.h:302
 msgid "Title"
@@ -2049,7 +2052,8 @@ msgstr ""
 "używać tej opcji."
 
 #: src/libvlc-module.c:450 src/video_output/vout_intf.c:344
-#: modules/gui/macosx/simple_prefs.m:295 modules/gui/qt4/ui/sprefs_video.h:312
+#: modules/gui/macosx/simple_prefs.m:295
+#: modules/gui/qt4/ui/sprefs_video.h:312
 msgid "Always on top"
 msgstr "Zawsze na wierzchu"
 
@@ -2484,7 +2488,7 @@ msgid "Default"
 msgstr "Domyślnie"
 
 #: src/libvlc-module.c:661 modules/gui/macosx/equalizer.m:149
-#: modules/gui/macosx/extended.m:97 modules/gui/macosx/wizard.m:354
+#: modules/gui/macosx/extended.m:97 modules/gui/macosx/wizard.m:352
 #: modules/gui/qt4/ui/equalizer.h:127 modules/gui/qt4/ui/vlm.h:290
 msgid "Enable"
 msgstr "Włączone"
@@ -3840,11 +3844,12 @@ msgstr "Wolniej (delikatnie)"
 #: modules/gui/macosx/about.m:193 modules/gui/macosx/controls.m:1032
 #: modules/gui/macosx/embeddedwindow.m:73 modules/gui/macosx/intf.m:605
 #: modules/gui/macosx/intf.m:653 modules/gui/macosx/intf.m:741
-#: modules/gui/macosx/intf.m:749 modules/gui/macosx/wizard.m:309
-#: modules/gui/macosx/wizard.m:321 modules/gui/macosx/wizard.m:1623
+#: modules/gui/macosx/intf.m:749 modules/gui/macosx/wizard.m:307
+#: modules/gui/macosx/wizard.m:319 modules/gui/macosx/wizard.m:1597
 #: modules/gui/qt4/components/controller.hpp:105
 #: modules/misc/notify/notify.c:339 modules/gui/qt4/ui/sout.h:327
-#: modules/gui/qt4/ui/sout.h:338 modules/gui/qt4/ui/streampanel.h:182
+#: modules/gui/qt4/ui/sout.h:338
+#: modules/gui/qt4/ui/streampanel.h:182
 msgid "Next"
 msgstr "Następny"
 
@@ -4739,7 +4744,7 @@ msgstr "Pobieranie ..."
 #: modules/gui/macosx/open.m:206 modules/gui/macosx/prefs.m:204
 #: modules/gui/macosx/prefs.m:225 modules/gui/macosx/simple_prefs.m:244
 #: modules/gui/macosx/simple_prefs.m:308 modules/gui/macosx/simple_prefs.m:696
-#: modules/gui/macosx/wizard.m:320
+#: modules/gui/macosx/wizard.m:318
 #: modules/gui/qt4/components/open_panels.cpp:1285
 #: modules/gui/qt4/components/preferences_widgets.cpp:1427
 #: modules/gui/qt4/components/sout/profile_selector.cpp:253
@@ -5503,7 +5508,8 @@ msgstr "Przetwarzanie końcowe"
 
 #: src/video_output/vout_intf.c:228 modules/gui/macosx/intf.m:693
 #: modules/gui/macosx/intf.m:694 modules/video_filter/crop.c:107
-#: modules/video_filter/croppadd.c:86 modules/gui/qt4/ui/video_effects.h:1122
+#: modules/video_filter/croppadd.c:86
+#: modules/gui/qt4/ui/video_effects.h:1122
 msgid "Crop"
 msgstr "Kadrowanie"
 
@@ -7757,7 +7763,8 @@ msgid "Brightness of the video input."
 msgstr "Jasność wyjścia obrazu."
 
 #: modules/access/v4l.c:111 modules/access/v4l2.c:123
-#: modules/gui/macosx/extended.m:101 modules/gui/qt4/ui/video_effects.h:1109
+#: modules/gui/macosx/extended.m:101
+#: modules/gui/qt4/ui/video_effects.h:1109
 msgid "Hue"
 msgstr "Barwa"
 
@@ -7779,7 +7786,8 @@ msgid "Color of the video input."
 msgstr "Kolor wyjścia obrazu."
 
 #: modules/access/v4l.c:117 modules/access/v4l2.c:117
-#: modules/gui/macosx/extended.m:99 modules/gui/qt4/ui/video_effects.h:1106
+#: modules/gui/macosx/extended.m:99
+#: modules/gui/qt4/ui/video_effects.h:1106
 msgid "Contrast"
 msgstr "Kontrast"
 
@@ -10982,23 +10990,23 @@ msgid "RealVideo library decoder"
 msgstr "Dekoder bibliotek RealVideo"
 
 #: modules/codec/schroedinger.c:65
-#, fuzzy
 msgid "Automate picture coding mode"
-msgstr "Tryb kodowania obrazu"
+msgstr "Zautomatyzuj tryb kodowania obrazu"
 
 #: modules/codec/schroedinger.c:66
 msgid ""
 "Use the input picture to determine how to code it - interlaced or progressive"
 msgstr ""
+"Użyj obrazu wejściowego w celu określenia jego kodowania - z przeplotem lub "
+"progresywnie"
 
 #: modules/codec/schroedinger.c:74
 msgid "Schroedinger video decoder"
 msgstr "Dekoder obrazu Schroedinger"
 
 #: modules/codec/schroedinger.c:80
-#, fuzzy
 msgid "Dirac video encoder using libschroedinger"
-msgstr "Koder obrazu Dirac używający biblioteki dirac-research"
+msgstr "Koder obrazu Dirac używający libschroedinger"
 
 #: modules/codec/sdl_image.c:60
 msgid "SDL Image decoder"
@@ -12838,7 +12846,7 @@ msgstr "Inicjowanie"
 msgid "Opening"
 msgstr "Otwieranie"
 
-#: modules/control/rc.c:73 modules/gui/macosx/embeddedwindow.m:167
+#: modules/control/rc.c:73 modules/gui/macosx/embeddedwindow.m:196
 #: modules/gui/macosx/intf.m:2015 modules/gui/macosx/intf.m:2016
 #: modules/gui/macosx/intf.m:2017 modules/gui/macosx/intf.m:2018
 #: modules/gui/qt4/menus.cpp:793 modules/misc/notify/xosd.c:235
@@ -14561,7 +14569,8 @@ msgstr ""
 "przejrzystości do 255 dla pełnej nieprzejrzystości)"
 
 #: modules/gui/fbosd.c:118 modules/misc/logger.c:113
-#: modules/video_filter/marq.c:87 modules/gui/qt4/ui/video_effects.h:1168
+#: modules/video_filter/marq.c:87
+#: modules/gui/qt4/ui/video_effects.h:1168
 msgid "Text"
 msgstr "Tekst"
 
@@ -14757,11 +14766,11 @@ msgstr "Czas"
 #: modules/gui/macosx/coredialogs.m:163 modules/gui/macosx/extended.m:518
 #: modules/gui/macosx/open.m:320 modules/gui/macosx/output.m:138
 #: modules/gui/macosx/playlistinfo.m:398 modules/gui/macosx/simple_prefs.m:245
-#: modules/gui/macosx/wizard.m:600 modules/gui/macosx/wizard.m:663
-#: modules/gui/macosx/wizard.m:1062 modules/gui/macosx/wizard.m:1147
-#: modules/gui/macosx/wizard.m:1154 modules/gui/macosx/wizard.m:1678
-#: modules/gui/macosx/wizard.m:1686 modules/gui/macosx/wizard.m:1867
-#: modules/gui/macosx/wizard.m:1878 modules/gui/macosx/wizard.m:1891
+#: modules/gui/macosx/wizard.m:598 modules/gui/macosx/wizard.m:661
+#: modules/gui/macosx/wizard.m:1034 modules/gui/macosx/wizard.m:1119
+#: modules/gui/macosx/wizard.m:1126 modules/gui/macosx/wizard.m:1652
+#: modules/gui/macosx/wizard.m:1660 modules/gui/macosx/wizard.m:1841
+#: modules/gui/macosx/wizard.m:1852 modules/gui/macosx/wizard.m:1865
 #: modules/gui/qt4/components/open_panels.cpp:1284
 #: modules/gui/qt4/components/preferences_widgets.cpp:1426
 #: modules/gui/qt4/dialogs/firstrun.cpp:100
@@ -14801,7 +14810,7 @@ msgstr ""
 "przyciskiem \"Wstrzymaj\" podczas edytowania zakładek, aby zapewnić "
 "utrzymanie tego samego wejścia."
 
-#: modules/gui/macosx/bookmarks.m:271 modules/gui/macosx/wizard.m:1062
+#: modules/gui/macosx/bookmarks.m:271 modules/gui/macosx/wizard.m:1034
 msgid "Invalid selection"
 msgstr "Nieprawidłowy wybór"
 
@@ -14964,7 +14973,8 @@ msgid "Psychedelic"
 msgstr "Psychodelia"
 
 #: modules/gui/macosx/extended.m:73 modules/video_filter/gradient.c:76
-#: modules/video_filter/gradient.c:82 modules/gui/qt4/ui/video_effects.h:1148
+#: modules/video_filter/gradient.c:82
+#: modules/gui/qt4/ui/video_effects.h:1148
 msgid "Gradient"
 msgstr "Gradient"
 
@@ -14996,7 +15006,8 @@ msgstr "Kadrowanie obrazu"
 msgid "Crops a defined part of the image"
 msgstr "Przycina określoną część obrazu"
 
-#: modules/gui/macosx/extended.m:83 modules/gui/qt4/ui/video_effects.h:1134
+#: modules/gui/macosx/extended.m:83
+#: modules/gui/qt4/ui/video_effects.h:1134
 msgid "Invert colors"
 msgstr "Odwróć kolory"
 
@@ -15532,9 +15543,12 @@ msgstr "Przechwytywanie"
 #: modules/gui/qt4/components/preferences_widgets.cpp:299
 #: modules/gui/qt4/components/simple_preferences.cpp:276
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:102
-#: modules/gui/qt4/ui/open.h:246 modules/gui/qt4/ui/open_disk.h:300
-#: modules/gui/qt4/ui/open_file.h:232 modules/gui/qt4/ui/sprefs_audio.h:412
-#: modules/gui/qt4/ui/sprefs_input.h:308 modules/gui/qt4/ui/sprefs_input.h:317
+#: modules/gui/qt4/ui/open.h:246
+#: modules/gui/qt4/ui/open_disk.h:300
+#: modules/gui/qt4/ui/open_file.h:232
+#: modules/gui/qt4/ui/sprefs_audio.h:412
+#: modules/gui/qt4/ui/sprefs_input.h:308
+#: modules/gui/qt4/ui/sprefs_input.h:317
 #: modules/gui/qt4/ui/sprefs_video.h:326
 msgid "Browse..."
 msgstr "Przeglądaj..."
@@ -15548,7 +15562,7 @@ msgid "Play another media synchronously"
 msgstr "Synchroniczne odtwarzanie kolejnych plików"
 
 #: modules/gui/macosx/open.m:186 modules/gui/macosx/simple_prefs.m:280
-#: modules/gui/macosx/wizard.m:346 modules/gui/macosx/wizard.m:414
+#: modules/gui/macosx/wizard.m:344 modules/gui/macosx/wizard.m:412
 #: modules/gui/qt4/ui/sprefs_interface.h:394
 msgid "Choose..."
 msgstr "Wybierz..."
@@ -15567,7 +15581,8 @@ msgid "VIDEO_TS folder"
 msgstr "Folder VIDEO_TS"
 
 #: modules/gui/macosx/open.m:196 modules/gui/macosx/open.m:739
-#: modules/services_discovery/udev.c:587 modules/gui/qt4/ui/open_disk.h:292
+#: modules/services_discovery/udev.c:587
+#: modules/gui/qt4/ui/open_disk.h:292
 msgid "DVD"
 msgstr "DVD"
 
@@ -15711,7 +15726,8 @@ msgstr "FPS"
 msgid "Subtitles encoding"
 msgstr "Kodowanie napisów"
 
-#: modules/gui/macosx/open.m:316 modules/gui/qt4/ui/sprefs_subtitles.h:210
+#: modules/gui/macosx/open.m:316
+#: modules/gui/qt4/ui/sprefs_subtitles.h:210
 msgid "Font size"
 msgstr "Wielkość czcionki"
 
@@ -15799,7 +15815,7 @@ msgid "Transcoding options"
 msgstr "Opcje transkodowania"
 
 #: modules/gui/macosx/output.m:163 modules/gui/macosx/output.m:173
-#: modules/gui/macosx/wizard.m:384
+#: modules/gui/macosx/wizard.m:382
 msgid "Bitrate (kb/s)"
 msgstr "Przepływność (kb/s)"
 
@@ -15847,13 +15863,13 @@ msgid "Save"
 msgstr "Zapisz"
 
 #: modules/gui/macosx/playlist.m:138 modules/gui/macosx/playlist.m:142
-#: modules/gui/macosx/wizard.m:350 modules/gui/qt4/dialogs/plugins.cpp:498
+#: modules/gui/macosx/wizard.m:348 modules/gui/qt4/dialogs/plugins.cpp:498
 #: modules/mux/asf.c:58
 msgid "Author"
 msgstr "Autor"
 
 #: modules/gui/macosx/playlist.m:139 modules/gui/macosx/playlist.m:143
-#: modules/gui/macosx/wizard.m:352
+#: modules/gui/macosx/wizard.m:350
 #: modules/gui/qt4/components/playlist/sorting.h:51
 msgid "Duration"
 msgstr "Czas trwania"
@@ -15924,7 +15940,7 @@ msgstr "Lista odtwarzania HTML"
 
 #: modules/gui/macosx/playlist.m:529 modules/gui/macosx/playlist.m:532
 #: modules/gui/macosx/playlist.m:1545 modules/gui/macosx/playlist.m:1548
-#: modules/gui/macosx/wizard.m:1365
+#: modules/gui/macosx/wizard.m:1339
 #, c-format
 msgid "%i items"
 msgstr "%i pozycji"
@@ -15997,7 +16013,7 @@ msgstr "Wyświetlone klatki"
 msgid "Lost frames"
 msgstr "Zgubione klatki"
 
-#: modules/gui/macosx/playlistinfo.m:109 modules/gui/macosx/wizard.m:363
+#: modules/gui/macosx/playlistinfo.m:109 modules/gui/macosx/wizard.m:361
 #: modules/gui/qt4/dialogs_provider.cpp:632
 #: modules/video_filter/deinterlace.c:149
 msgid "Streaming"
@@ -16110,7 +16126,8 @@ msgstr "Wejście i kodeki"
 msgid "Input & Codec settings"
 msgstr "Ustawienia wejścia i kodeków"
 
-#: modules/gui/macosx/simple_prefs.m:228 modules/gui/qt4/ui/sprefs_audio.h:414
+#: modules/gui/macosx/simple_prefs.m:228
+#: modules/gui/qt4/ui/sprefs_audio.h:414
 msgid "Effects"
 msgstr "Efekty"
 
@@ -16122,7 +16139,8 @@ msgstr "Włącz dźwięk"
 msgid "General Audio"
 msgstr "Ogólny dźwięk"
 
-#: modules/gui/macosx/simple_prefs.m:231 modules/gui/qt4/ui/sprefs_audio.h:419
+#: modules/gui/macosx/simple_prefs.m:231
+#: modules/gui/qt4/ui/sprefs_audio.h:419
 msgid "Headphone surround effect"
 msgstr "Efekt surround słuchawek"
 
@@ -16275,7 +16293,8 @@ msgstr "Włącz obraz"
 msgid "Output module"
 msgstr "Moduł wyjścia"
 
-#: modules/gui/macosx/simple_prefs.m:298 modules/gui/qt4/ui/sprefs_video.h:325
+#: modules/gui/macosx/simple_prefs.m:298
+#: modules/gui/qt4/ui/sprefs_video.h:325
 msgid "Video snapshots"
 msgstr "Zrzuty ekranu"
 
@@ -16283,15 +16302,18 @@ msgstr "Zrzuty ekranu"
 msgid "Folder"
 msgstr "Folder"
 
-#: modules/gui/macosx/simple_prefs.m:301 modules/gui/qt4/ui/sprefs_video.h:330
+#: modules/gui/macosx/simple_prefs.m:301
+#: modules/gui/qt4/ui/sprefs_video.h:330
 msgid "Format"
 msgstr "Format"
 
-#: modules/gui/macosx/simple_prefs.m:302 modules/gui/qt4/ui/sprefs_video.h:328
+#: modules/gui/macosx/simple_prefs.m:302
+#: modules/gui/qt4/ui/sprefs_video.h:328
 msgid "Prefix"
 msgstr "Prefiks"
 
-#: modules/gui/macosx/simple_prefs.m:303 modules/gui/qt4/ui/sprefs_video.h:331
+#: modules/gui/macosx/simple_prefs.m:303
+#: modules/gui/qt4/ui/sprefs_video.h:331
 msgid "Sequential numbering"
 msgstr "Kolejność numeracji"
 
@@ -16511,19 +16533,19 @@ msgstr ""
 msgid "Uncompressed audio samples (useable with WAV)"
 msgstr "Nieskompresowane próbki dźwiękowe (mogą być używane z WAV)"
 
-#: modules/gui/macosx/wizard.m:234
+#: modules/gui/macosx/wizard.m:233
 msgid "MPEG Program Stream"
 msgstr "Programowy strumień MPEG"
 
-#: modules/gui/macosx/wizard.m:236
+#: modules/gui/macosx/wizard.m:235
 msgid "MPEG Transport Stream"
 msgstr "Transportowy strumień MPEG"
 
-#: modules/gui/macosx/wizard.m:238
+#: modules/gui/macosx/wizard.m:237
 msgid "MPEG 1 Format"
 msgstr "Format MPEG 1"
 
-#: modules/gui/macosx/wizard.m:257
+#: modules/gui/macosx/wizard.m:255
 msgid ""
 "Enter the local addresses you want to listen requests on. Do not enter "
 "anything if you want to listen on all the network interfaces. This is "
@@ -16535,7 +16557,7 @@ msgstr ""
 "jest to najlepszy wybór. Inne komputery mają domyślnie dostęp do strumienia "
 "poprzez adres http://twójip:8080."
 
-#: modules/gui/macosx/wizard.m:261
+#: modules/gui/macosx/wizard.m:259
 msgid ""
 "Use this to stream to several computers. This method is not the most "
 "efficient, as the server needs to send the stream several times, but "
@@ -16545,7 +16567,7 @@ msgstr ""
 "bardzo wydajna, bo serwer musi wysłać strumień kilka razy, ale zapewnia to "
 "większą kompatybilność."
 
-#: modules/gui/macosx/wizard.m:264
+#: modules/gui/macosx/wizard.m:262
 msgid ""
 "Enter the local addresses you want to listen requests on. Do not enter "
 "anything if you want to listen on all the network interfaces. This is "
@@ -16557,7 +16579,7 @@ msgstr ""
 "jest to najlepszy wybór. Inne komputery mają domyślnie dostęp do strumienia "
 "poprzez adres mms://twójip:8080."
 
-#: modules/gui/macosx/wizard.m:268
+#: modules/gui/macosx/wizard.m:266
 msgid ""
 "Use this to stream to several computers using the Microsoft MMS protocol. "
 "This protocol is used as transport method by many Microsoft's softwares. "
@@ -16569,15 +16591,15 @@ msgstr ""
 "Microsoft. Ale pamiętaj, że jest obecnie obsługiwana tylko niewielka część "
 "protokołu MMS (MMS zawarty w HTTP)."
 
-#: modules/gui/macosx/wizard.m:273 modules/gui/macosx/wizard.m:283
+#: modules/gui/macosx/wizard.m:271 modules/gui/macosx/wizard.m:281
 msgid "Enter the address of the computer to stream to."
 msgstr "Podaj adres komputera otrzymującego strumień."
 
-#: modules/gui/macosx/wizard.m:274 modules/gui/macosx/wizard.m:372
+#: modules/gui/macosx/wizard.m:272 modules/gui/macosx/wizard.m:370
 msgid "Use this to stream to a single computer."
 msgstr "Użyj tej opcji, aby wysłać strumień do jednego komputera."
 
-#: modules/gui/macosx/wizard.m:276 modules/gui/macosx/wizard.m:286
+#: modules/gui/macosx/wizard.m:274 modules/gui/macosx/wizard.m:284
 msgid ""
 "Enter the multicast address to stream to in this field. This must be an IP "
 "address between 224.0.0.0 and 239.255.255.255. For a private use, enter an "
@@ -16587,7 +16609,7 @@ msgstr ""
 "z zakresu od 224.0.0.0 do 239.255.255.255. Dla użytku prywatnego, podaj "
 "adres rozpoczynający się na 239.255."
 
-#: modules/gui/macosx/wizard.m:279
+#: modules/gui/macosx/wizard.m:277
 msgid ""
 "Use this to stream to a dynamic group of computers on a multicast-enabled "
 "network. This is the most efficient method to stream to several computers, "
@@ -16598,7 +16620,7 @@ msgstr ""
 "sposób, aby wysłać ten sam strumień do wielu komputerów, ale nie działa za "
 "pośrednictwem Internetu."
 
-#: modules/gui/macosx/wizard.m:284
+#: modules/gui/macosx/wizard.m:282
 msgid ""
 "Use this to stream to a single computer. RTP headers will be added to the "
 "stream"
@@ -16606,7 +16628,7 @@ msgstr ""
 "Użyj tej opcji, aby wysłać strumień do jednego komputera. Nagłówki RTP "
 "zostaną dodane do strumienia"
 
-#: modules/gui/macosx/wizard.m:289
+#: modules/gui/macosx/wizard.m:287
 msgid ""
 "Use this to stream to a dynamic group of computers on a multicast-enabled "
 "network. This is the most efficient method to stream to several computers, "
@@ -16617,28 +16639,28 @@ msgstr ""
 "sposób, aby wysłać ten sam strumień do wielu komputerów, ale nie działa za "
 "pośrednictwem Internetu.Nagłówki RTP zostaną dodane do strumienia."
 
-#: modules/gui/macosx/wizard.m:319
+#: modules/gui/macosx/wizard.m:317
 msgid "Back"
 msgstr "Wstecz"
 
-#: modules/gui/macosx/wizard.m:322 modules/gui/macosx/wizard.m:325
-#: modules/gui/macosx/wizard.m:1273
+#: modules/gui/macosx/wizard.m:320 modules/gui/macosx/wizard.m:323
+#: modules/gui/macosx/wizard.m:1245
 msgid "Streaming/Transcoding Wizard"
 msgstr "Kreator transkodowania/strumieniowania"
 
-#: modules/gui/macosx/wizard.m:326
+#: modules/gui/macosx/wizard.m:324
 msgid "This wizard allows to configure simple streaming or transcoding setups."
 msgstr ""
 "Ten kreator pozwala na skonfigurowanie prostego strumieniowania lub "
 "transkodowania."
 
-#: modules/gui/macosx/wizard.m:328 modules/gui/macosx/wizard.m:329
-#: modules/gui/macosx/wizard.m:402 modules/gui/macosx/wizard.m:404
-#: modules/gui/macosx/wizard.m:406 modules/gui/macosx/wizard.m:421
+#: modules/gui/macosx/wizard.m:326 modules/gui/macosx/wizard.m:327
+#: modules/gui/macosx/wizard.m:400 modules/gui/macosx/wizard.m:402
+#: modules/gui/macosx/wizard.m:404 modules/gui/macosx/wizard.m:419
 msgid "More Info"
 msgstr "Więcej informacji"
 
-#: modules/gui/macosx/wizard.m:330
+#: modules/gui/macosx/wizard.m:328
 msgid ""
 "This wizard only gives access to a small subset of VLC's streaming and "
 "transcoding capabilities. The Open and 'Saving/Streaming' dialogs will give "
@@ -16648,37 +16670,37 @@ msgstr ""
 "transkodowania w VLC. Otwórz dialog 'Strumieniowanie/Zapisywanie' aby "
 "uzyskać pełny wybór możliwości."
 
-#: modules/gui/macosx/wizard.m:335 modules/gui/macosx/wizard.m:493
-#: modules/gui/macosx/wizard.m:1677
+#: modules/gui/macosx/wizard.m:333 modules/gui/macosx/wizard.m:491
+#: modules/gui/macosx/wizard.m:1651
 msgid "Stream to network"
 msgstr "Transmisja strumienia przez sieć"
 
-#: modules/gui/macosx/wizard.m:337 modules/gui/macosx/wizard.m:1685
+#: modules/gui/macosx/wizard.m:335 modules/gui/macosx/wizard.m:1659
 msgid "Transcode/Save to file"
 msgstr "Transkoduj/Zapisz jako plik"
 
-#: modules/gui/macosx/wizard.m:340
+#: modules/gui/macosx/wizard.m:338
 msgid "Choose input"
 msgstr "Wybierz wejście"
 
-#: modules/gui/macosx/wizard.m:341
+#: modules/gui/macosx/wizard.m:339
 msgid "Choose here your input stream."
 msgstr "Wybierz tutaj wejście strumienia."
 
-#: modules/gui/macosx/wizard.m:343 modules/gui/macosx/wizard.m:531
-#: modules/gui/macosx/wizard.m:1719
+#: modules/gui/macosx/wizard.m:341 modules/gui/macosx/wizard.m:529
+#: modules/gui/macosx/wizard.m:1693
 msgid "Select a stream"
 msgstr "Wybierz strumień"
 
-#: modules/gui/macosx/wizard.m:345
+#: modules/gui/macosx/wizard.m:343
 msgid "Existing playlist item"
 msgstr "Istniejąca pozycja listy odtwarzania"
 
-#: modules/gui/macosx/wizard.m:353 modules/gui/macosx/wizard.m:433
+#: modules/gui/macosx/wizard.m:351 modules/gui/macosx/wizard.m:431
 msgid "Partial Extract"
 msgstr "Częściowa ekstrakcja"
 
-#: modules/gui/macosx/wizard.m:355
+#: modules/gui/macosx/wizard.m:353
 msgid ""
 "This can be used to read only a part of the stream. It must be possible to "
 "control the incoming stream (for example, a file or a disc, but not an UDP "
@@ -16689,45 +16711,45 @@ msgstr ""
 "pliku lub dysku, ale nie z sieci UDP). Czas rozpoczęcia i zakończenia "
 "strumienia należy wpisać w sekundach."
 
-#: modules/gui/macosx/wizard.m:359
+#: modules/gui/macosx/wizard.m:357
 msgid "From"
 msgstr "Od"
 
-#: modules/gui/macosx/wizard.m:360
+#: modules/gui/macosx/wizard.m:358
 msgid "To"
 msgstr "Do"
 
-#: modules/gui/macosx/wizard.m:364
+#: modules/gui/macosx/wizard.m:362
 msgid "This page allows to select how the input stream will be sent."
 msgstr "Na tej stronie można wybrać sposób wysłana strumienia wejściowego."
 
-#: modules/gui/macosx/wizard.m:366 modules/gui/macosx/wizard.m:427
+#: modules/gui/macosx/wizard.m:364 modules/gui/macosx/wizard.m:425
 #: modules/gui/qt4/dialogs/convert.cpp:55 modules/stream_out/rtp.c:74
 msgid "Destination"
 msgstr "Cel"
 
-#: modules/gui/macosx/wizard.m:367 modules/gui/macosx/wizard.m:439
+#: modules/gui/macosx/wizard.m:365 modules/gui/macosx/wizard.m:437
 msgid "Streaming method"
 msgstr "Metoda strumieniowania"
 
-#: modules/gui/macosx/wizard.m:368
+#: modules/gui/macosx/wizard.m:366
 msgid "Address of the computer to stream to."
 msgstr "Adres komputera otrzymującego strumień."
 
-#: modules/gui/macosx/wizard.m:370
+#: modules/gui/macosx/wizard.m:368
 msgid "UDP Unicast"
 msgstr "UDP Unicast"
 
-#: modules/gui/macosx/wizard.m:371
+#: modules/gui/macosx/wizard.m:369
 msgid "UDP Multicast"
 msgstr "UDP Multicast"
 
-#: modules/gui/macosx/wizard.m:376
+#: modules/gui/macosx/wizard.m:374
 #: modules/stream_out/transcode/transcode.c:154
 msgid "Transcode"
 msgstr "Transkoduj"
 
-#: modules/gui/macosx/wizard.m:377
+#: modules/gui/macosx/wizard.m:375
 msgid ""
 "This page allows to change the compression format of the audio or video "
 "tracks. To change only the container format, proceed to next page."
@@ -16735,15 +16757,15 @@ msgstr ""
 "Na tej stronie można wybrać format kompresji ścieżek dźwięku lub obrazu. Aby "
 "zmienić tylko format kontenera, przejdź do następnej strony."
 
-#: modules/gui/macosx/wizard.m:382 modules/gui/macosx/wizard.m:441
+#: modules/gui/macosx/wizard.m:380 modules/gui/macosx/wizard.m:439
 msgid "Transcode audio"
 msgstr "Transkoduj dźwięk"
 
-#: modules/gui/macosx/wizard.m:383 modules/gui/macosx/wizard.m:443
+#: modules/gui/macosx/wizard.m:381 modules/gui/macosx/wizard.m:441
 msgid "Transcode video"
 msgstr "Transkoduj obraz"
 
-#: modules/gui/macosx/wizard.m:386 modules/gui/macosx/wizard.m:1821
+#: modules/gui/macosx/wizard.m:384 modules/gui/macosx/wizard.m:1795
 msgid ""
 "Enabling this allows to transcode the audio track if one is present in the "
 "stream."
@@ -16751,7 +16773,7 @@ msgstr ""
 "Po włączeniu tej opcji można transkodować ścieżkę dźwiękową, jeśli jest "
 "obecna w strumieniu."
 
-#: modules/gui/macosx/wizard.m:388 modules/gui/macosx/wizard.m:1838
+#: modules/gui/macosx/wizard.m:386 modules/gui/macosx/wizard.m:1812
 msgid ""
 "Enabling this allows to transcode the video track if one is present in the "
 "stream."
@@ -16759,11 +16781,11 @@ msgstr ""
 "Po włączeniu tej opcji można transkodować ścieżkę obrazu, jeśli jest obecna "
 "w strumieniu."
 
-#: modules/gui/macosx/wizard.m:392
+#: modules/gui/macosx/wizard.m:390
 msgid "Encapsulation format"
 msgstr "Format enkapsułkowania"
 
-#: modules/gui/macosx/wizard.m:393
+#: modules/gui/macosx/wizard.m:391
 msgid ""
 "This page allows to select how the stream will be encapsulated. Depending on "
 "previously chosen settings all formats won't be available."
@@ -16771,49 +16793,49 @@ msgstr ""
 "Na tej stronie można wybrać sposób enkapsułkowania strumienia. Niektóre "
 "formaty może nie będą dostępne, zależy to od poprzednich ustawień."
 
-#: modules/gui/macosx/wizard.m:398
+#: modules/gui/macosx/wizard.m:396
 msgid "Additional streaming options"
 msgstr "Dodatkowe opcje strumieniowania"
 
-#: modules/gui/macosx/wizard.m:399
+#: modules/gui/macosx/wizard.m:397
 msgid "In this page, a few additional streaming parameters can be set."
 msgstr ""
 "Na tej stronie, można ustawić kilka dodatkowych parametrów transmisji "
 "strumieniowej."
 
-#: modules/gui/macosx/wizard.m:401 modules/gui/macosx/wizard.m:1866
+#: modules/gui/macosx/wizard.m:399 modules/gui/macosx/wizard.m:1840
 #: modules/gui/qt4/ui/sout.h:344
 msgid "Time-To-Live (TTL)"
 msgstr "Time-To-Live (TTL)"
 
-#: modules/gui/macosx/wizard.m:403 modules/gui/macosx/wizard.m:435
-#: modules/gui/macosx/wizard.m:1877
+#: modules/gui/macosx/wizard.m:401 modules/gui/macosx/wizard.m:433
+#: modules/gui/macosx/wizard.m:1851
 msgid "SAP Announce"
 msgstr "Ogłoszenie SAP"
 
-#: modules/gui/macosx/wizard.m:405 modules/gui/macosx/wizard.m:415
-#: modules/gui/macosx/wizard.m:447 modules/gui/macosx/wizard.m:1890
+#: modules/gui/macosx/wizard.m:403 modules/gui/macosx/wizard.m:413
+#: modules/gui/macosx/wizard.m:445 modules/gui/macosx/wizard.m:1864
 msgid "Local playback"
 msgstr "Lokalne odtwarzanie"
 
-#: modules/gui/macosx/wizard.m:407 modules/gui/macosx/wizard.m:416
+#: modules/gui/macosx/wizard.m:405 modules/gui/macosx/wizard.m:414
 msgid "Add Subtitles to transcoded video"
 msgstr "Dodaj napisy do transkodowanego obrazu"
 
-#: modules/gui/macosx/wizard.m:410
+#: modules/gui/macosx/wizard.m:408
 msgid "Additional transcode options"
 msgstr "Dodatkowe opcje transkodowania"
 
-#: modules/gui/macosx/wizard.m:411
+#: modules/gui/macosx/wizard.m:409
 msgid "In this page, a few additional transcoding parameters can be set."
 msgstr ""
 "Na tej stronie możesz ustawić kilka dodatkowych parametrów transkodowania."
 
-#: modules/gui/macosx/wizard.m:413 modules/gui/macosx/wizard.m:1095
+#: modules/gui/macosx/wizard.m:411 modules/gui/macosx/wizard.m:1067
 msgid "Select the file to save to"
 msgstr "Wybiez plik do zapisu"
 
-#: modules/gui/macosx/wizard.m:417
+#: modules/gui/macosx/wizard.m:415
 msgid ""
 "Adds available subtitles directly to the video. These cannot be disabled by "
 "the receiving user as they become part of the image."
@@ -16821,7 +16843,7 @@ msgstr ""
 "Dodaje dostępne napisy bezpośrednio do filmu. Nie mogą być wyłączone przez "
 "otrzymującego użytkownika, gdyż stają się częścią obrazu."
 
-#: modules/gui/macosx/wizard.m:424
+#: modules/gui/macosx/wizard.m:422
 msgid ""
 "This page lists all the settings. Click \"Finish\" to start streaming or "
 "transcoding."
@@ -16829,31 +16851,31 @@ msgstr ""
 "Ta strona zawiera wszystkie ustawienia. Kliknij przycisk \"Zakończ\", aby "
 "rozpocząć strumieniowanie lub transkodowanie."
 
-#: modules/gui/macosx/wizard.m:426
+#: modules/gui/macosx/wizard.m:424
 msgid "Summary"
 msgstr "Podsumowanie"
 
-#: modules/gui/macosx/wizard.m:429
+#: modules/gui/macosx/wizard.m:427
 msgid "Encap. format"
 msgstr "Format enkapsułkowania"
 
-#: modules/gui/macosx/wizard.m:431
+#: modules/gui/macosx/wizard.m:429
 msgid "Input stream"
 msgstr "Wejście strumienia"
 
-#: modules/gui/macosx/wizard.m:437
+#: modules/gui/macosx/wizard.m:435
 msgid "Save file to"
 msgstr "Zapisz plik do"
 
-#: modules/gui/macosx/wizard.m:445
+#: modules/gui/macosx/wizard.m:443
 msgid "Include subtitles"
 msgstr "Dołącz napisy"
 
-#: modules/gui/macosx/wizard.m:599
+#: modules/gui/macosx/wizard.m:597
 msgid "No input selected"
 msgstr "Nie wybrano wejścia"
 
-#: modules/gui/macosx/wizard.m:601
+#: modules/gui/macosx/wizard.m:599
 msgid ""
 "No new stream or valid playlist item has been selected.\n"
 "\n"
@@ -16863,11 +16885,11 @@ msgstr ""
 "\n"
 "Przed przejściem do następnej strony, musisz coś wybrać."
 
-#: modules/gui/macosx/wizard.m:662
+#: modules/gui/macosx/wizard.m:660
 msgid "No valid destination"
 msgstr "Brak prawidłowego celu"
 
-#: modules/gui/macosx/wizard.m:664
+#: modules/gui/macosx/wizard.m:662
 msgid ""
 "A valid destination has to be selected Enter either a Unicast-IP or a "
 "Multicast-IP.\n"
@@ -16880,7 +16902,7 @@ msgstr ""
 "Jeśli nie wiesz co to znaczy, zajrzyj do instrukcji HOWTO strumieniowania "
 "VLC i do tekstów pomocy w tym oknie."
 
-#: modules/gui/macosx/wizard.m:1063
+#: modules/gui/macosx/wizard.m:1035
 msgid ""
 "The chosen codecs are not compatible with each other. For example: It is "
 "impossibleto  mix uncompressed audio with any video codec.\n"
@@ -16892,67 +16914,67 @@ msgstr ""
 "\n"
 "Dostosuj swój wybór i spróbuj ponownie."
 
-#: modules/gui/macosx/wizard.m:1090
+#: modules/gui/macosx/wizard.m:1062
 msgid "Select the directory to save to"
 msgstr "Wybierz katalog do zapisu"
 
-#: modules/gui/macosx/wizard.m:1146
+#: modules/gui/macosx/wizard.m:1118
 msgid "No folder selected"
 msgstr "Brak wybranego folderu"
 
-#: modules/gui/macosx/wizard.m:1148
+#: modules/gui/macosx/wizard.m:1120
 msgid "A directory where to save the files has to be selected."
 msgstr "Musisz wybrać katalog, w którym zostaną zapisane pliki."
 
-#: modules/gui/macosx/wizard.m:1150
+#: modules/gui/macosx/wizard.m:1122
 msgid ""
 "Enter either a valid path or use the \"Choose...\" button to select a "
 "location."
 msgstr ""
 "Wpisz prawidłową ścieżkę lub naciśnij przycisk \"Wybierz...\" aby wybrać cel."
 
-#: modules/gui/macosx/wizard.m:1153
+#: modules/gui/macosx/wizard.m:1125
 msgid "No file selected"
 msgstr "Brak wybranego pliku"
 
-#: modules/gui/macosx/wizard.m:1155
+#: modules/gui/macosx/wizard.m:1127
 msgid "A file where to save the stream has to be selected."
 msgstr "Musisz wybrać plik, w którym zostanie zapisany strumień."
 
-#: modules/gui/macosx/wizard.m:1157
+#: modules/gui/macosx/wizard.m:1129
 msgid ""
 "Enter either a valid path or use the \"Choose\" button to select a location."
 msgstr ""
 "Wpisz prawidłową ścieżkę lub naciśnij przycisk \"Wybierz\" aby wybrać cel."
 
-#: modules/gui/macosx/wizard.m:1360
+#: modules/gui/macosx/wizard.m:1334
 msgid "Finish"
 msgstr "Zakończ"
 
-#: modules/gui/macosx/wizard.m:1373 modules/gui/macosx/wizard.m:1402
-#: modules/gui/macosx/wizard.m:1432
+#: modules/gui/macosx/wizard.m:1347 modules/gui/macosx/wizard.m:1376
+#: modules/gui/macosx/wizard.m:1406
 msgid "yes"
 msgstr "tak"
 
-#: modules/gui/macosx/wizard.m:1375 modules/gui/macosx/wizard.m:1385
-#: modules/gui/macosx/wizard.m:1398 modules/gui/macosx/wizard.m:1404
-#: modules/gui/macosx/wizard.m:1416 modules/gui/macosx/wizard.m:1435
+#: modules/gui/macosx/wizard.m:1349 modules/gui/macosx/wizard.m:1359
+#: modules/gui/macosx/wizard.m:1372 modules/gui/macosx/wizard.m:1378
+#: modules/gui/macosx/wizard.m:1390 modules/gui/macosx/wizard.m:1409
 msgid "no"
 msgstr "nie"
 
-#: modules/gui/macosx/wizard.m:1381
+#: modules/gui/macosx/wizard.m:1355
 msgid "yes: from %@ to %@ secs"
 msgstr "tak: od %@ do %@ sek."
 
-#: modules/gui/macosx/wizard.m:1391 modules/gui/macosx/wizard.m:1409
+#: modules/gui/macosx/wizard.m:1365 modules/gui/macosx/wizard.m:1383
 msgid "yes: %@ @ %@ kb/s"
 msgstr "tak: %@ @ %@ kb/s"
 
-#: modules/gui/macosx/wizard.m:1679
+#: modules/gui/macosx/wizard.m:1653
 msgid "This allows to stream on a network."
 msgstr "Ta opcja pozwala na strumieniowanie przez sieć."
 
-#: modules/gui/macosx/wizard.m:1687
+#: modules/gui/macosx/wizard.m:1661
 msgid ""
 "This allows to save a stream to a file. The can be reencoded on the fly. "
 "Whatever VLC can read can be saved.\n"
@@ -16965,16 +16987,16 @@ msgstr ""
 "pliku. Jego funkcje transkodowania są jednak przydatne, np. aby zapisać "
 "strumień sieciowy."
 
-#: modules/gui/macosx/wizard.m:1816
+#: modules/gui/macosx/wizard.m:1790
 msgid "Select your audio codec. Click one to get more information."
 msgstr ""
 "Wybierz kodek dźwięku. Kliknij na jeden, aby uzyskać więcej informacji."
 
-#: modules/gui/macosx/wizard.m:1833
+#: modules/gui/macosx/wizard.m:1807
 msgid "Select your video codec. Click one to get more information."
 msgstr "Wybierz kodek obrazu. Kliknij na jeden, aby uzyskać więcej informacji."
 
-#: modules/gui/macosx/wizard.m:1868
+#: modules/gui/macosx/wizard.m:1842
 msgid ""
 "This allows to define the TTL (Time-To-Live) of the stream. This parameter "
 "is the maximum number of routers your stream can go through. If you don't "
@@ -16986,7 +17008,7 @@ msgstr ""
 "strumień. Jeśli nie wiesz co to znaczy, lub jeśli chcesz strumieniować tylko "
 "w sieci lokalnej, pozostaw przy ustawieniu na 1."
 
-#: modules/gui/macosx/wizard.m:1879
+#: modules/gui/macosx/wizard.m:1853
 msgid ""
 "When streaming using UDP, the streams can be announced using the SAP/SDP "
 "announcing protocol. This way, the clients won't have to type in the "
@@ -17002,7 +17024,7 @@ msgstr ""
 "Jeśli chcesz podać nazwę strumienia, wpisz ją tutaj, w przeciwnym razie "
 "będzie używana nazwa domyślna."
 
-#: modules/gui/macosx/wizard.m:1892
+#: modules/gui/macosx/wizard.m:1866
 msgid ""
 "When this option is enabled, the stream will be both played and transcoded/"
 "streamed.\n"
@@ -18251,7 +18273,8 @@ msgstr ""
 "nawet anonimowo, na temat stosowania programu.</p>\n"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:83
-#: modules/gui/qt4/ui/open_capture.h:103 modules/gui/qt4/ui/sout.h:347
+#: modules/gui/qt4/ui/open_capture.h:103
+#: modules/gui/qt4/ui/sout.h:347
 msgid "Options"
 msgstr "Opcje"
 
@@ -18703,7 +18726,8 @@ msgstr "Usuń bieżący profil"
 msgid "Cl&ose"
 msgstr "Zam&knij"
 
-#: modules/gui/qt4/dialogs/toolbar.cpp:217 modules/gui/qt4/ui/profiles.h:461
+#: modules/gui/qt4/dialogs/toolbar.cpp:217
+#: modules/gui/qt4/ui/profiles.h:461
 msgid "Profile Name"
 msgstr "Nazwa profilu"
 
@@ -21885,7 +21909,8 @@ msgstr ""
 msgid "Standard stream output"
 msgstr "Standardowe wyjście strumienia"
 
-#: modules/stream_out/switcher.c:90 modules/gui/qt4/ui/sprefs_input.h:314
+#: modules/stream_out/switcher.c:90
+#: modules/gui/qt4/ui/sprefs_input.h:314
 msgid "Files"
 msgstr "Pliki"
 
@@ -22198,7 +22223,8 @@ msgstr "Konwersje SSE2 z "
 msgid "AltiVec conversions from "
 msgstr "Konwersje AltiVec z "
 
-#: modules/video_filter/adjust.c:64 modules/gui/qt4/ui/video_effects.h:1110
+#: modules/video_filter/adjust.c:64
+#: modules/gui/qt4/ui/video_effects.h:1110
 msgid "Brightness threshold"
 msgstr "Próg jasności"
 
@@ -22254,7 +22280,8 @@ msgstr "Ustawia gammę obrazu, pomiędzy 0.01 i 10. Domyślna to 1."
 msgid "Image properties filter"
 msgstr "Filtr właściwości obrazu"
 
-#: modules/video_filter/adjust.c:81 modules/gui/qt4/ui/video_effects.h:1104
+#: modules/video_filter/adjust.c:81
+#: modules/gui/qt4/ui/video_effects.h:1104
 msgid "Image adjust"
 msgstr "Dostosuj obraz"
 
@@ -23189,7 +23216,8 @@ msgstr "Filtr obrazu płótna"
 msgid "Video filtering using a chain of video filter modules"
 msgstr "Filtrowanie obrazu za pomocą łańcucha modułów filtra obrazu"
 
-#: modules/video_filter/clone.c:39 modules/gui/qt4/ui/video_effects.h:1173
+#: modules/video_filter/clone.c:39
+#: modules/gui/qt4/ui/video_effects.h:1173
 msgid "Number of clones"
 msgstr "Ilość klonów"
 
@@ -23217,7 +23245,8 @@ msgstr "Klonuj obraz w wielu oknach i/lub modułach wyjściowych obrazu"
 msgid "Clone video filter"
 msgstr "Filtr klonowania obrazu"
 
-#: modules/video_filter/clone.c:57 modules/gui/qt4/ui/video_effects.h:1172
+#: modules/video_filter/clone.c:57
+#: modules/gui/qt4/ui/video_effects.h:1172
 msgid "Clone"
 msgstr "Klonowanie"
 
@@ -24254,7 +24283,8 @@ msgstr "Rozdziel obraz na kilka okien, aby wyświetlić ścianę ekranów"
 msgid "Panoramix: wall with overlap video filter"
 msgstr "Panoramix: ściana z nakładką filtru obrazu"
 
-#: modules/video_filter/panoramix.c:79 modules/gui/qt4/ui/video_effects.h:1169
+#: modules/video_filter/panoramix.c:79
+#: modules/gui/qt4/ui/video_effects.h:1169
 msgid "Panoramix"
 msgstr "Panoramix"
 
@@ -24605,7 +24635,8 @@ msgstr "Kąt w stopniach (0 do 359)"
 msgid "Rotate video filter"
 msgstr "Filtr obrotu obrazu"
 
-#: modules/video_filter/rotate.c:67 modules/gui/qt4/ui/video_effects.h:1128
+#: modules/video_filter/rotate.c:67
+#: modules/gui/qt4/ui/video_effects.h:1128
 msgid "Rotate"
 msgstr "Obróć"
 
@@ -24821,7 +24852,8 @@ msgstr "Zwiększ kontrast między konturami."
 msgid "Sharpen video filter"
 msgstr "Filtr wyostrzenia obrazu"
 
-#: modules/video_filter/sharpen.c:67 modules/gui/qt4/ui/video_effects.h:1102
+#: modules/video_filter/sharpen.c:67
+#: modules/gui/qt4/ui/video_effects.h:1102
 msgid "Sharpen"
 msgstr "Wyostrz"
 
@@ -25066,7 +25098,8 @@ msgstr "Zalecany obraz wyjściowy dla systemu Windows Vista i nowszych"
 msgid "Direct3D video output"
 msgstr "Obraz wyjściowy Direct3D"
 
-#: modules/video_output/msw/directx.c:68 modules/gui/qt4/ui/sprefs_video.h:317
+#: modules/video_output/msw/directx.c:68
+#: modules/gui/qt4/ui/sprefs_video.h:317
 msgid "Use hardware YUV->RGB conversions"
 msgstr "Użyj konwersji sprzętowej YUV->RGB"
 
@@ -25633,12 +25666,16 @@ msgstr "Filtr wizualizera"
 msgid "Spectrum analyser"
 msgstr "Analizator widma"
 
-#: modules/gui/qt4/ui/equalizer.h:126 modules/gui/qt4/ui/open_disk.h:290
-#: modules/gui/qt4/ui/open_net.h:91 modules/gui/qt4/ui/profiles.h:460
-#: modules/gui/qt4/ui/sprefs_audio.h:403 modules/gui/qt4/ui/sprefs_input.h:305
+#: modules/gui/qt4/ui/equalizer.h:126
+#: modules/gui/qt4/ui/open_disk.h:290
+#: modules/gui/qt4/ui/open_net.h:91
+#: modules/gui/qt4/ui/profiles.h:460
+#: modules/gui/qt4/ui/sprefs_audio.h:403
+#: modules/gui/qt4/ui/sprefs_input.h:305
 #: modules/gui/qt4/ui/sprefs_interface.h:372
 #: modules/gui/qt4/ui/sprefs_subtitles.h:200
-#: modules/gui/qt4/ui/sprefs_video.h:308 modules/gui/qt4/ui/streampanel.h:168
+#: modules/gui/qt4/ui/sprefs_video.h:308
+#: modules/gui/qt4/ui/streampanel.h:168
 #: modules/gui/qt4/ui/v4l2.h:58
 msgid "Form"
 msgstr "Formularz"
@@ -25898,7 +25935,8 @@ msgstr "MKV"
 msgid "Encapsulation"
 msgstr "Enkapsułkowanie"
 
-#: modules/gui/qt4/ui/profiles.h:479 modules/gui/qt4/ui/profiles.h:498
+#: modules/gui/qt4/ui/profiles.h:479
+#: modules/gui/qt4/ui/profiles.h:498
 msgid " kb/s"
 msgstr " kb/s"
 
@@ -25918,7 +25956,8 @@ msgstr ""
 "Wystarczy wpisać jeden z trzech następujących parametrów, a VLC "
 "automatycznie wykrywa inne parametry korzystając z oryginalnych proporcji"
 
-#: modules/gui/qt4/ui/profiles.h:487 modules/gui/qt4/ui/profiles.h:490
+#: modules/gui/qt4/ui/profiles.h:487
+#: modules/gui/qt4/ui/profiles.h:490
 msgid "00000; "
 msgstr "00000; "
 
@@ -25998,7 +26037,8 @@ msgstr "Ustawiaj poziom dźwięku zawsze na:"
 msgid " %"
 msgstr " %"
 
-#: modules/gui/qt4/ui/sprefs_audio.h:409 modules/gui/qt4/ui/sprefs_video.h:313
+#: modules/gui/qt4/ui/sprefs_audio.h:409
+#: modules/gui/qt4/ui/sprefs_video.h:313
 msgid "Output"
 msgstr "Wyjście"
 
