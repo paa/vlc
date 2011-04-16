@@ -92,8 +92,16 @@ static VLAboutBox *_o_sharedInstance = nil;
         [o_about_window setTitle: _NS("About VLC media player")];
 
         /* setup the creator / revision field */
+        NSString *compiler;
+        #ifdef __clang__
+        compiler = [NSString stringWithFormat:@"clang %s", __clang_version__];
+        #elif __llvm__
+        compiler = [NSString stringWithFormat:@"llvm-gcc %s", __VERSION__];
+        #else
+        compiler = [NSString stringWithFormat:@"gcc %s", __VERSION__];
+        #endif
         [o_revision_field setStringValue: 
-            [NSString stringWithFormat: _NS("Compiled by %s"), VLC_CompileBy()]];
+            [NSString stringWithFormat: _NS("Compiled by %s with %@"), VLC_CompileBy(), compiler]];
  
         /* Setup the nameversion field */
         [o_name_version_field setStringValue: [NSString stringWithFormat:@"Version %s (%s)", VLC_Version(), PLATFORM]];
