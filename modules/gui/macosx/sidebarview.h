@@ -33,7 +33,7 @@
 /*****************************************************************************
  * VLCSidebar interface
  *****************************************************************************/
-@interface VLCSidebar : NSObject <NSFileManagerDelegate, NSComboBoxDataSource>
+@interface VLCSidebar : NSObject
 {
     IBOutlet id o_outline_view;
     IBOutlet id o_playlist;

@@ -69,7 +69,7 @@ static NSMenu   *o_keys_menu = nil;
 
 @end
 
-@interface StringListConfigControl : VLCConfigControl <NSComboBoxDataSource>
+@interface StringListConfigControl : VLCConfigControl
 {
     NSComboBox      *o_combo;
 }
@@ -104,7 +104,7 @@ static NSMenu   *o_keys_menu = nil;
 
 @end
 
-@interface IntegerConfigControl : VLCConfigControl <NSTextFieldDelegate>
+@interface IntegerConfigControl : VLCConfigControl
 {
     NSTextField     *o_textfield;
     NSStepper       *o_stepper;
@@ -118,7 +118,7 @@ static NSMenu   *o_keys_menu = nil;
 
 @end
 
-@interface IntegerListConfigControl : VLCConfigControl <NSComboBoxDataSource>
+@interface IntegerListConfigControl : VLCConfigControl
 {
     NSComboBox      *o_combo;
 }
@@ -128,7 +128,7 @@ static NSMenu   *o_keys_menu = nil;
 
 @end
 
-@interface RangedIntegerConfigControl : VLCConfigControl <NSTextFieldDelegate>
+@interface RangedIntegerConfigControl : VLCConfigControl
 {
     NSSlider        *o_slider;
     NSTextField     *o_textfield;
@@ -154,7 +154,7 @@ static NSMenu   *o_keys_menu = nil;
 
 @end
 
-@interface FloatConfigControl : VLCConfigControl <NSTextFieldDelegate>
+@interface FloatConfigControl : VLCConfigControl
 {
     NSTextField     *o_textfield;
     NSStepper       *o_stepper;
@@ -168,7 +168,7 @@ static NSMenu   *o_keys_menu = nil;
 
 @end
 
-@interface RangedFloatConfigControl : VLCConfigControl <NSTextFieldDelegate>
+@interface RangedFloatConfigControl : VLCConfigControl
 {
     NSSlider        *o_slider;
     NSTextField     *o_textfield;
@@ -194,7 +194,7 @@ static NSMenu   *o_keys_menu = nil;
 
 @end
 
-@interface ModuleListConfigControl : VLCConfigControl <NSTableViewDataSource>
+@interface ModuleListConfigControl : VLCConfigControl
 {
     NSTextField     *o_textfield;
     NSScrollView    *o_scrollview;

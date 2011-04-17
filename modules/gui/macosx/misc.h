@@ -64,7 +64,7 @@
  *  Missing extension to NSWindow
  *****************************************************************************/
 
-@interface VLCWindow : NSWindow <NSWindowDelegate>
+@interface VLCWindow : NSWindow
 {
     BOOL b_canBecomeKeyWindow;
     BOOL b_isset_canBecomeKeyWindow;

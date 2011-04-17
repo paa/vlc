@@ -980,7 +980,6 @@ static NSString * VLCToolbarMediaControl     = @"VLCToolbarMediaControl";
 
 -(void)mediaKeyTap:(SPMediaKeyTap*)keyTap receivedMediaKeyEvent:(NSEvent*)event
 {
-    NSLog( @"received event with keyCode %ld, handle? %i", (([event data1] & 0xFFFF0000) >> 16), b_mediaKeySupport );
     if( b_mediaKeySupport )
        {
         assert([event type] == NSSystemDefined && [event subtype] == SPSystemDefinedEventMediaKeys);
