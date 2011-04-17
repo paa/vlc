@@ -27,7 +27,7 @@
 
 #import "misc.h"
 
-@interface VLCEmbeddedWindow : NSWindow
+@interface VLCEmbeddedWindow : NSWindow <NSWindowDelegate, NSAnimationDelegate>
 {
     IBOutlet id o_btn_backward;
     IBOutlet id o_btn_forward;

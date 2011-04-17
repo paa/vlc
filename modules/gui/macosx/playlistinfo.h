@@ -28,7 +28,7 @@
 
 @class VLCInfoTreeItem;
 
-@interface VLCInfo : NSObject
+@interface VLCInfo : NSObject <NSFileManagerDelegate>
 {
     IBOutlet id o_info_window;
     IBOutlet id o_uri_lbl;

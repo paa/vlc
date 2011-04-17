@@ -34,7 +34,7 @@
 /*****************************************************************************
  * VLCPlaylistCommon interface
  *****************************************************************************/
-@interface VLCPlaylistCommon : NSObject
+@interface VLCPlaylistCommon : NSObject <NSFileManagerDelegate, NSComboBoxDataSource>
 {
     IBOutlet id o_tc_name;
     IBOutlet id o_tc_author;

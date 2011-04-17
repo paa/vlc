@@ -36,6 +36,7 @@
 #include <vlc_input.h>
 
 #include <Cocoa/Cocoa.h>
+#import "SPMediaKeyTap.h"                   /* for the media key support */
 
 /*****************************************************************************
  * Local prototypes.
@@ -96,7 +97,7 @@ struct intf_sys_t
 @class VLCEmbeddedWindow;
 @class VLCControls;
 @class VLCPlaylist;
-@interface VLCMain : NSObject
+@interface VLCMain : NSObject <NSToolbarDelegate, NSWindowDelegate, NSURLConnectionDelegate>
 {
     intf_thread_t *p_intf;      /* The main intf object */
     id o_prefs;                 /* VLCPrefs       */
@@ -337,14 +338,17 @@ struct intf_sys_t
 
     AppleRemote * o_remote;
     BOOL b_remote_button_hold; /* true as long as the user holds the left,right,plus or minus on the remote control */
+
+    /* media key support */
+    BOOL b_mediaKeySupport;
+    BOOL b_mediakeyJustJumped;
+    SPMediaKeyTap * o_mediaKeyController;
 }
 
 + (VLCMain *)sharedInstance;
 
 - (intf_thread_t *)intf;
 - (void)setIntf:(intf_thread_t *)p_mainintf;
-
-- (void)controlTintChanged;
 
 - (id)controls;
 - (id)simplePreferences;
@@ -418,10 +422,13 @@ struct intf_sys_t
 
 - (void)windowDidBecomeKey:(NSNotification *)o_notification;
 
+- (void)mediaKeyTap:(SPMediaKeyTap*)keyTap receivedMediaKeyEvent:(NSEvent*)event;
 @end
 
 @interface VLCMain (Internal)
 - (void)handlePortMessage:(NSPortMessage *)o_msg;
+- (void)resetMediaKeyJump;
+- (void)coreChangedMediaKeySupportSetting: (NSNotification *)o_notification;
 @end
 
 /*****************************************************************************
@@ -430,14 +437,5 @@ struct intf_sys_t
 
 @interface VLCApplication : NSApplication
 {
-    BOOL b_justJumped;
-	BOOL b_mediaKeySupport;
-    BOOL b_activeInBackground;
-    BOOL b_active;
 }
-
-- (void)coreChangedMediaKeySupportSetting: (NSNotification *)o_notification;
-- (void)sendEvent: (NSEvent*)event;
-- (void)resetJump;
-
 @end

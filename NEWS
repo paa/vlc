@@ -1,5 +1,7 @@
 Changes between 1.1.9 and 1.1.10-git:
 ---------------------------------
+Mac OS X Interface:
+ * Improved Media Key handling based upon SPMediaKeyTap by Spotify AB
 
 
 Changes between 1.1.8 and 1.1.9:

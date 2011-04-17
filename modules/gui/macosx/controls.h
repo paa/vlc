@@ -57,8 +57,6 @@
     VLCFSPanel *o_fs_panel;
     BOOL b_lockAspectRatio;
 }
-- (void)controlTintChanged;
-
 - (id)voutView;
 - (BOOL)aspectRatioIsLocked;
 
