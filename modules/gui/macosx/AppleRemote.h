@@ -110,6 +110,7 @@ typedef enum AppleRemoteEventIdentifier AppleRemoteEventIdentifier;
     
     IBOutlet id delegate;
 }
++ (AppleRemote *)sharedInstance;
 
 - (int) remoteId;
 
