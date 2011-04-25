@@ -576,7 +576,6 @@ static VLCOpen *_o_sharedMainInstance = nil;
 - (void)openFilePathChanged:(NSNotification *)o_notification
 {
     NSString *o_filename = [o_file_path stringValue];
-    NSMutableString *o_mrl_string;
 
     if (o_filename && [o_filename length] > 0)
     {
