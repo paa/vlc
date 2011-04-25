@@ -35,7 +35,7 @@ NSArray *GetEjectableMediaOfClass( const char *psz_class );
 
     IBOutlet id o_panel;
 
-    IBOutlet id o_mrl;
+    IBOutlet id o_mrl_fld;
     IBOutlet id o_mrl_lbl;
     IBOutlet id o_mrl_view;
     IBOutlet id o_mrl_btn;
@@ -162,10 +162,14 @@ NSArray *GetEjectableMediaOfClass( const char *psz_class );
     BOOL b_autoplay;
     id o_currentCaptureView;
     NSString *o_file_slave_path;
+    NSString *o_mrl;
     intf_thread_t * p_intf;
 }
 
 + (VLCOpen *)sharedInstance;
+
+- (void)setMRL:(NSString *)mrl;
+- (NSString *)MRL;
 
 - (void)setSubPanel;
 - (void)openTarget:(int)i_type;
