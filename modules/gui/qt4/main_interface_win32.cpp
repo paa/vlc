@@ -265,6 +265,7 @@ void MainInterface::changeThumbbarButtons( int i_status)
 
     switch( i_status )
     {
+        case OPENING_S:
         case PLAYING_S:
             {
                 thbButtons[0].dwFlags = THBF_ENABLED;
@@ -273,7 +274,9 @@ void MainInterface::changeThumbbarButtons( int i_status)
                 thbButtons[1].iBitmap = 1;
                 break;
             }
+        case END_S:
         case PAUSE_S:
+        case ERROR_S:
             {
                 thbButtons[0].dwFlags = THBF_ENABLED;
                 thbButtons[1].dwFlags = THBF_ENABLED;
