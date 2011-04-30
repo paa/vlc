@@ -334,7 +334,7 @@ static char *CheckUTF8( char *str, char rep )
             case 2:
                 if (cp < 128) // ASCII overlong
                     goto error;
-                if (cp < (1u << (5 * charlen - 3))) // overlong
+                if (cp < (1u << (5 * charlen - 4))) // overlong
                     goto error;
         }
         ptr += charlen;
