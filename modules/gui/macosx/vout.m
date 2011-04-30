@@ -52,6 +52,7 @@
 
 #include <vlc_common.h>
 #include <vlc_keys.h>
+#include <vlc_url.h>
 
 /*****************************************************************************
  * DeviceCallback: Callback triggered when the video-device variable is changed
@@ -300,7 +301,7 @@ int DeviceCallback( vlc_object_t *p_this, const char *psz_variable,
     if( psz_title )
         o_title = [NSString stringWithUTF8String: psz_title];
 
-    char *psz_uri = input_item_GetURI( p_item );
+    char *psz_uri = decode_URI( input_item_GetURI( p_item ) );
     if( psz_uri )
         o_mrl = [NSMutableString stringWithUTF8String: psz_uri];
 
