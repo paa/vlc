@@ -1466,6 +1466,11 @@ static int ProbeDVD( demux_t *p_demux, char *psz_name )
         goto bailout;
     }
 
+    /* Match extension as the anchor exhibits too many false positives */
+    const size_t len = strlen( psz_name );
+    if( len < 4 || strcasecmp( psz_name + len - 4, ".iso" ) )
+        goto bailout;
+
     /* Try to find the anchor (2 bytes at LBA 256) */
     if( lseek( i_fd, 256 * DVD_VIDEO_LB_LEN, SEEK_SET ) != -1
      && read( i_fd, pi_anchor, 2 ) == 2
