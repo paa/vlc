@@ -283,6 +283,88 @@ int utf8_fprintf( FILE *stream, const char *fmt, ... )
 }
 
 
+/**
+ * Converts the first character from a UTF-8 sequence into a code point.
+ *
+ * @param str an UTF-8 bytes sequence
+ * @return 0 if str points to an empty string, i.e. the first character is NUL;
+ * number of bytes that the first character occupies (from 1 to 4) otherwise;
+ * -1 if the byte sequence was not a valid UTF-8 sequence.
+ */
+size_t vlc_towc (const char *str, uint32_t *restrict pwc)
+{
+    uint8_t *ptr = (uint8_t *)str, c;
+    uint32_t cp;
+
+    assert (str != NULL);
+
+    c = *ptr;
+    if (unlikely(c > 0xF4))
+        return -1;
+
+    int charlen = clz8 (c ^ 0xFF);
+    switch (charlen)
+    {
+        case 0: // 7-bit ASCII character -> short cut
+            *pwc = c;
+            return c != '\0';
+
+        case 1: // continuation byte -> error
+            return -1;
+
+        case 2:
+            if (unlikely(c < 0xC2)) // ASCII overlong
+                return -1;
+            cp = (c & 0x1F) << 6;
+            break;
+
+        case 3:
+            cp = (c & 0x0F) << 12;
+            break;
+
+        case 4:
+            cp = (c & 0x07) << 16;
+            break;
+
+        default:
+            assert (0);
+    }
+
+    /* Unrolled continuation bytes decoding */
+    switch (charlen)
+    {
+        case 4:
+            c = *++ptr;
+            if (unlikely((c >> 6) != 2)) // not a continuation byte
+                return -1;
+            cp |= (c & 0x3f) << 12;
+
+            if (unlikely(cp >= 0x110000)) // beyond Unicode range
+                return -1;
+            /* fall through */
+        case 3:
+            c = *++ptr;
+            if (unlikely((c >> 6) != 2)) // not a continuation byte
+                return -1;
+            cp |= (c & 0x3f) << 6;
+
+            if (unlikely(cp >= 0xD800 && cp < 0xC000)) // UTF-16 surrogate
+                return -1;
+            if (unlikely(cp < (1u << (5 * charlen - 4)))) // non-ASCII overlong
+                return -1;
+            /* fall through */
+        case 2:
+            c = *++ptr;
+            if (unlikely((c >> 6) != 2)) // not a continuation byte
+                return -1;
+            cp |= (c & 0x3f);
+            break;
+    }
+
+    *pwc = cp;
+    return charlen;
+}
+
 static char *CheckUTF8( char *str, char rep )
 {
     uint8_t *ptr = (uint8_t *)str;
