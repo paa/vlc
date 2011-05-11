@@ -4,7 +4,7 @@ Changes between 1.1.9 and 1.1.10-git:
 Windows and Mac OS X:
  * Update of external library modplug, to address a security issue
 
-DMac OS X Interface:
+Mac OS X Interface:
  * Improved Media Key handling based upon SPMediaKeyTap by Spotify AB
  * Fix for various crashes and small issues
 
@@ -15,7 +15,8 @@ Miscellaneous fixes in:
  * Subtitles colours when using GPU decoding on Windows
 
 Translations:
- * Update of Norwegian Bokmål, Slovak, Afrikaans translation
+ * Update of Norwegian Bokmål, Slovak, Afrikaans, Luganda, Brazillian Portuguese,
+   Irish and Thai translations
  * Initial Zulu translation
 
 
