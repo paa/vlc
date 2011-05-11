@@ -161,6 +161,11 @@ static int Open ( vlc_object_t *p_this )
                 | AOUT_CHAN_REARLEFT | AOUT_CHAN_REARRIGHT;
             break;
 
+        case 3:
+            p_aout->output.output.i_physical_channels
+                = AOUT_CHAN_LEFT | AOUT_CHAN_RIGHT | AOUT_CHAN_CENTER;
+            break;
+
         case 2:
             p_aout->output.output.i_physical_channels
                 = AOUT_CHAN_LEFT | AOUT_CHAN_RIGHT;
