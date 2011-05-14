@@ -1,6 +1,10 @@
 Changes between 1.1.9 and 1.1.10-git:
 ---------------------------------
 
+Linux port:
+ * PulseAudio output disabled due to unstability
+   (VLC can still use PulseAudio through ALSA emulation.)
+
 Windows and Mac OS X:
  * Update of external library modplug, to address a security issue
 
