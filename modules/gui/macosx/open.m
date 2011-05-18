@@ -1,7 +1,7 @@
 /*****************************************************************************
  * open.m: Open dialogues for VLC's MacOS X port
  *****************************************************************************
- * Copyright (C) 2002-2009 the VideoLAN team
+ * Copyright (C) 2002-2011 the VideoLAN team
  * $Id$
  *
  * Authors: Jon Lech Johansen <jon-vl@nanocrew.net>
@@ -221,7 +221,8 @@ static VLCOpen *_o_sharedMainInstance = nil;
 
     [o_capture_mode_pop removeAllItems];
     [o_capture_mode_pop addItemWithTitle: @"iSight"];
-    [o_capture_mode_pop addItemWithTitle: _NS("Screen")];
+    if( NSAppKitVersionNumber < 1115.2 )
+        [o_capture_mode_pop addItemWithTitle: _NS("Screen")];
     [o_capture_mode_pop addItemWithTitle: @"EyeTV"];
     [o_screen_lbl setStringValue: _NS("Screen Capture Input")];
     [o_screen_long_lbl setStringValue: _NS("This facility allows you to process your screen's output.")];
