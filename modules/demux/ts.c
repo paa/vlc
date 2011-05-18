@@ -168,6 +168,7 @@ vlc_module_begin ()
 
     add_string( "ts-extra-pmt", NULL, NULL, PMT_TEXT, PMT_LONGTEXT, true )
     add_bool( "ts-es-id-pid", true, NULL, PID_TEXT, PID_LONGTEXT, true )
+        change_safe()
     add_string( "ts-out", NULL, NULL, TSOUT_TEXT, TSOUT_LONGTEXT, true )
     add_integer( "ts-out-mtu", 1400, NULL, MTUOUT_TEXT,
                  MTUOUT_LONGTEXT, true )
