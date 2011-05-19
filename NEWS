@@ -1,4 +1,4 @@
-Changes between 1.1.9 and 1.1.10-git:
+Changes between 1.1.9 and 1.1.10:
 ---------------------------------
 
 Linux port:
@@ -21,7 +21,7 @@ Miscellaneous fixes in:
 Translations:
  * Update of Norwegian Bokmål, Slovak, Afrikaans, Luganda, Brazillian Portuguese,
    Irish and Thai translations
- * Initial Zulu translation
+ * Initial Zulu, Peul, Amharic, Acoli, Chiga translations
 
 
 Changes between 1.1.8 and 1.1.9:
