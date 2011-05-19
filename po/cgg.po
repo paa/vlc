@@ -1,12 +1,11 @@
 # Chiga translation of VLC
 # (c) VideoLAN 2011
 # Florence Tushabe, 2011
-
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2011-05-12 00:11+0100\n"
+"POT-Creation-Date: 2011-05-20 00:09+0100\n"
 "PO-Revision-Date: 2011-04-18 13:01+0200\n"
 "Last-Translator: Florence Tushabe <tushabe@cit.mak.ac.ug>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -394,7 +393,7 @@ msgid "Advanced settings"
 msgstr "Ebyokutooranamu ebyahaiguru"
 
 #: include/vlc_config_cat.h:198 modules/gui/macosx/open.m:181
-#: modules/gui/macosx/open.m:479 modules/gui/macosx/simple_prefs.m:259
+#: modules/gui/macosx/open.m:480 modules/gui/macosx/simple_prefs.m:259
 #: modules/gui/qt4/ui/sprefs_input.h:318
 msgid "Network"
 msgstr "Za Kanyabwengye"
@@ -518,7 +517,7 @@ msgstr ""
 
 #: include/vlc_intf_strings.h:65 modules/control/rc.c:72
 #: modules/gui/macosx/embeddedwindow.m:69
-#: modules/gui/macosx/embeddedwindow.m:196 modules/gui/macosx/intf.m:605
+#: modules/gui/macosx/embeddedwindow.m:200 modules/gui/macosx/intf.m:605
 #: modules/gui/macosx/intf.m:650 modules/gui/macosx/intf.m:742
 #: modules/gui/macosx/intf.m:749 modules/gui/macosx/intf.m:2033
 #: modules/gui/macosx/intf.m:2034 modules/gui/macosx/intf.m:2035
@@ -5774,7 +5773,7 @@ msgid ""
 msgstr ""
 
 #: modules/access/cdda.c:67 modules/gui/macosx/open.m:199
-#: modules/gui/macosx/open.m:666 modules/gui/macosx/open.m:754
+#: modules/gui/macosx/open.m:667 modules/gui/macosx/open.m:755
 #: modules/gui/qt4/ui/open_disk.h:293
 msgid "Audio CD"
 msgstr "CD ye'byeshongoro"
@@ -6432,7 +6431,7 @@ msgstr "Ebiteibwemu S-Video"
 
 #: modules/access/fs.c:61 modules/access_output/file.c:69
 #: modules/audio_output/file.c:112 modules/gui/macosx/open.m:179
-#: modules/gui/macosx/open.m:471 modules/gui/macosx/output.m:142
+#: modules/gui/macosx/open.m:472 modules/gui/macosx/output.m:142
 #: modules/gui/macosx/output.m:230 modules/gui/macosx/output.m:369
 #: modules/gui/qt4/dialogs/plugins.cpp:525 modules/gui/qt4/dialogs/sout.cpp:75
 #: modules/gui/qt4/dialogs/sout.cpp:153
@@ -7250,7 +7249,7 @@ msgid "Subscreen height"
 msgstr "Obureingwa bw'ekicweeka kyorutimbe:"
 
 #: modules/access/screen/screen.c:72 modules/access/screen/xcb.c:58
-#: modules/gui/macosx/open.m:233
+#: modules/gui/macosx/open.m:234
 msgid "Follow the mouse"
 msgstr "Kuratira akarikukutambuza"
 
@@ -7273,8 +7272,8 @@ msgid "Screen Input"
 msgstr "Ebyateerwa aharutimbe"
 
 #: modules/access/screen/screen.c:95 modules/access/screen/xcb.c:69
-#: modules/gui/macosx/open.m:224 modules/gui/macosx/open.m:446
-#: modules/gui/macosx/open.m:1050 modules/gui/macosx/simple_prefs.m:547
+#: modules/gui/macosx/open.m:225 modules/gui/macosx/open.m:447
+#: modules/gui/macosx/open.m:1051 modules/gui/macosx/simple_prefs.m:547
 #: modules/gui/macosx/vout.m:224
 msgid "Screen"
 msgstr "Orutimbe"
@@ -7925,7 +7924,7 @@ msgid "Caching value for VCDs. This value should be set in milliseconds."
 msgstr ""
 
 #: modules/access/vcd/vcd.c:52 modules/gui/macosx/open.m:198
-#: modules/gui/macosx/open.m:660 modules/gui/macosx/open.m:746
+#: modules/gui/macosx/open.m:661 modules/gui/macosx/open.m:747
 msgid "VCD"
 msgstr "VCD"
 
@@ -7960,7 +7959,7 @@ msgid "LID"
 msgstr "Ekitambulisho"
 
 #: modules/access/vcdx/info.c:54 modules/gui/macosx/open.m:180
-#: modules/gui/macosx/open.m:475
+#: modules/gui/macosx/open.m:476
 msgid "Disc"
 msgstr "Disiki"
 
@@ -8564,7 +8563,7 @@ msgstr ""
 msgid "Sound Delay"
 msgstr "Kyerereza"
 
-#: modules/audio_filter/chorus_flanger.c:78 modules/gui/macosx/open.m:330
+#: modules/audio_filter/chorus_flanger.c:78 modules/gui/macosx/open.m:331
 #: modules/stream_out/bridge.c:51 modules/stream_out/display.c:45
 #: modules/video_filter/mosaic.c:155
 msgid "Delay"
@@ -10029,7 +10028,7 @@ msgstr "Orukarara orwemerire orwekishushani ekihindukire"
 msgid "DVB subtitles decoder"
 msgstr "Emitwe ye'bisherekyirwe"
 
-#: modules/codec/dvbsub.c:119 modules/demux/ts.c:3492 modules/demux/ts.c:3550
+#: modules/codec/dvbsub.c:119 modules/demux/ts.c:3493 modules/demux/ts.c:3551
 #, fuzzy
 msgid "DVB subtitles"
 msgstr "Emitwe"
@@ -12269,7 +12268,7 @@ msgstr ""
 msgid "Opening"
 msgstr "Iguraho"
 
-#: modules/control/rc.c:73 modules/gui/macosx/embeddedwindow.m:190
+#: modules/control/rc.c:73 modules/gui/macosx/embeddedwindow.m:194
 #: modules/gui/macosx/intf.m:2023 modules/gui/macosx/intf.m:2024
 #: modules/gui/macosx/intf.m:2025 modules/gui/macosx/intf.m:2026
 #: modules/gui/qt4/menus.cpp:793 modules/misc/notify/xosd.c:235
@@ -13846,43 +13845,43 @@ msgstr ""
 msgid "MPEG Transport Stream demuxer"
 msgstr "Entambura ya MPEG"
 
-#: modules/demux/ts.c:195 modules/gui/macosx/controls.m:1093
+#: modules/demux/ts.c:196 modules/gui/macosx/controls.m:1093
 #: modules/gui/macosx/intf.m:709 modules/gui/qt4/dialogs/toolbar.cpp:407
 msgid "Teletext"
 msgstr "Ebihandiko"
 
-#: modules/demux/ts.c:196
+#: modules/demux/ts.c:197
 #, fuzzy
 msgid "Teletext subtitles"
 msgstr "Otemu emitwe"
 
-#: modules/demux/ts.c:197
+#: modules/demux/ts.c:198
 #, fuzzy
 msgid "Teletext: additional information"
 msgstr "Okyongyeramu amaani omubihandiko"
 
-#: modules/demux/ts.c:198
+#: modules/demux/ts.c:199
 msgid "Teletext: program schedule"
 msgstr ""
 
-#: modules/demux/ts.c:199
+#: modules/demux/ts.c:200
 msgid "Teletext subtitles: hearing impaired"
 msgstr ""
 
-#: modules/demux/ts.c:3557
+#: modules/demux/ts.c:3558
 msgid "DVB subtitles: hearing impaired"
 msgstr ""
 
-#: modules/demux/ts.c:3849 modules/demux/ts.c:3891
+#: modules/demux/ts.c:3850 modules/demux/ts.c:3892
 #, fuzzy
 msgid "clean effects"
 msgstr "Ebirikuruga omusinema"
 
-#: modules/demux/ts.c:3853 modules/demux/ts.c:3895
+#: modules/demux/ts.c:3854 modules/demux/ts.c:3896
 msgid "hearing impaired"
 msgstr ""
 
-#: modules/demux/ts.c:3857 modules/demux/ts.c:3899
+#: modules/demux/ts.c:3858 modules/demux/ts.c:3900
 msgid "visual impaired commentary"
 msgstr ""
 
@@ -14153,7 +14152,7 @@ msgstr "Eshaaha"
 #: modules/gui/macosx/bookmarks.m:279 modules/gui/macosx/controls.m:61
 #: modules/gui/macosx/coredialogs.m:67 modules/gui/macosx/coredialogs.m:105
 #: modules/gui/macosx/coredialogs.m:163 modules/gui/macosx/extended.m:518
-#: modules/gui/macosx/open.m:340 modules/gui/macosx/output.m:138
+#: modules/gui/macosx/open.m:341 modules/gui/macosx/output.m:138
 #: modules/gui/macosx/playlistinfo.m:398 modules/gui/macosx/simple_prefs.m:245
 #: modules/gui/macosx/wizard.m:598 modules/gui/macosx/wizard.m:661
 #: modules/gui/macosx/wizard.m:1034 modules/gui/macosx/wizard.m:1119
@@ -14866,19 +14865,19 @@ msgid "Media Resource Locator (MRL)"
 msgstr "Ekiri kworeka oburugo bwe bwokuzaana (MRL)"
 
 #: modules/gui/macosx/open.m:176 modules/gui/macosx/open.m:208
-#: modules/gui/macosx/open.m:611 modules/gui/macosx/open.m:808
-#: modules/gui/macosx/open.m:983 modules/gui/macosx/open.m:1226
+#: modules/gui/macosx/open.m:612 modules/gui/macosx/open.m:809
+#: modules/gui/macosx/open.m:984 modules/gui/macosx/open.m:1227
 #: modules/gui/qt4/components/controller.hpp:104
 msgid "Open"
 msgstr "Iguraho"
 
-#: modules/gui/macosx/open.m:182 modules/gui/macosx/open.m:444
-#: modules/gui/macosx/open.m:483
+#: modules/gui/macosx/open.m:182 modules/gui/macosx/open.m:445
+#: modules/gui/macosx/open.m:484
 msgid "Capture"
 msgstr "Teera ekishushani"
 
 #: modules/gui/macosx/open.m:184 modules/gui/macosx/open.m:193
-#: modules/gui/macosx/open.m:328 modules/gui/macosx/output.m:145
+#: modules/gui/macosx/open.m:329 modules/gui/macosx/output.m:145
 #: modules/gui/macosx/prefs_widgets.m:1192
 #: modules/gui/macosx/simple_prefs.m:299
 #: modules/gui/qt4/components/preferences_widgets.cpp:299
@@ -14914,11 +14913,11 @@ msgstr "Eiziina ryekyoma"
 msgid "No DVD menus"
 msgstr "Tihariho rukarara rwa DVD"
 
-#: modules/gui/macosx/open.m:196 modules/gui/macosx/open.m:649
+#: modules/gui/macosx/open.m:196 modules/gui/macosx/open.m:650
 msgid "VIDEO_TS folder"
 msgstr "Ekibiikiro kya VIDEO_TS"
 
-#: modules/gui/macosx/open.m:197 modules/gui/macosx/open.m:762
+#: modules/gui/macosx/open.m:197 modules/gui/macosx/open.m:763
 #: modules/services_discovery/udev.c:587 modules/gui/qt4/ui/open_disk.h:292
 msgid "DVD"
 msgstr "DVD"
@@ -14960,133 +14959,133 @@ msgstr "Amateeka"
 msgid "Address"
 msgstr "Endagiriro"
 
-#: modules/gui/macosx/open.m:214 modules/gui/macosx/open.m:878
-#: modules/gui/macosx/open.m:936
+#: modules/gui/macosx/open.m:214 modules/gui/macosx/open.m:879
+#: modules/gui/macosx/open.m:937
 msgid "Unicast"
 msgstr ""
 
-#: modules/gui/macosx/open.m:215 modules/gui/macosx/open.m:893
-#: modules/gui/macosx/open.m:951
+#: modules/gui/macosx/open.m:215 modules/gui/macosx/open.m:894
+#: modules/gui/macosx/open.m:952
 msgid "Multicast"
 msgstr ""
 
-#: modules/gui/macosx/open.m:226
+#: modules/gui/macosx/open.m:227
 msgid "Screen Capture Input"
 msgstr "Ebyateerwa aharutimbe"
 
-#: modules/gui/macosx/open.m:227
+#: modules/gui/macosx/open.m:228
 msgid "This facility allows you to process your screen's output."
 msgstr "Puroguraamu egi neekwikiriza okukozesa ebyashohora aharutimbe."
 
-#: modules/gui/macosx/open.m:228
+#: modules/gui/macosx/open.m:229
 msgid "Frames per Second:"
 msgstr "Za furemu buri sekondi"
 
-#: modules/gui/macosx/open.m:229
+#: modules/gui/macosx/open.m:230
 msgid "Subscreen left:"
 msgstr "Ekicweeka kyorutimbe ekya bumosho"
 
-#: modules/gui/macosx/open.m:230
+#: modules/gui/macosx/open.m:231
 msgid "Subscreen top:"
 msgstr "Ekicweeka kyorutimbe ekya hamutwe"
 
-#: modules/gui/macosx/open.m:231
+#: modules/gui/macosx/open.m:232
 msgid "Subscreen width:"
 msgstr "Obugazi bw'ekicweeka kyorutimbe:"
 
-#: modules/gui/macosx/open.m:232
+#: modules/gui/macosx/open.m:233
 msgid "Subscreen height:"
 msgstr "Obureingwa bw'ekicweeka kyorutimbe:"
 
-#: modules/gui/macosx/open.m:234
+#: modules/gui/macosx/open.m:235
 msgid "Current channel:"
 msgstr "Omuhanda oguriho:"
 
-#: modules/gui/macosx/open.m:235
+#: modules/gui/macosx/open.m:236
 msgid "Previous Channel"
 msgstr "Omuhanda ogwenyima"
 
-#: modules/gui/macosx/open.m:236
+#: modules/gui/macosx/open.m:237
 msgid "Next Channel"
 msgstr "Omuhanda oguragarukaho"
 
-#: modules/gui/macosx/open.m:237 modules/gui/macosx/open.m:1160
+#: modules/gui/macosx/open.m:238 modules/gui/macosx/open.m:1161
 msgid "Retrieving Channel Info..."
 msgstr "Kirimukutunga amakuru go'muhanda..."
 
-#: modules/gui/macosx/open.m:238
+#: modules/gui/macosx/open.m:239
 msgid "EyeTV is not launched"
 msgstr "EyeTV tiyaatandikwaho"
 
-#: modules/gui/macosx/open.m:239
+#: modules/gui/macosx/open.m:240
 msgid ""
 "VLC could not connect to EyeTV.\n"
 "Make sure that you installed VLC's EyeTV plugin."
 msgstr ""
 
-#: modules/gui/macosx/open.m:240
+#: modules/gui/macosx/open.m:241
 msgid "Launch EyeTV now"
 msgstr "Tandikaho EyeTV hati"
 
-#: modules/gui/macosx/open.m:241
+#: modules/gui/macosx/open.m:242
 msgid "Download Plugin"
 msgstr "Yaakira Ekyojwekamu"
 
-#: modules/gui/macosx/open.m:326
+#: modules/gui/macosx/open.m:327
 msgid "Load subtitles file:"
 msgstr "Tasyamu emitwe ye'bwekihandiiko:"
 
-#: modules/gui/macosx/open.m:327 modules/gui/macosx/output.m:137
+#: modules/gui/macosx/open.m:328 modules/gui/macosx/output.m:137
 msgid "Settings..."
 msgstr "Entegyeka..."
 
-#: modules/gui/macosx/open.m:329
+#: modules/gui/macosx/open.m:330
 msgid "Override parametters"
 msgstr "Hingana ebiteibwemu"
 
-#: modules/gui/macosx/open.m:332
+#: modules/gui/macosx/open.m:333
 msgid "FPS"
 msgstr "FPS"
 
-#: modules/gui/macosx/open.m:334
+#: modules/gui/macosx/open.m:335
 msgid "Subtitles encoding"
 msgstr "Emitwe ye'bisherekyirwe"
 
-#: modules/gui/macosx/open.m:336 modules/gui/qt4/ui/sprefs_subtitles.h:210
+#: modules/gui/macosx/open.m:337 modules/gui/qt4/ui/sprefs_subtitles.h:210
 msgid "Font size"
 msgstr "Sayizi y'empandiika"
 
-#: modules/gui/macosx/open.m:338
+#: modules/gui/macosx/open.m:339
 msgid "Subtitles alignment"
 msgstr "Enshorora y'emitwe"
 
-#: modules/gui/macosx/open.m:341
+#: modules/gui/macosx/open.m:342
 msgid "Font Properties"
 msgstr "Ebirakwata ahampandiika"
 
-#: modules/gui/macosx/open.m:342
+#: modules/gui/macosx/open.m:343
 msgid "Subtitle File"
 msgstr "Ekihandiiko kye'mitwe"
 
-#: modules/gui/macosx/open.m:610 modules/gui/macosx/open.m:982
-#: modules/gui/macosx/open.m:1225 modules/gui/qt4/ui/open_file.h:217
+#: modules/gui/macosx/open.m:611 modules/gui/macosx/open.m:983
+#: modules/gui/macosx/open.m:1226 modules/gui/qt4/ui/open_file.h:217
 msgid "Open File"
 msgstr "Iguraho Ekihandiiko"
 
-#: modules/gui/macosx/open.m:697 modules/gui/macosx/open.m:749
-#: modules/gui/macosx/open.m:757 modules/gui/macosx/open.m:765
+#: modules/gui/macosx/open.m:698 modules/gui/macosx/open.m:750
+#: modules/gui/macosx/open.m:758 modules/gui/macosx/open.m:766
 msgid "No %@s found"
 msgstr "Tihariho %@s ebyashangwa"
 
-#: modules/gui/macosx/open.m:807
+#: modules/gui/macosx/open.m:808
 msgid "Open VIDEO_TS Directory"
 msgstr "Iguraho VIDEO_TS Directory"
 
-#: modules/gui/macosx/open.m:1063
+#: modules/gui/macosx/open.m:1064
 msgid "iSight Capture Input"
 msgstr "Tunga iSight"
 
-#: modules/gui/macosx/open.m:1064
+#: modules/gui/macosx/open.m:1065
 msgid ""
 "This facility allows you to process your iSight's input signal.\n"
 "\n"
@@ -15096,11 +15095,11 @@ msgid ""
 "Live Audio input is not supported."
 msgstr ""
 
-#: modules/gui/macosx/open.m:1166
+#: modules/gui/macosx/open.m:1167
 msgid "Composite input"
 msgstr "Ebiteibwemu byona"
 
-#: modules/gui/macosx/open.m:1169
+#: modules/gui/macosx/open.m:1170
 msgid "S-Video input"
 msgstr "Ebiteibwemu S-Video"
 
