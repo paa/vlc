@@ -15107,7 +15107,7 @@ msgstr "Automatisch nach Updates suchen"
 
 #: modules/gui/macosx/simple_prefs.m:275
 msgid "Enable Growl notifications (on playlist item change)"
-msgstr "Growl-Nachrichten aktivieren (Nach einer Änderung in der Wiedergabeliste)"
+msgstr "Growl-Benachrichtigungen aktivieren (nach Wechsel des Wiedergabeobjekts)"
 
 #: modules/gui/macosx/simple_prefs.m:278
 msgid "Default Encoding"
