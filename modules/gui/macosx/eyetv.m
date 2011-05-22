@@ -23,9 +23,6 @@
 *****************************************************************************/
 
 #import "eyetv.h"
-/* for apple event interaction [carbon] */
-//#import <Foundation/NSAppleScript>
-/* for various VLC core related calls */
 #import "intf.h"
 
 @implementation VLCEyeTVController
@@ -57,10 +54,7 @@ static VLCEyeTVController *_o_sharedInstance = nil;
 
 - (void)globalNotificationReceived: (NSNotification *)theNotification
 {
-    msg_Dbg( VLCIntf, "notification received in VLC with name %s and object %s",
-             [[theNotification name] UTF8String], [[theNotification object] UTF8String] );
-
-    /* update our info on the used device */
+   /* update our info on the used device */
     if( [[theNotification name] isEqualToString: @"DeviceAdded"] )
         b_deviceConnected = YES;
     if( [[theNotification name] isEqualToString: @"DeviceRemoved"] )
