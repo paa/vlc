@@ -6,7 +6,7 @@ Linux port:
    (VLC can still use PulseAudio through ALSA emulation.)
 
 Windows and Mac OS X:
- * Update of external library modplug, to address a security issue
+ * Update of external library modplug, to address multiple security issues
 
 Mac OS X Interface:
  * Improved Media Key handling based upon SPMediaKeyTap by Spotify AB
@@ -15,14 +15,16 @@ Mac OS X Interface:
 Miscellaneous fixes in:
  * Windows 7 taskbar buttons
  * Qt interface
- * Pulseaudio
+ * Pulseaudio and dummy audio outputs
+ * Asx, live555, dvdnav demuxer
+ * RTP output and XML export
  * Subtitles colours when using GPU decoding on Windows
 
 Translations:
  * Update of Norwegian Bokmål, Slovak, Afrikaans, Luganda,
    Brazillian Portuguese, Irish, Thai, Estonian, Chinese, Polish,
-   Dutch, German and Basque translations
- * Initial Zulu, Peul, Amharic, Acoli, Chiga translations
+   Dutch, German and Japanese translations
+ * Initial Basque, Zulu, Peul, Amharic, Acoli, Chiga translations
 
 
 Changes between 1.1.8 and 1.1.9:
