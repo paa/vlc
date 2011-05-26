@@ -1172,7 +1172,7 @@ void CaptureOpenPanel::updateMRL()
 
         mrl += " :dvb-adapter=" + QString::number( dvbCard->value() );
         if( dvbs->isChecked() || dvbc->isChecked() )
-            mrl += " :dvb-srate=" + QString::number( dvbSrate->value() );
+            mrl += " :dvb-srate=" + QString::number( dvbSrate->value() ) + "000";
         else if( dvbt->isChecked() )
             mrl += " :dvb-bandwidth=" +
                 QString::number( dvbBandBox->itemData(
