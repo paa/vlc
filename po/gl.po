@@ -9,9 +9,9 @@ msgstr ""
 "Project-Id-Version: vlc 1.1.10\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2011-05-20 22:50+0100\n"
-"PO-Revision-Date: 2011-05-24 21:30+0200\n"
+"PO-Revision-Date: 2011-05-25 21:26+0200\n"
 "Last-Translator: Gonçalo Cordeiro <gzcordeiro@gmail.com>\n"
-"Language-Team: Galician <proxecto@trasno.net>\n"
+"Language-Team: Galician\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -191,8 +191,8 @@ msgid ""
 "to alter are HTTP proxy or caching settings."
 msgstr ""
 "Configuracións relacionadas cos diversos métodos de acceso. As "
-"configuracións máis comúns que pode querer modificar son o proxy HTTP ou as "
-"configuracións de caché."
+"configuracións máis comúns que pode querer modificar son o proxy HTTP ou a "
+"caché."
 
 #: include/vlc_config_cat.h:103
 msgid "Stream filters"
@@ -248,7 +248,7 @@ msgstr "Entrada xeral"
 
 #: include/vlc_config_cat.h:121
 msgid "General input settings. Use with care..."
-msgstr "Configuracións xerais de entrada. Úseas con coidado..."
+msgstr "Configuracións xerais de entrada. Úseas con coidado!"
 
 #: include/vlc_config_cat.h:124 src/libvlc-module.c:1973
 msgid "Stream output"
@@ -351,7 +351,7 @@ msgid ""
 "multicast UDP or RTP."
 msgstr ""
 "SAP é unha forma de anunciar publicamente fluxos que están sendo enviados "
-"mediante UDP o RTP multidifusión."
+"mediante UDP ou RTP multidifusión."
 
 #: include/vlc_config_cat.h:170
 msgid "VOD"
@@ -403,7 +403,7 @@ msgstr "Avanzadas"
 
 #: include/vlc_config_cat.h:187
 msgid "Advanced settings. Use with care..."
-msgstr "Configuracións avanzadas. Úseas con coidado..."
+msgstr "Configuracións avanzadas. Úseas con coidado!"
 
 #: include/vlc_config_cat.h:189
 msgid "CPU features"
@@ -526,7 +526,7 @@ msgstr "&Información multimedia"
 
 #: include/vlc_intf_strings.h:56
 msgid "&Codec Information"
-msgstr "Informacións de &códecs"
+msgstr "Información sobre os &códecs"
 
 #: include/vlc_intf_strings.h:57
 msgid "&Messages"
@@ -542,7 +542,7 @@ msgstr "&Marcadores"
 
 #: include/vlc_intf_strings.h:60
 msgid "&VLM Configuration"
-msgstr "Configuración &VLM"
+msgstr "Configuración de &VLM"
 
 #: include/vlc_intf_strings.h:62
 msgid "&About"
@@ -653,7 +653,7 @@ msgstr "Engadir un cartafol..."
 
 #: include/vlc_intf_strings.h:95
 msgid "Save Playlist to &File..."
-msgstr "Gardar a lista de reprodución no &ficheiro..."
+msgstr "Gardar a lista de reprodución nun &ficheiro..."
 
 #: include/vlc_intf_strings.h:96
 msgid "Open Play&list..."
@@ -1849,7 +1849,7 @@ msgstr ""
 #: src/libvlc-module.c:385 modules/stream_out/display.c:43
 #: modules/gui/qt4/ui/sprefs_video.h:309
 msgid "Enable video"
-msgstr "Activar vídeo"
+msgstr "Activar o vídeo"
 
 #: src/libvlc-module.c:387
 msgid ""
@@ -2076,7 +2076,7 @@ msgstr "Colocar sempre a xanela de vídeo por encima das outras xanelas."
 
 #: src/libvlc-module.c:456
 msgid "Enable wallpaper mode "
-msgstr "Activar o modo imaxe de fondo "
+msgstr "Activar o modo de imaxe de fondo "
 
 #: src/libvlc-module.c:458
 msgid ""
@@ -2362,7 +2362,7 @@ msgstr ""
 
 #: src/libvlc-module.c:594
 msgid "Fix HDTV height"
-msgstr "Altura HDTV fixa"
+msgstr "Arranxar a altura de HDTV"
 
 #: src/libvlc-module.c:596
 msgid ""
@@ -3000,12 +3000,12 @@ msgstr ""
 
 #: src/libvlc-module.c:889
 msgid "SOCKS user name"
-msgstr "Nome de usuario SOCKS"
+msgstr "Nome de usuario/a SOCKS"
 
 #: src/libvlc-module.c:891
 msgid "User name to be used for connection to the SOCKS proxy."
 msgstr ""
-"Nome de usuario que se vai usar para a conexión co servidor proxy SOCKS."
+"Nome de usuario/a que se vai usar para a conexión co servidor proxy SOCKS."
 
 #: src/libvlc-module.c:893
 msgid "SOCKS password"
@@ -3025,7 +3025,7 @@ msgstr "Permítelle especificar os metadatos do «título» para unha entrada."
 
 #: src/libvlc-module.c:901
 msgid "Author metadata"
-msgstr "Metadatos do autor"
+msgstr "Metadatos do autoría"
 
 #: src/libvlc-module.c:903
 msgid "Allows you to specify an \"author\" metadata for an input."
@@ -3033,7 +3033,7 @@ msgstr "Permítelle especificar os metadatos de «autoría» para unha entrada."
 
 #: src/libvlc-module.c:905
 msgid "Artist metadata"
-msgstr "Metadatos do artista"
+msgstr "Metadatos de artista"
 
 #: src/libvlc-module.c:907
 msgid "Allows you to specify an \"artist\" metadata for an input."
@@ -3280,15 +3280,15 @@ msgid ""
 "When the SAP flow control is disabled, this lets you set the fixed interval "
 "between SAP announcements."
 msgstr ""
-"Cando o control de fluxo SAP está desactivado, permíteselle fixar o "
-"intervalo entre os anuncios SAP."
+"Cando o control de fluxo SAP está desactivado, permíteselle definir o "
+"intervalo fixo entre os anuncios SAP."
 
 #: src/libvlc-module.c:1031
 msgid ""
 "These options allow you to enable special CPU optimizations. You should "
 "always leave all these enabled."
 msgstr ""
-"Estas opcións permítenlle activar as optimizacións CPU especiais. Debería "
+"Estas opcións permítenlle activar as optimizacións de CPU especiais. Debería "
 "deixalas sempre activadas."
 
 #: src/libvlc-module.c:1034
@@ -3531,11 +3531,11 @@ msgstr "Ignora o camiño de busca de datos ou compartidos predeterminado."
 
 #: src/libvlc-module.c:1139
 msgid "VLM configuration file"
-msgstr "Ficheiro de configuración do VLC"
+msgstr "Ficheiro de configuración de VLM"
 
 #: src/libvlc-module.c:1141
 msgid "Read a VLM configuration file as soon as VLM is started."
-msgstr "Ler un ficheiro configuración VLM nada máis iniciar VLM."
+msgstr "Ler un ficheiro de configuración de VLM nada máis iniciar VLM."
 
 #: src/libvlc-module.c:1143
 msgid "Use a plugins cache"
@@ -5721,11 +5721,11 @@ msgstr "En kHz para DVB-C/S/T"
 
 #: modules/access/bda/bda.c:65 modules/access/dvb/access.c:97
 msgid "Inversion mode"
-msgstr "Modo inversión"
+msgstr "Modo de inversión"
 
 #: modules/access/bda/bda.c:66 modules/access/dvb/access.c:98
 msgid "Inversion mode [0=off, 1=on, 2=auto]"
-msgstr "Modo inversión [0=off, 1=on, 2=auto]"
+msgstr "Modo de inversión [0=off, 1=on, 2=auto]"
 
 #: modules/access/bda/bda.c:71 modules/access/dvb/access.c:100
 msgid "Probe DVB card for capabilities"
@@ -5741,13 +5741,13 @@ msgstr ""
 
 #: modules/access/bda/bda.c:76 modules/access/dvb/access.c:103
 msgid "Budget mode"
-msgstr "Modo orzamento"
+msgstr "Modo económico"
 
 #: modules/access/bda/bda.c:77 modules/access/dvb/access.c:104
 msgid "This allows you to stream an entire transponder with a \"budget\" card."
 msgstr ""
-"Isto permítelle emitir en fluxo todo un transpondedor cunha tarxeta de "
-"\"económica\"."
+"Isto permítelle emitir en fluxo todo un transpondedor cunha tarxeta "
+"«económica»."
 
 #: modules/access/bda/bda.c:82
 msgid "Network Identifier"
@@ -6336,15 +6336,15 @@ msgstr "Seleccione o tipo de saída de audio. Vexa a opción «entrada de vídeo
 
 #: modules/access/dshow/dshow.cpp:164
 msgid "AM Tuner mode"
-msgstr "Modo sintonizador AM"
+msgstr "Modo de sintonizador AM"
 
 #: modules/access/dshow/dshow.cpp:166
 msgid ""
 "AM Tuner mode. Can be one of Default (0), TV (1),AM Radio (2), FM Radio (3) "
 "or DSS (4)."
 msgstr ""
-"Modo sintonizador AM. Pode ser un dos predeterminados (0), televisión (1), "
-"radio AM (2), radio FM (3) ou DSS (4)."
+"Modo de sintonizador AM. Pode ser un dos predeterminados (0), televisión "
+"(1), radio AM (2), radio FM (3) ou DSS (4)."
 
 #: modules/access/dshow/dshow.cpp:169
 msgid "Number of audio channels"
@@ -6454,14 +6454,14 @@ msgstr ""
 
 #: modules/access/dvb/access.c:162
 msgid "HTTP user name"
-msgstr "Nome de usuario HTTP"
+msgstr "Nome de usuario/a HTTP"
 
 #: modules/access/dvb/access.c:164
 msgid ""
 "User name the administrator will use to log into the internal HTTP server."
 msgstr ""
-"O nome de usuario que utilizará o administrador para rexistrarse no servidor "
-"interno HTTP."
+"O nome de usuario/a que utilizará o administrador/a para rexistrarse no "
+"servidor interno HTTP."
 
 #: modules/access/dvb/access.c:167
 msgid "HTTP password"
@@ -6814,11 +6814,11 @@ msgstr ""
 
 #: modules/access/ftp.c:62
 msgid "FTP user name"
-msgstr "Nome de usuario de FTP"
+msgstr "Nome de usuario/a de FTP"
 
 #: modules/access/ftp.c:63 modules/access/sftp.c:55 modules/access/smb.c:66
 msgid "User name that will be used for the connection."
-msgstr "Nome de usuario que se empregará para a conexión."
+msgstr "Nome de usuario/a que se empregará para a conexión."
 
 #: modules/access/ftp.c:65
 msgid "FTP password"
@@ -7345,7 +7345,7 @@ msgstr "Pico da taxa de bits no modo VBR."
 
 #: modules/access/pvr.c:102
 msgid "Bitrate mode"
-msgstr "Modo taxa de bits"
+msgstr "Modo de taxa de bits"
 
 #: modules/access/pvr.c:103
 msgid "Bitrate mode to use (VBR or CBR)."
@@ -7755,7 +7755,7 @@ msgstr ""
 
 #: modules/access/smb.c:65
 msgid "SMB user name"
-msgstr "Nome de usuario SMB"
+msgstr "Nome de usuario/a SMB"
 
 #: modules/access/smb.c:68
 msgid "SMB password"
@@ -7978,11 +7978,11 @@ msgstr "Entrada de audio da tarxeta que se vai usar (ver depuración)."
 
 #: modules/access/v4l2.c:92
 msgid "IO Method"
-msgstr "Método IO"
+msgstr "Método de E/S"
 
 #: modules/access/v4l2.c:94
 msgid "IO Method (READ, MMAP, USERPTR)."
-msgstr "Método IO (READ, MMAP, USERPTR)."
+msgstr "Método de E/S (READ, MMAP, USERPTR)."
 
 #: modules/access/v4l2.c:97
 msgid "Force width (-1 for autodetect, 0 for driver default)."
@@ -8100,11 +8100,11 @@ msgstr ""
 #: modules/access/v4l2.c:143 modules/gui/macosx/extended.m:100
 #: modules/gui/qt4/ui/video_effects.h:1105
 msgid "Gamma"
-msgstr "Gamma"
+msgstr "Gama"
 
 #: modules/access/v4l2.c:145
 msgid "Gamma of the video input (if supported by the v4l2 driver)."
-msgstr "Entrada de vídeo gamma (se está admitido polo controlador v4l2)."
+msgstr "Gama da entrada de vídeo (se está admitido polo controlador v4l2)."
 
 #: modules/access/v4l2.c:146
 msgid "Exposure"
@@ -8136,21 +8136,23 @@ msgstr "Ganancia de entrada de vídeo (se está admitido polo controlador v4l2).
 
 #: modules/access/v4l2.c:156
 msgid "Horizontal flip"
-msgstr "Voltear horizontalmente"
+msgstr "Dar a volta horizontalmente"
 
 #: modules/access/v4l2.c:158
 msgid "Flip the video horizontally (if supported by the v4l2 driver)."
 msgstr ""
-"Voltear o vídeo horizontalmente (se está admitido polo controlador v4l2)."
+"Dálle a volta ao vídeo horizontalmente (se está admitido polo controlador "
+"v4l2)."
 
 #: modules/access/v4l2.c:159
 msgid "Vertical flip"
-msgstr "Voltear verticalmente"
+msgstr "Dar a volta verticalmente"
 
 #: modules/access/v4l2.c:161
 msgid "Flip the video vertically (if supported by the v4l2 driver)."
 msgstr ""
-"Voltear o vídeo verticalmente (se está admitido polo controlador v4l2)."
+"Dálle a volta ao vídeo verticalmente (se está admitido polo controlador "
+"v4l2)."
 
 #: modules/access/v4l2.c:162
 msgid "Horizontal centering"
@@ -8255,7 +8257,7 @@ msgstr "Frecuencia do sintonizador en Hz ou kHz (ver a saída de depuración)"
 
 #: modules/access/v4l2.c:206
 msgid "Audio mode"
-msgstr "Modo audio"
+msgstr "Modo de audio"
 
 #: modules/access/v4l2.c:208
 msgid "Tuner audio mono/stereo and track selection."
@@ -8522,19 +8524,19 @@ msgstr "Formato que se vai usar no campo Título da lista de reprodución."
 
 #: modules/access/zip/zipstream.c:38
 msgid "Media in Zip"
-msgstr "Ficheiros multimedia en zip"
+msgstr "Ficheiros multimedia en ZIP"
 
 #: modules/access/zip/zipstream.c:39
 msgid "Path to the media in the Zip archive"
-msgstr "Camiño para os ficheiros multimedia no arquivo zip"
+msgstr "Camiño para os ficheiros multimedia no arquivo ZIP"
 
 #: modules/access/zip/zipstream.c:48
 msgid "Zip files filter"
-msgstr "Filtro de arquivos zip"
+msgstr "Filtro de arquivos ZIP"
 
 #: modules/access/zip/zipstream.c:53
 msgid "Zip access"
-msgstr "Acceso a Zip"
+msgstr "Acceso a ZIP"
 
 #: modules/access_output/dummy.c:45 modules/stream_out/dummy.c:51
 msgid "Dummy stream output"
@@ -8558,11 +8560,11 @@ msgstr "Saída de fluxo do ficheiro"
 
 #: modules/access_output/http.c:65 modules/misc/audioscrobbler.c:134
 msgid "Username"
-msgstr "Nome de usuario"
+msgstr "Nome de usuario/a"
 
 #: modules/access_output/http.c:66
 msgid "User name that will be requested to access the stream."
-msgstr "Nome de usuario que se pedirá para acceder ao fluxo."
+msgstr "Nome de usuario/a que se pedirá para acceder ao fluxo."
 
 #: modules/access_output/http.c:68 modules/control/telnet.c:81
 #: modules/gui/macosx/coredialogs.m:65 modules/gui/macosx/simple_prefs.m:234
@@ -9100,8 +9102,7 @@ msgstr ""
 "A compresión da gama dinámica fai máis suaves os sons altos e máis altos os "
 "sons suaves, polo que poderá escoitar mellor o fluxo nun contorno ruidoso "
 "sen molestar a ninguén. Se desactiva a compresión da gama dinámica, a "
-"reprodución adaptarase máis a unha sala de cine ou a unha habitación "
-"acústica."
+"reprodución adaptarase máis a unha sala de cine ou a unha sala acústica."
 
 #: modules/audio_filter/converter/a52tofloat32.c:89
 msgid "Enable internal upmixing"
@@ -9773,7 +9774,7 @@ msgstr "Sen chave"
 #: modules/gui/macosx/simple_prefs.m:307
 #: modules/gui/qt4/dialogs/preferences.cpp:71
 msgid "All"
-msgstr "Todos"
+msgstr "Todo"
 
 #: modules/codec/avcodec/avcodec.c:79
 msgid "rd"
@@ -10161,14 +10162,13 @@ msgstr ""
 
 #: modules/codec/avcodec/avcodec.h:222
 msgid "Strict standard compliance"
-msgstr "Conformidade estrita do estándar"
+msgstr "Conformidade estrita co estándar"
 
 #: modules/codec/avcodec/avcodec.h:223
 msgid ""
 "Force a strict standard compliance when encoding (accepted values: -1, 0, 1)."
 msgstr ""
-"Forzar unha conformidade estrita ao codificar (valores que se aceptan: -1, "
-"0, 1)."
+"Forzar unha conformidade estrita ao codificar (valores aceptados: -1, 0, 1)."
 
 #: modules/codec/avcodec/avcodec.h:226
 msgid "Luminance masking"
@@ -10274,7 +10274,8 @@ msgstr ""
 "Parece que á súa instalación FFMPEG (libavcodec) lle falta o seguinte "
 "codificador:\n"
 "%s.\n"
-"Se non sabe como fixar isto, solicítelle instrucións ao seu distribuidor.\n"
+"Se non sabe como arranxar isto, solicítelle instrucións ao seu "
+"distribuidor.\n"
 "\n"
 "Isto non é un erro do VLC media player.\n"
 "Non se dirixa ao proxecto VideoLAN para este asunto.\n"
@@ -10467,7 +10468,7 @@ msgid ""
 "(Not recommended) Perform a simple (non hierarchical block matching motion "
 "vector search with search range of +/-x, +/-y"
 msgstr ""
-"(Non recomendado). Realizar unha busca simple (non xerárquica) de "
+"(Non se recomenda). Realizar unha busca simple (non xerárquica) de "
 "coincidencia de bloques de vector de movemento dentro dun intervalo de +/-x, "
 "+/-y"
 
@@ -10519,7 +10520,7 @@ msgstr ""
 
 #: modules/codec/dirac.c:184
 msgid "cycles per degree"
-msgstr "ciclos por grao"
+msgstr "Ciclos por grao"
 
 #: modules/codec/dirac.c:206
 msgid "Dirac video encoder using dirac-research library"
@@ -10670,7 +10671,7 @@ msgstr "Desentrelazar o módulo que se vai usar."
 #: modules/codec/fake.c:76 modules/video_output/omapfb.c:82
 #: modules/video_output/yuv.c:44
 msgid "Chroma used"
-msgstr "A crominancia que se usou"
+msgstr "Crominancia usada"
 
 #: modules/codec/fake.c:78 modules/video_output/yuv.c:46
 msgid "Force use of a specific chroma for output. Default is I420."
@@ -11040,8 +11041,8 @@ msgid ""
 "played. This will hopefully be fixed soon."
 msgstr ""
 "Kate é un códec para as superposicións baseadas en texto e imaxe.\n"
-"A biblioteca de renderización Tiger precísase para renderizar fluxos de Kate "
-"complexos, mais o VLC aínda pode renderizar texto estático e subtítulos "
+"A biblioteca de renderización Tiger é necesaria para renderizar fluxos de "
+"Kate complexos, mais o VLC aínda pode renderizar texto estático e subtítulos "
 "baseados en imaxes se non está dispoñíbel.\n"
 "Observe que mudar as configuracións de abaixo non será efectivo até que se "
 "reproduza un novo fluxo. Esperamos que isto sexa arranxado en breve."
@@ -11517,7 +11518,7 @@ msgstr "Codificador de texto T.140"
 
 #: modules/codec/svcdsub.c:47
 msgid "Enable debug"
-msgstr "Activar depuración"
+msgstr "Activar a depuración"
 
 #: modules/codec/svcdsub.c:50
 msgid ""
@@ -12153,7 +12154,7 @@ msgstr "Modo de predición MV directa"
 
 #: modules/codec/x264.c:247
 msgid "Direct MV prediction mode."
-msgstr "Modo de predición MV directo."
+msgstr "Modo de predición MV directa."
 
 #: modules/codec/x264.c:249
 msgid "Direct prediction size"
@@ -12413,7 +12414,7 @@ msgstr "Mellora un pouco a calidade de SMP a custo de repeticións."
 
 #: modules/codec/x264.c:353
 msgid "CPU optimizations"
-msgstr "Optimizacións CPU"
+msgstr "Optimizacións de CPU"
 
 #: modules/codec/x264.c:354
 msgid "Use assembler CPU optimizations."
@@ -12443,7 +12444,7 @@ msgstr ""
 
 #: modules/codec/x264.c:363
 msgid "SSIM computation"
-msgstr "Cálculo SSIM"
+msgstr "Cálculo de SSIM"
 
 #: modules/codec/x264.c:364
 msgid ""
@@ -12492,7 +12493,7 @@ msgstr "Xera unidades NAL delimitadoras de unidade de acceso."
 
 #: modules/codec/x264.c:380
 msgid "Framecount to use on frametype lookahead"
-msgstr "A conta de fotogramas para usar na busca de tipo de fotograma"
+msgstr "Conta de fotogramas para usar na busca de tipo de fotograma"
 
 #: modules/codec/x264.c:381
 msgid ""
@@ -12513,14 +12514,14 @@ msgid ""
 "Tune the settings for a particular type of source or situation. Overridden "
 "by user settings."
 msgstr ""
-"Axuste as configuracións para un tipo concreto de orixe ou situación. As "
-"configuracións de usuario sobrepóñense a estas."
+"Axustar as configuracións para un tipo concreto de orixe ou situación. As "
+"configuracións persoais sobrepóñense a estas."
 
 #: modules/codec/x264.c:390
 msgid "Use preset as default settings. Overridden by user settings."
 msgstr ""
 "Usar a preconfiguración como a configuración por omisión. As configuracións "
-"de usuario sobrepóñense a estas."
+"persoais sobrepóñense a estas."
 
 #: modules/codec/x264.c:395
 msgid "dia"
@@ -12875,7 +12876,7 @@ msgstr "HTTP SSL"
 
 #: modules/control/lirc.c:47
 msgid "Change the lirc configuration file"
-msgstr "Cambiar o ficheiro de configuración de lirc"
+msgstr "Cambiar o ficheiro de configuración de LIRC"
 
 #: modules/control/lirc.c:49
 msgid ""
@@ -12899,11 +12900,11 @@ msgstr "Usar o filtro de rotación de vídeo en vez de transformar"
 
 #: modules/control/motion.c:78
 msgid "motion"
-msgstr "movemento"
+msgstr "Movemento"
 
 #: modules/control/motion.c:81
 msgid "motion control interface"
-msgstr "interface de control de movemento"
+msgstr "Interface de control de movemento"
 
 #: modules/control/motion.c:82
 msgid ""
@@ -13667,11 +13668,11 @@ msgstr "Preguntar pola acción"
 
 #: modules/demux/avi/avi.c:64
 msgid "Always fix"
-msgstr "Fixar sempre"
+msgstr "Arranxar sempre"
 
 #: modules/demux/avi/avi.c:65
 msgid "Never fix"
-msgstr "Non fixar nunca"
+msgstr "Non arranxar nunca"
 
 #: modules/demux/avi/avi.c:69
 msgid "AVI demuxer"
@@ -13834,7 +13835,7 @@ msgstr ""
 
 #: modules/demux/live555.cpp:90
 msgid "RTSP user name"
-msgstr "Nome de usuario RTSP"
+msgstr "Nome de usuario/a RTSP"
 
 #: modules/demux/live555.cpp:91
 msgid ""
@@ -14057,7 +14058,7 @@ msgstr "Límite de Mega Bass"
 
 #: modules/demux/mod.c:95
 msgid "Surround"
-msgstr "Envolvente"
+msgstr "Son envolvente"
 
 #: modules/demux/mod.c:98
 msgid "Surround level"
@@ -14517,12 +14518,13 @@ msgstr ""
 
 #: modules/demux/ts.c:120
 msgid "Fast udp streaming"
-msgstr "Fluxo rápido udp"
+msgstr "Fluxo rápido UDP"
 
 #: modules/demux/ts.c:122
 msgid "Sends TS to specific ip:port by udp (you must know what you are doing)."
 msgstr ""
-"Envía TS para especificar ip:port por udp (ten que saber o que está a facer)."
+"Envía TS para un ip:porto específico por UDP (ten que saber o que está a "
+"facer)."
 
 #: modules/demux/ts.c:124
 msgid "MTU for out mode"
@@ -15085,7 +15087,7 @@ msgstr "Paso cara a atrás"
 #: modules/gui/macosx/coredialogs.m:64 modules/gui/macosx/simple_prefs.m:235
 #: modules/gui/qt4/dialogs/external.cpp:120
 msgid "User name"
-msgstr "Nome de usuario"
+msgstr "Nome de usuario/a"
 
 #: modules/gui/macosx/coredialogs.m:244
 msgid "Errors and Warnings"
@@ -15208,7 +15210,7 @@ msgstr "Transformación"
 
 #: modules/gui/macosx/extended.m:86
 msgid "Rotates or flips the image"
-msgstr "Rota ou voltea a imaxe"
+msgstr "Rota ou vira a imaxe"
 
 #: modules/gui/macosx/extended.m:87
 msgid "Interactive Zoom"
@@ -15323,7 +15325,7 @@ msgstr "Saír do VLC"
 
 #: modules/gui/macosx/intf.m:632
 msgid "1:File"
-msgstr "1:ficheiro"
+msgstr "1:Ficheiro"
 
 #: modules/gui/macosx/intf.m:633 modules/gui/qt4/menus.cpp:317
 msgid "Advanced Open File..."
@@ -15331,15 +15333,15 @@ msgstr "Abrir ficheiro con opcións avanzadas..."
 
 #: modules/gui/macosx/intf.m:635
 msgid "Open Disc..."
-msgstr "Abrir o disco..."
+msgstr "Abrir disco..."
 
 #: modules/gui/macosx/intf.m:636
 msgid "Open Network..."
-msgstr "Abrir a rede..."
+msgstr "Abrir rede..."
 
 #: modules/gui/macosx/intf.m:637
 msgid "Open Capture Device..."
-msgstr "Abrir o dispositivo de capturas..."
+msgstr "Abrir dispositivo de capturas..."
 
 #: modules/gui/macosx/intf.m:638
 msgid "Open Recent"
@@ -15729,7 +15731,7 @@ msgstr "Capturar"
 #: modules/gui/qt4/ui/sprefs_input.h:308 modules/gui/qt4/ui/sprefs_input.h:317
 #: modules/gui/qt4/ui/sprefs_video.h:326
 msgid "Browse..."
-msgstr "Procurar..."
+msgstr "Buscar..."
 
 #: modules/gui/macosx/open.m:185
 msgid "Treat as a pipe rather than as a file"
@@ -15752,7 +15754,7 @@ msgstr "Nome do dispositivo"
 
 #: modules/gui/macosx/open.m:194 modules/gui/qt4/ui/open_disk.h:298
 msgid "No DVD menus"
-msgstr "Non hai menús de DVD"
+msgstr "Sen menús de DVD"
 
 #: modules/gui/macosx/open.m:196 modules/gui/macosx/open.m:650
 msgid "VIDEO_TS folder"
@@ -16463,7 +16465,7 @@ msgstr "Mostrar"
 
 #: modules/gui/macosx/simple_prefs.m:293
 msgid "Enable Video"
-msgstr "Activar vídeo"
+msgstr "Activar o vídeo"
 
 #: modules/gui/macosx/simple_prefs.m:296
 msgid "Output module"
@@ -17529,7 +17531,7 @@ msgstr " Rexistros "
 
 #: modules/gui/ncurses.c:1873
 msgid " Browse "
-msgstr " Procurar "
+msgstr " Buscar "
 
 #: modules/gui/ncurses.c:1928
 msgid " Objects "
@@ -17546,11 +17548,11 @@ msgstr "\\ taxa de bits de envío  :   %6.0f kb/s"
 
 #: modules/gui/ncurses.c:2070
 msgid " Playlist (All, one level) "
-msgstr " Lista de reprodución (Todos, un nivel) "
+msgstr " Lista de reprodución (todos, un nivel) "
 
 #: modules/gui/ncurses.c:2073
 msgid " Playlist (By category) "
-msgstr " Lista de reprodución (Por categoría) "
+msgstr " Lista de reprodución (por categoría) "
 
 #: modules/gui/ncurses.c:2076
 msgid " Playlist (Manually added) "
@@ -17734,7 +17736,7 @@ msgstr "Activar o espacializador"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1283
 msgid "Audio/Video"
-msgstr "Audio/vídeo"
+msgstr "Audio/Vídeo"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1299
 msgid "Advance of audio over video:"
@@ -18973,15 +18975,15 @@ msgstr "E&xportar"
 
 #: modules/gui/qt4/dialogs/vlm.cpp:267
 msgid "Save VLM configuration as..."
-msgstr "Gardar a configuración VLM como..."
+msgstr "Gardar a configuración de VLM como..."
 
 #: modules/gui/qt4/dialogs/vlm.cpp:269 modules/gui/qt4/dialogs/vlm.cpp:343
 msgid "VLM conf (*.vlm);;All (*)"
-msgstr "Configuración do VLM (*.vlm);;Todo (*)"
+msgstr "Configuración de VLM (*.vlm);;Todo (*)"
 
 #: modules/gui/qt4/dialogs/vlm.cpp:341
 msgid "Open VLM configuration..."
-msgstr "Abrir a configuración do VLM..."
+msgstr "Abrir unha configuración de VLM..."
 
 #: modules/gui/qt4/dialogs/vlm.cpp:539
 msgid "Broadcast: "
@@ -19125,7 +19127,7 @@ msgstr "Sincronización da pis&ta"
 
 #: modules/gui/qt4/menus.cpp:382
 msgid "Program Guide"
-msgstr "Guía de programa"
+msgstr "Guía de programación"
 
 #: modules/gui/qt4/menus.cpp:389
 msgid "Plu&gins and extensions"
@@ -19241,7 +19243,7 @@ msgstr "&Desentrelazar"
 
 #: modules/gui/qt4/menus.cpp:633
 msgid "&Deinterlace mode"
-msgstr "Modo &desentrelazado"
+msgstr "Modo de &desentrelazado"
 
 #: modules/gui/qt4/menus.cpp:634
 msgid "&Post processing"
@@ -19492,7 +19494,7 @@ msgstr "Gardar os elementos reproducidos recentemente no menú"
 
 #: modules/gui/qt4/qt4.cpp:137
 msgid "List of words separated by | to filter"
-msgstr "Lista de palabras separadas por | para filtrar"
+msgstr "Lista de palabras separadas por «|» para filtrar"
 
 #: modules/gui/qt4/qt4.cpp:138
 msgid "Regular expression used to filter the recent items played in the player"
@@ -20022,7 +20024,7 @@ msgstr "Submisión das cancións reproducidas a Last.fm"
 
 #: modules/misc/audioscrobbler.c:285
 msgid "Last.fm username not set"
-msgstr "Nome de usuario de Last.fm sen definir"
+msgstr "Nome de usuario/a de Last.fm sen definir"
 
 #: modules/misc/audioscrobbler.c:286
 msgid ""
@@ -20030,8 +20032,8 @@ msgid ""
 "VLC.\n"
 "Visit http://www.last.fm/join/ to get an account."
 msgstr ""
-"Defina un nome de usuario ou desactive o plugin do audioscrobbler e reinicie "
-"o VLC.\n"
+"Defina un nome de usuario/a ou desactive o plugin do audioscrobbler e "
+"reinicie o VLC.\n"
 "Visite a páxina http://www.last.fm/join/ para obter unha conta."
 
 #: modules/misc/audioscrobbler.c:824
@@ -20043,7 +20045,7 @@ msgid ""
 "last.fm username or password is incorrect. Please verify your settings and "
 "relaunch VLC."
 msgstr ""
-"O nome de usuario ou contrasinal de Last.fm non é correcto. Verifique as "
+"O nome de usuario/a ou contrasinal de Last.fm non é correcto. Verifique as "
 "súas configuracións e reinicie o VLC."
 
 #: modules/misc/dummy/dummy.c:42
@@ -20580,7 +20582,7 @@ msgstr "«Reproducindo agora» de Telepathy (MissionControl)"
 
 #: modules/misc/notify/xosd.c:67
 msgid "Flip vertical position"
-msgstr "Voltear en posición vertical"
+msgstr "Dar a volta en posición vertical"
 
 #: modules/misc/notify/xosd.c:68
 msgid "Display XOSD output at the bottom of the screen instead of the top."
@@ -22039,20 +22041,20 @@ msgstr ""
 
 #: modules/stream_out/standard.c:54
 msgid "address to bind to (helper setting for dst)"
-msgstr "enderezo ao que ligar (configuración de asistente para dst)"
+msgstr "Enderezo ao que ligar (configuración de asistente para DST)"
 
 #: modules/stream_out/standard.c:56
 msgid ""
 "address:port to bind vlc to listening incoming streams helper setting for "
 "dst,dst=bind+'/'+path. dst-parameter overrides this"
 msgstr ""
-"enderezo:porto ao que ligar o VLC para escoitar os fluxos entrantes, "
-"configuración de asistente para dst,dst=bind+'/'+path. O parámetro dst "
+"O enderezo:porto ao que ligar o VLC para escoitar os fluxos entrantes, "
+"configuración de asistente para dst,dst=bind+'/'+path. O parámetro «dst» "
 "ignora isto"
 
 #: modules/stream_out/standard.c:58
 msgid "filename for stream (helper setting for dst)"
-msgstr "nome de ficheiro para o fluxo (configuración de asistente para DTS)"
+msgstr "Nome de ficheiro para o fluxo (configuración de asistente para DST)"
 
 #: modules/stream_out/standard.c:60
 msgid ""
@@ -22060,7 +22062,7 @@ msgid ""
 "overrides this"
 msgstr ""
 "Nome de ficheiro para o asistente de fluxo para dst, dst=ligar+'/'+camiño, o "
-"parámetro dts ignora isto"
+"parámetro «dst» ignora isto"
 
 #: modules/stream_out/standard.c:67
 msgid "Session groupname"
@@ -22201,7 +22203,7 @@ msgstr "Largura de vídeo máxima"
 
 #: modules/stream_out/transcode/transcode.c:74
 msgid "Maximum output video width."
-msgstr "Largura de vídeo de saída máxima."
+msgstr "Largura máxima da saída de vídeo."
 
 #: modules/stream_out/transcode/transcode.c:75
 msgid "Maximum video height"
@@ -22209,7 +22211,7 @@ msgstr "Altura de vídeo máxima"
 
 #: modules/stream_out/transcode/transcode.c:77
 msgid "Maximum output video height."
-msgstr "Altura máxima de saída de vídeo."
+msgstr "Altura máxima da saída de vídeo."
 
 #: modules/stream_out/transcode/transcode.c:80
 msgid ""
@@ -22496,14 +22498,14 @@ msgstr ""
 "Este módulo permite controlar o dispositivo coñecido como AtmoLight "
 "conectado co seu computador.\n"
 "AtmoLight é a versión propia do que Philips chama AmbiLight.\n"
-"Se precisa máis información non dubide en visitarnos en\n"
+"Se precisa máis información non dubide en visitarnos en:\n"
 "\n"
 "http://www.vdr-wiki.de/wiki/index.php/Atmo-plugin\n"
 " http://www.vdr-wiki.de/wiki/index.php/AtmoWin\n"
 "\n"
 "Aí poderá encontrar descricións detalladas de como construílo vostede mesmo "
-"e onde pode obter os compoñentes que precisa.\n"
-"Tamén pode mirar as imaxes e algúns vídeos que mostran como funciona este "
+"e onde encontrar os compoñentes que precisa.\n"
+"Tamén pode ver algunhas imaxes e vídeos que mostran como funciona este "
 "dispositivo."
 
 #: modules/video_filter/atmo/atmo.cpp:135
@@ -23030,11 +23032,11 @@ msgstr "Seleccione o tipo de dispositivo e conexión"
 
 #: modules/video_filter/atmo/atmo.cpp:400
 msgid "Illuminate the room with this color on pause"
-msgstr "Iluminar a sala con esta cor cando estea en pausa"
+msgstr "Iluminar o cuarto con esta cor cando estea en pausa"
 
 #: modules/video_filter/atmo/atmo.cpp:416
 msgid "Illuminate the room with this color on shutdown"
-msgstr "Iluminar a habitación con esta cor ao apagar"
+msgstr "Iluminar o cuarto con esta cor ao apagar"
 
 #: modules/video_filter/atmo/atmo.cpp:427
 msgid "DMX options"
@@ -23058,7 +23060,7 @@ msgstr "Configuracións só para o procesador de vídeo en vivo incorporado"
 
 #: modules/video_filter/atmo/atmo.cpp:535
 msgid "Change channel assignment (fixes wrong wiring)"
-msgstr "Cambiar a asignación de canles (fixa o cableado erróneo)"
+msgstr "Cambiar a asignación de canles (arranxa un cableado erróneo)"
 
 #: modules/video_filter/atmo/atmo.cpp:568
 msgid "Adjust the white light to your LED stripes"
@@ -23772,11 +23774,11 @@ msgstr "Desenfoque gausiano"
 
 #: modules/video_filter/gradient.c:62
 msgid "Distort mode"
-msgstr "Modo distorsión"
+msgstr "Modo de distorsión"
 
 #: modules/video_filter/gradient.c:63
 msgid "Distort mode, one of \"gradient\", \"edge\" and \"hough\"."
-msgstr "Modo de distorsión: «degradado», «bordo» ou «Hough»."
+msgstr "Un dos modos de distorsión: «degradado», «bordo» ou «Hough»."
 
 #: modules/video_filter/gradient.c:65
 msgid "Gradient image type"
@@ -25075,7 +25077,7 @@ msgstr "Modo de escala"
 
 #: modules/video_filter/swscale.c:59
 msgid "Scaling mode to use."
-msgstr "Modo de escala que se vai usar."
+msgstr "Modo de escala para usar."
 
 #: modules/video_filter/swscale.c:63
 msgid "Fast bilinear"
@@ -25147,15 +25149,15 @@ msgstr "Rotar 270 graos"
 
 #: modules/video_filter/transform.c:71
 msgid "Flip horizontally"
-msgstr "Voltear de forma horizontal"
+msgstr "Dar a volta de forma horizontal"
 
 #: modules/video_filter/transform.c:71
 msgid "Flip vertically"
-msgstr "Voltear verticalmente"
+msgstr "dar a volta verticalmente"
 
 #: modules/video_filter/transform.c:73
 msgid "Rotate or flip the video"
-msgstr "Rota ou voltea o vídeo"
+msgstr "Rota ou vira o vídeo"
 
 #: modules/video_filter/transform.c:77
 msgid "Video transformation filter"
@@ -25617,7 +25619,7 @@ msgstr "dispositivo, FIFO ou nome de ficheiro"
 #: modules/video_output/yuv.c:42
 msgid "device, fifo or filename to write yuv frames too."
 msgstr ""
-"dispositivo, FIFO ou nome de ficheiro en que escribir tamén os fotogramas "
+"Dispositivo, FIFO ou nome de ficheiro en que escribir tamén os fotogramas "
 "YUV."
 
 #: modules/video_output/yuv.c:48
@@ -26566,7 +26568,7 @@ msgstr "Actualizar"
 #: modules/gui/qt4/ui/v4l2.h:60
 msgid "No v4l2 instance found. Press the refresh button to try again."
 msgstr ""
-"Non se encontro ningunha instancia de v4l2. Prema o botón actualizar para "
+"Non se encontrou ningunha instancia de v4l2. Prema o botón actualizar para "
 "tentalo de novo."
 
 #: modules/gui/qt4/ui/video_effects.h:1101
@@ -26785,7 +26787,7 @@ msgstr "Bucle"
 
 #: modules/gui/qt4/ui/vlm.h:303
 msgid "Media Manager List"
-msgstr "Lista de xestor multimedia"
+msgstr "Lista do xestor multimedia"
 
 #~ msgid "Use media key control when VLC is in background"
 #~ msgstr ""
