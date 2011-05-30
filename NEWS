@@ -8,6 +8,9 @@ Mac OS X Interface:
  * Improved Media Key handling based upon SPMediaKeyTap by Spotify AB
  * Fix for various crashes and small issues
 
+Audio output:
+ * PulseAudio output re-written due to unstability of the current one
+
 Miscellaneous fixes in:
  * Windows 7 taskbar buttons
  * Qt interface
@@ -19,7 +22,7 @@ Miscellaneous fixes in:
 Translations:
  * Update of Norwegian Bokmål, Slovak, Afrikaans, Luganda,
    Brazillian Portuguese, Irish, Thai, Estonian, Chinese, Polish,
-   Dutch, German and Japanese translations
+   Dutch, German, Galician, Bulgarian and Japanese translations
  * Initial Basque, Zulu, Peul, Amharic, Acoli, Chiga translations
 
 
