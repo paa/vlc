@@ -254,7 +254,7 @@ static const int i_tuner_audio_modes_list[] = {
       V4L2_TUNER_MODE_LANG1, V4L2_TUNER_MODE_LANG2,
       V4L2_TUNER_MODE_SAP, V4L2_TUNER_MODE_LANG1_LANG2 };
 static const char *const psz_tuner_audio_modes_list_text[] = {
-      N_("Unspecified"),
+      N_("Undefined"),
       N_( "Mono" ),
       N_( "Stereo" ),
       N_( "Primary language (Analog TV tuners only)" ),
