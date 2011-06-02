@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vlc 1.1.1\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2011-05-20 00:09+0100\n"
-"PO-Revision-Date: 2011-05-03 04:37-0000\n"
+"POT-Creation-Date: 2011-05-31 22:15+0100\n"
+"PO-Revision-Date: 2011-05-23 03:13-0000\n"
 "Last-Translator: Seanán Ó Coistín <seananoc@gmail.com>\n"
 "Language-Team: Irish\n"
 "Language: ga\n"
@@ -60,7 +60,7 @@ msgstr "Príomhchomhéadain"
 msgid "Settings for the main interface"
 msgstr "Socruithe an phríomhchomhéadainan"
 
-#: include/vlc_config_cat.h:45 src/libvlc-module.c:193
+#: include/vlc_config_cat.h:45 src/libvlc-module.c:197
 msgid "Control interfaces"
 msgstr "Comhéadain na rialtáin"
 
@@ -74,7 +74,7 @@ msgid "Hotkeys settings"
 msgstr "Socruithe na heochara aicearra"
 
 #: include/vlc_config_cat.h:52 src/input/es_out.c:2870 src/input/es_out.c:2911
-#: src/libvlc-module.c:1575 modules/access/imem.c:69
+#: src/libvlc-module.c:1579 modules/access/imem.c:69
 #: modules/gui/macosx/intf.m:671 modules/gui/macosx/output.m:170
 #: modules/gui/macosx/playlistinfo.m:114 modules/gui/macosx/simple_prefs.m:184
 #: modules/gui/macosx/wizard.m:378
@@ -92,7 +92,7 @@ msgstr "Socruithe fuaime"
 
 #: include/vlc_config_cat.h:55
 msgid "General audio settings"
-msgstr "Socruithe coiteann fuaime"
+msgstr "Socruithe fuaime coiteann"
 
 #: include/vlc_config_cat.h:57 include/vlc_config_cat.h:79
 #: src/video_output/video_output.c:493
@@ -120,7 +120,7 @@ msgstr "Modúil aschurtha"
 msgid "General settings for audio output modules."
 msgstr "Socruithe coitianta do mhodúil aschurtha fhuaime."
 
-#: include/vlc_config_cat.h:66 src/libvlc-module.c:2051
+#: include/vlc_config_cat.h:66 src/libvlc-module.c:2055
 #: modules/stream_out/transcode/transcode.c:226
 msgid "Miscellaneous"
 msgstr "Ilghnéitheach"
@@ -130,7 +130,7 @@ msgid "Miscellaneous audio settings and modules."
 msgstr "Socruithe fuaime agus modúil ilghnéitheacha."
 
 #: include/vlc_config_cat.h:70 src/input/es_out.c:2873 src/input/es_out.c:2958
-#: src/libvlc-module.c:1628 modules/access/imem.c:69
+#: src/libvlc-module.c:1632 modules/access/imem.c:69
 #: modules/gui/macosx/intf.m:684 modules/gui/macosx/output.m:160
 #: modules/gui/macosx/playlistinfo.m:103 modules/gui/macosx/simple_prefs.m:188
 #: modules/gui/macosx/wizard.m:379
@@ -148,7 +148,7 @@ msgstr "Socruithe físeáin"
 
 #: include/vlc_config_cat.h:73
 msgid "General video settings"
-msgstr "Socruithe coiteann físeáin"
+msgstr "Socruithe físeáin coiteann"
 
 #: include/vlc_config_cat.h:77
 msgid "Choose your preferred video output and configure it here."
@@ -228,7 +228,7 @@ msgstr ""
 
 #: include/vlc_config_cat.h:115
 msgid "Settings for the audio-only decoders and encoders."
-msgstr ""
+msgstr "Socruithe do dhíchódóirí agus ionchódóirí fuaim amháin."
 
 #: include/vlc_config_cat.h:117
 msgid "Subtitles codecs"
@@ -237,6 +237,7 @@ msgstr ""
 #: include/vlc_config_cat.h:118
 msgid "Settings for subtitles, teletext and CC decoders and encoders."
 msgstr ""
+"Socruithe do fhotheidil, teilithéacs agus díchódóirí agus ionchódóirí CC."
 
 #: include/vlc_config_cat.h:120
 msgid "General Input"
@@ -246,7 +247,7 @@ msgstr "Ionchur Coiteann"
 msgid "General input settings. Use with care..."
 msgstr "Socruithe ionchuir choiteann. Bain feidhm astu go cúramach..."
 
-#: include/vlc_config_cat.h:124 src/libvlc-module.c:1971
+#: include/vlc_config_cat.h:124 src/libvlc-module.c:1975
 msgid "Stream output"
 msgstr "Aschur an tsrutha"
 
@@ -291,7 +292,7 @@ msgstr ""
 
 #: include/vlc_config_cat.h:151
 msgid "Packetizers"
-msgstr "Packetizers"
+msgstr "Déantóirí ceagaltáin"
 
 #: include/vlc_config_cat.h:153
 msgid ""
@@ -326,13 +327,13 @@ msgstr ""
 
 #: include/vlc_config_cat.h:170
 msgid "VOD"
-msgstr "FaÉ"
+msgstr "FAÉ"
 
 #: include/vlc_config_cat.h:171
 msgid "VLC's implementation of Video On Demand"
-msgstr "Cur i gníomh VLC Físeán ar Éileamh"
+msgstr "Cur i gníomh VLC Físeán Ar Éileamh"
 
-#: include/vlc_config_cat.h:175 src/libvlc-module.c:2113
+#: include/vlc_config_cat.h:175 src/libvlc-module.c:2117
 #: src/playlist/engine.c:131 modules/demux/playlist/playlist.c:69
 #: modules/demux/playlist/playlist.c:70 modules/gui/macosx/embeddedwindow.m:75
 #: modules/gui/macosx/intf.m:612 modules/gui/qt4/components/controller.hpp:106
@@ -355,7 +356,7 @@ msgstr ""
 #: include/vlc_config_cat.h:181 modules/gui/macosx/playlist.m:478
 #: modules/gui/macosx/playlist.m:479
 msgid "Services discovery"
-msgstr ""
+msgstr "Fionnachtain na seirbhísí"
 
 #: include/vlc_config_cat.h:182
 msgid ""
@@ -363,7 +364,7 @@ msgid ""
 "playlist."
 msgstr ""
 
-#: include/vlc_config_cat.h:186 src/libvlc-module.c:1918
+#: include/vlc_config_cat.h:186 src/libvlc-module.c:1922
 msgid "Advanced"
 msgstr "Ardroghanna"
 
@@ -393,6 +394,7 @@ msgstr "Líonra"
 #: include/vlc_config_cat.h:199
 msgid "These modules provide network functions to all other parts of VLC."
 msgstr ""
+"Soláthraíonn na módúil seo feidhmeanna líonra chuig gach cuid eile de VLC."
 
 #: include/vlc_config_cat.h:202
 msgid "Chroma modules settings"
@@ -404,7 +406,7 @@ msgstr ""
 
 #: include/vlc_config_cat.h:205
 msgid "Packetizer modules settings"
-msgstr ""
+msgstr "Socruithe do mhodúil na ndéantóirí ceangaltáin"
 
 #: include/vlc_config_cat.h:209
 msgid "Encoders settings"
@@ -416,11 +418,11 @@ msgstr ""
 
 #: include/vlc_config_cat.h:214
 msgid "Dialog providers settings"
-msgstr ""
+msgstr "Socruithe soláthróirí fógraí"
 
 #: include/vlc_config_cat.h:216
 msgid "Dialog providers can be configured here."
-msgstr ""
+msgstr "Is féidir soláthróirí fógraí a chumrú anseo."
 
 #: include/vlc_config_cat.h:218
 msgid "Subtitle demuxer settings"
@@ -446,6 +448,10 @@ msgid ""
 "Warning: if you can't access the GUI anymore, open a command-line window, go "
 "to the directory where you installed VLC and run \"vlc -I qt\"\n"
 msgstr ""
+"\n"
+"Rabhadh: mura féidir rochtain a fháil ar an gcomhéadan grafach a thuilleadh, "
+"oscail fuinneog líne na n-orduithe, téigh chuig an chomhadlann inar "
+"shuiteáil tú VLC agus rith \"vlc -I qt\"\n"
 
 #: include/vlc_intf_strings.h:46
 msgid "Quick &Open File..."
@@ -477,7 +483,7 @@ msgstr "Roghnaigh Fillteán"
 
 #: include/vlc_intf_strings.h:55
 msgid "Media &Information"
-msgstr ""
+msgstr "Faisnéis an Mheáin"
 
 #: include/vlc_intf_strings.h:56
 msgid "&Codec Information"
@@ -571,7 +577,7 @@ msgstr "Athsheinn Ceann Amháin"
 msgid "No Repeat"
 msgstr "Gan Athsheinm"
 
-#: include/vlc_intf_strings.h:84 src/libvlc-module.c:1467
+#: include/vlc_intf_strings.h:84 src/libvlc-module.c:1471
 #: modules/gui/macosx/controls.m:999 modules/gui/macosx/intf.m:657
 #: modules/gui/qt4/components/controller.hpp:108
 #: modules/gui/qt4/components/controller.hpp:119
@@ -737,7 +743,7 @@ msgid "The maximum number of filters (%d) was reached."
 msgstr "Sroicheadh uaslíon na scagairí (%d)."
 
 #: src/audio_output/input.c:110 src/audio_output/input.c:156
-#: src/input/es_out.c:934 src/libvlc-module.c:661
+#: src/input/es_out.c:934 src/libvlc-module.c:665
 #: src/video_output/video_output.c:1698 modules/video_filter/postproc.c:230
 msgid "Disable"
 msgstr "Díchumasaigh"
@@ -763,7 +769,7 @@ msgstr "Vu-mhéadar"
 msgid "Equalizer"
 msgstr "Cothromóir"
 
-#: src/audio_output/input.c:175 src/libvlc-module.c:326
+#: src/audio_output/input.c:175 src/libvlc-module.c:330
 msgid "Audio filters"
 msgstr "Scagairí fuaime"
 
@@ -788,7 +794,7 @@ msgid "Stereo"
 msgstr "Steiréafónach"
 
 #: src/audio_output/output.c:106 src/audio_output/output.c:142
-#: src/libvlc-module.c:420 src/libvlc-module.c:501
+#: src/libvlc-module.c:424 src/libvlc-module.c:505
 #: modules/audio_filter/channel_mixer/mono.c:95 modules/codec/dvbsub.c:102
 #: modules/codec/subtitles/subsdec.c:191 modules/codec/zvbi.c:78
 #: modules/control/gestures.c:97 modules/gui/fbosd.c:162
@@ -802,7 +808,7 @@ msgid "Left"
 msgstr "Clé"
 
 #: src/audio_output/output.c:108 src/audio_output/output.c:144
-#: src/libvlc-module.c:420 src/libvlc-module.c:501
+#: src/libvlc-module.c:424 src/libvlc-module.c:505
 #: modules/audio_filter/channel_mixer/mono.c:95 modules/codec/dvbsub.c:102
 #: modules/codec/subtitles/subsdec.c:191 modules/codec/zvbi.c:78
 #: modules/control/gestures.c:97 modules/gui/fbosd.c:162
@@ -835,7 +841,7 @@ msgstr "slánuimhir"
 
 #: src/config/file.c:639 src/libvlc.c:1625
 msgid "float"
-msgstr ""
+msgstr "Cuir ag snámh"
 
 #: src/config/file.c:662 src/libvlc.c:1573
 msgid "string"
@@ -850,11 +856,11 @@ msgstr "Leabharlann Meán"
 #: src/input/control.c:217
 #, c-format
 msgid "Bookmark %i"
-msgstr ""
+msgstr "Déan ceanán de %i"
 
 #: src/input/decoder.c:270
 msgid "packetizer"
-msgstr ""
+msgstr "déantóir ceangaltáin"
 
 #: src/input/decoder.c:270
 msgid "decoder"
@@ -890,7 +896,7 @@ msgstr ""
 "Ní sheinnean VLC an cineál comhad fuaime nó físeáin \"%4.4s\". Faraor níl "
 "bealach ar bith ann ar féidir leat é seo a dheisiú."
 
-#: src/input/es_out.c:954 src/input/es_out.c:959 src/libvlc-module.c:364
+#: src/input/es_out.c:954 src/input/es_out.c:959 src/libvlc-module.c:368
 #: modules/access/vcdx/access.c:460 modules/access/vcdx/info.c:226
 #: modules/gui/qt4/components/open_panels.cpp:415
 msgid "Track"
@@ -902,7 +908,7 @@ msgid "%s [%s %d]"
 msgstr "%s [%s %d]"
 
 #: src/input/es_out.c:1165 src/input/es_out.c:1170 src/input/var.c:177
-#: src/libvlc-module.c:694 modules/gui/macosx/intf.m:664
+#: src/libvlc-module.c:698 modules/gui/macosx/intf.m:664
 #: modules/gui/macosx/intf.m:665
 msgid "Program"
 msgstr "Ríomhchlár"
@@ -944,7 +950,7 @@ msgstr "Aitheantas bunaidh"
 msgid "Codec"
 msgstr "Comhbhrúite/díchomhbhrúite"
 
-#: src/input/es_out.c:2902 src/input/meta.c:62 src/libvlc-module.c:220
+#: src/input/es_out.c:2902 src/input/meta.c:62 src/libvlc-module.c:224
 #: modules/access/imem.c:76 modules/gui/macosx/simple_prefs.m:269
 #: modules/gui/qt4/ui/sprefs_interface.h:386
 msgid "Language"
@@ -1053,7 +1059,7 @@ msgstr "Aicme"
 msgid "Copyright"
 msgstr "Cóipcheart"
 
-#: src/input/meta.c:55 src/libvlc-module.c:364 modules/access/vcdx/info.c:63
+#: src/input/meta.c:55 src/libvlc-module.c:368 modules/access/vcdx/info.c:63
 msgid "Album"
 msgstr "Albam"
 
@@ -1063,7 +1069,7 @@ msgstr "Uimhir an riain"
 
 #: src/input/meta.c:58 modules/mux/asf.c:64
 msgid "Rating"
-msgstr ""
+msgstr "Measúnú"
 
 #: src/input/meta.c:59
 msgid "Date"
@@ -1102,7 +1108,7 @@ msgstr "Aitheantas an riain"
 msgid "Bookmark"
 msgstr "Astal"
 
-#: src/input/var.c:182 src/libvlc-module.c:700
+#: src/input/var.c:182 src/libvlc-module.c:704
 msgid "Programs"
 msgstr "Ríomhchláir"
 
@@ -1205,7 +1211,7 @@ msgstr ""
 msgid "To get exhaustive help, use '-H'."
 msgstr "Chun cabhair chuimsitheach a fháil, bain feidhm as '-H'."
 
-#: src/libvlc.c:1250 src/libvlc-module.c:1523
+#: src/libvlc.c:1250 src/libvlc-module.c:1527
 #, c-format
 msgid ""
 "Usage: %s [options] [stream] ...\n"
@@ -1299,33 +1305,33 @@ msgstr ""
 "\n"
 "Brúigh an cnaipe RETURN chun leanúint ar aghaidh...\n"
 
-#: src/libvlc.h:177 src/libvlc-module.c:1470 src/libvlc-module.c:1471
-#: src/libvlc-module.c:2647 src/video_output/vout_intf.c:195
+#: src/libvlc.h:177 src/libvlc-module.c:1474 src/libvlc-module.c:1475
+#: src/libvlc-module.c:2651 src/video_output/vout_intf.c:195
 msgid "Zoom"
 msgstr "Súmáil"
 
-#: src/libvlc.h:178 src/libvlc-module.c:1390 src/video_output/vout_intf.c:88
+#: src/libvlc.h:178 src/libvlc-module.c:1394 src/video_output/vout_intf.c:88
 msgid "1:4 Quarter"
 msgstr "1:4 Ceathrúr"
 
-#: src/libvlc.h:179 src/libvlc-module.c:1391 src/video_output/vout_intf.c:89
+#: src/libvlc.h:179 src/libvlc-module.c:1395 src/video_output/vout_intf.c:89
 msgid "1:2 Half"
 msgstr "1:2 Leath"
 
-#: src/libvlc.h:180 src/libvlc-module.c:1392 src/video_output/vout_intf.c:90
+#: src/libvlc.h:180 src/libvlc-module.c:1396 src/video_output/vout_intf.c:90
 msgid "1:1 Original"
 msgstr "1:1 Bunaidh"
 
-#: src/libvlc.h:181 src/libvlc-module.c:1393 src/video_output/vout_intf.c:91
+#: src/libvlc.h:181 src/libvlc-module.c:1397 src/video_output/vout_intf.c:91
 msgid "2:1 Double"
 msgstr "2:1 Faoi Dhó"
 
-#: src/libvlc-module.c:105 src/libvlc-module.c:323 modules/access/bda/bda.c:69
+#: src/libvlc-module.c:107 src/libvlc-module.c:327 modules/access/bda/bda.c:69
 #: modules/gui/qt4/components/open_panels.cpp:1016
 msgid "Auto"
 msgstr "Uathoibríoch"
 
-#: src/libvlc-module.c:176
+#: src/libvlc-module.c:180
 msgid ""
 "These options allow you to configure the interfaces used by VLC. You can "
 "select the main interface, additional interface modules, and define various "
@@ -1335,11 +1341,11 @@ msgstr ""
 "chumrú. Is féidir an príomhchomhéadan agus modúil chomhéadain breise a "
 "roghnú, maille le roghanna gaolmhara a shainmhíniú."
 
-#: src/libvlc-module.c:180
+#: src/libvlc-module.c:184
 msgid "Interface module"
 msgstr "Modúl an chomhéadain"
 
-#: src/libvlc-module.c:182
+#: src/libvlc-module.c:186
 msgid ""
 "This is the main interface used by VLC. The default behavior is to "
 "automatically select the best module available."
@@ -1347,11 +1353,11 @@ msgstr ""
 "Seo é príomhchomhéadan VLC. Is é an nós réamhshocraithe an modúl is fearr "
 "atá ar fáil a roghnú go huathoibríoch."
 
-#: src/libvlc-module.c:186 modules/control/ntservice.c:57
+#: src/libvlc-module.c:190 modules/control/ntservice.c:57
 msgid "Extra interface modules"
 msgstr ""
 
-#: src/libvlc-module.c:188
+#: src/libvlc-module.c:192
 msgid ""
 "You can select \"additional interfaces\" for VLC. They will be launched in "
 "the background in addition to the default interface. Use a colon separated "
@@ -1359,25 +1365,25 @@ msgid ""
 "\", \"gestures\" ...)"
 msgstr ""
 
-#: src/libvlc-module.c:195
+#: src/libvlc-module.c:199
 msgid "You can select control interfaces for VLC."
 msgstr "Is féidir leat comhéadain na rialtán do VLC a roghnú."
 
-#: src/libvlc-module.c:197
+#: src/libvlc-module.c:201
 msgid "Verbosity (0,1,2)"
 msgstr "Foclachas (0,1,2)"
 
-#: src/libvlc-module.c:199
+#: src/libvlc-module.c:203
 msgid ""
 "This is the verbosity level (0=only errors and standard messages, "
 "1=warnings, 2=debug)."
 msgstr ""
 
-#: src/libvlc-module.c:202
+#: src/libvlc-module.c:206
 msgid "Choose which objects should print debug message"
 msgstr ""
 
-#: src/libvlc-module.c:205
+#: src/libvlc-module.c:209
 msgid ""
 "This is a ',' separated string, each objects should be prefixed by a '+' or "
 "a '-' to respectively enable or disable it. The keyword 'all' refers to all "
@@ -1387,23 +1393,23 @@ msgid ""
 "message."
 msgstr ""
 
-#: src/libvlc-module.c:212
+#: src/libvlc-module.c:216
 msgid "Be quiet"
 msgstr "Bí ciúin"
 
-#: src/libvlc-module.c:214
+#: src/libvlc-module.c:218
 msgid "Turn off all warning and information messages."
 msgstr "Múch gach teachtaireacht rabhaidh agus eolais"
 
-#: src/libvlc-module.c:216
+#: src/libvlc-module.c:220
 msgid "Default stream"
 msgstr "Sruth réamhshocraithe"
 
-#: src/libvlc-module.c:218
+#: src/libvlc-module.c:222
 msgid "This stream will always be opened at VLC startup."
 msgstr "Osclófar an sruth seo i gcónaí nuair a thosaíonn VLC."
 
-#: src/libvlc-module.c:221
+#: src/libvlc-module.c:225
 msgid ""
 "You can manually select a language for the interface. The system language is "
 "auto-detected if \"auto\" is specified here."
@@ -1411,37 +1417,37 @@ msgstr ""
 "Tig leat teanga don comhéadan a roghnú de láimh. Aimsítear teanga an chórais "
 "go huathoibríoch má shonraítear \"auto\" anseo."
 
-#: src/libvlc-module.c:225
+#: src/libvlc-module.c:229
 msgid "Color messages"
 msgstr "Teachtaireachtaí daite"
 
-#: src/libvlc-module.c:227
+#: src/libvlc-module.c:231
 msgid ""
 "This enables colorization of the messages sent to the console Your terminal "
 "needs Linux color support for this to work."
 msgstr ""
 
-#: src/libvlc-module.c:230
+#: src/libvlc-module.c:234
 msgid "Show advanced options"
 msgstr "Taispeáin na hardroghanna"
 
-#: src/libvlc-module.c:232
+#: src/libvlc-module.c:236
 msgid ""
 "When this is enabled, the preferences and/or interfaces will show all "
 "available options, including those that most users should never touch."
 msgstr ""
 
-#: src/libvlc-module.c:236
+#: src/libvlc-module.c:240
 msgid "Interface interaction"
 msgstr "Idirghníomh comhéadain"
 
-#: src/libvlc-module.c:238
+#: src/libvlc-module.c:242
 msgid ""
 "When this is enabled, the interface will show a dialog box each time some "
 "user input is required."
 msgstr ""
 
-#: src/libvlc-module.c:248
+#: src/libvlc-module.c:252
 msgid ""
 "These options allow you to modify the behavior of the audio subsystem, and "
 "to add audio filters which can be used for post processing or visual effects "
@@ -1449,122 +1455,124 @@ msgid ""
 "the \"audio filters\" modules section."
 msgstr ""
 
-#: src/libvlc-module.c:254
+#: src/libvlc-module.c:258
 msgid "Audio output module"
 msgstr "Modúl aschurtha fuaime"
 
-#: src/libvlc-module.c:256
+#: src/libvlc-module.c:260
 msgid ""
 "This is the audio output method used by VLC. The default behavior is to "
 "automatically select the best method available."
 msgstr ""
 
-#: src/libvlc-module.c:260 modules/stream_out/display.c:41
+#: src/libvlc-module.c:264 modules/stream_out/display.c:41
 #: modules/gui/qt4/ui/sprefs_audio.h:404
 msgid "Enable audio"
 msgstr "Cumasaigh fuaim"
 
-#: src/libvlc-module.c:262
+#: src/libvlc-module.c:266
 msgid ""
 "You can completely disable the audio output. The audio decoding stage will "
 "not take place, thus saving some processing power."
 msgstr ""
 
-#: src/libvlc-module.c:266
+#: src/libvlc-module.c:270
 msgid "Force mono audio"
 msgstr "Éignigh fuaim aonfhónach"
 
-#: src/libvlc-module.c:267
+#: src/libvlc-module.c:271
 msgid "This will force a mono audio output."
 msgstr ""
 
-#: src/libvlc-module.c:270
+#: src/libvlc-module.c:274
 msgid "Default audio volume"
 msgstr "Airde fhuaime réamhshocraithe"
 
-#: src/libvlc-module.c:272
+#: src/libvlc-module.c:276
 msgid ""
 "You can set the default audio output volume here, in a range from 0 to 1024."
 msgstr ""
 
-#: src/libvlc-module.c:275
+#: src/libvlc-module.c:279
 msgid "Audio output saved volume"
 msgstr ""
 
-#: src/libvlc-module.c:277
+#: src/libvlc-module.c:281
 msgid ""
 "This saves the audio output volume when you use the mute function. You "
 "should not change this option manually."
 msgstr ""
 
-#: src/libvlc-module.c:280
+#: src/libvlc-module.c:284
 msgid "Audio output volume step"
 msgstr ""
 
-#: src/libvlc-module.c:282
+#: src/libvlc-module.c:286
 msgid ""
 "The step size of the volume is adjustable using this option, in a range from "
 "0 to 1024."
 msgstr ""
 
-#: src/libvlc-module.c:285
+#: src/libvlc-module.c:289
 msgid "Audio output frequency (Hz)"
-msgstr ""
+msgstr "Minicíocht an aschuir fhuaime (Hz)"
 
-#: src/libvlc-module.c:287
+#: src/libvlc-module.c:291
 msgid ""
 "You can force the audio output frequency here. Common values are -1 "
 "(default), 48000, 44100, 32000, 22050, 16000, 11025, 8000."
 msgstr ""
+"Is féidir minicíocht an aschuir fhuaime a éigniú anseo. Luachanna coitianta "
+"ná -1 (réamhshocrú), 48000, 44100, 32000, 22050, 16000, 11025, 8000."
 
-#: src/libvlc-module.c:291
+#: src/libvlc-module.c:295
 msgid "High quality audio resampling"
 msgstr ""
 
-#: src/libvlc-module.c:293
+#: src/libvlc-module.c:297
 msgid ""
 "This uses a high quality audio resampling algorithm. High quality audio "
 "resampling can be processor intensive so you can disable it and a cheaper "
 "resampling algorithm will be used instead."
 msgstr ""
 
-#: src/libvlc-module.c:298
+#: src/libvlc-module.c:302
 msgid "Audio desynchronization compensation"
 msgstr ""
 
-#: src/libvlc-module.c:300
+#: src/libvlc-module.c:304
 msgid ""
 "This delays the audio output. The delay must be given in milliseconds. This "
 "can be handy if you notice a lag between the video and the audio."
 msgstr ""
 
-#: src/libvlc-module.c:303
+#: src/libvlc-module.c:307
 msgid "Audio output channels mode"
-msgstr ""
+msgstr "Mód na mbealaí aschurtha fuaime"
 
-#: src/libvlc-module.c:305
+#: src/libvlc-module.c:309
 msgid ""
 "This sets the audio output channels mode that will be used by default when "
 "possible (ie. if your hardware supports it as well as the audio stream being "
 "played)."
 msgstr ""
 
-#: src/libvlc-module.c:309 modules/gui/macosx/simple_prefs.m:237
+#: src/libvlc-module.c:313 modules/gui/macosx/simple_prefs.m:237
 #: modules/gui/qt4/ui/sprefs_audio.h:413
 msgid "Use S/PDIF when available"
 msgstr "Bain feidhm as S/PDIF nuair atá sé ar fáil"
 
-#: src/libvlc-module.c:311
+#: src/libvlc-module.c:315
 msgid ""
 "S/PDIF can be used by default when your hardware supports it as well as the "
 "audio stream being played."
 msgstr ""
 
-#: src/libvlc-module.c:314 modules/gui/macosx/simple_prefs.m:227
+#: src/libvlc-module.c:318 modules/gui/macosx/simple_prefs.m:227
 msgid "Force detection of Dolby Surround"
-msgstr ""
+msgstr "Éignigh brath Dolby Surround"
 
-#: src/libvlc-module.c:316
+#: src/libvlc-module.c:320
 msgid ""
 "Use this when you know your stream is (or is not) encoded with Dolby "
 "Surround but fails to be detected as such. Even if the stream is not "
@@ -1572,66 +1580,66 @@ msgid ""
 "your experience, especially when combined with the Headphone Channel Mixer."
 msgstr ""
 
-#: src/libvlc-module.c:323 modules/access/bda/bda.c:69
+#: src/libvlc-module.c:327 modules/access/bda/bda.c:69
 msgid "On"
 msgstr "Ar siúl"
 
-#: src/libvlc-module.c:323 modules/access/bda/bda.c:68
+#: src/libvlc-module.c:327 modules/access/bda/bda.c:68
 msgid "Off"
 msgstr "As"
 
-#: src/libvlc-module.c:328
+#: src/libvlc-module.c:332
 msgid "This adds audio post processing filters, to modify the sound rendering."
 msgstr ""
 "Cuireann seo scagairí iar-chóireála fuaime leis, chun an fhuaim a mhionathrú."
 
-#: src/libvlc-module.c:331
+#: src/libvlc-module.c:335
 msgid "Audio visualizations "
-msgstr "Amharcléirithe fuaime"
+msgstr "Léirshamhluithe fuaime"
 
-#: src/libvlc-module.c:333
+#: src/libvlc-module.c:337
 msgid "This adds visualization modules (spectrum analyzer, etc.)."
 msgstr ""
 
-#: src/libvlc-module.c:337
+#: src/libvlc-module.c:341
 msgid "Replay gain mode"
 msgstr ""
 
-#: src/libvlc-module.c:339
+#: src/libvlc-module.c:343
 msgid "Select the replay gain mode"
 msgstr ""
 
-#: src/libvlc-module.c:341
+#: src/libvlc-module.c:345
 msgid "Replay preamp"
 msgstr ""
 
-#: src/libvlc-module.c:343
+#: src/libvlc-module.c:347
 msgid ""
 "This allows you to change the default target level (89 dB) for stream with "
 "replay gain information"
 msgstr ""
 
-#: src/libvlc-module.c:346
+#: src/libvlc-module.c:350
 msgid "Default replay gain"
 msgstr ""
 
-#: src/libvlc-module.c:348
+#: src/libvlc-module.c:352
 msgid "This is the gain used for stream without replay gain information"
 msgstr ""
 
-#: src/libvlc-module.c:350
+#: src/libvlc-module.c:354
 msgid "Peak protection"
-msgstr ""
+msgstr "Buaic-chosaint"
 
-#: src/libvlc-module.c:352
+#: src/libvlc-module.c:356
 msgid "Protect against sound clipping"
 msgstr "Cosain ó chiorrú fuaime"
 
-#: src/libvlc-module.c:355
+#: src/libvlc-module.c:359
 msgid "Enable time streching audio"
 msgstr ""
 
-#: src/libvlc-module.c:357
+#: src/libvlc-module.c:361
 msgid ""
 "This allows to play audio at lower or higher speed without affecting the "
 "audio pitch"
@@ -1639,14 +1647,14 @@ msgstr ""
 "Ligeann seo duit fuaimeanna a sheinm ag luas níos moille nó níos tapúla gan "
 "tionchar a imirt ar an tuinairde"
 
-#: src/libvlc-module.c:364 modules/access/dshow/dshow.cpp:84
+#: src/libvlc-module.c:368 modules/access/dshow/dshow.cpp:84
 #: modules/access/dshow/dshow.cpp:86 modules/codec/avcodec/avcodec.c:74
 #: modules/codec/kate.c:203
 #: modules/gui/qt4/components/interface_widgets.cpp:297
 msgid "None"
 msgstr "Dada"
 
-#: src/libvlc-module.c:372
+#: src/libvlc-module.c:376
 msgid ""
 "These options allow you to modify the behavior of the video output "
 "subsystem. You can for example enable video filters (deinterlacing, image "
@@ -1655,28 +1663,30 @@ msgid ""
 "options."
 msgstr ""
 
-#: src/libvlc-module.c:378
+#: src/libvlc-module.c:382
 msgid "Video output module"
 msgstr "Modúl aschurtha físeáin"
 
-#: src/libvlc-module.c:380
+#: src/libvlc-module.c:384
 msgid ""
 "This is the the video output method used by VLC. The default behavior is to "
 "automatically select the best method available."
 msgstr ""
+"Seo é an modh aschurtha físeáin a bhaineann VLC feidhm as. Is é an t-iompar "
+"réamhshocraithe ná chun an modh is fearr ar fáil a roghnú go huathoibríoch."
 
-#: src/libvlc-module.c:383 modules/stream_out/display.c:43
+#: src/libvlc-module.c:387 modules/stream_out/display.c:43
 #: modules/gui/qt4/ui/sprefs_video.h:309
 msgid "Enable video"
 msgstr "Cumasaigh an físeán"
 
-#: src/libvlc-module.c:385
+#: src/libvlc-module.c:389
 msgid ""
 "You can completely disable the video output. The video decoding stage will "
 "not take place, thus saving some processing power."
 msgstr ""
 
-#: src/libvlc-module.c:388 modules/codec/fake.c:58
+#: src/libvlc-module.c:392 modules/codec/fake.c:58
 #: modules/stream_out/mosaic_bridge.c:109
 #: modules/stream_out/transcode/transcode.c:66
 #: modules/visualization/projectm.cpp:61
@@ -1684,13 +1694,13 @@ msgstr ""
 msgid "Video width"
 msgstr "Leithead an fhíseáin"
 
-#: src/libvlc-module.c:390
+#: src/libvlc-module.c:394
 msgid ""
 "You can enforce the video width. By default (-1) VLC will adapt to the video "
 "characteristics."
 msgstr ""
 
-#: src/libvlc-module.c:393 modules/codec/fake.c:61
+#: src/libvlc-module.c:397 modules/codec/fake.c:61
 #: modules/stream_out/mosaic_bridge.c:112
 #: modules/stream_out/transcode/transcode.c:69
 #: modules/visualization/projectm.cpp:64
@@ -1698,54 +1708,54 @@ msgstr ""
 msgid "Video height"
 msgstr "Airde an fhíseáin"
 
-#: src/libvlc-module.c:395
+#: src/libvlc-module.c:399
 msgid ""
 "You can enforce the video height. By default (-1) VLC will adapt to the "
 "video characteristics."
 msgstr ""
 
-#: src/libvlc-module.c:398
+#: src/libvlc-module.c:402
 msgid "Video X coordinate"
 msgstr ""
 
-#: src/libvlc-module.c:400
+#: src/libvlc-module.c:404
 msgid ""
 "You can enforce the position of the top left corner of the video window (X "
 "coordinate)."
 msgstr ""
 
-#: src/libvlc-module.c:403
+#: src/libvlc-module.c:407
 msgid "Video Y coordinate"
 msgstr ""
 
-#: src/libvlc-module.c:405
+#: src/libvlc-module.c:409
 msgid ""
 "You can enforce the position of the top left corner of the video window (Y "
 "coordinate)."
 msgstr ""
 
-#: src/libvlc-module.c:408
+#: src/libvlc-module.c:412
 msgid "Video title"
 msgstr "Teideal an fhíseáin"
 
-#: src/libvlc-module.c:410
+#: src/libvlc-module.c:414
 msgid ""
 "Custom title for the video window (in case the video is not embedded in the "
 "interface)."
 msgstr ""
 
-#: src/libvlc-module.c:413
+#: src/libvlc-module.c:417
 msgid "Video alignment"
 msgstr "Ailíniú an fhíseáin"
 
-#: src/libvlc-module.c:415
+#: src/libvlc-module.c:419
 msgid ""
 "Enforce the alignment of the video in its window. By default (0) it will be "
 "centered (0=center, 1=left, 2=right, 4=top, 8=bottom, you can also use "
 "combinations of these values, like 6=4+2 meaning top-right)."
 msgstr ""
 
-#: src/libvlc-module.c:420 src/libvlc-module.c:501
+#: src/libvlc-module.c:424 src/libvlc-module.c:505
 #: modules/audio_filter/channel_mixer/mono.c:95 modules/codec/dvbsub.c:102
 #: modules/codec/subtitles/subsdec.c:191 modules/codec/zvbi.c:78
 #: modules/gui/fbosd.c:162 modules/video_filter/audiobargraph_v.c:74
@@ -1755,7 +1765,7 @@ msgstr ""
 msgid "Center"
 msgstr "Lár"
 
-#: src/libvlc-module.c:420 src/libvlc-module.c:501 modules/codec/dvbsub.c:102
+#: src/libvlc-module.c:424 src/libvlc-module.c:505 modules/codec/dvbsub.c:102
 #: modules/codec/zvbi.c:78 modules/gui/fbosd.c:162
 #: modules/video_filter/audiobargraph_v.c:74 modules/video_filter/logo.c:79
 #: modules/video_filter/marq.c:137 modules/video_filter/mosaic.c:171
@@ -1766,7 +1776,7 @@ msgstr "Lár"
 msgid "Top"
 msgstr "Barr"
 
-#: src/libvlc-module.c:420 src/libvlc-module.c:501 modules/codec/dvbsub.c:102
+#: src/libvlc-module.c:424 src/libvlc-module.c:505 modules/codec/dvbsub.c:102
 #: modules/codec/zvbi.c:78 modules/gui/fbosd.c:162
 #: modules/video_filter/audiobargraph_v.c:74 modules/video_filter/logo.c:79
 #: modules/video_filter/marq.c:137 modules/video_filter/mosaic.c:171
@@ -1775,7 +1785,7 @@ msgstr "Barr"
 msgid "Bottom"
 msgstr "Bun"
 
-#: src/libvlc-module.c:421 src/libvlc-module.c:502 modules/codec/dvbsub.c:103
+#: src/libvlc-module.c:425 src/libvlc-module.c:506 modules/codec/dvbsub.c:103
 #: modules/codec/zvbi.c:79 modules/gui/fbosd.c:163
 #: modules/video_filter/audiobargraph_v.c:75 modules/video_filter/logo.c:80
 #: modules/video_filter/marq.c:138 modules/video_filter/mosaic.c:172
@@ -1783,7 +1793,7 @@ msgstr "Bun"
 msgid "Top-Left"
 msgstr "Barr-Clé"
 
-#: src/libvlc-module.c:421 src/libvlc-module.c:502 modules/codec/dvbsub.c:103
+#: src/libvlc-module.c:425 src/libvlc-module.c:506 modules/codec/dvbsub.c:103
 #: modules/codec/zvbi.c:79 modules/gui/fbosd.c:163
 #: modules/video_filter/audiobargraph_v.c:75 modules/video_filter/logo.c:80
 #: modules/video_filter/marq.c:138 modules/video_filter/mosaic.c:172
@@ -1791,7 +1801,7 @@ msgstr "Barr-Clé"
 msgid "Top-Right"
 msgstr "Barr-Deas"
 
-#: src/libvlc-module.c:421 src/libvlc-module.c:502 modules/codec/dvbsub.c:103
+#: src/libvlc-module.c:425 src/libvlc-module.c:506 modules/codec/dvbsub.c:103
 #: modules/codec/zvbi.c:79 modules/gui/fbosd.c:163
 #: modules/video_filter/audiobargraph_v.c:75 modules/video_filter/logo.c:80
 #: modules/video_filter/marq.c:138 modules/video_filter/mosaic.c:172
@@ -1799,7 +1809,7 @@ msgstr "Barr-Deas"
 msgid "Bottom-Left"
 msgstr "Bun-Clé"
 
-#: src/libvlc-module.c:421 src/libvlc-module.c:502 modules/codec/dvbsub.c:103
+#: src/libvlc-module.c:425 src/libvlc-module.c:506 modules/codec/dvbsub.c:103
 #: modules/codec/zvbi.c:79 modules/gui/fbosd.c:163
 #: modules/video_filter/audiobargraph_v.c:75 modules/video_filter/logo.c:80
 #: modules/video_filter/marq.c:138 modules/video_filter/mosaic.c:172
@@ -1807,273 +1817,273 @@ msgstr "Bun-Clé"
 msgid "Bottom-Right"
 msgstr "Bun-Deas"
 
-#: src/libvlc-module.c:423
+#: src/libvlc-module.c:427
 msgid "Zoom video"
 msgstr "Súmáil an físeán"
 
-#: src/libvlc-module.c:425
+#: src/libvlc-module.c:429
 msgid "You can zoom the video by the specified factor."
 msgstr ""
 
-#: src/libvlc-module.c:427
+#: src/libvlc-module.c:431
 msgid "Grayscale video output"
 msgstr ""
 
-#: src/libvlc-module.c:429
+#: src/libvlc-module.c:433
 msgid ""
 "Output video in grayscale. As the color information aren't decoded, this can "
 "save some processing power."
 msgstr ""
 
-#: src/libvlc-module.c:432
+#: src/libvlc-module.c:436
 msgid "Embedded video"
 msgstr "Físeán leabaithe"
 
-#: src/libvlc-module.c:434
+#: src/libvlc-module.c:438
 msgid "Embed the video output in the main interface."
 msgstr ""
 
-#: src/libvlc-module.c:436 modules/video_output/ggi.c:57
+#: src/libvlc-module.c:440 modules/video_output/ggi.c:57
 msgid "X11 display"
 msgstr "Taispeáint X11"
 
-#: src/libvlc-module.c:438
+#: src/libvlc-module.c:442
 msgid ""
 "X11 hardware display to use. By default VLC will use the value of the "
 "DISPLAY environment variable."
 msgstr ""
 
-#: src/libvlc-module.c:441
+#: src/libvlc-module.c:445
 msgid "Fullscreen video output"
 msgstr "Aschur físeáin lánscáileáin"
 
-#: src/libvlc-module.c:443
+#: src/libvlc-module.c:447
 msgid "Start video in fullscreen mode"
 msgstr "Tosaigh an físeán i lánscáileán"
 
-#: src/libvlc-module.c:445
+#: src/libvlc-module.c:449
 msgid "Overlay video output"
 msgstr ""
 
-#: src/libvlc-module.c:447
+#: src/libvlc-module.c:451
 msgid ""
 "Overlay is the hardware acceleration capability of your video card (ability "
 "to render video directly). VLC will try to use it by default."
 msgstr ""
 
-#: src/libvlc-module.c:450 src/video_output/vout_intf.c:344
+#: src/libvlc-module.c:454 src/video_output/vout_intf.c:344
 #: modules/gui/macosx/simple_prefs.m:295 modules/gui/qt4/ui/sprefs_video.h:312
 msgid "Always on top"
 msgstr "Ar barr i gcónaí"
 
-#: src/libvlc-module.c:452
+#: src/libvlc-module.c:456
 msgid "Always place the video window on top of other windows."
 msgstr "Cuir fuinneog an fhíseáin ar barr gach fuinneog eile i gcónaí."
 
-#: src/libvlc-module.c:454
+#: src/libvlc-module.c:458
 msgid "Enable wallpaper mode "
 msgstr "Cumasaigh VLC mar chúlbhrat "
 
-#: src/libvlc-module.c:456
+#: src/libvlc-module.c:460
 msgid ""
 "The wallpaper mode allows you to display the video as the desktop background."
 msgstr ""
 "Ligeann an mód cúlbhrait duit an físeán a thaispeáint mar chúlra ar scáileán "
 "do ríomhaire."
 
-#: src/libvlc-module.c:459
+#: src/libvlc-module.c:463
 msgid "Show media title on video"
 msgstr "Taispeáin teideal an mheáin ar an bhfíseán"
 
-#: src/libvlc-module.c:461
+#: src/libvlc-module.c:465
 msgid "Display the title of the video on top of the movie."
 msgstr "Taispeáin teideal an fhíseáin ar barr an scannán."
 
-#: src/libvlc-module.c:463
+#: src/libvlc-module.c:467
 msgid "Show video title for x milliseconds"
 msgstr "Taispeáin teideal an fhíseáin ar feadh x milleasoicindí"
 
-#: src/libvlc-module.c:465
+#: src/libvlc-module.c:469
 msgid "Show the video title for n milliseconds, default is 5000 ms (5 sec.)"
 msgstr ""
 "Taispeáin teideal an fhíseáin ar feadh n milleasoicindí. Is é 5000 ms (5 "
 "soic.) an réamhshocrú."
 
-#: src/libvlc-module.c:467
+#: src/libvlc-module.c:471
 msgid "Position of video title"
 msgstr "Suíomh teideal an fhíseáin"
 
-#: src/libvlc-module.c:469
+#: src/libvlc-module.c:473
 msgid "Place on video where to display the title (default bottom center)."
 msgstr ""
 "An áit ar an bhfíseán ina dtaispeánfar an teideal. (Sa lár, ag an mbun an "
 "réamhshocrú)."
 
-#: src/libvlc-module.c:471
+#: src/libvlc-module.c:475
 msgid "Hide cursor and fullscreen controller after x milliseconds"
 msgstr ""
 
-#: src/libvlc-module.c:474
+#: src/libvlc-module.c:478
 msgid ""
 "Hide mouse cursor and fullscreen controller after n milliseconds, default is "
 "3000 ms (3 sec.)"
 msgstr ""
 
-#: src/libvlc-module.c:477 src/libvlc-module.c:479
+#: src/libvlc-module.c:481 src/libvlc-module.c:483
 #: src/video_output/video_output.c:1974 modules/gui/macosx/intf.m:703
 #: modules/gui/macosx/intf.m:704 modules/gui/qt4/dialogs/convert.cpp:86
 #: modules/video_filter/deinterlace.c:133
 msgid "Deinterlace"
-msgstr ""
+msgstr "Díchrosfhigh"
 
-#: src/libvlc-module.c:487 src/video_output/video_output.c:1990
+#: src/libvlc-module.c:491 src/video_output/video_output.c:1990
 #: modules/gui/macosx/intf.m:705 modules/gui/macosx/intf.m:706
 #: modules/video_filter/deinterlace.c:118
 msgid "Deinterlace mode"
-msgstr ""
+msgstr "Mód díchrosfhite"
 
-#: src/libvlc-module.c:489
+#: src/libvlc-module.c:493
 msgid "Deinterlace method to use for video processing."
-msgstr ""
+msgstr "Mód díchrosfhite le feidhm a bhaint as i gcomhair cóireáil físeáin."
 
-#: src/libvlc-module.c:495 modules/video_filter/deinterlace.c:129
+#: src/libvlc-module.c:499 modules/video_filter/deinterlace.c:129
 msgid "Discard"
 msgstr "Cuileáil"
 
-#: src/libvlc-module.c:495 modules/video_filter/deinterlace.c:129
+#: src/libvlc-module.c:499 modules/video_filter/deinterlace.c:129
 msgid "Blend"
 msgstr "Cumaisc"
 
-#: src/libvlc-module.c:495 modules/video_filter/deinterlace.c:129
+#: src/libvlc-module.c:499 modules/video_filter/deinterlace.c:129
 msgid "Mean"
 msgstr "Meánach"
 
-#: src/libvlc-module.c:495 modules/video_filter/deinterlace.c:129
+#: src/libvlc-module.c:499 modules/video_filter/deinterlace.c:129
 msgid "Bob"
 msgstr "Damhsaigh"
 
-#: src/libvlc-module.c:496 modules/video_filter/deinterlace.c:129
+#: src/libvlc-module.c:500 modules/video_filter/deinterlace.c:129
 msgid "Linear"
 msgstr "Líneach"
 
-#: src/libvlc-module.c:504
+#: src/libvlc-module.c:508
 msgid "Disable screensaver"
 msgstr ""
 
-#: src/libvlc-module.c:505
+#: src/libvlc-module.c:509
 msgid "Disable the screensaver during video playback."
 msgstr ""
 
-#: src/libvlc-module.c:507
+#: src/libvlc-module.c:511
 msgid "Inhibit the power management daemon during playback"
 msgstr ""
 
-#: src/libvlc-module.c:508
+#: src/libvlc-module.c:512
 msgid ""
 "Inhibits the power management daemon during any playback, to avoid the "
 "computer being suspended because of inactivity."
 msgstr ""
 
-#: src/libvlc-module.c:511 modules/gui/qt4/ui/sprefs_video.h:316
+#: src/libvlc-module.c:515 modules/gui/qt4/ui/sprefs_video.h:316
 msgid "Window decorations"
 msgstr "Maisiúcháin na fuinneoige"
 
-#: src/libvlc-module.c:513
+#: src/libvlc-module.c:517
 msgid ""
 "VLC can avoid creating window caption, frames, etc... around the video, "
 "giving a \"minimal\" window."
 msgstr ""
 
-#: src/libvlc-module.c:516
+#: src/libvlc-module.c:520
 msgid "Video output filter module"
 msgstr ""
 
-#: src/libvlc-module.c:518
+#: src/libvlc-module.c:522
 msgid "This adds video output filters like clone or wall"
 msgstr ""
 
-#: src/libvlc-module.c:520
+#: src/libvlc-module.c:524
 msgid "Video filter module"
 msgstr "Modúl scagaire na bhfíseán"
 
-#: src/libvlc-module.c:522
+#: src/libvlc-module.c:526
 msgid ""
 "This adds post-processing filters to enhance the picture quality, for "
 "instance deinterlacing, or distort the video."
 msgstr ""
 
-#: src/libvlc-module.c:526
+#: src/libvlc-module.c:530
 msgid "Video snapshot directory (or filename)"
 msgstr ""
 
-#: src/libvlc-module.c:528
+#: src/libvlc-module.c:532
 msgid "Directory where the video snapshots will be stored."
 msgstr "An chomhadlann ina gcuirfear roghbhlúirí físeáin i dtaisce."
 
-#: src/libvlc-module.c:530 src/libvlc-module.c:532
+#: src/libvlc-module.c:534 src/libvlc-module.c:536
 msgid "Video snapshot file prefix"
 msgstr ""
 
-#: src/libvlc-module.c:534
+#: src/libvlc-module.c:538
 msgid "Video snapshot format"
 msgstr ""
 
-#: src/libvlc-module.c:536
+#: src/libvlc-module.c:540
 msgid "Image format which will be used to store the video snapshots"
 msgstr ""
 
-#: src/libvlc-module.c:538
+#: src/libvlc-module.c:542
 msgid "Display video snapshot preview"
 msgstr "Taispeáin réamhamharc ar an roghbhlúire físeáin"
 
-#: src/libvlc-module.c:540
+#: src/libvlc-module.c:544
 msgid "Display the snapshot preview in the screen's top-left corner."
 msgstr ""
 
-#: src/libvlc-module.c:542
+#: src/libvlc-module.c:546
 msgid "Use sequential numbers instead of timestamps"
 msgstr ""
 
-#: src/libvlc-module.c:544
+#: src/libvlc-module.c:548
 msgid "Use sequential numbers instead of timestamps for snapshot numbering"
 msgstr ""
 
-#: src/libvlc-module.c:546
+#: src/libvlc-module.c:550
 msgid "Video snapshot width"
 msgstr "Leithead an roghbhlúire fhíseáin"
 
-#: src/libvlc-module.c:548
+#: src/libvlc-module.c:552
 msgid ""
 "You can enforce the width of the video snapshot. By default it will keep the "
 "original width (-1). Using 0 will scale the width to keep the aspect ratio."
 msgstr ""
 
-#: src/libvlc-module.c:552
+#: src/libvlc-module.c:556
 msgid "Video snapshot height"
 msgstr "Airde an roghbhlúire fhíseáin"
 
-#: src/libvlc-module.c:554
+#: src/libvlc-module.c:558
 msgid ""
 "You can enforce the height of the video snapshot. By default it will keep "
 "the original height (-1). Using 0 will scale the height to keep the aspect "
 "ratio."
 msgstr ""
 
-#: src/libvlc-module.c:558
+#: src/libvlc-module.c:562
 msgid "Video cropping"
 msgstr "Bearradh físeáin"
 
-#: src/libvlc-module.c:560
+#: src/libvlc-module.c:564
 msgid ""
 "This forces the cropping of the source video. Accepted formats are x:y (4:3, "
 "16:9, etc.) expressing the global image aspect."
 msgstr ""
 
-#: src/libvlc-module.c:564
+#: src/libvlc-module.c:568
 msgid "Source aspect ratio"
 msgstr "Cóimheas treoíochta foinseach"
 
-#: src/libvlc-module.c:566
+#: src/libvlc-module.c:570
 msgid ""
 "This forces the source aspect ratio. For instance, some DVDs claim to be "
 "16:9 while they are actually 4:3. This can also be used as a hint for VLC "
@@ -2082,161 +2092,161 @@ msgid ""
 "(1.25, 1.3333, etc.) expressing pixel squareness."
 msgstr ""
 
-#: src/libvlc-module.c:573
+#: src/libvlc-module.c:577
 msgid "Video Auto Scaling"
 msgstr ""
 
-#: src/libvlc-module.c:575
+#: src/libvlc-module.c:579
 msgid "Let the video scale to fit a given window or fullscreen."
 msgstr ""
 
-#: src/libvlc-module.c:577
+#: src/libvlc-module.c:581
 msgid "Video scaling factor"
 msgstr ""
 
-#: src/libvlc-module.c:579
+#: src/libvlc-module.c:583
 msgid ""
 "Scaling factor used when Auto Scaling is disabled.\n"
 "Default value is 1.0 (original video size)."
 msgstr ""
 
-#: src/libvlc-module.c:582
+#: src/libvlc-module.c:586
 msgid "Custom crop ratios list"
 msgstr ""
 
-#: src/libvlc-module.c:584
+#: src/libvlc-module.c:588
 msgid ""
 "Comma separated list of crop ratios which will be added in the interface's "
 "crop ratios list."
 msgstr ""
 
-#: src/libvlc-module.c:587
+#: src/libvlc-module.c:591
 msgid "Custom aspect ratios list"
 msgstr ""
 
-#: src/libvlc-module.c:589
+#: src/libvlc-module.c:593
 msgid ""
 "Comma separated list of aspect ratios which will be added in the interface's "
 "aspect ratio list."
 msgstr ""
 
-#: src/libvlc-module.c:592
+#: src/libvlc-module.c:596
 msgid "Fix HDTV height"
 msgstr "Socraigh airde cianamharcaíocht ardghléine"
 
-#: src/libvlc-module.c:594
+#: src/libvlc-module.c:598
 msgid ""
 "This allows proper handling of HDTV-1080 video format even if broken encoder "
 "incorrectly sets height to 1088 lines. You should only disable this option "
 "if your video has a non-standard format requiring all 1088 lines."
 msgstr ""
 
-#: src/libvlc-module.c:599
+#: src/libvlc-module.c:603
 msgid "Monitor pixel aspect ratio"
 msgstr ""
 
-#: src/libvlc-module.c:601
+#: src/libvlc-module.c:605
 msgid ""
 "This forces the monitor aspect ratio. Most monitors have square pixels "
 "(1:1). If you have a 16:9 screen, you might need to change this to 4:3 in "
 "order to keep proportions."
 msgstr ""
 
-#: src/libvlc-module.c:605 modules/gui/macosx/simple_prefs.m:297
+#: src/libvlc-module.c:609 modules/gui/macosx/simple_prefs.m:297
 #: modules/gui/qt4/ui/sprefs_video.h:315
 msgid "Skip frames"
 msgstr ""
 
-#: src/libvlc-module.c:607
+#: src/libvlc-module.c:611
 msgid ""
 "Enables framedropping on MPEG2 stream. Framedropping occurs when your "
 "computer is not powerful enough"
 msgstr ""
 
-#: src/libvlc-module.c:610
+#: src/libvlc-module.c:614
 msgid "Drop late frames"
 msgstr ""
 
-#: src/libvlc-module.c:612
+#: src/libvlc-module.c:616
 msgid ""
 "This drops frames that are late (arrive to the video output after their "
 "intended display date)."
 msgstr ""
 
-#: src/libvlc-module.c:615
+#: src/libvlc-module.c:619
 msgid "Quiet synchro"
 msgstr ""
 
-#: src/libvlc-module.c:617
+#: src/libvlc-module.c:621
 msgid ""
 "This avoids flooding the message log with debug output from the video output "
 "synchronization mechanism."
 msgstr ""
 
-#: src/libvlc-module.c:620
+#: src/libvlc-module.c:624
 msgid "Key press events"
 msgstr ""
 
-#: src/libvlc-module.c:622
+#: src/libvlc-module.c:626
 msgid "This enables VLC hotkeys from the (non-embedded) video window."
 msgstr ""
 
-#: src/libvlc-module.c:624 modules/video_filter/remoteosd.c:94
+#: src/libvlc-module.c:628 modules/video_filter/remoteosd.c:94
 msgid "Mouse events"
 msgstr "Imeachtaí na luchóige"
 
-#: src/libvlc-module.c:626
+#: src/libvlc-module.c:630
 msgid "This enables handling of mouse clicks on the video."
 msgstr ""
 
-#: src/libvlc-module.c:634
+#: src/libvlc-module.c:638
 msgid ""
 "These options allow you to modify the behavior of the input subsystem, such "
 "as the DVD or VCD device, the network interface settings or the subtitle "
 "channel."
 msgstr ""
 
-#: src/libvlc-module.c:638
+#: src/libvlc-module.c:642
 msgid "Clock reference average counter"
 msgstr ""
 
-#: src/libvlc-module.c:640
+#: src/libvlc-module.c:644
 msgid ""
 "When using the PVR input (or a very irregular source), you should set this "
 "to 10000."
 msgstr ""
 
-#: src/libvlc-module.c:643
+#: src/libvlc-module.c:647
 msgid "Clock synchronisation"
 msgstr ""
 
-#: src/libvlc-module.c:645
+#: src/libvlc-module.c:649
 msgid ""
 "It is possible to disable the input clock synchronisation for real-time "
 "sources. Use this if you experience jerky playback of network streams."
 msgstr ""
 
-#: src/libvlc-module.c:649
+#: src/libvlc-module.c:653
 msgid "Clock jitter"
 msgstr ""
 
-#: src/libvlc-module.c:651
+#: src/libvlc-module.c:655
 msgid ""
 "It tells the clock algorithms what is the maximal input jitter that is "
 "considered valid and can be compensated (in milliseconds)"
 msgstr ""
 
-#: src/libvlc-module.c:654 modules/control/netsync.c:72
+#: src/libvlc-module.c:658 modules/control/netsync.c:72
 msgid "Network synchronisation"
 msgstr ""
 
-#: src/libvlc-module.c:655
+#: src/libvlc-module.c:659
 msgid ""
 "This allows you to remotely synchronise clocks for server and client. The "
 "detailed settings are available in Advanced / Network Sync."
 msgstr ""
 
-#: src/libvlc-module.c:661 src/video_output/vout_intf.c:99
+#: src/libvlc-module.c:665 src/video_output/vout_intf.c:99
 #: src/video_output/vout_intf.c:117 modules/access/dshow/dshow.cpp:84
 #: modules/access/dshow/dshow.cpp:86 modules/access/dshow/dshow.cpp:89
 #: modules/access/dshow/dshow.cpp:95 modules/access/v4l2.c:238
@@ -2250,252 +2260,252 @@ msgstr ""
 msgid "Default"
 msgstr "Réamhshocrú"
 
-#: src/libvlc-module.c:661 modules/gui/macosx/equalizer.m:148
+#: src/libvlc-module.c:665 modules/gui/macosx/equalizer.m:148
 #: modules/gui/macosx/extended.m:97 modules/gui/macosx/wizard.m:352
 #: modules/gui/qt4/ui/equalizer.h:127 modules/gui/qt4/ui/vlm.h:290
 msgid "Enable"
 msgstr "Cumasaigh"
 
-#: src/libvlc-module.c:663 modules/misc/notify/growl_udp.c:75
+#: src/libvlc-module.c:667 modules/misc/notify/growl_udp.c:75
 msgid "UDP port"
 msgstr "Port UDP"
 
-#: src/libvlc-module.c:665
+#: src/libvlc-module.c:669
 msgid "This is the default port used for UDP streams. Default is 1234."
 msgstr ""
 
-#: src/libvlc-module.c:667
+#: src/libvlc-module.c:671
 msgid "MTU of the network interface"
-msgstr ""
+msgstr "Uasaonad Tarchuir comhéadan an líonra"
 
-#: src/libvlc-module.c:669
+#: src/libvlc-module.c:673
 msgid ""
 "This is the maximum application-layer packet size that can be transmitted "
 "over the network (in bytes)."
 msgstr ""
 
-#: src/libvlc-module.c:674 modules/stream_out/rtp.c:122
+#: src/libvlc-module.c:678 modules/stream_out/rtp.c:122
 msgid "Hop limit (TTL)"
 msgstr ""
 
-#: src/libvlc-module.c:676 modules/stream_out/rtp.c:124
+#: src/libvlc-module.c:680 modules/stream_out/rtp.c:124
 msgid ""
 "This is the hop limit (also known as \"Time-To-Live\" or TTL) of the "
 "multicast packets sent by the stream output (-1 = use operating system built-"
 "in default)."
 msgstr ""
 
-#: src/libvlc-module.c:680
+#: src/libvlc-module.c:684
 msgid "Multicast output interface"
 msgstr ""
 
-#: src/libvlc-module.c:682
+#: src/libvlc-module.c:686
 msgid "Default multicast interface. This overrides the routing table."
 msgstr ""
 
-#: src/libvlc-module.c:684
+#: src/libvlc-module.c:688
 msgid "IPv4 multicast output interface address"
 msgstr ""
 
-#: src/libvlc-module.c:686
+#: src/libvlc-module.c:690
 msgid ""
 "IPv4 address for the default multicast interface. This overrides the routing "
 "table."
 msgstr ""
 
-#: src/libvlc-module.c:689
+#: src/libvlc-module.c:693
 msgid "DiffServ Code Point"
 msgstr ""
 
-#: src/libvlc-module.c:690
+#: src/libvlc-module.c:694
 msgid ""
 "Differentiated Services Code Point for outgoing UDP streams (or IPv4 Type Of "
 "Service, or IPv6 Traffic Class). This is used for network Quality of Service."
 msgstr ""
 
-#: src/libvlc-module.c:696
+#: src/libvlc-module.c:700
 msgid ""
 "Choose the program to select by giving its Service ID. Only use this option "
 "if you want to read a multi-program stream (like DVB streams for example)."
 msgstr ""
 
-#: src/libvlc-module.c:702
+#: src/libvlc-module.c:706
 msgid ""
 "Choose the programs to select by giving a comma-separated list of Service "
 "IDs (SIDs). Only use this option if you want to read a multi-program stream "
 "(like DVB streams for example)."
 msgstr ""
 
-#: src/libvlc-module.c:708 modules/gui/qt4/ui/open_disk.h:305
+#: src/libvlc-module.c:712 modules/gui/qt4/ui/open_disk.h:305
 msgid "Audio track"
 msgstr "Fuaimrian"
 
-#: src/libvlc-module.c:710
+#: src/libvlc-module.c:714
 msgid "Stream number of the audio track to use (from 0 to n)."
 msgstr ""
 
-#: src/libvlc-module.c:713 modules/gui/qt4/ui/open_disk.h:306
+#: src/libvlc-module.c:717 modules/gui/qt4/ui/open_disk.h:306
 msgid "Subtitles track"
 msgstr "Rian na bhfotheideal"
 
-#: src/libvlc-module.c:715
+#: src/libvlc-module.c:719
 msgid "Stream number of the subtitle track to use (from 0 to n)."
 msgstr ""
 
-#: src/libvlc-module.c:718
+#: src/libvlc-module.c:722
 msgid "Audio language"
 msgstr "Teanga na fuaime"
 
-#: src/libvlc-module.c:720
+#: src/libvlc-module.c:724
 msgid ""
 "Language of the audio track you want to use (comma separated, two or three "
 "letter country code, you may use 'none' to avoid a fallback to another "
 "language)."
 msgstr ""
 
-#: src/libvlc-module.c:723
+#: src/libvlc-module.c:727
 msgid "Subtitle language"
 msgstr "Teanga an fhotheidil"
 
-#: src/libvlc-module.c:725
+#: src/libvlc-module.c:729
 msgid ""
 "Language of the subtitle track you want to use (comma separated, two or "
 "three letters country code, you may use 'any' as a fallback)."
 msgstr ""
 
-#: src/libvlc-module.c:729
+#: src/libvlc-module.c:733
 msgid "Audio track ID"
 msgstr "Aitheantas an riain fuaime"
 
-#: src/libvlc-module.c:731
+#: src/libvlc-module.c:735
 msgid "Stream ID of the audio track to use."
 msgstr ""
 
-#: src/libvlc-module.c:733
+#: src/libvlc-module.c:737
 msgid "Subtitles track ID"
 msgstr ""
 
-#: src/libvlc-module.c:735
+#: src/libvlc-module.c:739
 msgid "Stream ID of the subtitle track to use."
 msgstr ""
 
-#: src/libvlc-module.c:737
+#: src/libvlc-module.c:741
 msgid "Input repetitions"
 msgstr ""
 
-#: src/libvlc-module.c:739
+#: src/libvlc-module.c:743
 msgid "Number of time the same input will be repeated"
 msgstr ""
 
-#: src/libvlc-module.c:741
+#: src/libvlc-module.c:745
 msgid "Start time"
 msgstr "Am tosaithe"
 
-#: src/libvlc-module.c:743
+#: src/libvlc-module.c:747
 msgid "The stream will start at this position (in seconds)."
 msgstr "Tosóidh an sruth ag an suíomh seo (i soicindí)."
 
-#: src/libvlc-module.c:745
+#: src/libvlc-module.c:749
 msgid "Stop time"
 msgstr "Am críochnaithe"
 
-#: src/libvlc-module.c:747
+#: src/libvlc-module.c:751
 msgid "The stream will stop at this position (in seconds)."
 msgstr ""
 
-#: src/libvlc-module.c:749
+#: src/libvlc-module.c:753
 msgid "Run time"
 msgstr "Am rite"
 
-#: src/libvlc-module.c:751
+#: src/libvlc-module.c:755
 msgid "The stream will run this duration (in seconds)."
 msgstr "Rithfidh an sruth an t-aga seo (i soicindí)."
 
-#: src/libvlc-module.c:753
+#: src/libvlc-module.c:757
 msgid "Fast seek"
 msgstr "Cuardach gasta"
 
-#: src/libvlc-module.c:755
+#: src/libvlc-module.c:759
 msgid "Favor speed over precision while seeking"
 msgstr ""
 
-#: src/libvlc-module.c:757
+#: src/libvlc-module.c:761
 msgid "Playback speed"
 msgstr "Luas athsheanma"
 
-#: src/libvlc-module.c:759
+#: src/libvlc-module.c:763
 msgid "This defines the playback speed (nominal speed is 1.0)."
 msgstr ""
 
-#: src/libvlc-module.c:761
+#: src/libvlc-module.c:765
 msgid "Input list"
 msgstr ""
 
-#: src/libvlc-module.c:763
+#: src/libvlc-module.c:767
 msgid ""
 "You can give a comma-separated list of inputs that will be concatenated "
 "together after the normal one."
 msgstr ""
 
-#: src/libvlc-module.c:766
+#: src/libvlc-module.c:770
 msgid "Input slave (experimental)"
 msgstr ""
 
-#: src/libvlc-module.c:768
+#: src/libvlc-module.c:772
 msgid ""
 "This allows you to play from several inputs at the same time. This feature "
 "is experimental, not all formats are supported. Use a '#' separated list of "
 "inputs."
 msgstr ""
 
-#: src/libvlc-module.c:772
+#: src/libvlc-module.c:776
 msgid "Bookmarks list for a stream"
 msgstr ""
 
-#: src/libvlc-module.c:774
+#: src/libvlc-module.c:778
 msgid ""
 "You can manually give a list of bookmarks for a stream in the form "
 "\"{name=bookmark-name,time=optional-time-offset,bytes=optional-byte-offset},"
 "{...}\""
 msgstr ""
 
-#: src/libvlc-module.c:778 modules/gui/qt4/ui/sprefs_input.h:316
+#: src/libvlc-module.c:782 modules/gui/qt4/ui/sprefs_input.h:316
 msgid "Record directory or filename"
 msgstr ""
 
-#: src/libvlc-module.c:780
+#: src/libvlc-module.c:784
 msgid "Directory or filename where the records will be stored"
 msgstr ""
 
-#: src/libvlc-module.c:782
+#: src/libvlc-module.c:786
 msgid "Prefer native stream recording"
 msgstr ""
 
-#: src/libvlc-module.c:784
+#: src/libvlc-module.c:788
 msgid ""
 "When possible, the input stream will be recorded instead of using the stream "
 "output module"
 msgstr ""
 
-#: src/libvlc-module.c:787
+#: src/libvlc-module.c:791
 msgid "Timeshift directory"
 msgstr ""
 
-#: src/libvlc-module.c:789
+#: src/libvlc-module.c:793
 msgid "Directory used to store the timeshift temporary files."
 msgstr ""
 
-#: src/libvlc-module.c:791
+#: src/libvlc-module.c:795
 msgid "Timeshift granularity"
 msgstr ""
 
-#: src/libvlc-module.c:793
+#: src/libvlc-module.c:797
 msgid ""
 "This is the maximum size in bytes of the temporary files that will be used "
 "to store the timeshifted streams."
 msgstr ""
 
-#: src/libvlc-module.c:798
+#: src/libvlc-module.c:802
 msgid ""
 "These options allow you to modify the behavior of the subpictures subsystem. "
 "You can for example enable subpictures filters (logo, etc.). Enable these "
@@ -2503,32 +2513,32 @@ msgid ""
 "section. You can also set many miscellaneous subpictures options."
 msgstr ""
 
-#: src/libvlc-module.c:804 modules/gui/qt4/ui/sprefs_subtitles.h:213
+#: src/libvlc-module.c:808 modules/gui/qt4/ui/sprefs_subtitles.h:213
 msgid "Force subtitle position"
 msgstr ""
 
-#: src/libvlc-module.c:806
+#: src/libvlc-module.c:810
 msgid ""
 "You can use this option to place the subtitles under the movie, instead of "
 "over the movie. Try several positions."
 msgstr ""
 
-#: src/libvlc-module.c:809
+#: src/libvlc-module.c:813
 msgid "Enable sub-pictures"
 msgstr "Cumasaigh fophictiúir"
 
-#: src/libvlc-module.c:811
+#: src/libvlc-module.c:815
 msgid "You can completely disable the sub-picture processing."
 msgstr ""
 
-#: src/libvlc-module.c:813 src/libvlc-module.c:1769 src/text/iso-639_def.h:143
+#: src/libvlc-module.c:817 src/libvlc-module.c:1773 src/text/iso-639_def.h:143
 #: modules/gui/macosx/simple_prefs.m:286
 #: modules/stream_out/transcode/transcode.c:222
 #: modules/gui/qt4/ui/sprefs_subtitles.h:201
 msgid "On Screen Display"
 msgstr "Taispeáint Ar An Scáileán"
 
-#: src/libvlc-module.c:815
+#: src/libvlc-module.c:819
 msgid ""
 "VLC can display messages on the video. This is called OSD (On Screen "
 "Display)."
@@ -2536,41 +2546,41 @@ msgstr ""
 "Is féidir le VLC teachtaireachtaí a thaispeáint ar an bhfíseán. TAAS "
 "(Taispeáint Ar An Scáileán) a ghlaoitear ar seo."
 
-#: src/libvlc-module.c:818
+#: src/libvlc-module.c:822
 msgid "Text rendering module"
 msgstr ""
 
-#: src/libvlc-module.c:820
+#: src/libvlc-module.c:824
 msgid ""
 "VLC normally uses Freetype for rendering, but this allows you to use svg for "
 "instance."
 msgstr ""
 
-#: src/libvlc-module.c:822
+#: src/libvlc-module.c:826
 msgid "Subpictures filter module"
 msgstr ""
 
-#: src/libvlc-module.c:824
+#: src/libvlc-module.c:828
 msgid ""
 "This adds so-called \"subpicture filters\". These filters overlay some "
 "images or text over the video (like a logo, arbitrary text, ...)."
 msgstr ""
 
-#: src/libvlc-module.c:827
+#: src/libvlc-module.c:831
 msgid "Autodetect subtitle files"
 msgstr "Aimsigh comhaid fhotheidil go uathoibríoch"
 
-#: src/libvlc-module.c:829
+#: src/libvlc-module.c:833
 msgid ""
 "Automatically detect a subtitle file, if no subtitle filename is specified "
 "(based on the filename of the movie)."
 msgstr ""
 
-#: src/libvlc-module.c:832
+#: src/libvlc-module.c:836
 msgid "Subtitle autodetection fuzziness"
 msgstr ""
 
-#: src/libvlc-module.c:834
+#: src/libvlc-module.c:838
 msgid ""
 "This determines how fuzzy subtitle and movie filename matching will be. "
 "Options are:\n"
@@ -2581,482 +2591,485 @@ msgid ""
 "4 = subtitle file matching the movie name exactly"
 msgstr ""
 
-#: src/libvlc-module.c:842
+#: src/libvlc-module.c:846
 msgid "Subtitle autodetection paths"
 msgstr ""
 
-#: src/libvlc-module.c:844
+#: src/libvlc-module.c:848
 msgid ""
 "Look for a subtitle file in those paths too, if your subtitle file was not "
 "found in the current directory."
 msgstr ""
 
-#: src/libvlc-module.c:847
+#: src/libvlc-module.c:851
 msgid "Use subtitle file"
 msgstr "Bain feidhm as comhad fotheidil"
 
-#: src/libvlc-module.c:849
+#: src/libvlc-module.c:853
 msgid ""
 "Load this subtitle file. To be used when autodetect cannot detect your "
 "subtitle file."
 msgstr ""
 
-#: src/libvlc-module.c:852
+#: src/libvlc-module.c:856
 msgid "DVD device"
 msgstr "Gléas DVD"
 
-#: src/libvlc-module.c:855
+#: src/libvlc-module.c:859
 msgid ""
 "This is the default DVD drive (or file) to use. Don't forget the colon after "
 "the drive letter (eg. D:)"
 msgstr ""
 
-#: src/libvlc-module.c:859
+#: src/libvlc-module.c:863
 msgid "This is the default DVD device to use."
 msgstr "Seo é an gléas DVD réamhshocraithe chun feidhm a bhaint as."
 
-#: src/libvlc-module.c:862
+#: src/libvlc-module.c:866
 msgid "VCD device"
 msgstr "Gléas VCD"
 
-#: src/libvlc-module.c:864
+#: src/libvlc-module.c:868
 msgid "This is the default VCD device to use."
 msgstr ""
 
-#: src/libvlc-module.c:866
+#: src/libvlc-module.c:870
 msgid "Audio CD device"
 msgstr "Gléas CD fuaime"
 
-#: src/libvlc-module.c:868
+#: src/libvlc-module.c:872
 msgid "This is the default Audio CD device to use."
 msgstr ""
 
-#: src/libvlc-module.c:870
+#: src/libvlc-module.c:874
 msgid "Force IPv6"
 msgstr "Éignigh IPv6"
 
-#: src/libvlc-module.c:872
+#: src/libvlc-module.c:876
 msgid "IPv6 will be used by default for all connections."
 msgstr "Bainfear feidhm as IPv6 mar réamhshocrú do gach ceangail."
 
-#: src/libvlc-module.c:874
+#: src/libvlc-module.c:878
 msgid "Force IPv4"
 msgstr "Éignigh IPv4"
 
-#: src/libvlc-module.c:876
+#: src/libvlc-module.c:880
 msgid "IPv4 will be used by default for all connections."
 msgstr "Bainfear feidhm as IPv4 mar réamhshocrú do gach ceangail."
 
-#: src/libvlc-module.c:878
+#: src/libvlc-module.c:882
 msgid "TCP connection timeout"
 msgstr ""
 
-#: src/libvlc-module.c:880
+#: src/libvlc-module.c:884
 msgid "Default TCP connection timeout (in milliseconds). "
 msgstr ""
 
-#: src/libvlc-module.c:882
+#: src/libvlc-module.c:886
 msgid "SOCKS server"
 msgstr "Freastalaí SOCKS"
 
-#: src/libvlc-module.c:884
+#: src/libvlc-module.c:888
 msgid ""
 "SOCKS proxy server to use. This must be of the form address:port. It will be "
 "used for all TCP connections"
 msgstr ""
 
-#: src/libvlc-module.c:887
+#: src/libvlc-module.c:891
 msgid "SOCKS user name"
 msgstr ""
 
-#: src/libvlc-module.c:889
+#: src/libvlc-module.c:893
 msgid "User name to be used for connection to the SOCKS proxy."
 msgstr ""
 
-#: src/libvlc-module.c:891
+#: src/libvlc-module.c:895
 msgid "SOCKS password"
 msgstr "Focal faire SOCKS"
 
-#: src/libvlc-module.c:893
+#: src/libvlc-module.c:897
 msgid "Password to be used for connection to the SOCKS proxy."
 msgstr ""
 
-#: src/libvlc-module.c:895
+#: src/libvlc-module.c:899
 msgid "Title metadata"
 msgstr "Meiteashonraí an teidil"
 
-#: src/libvlc-module.c:897
+#: src/libvlc-module.c:901
 msgid "Allows you to specify a \"title\" metadata for an input."
 msgstr ""
 
-#: src/libvlc-module.c:899
+#: src/libvlc-module.c:903
 msgid "Author metadata"
 msgstr "Meiteashonraí an údair"
 
-#: src/libvlc-module.c:901
+#: src/libvlc-module.c:905
 msgid "Allows you to specify an \"author\" metadata for an input."
 msgstr ""
 
-#: src/libvlc-module.c:903
+#: src/libvlc-module.c:907
 msgid "Artist metadata"
 msgstr ""
 
-#: src/libvlc-module.c:905
+#: src/libvlc-module.c:909
 msgid "Allows you to specify an \"artist\" metadata for an input."
 msgstr ""
 
-#: src/libvlc-module.c:907
+#: src/libvlc-module.c:911
 msgid "Genre metadata"
 msgstr ""
 
-#: src/libvlc-module.c:909
+#: src/libvlc-module.c:913
 msgid "Allows you to specify a \"genre\" metadata for an input."
 msgstr ""
 
-#: src/libvlc-module.c:911
+#: src/libvlc-module.c:915
 msgid "Copyright metadata"
 msgstr ""
 
-#: src/libvlc-module.c:913
+#: src/libvlc-module.c:917
 msgid "Allows you to specify a \"copyright\" metadata for an input."
 msgstr ""
 
-#: src/libvlc-module.c:915
+#: src/libvlc-module.c:919
 msgid "Description metadata"
 msgstr ""
 
-#: src/libvlc-module.c:917
+#: src/libvlc-module.c:921
 msgid "Allows you to specify a \"description\" metadata for an input."
 msgstr ""
 
-#: src/libvlc-module.c:919
+#: src/libvlc-module.c:923
 msgid "Date metadata"
 msgstr "Meiteashonraí an dáta"
 
-#: src/libvlc-module.c:921
+#: src/libvlc-module.c:925
 msgid "Allows you to specify a \"date\" metadata for an input."
 msgstr ""
 
-#: src/libvlc-module.c:923
+#: src/libvlc-module.c:927
 msgid "URL metadata"
 msgstr "Meiteashonraí an URL"
 
-#: src/libvlc-module.c:925
+#: src/libvlc-module.c:929
 msgid "Allows you to specify a \"url\" metadata for an input."
 msgstr ""
 
-#: src/libvlc-module.c:929
+#: src/libvlc-module.c:933
 msgid ""
 "This option can be used to alter the way VLC selects its codecs "
 "(decompression methods). Only advanced users should alter this option as it "
 "can break playback of all your streams."
 msgstr ""
 
-#: src/libvlc-module.c:933
+#: src/libvlc-module.c:937
 msgid "Preferred decoders list"
 msgstr ""
 
-#: src/libvlc-module.c:935
+#: src/libvlc-module.c:939
 msgid ""
 "List of codecs that VLC will use in priority. For instance, 'dummy,a52' will "
 "try the dummy and a52 codecs before trying the other ones. Only advanced "
 "users should alter this option as it can break playback of all your streams."
 msgstr ""
 
-#: src/libvlc-module.c:940
+#: src/libvlc-module.c:944
 msgid "Preferred encoders list"
 msgstr ""
 
-#: src/libvlc-module.c:942
+#: src/libvlc-module.c:946
 msgid ""
 "This allows you to select a list of encoders that VLC will use in priority."
 msgstr ""
 
-#: src/libvlc-module.c:945
+#: src/libvlc-module.c:949
 msgid "Prefer system plugins over VLC"
 msgstr "Tabhair tosaíocht do bhreiseáin an chórais in ionad cinn VLC"
 
-#: src/libvlc-module.c:947
+#: src/libvlc-module.c:951
 msgid ""
 "Indicates whether VLC will prefer native plugins installed on system over "
 "VLC owns plugins whenever a choice is available."
 msgstr ""
 
-#: src/libvlc-module.c:956
+#: src/libvlc-module.c:960
 msgid ""
 "These options allow you to set default global options for the stream output "
 "subsystem."
 msgstr ""
 
-#: src/libvlc-module.c:959
+#: src/libvlc-module.c:963
 msgid "Default stream output chain"
 msgstr ""
 
-#: src/libvlc-module.c:961
+#: src/libvlc-module.c:965
 msgid ""
 "You can enter here a default stream output chain. Refer to the documentation "
 "to learn how to build such chains. Warning: this chain will be enabled for "
 "all streams."
 msgstr ""
 
-#: src/libvlc-module.c:965
+#: src/libvlc-module.c:969
 msgid "Enable streaming of all ES"
 msgstr ""
 
-#: src/libvlc-module.c:967
+#: src/libvlc-module.c:971
 msgid "Stream all elementary streams (video, audio and subtitles)"
 msgstr ""
 
-#: src/libvlc-module.c:969
+#: src/libvlc-module.c:973
 msgid "Display while streaming"
 msgstr "Taispeáin fad agus atá sé á sruthú"
 
-#: src/libvlc-module.c:971
+#: src/libvlc-module.c:975
 msgid "Play locally the stream while streaming it."
 msgstr ""
 
-#: src/libvlc-module.c:973
+#: src/libvlc-module.c:977
 msgid "Enable video stream output"
 msgstr ""
 
-#: src/libvlc-module.c:975
+#: src/libvlc-module.c:979
 msgid ""
 "Choose whether the video stream should be redirected to the stream output "
 "facility when this last one is enabled."
 msgstr ""
 
-#: src/libvlc-module.c:978
+#: src/libvlc-module.c:982
 msgid "Enable audio stream output"
 msgstr ""
 
-#: src/libvlc-module.c:980
+#: src/libvlc-module.c:984
 msgid ""
 "Choose whether the audio stream should be redirected to the stream output "
 "facility when this last one is enabled."
 msgstr ""
 
-#: src/libvlc-module.c:983
+#: src/libvlc-module.c:987
 msgid "Enable SPU stream output"
 msgstr ""
 
-#: src/libvlc-module.c:985
+#: src/libvlc-module.c:989
 msgid ""
 "Choose whether the SPU streams should be redirected to the stream output "
 "facility when this last one is enabled."
 msgstr ""
 
-#: src/libvlc-module.c:988
+#: src/libvlc-module.c:992
 msgid "Keep stream output open"
 msgstr "Coimeád aschur an tsrutha ar oscailt"
 
-#: src/libvlc-module.c:990
+#: src/libvlc-module.c:994
 msgid ""
 "This allows you to keep an unique stream output instance across multiple "
 "playlist item (automatically insert the gather stream output if not "
 "specified)"
 msgstr ""
 
-#: src/libvlc-module.c:994
+#: src/libvlc-module.c:998
 msgid "Stream output muxer caching (ms)"
 msgstr ""
 
-#: src/libvlc-module.c:996
+#: src/libvlc-module.c:1000
 msgid ""
 "This allow you to configure the initial caching amount for stream output  "
 "muxer. This value should be set in milliseconds."
 msgstr ""
 
-#: src/libvlc-module.c:999
+#: src/libvlc-module.c:1003
 msgid "Preferred packetizer list"
 msgstr ""
 
-#: src/libvlc-module.c:1001
+#: src/libvlc-module.c:1005
 msgid ""
 "This allows you to select the order in which VLC will choose its packetizers."
 msgstr ""
+"Ligeann seo duit an t-eagar ina roghnaíonn VLC a dhéantóirí ceangaltáin a "
+"roghnú."
 
-#: src/libvlc-module.c:1004
+#: src/libvlc-module.c:1008
 msgid "Mux module"
 msgstr "Modúl ilphléacsuithe"
 
-#: src/libvlc-module.c:1006
+#: src/libvlc-module.c:1010
 msgid "This is a legacy entry to let you configure mux modules"
 msgstr ""
 
-#: src/libvlc-module.c:1008
+#: src/libvlc-module.c:1012
 msgid "Access output module"
 msgstr ""
 
-#: src/libvlc-module.c:1010
+#: src/libvlc-module.c:1014
 msgid "This is a legacy entry to let you configure access output modules"
 msgstr ""
 
-#: src/libvlc-module.c:1012
+#: src/libvlc-module.c:1016
 msgid "Control SAP flow"
 msgstr ""
 
-#: src/libvlc-module.c:1014
+#: src/libvlc-module.c:1018
 msgid ""
 "If this option is enabled, the flow on the SAP multicast address will be "
 "controlled. This is needed if you want to make announcements on the MBone."
 msgstr ""
 
-#: src/libvlc-module.c:1018
+#: src/libvlc-module.c:1022
 msgid "SAP announcement interval"
 msgstr ""
 
-#: src/libvlc-module.c:1020
+#: src/libvlc-module.c:1024
 msgid ""
 "When the SAP flow control is disabled, this lets you set the fixed interval "
 "between SAP announcements."
 msgstr ""
 
-#: src/libvlc-module.c:1029
+#: src/libvlc-module.c:1033
 msgid ""
 "These options allow you to enable special CPU optimizations. You should "
 "always leave all these enabled."
 msgstr ""
 
-#: src/libvlc-module.c:1032
+#: src/libvlc-module.c:1036
 msgid "Enable CPU MMX support"
 msgstr ""
 
-#: src/libvlc-module.c:1034
+#: src/libvlc-module.c:1038
 msgid ""
 "If your processor supports the MMX instructions set, VLC can take advantage "
 "of them."
 msgstr ""
 
-#: src/libvlc-module.c:1037
+#: src/libvlc-module.c:1041
 msgid "Enable CPU 3D Now! support"
 msgstr ""
 
-#: src/libvlc-module.c:1039
+#: src/libvlc-module.c:1043
 msgid ""
 "If your processor supports the 3D Now! instructions set, VLC can take "
 "advantage of them."
 msgstr ""
 
-#: src/libvlc-module.c:1042
+#: src/libvlc-module.c:1046
 msgid "Enable CPU MMX EXT support"
 msgstr ""
 
-#: src/libvlc-module.c:1044
+#: src/libvlc-module.c:1048
 msgid ""
 "If your processor supports the MMX EXT instructions set, VLC can take "
 "advantage of them."
 msgstr ""
 
-#: src/libvlc-module.c:1047
+#: src/libvlc-module.c:1051
 msgid "Enable CPU SSE support"
 msgstr ""
 
-#: src/libvlc-module.c:1049
+#: src/libvlc-module.c:1053
 msgid ""
 "If your processor supports the SSE instructions set, VLC can take advantage "
 "of them."
 msgstr ""
 
-#: src/libvlc-module.c:1052
+#: src/libvlc-module.c:1056
 msgid "Enable CPU SSE2 support"
 msgstr ""
 
-#: src/libvlc-module.c:1054
+#: src/libvlc-module.c:1058
 msgid ""
 "If your processor supports the SSE2 instructions set, VLC can take advantage "
 "of them."
 msgstr ""
 
-#: src/libvlc-module.c:1057
+#: src/libvlc-module.c:1061
 msgid "Enable CPU SSE3 support"
 msgstr ""
 
-#: src/libvlc-module.c:1059
+#: src/libvlc-module.c:1063
 msgid ""
 "If your processor supports the SSE3 instructions set, VLC can take advantage "
 "of them."
 msgstr ""
 
-#: src/libvlc-module.c:1062
+#: src/libvlc-module.c:1066
 msgid "Enable CPU SSSE3 support"
 msgstr ""
 
-#: src/libvlc-module.c:1064
+#: src/libvlc-module.c:1068
 msgid ""
 "If your processor supports the SSSE3 instructions set, VLC can take "
 "advantage of them."
 msgstr ""
 
-#: src/libvlc-module.c:1067
+#: src/libvlc-module.c:1071
 msgid "Enable CPU SSE4.1 support"
 msgstr ""
 
-#: src/libvlc-module.c:1069
+#: src/libvlc-module.c:1073
 msgid ""
 "If your processor supports the SSE4.1 instructions set, VLC can take "
 "advantage of them."
 msgstr ""
 
-#: src/libvlc-module.c:1072
+#: src/libvlc-module.c:1076
 msgid "Enable CPU SSE4.2 support"
 msgstr ""
 
-#: src/libvlc-module.c:1074
+#: src/libvlc-module.c:1078
 msgid ""
 "If your processor supports the SSE4.2 instructions set, VLC can take "
 "advantage of them."
 msgstr ""
 
-#: src/libvlc-module.c:1077
+#: src/libvlc-module.c:1081
 msgid "Enable CPU AltiVec support"
 msgstr ""
 
-#: src/libvlc-module.c:1079
+#: src/libvlc-module.c:1083
 msgid ""
 "If your processor supports the AltiVec instructions set, VLC can take "
 "advantage of them."
 msgstr ""
 
-#: src/libvlc-module.c:1084
+#: src/libvlc-module.c:1088
 msgid ""
 "These options allow you to select default modules. Leave these alone unless "
 "you really know what you are doing."
 msgstr ""
 
-#: src/libvlc-module.c:1087
+#: src/libvlc-module.c:1091
 msgid "Memory copy module"
 msgstr ""
 
-#: src/libvlc-module.c:1089
+#: src/libvlc-module.c:1093
 msgid ""
 "You can select which memory copy module you want to use. By default VLC will "
 "select the fastest one supported by your hardware."
 msgstr ""
 
-#: src/libvlc-module.c:1092
+#: src/libvlc-module.c:1096
 msgid "Access module"
 msgstr "Modúl rochtana"
 
-#: src/libvlc-module.c:1094
+#: src/libvlc-module.c:1098
 msgid ""
 "This allows you to force an access module. You can use it if the correct "
 "access is not automatically detected. You should not set this as a global "
 "option unless you really know what you are doing."
 msgstr ""
 
-#: src/libvlc-module.c:1098
+#: src/libvlc-module.c:1102
 msgid "Stream filter module"
-msgstr ""
+msgstr "Modúl scagaire an tsrutha"
 
-#: src/libvlc-module.c:1100
+#: src/libvlc-module.c:1104
 msgid "Stream filters are used to modify the stream that is being read. "
 msgstr ""
+"Baintear feidhm as scagairí srutha chun an sruth atá á léamh a mhionathrú. "
 
-#: src/libvlc-module.c:1102
+#: src/libvlc-module.c:1106
 msgid "Demux module"
 msgstr ""
 
-#: src/libvlc-module.c:1104
+#: src/libvlc-module.c:1108
 msgid ""
 "Demultiplexers are used to separate the \"elementary\" streams (like audio "
 "and video streams). You can use it if the correct demuxer is not "
@@ -3064,11 +3077,11 @@ msgid ""
 "you really know what you are doing."
 msgstr ""
 
-#: src/libvlc-module.c:1109
+#: src/libvlc-module.c:1113
 msgid "Allow real-time priority"
 msgstr "Ceadaigh tosaíocht fíor-ama"
 
-#: src/libvlc-module.c:1111
+#: src/libvlc-module.c:1115
 msgid ""
 "Running VLC in real-time priority will allow for much more precise "
 "scheduling and yield better, especially when streaming content. It can "
@@ -3076,105 +3089,105 @@ msgid ""
 "only activate this if you know what you're doing."
 msgstr ""
 
-#: src/libvlc-module.c:1117
+#: src/libvlc-module.c:1121
 msgid "Adjust VLC priority"
 msgstr "Mionathraigh tosaíocht VLC"
 
-#: src/libvlc-module.c:1119
+#: src/libvlc-module.c:1123
 msgid ""
 "This option adds an offset (positive or negative) to VLC default priorities. "
 "You can use it to tune VLC priority against other programs, or against other "
 "VLC instances."
 msgstr ""
 
-#: src/libvlc-module.c:1123
+#: src/libvlc-module.c:1127
 msgid "(Experimental) Don't do caching at the access level."
 msgstr ""
 
-#: src/libvlc-module.c:1125
+#: src/libvlc-module.c:1129
 msgid ""
 "This option is useful if you want to lower the latency when reading a stream"
 msgstr ""
 
-#: src/libvlc-module.c:1128
+#: src/libvlc-module.c:1132
 msgid "Modules search path"
 msgstr ""
 
-#: src/libvlc-module.c:1130
+#: src/libvlc-module.c:1134
 msgid ""
 "Additional path for VLC to look for its modules. You can add several paths "
 "by concatenating them using \" PATH_SEP \" as separator"
 msgstr ""
 
-#: src/libvlc-module.c:1133
+#: src/libvlc-module.c:1137
 msgid "Data search path"
 msgstr ""
 
-#: src/libvlc-module.c:1135
+#: src/libvlc-module.c:1139
 msgid "Override the default data/share search path."
 msgstr ""
 
-#: src/libvlc-module.c:1137
+#: src/libvlc-module.c:1141
 msgid "VLM configuration file"
 msgstr "Comhad cumraíochta VLM"
 
-#: src/libvlc-module.c:1139
+#: src/libvlc-module.c:1143
 msgid "Read a VLM configuration file as soon as VLM is started."
 msgstr ""
 
-#: src/libvlc-module.c:1141
+#: src/libvlc-module.c:1145
 msgid "Use a plugins cache"
 msgstr "Bain feidhm as taisce breiseáin"
 
-#: src/libvlc-module.c:1143
+#: src/libvlc-module.c:1147
 msgid "Use a plugins cache which will greatly improve the startup time of VLC."
 msgstr ""
 
-#: src/libvlc-module.c:1145
+#: src/libvlc-module.c:1149
 msgid "Locally collect statistics"
 msgstr ""
 
-#: src/libvlc-module.c:1147
+#: src/libvlc-module.c:1151
 msgid "Collect miscellaneous local statistics about the playing media."
 msgstr ""
 
-#: src/libvlc-module.c:1149
+#: src/libvlc-module.c:1153
 msgid "Run as daemon process"
 msgstr ""
 
-#: src/libvlc-module.c:1151
+#: src/libvlc-module.c:1155
 msgid "Runs VLC as a background daemon process."
 msgstr ""
 
-#: src/libvlc-module.c:1153
+#: src/libvlc-module.c:1157
 msgid "Write process id to file"
 msgstr ""
 
-#: src/libvlc-module.c:1155
+#: src/libvlc-module.c:1159
 msgid "Writes process id into specified file."
 msgstr ""
 
-#: src/libvlc-module.c:1157
+#: src/libvlc-module.c:1161
 msgid "Log to file"
 msgstr ""
 
-#: src/libvlc-module.c:1159
+#: src/libvlc-module.c:1163
 msgid "Log all VLC messages to a text file."
 msgstr "Cuir i dtaisce gach teachtaireacht VLC mar chomhad téacs."
 
-#: src/libvlc-module.c:1161
+#: src/libvlc-module.c:1165
 msgid "Log to syslog"
 msgstr ""
 
-#: src/libvlc-module.c:1163
+#: src/libvlc-module.c:1167
 msgid "Log all VLC messages to syslog (UNIX systems)."
 msgstr ""
 
-#: src/libvlc-module.c:1165
+#: src/libvlc-module.c:1169
 msgid "Allow only one running instance"
 msgstr "Ceadaigh ásc amháin a bheith ag rith"
 
-#: src/libvlc-module.c:1168
+#: src/libvlc-module.c:1172
 msgid ""
 "Allowing only one running instance of VLC can sometimes be useful, for "
 "example if you associated VLC with some media types and you don't want a new "
@@ -3183,7 +3196,7 @@ msgid ""
 "running instance or enqueue it."
 msgstr ""
 
-#: src/libvlc-module.c:1175
+#: src/libvlc-module.c:1179
 msgid ""
 "Allowing only one running instance of VLC can sometimes be useful, for "
 "example if you associated VLC with some media types and you don't want a new "
@@ -3193,27 +3206,27 @@ msgid ""
 "active and the running instance of VLC to use D-Bus control interface."
 msgstr ""
 
-#: src/libvlc-module.c:1184
+#: src/libvlc-module.c:1188
 msgid "VLC is started from file association"
 msgstr ""
 
-#: src/libvlc-module.c:1186
+#: src/libvlc-module.c:1190
 msgid "Tell VLC that it is being launched due to a file association in the OS"
 msgstr ""
 
-#: src/libvlc-module.c:1189
+#: src/libvlc-module.c:1193
 msgid "One instance when started from file"
 msgstr "Ásc amháin nuair atá sé tosaithe ó chomhad."
 
-#: src/libvlc-module.c:1191
+#: src/libvlc-module.c:1195
 msgid "Allow only one running instance when started from file."
 msgstr "Ceadaigh ásc amháin nuair atá sé tosaithe ó chomhad."
 
-#: src/libvlc-module.c:1193
+#: src/libvlc-module.c:1197
 msgid "Increase the priority of the process"
 msgstr ""
 
-#: src/libvlc-module.c:1195
+#: src/libvlc-module.c:1199
 msgid ""
 "Increasing the priority of the process will very likely improve your playing "
 "experience as it allows VLC not to be disturbed by other applications that "
@@ -3223,115 +3236,115 @@ msgid ""
 "machine."
 msgstr ""
 
-#: src/libvlc-module.c:1203
+#: src/libvlc-module.c:1207
 msgid "Enqueue items to playlist when in one instance mode"
 msgstr ""
 
-#: src/libvlc-module.c:1205
+#: src/libvlc-module.c:1209
 msgid ""
 "When using the one instance only option, enqueue items to playlist and keep "
 "playing current item."
 msgstr ""
 
-#: src/libvlc-module.c:1214
+#: src/libvlc-module.c:1218
 msgid ""
 "These options define the behavior of the playlist. Some of them can be "
 "overridden in the playlist dialog box."
 msgstr ""
 
-#: src/libvlc-module.c:1217
+#: src/libvlc-module.c:1221
 msgid "Automatically preparse files"
 msgstr "Miondealaigh comhaid roimh ré go huathoibríoch"
 
-#: src/libvlc-module.c:1219
+#: src/libvlc-module.c:1223
 msgid ""
 "Automatically preparse files added to the playlist (to retrieve some "
 "metadata)."
 msgstr ""
 
-#: src/libvlc-module.c:1222
+#: src/libvlc-module.c:1226
 msgid "Album art policy"
 msgstr "Beartas i dtaca le ealaíon albaim"
 
-#: src/libvlc-module.c:1224
+#: src/libvlc-module.c:1228
 msgid "Choose how album art will be downloaded."
 msgstr "Roghnaigh conas mar a íosluchtófar ealaíon albaim."
 
-#: src/libvlc-module.c:1230
+#: src/libvlc-module.c:1234
 msgid "Manual download only"
 msgstr "Íosluchtú de láimh amháin"
 
-#: src/libvlc-module.c:1231
+#: src/libvlc-module.c:1235
 msgid "When track starts playing"
 msgstr "Nuair a thosaíonn rian ag seinm"
 
-#: src/libvlc-module.c:1232
+#: src/libvlc-module.c:1236
 msgid "As soon as track is added"
 msgstr "Chomh luath agus a chuirtear rian leis"
 
-#: src/libvlc-module.c:1234
+#: src/libvlc-module.c:1238
 msgid "Services discovery modules"
 msgstr ""
 
-#: src/libvlc-module.c:1236
+#: src/libvlc-module.c:1240
 msgid ""
 "Specifies the services discovery modules to load, separated by colons. "
 "Typical values are sap, hal, ..."
 msgstr ""
 
-#: src/libvlc-module.c:1239
+#: src/libvlc-module.c:1243
 msgid "Play files randomly forever"
 msgstr "Seinn na comhaid go fánach go deo."
 
-#: src/libvlc-module.c:1241
+#: src/libvlc-module.c:1245
 msgid "VLC will randomly play files in the playlist until interrupted."
 msgstr "Seinnfidh VLC comhaid sa sheinnréim go fánach go dtí go triosctar é."
 
-#: src/libvlc-module.c:1243
+#: src/libvlc-module.c:1247
 msgid "Repeat all"
 msgstr "Athsheinn uile"
 
-#: src/libvlc-module.c:1245
+#: src/libvlc-module.c:1249
 msgid "VLC will keep playing the playlist indefinitely."
 msgstr ""
 
-#: src/libvlc-module.c:1247
+#: src/libvlc-module.c:1251
 msgid "Repeat current item"
 msgstr "Athsheinn an mhír reatha"
 
-#: src/libvlc-module.c:1249
+#: src/libvlc-module.c:1253
 msgid "VLC will keep playing the current playlist item."
 msgstr ""
 
-#: src/libvlc-module.c:1251
+#: src/libvlc-module.c:1255
 msgid "Play and stop"
 msgstr "Seinn agus stad"
 
-#: src/libvlc-module.c:1253
+#: src/libvlc-module.c:1257
 msgid "Stop the playlist after each played playlist item."
 msgstr ""
 
-#: src/libvlc-module.c:1255
+#: src/libvlc-module.c:1259
 msgid "Play and exit"
 msgstr "Seinn agus scoir"
 
-#: src/libvlc-module.c:1257
+#: src/libvlc-module.c:1261
 msgid "Exit if there are no more items in the playlist."
 msgstr "Scoir mura bhfuil aon rud eile le seinm."
 
-#: src/libvlc-module.c:1259
+#: src/libvlc-module.c:1263
 msgid "Play and pause"
 msgstr "Seinn agus cuir ar sos"
 
-#: src/libvlc-module.c:1261
+#: src/libvlc-module.c:1265
 msgid "Pause each item in the playlist on the last frame."
 msgstr ""
 
-#: src/libvlc-module.c:1263
+#: src/libvlc-module.c:1267
 msgid "Use media library"
 msgstr "Bain feidhm as an leabharlann meán"
 
-#: src/libvlc-module.c:1265
+#: src/libvlc-module.c:1269
 msgid ""
 "The media library is automatically saved and reloaded each time you start "
 "VLC."
@@ -3339,21 +3352,21 @@ msgstr ""
 "Cuirtear an leabharlann meán i dtaisce go huathoibríoch agus athluchtaítear "
 "é gach uair a thosaíonn tú VLC."
 
-#: src/libvlc-module.c:1268
+#: src/libvlc-module.c:1272
 msgid "Display playlist tree"
 msgstr ""
 
-#: src/libvlc-module.c:1270
+#: src/libvlc-module.c:1274
 msgid ""
 "The playlist can use a tree to categorize some items, like the contents of a "
 "directory."
 msgstr ""
 
-#: src/libvlc-module.c:1279
+#: src/libvlc-module.c:1283
 msgid "These settings are the global VLC key bindings, known as \"hotkeys\"."
 msgstr ""
 
-#: src/libvlc-module.c:1282 src/video_output/vout_intf.c:357
+#: src/libvlc-module.c:1286 src/video_output/vout_intf.c:357
 #: modules/gui/macosx/controls.m:415 modules/gui/macosx/controls.m:471
 #: modules/gui/macosx/controls.m:1048 modules/gui/macosx/controls.m:1081
 #: modules/gui/macosx/embeddedwindow.m:68 modules/gui/macosx/intf.m:609
@@ -3364,80 +3377,80 @@ msgstr ""
 msgid "Fullscreen"
 msgstr "Lánscáileán"
 
-#: src/libvlc-module.c:1283
+#: src/libvlc-module.c:1287
 msgid "Select the hotkey to use to swap fullscreen state."
 msgstr ""
 
-#: src/libvlc-module.c:1284
+#: src/libvlc-module.c:1288
 msgid "Leave fullscreen"
 msgstr "Fág an lánscáileán"
 
-#: src/libvlc-module.c:1285
+#: src/libvlc-module.c:1289
 msgid "Select the hotkey to use to leave fullscreen state."
 msgstr "Roghnaigh an cnaipe aicearra chun éirí as lánscáileán."
 
-#: src/libvlc-module.c:1286
+#: src/libvlc-module.c:1290
 msgid "Play/Pause"
 msgstr "Seinn/Cuir ar sos"
 
-#: src/libvlc-module.c:1287
+#: src/libvlc-module.c:1291
 msgid "Select the hotkey to use to swap paused state."
 msgstr ""
 
-#: src/libvlc-module.c:1288
+#: src/libvlc-module.c:1292
 msgid "Pause only"
 msgstr "Cuir ar sos amháin"
 
-#: src/libvlc-module.c:1289
+#: src/libvlc-module.c:1293
 msgid "Select the hotkey to use to pause."
 msgstr "Roghnaigh an cnaipe aicearra chun nithe a chur ar sos."
 
-#: src/libvlc-module.c:1290
+#: src/libvlc-module.c:1294
 msgid "Play only"
 msgstr "Seinn amháin"
 
-#: src/libvlc-module.c:1291
+#: src/libvlc-module.c:1295
 msgid "Select the hotkey to use to play."
 msgstr "Roghnaigh an cnaipe aicearra chun nithe a sheinnt."
 
-#: src/libvlc-module.c:1292 modules/gui/macosx/controls.m:971
+#: src/libvlc-module.c:1296 modules/gui/macosx/controls.m:971
 #: modules/gui/macosx/intf.m:652 modules/gui/qt4/components/controller.hpp:105
 #: modules/gui/qt4/components/controller.hpp:113
 msgid "Faster"
 msgstr "Níos tapúla"
 
-#: src/libvlc-module.c:1293 src/libvlc-module.c:1299
+#: src/libvlc-module.c:1297 src/libvlc-module.c:1303
 msgid "Select the hotkey to use for fast forward playback."
 msgstr ""
 
-#: src/libvlc-module.c:1294 modules/gui/macosx/controls.m:972
+#: src/libvlc-module.c:1298 modules/gui/macosx/controls.m:972
 #: modules/gui/macosx/intf.m:653 modules/gui/qt4/components/controller.hpp:105
 #: modules/gui/qt4/components/controller.hpp:113
 msgid "Slower"
 msgstr "Níos moille"
 
-#: src/libvlc-module.c:1295 src/libvlc-module.c:1301
+#: src/libvlc-module.c:1299 src/libvlc-module.c:1305
 msgid "Select the hotkey to use for slow motion playback."
 msgstr ""
 
-#: src/libvlc-module.c:1296 modules/gui/macosx/controls.m:973
+#: src/libvlc-module.c:1300 modules/gui/macosx/controls.m:973
 #: modules/gui/macosx/intf.m:654
 msgid "Normal rate"
 msgstr "Gnáth luas"
 
-#: src/libvlc-module.c:1297
+#: src/libvlc-module.c:1301
 msgid "Select the hotkey to set the playback rate back to normal."
 msgstr ""
 
-#: src/libvlc-module.c:1298 modules/gui/qt4/menus.cpp:808
+#: src/libvlc-module.c:1302 modules/gui/qt4/menus.cpp:808
 msgid "Faster (fine)"
 msgstr "Níos tapúla (mín)"
 
-#: src/libvlc-module.c:1300 modules/gui/qt4/menus.cpp:816
+#: src/libvlc-module.c:1304 modules/gui/qt4/menus.cpp:816
 msgid "Slower (fine)"
 msgstr "Níos moille (mín)"
 
-#: src/libvlc-module.c:1302 modules/control/hotkeys.c:696
+#: src/libvlc-module.c:1306 modules/control/hotkeys.c:696
 #: modules/gui/macosx/about.m:207 modules/gui/macosx/controls.m:993
 #: modules/gui/macosx/embeddedwindow.m:73 modules/gui/macosx/intf.m:608
 #: modules/gui/macosx/intf.m:656 modules/gui/macosx/intf.m:744
@@ -3449,11 +3462,11 @@ msgstr "Níos moille (mín)"
 msgid "Next"
 msgstr "Ar aghaidh"
 
-#: src/libvlc-module.c:1303
+#: src/libvlc-module.c:1307
 msgid "Select the hotkey to use to skip to the next item in the playlist."
 msgstr ""
 
-#: src/libvlc-module.c:1304 modules/control/hotkeys.c:702
+#: src/libvlc-module.c:1308 modules/control/hotkeys.c:702
 #: modules/gui/macosx/about.m:208 modules/gui/macosx/controls.m:992
 #: modules/gui/macosx/embeddedwindow.m:71 modules/gui/macosx/intf.m:603
 #: modules/gui/macosx/intf.m:655 modules/gui/macosx/intf.m:745
@@ -3463,11 +3476,11 @@ msgstr ""
 msgid "Previous"
 msgstr "Roimhe"
 
-#: src/libvlc-module.c:1305
+#: src/libvlc-module.c:1309
 msgid "Select the hotkey to use to skip to the previous item in the playlist."
 msgstr ""
 
-#: src/libvlc-module.c:1306 modules/gui/macosx/controls.m:984
+#: src/libvlc-module.c:1310 modules/gui/macosx/controls.m:984
 #: modules/gui/macosx/embeddedwindow.m:72 modules/gui/macosx/intf.m:606
 #: modules/gui/macosx/intf.m:651 modules/gui/macosx/intf.m:743
 #: modules/gui/macosx/intf.m:750 modules/gui/qt4/components/controller.hpp:104
@@ -3475,11 +3488,11 @@ msgstr ""
 msgid "Stop"
 msgstr "Stad"
 
-#: src/libvlc-module.c:1307
+#: src/libvlc-module.c:1311
 msgid "Select the hotkey to stop playback."
 msgstr "Roghnaigh an cnaipe aicearra chun an athsheinm a stad."
 
-#: src/libvlc-module.c:1308 modules/gui/fbosd.c:127 modules/gui/fbosd.c:195
+#: src/libvlc-module.c:1312 modules/gui/fbosd.c:127 modules/gui/fbosd.c:195
 #: modules/gui/macosx/bookmarks.m:96 modules/gui/macosx/bookmarks.m:105
 #: modules/gui/macosx/embeddedwindow.m:70 modules/gui/macosx/intf.m:611
 #: modules/video_filter/marq.c:158 modules/video_filter/rss.c:201
@@ -3487,656 +3500,656 @@ msgstr "Roghnaigh an cnaipe aicearra chun an athsheinm a stad."
 msgid "Position"
 msgstr "Suíomh"
 
-#: src/libvlc-module.c:1309
+#: src/libvlc-module.c:1313
 msgid "Select the hotkey to display the position."
 msgstr ""
 
-#: src/libvlc-module.c:1311
+#: src/libvlc-module.c:1315
 msgid "Very short backwards jump"
 msgstr "Léim fíorbheag siar"
 
-#: src/libvlc-module.c:1313
+#: src/libvlc-module.c:1317
 msgid "Select the hotkey to make a very short backwards jump."
 msgstr ""
 
-#: src/libvlc-module.c:1314
+#: src/libvlc-module.c:1318
 msgid "Short backwards jump"
 msgstr "Léim bheag siar"
 
-#: src/libvlc-module.c:1316
+#: src/libvlc-module.c:1320
 msgid "Select the hotkey to make a short backwards jump."
 msgstr ""
 
-#: src/libvlc-module.c:1317
+#: src/libvlc-module.c:1321
 msgid "Medium backwards jump"
 msgstr "Scoth-léim siar"
 
-#: src/libvlc-module.c:1319
+#: src/libvlc-module.c:1323
 msgid "Select the hotkey to make a medium backwards jump."
 msgstr ""
 
-#: src/libvlc-module.c:1320
+#: src/libvlc-module.c:1324
 msgid "Long backwards jump"
 msgstr "Léim fhada siar"
 
-#: src/libvlc-module.c:1322
+#: src/libvlc-module.c:1326
 msgid "Select the hotkey to make a long backwards jump."
 msgstr ""
 
-#: src/libvlc-module.c:1324
+#: src/libvlc-module.c:1328
 msgid "Very short forward jump"
 msgstr "Léim fíorbheag ar aghaidh"
 
-#: src/libvlc-module.c:1326
+#: src/libvlc-module.c:1330
 msgid "Select the hotkey to make a very short forward jump."
 msgstr ""
 
-#: src/libvlc-module.c:1327
+#: src/libvlc-module.c:1331
 msgid "Short forward jump"
 msgstr "Léim bheag ar aghaidh"
 
-#: src/libvlc-module.c:1329
+#: src/libvlc-module.c:1333
 msgid "Select the hotkey to make a short forward jump."
 msgstr ""
 
-#: src/libvlc-module.c:1330
+#: src/libvlc-module.c:1334
 msgid "Medium forward jump"
 msgstr "Scoth-léim ar aghaidh"
 
-#: src/libvlc-module.c:1332
+#: src/libvlc-module.c:1336
 msgid "Select the hotkey to make a medium forward jump."
 msgstr ""
 
-#: src/libvlc-module.c:1333
+#: src/libvlc-module.c:1337
 msgid "Long forward jump"
 msgstr "Léim fhada ar aghaidh"
 
-#: src/libvlc-module.c:1335
+#: src/libvlc-module.c:1339
 msgid "Select the hotkey to make a long forward jump."
 msgstr ""
 
-#: src/libvlc-module.c:1336 modules/control/hotkeys.c:713
+#: src/libvlc-module.c:1340 modules/control/hotkeys.c:713
 msgid "Next frame"
 msgstr "Fráma ar aghaidh"
 
-#: src/libvlc-module.c:1338
+#: src/libvlc-module.c:1342
 msgid "Select the hotkey to got to the next video frame."
 msgstr ""
 
-#: src/libvlc-module.c:1340
+#: src/libvlc-module.c:1344
 msgid "Very short jump length"
 msgstr ""
 
-#: src/libvlc-module.c:1341
+#: src/libvlc-module.c:1345
 msgid "Very short jump length, in seconds."
 msgstr ""
 
-#: src/libvlc-module.c:1342
+#: src/libvlc-module.c:1346
 msgid "Short jump length"
 msgstr "Aga na léime giorra"
 
-#: src/libvlc-module.c:1343
+#: src/libvlc-module.c:1347
 msgid "Short jump length, in seconds."
 msgstr ""
 
-#: src/libvlc-module.c:1344
+#: src/libvlc-module.c:1348
 msgid "Medium jump length"
 msgstr "Aga na scoth-léime"
 
-#: src/libvlc-module.c:1345
+#: src/libvlc-module.c:1349
 msgid "Medium jump length, in seconds."
 msgstr ""
 
-#: src/libvlc-module.c:1346
+#: src/libvlc-module.c:1350
 msgid "Long jump length"
 msgstr "Aga na léime fada"
 
-#: src/libvlc-module.c:1347
+#: src/libvlc-module.c:1351
 msgid "Long jump length, in seconds."
 msgstr ""
 
-#: src/libvlc-module.c:1349 modules/control/hotkeys.c:179
+#: src/libvlc-module.c:1353 modules/control/hotkeys.c:179
 #: modules/gui/qt4/components/controller.hpp:108
 #: modules/gui/qt4/components/controller.hpp:118 modules/gui/qt4/menus.cpp:883
 #: modules/gui/skins2/commands/cmd_quit.cpp:40
 msgid "Quit"
 msgstr "Scoir"
 
-#: src/libvlc-module.c:1350
+#: src/libvlc-module.c:1354
 msgid "Select the hotkey to quit the application."
 msgstr "Roghnaigh an cnaipe aicearra chun scoir ón oideasra."
 
-#: src/libvlc-module.c:1351
+#: src/libvlc-module.c:1355
 msgid "Navigate up"
 msgstr "Bog suas"
 
-#: src/libvlc-module.c:1352
+#: src/libvlc-module.c:1356
 msgid "Select the key to move the selector up in DVD menus."
 msgstr ""
 
-#: src/libvlc-module.c:1353
+#: src/libvlc-module.c:1357
 msgid "Navigate down"
 msgstr "Bog síos"
 
-#: src/libvlc-module.c:1354
+#: src/libvlc-module.c:1358
 msgid "Select the key to move the selector down in DVD menus."
 msgstr ""
 
-#: src/libvlc-module.c:1355
+#: src/libvlc-module.c:1359
 msgid "Navigate left"
 msgstr "Bog ar chlé"
 
-#: src/libvlc-module.c:1356
+#: src/libvlc-module.c:1360
 msgid "Select the key to move the selector left in DVD menus."
 msgstr ""
 
-#: src/libvlc-module.c:1357
+#: src/libvlc-module.c:1361
 msgid "Navigate right"
 msgstr "Bog ar dheis"
 
-#: src/libvlc-module.c:1358
+#: src/libvlc-module.c:1362
 msgid "Select the key to move the selector right in DVD menus."
 msgstr ""
 
-#: src/libvlc-module.c:1359
+#: src/libvlc-module.c:1363
 msgid "Activate"
 msgstr "Gníomhachtaigh"
 
-#: src/libvlc-module.c:1360
+#: src/libvlc-module.c:1364
 msgid "Select the key to activate selected item in DVD menus."
 msgstr ""
 
-#: src/libvlc-module.c:1361
+#: src/libvlc-module.c:1365
 msgid "Go to the DVD menu"
 msgstr "Téigh go dtí an roghchlár DVD"
 
-#: src/libvlc-module.c:1362
+#: src/libvlc-module.c:1366
 msgid "Select the key to take you to the DVD menu"
 msgstr "Roghnaigh an cnaipe chun tú a thabhairt chuig roghchlár an DVD"
 
-#: src/libvlc-module.c:1363
+#: src/libvlc-module.c:1367
 msgid "Select previous DVD title"
 msgstr "Roghnaigh an teideal DVD roimhe"
 
-#: src/libvlc-module.c:1364
+#: src/libvlc-module.c:1368
 msgid "Select the key to choose the previous title from the DVD"
 msgstr ""
 
-#: src/libvlc-module.c:1365
+#: src/libvlc-module.c:1369
 msgid "Select next DVD title"
 msgstr "Roghnaigh an teideal DVD ar aghaidh"
 
-#: src/libvlc-module.c:1366
+#: src/libvlc-module.c:1370
 msgid "Select the key to choose the next title from the DVD"
 msgstr ""
 
-#: src/libvlc-module.c:1367
+#: src/libvlc-module.c:1371
 msgid "Select prev DVD chapter"
 msgstr "Roghnaigh an chaibidil DVD roimhe"
 
-#: src/libvlc-module.c:1368
+#: src/libvlc-module.c:1372
 msgid "Select the key to choose the previous chapter from the DVD"
 msgstr ""
 
-#: src/libvlc-module.c:1369
+#: src/libvlc-module.c:1373
 msgid "Select next DVD chapter"
 msgstr "Roghnaigh an chaibidil DVD ar aghaidh"
 
-#: src/libvlc-module.c:1370
+#: src/libvlc-module.c:1374
 msgid "Select the key to choose the next chapter from the DVD"
 msgstr ""
 
-#: src/libvlc-module.c:1371
+#: src/libvlc-module.c:1375
 msgid "Volume up"
 msgstr "Airde suas"
 
-#: src/libvlc-module.c:1372
+#: src/libvlc-module.c:1376
 msgid "Select the key to increase audio volume."
 msgstr ""
 
-#: src/libvlc-module.c:1373
+#: src/libvlc-module.c:1377
 msgid "Volume down"
 msgstr "Airde síos"
 
-#: src/libvlc-module.c:1374
+#: src/libvlc-module.c:1378
 msgid "Select the key to decrease audio volume."
 msgstr ""
 
-#: src/libvlc-module.c:1375 modules/access/v4l2.c:175
+#: src/libvlc-module.c:1379 modules/access/v4l2.c:175
 #: modules/gui/macosx/controls.m:1038 modules/gui/macosx/intf.m:674
 #: modules/gui/macosx/intf.m:746 modules/gui/macosx/intf.m:755
 #: modules/gui/qt4/menus.cpp:572
 msgid "Mute"
 msgstr "Balbhaigh"
 
-#: src/libvlc-module.c:1376
+#: src/libvlc-module.c:1380
 msgid "Select the key to mute audio."
 msgstr ""
 
-#: src/libvlc-module.c:1377
+#: src/libvlc-module.c:1381
 msgid "Subtitle delay up"
 msgstr ""
 
-#: src/libvlc-module.c:1378
+#: src/libvlc-module.c:1382
 msgid "Select the key to increase the subtitle delay."
 msgstr ""
 
-#: src/libvlc-module.c:1379
+#: src/libvlc-module.c:1383
 msgid "Subtitle delay down"
 msgstr ""
 
-#: src/libvlc-module.c:1380
+#: src/libvlc-module.c:1384
 msgid "Select the key to decrease the subtitle delay."
 msgstr ""
 
-#: src/libvlc-module.c:1381
+#: src/libvlc-module.c:1385
 msgid "Subtitle position up"
 msgstr ""
 
-#: src/libvlc-module.c:1382
+#: src/libvlc-module.c:1386
 msgid "Select the key to move subtitles higher."
 msgstr ""
 
-#: src/libvlc-module.c:1383
+#: src/libvlc-module.c:1387
 msgid "Subtitle position down"
 msgstr ""
 
-#: src/libvlc-module.c:1384
+#: src/libvlc-module.c:1388
 msgid "Select the key to move subtitles lower."
 msgstr ""
 
-#: src/libvlc-module.c:1385
+#: src/libvlc-module.c:1389
 msgid "Audio delay up"
 msgstr "Moill fhuaime suas"
 
-#: src/libvlc-module.c:1386
+#: src/libvlc-module.c:1390
 msgid "Select the key to increase the audio delay."
 msgstr "Roghnaigh an cnaipe chun an mhoill fhuaime a mhéadú."
 
-#: src/libvlc-module.c:1387
+#: src/libvlc-module.c:1391
 msgid "Audio delay down"
 msgstr "Moill fhuaime síos"
 
-#: src/libvlc-module.c:1388
+#: src/libvlc-module.c:1392
 msgid "Select the key to decrease the audio delay."
 msgstr "Roghnaigh an cnaipe chun an mhoill fhuaime a laghdú."
 
-#: src/libvlc-module.c:1395
+#: src/libvlc-module.c:1399
 msgid "Play playlist bookmark 1"
 msgstr ""
 
-#: src/libvlc-module.c:1396
+#: src/libvlc-module.c:1400
 msgid "Play playlist bookmark 2"
 msgstr ""
 
-#: src/libvlc-module.c:1397
+#: src/libvlc-module.c:1401
 msgid "Play playlist bookmark 3"
 msgstr ""
 
-#: src/libvlc-module.c:1398
+#: src/libvlc-module.c:1402
 msgid "Play playlist bookmark 4"
 msgstr ""
 
-#: src/libvlc-module.c:1399
+#: src/libvlc-module.c:1403
 msgid "Play playlist bookmark 5"
 msgstr ""
 
-#: src/libvlc-module.c:1400
+#: src/libvlc-module.c:1404
 msgid "Play playlist bookmark 6"
 msgstr ""
 
-#: src/libvlc-module.c:1401
+#: src/libvlc-module.c:1405
 msgid "Play playlist bookmark 7"
 msgstr ""
 
-#: src/libvlc-module.c:1402
+#: src/libvlc-module.c:1406
 msgid "Play playlist bookmark 8"
 msgstr ""
 
-#: src/libvlc-module.c:1403
+#: src/libvlc-module.c:1407
 msgid "Play playlist bookmark 9"
 msgstr ""
 
-#: src/libvlc-module.c:1404
+#: src/libvlc-module.c:1408
 msgid "Play playlist bookmark 10"
 msgstr ""
 
-#: src/libvlc-module.c:1405
+#: src/libvlc-module.c:1409
 msgid "Select the key to play this bookmark."
 msgstr ""
 
-#: src/libvlc-module.c:1406
+#: src/libvlc-module.c:1410
 msgid "Set playlist bookmark 1"
 msgstr ""
 
-#: src/libvlc-module.c:1407
+#: src/libvlc-module.c:1411
 msgid "Set playlist bookmark 2"
 msgstr ""
 
-#: src/libvlc-module.c:1408
+#: src/libvlc-module.c:1412
 msgid "Set playlist bookmark 3"
 msgstr ""
 
-#: src/libvlc-module.c:1409
+#: src/libvlc-module.c:1413
 msgid "Set playlist bookmark 4"
 msgstr ""
 
-#: src/libvlc-module.c:1410
+#: src/libvlc-module.c:1414
 msgid "Set playlist bookmark 5"
 msgstr ""
 
-#: src/libvlc-module.c:1411
+#: src/libvlc-module.c:1415
 msgid "Set playlist bookmark 6"
 msgstr ""
 
-#: src/libvlc-module.c:1412
+#: src/libvlc-module.c:1416
 msgid "Set playlist bookmark 7"
 msgstr ""
 
-#: src/libvlc-module.c:1413
+#: src/libvlc-module.c:1417
 msgid "Set playlist bookmark 8"
 msgstr ""
 
-#: src/libvlc-module.c:1414
+#: src/libvlc-module.c:1418
 msgid "Set playlist bookmark 9"
 msgstr ""
 
-#: src/libvlc-module.c:1415
+#: src/libvlc-module.c:1419
 msgid "Set playlist bookmark 10"
 msgstr ""
 
-#: src/libvlc-module.c:1416
+#: src/libvlc-module.c:1420
 msgid "Select the key to set this playlist bookmark."
 msgstr ""
 
-#: src/libvlc-module.c:1418
+#: src/libvlc-module.c:1422
 msgid "Playlist bookmark 1"
 msgstr ""
 
-#: src/libvlc-module.c:1419
+#: src/libvlc-module.c:1423
 msgid "Playlist bookmark 2"
 msgstr ""
 
-#: src/libvlc-module.c:1420
+#: src/libvlc-module.c:1424
 msgid "Playlist bookmark 3"
 msgstr ""
 
-#: src/libvlc-module.c:1421
+#: src/libvlc-module.c:1425
 msgid "Playlist bookmark 4"
 msgstr ""
 
-#: src/libvlc-module.c:1422
+#: src/libvlc-module.c:1426
 msgid "Playlist bookmark 5"
 msgstr ""
 
-#: src/libvlc-module.c:1423
+#: src/libvlc-module.c:1427
 msgid "Playlist bookmark 6"
 msgstr ""
 
-#: src/libvlc-module.c:1424
+#: src/libvlc-module.c:1428
 msgid "Playlist bookmark 7"
 msgstr ""
 
-#: src/libvlc-module.c:1425
+#: src/libvlc-module.c:1429
 msgid "Playlist bookmark 8"
 msgstr ""
 
-#: src/libvlc-module.c:1426
+#: src/libvlc-module.c:1430
 msgid "Playlist bookmark 9"
 msgstr ""
 
-#: src/libvlc-module.c:1427
+#: src/libvlc-module.c:1431
 msgid "Playlist bookmark 10"
 msgstr ""
 
-#: src/libvlc-module.c:1429
+#: src/libvlc-module.c:1433
 msgid "This allows you to define playlist bookmarks."
 msgstr ""
 
-#: src/libvlc-module.c:1431
+#: src/libvlc-module.c:1435
 msgid "Go back in browsing history"
 msgstr ""
 
-#: src/libvlc-module.c:1432
+#: src/libvlc-module.c:1436
 msgid ""
 "Select the key to go back (to the previous media item) in the browsing "
 "history."
 msgstr ""
 
-#: src/libvlc-module.c:1433
+#: src/libvlc-module.c:1437
 msgid "Go forward in browsing history"
 msgstr ""
 
-#: src/libvlc-module.c:1434
+#: src/libvlc-module.c:1438
 msgid ""
 "Select the key to go forward (to the next media item) in the browsing "
 "history."
 msgstr ""
 
-#: src/libvlc-module.c:1436
+#: src/libvlc-module.c:1440
 msgid "Cycle audio track"
 msgstr ""
 
-#: src/libvlc-module.c:1437
+#: src/libvlc-module.c:1441
 msgid "Cycle through the available audio tracks(languages)."
 msgstr ""
 
-#: src/libvlc-module.c:1438
+#: src/libvlc-module.c:1442
 msgid "Cycle subtitle track"
 msgstr ""
 
-#: src/libvlc-module.c:1439
+#: src/libvlc-module.c:1443
 msgid "Cycle through the available subtitle tracks."
 msgstr ""
 
-#: src/libvlc-module.c:1440
+#: src/libvlc-module.c:1444
 msgid "Cycle source aspect ratio"
 msgstr ""
 
-#: src/libvlc-module.c:1441
+#: src/libvlc-module.c:1445
 msgid "Cycle through a predefined list of source aspect ratios."
 msgstr ""
 
-#: src/libvlc-module.c:1442
+#: src/libvlc-module.c:1446
 msgid "Cycle video crop"
 msgstr ""
 
-#: src/libvlc-module.c:1443
+#: src/libvlc-module.c:1447
 msgid "Cycle through a predefined list of crop formats."
 msgstr ""
 
-#: src/libvlc-module.c:1444
+#: src/libvlc-module.c:1448
 msgid "Toggle autoscaling"
 msgstr ""
 
-#: src/libvlc-module.c:1445
+#: src/libvlc-module.c:1449
 msgid "Activate or deactivate autoscaling."
 msgstr ""
 
-#: src/libvlc-module.c:1446
+#: src/libvlc-module.c:1450
 msgid "Increase scale factor"
 msgstr ""
 
-#: src/libvlc-module.c:1447
+#: src/libvlc-module.c:1451
 msgid "Increase scale factor."
 msgstr ""
 
-#: src/libvlc-module.c:1448
+#: src/libvlc-module.c:1452
 msgid "Decrease scale factor"
 msgstr ""
 
-#: src/libvlc-module.c:1449
+#: src/libvlc-module.c:1453
 msgid "Decrease scale factor."
 msgstr ""
 
-#: src/libvlc-module.c:1450
+#: src/libvlc-module.c:1454
 msgid "Cycle deinterlace modes"
 msgstr ""
 
-#: src/libvlc-module.c:1451
+#: src/libvlc-module.c:1455
 msgid "Cycle through deinterlace modes."
 msgstr ""
 
-#: src/libvlc-module.c:1452
+#: src/libvlc-module.c:1456
 msgid "Show interface"
 msgstr "Taispeáin an comhéadan"
 
-#: src/libvlc-module.c:1453
+#: src/libvlc-module.c:1457
 msgid "Raise the interface above all other windows."
 msgstr "Ardaigh an comhéadan os cionn gach fhuinneog eile."
 
-#: src/libvlc-module.c:1454
+#: src/libvlc-module.c:1458
 msgid "Hide interface"
 msgstr "Folaigh an comhéadan"
 
-#: src/libvlc-module.c:1455
+#: src/libvlc-module.c:1459
 msgid "Lower the interface below all other windows."
 msgstr "Ísligh an comhéadan faoi gach fhuinneog eile."
 
-#: src/libvlc-module.c:1456
+#: src/libvlc-module.c:1460
 msgid "Take video snapshot"
 msgstr "Tóg roghbhlúire de fhíseán"
 
-#: src/libvlc-module.c:1457
+#: src/libvlc-module.c:1461
 msgid "Takes a video snapshot and writes it to disk."
 msgstr ""
 "Tógann sé roghbhlúire den bhfíseán agus scríobhann sé chuig an diosca é."
 
-#: src/libvlc-module.c:1459 modules/gui/qt4/components/controller.hpp:107
+#: src/libvlc-module.c:1463 modules/gui/qt4/components/controller.hpp:107
 #: modules/gui/qt4/components/controller.hpp:116
 #: modules/stream_out/record.c:60
 msgid "Record"
 msgstr "Déan taifead"
 
-#: src/libvlc-module.c:1460
+#: src/libvlc-module.c:1464
 msgid "Record access filter start/stop."
 msgstr ""
 
-#: src/libvlc-module.c:1461
+#: src/libvlc-module.c:1465
 msgid "Dump"
 msgstr "Folmhaigh"
 
-#: src/libvlc-module.c:1462
+#: src/libvlc-module.c:1466
 msgid "Media dump access filter trigger."
 msgstr ""
 
-#: src/libvlc-module.c:1464
+#: src/libvlc-module.c:1468
 msgid "Normal/Repeat/Loop"
 msgstr "Gnáth/Athsheinn/Lúb"
 
-#: src/libvlc-module.c:1465
+#: src/libvlc-module.c:1469
 msgid "Toggle Normal/Repeat/Loop playlist modes"
 msgstr ""
 
-#: src/libvlc-module.c:1468
+#: src/libvlc-module.c:1472
 msgid "Toggle random playlist playback"
 msgstr ""
 
-#: src/libvlc-module.c:1473 src/libvlc-module.c:1474
+#: src/libvlc-module.c:1477 src/libvlc-module.c:1478
 msgid "Un-Zoom"
 msgstr ""
 
-#: src/libvlc-module.c:1476 src/libvlc-module.c:1477
+#: src/libvlc-module.c:1480 src/libvlc-module.c:1481
 msgid "Crop one pixel from the top of the video"
 msgstr ""
 
-#: src/libvlc-module.c:1478 src/libvlc-module.c:1479
+#: src/libvlc-module.c:1482 src/libvlc-module.c:1483
 msgid "Uncrop one pixel from the top of the video"
 msgstr ""
 
-#: src/libvlc-module.c:1481 src/libvlc-module.c:1482
+#: src/libvlc-module.c:1485 src/libvlc-module.c:1486
 msgid "Crop one pixel from the left of the video"
 msgstr ""
 
-#: src/libvlc-module.c:1483 src/libvlc-module.c:1484
+#: src/libvlc-module.c:1487 src/libvlc-module.c:1488
 msgid "Uncrop one pixel from the left of the video"
 msgstr ""
 
-#: src/libvlc-module.c:1486 src/libvlc-module.c:1487
+#: src/libvlc-module.c:1490 src/libvlc-module.c:1491
 msgid "Crop one pixel from the bottom of the video"
 msgstr ""
 
-#: src/libvlc-module.c:1488 src/libvlc-module.c:1489
+#: src/libvlc-module.c:1492 src/libvlc-module.c:1493
 msgid "Uncrop one pixel from the bottom of the video"
 msgstr ""
 
-#: src/libvlc-module.c:1491 src/libvlc-module.c:1492
+#: src/libvlc-module.c:1495 src/libvlc-module.c:1496
 msgid "Crop one pixel from the right of the video"
 msgstr ""
 
-#: src/libvlc-module.c:1493 src/libvlc-module.c:1494
+#: src/libvlc-module.c:1497 src/libvlc-module.c:1498
 msgid "Uncrop one pixel from the right of the video"
 msgstr ""
 
-#: src/libvlc-module.c:1496
+#: src/libvlc-module.c:1500
 msgid "Toggle wallpaper mode in video output"
 msgstr ""
 
-#: src/libvlc-module.c:1498
+#: src/libvlc-module.c:1502
 msgid "Toggle wallpaper mode in video output."
 msgstr ""
 
-#: src/libvlc-module.c:1500 src/libvlc-module.c:1501
+#: src/libvlc-module.c:1504 src/libvlc-module.c:1505
 msgid "Display OSD menu on top of video output"
 msgstr ""
 
-#: src/libvlc-module.c:1502
+#: src/libvlc-module.c:1506
 msgid "Do not display OSD menu on video output"
 msgstr ""
 
-#: src/libvlc-module.c:1503
+#: src/libvlc-module.c:1507
 msgid "Do not display OSD menu on top of video output"
 msgstr ""
 
-#: src/libvlc-module.c:1504
+#: src/libvlc-module.c:1508
 msgid "Highlight widget on the right"
 msgstr ""
 
-#: src/libvlc-module.c:1506
+#: src/libvlc-module.c:1510
 msgid "Move OSD menu highlight to the widget on the right"
 msgstr ""
 
-#: src/libvlc-module.c:1507
+#: src/libvlc-module.c:1511
 msgid "Highlight widget on the left"
 msgstr ""
 
-#: src/libvlc-module.c:1509
+#: src/libvlc-module.c:1513
 msgid "Move OSD menu highlight to the widget on the left"
 msgstr ""
 
-#: src/libvlc-module.c:1510
+#: src/libvlc-module.c:1514
 msgid "Highlight widget on top"
 msgstr ""
 
-#: src/libvlc-module.c:1512
+#: src/libvlc-module.c:1516
 msgid "Move OSD menu highlight to the widget on top"
 msgstr ""
 
-#: src/libvlc-module.c:1513
+#: src/libvlc-module.c:1517
 msgid "Highlight widget below"
 msgstr "Aibhsigh an ghiuirléid thíos"
 
-#: src/libvlc-module.c:1515
+#: src/libvlc-module.c:1519
 msgid "Move OSD menu highlight to the widget below"
 msgstr ""
 
-#: src/libvlc-module.c:1516
+#: src/libvlc-module.c:1520
 msgid "Select current widget"
 msgstr "Roghnaigh an giuirléid reatha"
 
-#: src/libvlc-module.c:1518
+#: src/libvlc-module.c:1522
 msgid "Selecting current widget performs the associated action."
 msgstr ""
 
-#: src/libvlc-module.c:1520
+#: src/libvlc-module.c:1524
 msgid "Cycle through audio devices"
 msgstr ""
 
-#: src/libvlc-module.c:1521
+#: src/libvlc-module.c:1525
 msgid "Cycle through available audio devices"
 msgstr ""
 
-#: src/libvlc-module.c:1694 src/video_output/vout_intf.c:363
+#: src/libvlc-module.c:1698 src/video_output/vout_intf.c:363
 #: modules/gui/macosx/controls.m:455 modules/gui/macosx/controls.m:1047
 #: modules/gui/macosx/intf.m:691 modules/gui/macosx/intf.m:757
 #: modules/gui/qt4/components/controller.hpp:106
@@ -4144,139 +4157,139 @@ msgstr ""
 msgid "Snapshot"
 msgstr "Roghbhlúire"
 
-#: src/libvlc-module.c:1711
+#: src/libvlc-module.c:1715
 msgid "Window properties"
 msgstr "Airíonna na fuinneoige"
 
-#: src/libvlc-module.c:1770
+#: src/libvlc-module.c:1774
 msgid "Subpictures"
 msgstr "Foíomhánna"
 
-#: src/libvlc-module.c:1778 modules/codec/subtitles/subsdec.c:206
+#: src/libvlc-module.c:1782 modules/codec/subtitles/subsdec.c:206
 #: modules/demux/kate_categories.c:41 modules/demux/kate_categories.c:54
 #: modules/demux/subtitle.c:73 modules/gui/qt4/ui/profiles.h:502
 #: modules/gui/qt4/ui/profiles.h:504
 msgid "Subtitles"
 msgstr "Fotheidil"
 
-#: src/libvlc-module.c:1796 modules/stream_out/transcode/transcode.c:115
+#: src/libvlc-module.c:1800 modules/stream_out/transcode/transcode.c:115
 msgid "Overlays"
 msgstr "Forleaganacha"
 
-#: src/libvlc-module.c:1804
+#: src/libvlc-module.c:1808
 msgid "Track settings"
 msgstr "Socruithe an riain"
 
-#: src/libvlc-module.c:1834
+#: src/libvlc-module.c:1838
 msgid "Playback control"
 msgstr "Rialadh athsheanma"
 
-#: src/libvlc-module.c:1862
+#: src/libvlc-module.c:1866
 msgid "Default devices"
 msgstr "Gléasanna réamhshocraithe"
 
-#: src/libvlc-module.c:1871
+#: src/libvlc-module.c:1875
 msgid "Network settings"
 msgstr "Socruithe an líonra"
 
-#: src/libvlc-module.c:1883
+#: src/libvlc-module.c:1887
 msgid "Socks proxy"
 msgstr ""
 
-#: src/libvlc-module.c:1892 modules/demux/kate_categories.c:47
+#: src/libvlc-module.c:1896 modules/demux/kate_categories.c:47
 msgid "Metadata"
 msgstr "Meiteashonraí"
 
-#: src/libvlc-module.c:1943
+#: src/libvlc-module.c:1947
 msgid "Decoders"
 msgstr "Díchódóirí"
 
-#: src/libvlc-module.c:1950 modules/access/v4l2.c:86
+#: src/libvlc-module.c:1954 modules/access/v4l2.c:86
 #: modules/gui/macosx/playlistinfo.m:97
 msgid "Input"
 msgstr "Inchur"
 
-#: src/libvlc-module.c:1989
+#: src/libvlc-module.c:1993
 msgid "VLM"
 msgstr "VLM"
 
-#: src/libvlc-module.c:2021
+#: src/libvlc-module.c:2025
 msgid "CPU"
 msgstr "CPU"
 
-#: src/libvlc-module.c:2050
+#: src/libvlc-module.c:2054
 msgid "Special modules"
 msgstr "Modúil shainiúla"
 
-#: src/libvlc-module.c:2056 modules/gui/qt4/dialogs/plugins.cpp:66
+#: src/libvlc-module.c:2060 modules/gui/qt4/dialogs/plugins.cpp:66
 msgid "Plugins"
 msgstr "Breiseáin"
 
-#: src/libvlc-module.c:2067
+#: src/libvlc-module.c:2071
 msgid "Performance options"
 msgstr "Roghanna feidhmíochta"
 
-#: src/libvlc-module.c:2215
+#: src/libvlc-module.c:2219
 msgid "Hot keys"
 msgstr "Eochracha aicearra"
 
-#: src/libvlc-module.c:2657
+#: src/libvlc-module.c:2661
 msgid "Jump sizes"
 msgstr "Léim-mhéideanna"
 
-#: src/libvlc-module.c:2734
+#: src/libvlc-module.c:2738
 msgid "print help for VLC (can be combined with --advanced and --help-verbose)"
 msgstr ""
 
-#: src/libvlc-module.c:2737
+#: src/libvlc-module.c:2741
 msgid "Exhaustive help for VLC and its modules"
 msgstr "Cabhair chuimsitheach do VLC agus a mhodúil"
 
-#: src/libvlc-module.c:2739
+#: src/libvlc-module.c:2743
 msgid ""
 "print help for VLC and all its modules (can be combined with --advanced and "
 "--help-verbose)"
 msgstr ""
 
-#: src/libvlc-module.c:2742
+#: src/libvlc-module.c:2746
 msgid "ask for extra verbosity when displaying help"
 msgstr ""
 
-#: src/libvlc-module.c:2744
+#: src/libvlc-module.c:2748
 msgid "print a list of available modules"
 msgstr "clóbhuail sonraí de na modúil atá ar fáil"
 
-#: src/libvlc-module.c:2746
+#: src/libvlc-module.c:2750
 msgid "print a list of available modules with extra detail"
 msgstr "clóbhuail sonraí de na modúil atá ar fáil le sonraí sa bhreis"
 
-#: src/libvlc-module.c:2748
+#: src/libvlc-module.c:2752
 msgid ""
 "print help on a specific module (can be combined with --advanced and --help-"
 "verbose). Prefix the module name with = for strict matches."
 msgstr ""
 
-#: src/libvlc-module.c:2752
+#: src/libvlc-module.c:2756
 msgid "no configuration option will be loaded nor saved to config file"
 msgstr ""
 
-#: src/libvlc-module.c:2754
+#: src/libvlc-module.c:2758
 msgid "reset the current config to the default values"
 msgstr "athshocraigh an chumraíocht reatha chuig na réamhluachanna"
 
-#: src/libvlc-module.c:2756
+#: src/libvlc-module.c:2760
 msgid "use alternate config file"
 msgstr ""
 
-#: src/libvlc-module.c:2758
+#: src/libvlc-module.c:2762
 msgid "resets the current plugins cache"
-msgstr ""
+msgstr "athshocraíonn sé an taisce breiseáin reatha"
 
-#: src/libvlc-module.c:2760
+#: src/libvlc-module.c:2764
 msgid "print version information"
 msgstr "clóbhuail eolas an leagain"
 
-#: src/libvlc-module.c:2798
+#: src/libvlc-module.c:2802
 msgid "main program"
 msgstr "príomh ríomhchlár"
 
@@ -6309,7 +6322,7 @@ msgstr ""
 
 #: modules/access/http.c:77
 msgid "HTTP proxy password"
-msgstr ""
+msgstr "Focal faire an sheachfhreastalaithe HTTP"
 
 #: modules/access/http.c:79
 msgid "If your HTTP proxy requires a password, set it here."
@@ -6520,7 +6533,7 @@ msgstr "Méid an tsrutha i mbearta"
 
 #: modules/access/imem.c:123 modules/access/imem.c:124
 msgid "Memory input"
-msgstr ""
+msgstr "Ionchur cuimhne"
 
 #: modules/access/jack.c:62
 msgid ""
@@ -6575,7 +6588,7 @@ msgstr ""
 
 #: modules/access/mms/mms.c:54
 msgid "Force selection of all streams"
-msgstr ""
+msgstr "Éignigh roghnú gach sruth"
 
 #: modules/access/mms/mms.c:56
 msgid ""
@@ -7930,7 +7943,7 @@ msgstr ""
 
 #: modules/access_output/shout.c:71
 msgid "Stream MP3"
-msgstr ""
+msgstr "Sruthaigh an MP3"
 
 #: modules/access_output/shout.c:72
 msgid ""
@@ -8100,7 +8113,7 @@ msgstr ""
 
 #: modules/audio_filter/audiobargraph_a.c:67
 msgid "Time between two alarm messages in ms (default 2000)"
-msgstr ""
+msgstr "Aga idir dhá theachteaireacht rabhaidh i ms (is é 2000 an réamhshocrú)"
 
 #: modules/audio_filter/audiobargraph_a.c:68
 msgid ""
@@ -8153,7 +8166,7 @@ msgstr ""
 
 #: modules/audio_filter/channel_mixer/headphone.c:63
 msgid "Compensate delay"
-msgstr ""
+msgstr "Moill mar chúiteamh"
 
 #: modules/audio_filter/channel_mixer/headphone.c:65
 msgid ""
@@ -8267,7 +8280,7 @@ msgstr ""
 
 #: modules/audio_filter/chorus_flanger.c:92
 msgid "Feedback Gain"
-msgstr ""
+msgstr "Neartú an aisfhotha"
 
 #: modules/audio_filter/chorus_flanger.c:92
 msgid "Gain on Feedback loop"
@@ -8401,7 +8414,7 @@ msgstr "Damhsa"
 
 #: modules/audio_filter/equalizer_presets.h:40
 msgid "Full bass"
-msgstr ""
+msgstr "Dord iomlán"
 
 #: modules/audio_filter/equalizer_presets.h:41
 msgid "Full bass and treble"
@@ -8657,7 +8670,7 @@ msgstr "Gléas Fuaime"
 #: modules/audio_output/oss.c:178 modules/audio_output/portaudio.c:414
 #: modules/audio_output/waveout.c:412
 msgid "2 Front 2 Rear"
-msgstr ""
+msgstr "2 Chun Tosaigh 2 Ar Chúl"
 
 #: modules/audio_output/alsa.c:253 modules/audio_output/directx.c:553
 #: modules/audio_output/oss.c:246 modules/audio_output/waveout.c:462
@@ -8730,7 +8743,7 @@ msgstr "Gléas aschurtha"
 
 #: modules/audio_output/directx.c:121
 msgid "Select your audio output device"
-msgstr ""
+msgstr "Roghnaigh do ghléas aschurtha fuaime"
 
 #: modules/audio_output/directx.c:123
 msgid "Speaker configuration"
@@ -8748,7 +8761,7 @@ msgstr "Aschur fuaime DirectX"
 
 #: modules/audio_output/directx.c:406 modules/audio_output/portaudio.c:422
 msgid "3 Front 2 Rear"
-msgstr ""
+msgstr "3 Chun Tosaigh 2 Ar Chúl"
 
 #: modules/audio_output/file.c:81
 msgid "Output format"
@@ -8851,7 +8864,7 @@ msgstr "Aschur fuaime PORTAUDIO"
 msgid "5.1"
 msgstr "5.1"
 
-#: modules/audio_output/pulse.c:105
+#: modules/audio_output/pulse.c:47
 msgid "Pulseaudio audio output"
 msgstr "Aschur fuaime Pulseaudio"
 
@@ -8897,7 +8910,7 @@ msgstr "Miondealthóir A/52"
 
 #: modules/codec/a52.c:56
 msgid "A/52 audio packetizer"
-msgstr ""
+msgstr "Déantóir ceangaltáin fuaime A/52"
 
 #: modules/codec/adpcm.c:48
 msgid "ADPCM audio decoder"
@@ -8909,7 +8922,7 @@ msgstr ""
 
 #: modules/codec/aes3.c:53
 msgid "AES3/SMPTE 302M audio packetizer"
-msgstr ""
+msgstr "Déantóir ceangaltáin fuaime AES3/SMPTE 302M"
 
 #: modules/codec/araw.c:49
 msgid "Raw/Log Audio decoder"
@@ -9027,7 +9040,7 @@ msgstr ""
 
 #: modules/codec/avcodec/avcodec.h:102
 msgid "Allow speed tricks"
-msgstr ""
+msgstr "Ceadaigh cleasanna luais"
 
 #: modules/codec/avcodec/avcodec.h:104
 msgid ""
@@ -9183,7 +9196,7 @@ msgstr ""
 #: modules/codec/avcodec/avcodec.h:183 modules/codec/x264.c:335
 #: modules/demux/mod.c:78
 msgid "Noise reduction"
-msgstr ""
+msgstr "Laghdú torainn"
 
 #: modules/codec/avcodec/avcodec.h:184
 msgid ""
@@ -9204,7 +9217,7 @@ msgstr ""
 
 #: modules/codec/avcodec/avcodec.h:194
 msgid "Quality level"
-msgstr ""
+msgstr "Airde cáilíochta"
 
 #: modules/codec/avcodec/avcodec.h:195
 msgid ""
@@ -9373,7 +9386,7 @@ msgstr ""
 
 #: modules/codec/cvdsub.c:55
 msgid "Chaoji VCD subtitle packetizer"
-msgstr ""
+msgstr "Déantóir ceangaltáin fotheidil Chaoji VCD"
 
 #: modules/codec/dirac.c:61
 msgid "Constant quality factor"
@@ -9596,7 +9609,7 @@ msgstr "Miondealthóir DTS"
 
 #: modules/codec/dts.c:54
 msgid "DTS audio packetizer"
-msgstr ""
+msgstr "Déantóir ceangaltáin fuaime DTS"
 
 #: modules/codec/dvbsub.c:83
 msgid "Decoding X coordinate"
@@ -9978,7 +9991,7 @@ msgstr ""
 
 #: modules/codec/kate.c:225
 msgid "Default font effect"
-msgstr ""
+msgstr "Tionchar clófhoirne réamhshocraithe"
 
 #: modules/codec/kate.c:226
 msgid ""
@@ -9988,11 +10001,13 @@ msgstr ""
 
 #: modules/codec/kate.c:230
 msgid "Default font effect strength"
-msgstr ""
+msgstr "Neart an tionchair chlófhoirne réamhshocraithe"
 
 #: modules/codec/kate.c:231
 msgid "How pronounced to make the chosen font effect (effect dependent)."
 msgstr ""
+"Cé chomh géar ar chóir don tionchar clófhoirne roghnaithe a bheith (spleách "
+"ar thionchar)."
 
 #: modules/codec/kate.c:235
 msgid "Default font description"
@@ -10034,6 +10049,8 @@ msgid ""
 "Default background color if the Kate stream does not specify a background "
 "color to use."
 msgstr ""
+"Dath réamhshocraithe an chúlra mura shainíonn an Kate sruth dath le feidhm a "
+"bhaint as sa chúlra."
 
 #: modules/codec/kate.c:256
 msgid "Default background alpha"
@@ -10069,7 +10086,7 @@ msgstr ""
 
 #: modules/codec/kate.c:328
 msgid "Kate text subtitles packetizer"
-msgstr ""
+msgstr "Déantóir ceangaltáin fotheidil téacs Kate"
 
 #: modules/codec/libass.c:65
 msgid "Subtitles (advanced)"
@@ -10099,7 +10116,7 @@ msgstr ""
 
 #: modules/codec/lpcm.c:57
 msgid "Linear PCM audio packetizer"
-msgstr ""
+msgstr "Déantóir ceangaltáin fuaime líneach PCM"
 
 #: modules/codec/mash.cpp:70
 msgid "Video decoder using openmash"
@@ -10111,7 +10128,7 @@ msgstr ""
 
 #: modules/codec/mpeg_audio.c:125
 msgid "MPEG audio layer I/II/III packetizer"
-msgstr ""
+msgstr "Déantóir ceangaltáin ciseal fuaime MPEG I/II/III"
 
 #: modules/codec/omxil/omxil.c:90
 msgid "Audio/Video decoder (using OpenMAX IL)"
@@ -10135,7 +10152,7 @@ msgstr ""
 
 #: modules/codec/rawvideo.c:78
 msgid "Pseudo raw video packetizer"
-msgstr ""
+msgstr "Déantóir ceangaltáin físeán bréag-amh"
 
 #: modules/codec/realvideo.c:131
 msgid "RealVideo library decoder"
@@ -10280,7 +10297,7 @@ msgstr "Fotheidil DVD"
 
 #: modules/codec/spudec/spudec.c:60
 msgid "DVD subtitles packetizer"
-msgstr ""
+msgstr "Déantóir ceangaltáin fotheidil DVD"
 
 #. xgettext:
 #. The character encoding name in parenthesis corresponds to that used for
@@ -10404,11 +10421,11 @@ msgstr "Oirdheisceart na hEorpa (Laidineach-10)"
 
 #: modules/codec/subtitles/subsdec.c:149
 msgid "Simplified Chinese (ISO-2022-CN-EXT)"
-msgstr ""
+msgstr "Síneach simplithe (ISO-2022-CN-EXT)"
 
 #: modules/codec/subtitles/subsdec.c:150
 msgid "Simplified Chinese Unix (EUC-CN)"
-msgstr ""
+msgstr "Unix Síneach simplithe (EUC-CN)"
 
 #: modules/codec/subtitles/subsdec.c:151
 msgid "Japanese (7-bits JIS/ISO-2022-JP-2)"
@@ -10432,15 +10449,15 @@ msgstr "Cóiréis (ISO-2022-KR)"
 
 #: modules/codec/subtitles/subsdec.c:156
 msgid "Traditional Chinese (Big5)"
-msgstr ""
+msgstr "Síneach traidisiúnta (Big5)"
 
 #: modules/codec/subtitles/subsdec.c:157
 msgid "Traditional Chinese Unix (EUC-TW)"
-msgstr ""
+msgstr "Unix Síneach traidisiúnta (EUC-TW)"
 
 #: modules/codec/subtitles/subsdec.c:158
 msgid "Hong-Kong Supplementary (HKSCS)"
-msgstr ""
+msgstr "Hoong Cong Breise (HKSCS)"
 
 #: modules/codec/subtitles/subsdec.c:160
 msgid "Vietnamese (VISCII)"
@@ -10460,11 +10477,11 @@ msgstr ""
 
 #: modules/codec/subtitles/subsdec.c:195
 msgid "Subtitles justification"
-msgstr ""
+msgstr "Comhfhadú na bhfotheideal"
 
 #: modules/codec/subtitles/subsdec.c:196
 msgid "Set the justification of subtitles"
-msgstr ""
+msgstr "Socraigh comhfhadú na bhfotheideal"
 
 #: modules/codec/subtitles/subsdec.c:197
 msgid "UTF-8 subtitles autodetection"
@@ -10529,7 +10546,7 @@ msgstr ""
 
 #: modules/codec/svcdsub.c:56
 msgid "SVCD subtitles"
-msgstr ""
+msgstr "Fotheidil SVCD"
 
 #: modules/codec/svcdsub.c:66
 msgid "Philips OGT (SVCD subtitle) packetizer"
@@ -10556,7 +10573,7 @@ msgstr ""
 
 #: modules/codec/telx.c:64
 msgid "Workaround for France"
-msgstr ""
+msgstr "Bealach timpeall don Fhrainc"
 
 #: modules/codec/telx.c:65
 msgid ""
@@ -10595,7 +10612,7 @@ msgstr ""
 
 #: modules/codec/twolame.c:60
 msgid "Stereo mode"
-msgstr ""
+msgstr "Steiréa-mód"
 
 #: modules/codec/twolame.c:61
 msgid "Handling mode for stereo streams"
@@ -10615,7 +10632,7 @@ msgstr ""
 
 #: modules/codec/twolame.c:67
 msgid "Integer from -1 (no model) to 4."
-msgstr ""
+msgstr "Slánuimhir ó -1 (gan samhail) go dtí a 4."
 
 #: modules/codec/twolame.c:71
 msgid "Dual mono"
@@ -10657,7 +10674,7 @@ msgstr ""
 
 #: modules/codec/vorbis.c:198
 msgid "Vorbis audio packetizer"
-msgstr ""
+msgstr "Déantóir ceangaltáin fuaime Vorbis"
 
 #: modules/codec/vorbis.c:205
 msgid "Vorbis audio encoder"
@@ -10669,7 +10686,7 @@ msgstr ""
 
 #: modules/codec/x264.c:55
 msgid "Maximum GOP size"
-msgstr ""
+msgstr "Uasmhéid GOP"
 
 #: modules/codec/x264.c:56
 msgid ""
@@ -10679,7 +10696,7 @@ msgstr ""
 
 #: modules/codec/x264.c:60
 msgid "Minimum GOP size"
-msgstr ""
+msgstr "Íosmhéid GOP"
 
 #: modules/codec/x264.c:61
 msgid ""
@@ -11026,7 +11043,7 @@ msgstr ""
 
 #: modules/codec/x264.c:237
 msgid "Partitions to consider"
-msgstr ""
+msgstr "Deighiltí lé áireamh"
 
 #: modules/codec/x264.c:238
 msgid ""
@@ -11255,7 +11272,7 @@ msgstr ""
 
 #: modules/codec/x264.c:353
 msgid "CPU optimizations"
-msgstr ""
+msgstr "Barrfheabhsuithe an LAP"
 
 #: modules/codec/x264.c:354
 msgid "Use assembler CPU optimizations."
@@ -11411,7 +11428,7 @@ msgstr ""
 
 #: modules/codec/zvbi.c:62
 msgid "Text is always opaque"
-msgstr ""
+msgstr "Tá an téacs i gcónaí teimhneach"
 
 #: modules/codec/zvbi.c:63
 msgid "Setting vbi-opaque to false makes the boxed text transparent."
@@ -11500,7 +11517,7 @@ msgstr ""
 
 #: modules/control/hotkeys.c:92
 msgid "Volume Control"
-msgstr ""
+msgstr "Rialú Fuaime"
 
 #: modules/control/hotkeys.c:92
 msgid "Position Control"
@@ -11542,7 +11559,7 @@ msgstr "Rian fuaime: %s"
 #: modules/control/hotkeys.c:488 modules/control/hotkeys.c:512
 #, c-format
 msgid "Subtitle track: %s"
-msgstr ""
+msgstr "Rian fotheideal: %s"
 
 #: modules/control/hotkeys.c:488
 msgid "N/A"
@@ -11600,7 +11617,7 @@ msgstr ""
 #: modules/control/hotkeys.c:814 modules/control/hotkeys.c:824
 #, c-format
 msgid "Audio delay %i ms"
-msgstr ""
+msgstr "Moill fhuaime %i ms"
 
 #: modules/control/hotkeys.c:862
 msgid "Recording"
@@ -11700,7 +11717,7 @@ msgstr "Fodhearg"
 
 #: modules/control/lirc.c:62
 msgid "Infrared remote control interface"
-msgstr ""
+msgstr "Comhéadan cianrialaithe fodheirg"
 
 #: modules/control/motion.c:72
 msgid "Use the rotate video filter instead of transform"
@@ -11826,12 +11843,12 @@ msgstr "Botún"
 
 #: modules/control/rc.c:160
 msgid "Show stream position"
-msgstr ""
+msgstr "Taispeáin suíomh an tsrutha"
 
 #: modules/control/rc.c:161
 msgid ""
 "Show the current position in seconds within the stream from time to time."
-msgstr ""
+msgstr "Taispeáin an suíomh reatha i soicindí laistigh den sruth ó am go ham."
 
 #: modules/control/rc.c:164
 msgid "Fake TTY"
@@ -11876,7 +11893,7 @@ msgstr "Cianrialtán"
 
 #: modules/control/rc.c:188
 msgid "Remote control interface"
-msgstr ""
+msgstr "Comhéadan cianrialaithe"
 
 #: modules/control/rc.c:341
 msgid "Remote control interface initialized. Type `help' for help."
@@ -11905,7 +11922,7 @@ msgstr ""
 
 #: modules/control/rc.c:806
 msgid "| play . . . . . . . . . . . . . . . . . . play stream"
-msgstr ""
+msgstr "| seinn . . . . . . . . . . . . . . . . . . seinn an sruth"
 
 #: modules/control/rc.c:807
 msgid "| stop . . . . . . . . . . . . . . . . . . stop stream"
@@ -11913,15 +11930,15 @@ msgstr "| stad . . . . . . . . . . . . . . . . . . stad an sruth"
 
 #: modules/control/rc.c:808
 msgid "| next . . . . . . . . . . . . . .  next playlist item"
-msgstr ""
+msgstr "| ar aghaidh . . . . . . . . . . . . . .  an mhír ar aghaidh"
 
 #: modules/control/rc.c:809
 msgid "| prev . . . . . . . . . . . .  previous playlist item"
-msgstr ""
+msgstr "| roimhe . . . . . . . . . . . .  an mhír roimhe"
 
 #: modules/control/rc.c:810
 msgid "| goto . . . . . . . . . . . . . .  goto item at index"
-msgstr ""
+msgstr "| téigh chuig . . . . . . . . . . . . . .  téigh chuig mír ag treorán"
 
 #: modules/control/rc.c:811
 msgid "| repeat [on|off] . . . .  toggle playlist item repeat"
@@ -11937,7 +11954,7 @@ msgstr ""
 
 #: modules/control/rc.c:814
 msgid "| clear . . . . . . . . . . . . . . clear the playlist"
-msgstr ""
+msgstr "| glan . . . . . . . . . . . . . . glan na míreanna"
 
 #: modules/control/rc.c:815
 msgid "| status . . . . . . . . . . . current playlist status"
@@ -11989,7 +12006,7 @@ msgstr "| níos tapúla . . . . . . . . . .  seinm níos tapúla an tsrutha"
 
 #: modules/control/rc.c:828
 msgid "| slower . . . . . . . . . .  slower playing of stream"
-msgstr ""
+msgstr "| níos moille . . . . . . . . . .  seinm níos moille an tsrutha"
 
 #: modules/control/rc.c:829
 msgid "| normal . . . . . . . . . .  normal playing of stream"
@@ -12005,7 +12022,7 @@ msgstr "| f [ar siúl|as] . . . . . . . . . . . . scoránaigh lánscáileán"
 
 #: modules/control/rc.c:832
 msgid "| info . . . . .  information about the current stream"
-msgstr ""
+msgstr "| faisnéis . . . . .  faisnéis faoin sruth reatha"
 
 #: modules/control/rc.c:833
 msgid "| stats  . . . . . . . .  show statistical information"
@@ -12017,7 +12034,7 @@ msgstr ""
 
 #: modules/control/rc.c:835
 msgid "| is_playing . . . .  1 if a stream plays, 0 otherwise"
-msgstr ""
+msgstr "| ag_seinm . . . .  1 má sheinneann sruth, 0 mura sheinneann"
 
 #: modules/control/rc.c:836
 msgid "| get_title . . . . .  the title of the current stream"
@@ -12029,7 +12046,7 @@ msgstr ""
 
 #: modules/control/rc.c:839
 msgid "| volume [X] . . . . . . . . . .  set/get audio volume"
-msgstr ""
+msgstr "| airde [X] . . . . . . . . . .  socraigh/faigh airde na fuaime"
 
 #: modules/control/rc.c:840
 msgid "| volup [X]  . . . . . . .  raise audio volume X steps"
@@ -12069,7 +12086,7 @@ msgstr ""
 
 #: modules/control/rc.c:849
 msgid "| snapshot . . . . . . . . . . . . take video snapshot"
-msgstr ""
+msgstr "| roghbhlúire . . . . . . . . . . . . tóg roghbhlúire den físeán"
 
 #: modules/control/rc.c:850
 msgid "| strack [X] . . . . . . . . . set/get subtitles track"
@@ -12082,6 +12099,8 @@ msgstr ""
 #: modules/control/rc.c:852
 msgid "| menu . . [on|off|up|down|left|right|select] use menu"
 msgstr ""
+"| roghchlár . . [ar siúl|as|suas|síos|clé|deas|roghnaigh] bain feidhm as an "
+"roghchlár"
 
 #: modules/control/rc.c:857
 msgid "| @name marq-marquee  STRING  . . overlay STRING in video"
@@ -12193,7 +12212,7 @@ msgstr ""
 
 #: modules/control/rc.c:888
 msgid "| help . . . . . . . . . . . . . . . this help message"
-msgstr ""
+msgstr "| cabhair . . . . . . . . . . . . . . . an teachtaireacht cabhrach seo"
 
 #: modules/control/rc.c:889
 msgid "| longhelp . . . . . . . . . . . a longer help message"
@@ -12205,21 +12224,21 @@ msgstr ""
 
 #: modules/control/rc.c:891
 msgid "| quit . . . . . . . . . . . . . . . . . . .  quit vlc"
-msgstr ""
+msgstr "| scoir . . . . . . . . . . . . . . . . . . .  scoir ó vlc"
 
 #: modules/control/rc.c:893
 msgid "+----[ end of help ]"
-msgstr ""
+msgstr "+----[ deireadh na cabhrach ]"
 
 #: modules/control/rc.c:1019
 msgid "Press menu select or pause to continue."
-msgstr ""
+msgstr "Brúigh roghchlár roghnaigh nó cuir ar sos chun dul ar aghaidh."
 
 #: modules/control/rc.c:1244 modules/control/rc.c:1484
 #: modules/control/rc.c:1542 modules/control/rc.c:1715
 #: modules/control/rc.c:1813
 msgid "Type 'menu select' or 'pause' to continue."
-msgstr ""
+msgstr "Clóscríobh 'roghchlár roghnaigh' nó 'cuir ar sos' chun dul ar aghaidh."
 
 #: modules/control/rc.c:1335
 msgid "Error: `goto' needs an argument greater than zero."
@@ -12270,12 +12289,12 @@ msgstr ""
 
 #: modules/control/rc.c:1887 modules/gui/ncurses.c:1993
 msgid "+-[Video Decoding]"
-msgstr ""
+msgstr "+-[Díchódú Físeáin]"
 
 #: modules/control/rc.c:1888 modules/gui/ncurses.c:1996
 #, c-format
 msgid "| video decoded    :    %5i"
-msgstr ""
+msgstr "| físeán díchódaithe    :    %5i"
 
 #: modules/control/rc.c:1890 modules/gui/ncurses.c:1999
 #, c-format
@@ -12289,22 +12308,22 @@ msgstr ""
 
 #: modules/control/rc.c:1896 modules/gui/ncurses.c:2012
 msgid "+-[Audio Decoding]"
-msgstr ""
+msgstr "+-[Díchódú Fuaime]"
 
 #: modules/control/rc.c:1897 modules/gui/ncurses.c:2015
 #, c-format
 msgid "| audio decoded    :    %5i"
-msgstr ""
+msgstr "| fuaim díchódaithe    :    %5i"
 
 #: modules/control/rc.c:1899 modules/gui/ncurses.c:2018
 #, c-format
 msgid "| buffers played   :    %5i"
-msgstr ""
+msgstr "| maolairí seinnte   :    %5i"
 
 #: modules/control/rc.c:1901 modules/gui/ncurses.c:2021
 #, c-format
 msgid "| buffers lost     :    %5i"
-msgstr ""
+msgstr "| maolairí caillte     :    %5i"
 
 #: modules/control/rc.c:1905 modules/gui/ncurses.c:2029
 msgid "+-[Streaming]"
@@ -12318,7 +12337,7 @@ msgstr ""
 #: modules/control/rc.c:1907 modules/gui/ncurses.c:2034
 #, c-format
 msgid "| bytes sent       : %8.0f KiB"
-msgstr ""
+msgstr "| bearta seolta       : %8.0f KiB"
 
 #: modules/control/rc.c:1909
 #, c-format
@@ -12370,7 +12389,7 @@ msgstr ""
 
 #: modules/control/telnet.c:96
 msgid "VLM remote control interface"
-msgstr ""
+msgstr "Comhéadan cianrialaithe VLM"
 
 #: modules/demux/aiff.c:49
 msgid "AIFF demuxer"
@@ -12386,7 +12405,7 @@ msgstr ""
 
 #: modules/demux/asf/asf.c:182
 msgid "VLC failed to load the ASF header."
-msgstr ""
+msgstr "Theip ar VLC an ceanntásc ASF a luchtú."
 
 #: modules/demux/au.c:50
 msgid "AU demuxer"
@@ -12402,15 +12421,15 @@ msgstr ""
 
 #: modules/demux/avformat/avformat.c:49
 msgid "FFmpeg muxer"
-msgstr ""
+msgstr "Ilphléacsóir FFmpeg"
 
 #: modules/demux/avformat/avformat.h:35
 msgid "Ffmpeg mux"
-msgstr ""
+msgstr "Ilphléacsú Ffmpeg"
 
 #: modules/demux/avformat/avformat.h:36
 msgid "Force use of ffmpeg muxer."
-msgstr ""
+msgstr "Éignigh feidhm an t-ilphléacsóir ffmpeg."
 
 #: modules/demux/avi/avi.c:50
 msgid "Force interleaved method"
@@ -12484,7 +12503,7 @@ msgstr ""
 
 #: modules/demux/demuxdump.c:43
 msgid "Append to existing file"
-msgstr ""
+msgstr "Iarcheangail le comhad atá ann cheana"
 
 #: modules/demux/demuxdump.c:45
 msgid "If the file already exists, it will not be overwritten."
@@ -12520,11 +12539,11 @@ msgstr "Karaoke"
 
 #: modules/demux/kate_categories.c:44
 msgid "Ticker text"
-msgstr ""
+msgstr "Ticear téacs"
 
 #: modules/demux/kate_categories.c:45
 msgid "Active regions"
-msgstr ""
+msgstr "Críocha gníomhacha"
 
 #: modules/demux/kate_categories.c:46
 msgid "Semantic annotations"
@@ -12532,11 +12551,11 @@ msgstr ""
 
 #: modules/demux/kate_categories.c:48
 msgid "Transcript"
-msgstr ""
+msgstr "Tras-scríbhinn"
 
 #: modules/demux/kate_categories.c:49 modules/demux/kate_categories.c:56
 msgid "Lyrics"
-msgstr ""
+msgstr "Liricí"
 
 #: modules/demux/kate_categories.c:50
 msgid "Linguistic markup"
@@ -12692,11 +12711,11 @@ msgstr ""
 
 #: modules/demux/mkv/mkv.cpp:53
 msgid "Ordered chapters"
-msgstr ""
+msgstr "Caibidlí innealta"
 
 #: modules/demux/mkv/mkv.cpp:54
 msgid "Play ordered chapters as specified in the segment."
-msgstr ""
+msgstr "Seinn caibidlí innealta mar atá siad sonraithe sa mhír."
 
 #: modules/demux/mkv/mkv.cpp:57
 msgid "Chapter codecs"
@@ -12708,7 +12727,7 @@ msgstr ""
 
 #: modules/demux/mkv/mkv.cpp:61
 msgid "Preload Directory"
-msgstr ""
+msgstr "Réamhluchtaigh comhadlann"
 
 #: modules/demux/mkv/mkv.cpp:62
 msgid ""
@@ -12718,11 +12737,11 @@ msgstr ""
 
 #: modules/demux/mkv/mkv.cpp:65
 msgid "Seek based on percent not time"
-msgstr ""
+msgstr "Lorg bunaithe ar chéatadán seachas am"
 
 #: modules/demux/mkv/mkv.cpp:66
 msgid "Seek based on percent not time."
-msgstr ""
+msgstr "Lorg bunaithe ar am seachas céatadán"
 
 #: modules/demux/mkv/mkv.cpp:69
 msgid "Dummy Elements"
@@ -12738,11 +12757,12 @@ msgstr ""
 
 #: modules/demux/mod.c:55
 msgid "Enable reverberation"
-msgstr ""
+msgstr "Cumasaigh aisfhuaimniú"
 
 #: modules/demux/mod.c:56
 msgid "Reverberation level (from 0 to 100, default value is 0)."
 msgstr ""
+"Airde aisfhuaimnithe (ó a 0 go a 100, an luach réamhshocraithe ná a 0)."
 
 #: modules/demux/mod.c:58
 msgid "Reverberation delay, in ms. Usual values are from to 40 to 200ms."
@@ -12780,15 +12800,15 @@ msgstr "Aisfhuaimniú"
 
 #: modules/demux/mod.c:84
 msgid "Reverberation level"
-msgstr ""
+msgstr "Airde aisfhuaimnithe"
 
 #: modules/demux/mod.c:86
 msgid "Reverberation delay"
-msgstr ""
+msgstr "Moill aisfhuaimnithe"
 
 #: modules/demux/mod.c:88
 msgid "Mega bass"
-msgstr ""
+msgstr "Meigea-dord"
 
 #: modules/demux/mod.c:91
 msgid "Mega bass level"
@@ -12804,11 +12824,11 @@ msgstr "Colbha"
 
 #: modules/demux/mod.c:98
 msgid "Surround level"
-msgstr ""
+msgstr "Airde an timpill"
 
 #: modules/demux/mod.c:100
 msgid "Surround delay (ms)"
-msgstr ""
+msgstr "Moill an timpill (ms)"
 
 #: modules/demux/mp4/mp4.c:55
 msgid "MP4 stream demuxer"
@@ -12830,7 +12850,7 @@ msgstr ""
 
 #: modules/demux/mpeg/es.c:56
 msgid "MPEG-I/II/4 / A52 / DTS / MLP audio"
-msgstr ""
+msgstr "Fuaim MPEG-I/II/4 / A52 / DTS / MLP"
 
 #: modules/demux/mpeg/es.c:78
 msgid "MPEG-4 video"
@@ -12842,11 +12862,11 @@ msgstr ""
 
 #: modules/demux/mpeg/h264.c:51
 msgid "H264 video demuxer"
-msgstr ""
+msgstr "Dí-ilphléacsóir físeáin H264"
 
 #: modules/demux/mpeg/mpgv.c:46
 msgid "MPEG-I/II video demuxer"
-msgstr ""
+msgstr "Dí-ilphléacsóir físeáin MPEG-I/II"
 
 #: modules/demux/nsc.c:46
 msgid "Windows Media NSC metademux"
@@ -12854,7 +12874,7 @@ msgstr ""
 
 #: modules/demux/nsv.c:49
 msgid "NullSoft demuxer"
-msgstr ""
+msgstr "Dí-ilphléacsóir NullSoft"
 
 #: modules/demux/nuv.c:49
 msgid "Nuv demuxer"
@@ -12862,7 +12882,7 @@ msgstr ""
 
 #: modules/demux/ogg.c:54
 msgid "OGG demuxer"
-msgstr ""
+msgstr "Dí-ilphléacsóir OGG"
 
 #: modules/demux/playlist/gvp.c:209
 msgid "Google Video"
@@ -12878,7 +12898,7 @@ msgstr ""
 
 #: modules/demux/playlist/playlist.c:48
 msgid "Show shoutcast adult content"
-msgstr ""
+msgstr "Taispeáin ábhair Shoutcast do dhaoine fásta"
 
 #: modules/demux/playlist/playlist.c:49
 msgid "Show NC17 rated video streams when using shoutcast video playlists."
@@ -12916,7 +12936,7 @@ msgstr ""
 
 #: modules/demux/playlist/playlist.c:105
 msgid "Podcast parser"
-msgstr ""
+msgstr "Miondealóir an phodchraolta"
 
 #: modules/demux/playlist/playlist.c:111
 msgid "XSPF playlist import"
@@ -12961,32 +12981,29 @@ msgstr ""
 #: modules/demux/playlist/podcast.c:254 modules/demux/playlist/podcast.c:266
 #: modules/demux/playlist/podcast.c:306 modules/demux/playlist/podcast.c:327
 msgid "Podcast Info"
-msgstr ""
+msgstr "Faisnéis an Phodchraolta"
 
 #: modules/demux/playlist/podcast.c:256
-#, fuzzy
 msgid "Podcast Link"
-msgstr "Méid an Phodchraolta"
+msgstr "Nasc an Phodchraolta"
 
 #: modules/demux/playlist/podcast.c:257
 #, fuzzy
 msgid "Podcast Copyright"
-msgstr "Cóipcheart"
+msgstr "Cóipcheart an Phodchraolta"
 
 #: modules/demux/playlist/podcast.c:258
-#, fuzzy
 msgid "Podcast Category"
-msgstr "Achoimre an Phodchraolta"
+msgstr "Aicme an Phodchraolta"
 
 #: modules/demux/playlist/podcast.c:259 modules/demux/playlist/podcast.c:311
 #, fuzzy
 msgid "Podcast Keywords"
-msgstr "Podchraoltaí"
+msgstr "Eochairfhocail an Phodchraolt"
 
 #: modules/demux/playlist/podcast.c:260 modules/demux/playlist/podcast.c:312
-#, fuzzy
 msgid "Podcast Subtitle"
-msgstr "Méid an Phodchraolta"
+msgstr "Fotheidil an Phodchraolta"
 
 #: modules/demux/playlist/podcast.c:266 modules/demux/playlist/podcast.c:313
 msgid "Podcast Summary"
@@ -12994,36 +13011,32 @@ msgstr "Achoimre an Phodchraolta"
 
 #: modules/demux/playlist/podcast.c:307
 msgid "Podcast Publication Date"
-msgstr ""
+msgstr "Dáta Foilsithe an Phodchraolta"
 
 #: modules/demux/playlist/podcast.c:308
-#, fuzzy
 msgid "Podcast Author"
-msgstr "Achoimre an Phodchraolta"
+msgstr "Údar an Phodchraolta"
 
 #: modules/demux/playlist/podcast.c:309
-#, fuzzy
 msgid "Podcast Subcategory"
-msgstr "Achoimre an Phodchraolta"
+msgstr "Fo-aicme an Phodchraolta"
 
 #: modules/demux/playlist/podcast.c:310
-#, fuzzy
 msgid "Podcast Duration"
-msgstr "Sáithiúchán"
+msgstr "Aga an Phodchraolta"
 
 #: modules/demux/playlist/podcast.c:314
-#, fuzzy
 msgid "Podcast Type"
-msgstr "Méid an Phodchraolta"
+msgstr "Cineál Podchraoladh"
 
 #: modules/demux/playlist/podcast.c:328
 msgid "Podcast Size"
 msgstr "Méid an Phodchraolta"
 
 #: modules/demux/playlist/podcast.c:329
-#, fuzzy, c-format
+#, c-format
 msgid "%s bytes"
-msgstr "Bearta seolta"
+msgstr "%s bearta"
 
 #: modules/demux/playlist/shoutcast.c:409
 msgid "Shoutcast"
@@ -13039,7 +13052,7 @@ msgstr "Luchtaigh"
 
 #: modules/demux/ps.c:43
 msgid "Trust MPEG timestamps"
-msgstr ""
+msgstr "Bíodh iontaoibh agat as stampaí ama MPEG"
 
 #: modules/demux/ps.c:44
 msgid ""
@@ -13050,7 +13063,7 @@ msgstr ""
 
 #: modules/demux/ps.c:56 modules/demux/ps.c:69
 msgid "MPEG-PS demuxer"
-msgstr ""
+msgstr "Dí-ilphléacsóir MPEG-PS"
 
 #: modules/demux/ps.c:57
 msgid "PS"
@@ -13058,7 +13071,7 @@ msgstr "PS"
 
 #: modules/demux/pva.c:43
 msgid "PVA demuxer"
-msgstr ""
+msgstr "Dí-ilphléacsóir PVA"
 
 #: modules/demux/rawaud.c:43
 msgid "Audio samplerate (Hz)"
@@ -13070,11 +13083,12 @@ msgstr ""
 
 #: modules/demux/rawaud.c:46 modules/stream_out/transcode/transcode.c:99
 msgid "Audio channels"
-msgstr ""
+msgstr "Bealaí fuaime"
 
 #: modules/demux/rawaud.c:47
 msgid "Audio channels in input stream. Numeric value >0. Default is 2."
 msgstr ""
+"Bealaí fuaime sa sruth ionchuir. Luach uimhriúil >0. Is é a 2 an réamhshocrú."
 
 #: modules/demux/rawaud.c:49
 msgid "FOURCC code of raw input format"
@@ -13086,7 +13100,7 @@ msgstr ""
 
 #: modules/demux/rawaud.c:53
 msgid "Forces the audio language"
-msgstr ""
+msgstr "Éigníonn sé teanga na fuaime"
 
 #: modules/demux/rawaud.c:54
 msgid ""
@@ -13096,7 +13110,7 @@ msgstr ""
 
 #: modules/demux/rawaud.c:64
 msgid "Raw audio demuxer"
-msgstr ""
+msgstr "Dí-ilphléacsóir fuaim amh"
 
 #: modules/demux/rawdv.c:41
 msgid ""
@@ -13105,7 +13119,7 @@ msgstr ""
 
 #: modules/demux/rawdv.c:49
 msgid "DV (Digital Video) demuxer"
-msgstr ""
+msgstr "Dí-ilphléacsóir DV (Físeán digiteach)"
 
 #: modules/demux/rawvid.c:45
 msgid ""
@@ -13136,22 +13150,24 @@ msgstr "Cóimheas treoíochta"
 #: modules/demux/rawvid.c:61
 msgid "Aspect ratio (4:3, 16:9). Default assumes square pixels."
 msgstr ""
+"Cóimheas treoíochta (4:3, 16:9). Glacann an réamhshocrú leis gur phicteilíní "
+"cearnógacha iad."
 
 #: modules/demux/rawvid.c:65
 msgid "Raw video demuxer"
-msgstr ""
+msgstr "Dí-ilphléacsóir físeán amh"
 
 #: modules/demux/real.c:70
 msgid "Real demuxer"
-msgstr ""
+msgstr "Dí-ilphléacsóir Real"
 
 #: modules/demux/smf.c:43
 msgid "SMF demuxer"
-msgstr ""
+msgstr "Dí-ilphléacsóir SMF"
 
 #: modules/demux/subtitle.c:51 modules/demux/subtitle_asa.c:49
 msgid "Apply a delay to all subtitles (in 1/10s, eg 100 means 10s)."
-msgstr ""
+msgstr "Cuir moill ar na bhfotheidil uile (i 1/10s, m.sh. ciallaíonn 100 10s)."
 
 #: modules/demux/subtitle.c:53
 msgid ""
@@ -13170,7 +13186,7 @@ msgstr ""
 
 #: modules/demux/subtitle.c:62
 msgid "Override the default track description."
-msgstr ""
+msgstr "Sáraigh cur síos réamhshocraithe an riain."
 
 #: modules/demux/subtitle.c:74 modules/demux/subtitle_asa.c:58
 msgid "Text subtitles parser"
@@ -13182,15 +13198,15 @@ msgstr ""
 
 #: modules/demux/subtitle.c:82 modules/demux/subtitle_asa.c:66
 msgid "Subtitles delay"
-msgstr ""
+msgstr "Moill sna fotheidil"
 
 #: modules/demux/subtitle.c:84 modules/demux/subtitle_asa.c:68
 msgid "Subtitles format"
-msgstr ""
+msgstr "Cuma an bhfotheideal"
 
 #: modules/demux/subtitle.c:87
 msgid "Subtitles description"
-msgstr ""
+msgstr "Cur síos ar na bhfotheidil"
 
 #: modules/demux/subtitle_asa.c:51
 msgid ""
@@ -13217,7 +13233,7 @@ msgstr ""
 
 #: modules/demux/ts.c:114
 msgid "Set id of ES to PID"
-msgstr ""
+msgstr "Socraigh aitheantas ES go PID"
 
 #: modules/demux/ts.c:115
 msgid ""
@@ -13262,7 +13278,7 @@ msgstr ""
 
 #: modules/demux/ts.c:134
 msgid "Silent mode"
-msgstr ""
+msgstr "Modh ciúin"
 
 #: modules/demux/ts.c:135
 msgid "Do not complain on encrypted PES."
@@ -13331,7 +13347,7 @@ msgstr ""
 #: modules/demux/ts.c:196 modules/gui/macosx/controls.m:1093
 #: modules/gui/macosx/intf.m:709 modules/gui/qt4/dialogs/toolbar.cpp:407
 msgid "Teletext"
-msgstr ""
+msgstr "Teilithéacs"
 
 #: modules/demux/ts.c:197
 msgid "Teletext subtitles"
@@ -13339,7 +13355,7 @@ msgstr ""
 
 #: modules/demux/ts.c:198
 msgid "Teletext: additional information"
-msgstr ""
+msgstr "Teilithéacs: eolas breise"
 
 #: modules/demux/ts.c:199
 msgid "Teletext: program schedule"
@@ -13363,15 +13379,15 @@ msgstr "lagéisteachta"
 
 #: modules/demux/ts.c:3858 modules/demux/ts.c:3900
 msgid "visual impaired commentary"
-msgstr ""
+msgstr "tráchtaireacht lagamhairc"
 
 #: modules/demux/tta.c:45
 msgid "TTA demuxer"
-msgstr ""
+msgstr "Dí-ilphléacsóir TTA"
 
 #: modules/demux/ty.c:59
 msgid "TY"
-msgstr ""
+msgstr "TY"
 
 #: modules/demux/ty.c:60
 msgid "TY Stream audio/video demux"
@@ -13399,7 +13415,7 @@ msgstr ""
 
 #: modules/demux/vc1.c:50
 msgid "VC1 video demuxer"
-msgstr ""
+msgstr "Dí-ilphléacsóir físeáin VC1"
 
 #: modules/demux/vobsub.c:52
 msgid "Vobsub subtitles parser"
@@ -13411,11 +13427,11 @@ msgstr ""
 
 #: modules/demux/wav.c:45
 msgid "WAV demuxer"
-msgstr ""
+msgstr "Dí-ilphléacsóir WAV"
 
 #: modules/demux/xa.c:45
 msgid "XA demuxer"
-msgstr ""
+msgstr "Dí-ilphléacsóir XA"
 
 #: modules/gui/fbosd.c:101 modules/video_output/fb.c:56
 msgid "Framebuffer device"
@@ -13460,21 +13476,21 @@ msgstr ""
 #: modules/video_filter/erase.c:57 modules/video_filter/logo.c:58
 #: modules/video_filter/osdmenu.c:51
 msgid "X coordinate"
-msgstr ""
+msgstr "Comhordanáid X"
 
 #: modules/gui/fbosd.c:122
 msgid "X coordinate of the rendered image"
-msgstr ""
+msgstr "Comhordanáid X den íomhá"
 
 #: modules/gui/fbosd.c:124 modules/video_filter/audiobargraph_v.c:53
 #: modules/video_filter/erase.c:59 modules/video_filter/logo.c:61
 #: modules/video_filter/osdmenu.c:54
 msgid "Y coordinate"
-msgstr ""
+msgstr "Comhordanáid Y"
 
 #: modules/gui/fbosd.c:125
 msgid "Y coordinate of the rendered image"
-msgstr ""
+msgstr "Comhordanáid Y den íomhá"
 
 #: modules/gui/fbosd.c:129
 msgid ""
@@ -13494,16 +13510,20 @@ msgid ""
 "Opacity (inverse of transparency) of overlayed text. 0 = transparent, 255 = "
 "totally opaque. "
 msgstr ""
+"Teimhneacht (a mhalairt de trédhearcacht) an téacs forluite. 0 = "
+"trédhearcacht, 255 = iomlán teimhneach. "
 
 #: modules/gui/fbosd.c:137 modules/video_filter/marq.c:119
 #: modules/video_filter/rss.c:151
 msgid "Font size, pixels"
-msgstr ""
+msgstr "Méid na clófhoirne, picteilíní"
 
 #: modules/gui/fbosd.c:138 modules/video_filter/marq.c:120
 #: modules/video_filter/rss.c:152
 msgid "Font size, in pixels. Default is -1 (use default font size)."
 msgstr ""
+"Méid na clófhoirne, i bpicteilíní. An réamhshocrú ná a -1 (bain feidhm "
+"feidhm as an méid réamhshocraithe)."
 
 #: modules/gui/fbosd.c:142 modules/video_filter/marq.c:124
 #: modules/video_filter/rss.c:156
@@ -13527,7 +13547,7 @@ msgstr ""
 
 #: modules/gui/fbosd.c:152
 msgid "Render text or image"
-msgstr ""
+msgstr "Cuir téacs nó íomhá leis"
 
 #: modules/gui/fbosd.c:153
 msgid "Render the image or text in current overlay buffer."
@@ -13552,7 +13572,7 @@ msgstr "Clófhoireann"
 
 #: modules/gui/fbosd.c:212
 msgid "Commands"
-msgstr ""
+msgstr "Orduithe"
 
 #: modules/gui/fbosd.c:217
 msgid "GNU/Linux osd/overlay framebuffer interface"
@@ -13563,9 +13583,8 @@ msgid "About VLC media player"
 msgstr "Maidir le seinnteoir meán VLC"
 
 #: modules/gui/macosx/about.m:104
-#, fuzzy
 msgid "Compiled by %s with %@"
-msgstr "Tiomsaithe ag %s"
+msgstr "Tiomsaithe ag %s le %@"
 
 #: modules/gui/macosx/about.m:112
 msgid "VLC was brought to you by:"
@@ -13578,7 +13597,7 @@ msgstr "Ceadúnas"
 
 #: modules/gui/macosx/about.m:206
 msgid "VLC media player Help"
-msgstr ""
+msgstr "Cabhair do sheinnteoir meán VLC"
 
 #: modules/gui/macosx/about.m:209 modules/gui/macosx/controls.m:501
 #: modules/gui/macosx/intf.m:711
@@ -13656,6 +13675,8 @@ msgstr "Gan ionchur"
 msgid ""
 "No input found. A stream must be playing or paused for bookmarks to work."
 msgstr ""
+"Níor aimsíodh ionchur. Ní mór do sruth a bheith ag seimn nó ar sos ionas go "
+"bhfeidhmeoidh ceanán."
 
 #: modules/gui/macosx/bookmarks.m:221
 msgid "Input has changed"
@@ -13673,7 +13694,7 @@ msgstr "Roghnúchán neamhbhailí"
 
 #: modules/gui/macosx/bookmarks.m:273
 msgid "Two bookmarks have to be selected."
-msgstr ""
+msgstr "Caithfear dhá cheanán a roghnú."
 
 #: modules/gui/macosx/bookmarks.m:279
 msgid "No input found"
@@ -13682,6 +13703,8 @@ msgstr "Níor aimsíodh ionchur"
 #: modules/gui/macosx/bookmarks.m:281
 msgid "The stream must be playing or paused for bookmarks to work."
 msgstr ""
+"Ní mór don sruth bheith ag seinm nó ar shos ionas go bhfeidhmeoidh na "
+"ceanáin."
 
 #: modules/gui/macosx/controls.m:59 modules/gui/macosx/controls.m:1029
 msgid "Jump To Time"
@@ -13702,7 +13725,7 @@ msgstr "Fánach Ar Siúl"
 #: modules/gui/macosx/controls.m:274 modules/gui/macosx/controls.m:305
 #: modules/gui/macosx/controls.m:333
 msgid "Repeat Off"
-msgstr ""
+msgstr "Athsheinn As"
 
 #: modules/gui/macosx/controls.m:441 modules/gui/macosx/controls.m:1043
 #: modules/gui/macosx/intf.m:685
@@ -13717,12 +13740,12 @@ msgstr "Gnáthmhéid"
 #: modules/gui/macosx/controls.m:445 modules/gui/macosx/controls.m:1045
 #: modules/gui/macosx/intf.m:687
 msgid "Double Size"
-msgstr ""
+msgstr "Méid Faoi Dhó"
 
 #: modules/gui/macosx/controls.m:447 modules/gui/macosx/controls.m:1049
 #: modules/gui/macosx/controls.m:1061 modules/gui/macosx/intf.m:690
 msgid "Float on Top"
-msgstr ""
+msgstr "Cuir ag snámh ar barr"
 
 #: modules/gui/macosx/controls.m:449 modules/gui/macosx/controls.m:1046
 #: modules/gui/macosx/intf.m:688
@@ -13731,7 +13754,7 @@ msgstr "Oiriúnaigh don Scáileán"
 
 #: modules/gui/macosx/controls.m:774
 msgid "Lock Aspect Ratio"
-msgstr ""
+msgstr "Glasaigh an Cóimheas Treoíochta"
 
 #: modules/gui/macosx/controls.m:786 modules/gui/macosx/intf.m:634
 #: modules/gui/macosx/intf.m:702 modules/gui/qt4/menus.cpp:613
@@ -13754,11 +13777,11 @@ msgstr "Céim Siar"
 #: modules/gui/macosx/coredialogs.m:64 modules/gui/macosx/simple_prefs.m:235
 #: modules/gui/qt4/dialogs/external.cpp:120
 msgid "User name"
-msgstr ""
+msgstr "Ainm úsáideora"
 
 #: modules/gui/macosx/coredialogs.m:244
 msgid "Errors and Warnings"
-msgstr ""
+msgstr "Botúin agus Rabhaidh"
 
 #: modules/gui/macosx/coredialogs.m:245
 msgid "Clean up"
@@ -13778,29 +13801,33 @@ msgstr "Gluais Ar Aghaidh"
 
 #: modules/gui/macosx/embeddedwindow.m:76 modules/gui/macosx/intf.m:599
 #: modules/gui/macosx/intf.m:600 modules/gui/macosx/intf.m:2013
-#: modules/gui/qt4/dialogs/help.cpp:99 modules/gui/qt4/main_interface.cpp:880
-#: modules/gui/qt4/main_interface.cpp:884
-#: modules/gui/qt4/main_interface.cpp:924
-#: modules/gui/qt4/main_interface.cpp:926
-#: modules/gui/qt4/main_interface.cpp:994
-#: modules/gui/qt4/main_interface.cpp:1011
-#: modules/gui/qt4/main_interface.cpp:1018
-#: modules/gui/qt4/main_interface.cpp:1041
+#: modules/gui/qt4/dialogs/help.cpp:99 modules/gui/qt4/main_interface.cpp:884
+#: modules/gui/qt4/main_interface.cpp:888
+#: modules/gui/qt4/main_interface.cpp:928
+#: modules/gui/qt4/main_interface.cpp:930
+#: modules/gui/qt4/main_interface.cpp:998
+#: modules/gui/qt4/main_interface.cpp:1015
+#: modules/gui/qt4/main_interface.cpp:1022
+#: modules/gui/qt4/main_interface.cpp:1045
 #: modules/video_output/xcb/window.c:322
 msgid "VLC media player"
 msgstr "Seinnteoir meán VLC"
 
 #: modules/gui/macosx/equalizer.m:145 modules/gui/qt4/ui/equalizer.h:128
 msgid "2 Pass"
-msgstr ""
+msgstr "Faoi dhó"
 
 #: modules/gui/macosx/equalizer.m:146
 msgid "Apply the equalizer filter twice. The effect will be sharper."
 msgstr ""
+"Cuir scagaire an chothromóra i bhfeidhm faoi dhó. Beidh an éifeacht níos "
+"géire."
 
 #: modules/gui/macosx/equalizer.m:149
 msgid "Enable the equalizer. Bands can be set manually or using a preset."
 msgstr ""
+"Cumasaigh an cothromóir. Is féidir bannaí a shocrú de láimh nó trí fheidhm a "
+"bhaint as réamhshocrú."
 
 #: modules/gui/macosx/equalizer.m:151 modules/gui/qt4/ui/equalizer.h:130
 msgid "Preamp"
@@ -13812,7 +13839,7 @@ msgstr "Rialtáin breisithe"
 
 #: modules/gui/macosx/extended.m:69
 msgid "Shows more information about the available video filters."
-msgstr ""
+msgstr "Taispeánann sé tuilleadh eolais faoi na scagairí físeáin ar fáil."
 
 #: modules/gui/macosx/extended.m:70 modules/video_filter/wave.c:54
 msgid "Wave"
@@ -13826,7 +13853,7 @@ msgstr "Tonnán"
 #: modules/video_filter/psychedelic.c:55
 #: modules/gui/qt4/ui/video_effects.h:1143
 msgid "Psychedelic"
-msgstr ""
+msgstr "Sícideileach"
 
 #: modules/gui/macosx/extended.m:73 modules/video_filter/gradient.c:76
 #: modules/video_filter/gradient.c:82 modules/gui/qt4/ui/video_effects.h:1148
@@ -13835,7 +13862,7 @@ msgstr "Grádán"
 
 #: modules/gui/macosx/extended.m:74
 msgid "General editing filters"
-msgstr ""
+msgstr "Scagairí eagarthóireachta coiteann"
 
 #: modules/gui/macosx/extended.m:75
 msgid "Distortion filters"
@@ -13851,7 +13878,7 @@ msgstr ""
 
 #: modules/gui/macosx/extended.m:79
 msgid "Creates several copies of the Video output window"
-msgstr ""
+msgstr "Cruthaíonn sé macasamhla den fhuinneog aschuir físeáin"
 
 #: modules/gui/macosx/extended.m:81
 msgid "Image cropping"
@@ -13879,11 +13906,11 @@ msgstr "Rothlaíonn sé nó smeachann sé an íomhá"
 
 #: modules/gui/macosx/extended.m:87
 msgid "Interactive Zoom"
-msgstr ""
+msgstr "Formhéadú Idirghníomhach"
 
 #: modules/gui/macosx/extended.m:88
 msgid "Enables an interactive Zoom feature"
-msgstr ""
+msgstr "Cumasaíonn sé gné formhéadaithe idirghníomhaí"
 
 #: modules/gui/macosx/extended.m:89
 msgid "Volume normalization"
@@ -13891,15 +13918,15 @@ msgstr ""
 
 #: modules/gui/macosx/extended.m:90
 msgid "Prevents the audio output from going over a predefined value."
-msgstr ""
+msgstr "Toirmeascann sé an t-aschur fuaime luach réamhshainithe a shárú."
 
 #: modules/gui/macosx/extended.m:92
 msgid "Headphone virtualization"
-msgstr ""
+msgstr "Fíorúlú cluasán"
 
 #: modules/gui/macosx/extended.m:93
 msgid "Imitates the effect of surround sound when using headphones."
-msgstr ""
+msgstr "Déanann sé aithris ar an bhfuaim timpeallach nuair a chaitear cluasán."
 
 #: modules/gui/macosx/extended.m:95
 msgid "Maximum level"
@@ -13965,7 +13992,7 @@ msgstr "Sainroghanna..."
 
 #: modules/gui/macosx/intf.m:626
 msgid "Services"
-msgstr ""
+msgstr "Seirbhísí"
 
 #: modules/gui/macosx/intf.m:627
 msgid "Hide VLC"
@@ -14046,7 +14073,7 @@ msgstr "Laghdaigh an Airde"
 #: modules/gui/macosx/intf.m:698 modules/gui/macosx/intf.m:699
 #: modules/gui/macosx/simple_prefs.m:291 modules/gui/macosx/vout.m:207
 msgid "Fullscreen Video Device"
-msgstr ""
+msgstr "Gléas Físeáin Lánscáileáin"
 
 #: modules/gui/macosx/intf.m:710
 msgid "Transparent"
@@ -14082,7 +14109,7 @@ msgstr "Rialtáin Bhreisithe..."
 
 #: modules/gui/macosx/intf.m:724
 msgid "Bookmarks..."
-msgstr ""
+msgstr "Ceanáin..."
 
 #: modules/gui/macosx/intf.m:725
 msgid "Playlist..."
@@ -14090,7 +14117,7 @@ msgstr ""
 
 #: modules/gui/macosx/intf.m:726 modules/gui/macosx/playlist.m:470
 msgid "Media Information..."
-msgstr ""
+msgstr "Faisnéis an Mheáin..."
 
 #: modules/gui/macosx/intf.m:727
 msgid "Messages..."
@@ -14111,7 +14138,7 @@ msgstr "Cabhair"
 
 #: modules/gui/macosx/intf.m:733
 msgid "VLC media player Help..."
-msgstr ""
+msgstr "Cabhair do sheinnteoir meán VLC..."
 
 #: modules/gui/macosx/intf.m:734
 msgid "ReadMe / FAQ..."
@@ -14119,7 +14146,7 @@ msgstr "LéighMé / Ceisteanna Coitianta..."
 
 #: modules/gui/macosx/intf.m:736
 msgid "Online Documentation..."
-msgstr ""
+msgstr "Cáipéisí Ar An nGréasán..."
 
 #: modules/gui/macosx/intf.m:737
 msgid "VideoLAN Website..."
@@ -14165,12 +14192,14 @@ msgstr ""
 #: modules/gui/macosx/intf.m:765
 msgid "I agree to be possibly contacted about this bugreport."
 msgstr ""
+"Aontaím go d'fhéadfaí dul i dteagmháil maidir leis an bhfabhtfhógra seo."
 
 #: modules/gui/macosx/intf.m:766
 msgid ""
 "Only your default E-Mail address will be submitted, including no further "
 "information."
 msgstr ""
+"Seolfar do sheoladh ríomhphoist réamhshocraithe amháin gan aon eolas eile."
 
 #: modules/gui/macosx/intf.m:1853
 #, c-format
@@ -14179,7 +14208,7 @@ msgstr "Airde: %d%%"
 
 #: modules/gui/macosx/intf.m:2351
 msgid "Error when sending the Crash Report"
-msgstr ""
+msgstr "Tharla botún fad agus a bhí an Fógra Tuairte á seoladh"
 
 #: modules/gui/macosx/intf.m:2442
 msgid "No CrashLog found"
@@ -14192,7 +14221,7 @@ msgstr "Lean ar aghaidh"
 
 #: modules/gui/macosx/intf.m:2442
 msgid "Couldn't find any trace of a previous crash."
-msgstr ""
+msgstr "Níorbh fhéidir rian ar bith de thuairt a tharla cheana a aimsiú."
 
 #: modules/gui/macosx/intf.m:2469
 msgid "Remove old preferences?"
@@ -14200,7 +14229,7 @@ msgstr "Bain sean sainroghanna?"
 
 #: modules/gui/macosx/intf.m:2470
 msgid "We just found an older version of VLC's preferences files."
-msgstr ""
+msgstr "Aimsíodh sean leagan de chomhaid shainroghanna VLC."
 
 #: modules/gui/macosx/intf.m:2471
 msgid "Move To Trash and Relaunch VLC"
@@ -14227,6 +14256,8 @@ msgid ""
 "Set the transparency of the video output. 1 is non-transparent (default) 0 "
 "is fully transparent."
 msgstr ""
+"Socraigh trédhearcacht an aschuir físeáin. Tá a 1 neamhthrédhearcach (an "
+"réamhshocrú), 0 ná iomlán trédhearcach."
 
 #: modules/gui/macosx/macosx.m:62
 msgid "Stretch video to fill window"
@@ -14237,6 +14268,9 @@ msgid ""
 "Stretch the video to fill the entire window when resizing the video instead "
 "of keeping the aspect ratio and displaying black borders."
 msgstr ""
+"Sín an físeán chun an fhuinneog iomlán a líonadh nuair méid an fhíseáin á "
+"athrú seachas an cóimheas treoíocht a choimeád agus imill dhubha a "
+"thaispeáint."
 
 #: modules/gui/macosx/macosx.m:67
 msgid "Black screens in fullscreen"
@@ -14244,7 +14278,7 @@ msgstr "Scáileáin dhubha i lánscáileán"
 
 #: modules/gui/macosx/macosx.m:68
 msgid "In fullscreen mode, keep screen where there is no video displayed black"
-msgstr ""
+msgstr "Sa lánscáileán, coimeád an scáileán dubh nuair nach taispeántar físeán"
 
 #: modules/gui/macosx/macosx.m:71
 msgid "Use as Desktop Background"
@@ -14255,6 +14289,8 @@ msgid ""
 "Use the video as the Desktop Background Desktop icons cannot be interacted "
 "with in this mode."
 msgstr ""
+"Bain leas as an bhfíseán mar chúlra na deisce. Ní féidir feidhm a bhaint as "
+"na deilbhín nuair a dhéantar seo."
 
 #: modules/gui/macosx/macosx.m:75
 msgid "Show Fullscreen controller"
@@ -14266,7 +14302,7 @@ msgstr ""
 
 #: modules/gui/macosx/macosx.m:79
 msgid "Auto-playback of new items"
-msgstr ""
+msgstr "Athsheinm uathoibríoch míreanna nua"
 
 #: modules/gui/macosx/macosx.m:80
 msgid "Start playback of new items immediately once they were added."
@@ -14281,6 +14317,8 @@ msgid ""
 "By default, VLC keeps a list of the last 10 items. This feature can be "
 "disabled here."
 msgstr ""
+"Mar réamhshocrú, coimeádann VLC taifead de na 10 míreanna is déanaí. Is "
+"féidir an ghné seo a díchumasú anseo."
 
 #: modules/gui/macosx/macosx.m:87
 msgid "Keep current Equalizer settings"
@@ -14291,24 +14329,28 @@ msgid ""
 "By default, VLC keeps the last equalizer settings before termination. This "
 "feature can be disabled here."
 msgstr ""
+"Mar réamhshocrú, coimeádann VLC socruithe an chothromóra is déanaí roimh "
+"scoir. Is féidir an ghné seo a dhíchumasú anseo."
 
 #: modules/gui/macosx/macosx.m:91 modules/gui/macosx/simple_prefs.m:271
 msgid "Control playback with the Apple Remote"
-msgstr ""
+msgstr "Rialaigh an athsheinm le Apple Remote"
 
 #: modules/gui/macosx/macosx.m:92
 msgid "By default, VLC can be remotely controlled with the Apple Remote."
-msgstr ""
+msgstr "Mar réamhshocrú, is féidir VLC a chianrialú le Apple Remote."
 
 #: modules/gui/macosx/macosx.m:94 modules/gui/macosx/simple_prefs.m:272
 msgid "Control playback with media keys"
-msgstr ""
+msgstr "Rialaigh athsheinm le cnaipí meán"
 
 #: modules/gui/macosx/macosx.m:95
 msgid ""
 "By default, VLC can be controlled using the media keys on modern Apple "
 "keyboards."
 msgstr ""
+"Mar réamhshocrú, is féidir VLC a rialú trí fheidhm a bhaint as na cnaipí "
+"meán ar mhéarchláir nua-aimseartha Apple."
 
 #: modules/gui/macosx/macosx.m:99
 msgid "Mac OS X interface"
@@ -14332,7 +14374,7 @@ msgstr "Oscail Foinse"
 
 #: modules/gui/macosx/open.m:174
 msgid "Media Resource Locator (MRL)"
-msgstr ""
+msgstr "Aimsitheoir meán acmhainne (MRL)"
 
 #: modules/gui/macosx/open.m:176 modules/gui/macosx/open.m:208
 #: modules/gui/macosx/open.m:612 modules/gui/macosx/open.m:809
@@ -14366,7 +14408,7 @@ msgstr "Caith leis mar fheadán seachas mar chomhad"
 
 #: modules/gui/macosx/open.m:186
 msgid "Play another media synchronously"
-msgstr ""
+msgstr "Seinn meán eile in éineacht leis"
 
 #: modules/gui/macosx/open.m:187 modules/gui/macosx/simple_prefs.m:280
 #: modules/gui/macosx/wizard.m:344 modules/gui/macosx/wizard.m:412
@@ -14385,7 +14427,7 @@ msgstr "Gan roghchláir DVD"
 
 #: modules/gui/macosx/open.m:196 modules/gui/macosx/open.m:650
 msgid "VIDEO_TS folder"
-msgstr ""
+msgstr "Fillteán VIDEO_TS"
 
 #: modules/gui/macosx/open.m:197 modules/gui/macosx/open.m:763
 #: modules/services_discovery/udev.c:587 modules/gui/qt4/ui/open_disk.h:292
@@ -14435,16 +14477,16 @@ msgstr "Seoladh"
 #: modules/gui/macosx/open.m:214 modules/gui/macosx/open.m:879
 #: modules/gui/macosx/open.m:937
 msgid "Unicast"
-msgstr ""
+msgstr "Aonchraoladh"
 
 #: modules/gui/macosx/open.m:215 modules/gui/macosx/open.m:894
 #: modules/gui/macosx/open.m:952
 msgid "Multicast"
-msgstr ""
+msgstr "Ilchraolacháin"
 
 #: modules/gui/macosx/open.m:227
 msgid "Screen Capture Input"
-msgstr ""
+msgstr "Ionchur Gabhála Scáileáin"
 
 #: modules/gui/macosx/open.m:228
 msgid "This facility allows you to process your screen's output."
@@ -14484,7 +14526,7 @@ msgstr "Bealach Ar Aghaidh"
 
 #: modules/gui/macosx/open.m:238 modules/gui/macosx/open.m:1161
 msgid "Retrieving Channel Info..."
-msgstr ""
+msgstr "Ag aisghabháil faisnéis an bhealaigh..."
 
 #: modules/gui/macosx/open.m:239
 msgid "EyeTV is not launched"
@@ -14516,7 +14558,7 @@ msgstr "Socruithe..."
 
 #: modules/gui/macosx/open.m:330
 msgid "Override parametters"
-msgstr ""
+msgstr "Sáraigh na teorainn"
 
 #: modules/gui/macosx/open.m:333
 msgid "FPS"
@@ -14532,7 +14574,7 @@ msgstr "Méid na clófhoirne"
 
 #: modules/gui/macosx/open.m:339
 msgid "Subtitles alignment"
-msgstr ""
+msgstr "Ailíniú na bhfotheideal"
 
 #: modules/gui/macosx/open.m:342
 msgid "Font Properties"
@@ -14554,7 +14596,7 @@ msgstr "Níor aimsíodh %@s"
 
 #: modules/gui/macosx/open.m:808
 msgid "Open VIDEO_TS Directory"
-msgstr ""
+msgstr "Oscail comhadlann VIDEO_TS"
 
 #: modules/gui/macosx/open.m:1064
 msgid "iSight Capture Input"
@@ -14572,15 +14614,15 @@ msgstr ""
 
 #: modules/gui/macosx/open.m:1167
 msgid "Composite input"
-msgstr ""
+msgstr "Ionchur ilchodach"
 
 #: modules/gui/macosx/open.m:1170
 msgid "S-Video input"
-msgstr ""
+msgstr "Ionchur S-Video"
 
 #: modules/gui/macosx/output.m:136
 msgid "Streaming/Saving:"
-msgstr ""
+msgstr "Sruthú/Taisciú:"
 
 #: modules/gui/macosx/output.m:140
 msgid "Streaming and Transcoding Options"
@@ -14642,18 +14684,18 @@ msgstr "Ainm an Bhealaigh"
 
 #: modules/gui/macosx/output.m:187
 msgid "SDP URL"
-msgstr ""
+msgstr "URL SDP"
 
 #: modules/gui/macosx/output.m:525
 msgid "Save File"
-msgstr ""
+msgstr "Cuir an comhad i dtaisce"
 
 #: modules/gui/macosx/output.m:526 modules/gui/macosx/playlist.m:747
 #: modules/gui/macosx/prefs.m:203 modules/gui/macosx/simple_prefs.m:310
 #: modules/gui/qt4/components/sout/profile_selector.cpp:250
 #: modules/gui/qt4/ui/vlm.h:302
 msgid "Save"
-msgstr ""
+msgstr "Cuir i dtaisce"
 
 #: modules/gui/macosx/playlist.m:138 modules/gui/macosx/playlist.m:142
 #: modules/gui/macosx/wizard.m:348 modules/gui/qt4/dialogs/plugins.cpp:498
@@ -14679,7 +14721,7 @@ msgstr "Scrios"
 
 #: modules/gui/macosx/playlist.m:468
 msgid "Expand Node"
-msgstr ""
+msgstr "Fairsingigh an nód"
 
 #: modules/gui/macosx/playlist.m:471
 msgid "Download Cover Art"
@@ -14691,15 +14733,15 @@ msgstr ""
 
 #: modules/gui/macosx/playlist.m:473 modules/gui/macosx/playlist.m:474
 msgid "Reveal in Finder"
-msgstr ""
+msgstr "Taispeáin sa Chuardaitheoir"
 
 #: modules/gui/macosx/playlist.m:476
 msgid "Sort Node by Name"
-msgstr ""
+msgstr "Togh Nód de réir Ainm"
 
 #: modules/gui/macosx/playlist.m:477
 msgid "Sort Node by Author"
-msgstr ""
+msgstr "Togh Nód de réir Údar"
 
 #: modules/gui/macosx/playlist.m:480 modules/gui/macosx/playlist.m:481
 #: modules/gui/macosx/playlist.m:539 modules/gui/macosx/playlist.m:540
@@ -14775,7 +14817,7 @@ msgstr "Coiteann"
 
 #: modules/gui/macosx/playlistinfo.m:81
 msgid "Codec Details"
-msgstr ""
+msgstr "Sonraí comhbhrúite/dí-chomhbhrúite"
 
 #: modules/gui/macosx/playlistinfo.m:98
 msgid "Read at media"
@@ -14788,7 +14830,7 @@ msgstr ""
 
 #: modules/gui/macosx/playlistinfo.m:100
 msgid "Demuxed"
-msgstr ""
+msgstr "Dí-ilphléacstha"
 
 #: modules/gui/macosx/playlistinfo.m:101
 msgid "Stream bitrate"
@@ -14814,7 +14856,7 @@ msgstr "Sruthú"
 
 #: modules/gui/macosx/playlistinfo.m:110
 msgid "Sent packets"
-msgstr ""
+msgstr "Ceangaltán seolta"
 
 #: modules/gui/macosx/playlistinfo.m:111
 msgid "Sent bytes"
@@ -14822,7 +14864,7 @@ msgstr "Bearta seolta"
 
 #: modules/gui/macosx/playlistinfo.m:112
 msgid "Send rate"
-msgstr ""
+msgstr "Luas seolta"
 
 #: modules/gui/macosx/playlistinfo.m:116
 msgid "Played buffers"
@@ -14838,7 +14880,7 @@ msgstr ""
 
 #: modules/gui/macosx/playlistinfo.m:397
 msgid "VLC was unable to save the meta data."
-msgstr ""
+msgstr "Theip ar VLC na meitea-sonraí a chur i dtaisce."
 
 #: modules/gui/macosx/playlistinfo.m:421
 #: modules/gui/qt4/components/controller.hpp:109
@@ -14870,6 +14912,8 @@ msgid ""
 "Beware this will reset the VLC media player preferences.\n"
 "Are you sure you want to continue?"
 msgstr ""
+"Bí aidreallach mar athshocróidh seo sainroghanna an tseinnteora meán VLC.\n"
+"An bhfuil tú cinnte gur mian leat leanúint ar aghaidh?"
 
 #: modules/gui/macosx/prefs_widgets.m:1227
 msgid "Select a directory"
@@ -14902,12 +14946,12 @@ msgstr "Socruithe Físeáin Coiteann"
 
 #: modules/gui/macosx/simple_prefs.m:192
 msgid "Subtitles & OSD"
-msgstr ""
+msgstr "Fotheidil & TAAS"
 
 #: modules/gui/macosx/simple_prefs.m:192
 #: modules/gui/qt4/components/simple_preferences.cpp:624
 msgid "Subtitles & On Screen Display Settings"
-msgstr ""
+msgstr "Socruithe na bhFotheideal & Taispeáin Ar An Scáileán"
 
 #: modules/gui/macosx/simple_prefs.m:196
 msgid "Input & Codecs"
@@ -14931,7 +14975,7 @@ msgstr "Fuaim Choiteann"
 
 #: modules/gui/macosx/simple_prefs.m:231 modules/gui/qt4/ui/sprefs_audio.h:419
 msgid "Headphone surround effect"
-msgstr ""
+msgstr "Éifeacht timpeall cluasán"
 
 #: modules/gui/macosx/simple_prefs.m:232
 msgid "Preferred Audio language"
@@ -14959,7 +15003,7 @@ msgstr "Athraigh an eochair aicearra"
 
 #: modules/gui/macosx/simple_prefs.m:247
 msgid "Select an action to change the associated hotkey:"
-msgstr ""
+msgstr "Roghnaigh gníomh chun an cnaipe aicearra comhthiomsaithe a athrú:"
 
 #: modules/gui/macosx/simple_prefs.m:248
 #: modules/gui/qt4/components/preferences_widgets.cpp:1197
@@ -14980,7 +15024,7 @@ msgstr ""
 
 #: modules/gui/macosx/simple_prefs.m:254 modules/gui/qt4/ui/open.h:235
 msgid "Caching"
-msgstr ""
+msgstr "Taisceadh"
 
 #: modules/gui/macosx/simple_prefs.m:255
 msgid ""
@@ -15002,7 +15046,7 @@ msgstr ""
 
 #: modules/gui/macosx/simple_prefs.m:260
 msgid "Post-Processing Quality"
-msgstr ""
+msgstr "Caighdeán tar éis cóireáil"
 
 #: modules/gui/macosx/simple_prefs.m:263
 msgid "Default Server Port"
@@ -15010,7 +15054,7 @@ msgstr "Port Réamhshocraithe an Fhreastalaí"
 
 #: modules/gui/macosx/simple_prefs.m:266
 msgid "Album art download policy"
-msgstr ""
+msgstr "Beartas i dtaca le ealaíon albaim a íosluchtú"
 
 #: modules/gui/macosx/simple_prefs.m:267
 msgid "Add controls to the video window"
@@ -15056,7 +15100,7 @@ msgstr "Teangacha na bhFotheideal"
 
 #: modules/gui/macosx/simple_prefs.m:285
 msgid "Preferred Subtitle Language"
-msgstr ""
+msgstr "Teanga na bhFotheideal Arbh Fhearr Leat"
 
 #: modules/gui/macosx/simple_prefs.m:287
 msgid "Enable OSD"
@@ -15064,7 +15108,7 @@ msgstr "Cumasaigh OSD"
 
 #: modules/gui/macosx/simple_prefs.m:290
 msgid "Black screens in Fullscreen mode"
-msgstr ""
+msgstr "Scáileáin dhubha i modh Lánscáileáin"
 
 #: modules/gui/macosx/simple_prefs.m:292 modules/stream_out/display.c:54
 #: modules/video_filter/deinterlace.c:138
@@ -15082,7 +15126,7 @@ msgstr "Modúl aschurtha"
 
 #: modules/gui/macosx/simple_prefs.m:298 modules/gui/qt4/ui/sprefs_video.h:325
 msgid "Video snapshots"
-msgstr ""
+msgstr "Roghbhlúirí físeáin"
 
 #: modules/gui/macosx/simple_prefs.m:300 modules/meta_engine/folder.c:66
 msgid "Folder"
@@ -15090,7 +15134,7 @@ msgstr "Fillteán"
 
 #: modules/gui/macosx/simple_prefs.m:301 modules/gui/qt4/ui/sprefs_video.h:330
 msgid "Format"
-msgstr ""
+msgstr "Cuma"
 
 #: modules/gui/macosx/simple_prefs.m:302 modules/gui/qt4/ui/sprefs_video.h:328
 msgid "Prefix"
@@ -15143,7 +15187,7 @@ msgstr "Aga folaigh  níos airde"
 
 #: modules/gui/macosx/simple_prefs.m:855
 msgid "Interface Settings not saved"
-msgstr ""
+msgstr "Níor cuireadh i dtaisce socruithe an chomhéadain"
 
 #: modules/gui/macosx/simple_prefs.m:856 modules/gui/macosx/simple_prefs.m:928
 #: modules/gui/macosx/simple_prefs.m:961
@@ -15156,15 +15200,15 @@ msgstr ""
 
 #: modules/gui/macosx/simple_prefs.m:927
 msgid "Audio Settings not saved"
-msgstr ""
+msgstr "Níor cuireadh i dtaisce na socruithe fuaime"
 
 #: modules/gui/macosx/simple_prefs.m:960
 msgid "Video Settings not saved"
-msgstr ""
+msgstr "Níor cuireadh i dtaisce na socruithe físeáin"
 
 #: modules/gui/macosx/simple_prefs.m:1026
 msgid "Input Settings not saved"
-msgstr ""
+msgstr "Níor cuireadh i dtaisce na socruithe ionchuir"
 
 #: modules/gui/macosx/simple_prefs.m:1066
 msgid "On Screen Display/Subtitle Settings not saved"
@@ -15176,7 +15220,7 @@ msgstr ""
 
 #: modules/gui/macosx/simple_prefs.m:1185
 msgid "Choose the folder to save your video snapshots to."
-msgstr ""
+msgstr "Roghnaigh an fillteán ina gcuirfear i dtaisce na roghbhlúirí físeáin."
 
 #: modules/gui/macosx/simple_prefs.m:1187
 msgid "Choose"
@@ -15306,7 +15350,7 @@ msgstr ""
 
 #: modules/gui/macosx/wizard.m:237
 msgid "MPEG 1 Format"
-msgstr ""
+msgstr "Cuma MPEG 1"
 
 #: modules/gui/macosx/wizard.m:255
 msgid ""
@@ -15341,11 +15385,11 @@ msgstr ""
 
 #: modules/gui/macosx/wizard.m:271 modules/gui/macosx/wizard.m:281
 msgid "Enter the address of the computer to stream to."
-msgstr ""
+msgstr "Cuir isteach seoladh an ríomhaire chun sruthú chuige."
 
 #: modules/gui/macosx/wizard.m:272 modules/gui/macosx/wizard.m:370
 msgid "Use this to stream to a single computer."
-msgstr ""
+msgstr "Bain feidhm as seo chun sruthú chuig ríomhaire amháin."
 
 #: modules/gui/macosx/wizard.m:274 modules/gui/macosx/wizard.m:284
 msgid ""
@@ -15428,7 +15472,7 @@ msgstr ""
 
 #: modules/gui/macosx/wizard.m:351 modules/gui/macosx/wizard.m:431
 msgid "Partial Extract"
-msgstr ""
+msgstr "Astarraingt neamhiomlán"
 
 #: modules/gui/macosx/wizard.m:353
 msgid ""
@@ -15448,6 +15492,7 @@ msgstr "Chuig"
 #: modules/gui/macosx/wizard.m:362
 msgid "This page allows to select how the input stream will be sent."
 msgstr ""
+"Ceadaíonn an leathanach seo conas mar a sheolfar an sruth ionchuir a roghnú."
 
 #: modules/gui/macosx/wizard.m:364 modules/gui/macosx/wizard.m:425
 #: modules/gui/qt4/dialogs/convert.cpp:55 modules/stream_out/rtp.c:74
@@ -15460,7 +15505,7 @@ msgstr "Modh sruthaithe"
 
 #: modules/gui/macosx/wizard.m:366
 msgid "Address of the computer to stream to."
-msgstr ""
+msgstr "Seoladh an ríomhaire a sruthófar chuige"
 
 #: modules/gui/macosx/wizard.m:368
 msgid "UDP Unicast"
@@ -15513,7 +15558,7 @@ msgstr ""
 
 #: modules/gui/macosx/wizard.m:396
 msgid "Additional streaming options"
-msgstr ""
+msgstr "Roghanna sruthaithe sa bhreis"
 
 #: modules/gui/macosx/wizard.m:397
 msgid "In this page, a few additional streaming parameters can be set."
@@ -15522,7 +15567,7 @@ msgstr ""
 #: modules/gui/macosx/wizard.m:399 modules/gui/macosx/wizard.m:1840
 #: modules/gui/qt4/ui/sout.h:344
 msgid "Time-To-Live (TTL)"
-msgstr ""
+msgstr "Am Go Dtí Beo (TTL)"
 
 #: modules/gui/macosx/wizard.m:401 modules/gui/macosx/wizard.m:433
 #: modules/gui/macosx/wizard.m:1851
@@ -15595,7 +15640,7 @@ msgstr ""
 
 #: modules/gui/macosx/wizard.m:660
 msgid "No valid destination"
-msgstr ""
+msgstr "Níl sprioc bailí ann"
 
 #: modules/gui/macosx/wizard.m:662
 msgid ""
@@ -15631,6 +15676,8 @@ msgid ""
 "Enter either a valid path or use the \"Choose...\" button to select a "
 "location."
 msgstr ""
+"Cuir isteach conair bhailí nó bain feidhm as an gcnaipe \"Roghnaigh...\" "
+"chun suíomh a roghnú."
 
 #: modules/gui/macosx/wizard.m:1125
 msgid "No file selected"
@@ -15638,12 +15685,14 @@ msgstr "Níor roghnaíodh comhad"
 
 #: modules/gui/macosx/wizard.m:1127
 msgid "A file where to save the stream has to be selected."
-msgstr ""
+msgstr "Caithfear comhad ina gcuirfear an sruth i dtaisce ann a roghnú."
 
 #: modules/gui/macosx/wizard.m:1129
 msgid ""
 "Enter either a valid path or use the \"Choose\" button to select a location."
 msgstr ""
+"Cuir isteach conair bhailí nó bain feidhm as an gcnaip \"Roghnaigh\" chun "
+"suíomh a roghnú."
 
 #: modules/gui/macosx/wizard.m:1334
 msgid "Finish"
@@ -15652,21 +15701,21 @@ msgstr "Críochnaigh"
 #: modules/gui/macosx/wizard.m:1347 modules/gui/macosx/wizard.m:1376
 #: modules/gui/macosx/wizard.m:1406
 msgid "yes"
-msgstr ""
+msgstr "tá"
 
 #: modules/gui/macosx/wizard.m:1349 modules/gui/macosx/wizard.m:1359
 #: modules/gui/macosx/wizard.m:1372 modules/gui/macosx/wizard.m:1378
 #: modules/gui/macosx/wizard.m:1390 modules/gui/macosx/wizard.m:1409
 msgid "no"
-msgstr ""
+msgstr "níl"
 
 #: modules/gui/macosx/wizard.m:1355
 msgid "yes: from %@ to %@ secs"
-msgstr ""
+msgstr "tá: ó %@ go %@ soic"
 
 #: modules/gui/macosx/wizard.m:1365 modules/gui/macosx/wizard.m:1383
 msgid "yes: %@ @ %@ kb/s"
-msgstr ""
+msgstr "tá: %@ @ %@ kb/s"
 
 #: modules/gui/macosx/wizard.m:1653
 msgid "This allows to stream on a network."
@@ -15731,7 +15780,7 @@ msgstr ""
 
 #: modules/gui/minimal_macosx/macosx.c:58
 msgid "Minimal Mac OS X interface"
-msgstr ""
+msgstr "Comhéadan Mac OS X íosta"
 
 #: modules/gui/minimal_macosx/macosx.c:68
 msgid "Minimal Mac OS X OpenGL video output (opens a borderless window)"
@@ -15806,11 +15855,11 @@ msgstr " Caibidil : %d/%d"
 #: modules/gui/ncurses.c:1557
 #, c-format
 msgid " Source: <no current item> %s"
-msgstr ""
+msgstr "Foinse: <gan mír reatha> %s"
 
 #: modules/gui/ncurses.c:1559
 msgid " [ h for help ]"
-msgstr ""
+msgstr " [ h i gcomhair cabhair ]"
 
 #: modules/gui/ncurses.c:1581
 msgid " Help "
@@ -15886,11 +15935,11 @@ msgstr ""
 
 #: modules/gui/ncurses.c:1610
 msgid "     [, ]        Next/Previous title"
-msgstr ""
+msgstr "     [, ]        Teideal Ar Aghaidh/Roimhe"
 
 #: modules/gui/ncurses.c:1611
 msgid "     <, >        Next/Previous chapter"
-msgstr ""
+msgstr "     <, >        Caibidil Ar Aghaidh/Roimhe"
 
 #: modules/gui/ncurses.c:1612
 #, c-format
@@ -15936,11 +15985,11 @@ msgstr ""
 
 #: modules/gui/ncurses.c:1628
 msgid "     g           Go to the current playing item"
-msgstr ""
+msgstr "     g           Téigh chuig an mhír atá á seinm faoi láthair"
 
 #: modules/gui/ncurses.c:1629
 msgid "     /           Look for an item"
-msgstr ""
+msgstr "     /           Lorg mír"
 
 #: modules/gui/ncurses.c:1630
 msgid "     A           Add an entry"
@@ -15976,7 +16025,7 @@ msgstr "     .           Taispeáin/Folaigh comhaid i bhfolach"
 
 #: modules/gui/ncurses.c:1648
 msgid "[Boxes]"
-msgstr ""
+msgstr "[Boscaí]"
 
 #: modules/gui/ncurses.c:1651
 msgid "     <up>,<down>     Navigate through the box line by line"
@@ -15993,7 +16042,7 @@ msgstr "[Seinnteoir]"
 #: modules/gui/ncurses.c:1660
 #, c-format
 msgid "     <up>,<down>     Seek +/-5%%"
-msgstr ""
+msgstr "     <suas>,<síos>     Cuardaigh +/-5%%"
 
 #: modules/gui/ncurses.c:1665
 msgid "[Miscellaneous]"
@@ -16019,7 +16068,7 @@ msgstr "      %s: %s"
 
 #: modules/gui/ncurses.c:1715 modules/gui/ncurses.c:1803
 msgid "No item currently playing"
-msgstr ""
+msgstr "Níl mír á seinm faoi láthair"
 
 #: modules/gui/ncurses.c:1828
 msgid " Logs "
@@ -16313,7 +16362,7 @@ msgstr ""
 #: modules/gui/qt4/components/info_panels.cpp:524
 #: modules/gui/qt4/components/info_panels.cpp:537
 msgid "Decoded"
-msgstr ""
+msgstr "Díchódaithe"
 
 #: modules/gui/qt4/components/info_panels.cpp:525
 #: modules/gui/qt4/components/info_panels.cpp:538
@@ -16341,7 +16390,7 @@ msgstr "Seolta"
 
 #: modules/gui/qt4/components/info_panels.cpp:531
 msgid "packets"
-msgstr ""
+msgstr "ceangaltáin"
 
 #: modules/gui/qt4/components/info_panels.cpp:534
 msgid "Upstream rate"
@@ -16390,12 +16439,12 @@ msgstr ""
 
 #: modules/gui/qt4/components/open_panels.cpp:57
 msgid "Select a device or a VIDEO_TS folder"
-msgstr ""
+msgstr "Roghnaigh gléas nó fillteán VIDEO_TS"
 
 #: modules/gui/qt4/components/open_panels.cpp:135
 #: modules/gui/qt4/components/open_panels.cpp:174
 msgid "Select one or multiple files"
-msgstr ""
+msgstr "Roghnaigh comhad amháin nó iliomad comhaid"
 
 #: modules/gui/qt4/components/open_panels.cpp:150
 msgid "File names:"
@@ -16476,7 +16525,7 @@ msgstr "Siortaitheoir Meán"
 
 #: modules/gui/qt4/components/playlist/playlist.cpp:80
 msgid "Double click to get media information"
-msgstr ""
+msgstr "Brúigh faoi dhó chun faisnéis an mheáin a léamh"
 
 #: modules/gui/qt4/components/playlist/playlist_model.cpp:53
 msgid "Create Directory"
@@ -16512,22 +16561,19 @@ msgstr ""
 
 #: modules/gui/qt4/components/playlist/selector.cpp:267
 msgid "My Computer"
-msgstr ""
+msgstr "Mo Ríomhaire"
 
 #: modules/gui/qt4/components/playlist/selector.cpp:269
-#, fuzzy
 msgid "Devices"
-msgstr "Gléas"
+msgstr "Gléasanna"
 
 #: modules/gui/qt4/components/playlist/selector.cpp:271
-#, fuzzy
 msgid "Local Network"
-msgstr "Líonra"
+msgstr "Líonra áitiúil"
 
 #: modules/gui/qt4/components/playlist/selector.cpp:273
-#, fuzzy
 msgid "Internet"
-msgstr "Interlingue"
+msgstr "Idirlíon"
 
 #: modules/gui/qt4/components/playlist/selector.cpp:295
 msgid "Subscribe to a podcast"
@@ -16659,7 +16705,7 @@ msgstr "Réamhshocrú an chórais"
 
 #: modules/gui/qt4/components/simple_preferences.cpp:652
 msgid "Configure Hotkeys"
-msgstr ""
+msgstr "Cumraigh cnaipí aicearra"
 
 #: modules/gui/qt4/components/simple_preferences.cpp:925
 #: modules/gui/qt4/dialogs_provider.hpp:51
@@ -16785,7 +16831,7 @@ msgstr ""
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:357
 msgid "Base port"
-msgstr ""
+msgstr "Port bunaidh"
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:399
 msgid "This module outputs the transcoded stream to an Icecast server."
@@ -16801,7 +16847,7 @@ msgstr ""
 
 #: modules/gui/qt4/dialogs/bookmarks.cpp:38
 msgid "Edit Bookmarks"
-msgstr ""
+msgstr "Cuir na ceanáin in eagar"
 
 #: modules/gui/qt4/dialogs/bookmarks.cpp:43
 msgid "Create"
@@ -16809,7 +16855,7 @@ msgstr "Cruthaigh"
 
 #: modules/gui/qt4/dialogs/bookmarks.cpp:44
 msgid "Create a new bookmark"
-msgstr ""
+msgstr "Cruthaigh ceanán nua"
 
 #: modules/gui/qt4/dialogs/bookmarks.cpp:46
 msgid "Delete the selected item"
@@ -16817,7 +16863,7 @@ msgstr "Scrios an mhír roghnaithe"
 
 #: modules/gui/qt4/dialogs/bookmarks.cpp:48
 msgid "Delete all the bookmarks"
-msgstr ""
+msgstr "Scrios na ceanáin uile"
 
 #: modules/gui/qt4/dialogs/bookmarks.cpp:53
 #: modules/gui/qt4/dialogs/errors.cpp:47
@@ -16856,6 +16902,7 @@ msgstr "Taispeáin an t-aschur"
 #: modules/gui/qt4/dialogs/convert.cpp:72
 msgid "This display the resulting media, but can slow things down."
 msgstr ""
+"Taispeánann sé seo na meáin iarmhartach, ach tig leis rudaí a mhoilliú."
 
 #: modules/gui/qt4/dialogs/convert.cpp:80
 msgid "Settings"
@@ -17051,7 +17098,7 @@ msgstr "Coiteann"
 
 #: modules/gui/qt4/dialogs/mediainfo.cpp:60
 msgid "&Extra Metadata"
-msgstr ""
+msgstr "Meiteashonraí Breise"
 
 #: modules/gui/qt4/dialogs/mediainfo.cpp:62
 msgid "&Codec Details"
@@ -17087,7 +17134,7 @@ msgstr ""
 
 #: modules/gui/qt4/dialogs/messages.cpp:122
 msgid "Verbosity Level"
-msgstr ""
+msgstr "Airde Foclachais"
 
 #: modules/gui/qt4/dialogs/messages.cpp:132
 msgid "Message filter"
@@ -17140,7 +17187,7 @@ msgstr "Roghnaigh"
 #: modules/gui/qt4/dialogs/open.cpp:117 modules/gui/qt4/dialogs/open.cpp:227
 #: modules/gui/qt4/dialogs/openurl.cpp:57
 msgid "&Enqueue"
-msgstr ""
+msgstr "I scuaine"
 
 #: modules/gui/qt4/dialogs/open.cpp:119 modules/gui/qt4/dialogs/open.cpp:231
 #: modules/gui/qt4/dialogs/openurl.cpp:54
@@ -17170,7 +17217,7 @@ msgstr "Cuir isteach URL anseo..."
 
 #: modules/gui/qt4/dialogs/openurl.cpp:66
 msgid "Please enter the URL or path to the media you want to play"
-msgstr ""
+msgstr "Cuir isteach an tURL nó conair chuig an meán is mian leat a sheinm"
 
 #: modules/gui/qt4/dialogs/openurl.cpp:70
 msgid ""
@@ -17185,7 +17232,7 @@ msgstr "Breiseáin"
 
 #: modules/gui/qt4/dialogs/plugins.cpp:64
 msgid "Extensions"
-msgstr "Breiseáin"
+msgstr "Breisiú"
 
 #: modules/gui/qt4/dialogs/plugins.cpp:101
 msgid "Capability"
@@ -17339,7 +17386,7 @@ msgstr ""
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:129
 msgid "Fullscreen Controller"
-msgstr ""
+msgstr "Rialtán Lánscáileáin"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:146
 msgid "Select profile:"
@@ -17363,7 +17410,7 @@ msgstr ""
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:298
 msgid "Spacer"
-msgstr ""
+msgstr "Scarthóir"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:303
 msgid "Expanding Spacer"
@@ -17452,7 +17499,7 @@ msgstr "Clár Ama:"
 
 #: modules/gui/qt4/dialogs/vlm.cpp:633
 msgid "VOD: "
-msgstr ""
+msgstr "FAÉ:"
 
 #: modules/gui/qt4/dialogs_provider.cpp:64
 msgid "Open Directory"
@@ -17496,17 +17543,17 @@ msgstr "Comhaid mheáin"
 
 #: modules/gui/qt4/dialogs_provider.hpp:61
 msgid "Subtitles Files"
-msgstr ""
+msgstr "Comhaid na bhfotheideal"
 
 #: modules/gui/qt4/dialogs_provider.hpp:66
 msgid "All Files"
 msgstr "Gach Comhad"
 
-#: modules/gui/qt4/main_interface.cpp:995
+#: modules/gui/qt4/main_interface.cpp:999
 msgid "Control menu for the player"
 msgstr "Roghchlár rialadh don seinnteoir"
 
-#: modules/gui/qt4/main_interface.cpp:1038
+#: modules/gui/qt4/main_interface.cpp:1042
 msgid "Paused"
 msgstr "Curtha ar sos"
 
@@ -17548,7 +17595,7 @@ msgstr "Oscail &Diosca..."
 
 #: modules/gui/qt4/menus.cpp:323
 msgid "Open &Network Stream..."
-msgstr "Oscail Sruthú an Líonra..."
+msgstr "Oscail Sruthú Líonra..."
 
 #: modules/gui/qt4/menus.cpp:325 modules/gui/qt4/menus.cpp:872
 msgid "Open &Capture Device..."
@@ -17564,7 +17611,7 @@ msgstr "Meáin le déanaí"
 
 #: modules/gui/qt4/menus.cpp:346
 msgid "Conve&rt / Save..."
-msgstr "Tiontaigh / Taisc..."
+msgstr "Tiontaigh / Cuir i dtaisce..."
 
 #: modules/gui/qt4/menus.cpp:348
 msgid "&Streaming..."
@@ -17628,7 +17675,7 @@ msgstr ""
 
 #: modules/gui/qt4/menus.cpp:493
 msgid "Visualizations selector"
-msgstr ""
+msgstr "Roghnóir léirshamhluithe"
 
 #: modules/gui/qt4/menus.cpp:500
 msgid "Customi&ze Interface..."
@@ -17696,15 +17743,15 @@ msgstr "Bearr"
 
 #: modules/gui/qt4/menus.cpp:632
 msgid "&Deinterlace"
-msgstr ""
+msgstr "&Díchrosfhigh"
 
 #: modules/gui/qt4/menus.cpp:633
 msgid "&Deinterlace mode"
-msgstr ""
+msgstr "Mód díchrosfhite"
 
 #: modules/gui/qt4/menus.cpp:634
 msgid "&Post processing"
-msgstr "&Iar-chóireála"
+msgstr "&Iar-chóireáil"
 
 #: modules/gui/qt4/menus.cpp:662
 msgid "Manage &bookmarks"
@@ -17812,17 +17859,19 @@ msgstr ""
 
 #: modules/gui/qt4/qt4.cpp:76 modules/gui/skins2/src/skin_main.cpp:540
 msgid "Systray icon"
-msgstr ""
+msgstr "Deilbhín tráidire an chórais"
 
 #: modules/gui/qt4/qt4.cpp:77
 msgid ""
 "Show an icon in the systray allowing you to control VLC media player for "
 "basic actions."
 msgstr ""
+"Taispeáin deilbhín i dtráidire an chórais ionas gur féidir leat seinnteoir "
+"meán VLC a rialú do ghníomhartha bunúsacha."
 
 #: modules/gui/qt4/qt4.cpp:81
 msgid "Start VLC with only a systray icon"
-msgstr ""
+msgstr "Tosaigh VLC le deilbhín tráidire an chórais amháin"
 
 #: modules/gui/qt4/qt4.cpp:82
 msgid "VLC will start with just an icon in your taskbar"
@@ -17846,7 +17895,7 @@ msgstr "Taispeáin ainm an ní atá á seinm i dteideal na fuinneoga"
 
 #: modules/gui/qt4/qt4.cpp:92
 msgid "Show the name of the song or video in the controler window title."
-msgstr ""
+msgstr "Taispeáin ainm an amhráin nó an fhíseáin i dteideal na fuinneoige."
 
 #: modules/gui/qt4/qt4.cpp:95
 msgid "Show notification popup on track change"
@@ -17890,7 +17939,7 @@ msgstr ""
 
 #: modules/gui/qt4/qt4.cpp:117
 msgid "Show unimportant error and warnings dialogs"
-msgstr ""
+msgstr "Taispeáin fógraí do bhotúin agus rabhaidh neamhthábhachtacha"
 
 #: modules/gui/qt4/qt4.cpp:119
 msgid "Activate the updates availability notification"
@@ -17901,6 +17950,8 @@ msgid ""
 "Activate the automatic notification of new versions of the software. It runs "
 "once every two weeks."
 msgstr ""
+"Gníomhachtaigh an fógra uathoibríoch do leaganacha nua den oideasra. "
+"Ritheann sé gach coicís."
 
 #: modules/gui/qt4/qt4.cpp:123
 msgid "Number of days between two update checks"
@@ -18053,7 +18104,7 @@ msgstr ""
 
 #: modules/gui/skins2/src/skin_main.cpp:541
 msgid "Show a systray icon for VLC"
-msgstr ""
+msgstr "Taispeáin deilbhín do tráidire an chórais do VLC"
 
 #: modules/gui/skins2/src/skin_main.cpp:542
 #: modules/gui/skins2/src/skin_main.cpp:543
@@ -18077,7 +18128,7 @@ msgstr "Bain feidhm as seinnréim le craiceann"
 
 #: modules/gui/skins2/src/skin_main.cpp:550
 msgid "Display video in a skinned window if any"
-msgstr ""
+msgstr "Taispeáin físeán i bhfuinneog le craiceann uirthi má tá aon"
 
 #: modules/gui/skins2/src/skin_main.cpp:552
 msgid ""
@@ -18119,7 +18170,7 @@ msgstr ""
 
 #: modules/meta_engine/id3genres.h:28
 msgid "Blues"
-msgstr ""
+msgstr "Gormacha"
 
 #: modules/meta_engine/id3genres.h:29
 msgid "Classic rock"
@@ -18139,7 +18190,7 @@ msgstr "Funk"
 
 #: modules/meta_engine/id3genres.h:34
 msgid "Grunge"
-msgstr ""
+msgstr "Ceol grúinse"
 
 #: modules/meta_engine/id3genres.h:35
 msgid "Hip-Hop"
@@ -18159,7 +18210,7 @@ msgstr "Ré Nua"
 
 #: modules/meta_engine/id3genres.h:39
 msgid "Oldies"
-msgstr ""
+msgstr "Amhráin sheanda"
 
 #: modules/meta_engine/id3genres.h:40
 msgid "Other"
@@ -18175,7 +18226,7 @@ msgstr "Rap"
 
 #: modules/meta_engine/id3genres.h:47
 msgid "Industrial"
-msgstr ""
+msgstr "Tionsclaíoch"
 
 #: modules/meta_engine/id3genres.h:48
 msgid "Alternative"
@@ -18199,15 +18250,15 @@ msgstr "Euro-Techno"
 
 #: modules/meta_engine/id3genres.h:54
 msgid "Ambient"
-msgstr ""
+msgstr "Ceol Timpeallach"
 
 #: modules/meta_engine/id3genres.h:55
 msgid "Trip-Hop"
-msgstr ""
+msgstr "Trip-Hop"
 
 #: modules/meta_engine/id3genres.h:56
 msgid "Vocal"
-msgstr ""
+msgstr "Ceol gutha"
 
 #: modules/meta_engine/id3genres.h:57
 msgid "Jazz+Funk"
@@ -18215,7 +18266,7 @@ msgstr ""
 
 #: modules/meta_engine/id3genres.h:58
 msgid "Fusion"
-msgstr ""
+msgstr "Ceol cumaisc"
 
 #: modules/meta_engine/id3genres.h:59
 msgid "Trance"
@@ -18223,7 +18274,7 @@ msgstr ""
 
 #: modules/meta_engine/id3genres.h:61
 msgid "Instrumental"
-msgstr ""
+msgstr "Uirlise"
 
 #: modules/meta_engine/id3genres.h:62
 msgid "Acid"
@@ -18231,7 +18282,7 @@ msgstr ""
 
 #: modules/meta_engine/id3genres.h:63
 msgid "House"
-msgstr ""
+msgstr "House"
 
 #: modules/meta_engine/id3genres.h:64
 msgid "Game"
@@ -18256,7 +18307,7 @@ msgstr ""
 
 #: modules/meta_engine/id3genres.h:70
 msgid "Soul"
-msgstr ""
+msgstr "Anamcheol"
 
 #: modules/meta_engine/id3genres.h:71
 msgid "Punk"
@@ -18268,7 +18319,7 @@ msgstr ""
 
 #: modules/meta_engine/id3genres.h:73
 msgid "Meditative"
-msgstr ""
+msgstr "Machnamhach"
 
 #: modules/meta_engine/id3genres.h:74
 msgid "Instrumental pop"
@@ -18296,7 +18347,7 @@ msgstr ""
 
 #: modules/meta_engine/id3genres.h:80
 msgid "Electronic"
-msgstr ""
+msgstr "Leictreonach"
 
 #: modules/meta_engine/id3genres.h:81
 msgid "Pop-Folk"
@@ -18304,7 +18355,7 @@ msgstr ""
 
 #: modules/meta_engine/id3genres.h:82
 msgid "Eurodance"
-msgstr ""
+msgstr "Eurodance"
 
 #: modules/meta_engine/id3genres.h:83
 msgid "Dream"
@@ -18316,7 +18367,7 @@ msgstr ""
 
 #: modules/meta_engine/id3genres.h:85
 msgid "Comedy"
-msgstr ""
+msgstr "Fuirseoireacht"
 
 #: modules/meta_engine/id3genres.h:86
 msgid "Cult"
@@ -18348,7 +18399,7 @@ msgstr ""
 
 #: modules/meta_engine/id3genres.h:93
 msgid "Cabaret"
-msgstr ""
+msgstr "Ceol ceabairé"
 
 #: modules/meta_engine/id3genres.h:94
 msgid "New wave"
@@ -18548,7 +18599,7 @@ msgstr ""
 
 #: modules/misc/freetype.c:100 modules/misc/win32text.c:60
 msgid "Font size in pixels"
-msgstr ""
+msgstr "Méid na clófhoirne i bpicteilíní"
 
 #: modules/misc/freetype.c:101 modules/misc/win32text.c:61
 msgid ""
@@ -18683,7 +18734,7 @@ msgstr ""
 
 #: modules/misc/inhibit.c:168
 msgid "Playing some media."
-msgstr ""
+msgstr "Ag seinm roinnt meáin."
 
 #: modules/misc/inhibit/osso.c:40
 msgid "OSSO"
@@ -18802,7 +18853,7 @@ msgstr "Ealaín Lua"
 
 #: modules/misc/lua/vlc.c:113
 msgid "Lua Telnet"
-msgstr ""
+msgstr "Lua Telnet"
 
 #: modules/misc/lua/vlc.c:124
 msgid "Lua Meta Fetcher"
@@ -18850,7 +18901,7 @@ msgstr ""
 
 #: modules/misc/lua/vlc.c:174
 msgid "Freebox TV"
-msgstr ""
+msgstr "Freebox TV"
 
 #: modules/misc/lua/vlc.c:180
 msgid "French TV"
@@ -19145,7 +19196,7 @@ msgstr ""
 
 #: modules/mux/asf.c:66
 msgid "Packet Size"
-msgstr ""
+msgstr "Méid an cheangaltáin"
 
 #: modules/mux/asf.c:67
 msgid "ASF packet size -- default is 4096 bytes"
@@ -19164,7 +19215,7 @@ msgstr ""
 
 #: modules/mux/asf.c:73
 msgid "ASF muxer"
-msgstr ""
+msgstr "Ilphléacsóir ASF"
 
 #: modules/mux/asf.c:568
 msgid "Unknown Video"
@@ -19172,7 +19223,7 @@ msgstr "Físeán anaithnid"
 
 #: modules/mux/avi.c:47
 msgid "AVI muxer"
-msgstr ""
+msgstr "Ilphléacsóir AVI"
 
 #: modules/mux/dummy.c:45
 msgid "Dummy/Raw muxer"
@@ -19191,7 +19242,7 @@ msgstr ""
 
 #: modules/mux/mp4.c:58
 msgid "MP4/MOV muxer"
-msgstr ""
+msgstr "Ilphléacsóir MP4/MOV"
 
 #: modules/mux/mpeg/ps.c:49 modules/mux/mpeg/ts.c:158
 msgid "DTS delay (ms)"
@@ -19214,7 +19265,7 @@ msgstr ""
 
 #: modules/mux/mpeg/ps.c:65
 msgid "PS muxer"
-msgstr ""
+msgstr "Ilphléacsóir PS"
 
 #: modules/mux/mpeg/ts.c:98
 msgid "Video PID"
@@ -19416,35 +19467,35 @@ msgstr ""
 
 #: modules/mux/mpeg/ts.c:191
 msgid "TS muxer (libdvbpsi)"
-msgstr ""
+msgstr "Ilphléacsóir TS (libdvbpsi)"
 
 #: modules/mux/mpjpeg.c:47
 msgid "Multipart JPEG muxer"
-msgstr ""
+msgstr "Ilphléacsóir JPEG ilchodach"
 
 #: modules/mux/ogg.c:51
 msgid "Ogg/OGM muxer"
-msgstr ""
+msgstr "Ilphléacsóir Ogg/OGM"
 
 #: modules/mux/wav.c:46
 msgid "WAV muxer"
-msgstr ""
+msgstr "Ilphléacsóir WAV"
 
 #: modules/packetizer/copy.c:48
 msgid "Copy packetizer"
-msgstr ""
+msgstr "Macasamhlaigh an déantóir ceangaltáin"
 
 #: modules/packetizer/dirac.c:87
 msgid "Dirac packetizer"
-msgstr ""
+msgstr "Déantóir ceangaltáin Dirac"
 
 #: modules/packetizer/flac.c:49
 msgid "Flac audio packetizer"
-msgstr ""
+msgstr "Déantóir ceangaltáin fuaime Flac"
 
 #: modules/packetizer/h264.c:56
 msgid "H.264 video packetizer"
-msgstr ""
+msgstr "Déantóir ceangaltáin físeáin H.264"
 
 #: modules/packetizer/mlp.c:48
 msgid "MLP/TrueHD parser"
@@ -19452,11 +19503,11 @@ msgstr ""
 
 #: modules/packetizer/mpeg4audio.c:183
 msgid "MPEG4 audio packetizer"
-msgstr ""
+msgstr "Déantóir ceangaltáin fuaime MPEG4"
 
 #: modules/packetizer/mpeg4video.c:53
 msgid "MPEG4 video packetizer"
-msgstr ""
+msgstr "Déantóir ceangaltáin físeáin MPEG4"
 
 #: modules/packetizer/mpegvideo.c:57
 msgid "Sync on Intra Frame"
@@ -19470,7 +19521,7 @@ msgstr ""
 
 #: modules/packetizer/mpegvideo.c:71
 msgid "MPEG-I/II video packetizer"
-msgstr ""
+msgstr "Déantóir ceangaltáin físeáin MPEG-I/II"
 
 #: modules/packetizer/mpegvideo.c:72
 msgid "MPEG Video"
@@ -19478,7 +19529,7 @@ msgstr "Físeán MPEG"
 
 #: modules/packetizer/vc1.c:51
 msgid "VC-1 packetizer"
-msgstr ""
+msgstr "Déantóir ceangaltáin VC-1"
 
 #: modules/services_discovery/bonjour.c:55
 msgid "Bonjour services"
@@ -19808,7 +19859,7 @@ msgstr ""
 
 #: modules/stream_out/display.c:55
 msgid "Display stream output"
-msgstr ""
+msgstr "Taispeáin aschur an tsrutha"
 
 #: modules/stream_out/duplicate.c:44
 msgid "Duplicate stream output"
@@ -19840,27 +19891,27 @@ msgstr ""
 
 #: modules/stream_out/es.c:52 modules/stream_out/standard.c:48
 msgid "Output muxer"
-msgstr ""
+msgstr "Ilphléacsóir aschuir"
 
 #: modules/stream_out/es.c:54
 msgid "This is the default muxer method that will be used."
-msgstr ""
+msgstr "Seo é an modh ilphléacsóra réamhshocraithe a bhainfear feidhm as."
 
 #: modules/stream_out/es.c:55
 msgid "Audio output muxer"
-msgstr ""
+msgstr "Ilphléascóir aschurtha fuaime"
 
 #: modules/stream_out/es.c:57
 msgid "This is the muxer that will be used for audio."
-msgstr ""
+msgstr "Seo é an t-ilphléascóir a bhainfear feidhm as do fhuaim."
 
 #: modules/stream_out/es.c:58
 msgid "Video output muxer"
-msgstr ""
+msgstr "Ilphléascóir aschurtha físeáin"
 
 #: modules/stream_out/es.c:60
 msgid "This is the muxer that will be used for video."
-msgstr ""
+msgstr "Seo é an t-ilphléascóir a bhainfear feidhm as do fhíseáin."
 
 #: modules/stream_out/es.c:62
 msgid "Output URL"
@@ -20013,7 +20064,7 @@ msgstr ""
 
 #: modules/stream_out/rtp.c:76
 msgid "This is the output URL that will be used."
-msgstr ""
+msgstr "Seo é an tURL aschurtha a bhainfear feidhm as."
 
 #: modules/stream_out/rtp.c:77
 msgid "SDP"
@@ -20037,7 +20088,7 @@ msgstr ""
 
 #: modules/stream_out/rtp.c:85
 msgid "Muxer"
-msgstr ""
+msgstr "Ilphléascóir"
 
 #: modules/stream_out/rtp.c:87
 msgid ""
@@ -20120,7 +20171,7 @@ msgstr ""
 
 #: modules/stream_out/rtp.c:128
 msgid "RTP/RTCP multiplexing"
-msgstr ""
+msgstr "Ilphléacsú RTP/RTCP"
 
 #: modules/stream_out/rtp.c:130
 msgid ""
@@ -20158,7 +20209,7 @@ msgstr ""
 
 #: modules/stream_out/rtp.c:171
 msgid "RTP stream output"
-msgstr ""
+msgstr "Aschur an tsrutha RTP"
 
 #: modules/stream_out/smem.c:60
 msgid "Video prerender callback"
@@ -20240,7 +20291,7 @@ msgstr ""
 
 #: modules/stream_out/standard.c:50
 msgid "Muxer to use for the stream."
-msgstr ""
+msgstr "An t-ilphléacsóir le feidhm a bhaint as don sruth."
 
 #: modules/stream_out/standard.c:51
 msgid "Output destination"
@@ -20283,7 +20334,7 @@ msgstr ""
 
 #: modules/stream_out/standard.c:101
 msgid "Standard stream output"
-msgstr ""
+msgstr "Aschur srutha caighdeánach"
 
 #: modules/stream_out/switcher.c:90 modules/gui/qt4/ui/sprefs_input.h:314
 msgid "Files"
@@ -20291,7 +20342,7 @@ msgstr "Comhaid"
 
 #: modules/stream_out/switcher.c:92
 msgid "Full paths of the files separated by colons."
-msgstr ""
+msgstr "Conairí iomlána na gcomhad scartha le colúin."
 
 #: modules/stream_out/switcher.c:93
 msgid "Sizes"
@@ -20323,7 +20374,7 @@ msgstr ""
 
 #: modules/stream_out/switcher.c:105
 msgid "GOP size"
-msgstr ""
+msgstr "Méid GOP"
 
 #: modules/stream_out/switcher.c:107
 msgid "Number of P frames between two I frames."
@@ -20351,7 +20402,7 @@ msgstr ""
 
 #: modules/stream_out/transcode/transcode.c:44
 msgid "Video encoder"
-msgstr ""
+msgstr "Ionchódóir an fhíseáin"
 
 #: modules/stream_out/transcode/transcode.c:46
 msgid ""
@@ -20401,19 +20452,19 @@ msgstr ""
 
 #: modules/stream_out/transcode/transcode.c:72
 msgid "Maximum video width"
-msgstr ""
+msgstr "Uasleithead an fhíseáin"
 
 #: modules/stream_out/transcode/transcode.c:74
 msgid "Maximum output video width."
-msgstr ""
+msgstr "Uasleithead an fhíseáin aschurtha."
 
 #: modules/stream_out/transcode/transcode.c:75
 msgid "Maximum video height"
-msgstr ""
+msgstr "Íosairde an fhíseáin"
 
 #: modules/stream_out/transcode/transcode.c:77
 msgid "Maximum output video height."
-msgstr ""
+msgstr "Uasairde an fhíseáin aschurtha."
 
 #: modules/stream_out/transcode/transcode.c:80
 msgid ""
@@ -22643,7 +22694,7 @@ msgstr ""
 
 #: modules/video_filter/postproc.c:60
 msgid "Post processing quality"
-msgstr ""
+msgstr "Caighdeán tar éis cóireáil"
 
 #: modules/video_filter/postproc.c:62
 msgid ""
@@ -22699,7 +22750,7 @@ msgstr ""
 
 #: modules/video_filter/puzzle.c:57
 msgid "Puzzle"
-msgstr ""
+msgstr "Fadhbphictiúr"
 
 #: modules/video_filter/remoteosd.c:74
 msgid "VNC Host"
@@ -23689,7 +23740,7 @@ msgstr ""
 
 #: modules/visualization/visual/visual.c:82
 msgid "Enable base"
-msgstr ""
+msgstr "Cumasaigh dord"
 
 #: modules/visualization/visual/visual.c:84
 msgid "Defines whether to draw the base of the bands."
@@ -23788,7 +23839,7 @@ msgstr "Am Tosaithe"
 
 #: modules/gui/qt4/ui/open.h:241
 msgid "Play another media synchronously (extra audio file, ...)"
-msgstr ""
+msgstr "Seinn meán eile in éineacht leis (comhad fuaime eile, ...)"
 
 #: modules/gui/qt4/ui/open.h:242
 msgid "Extra media"
@@ -23812,7 +23863,7 @@ msgstr "Roghanna Eagarthóireachta"
 
 #: modules/gui/qt4/ui/open.h:253
 msgid "Change the start time for the media"
-msgstr ""
+msgstr "Athraigh am tosaithe don meán"
 
 #: modules/gui/qt4/ui/open.h:255
 msgid "s"
@@ -23825,7 +23876,7 @@ msgstr "Gabh"
 
 #: modules/gui/qt4/ui/open_capture.h:100
 msgid "Select the capture device type"
-msgstr ""
+msgstr "Roghnaigh an cineál gléas gabhála"
 
 #: modules/gui/qt4/ui/open_capture.h:102
 msgid "Device Selection"
@@ -23874,6 +23925,8 @@ msgstr "Roghnú Comhad"
 #: modules/gui/qt4/ui/open_file.h:222
 msgid "You can select local files with the following list and buttons."
 msgstr ""
+"Is féidir leat na comhaid logánta a roghnú leis an liosta agus na cnaipí seo "
+"a leanas."
 
 #: modules/gui/qt4/ui/open_file.h:223
 msgid "Add..."
@@ -24084,7 +24137,7 @@ msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_audio.h:407
 msgid "Always reset audio start level to:"
-msgstr ""
+msgstr "Athshocraigh an airde fuaime tosaithe i gcónaí chuig:"
 
 #: modules/gui/qt4/ui/sprefs_audio.h:408
 msgid " %"
@@ -24278,7 +24331,7 @@ msgstr "Taispeáin na rialtáin i mód lánscáileáin"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:401
 msgid "Minimal view mode (no toolbars)"
-msgstr ""
+msgstr "Mód amharc íosta (gan barraí uirlisí)"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:403
 msgid "This is VLC's default interface, with a native look and feel."
@@ -24545,12 +24598,12 @@ msgstr "Forluí"
 
 #: modules/gui/qt4/ui/video_effects.h:1175
 msgid "Add logo"
-msgstr ""
+msgstr "Cuir suaitheantas leis"
 
 #: modules/gui/qt4/ui/video_effects.h:1179
 #: modules/gui/qt4/ui/video_effects.h:1184
 msgid "Logo"
-msgstr ""
+msgstr "Suaitheantas"
 
 #: modules/gui/qt4/ui/video_effects.h:1180
 msgid "Logo erase"
