@@ -31,4 +31,5 @@
       --disable-dvb \
       --disable-sqlite \
       --disable-upnp \
+      --disable-fontconfig \
       --enable-peflags
