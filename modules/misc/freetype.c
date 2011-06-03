@@ -19,8 +19,8 @@
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with this program; if not, write to the Free Software
- * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston MA 02110-1301, USA.
+ * along with this program; if not, write to the Free Software Foundation, Inc.,
+ * 51 Franklin Street, Fifth Floor, Boston MA 02110-1301, USA.
  *****************************************************************************/
 
 /*****************************************************************************
@@ -40,6 +40,25 @@
 #include <vlc_strings.h>
 #include <vlc_dialog.h>
 
+/* Default fonts */
+#ifdef __APPLE__
+# define DEFAULT_FONT_FILE "/Library/Fonts/Arial Black.ttf"
+# define DEFAULT_FAMILY "Arial Black"
+#elif defined( SYS_BEOS )
+#define DEFAULT_FONT_FILE "/boot/beos/etc/fonts/ttfonts/Swiss721.ttf"
+#define DEFAULT_FAMILY "Swiss"
+#elif defined( WIN32 )
+# define DEFAULT_FONT_FILE "arial.ttf" /* Default path font found at run-time */
+# define DEFAULT_FAMILY "Arial"
+#elif defined( HAVE_MAEMO )
+# define DEFAULT_FONT_FILE "/usr/share/fonts/nokia/nosnb.ttf"
+# define DEFAULT_FAMILY "Nokia Sans Bold"
+#else
+# define DEFAULT_FONT_FILE "/usr/share/fonts/truetype/freefont/FreeSerifBold.ttf"
+# define DEFAULT_FAMILY "Serif Bold"
+#endif
+
+/* Freetype */
 #include <freetype/ftsynth.h>
 #include FT_FREETYPE_H
 #include FT_GLYPH_H
@@ -47,23 +66,6 @@
 #define FT_CEIL(X)      (((X + 63) & -64) >> 6)
 #ifndef FT_MulFix
  #define FT_MulFix(v, s) (((v)*(s))>>16)
-#endif
-
-#ifdef __APPLE__
-#define DEFAULT_FONT_FILE "/Library/Fonts/Arial Black.ttf"
-#define DEFAULT_FAMILY "Arial Black"
-#elif defined( SYS_BEOS )
-#define DEFAULT_FONT_FILE "/boot/beos/etc/fonts/ttfonts/Swiss721.ttf"
-#define DEFAULT_FAMILY "Swiss"
-#elif defined( WIN32 )
-#define DEFAULT_FONT_FILE "" /* Default font found at run-time */
-#define DEFAULT_FAMILY "Arial"
-#elif defined( HAVE_MAEMO )
-#define DEFAULT_FONT_FILE "/usr/share/fonts/nokia/nosnb.ttf"
-#define DEFAULT_FAMILY "Nokia Sans Bold"
-#else
-#define DEFAULT_FONT_FILE "/usr/share/fonts/truetype/freefont/FreeSerifBold.ttf"
-#define DEFAULT_FAMILY "Serif Bold"
 #endif
 
 #if defined(HAVE_FRIBIDI)
@@ -194,9 +196,9 @@ static int RenderText( filter_t *, subpicture_region_t *,
 static int RenderHtml( filter_t *, subpicture_region_t *,
                        subpicture_region_t * );
 #endif
-#if HAVE_FONTCONFIG
-static void FontConfig_BuildCache( filter_t *p_filter );
-static char *FontConfig_Select( FcConfig *, const char *,
+#ifdef HAVE_FONTCONFIG
+static void FontConfig_BuildCache( filter_t * );
+static char* FontConfig_Select( FcConfig *, const char *,
                                 bool, bool, int, int * );
 #endif
 
@@ -222,7 +224,7 @@ struct line_desc_t
     uint32_t       *p_fg_rgb;
     uint32_t       *p_bg_rgb;
     uint8_t        *p_fg_bg_ratio; /* 0x00=100% FG --> 0x7F=100% BG */
-    bool      b_new_color_mode;
+    bool            b_new_color_mode;
     /** underline information -- only supplied if text should be underlined */
     int            *pi_underline_offset;
     uint16_t       *pi_underline_thickness;
@@ -241,10 +243,10 @@ typedef struct
     int         i_font_size;
     uint32_t    i_font_color;         /* ARGB */
     uint32_t    i_karaoke_bg_color;   /* ARGB */
-    bool  b_italic;
-    bool  b_bold;
-    bool  b_underline;
-    bool  b_through;
+    bool        b_italic;
+    bool        b_bold;
+    bool        b_underline;
+    bool        b_through;
     char       *psz_fontname;
 } ft_style_t;
 
@@ -277,7 +279,6 @@ struct filter_sys_t
 
     input_attachment_t **pp_font_attachments;
     int                  i_font_attachments;
-
 };
 
 #define UCHAR uint32_t
@@ -295,17 +296,9 @@ static int Create( vlc_object_t *p_this )
 {
     filter_t      *p_filter = (filter_t *)p_this;
     filter_sys_t  *p_sys;
-    char          *psz_fontfile=NULL;
-    char          *psz_fontfamily=NULL;
-    int            i_error,fontindex;
-
-#ifdef HAVE_STYLES
-    FcPattern     *fontpattern = NULL, *fontmatch = NULL;
-    /* Initialise result to Match, as fontconfig doesnt
-     * really set this other than some error-cases */
-    FcResult       fontresult = FcResultMatch;
-#endif
-
+    char          *psz_fontfile   = NULL;
+    char          *psz_fontfamily = NULL;
+    int            i_error = 0, fontindex = 0;
 
     /* Allocate structure */
     p_filter->p_sys = p_sys = malloc( sizeof( filter_sys_t ) );
@@ -336,7 +329,7 @@ static int Create( vlc_object_t *p_this )
     {
         free( psz_fontfamily );
 #ifdef HAVE_STYLES
-        psz_fontfamily=strdup( DEFAULT_FONT_FILE );
+        psz_fontfamily = strdup( DEFAULT_FONT_FILE );
 #else
         psz_fontfamily = (char *)malloc( PATH_MAX + 1 );
         if( !psz_fontfamily )
@@ -359,14 +352,12 @@ static int Create( vlc_object_t *p_this )
                                       p_sys->i_default_font_size, &fontindex );
 #endif
 
-    msg_Dbg( p_filter, "Using %s as font from file %s", psz_fontfamily,
-             psz_fontfile ? psz_fontfile : "(null)" );
+    msg_Dbg( p_filter, "Using %s as font from file %s", psz_fontfamily, psz_fontfile );
     p_sys->psz_fontfamily = strdup( psz_fontfamily );
 
-#else
-
+#else /* !HAVE_STYLES */
+    /* Use the default file */
     psz_fontfile = psz_fontfamily;
-
 #endif
 
     i_error = FT_Init_FreeType( &p_sys->p_library );
@@ -414,20 +405,12 @@ static int Create( vlc_object_t *p_this )
     p_filter->pf_render_html = NULL;
 #endif
 
-#ifdef HAVE_FONTCONFIG
-    FcPatternDestroy( fontmatch );
-    FcPatternDestroy( fontpattern );
-#endif
     free( psz_fontfamily );
     LoadFontsFromAttachments( p_filter );
 
     return VLC_SUCCESS;
 
 error:
-#ifdef HAVE_FONTCONFIG
-    if( fontmatch ) FcPatternDestroy( fontmatch );
-    if( fontpattern ) FcPatternDestroy( fontpattern );
-#endif
 
     if( p_sys->p_face ) FT_Done_Face( p_sys->p_face );
     if( p_sys->p_library ) FT_Done_FreeType( p_sys->p_library );
@@ -448,9 +431,7 @@ static void Destroy( vlc_object_t *p_this )
 
     if( p_sys->pp_font_attachments )
     {
-        int   k;
-
-        for( k = 0; k < p_sys->i_font_attachments; k++ )
+        for( int k = 0; k < p_sys->i_font_attachments; k++ )
             vlc_input_attachment_Delete( p_sys->pp_font_attachments[k] );
 
         free( p_sys->pp_font_attachments );
@@ -678,7 +659,6 @@ static void UnderlineGlyphYUVA( int i_line_thickness, int i_line_offset, bool b_
                                 uint8_t i_y, uint8_t i_u, uint8_t i_v,
                                 subpicture_region_t *p_region)
 {
-    int y, x, z;
     int i_pitch;
     uint8_t *p_dst_y,*p_dst_u,*p_dst_v,*p_dst_a;
 
@@ -691,7 +671,7 @@ static void UnderlineGlyphYUVA( int i_line_thickness, int i_line_offset, bool b_
     int i_offset = ( p_this_glyph_pos->y + i_glyph_tmax + i_line_offset + 3 ) * i_pitch +
                      p_this_glyph_pos->x + p_this_glyph->left + 3 + i_align_offset;
 
-    for( y = 0; y < i_line_thickness; y++ )
+    for( int y = 0; y < i_line_thickness; y++ )
     {
         int i_extra = p_this_glyph->bitmap.width;
 
@@ -700,13 +680,13 @@ static void UnderlineGlyphYUVA( int i_line_thickness, int i_line_offset, bool b_
             i_extra = (p_next_glyph_pos->x + p_next_glyph->left) -
                       (p_this_glyph_pos->x + p_this_glyph->left);
         }
-        for( x = 0; x < i_extra; x++ )
+        for( int x = 0; x < i_extra; x++ )
         {
             bool b_ok = true;
 
             /* break the underline around the tails of any glyphs which cross it */
             /* Strikethrough doesn't get broken */
-            for( z = x - i_line_thickness;
+            for( int z = x - i_line_thickness;
                  z < x + i_line_thickness && b_ok && (i_line_offset >= 0);
                  z++ )
             {
@@ -748,7 +728,7 @@ static void DrawBlack( line_desc_t *p_line, int i_width, subpicture_region_t *p_
 {
     uint8_t *p_dst = p_region->p_picture->A_PIXELS;
     int i_pitch = p_region->p_picture->A_PITCH;
-    int x,y;
+    int y;
 
     for( ; p_line != NULL; p_line = p_line->p_next )
     {
@@ -783,7 +763,7 @@ static void DrawBlack( line_desc_t *p_line, int i_width, subpicture_region_t *p_
 
             for( y = 0, i_bitmap_offset = 0; y < p_glyph->bitmap.rows; y++ )
             {
-                for( x = 0; x < p_glyph->bitmap.width; x++, i_bitmap_offset++ )
+                for( int x = 0; x < p_glyph->bitmap.width; x++, i_bitmap_offset++ )
                 {
                     if( p_glyph->bitmap.buffer[i_bitmap_offset] )
                         if( p_dst[i_offset+x] <
@@ -795,7 +775,6 @@ static void DrawBlack( line_desc_t *p_line, int i_width, subpicture_region_t *p_
             }
         }
     }
-
 }
 
 /*****************************************************************************
@@ -808,7 +787,7 @@ static int RenderYUVA( filter_t *p_filter, subpicture_region_t *p_region,
 {
     uint8_t *p_dst_y,*p_dst_u,*p_dst_v,*p_dst_a;
     video_format_t fmt;
-    int i, x, y, i_pitch, i_alpha;
+    int i, y, i_pitch, i_alpha;
     uint8_t i_y, i_u, i_v; /* YUV values, derived from incoming RGB */
 
     if( i_width == 0 || i_height == 0 )
@@ -930,7 +909,7 @@ static int RenderYUVA( filter_t *p_filter, subpicture_region_t *p_region,
 
             for( y = 0, i_bitmap_offset = 0; y < p_glyph->bitmap.rows; y++ )
             {
-                for( x = 0; x < p_glyph->bitmap.width; x++, i_bitmap_offset++ )
+                for( int x = 0; x < p_glyph->bitmap.width; x++, i_bitmap_offset++ )
                 {
                     uint8_t i_y_local = i_y;
                     uint8_t i_u_local = i_u;
@@ -1438,7 +1417,7 @@ static int RenderTag( filter_t *p_filter, FT_Face p_face, int i_font_color,
     line.xMin = line.xMax = line.yMin = line.yMax = 0;
 
     /* Account for part of line already in position */
-    for( i=0; i<*pi_start; i++ )
+    for( i = 0; i<*pi_start; i++ )
     {
         FT_BBox glyph_size;
 
@@ -1681,9 +1660,7 @@ static void SetupLine( filter_t *p_filter, const char *psz_text_in,
 
 static int CheckForEmbeddedFont( filter_sys_t *p_sys, FT_Face *pp_face, ft_style_t *p_style )
 {
-    int k;
-
-    for( k=0; k < p_sys->i_font_attachments; k++ )
+    for( int k = 0; k < p_sys->i_font_attachments; k++ )
     {
         input_attachment_t *p_attach   = p_sys->pp_font_attachments[k];
         int                 i_font_idx = 0;
