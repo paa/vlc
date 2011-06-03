@@ -195,6 +195,7 @@ static int RenderHtml( filter_t *, subpicture_region_t *,
                        subpicture_region_t * );
 #endif
 #if HAVE_FONTCONFIG
+static void FontConfig_BuildCache( filter_t *p_filter );
 static char *FontConfig_Select( FcConfig *, const char *,
                                 bool, bool, int * );
 #endif
@@ -351,33 +352,8 @@ static int Create( vlc_object_t *p_this )
     }
 
 #ifdef HAVE_FONTCONFIG
-    msg_Dbg( p_filter, "Building font databases.");
-    mtime_t t1, t2;
-    t1 = mdate();
+    FontConfig_BuildCache( p_filter );
 
-#ifdef WIN32
-    dialog_progress_bar_t *p_dialog = NULL;
-    FcConfig *fcConfig = FcInitLoadConfig();
-
-    p_dialog = dialog_ProgressCreate( p_filter,
-            _("Building font cache"),
-            _("Please wait while your font cache is rebuilt.\n"
-                "This should take less than a few minutes."), NULL );
-
-/*    if( p_dialog )
-        dialog_ProgressSet( p_dialog, NULL, 0.5 ); */
-
-    FcConfigBuildFonts( fcConfig );
-    t2 = mdate();
-    msg_Dbg( p_filter, "Took %ld microseconds", (long)((t2 - t1)) );
-
-    if( p_dialog )
-    {
-//        dialog_ProgressSet( p_dialog, NULL, 1.0 );
-        dialog_ProgressDestroy( p_dialog );
-        p_dialog = NULL;
-    }
-#endif
     /* Lets find some fontfile from freetype-font variable family */
     char *psz_fontsize;
     if( asprintf( &psz_fontsize, "%d", p_sys->i_default_font_size ) == -1 )
@@ -487,11 +463,6 @@ error:
 #ifdef HAVE_FONTCONFIG
     if( fontmatch ) FcPatternDestroy( fontmatch );
     if( fontpattern ) FcPatternDestroy( fontpattern );
-
-#ifdef WIN32
-    if( p_dialog )
-        dialog_ProgressDestroy( p_dialog );
-#endif
 #endif
 
     if( p_sys->p_face ) FT_Done_Face( p_sys->p_face );
@@ -2341,7 +2312,39 @@ static int RenderHtml( filter_t *p_filter, subpicture_region_t *p_region_out,
     return rv;
 }
 
+
 #ifdef HAVE_FONTCONFIG
+static void FontConfig_BuildCache( filter_t *p_filter )
+{
+    /* */
+    msg_Dbg( p_filter, "Building font databases.");
+    mtime_t t1, t2;
+    t1 = mdate();
+
+#ifdef WIN32
+    dialog_progress_bar_t *p_dialog = NULL;
+    FcConfig *fcConfig = FcInitLoadConfig();
+
+    p_dialog = dialog_ProgressCreate( p_filter,
+            _("Building font cache"),
+            _("Please wait while your font cache is rebuilt.\n"
+                "This should take less than a few minutes."), NULL );
+
+/*    if( p_dialog )
+        dialog_ProgressSet( p_dialog, NULL, 0.5 ); */
+
+    FcConfigBuildFonts( fcConfig );
+    if( p_dialog )
+    {
+//        dialog_ProgressSet( p_dialog, NULL, 1.0 );
+        dialog_ProgressDestroy( p_dialog );
+        p_dialog = NULL;
+    }
+#endif
+    t2 = mdate();
+    msg_Dbg( p_filter, "Took %ld microseconds", (long)((t2 - t1)) );
+}
+
 static char* FontConfig_Select( FcConfig* priv, const char* family,
                           bool b_bold, bool b_italic, int *i_idx )
 {
