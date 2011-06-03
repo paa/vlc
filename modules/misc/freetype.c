@@ -34,17 +34,12 @@
 #include <vlc_common.h>
 #include <vlc_plugin.h>
 #include <vlc_osd.h>
-#include <vlc_filter.h>
 #include <vlc_stream.h>
-#include <vlc_xml.h>
 #include <vlc_input.h>
+#include <vlc_xml.h>
 #include <vlc_strings.h>
 #include <vlc_dialog.h>
-#include <vlc_memory.h>
 
-#include <math.h>
-
-#include <ft2build.h>
 #include <freetype/ftsynth.h>
 #include FT_FREETYPE_H
 #include FT_GLYPH_H
@@ -55,20 +50,20 @@
 #endif
 
 #ifdef __APPLE__
-#define DEFAULT_FONT "/Library/Fonts/Arial Black.ttf"
-#define FC_DEFAULT_FONT "Arial Black"
+#define DEFAULT_FONT_FILE "/Library/Fonts/Arial Black.ttf"
+#define DEFAULT_FAMILY "Arial Black"
 #elif defined( SYS_BEOS )
-#define DEFAULT_FONT "/boot/beos/etc/fonts/ttfonts/Swiss721.ttf"
-#define FC_DEFAULT_FONT "Swiss"
+#define DEFAULT_FONT_FILE "/boot/beos/etc/fonts/ttfonts/Swiss721.ttf"
+#define DEFAULT_FAMILY "Swiss"
 #elif defined( WIN32 )
-#define DEFAULT_FONT "" /* Default font found at run-time */
-#define FC_DEFAULT_FONT "Arial"
+#define DEFAULT_FONT_FILE "" /* Default font found at run-time */
+#define DEFAULT_FAMILY "Arial"
 #elif defined( HAVE_MAEMO )
-#define DEFAULT_FONT "/usr/share/fonts/nokia/nosnb.ttf"
-#define FC_DEFAULT_FONT "Nokia Sans Bold"
+#define DEFAULT_FONT_FILE "/usr/share/fonts/nokia/nosnb.ttf"
+#define DEFAULT_FAMILY "Nokia Sans Bold"
 #else
-#define DEFAULT_FONT "/usr/share/fonts/truetype/freefont/FreeSerifBold.ttf"
-#define FC_DEFAULT_FONT "Serif Bold"
+#define DEFAULT_FONT_FILE "/usr/share/fonts/truetype/freefont/FreeSerifBold.ttf"
+#define DEFAULT_FAMILY "Serif Bold"
 #endif
 
 #if defined(HAVE_FRIBIDI)
@@ -77,8 +72,9 @@
 
 #ifdef HAVE_FONTCONFIG
 #include <fontconfig/fontconfig.h>
-#undef DEFAULT_FONT
-#define DEFAULT_FONT FC_DEFAULT_FONT
+#undef DEFAULT_FONT_FILE
+#define DEFAULT_FONT_FILE DEFAULT_FAMILY
+#define HAVE_STYLES
 #endif
 
 #include <assert.h>
@@ -126,11 +122,12 @@ static const char *const ppsz_sizes_text[] = {
 #define EFFECT_LONGTEXT N_("It is possible to apply effects to the rendered " \
 "text to improve its readability." )
 
-#define EFFECT_BACKGROUND  1
-#define EFFECT_OUTLINE     2
-#define EFFECT_OUTLINE_FAT 3
+enum { EFFECT_BACKGROUND  = 1,
+       EFFECT_OUTLINE     = 2,
+       EFFECT_OUTLINE_FAT = 3,
+};
 
-static int const pi_effects[] = { 1, 2, 3 };
+static int const pi_effects[] = { EFFECT_BACKGROUND, EFFECT_OUTLINE, EFFECT_OUTLINE_FAT };
 static const char *const ppsz_effects_text[] = {
     N_("Background"),N_("Outline"), N_("Fat Outline") };
 static const int pi_color_values[] = {
@@ -149,7 +146,7 @@ vlc_module_begin ()
     set_category( CAT_VIDEO )
     set_subcategory( SUBCAT_VIDEO_SUBPIC )
 
-    add_font( "freetype-font", DEFAULT_FONT, NULL, FONT_TEXT, FONT_LONGTEXT,
+    add_font( "freetype-font", DEFAULT_FONT_FILE, NULL, FONT_TEXT, FONT_LONGTEXT,
               false )
 
     add_integer( "freetype-fontsize", 0, NULL, FONTSIZE_TEXT,
@@ -193,9 +190,11 @@ vlc_module_end ()
 /* The RenderText call maps to pf_render_string, defined in vlc_filter.h */
 static int RenderText( filter_t *, subpicture_region_t *,
                        subpicture_region_t * );
-#ifdef HAVE_FONTCONFIG
+#ifdef HAVE_STYLES
 static int RenderHtml( filter_t *, subpicture_region_t *,
                        subpicture_region_t * );
+#endif
+#if HAVE_FONTCONFIG
 static char *FontConfig_Select( FcConfig *, const char *,
                                 bool, bool, int * );
 #endif
@@ -270,7 +269,7 @@ struct filter_sys_t
 
     int            i_default_font_size;
     int            i_display_height;
-#ifdef HAVE_FONTCONFIG
+#ifdef HAVE_STYLES
     char*          psz_fontfamily;
     xml_t         *p_xml;
 #endif
@@ -299,7 +298,7 @@ static int Create( vlc_object_t *p_this )
     char          *psz_fontfamily=NULL;
     int            i_error,fontindex;
 
-#ifdef HAVE_FONTCONFIG
+#ifdef HAVE_STYLES
     FcPattern     *fontpattern = NULL, *fontmatch = NULL;
     /* Initialise result to Match, as fontconfig doesnt
      * really set this other than some error-cases */
@@ -311,7 +310,7 @@ static int Create( vlc_object_t *p_this )
     p_filter->p_sys = p_sys = malloc( sizeof( filter_sys_t ) );
     if( !p_sys )
         return VLC_ENOMEM;
- #ifdef HAVE_FONTCONFIG
+ #ifdef HAVE_STYLES
     p_sys->psz_fontfamily = NULL;
     p_sys->p_xml = NULL;
 #endif
@@ -335,8 +334,8 @@ static int Create( vlc_object_t *p_this )
     if( !psz_fontfamily || !*psz_fontfamily )
     {
         free( psz_fontfamily );
-#ifdef HAVE_FONTCONFIG
-        psz_fontfamily=strdup( DEFAULT_FONT );
+#ifdef HAVE_STYLES
+        psz_fontfamily=strdup( DEFAULT_FONT_FILE );
 #else
         psz_fontfamily = (char *)malloc( PATH_MAX + 1 );
         if( !psz_fontfamily )
@@ -345,7 +344,7 @@ static int Create( vlc_object_t *p_this )
         GetWindowsDirectory( psz_fontfamily , PATH_MAX + 1 );
         strcat( psz_fontfamily, "\\fonts\\arial.ttf" );
 # else
-        strcpy( psz_fontfamily, DEFAULT_FONT );
+        strcpy( psz_fontfamily, DEFAULT_FONT_FILE );
 # endif
         msg_Err( p_filter,"User didn't specify fontfile, using %s", psz_fontfamily);
 #endif
@@ -469,14 +468,16 @@ static int Create( vlc_object_t *p_this )
     p_sys->i_font_attachments = 0;
 
     p_filter->pf_render_text = RenderText;
-#ifdef HAVE_FONTCONFIG
+#ifdef HAVE_STYLES
     p_filter->pf_render_html = RenderHtml;
-    FcPatternDestroy( fontmatch );
-    FcPatternDestroy( fontpattern );
 #else
     p_filter->pf_render_html = NULL;
 #endif
 
+#ifdef HAVE_FONTCONFIG
+    FcPatternDestroy( fontmatch );
+    FcPatternDestroy( fontpattern );
+#endif
     free( psz_fontfamily );
     LoadFontsFromAttachments( p_filter );
 
@@ -520,7 +521,7 @@ static void Destroy( vlc_object_t *p_this )
         free( p_sys->pp_font_attachments );
     }
 
-#ifdef HAVE_FONTCONFIG
+#ifdef HAVE_STYLES
     if( p_sys->p_xml ) xml_Delete( p_sys->p_xml );
     free( p_sys->psz_fontfamily );
 #endif
@@ -1356,7 +1357,7 @@ static int RenderText( filter_t *p_filter, subpicture_region_t *p_region_out,
     return VLC_EGENERIC;
 }
 
-#ifdef HAVE_FONTCONFIG
+#ifdef HAVE_STYLES
 static ft_style_t *CreateStyle( char *psz_fontname, int i_font_size,
         uint32_t i_font_color, uint32_t i_karaoke_bg_color, bool b_bold,
         bool b_italic, bool b_uline, bool b_through )
@@ -2340,6 +2341,7 @@ static int RenderHtml( filter_t *p_filter, subpicture_region_t *p_region_out,
     return rv;
 }
 
+#ifdef HAVE_FONTCONFIG
 static char* FontConfig_Select( FcConfig* priv, const char* family,
                           bool b_bold, bool b_italic, int *i_idx )
 {
@@ -2401,7 +2403,8 @@ static char* FontConfig_Select( FcConfig* priv, const char* family,
     FcPatternDestroy( p_pat );
     return strdup( (const char*)val_s );
 }
-#else
+#endif /* Fontconfig */
+#else /* From now on, no styles */
 
 static void SetupLine( filter_t *p_filter, const char *psz_text_in,
                        uint32_t **psz_text_out, uint32_t *pi_runs,
