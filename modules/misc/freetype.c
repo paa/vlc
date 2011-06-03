@@ -160,8 +160,13 @@ vlc_module_begin ()
     set_category( CAT_VIDEO )
     set_subcategory( SUBCAT_VIDEO_SUBPIC )
 
-    add_font( "freetype-font", DEFAULT_FONT_FILE, NULL, FONT_TEXT, FONT_LONGTEXT,
-              false )
+    add_font( "freetype-font",
+#ifdef HAVE_STYLES
+            DEFAULT_FAMILY,
+#else
+            DEFAULT_FONT_FILE,
+#endif
+            NULL, FONT_TEXT, FONT_LONGTEXT, false )
 
     add_integer( "freetype-fontsize", 0, NULL, FONTSIZE_TEXT,
                  FONTSIZE_LONGTEXT, true )
