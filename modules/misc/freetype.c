@@ -34,11 +34,12 @@
 #include <vlc_common.h>
 #include <vlc_plugin.h>
 #include <vlc_osd.h>
-#include <vlc_stream.h>
-#include <vlc_input.h>
-#include <vlc_xml.h>
-#include <vlc_strings.h>
-#include <vlc_dialog.h>
+#include <vlc_stream.h>                        /* stream_MemoryNew */
+#include <vlc_input.h>                         /* vlc_input_attachment_* */
+#include <vlc_xml.h>                           /* xml_reader */
+#include <vlc_strings.h>                       /* resolve_xml_special_chars */
+#include <vlc_charset.h>                       /* ToCharset */
+#include <vlc_dialog.h>                        /* FcCache dialog */
 
 /* Default fonts */
 #ifdef __APPLE__
@@ -68,15 +69,26 @@
  #define FT_MulFix(v, s) (((v)*(s))>>16)
 #endif
 
+/* RTL */
 #if defined(HAVE_FRIBIDI)
-#include <fribidi/fribidi.h>
+# include <fribidi/fribidi.h>
 #endif
 
+/* Win32 GDI */
+#ifdef WIN32
+# define _WIN32_IE 0x0500
+# include <windows.h>
+# include <shlobj.h>
+# define HAVE_STYLES
+# undef HAVE_FONTCONFIG
+#endif
+
+/* FontConfig */
 #ifdef HAVE_FONTCONFIG
-#include <fontconfig/fontconfig.h>
-#undef DEFAULT_FONT_FILE
-#define DEFAULT_FONT_FILE DEFAULT_FAMILY
-#define HAVE_STYLES
+# include <fontconfig/fontconfig.h>
+# undef DEFAULT_FONT_FILE
+# define DEFAULT_FONT_FILE DEFAULT_FAMILY
+# define HAVE_STYLES
 #endif
 
 #include <assert.h>
@@ -128,10 +140,10 @@ enum { EFFECT_BACKGROUND  = 1,
        EFFECT_OUTLINE     = 2,
        EFFECT_OUTLINE_FAT = 3,
 };
-
 static int const pi_effects[] = { EFFECT_BACKGROUND, EFFECT_OUTLINE, EFFECT_OUTLINE_FAT };
 static const char *const ppsz_effects_text[] = {
     N_("Background"),N_("Outline"), N_("Fat Outline") };
+
 static const int pi_color_values[] = {
   0x00000000, 0x00808080, 0x00C0C0C0, 0x00FFFFFF, 0x00800000,
   0x00FF0000, 0x00FF00FF, 0x00FFFF00, 0x00808000, 0x00008000, 0x00008080,
@@ -184,7 +196,6 @@ vlc_module_begin ()
 vlc_module_end ()
 
 
-
 /*****************************************************************************
  * Local prototypes
  *****************************************************************************/
@@ -192,6 +203,7 @@ vlc_module_end ()
 /* The RenderText call maps to pf_render_string, defined in vlc_filter.h */
 static int RenderText( filter_t *, subpicture_region_t *,
                        subpicture_region_t * );
+
 #ifdef HAVE_STYLES
 static int RenderHtml( filter_t *, subpicture_region_t *,
                        subpicture_region_t * );
@@ -201,7 +213,10 @@ static void FontConfig_BuildCache( filter_t * );
 static char* FontConfig_Select( FcConfig *, const char *,
                                 bool, bool, int, int * );
 #endif
-
+#ifdef WIN32
+static char* Win32_Select( filter_t *, const char *,
+                           bool, bool, int, int * );
+#endif
 
 static int LoadFontsFromAttachments( filter_t *p_filter );
 
@@ -264,7 +279,7 @@ struct filter_sys_t
 {
     FT_Library     p_library;   /* handle to library     */
     FT_Face        p_face;      /* handle to face object */
-    bool     i_use_kerning;
+    bool           i_use_kerning;
     uint8_t        i_font_opacity;
     int            i_font_color;
     int            i_font_size;
@@ -275,6 +290,9 @@ struct filter_sys_t
 #ifdef HAVE_STYLES
     char*          psz_fontfamily;
     xml_t         *p_xml;
+#ifdef WIN32
+    char*          psz_win_fonts_path;
+#endif
 #endif
 
     input_attachment_t **pp_font_attachments;
@@ -304,7 +322,8 @@ static int Create( vlc_object_t *p_this )
     p_filter->p_sys = p_sys = malloc( sizeof( filter_sys_t ) );
     if( !p_sys )
         return VLC_ENOMEM;
- #ifdef HAVE_STYLES
+
+#ifdef HAVE_STYLES
     p_sys->psz_fontfamily = NULL;
     p_sys->p_xml = NULL;
 #endif
@@ -324,23 +343,31 @@ static int Create( vlc_object_t *p_this )
     p_sys->i_font_color = var_CreateGetInteger( p_filter, "freetype-color" );
     p_sys->i_font_color = __MAX( __MIN( p_sys->i_font_color , 0xFFFFFF ), 0 );
 
-    fontindex=0;
+#ifdef WIN32
+    /* Get Windows Font folder */
+    wchar_t wdir[MAX_PATH];
+    if( S_OK != SHGetFolderPathW( NULL, CSIDL_FONTS, NULL, SHGFP_TYPE_CURRENT, wdir ) )
+    {
+        GetWindowsDirectoryW( wdir, MAX_PATH );
+        wcscat( wdir, L"\\fonts" );
+    }
+    p_sys->psz_win_fonts_path = FromWide( wdir );
+#endif
+
+    /* Set default psz_fontfamily */
     if( !psz_fontfamily || !*psz_fontfamily )
     {
         free( psz_fontfamily );
 #ifdef HAVE_STYLES
-        psz_fontfamily = strdup( DEFAULT_FONT_FILE );
+        psz_fontfamily = strdup( DEFAULT_FAMILY );
 #else
-        psz_fontfamily = (char *)malloc( PATH_MAX + 1 );
-        if( !psz_fontfamily )
-            goto error;
 # ifdef WIN32
-        GetWindowsDirectory( psz_fontfamily , PATH_MAX + 1 );
-        strcat( psz_fontfamily, "\\fonts\\arial.ttf" );
+        if( asprintf( &psz_fontfamily, "%s"DEFAULT_FONT_FILE, p_sys->psz_win_fonts_path ) == -1 )
+            goto error;
 # else
-        strcpy( psz_fontfamily, DEFAULT_FONT_FILE );
+        psz_fontfamily = strdup( DEFAULT_FONT_FILE );
 # endif
-        msg_Err( p_filter,"User didn't specify fontfile, using %s", psz_fontfamily);
+        msg_Err( p_filter,"User specified an empty fontfile, using %s", psz_fontfamily );
 #endif
     }
 
@@ -350,8 +377,11 @@ static int Create( vlc_object_t *p_this )
 
     psz_fontfile = FontConfig_Select( NULL, psz_fontfamily, false, false,
                                       p_sys->i_default_font_size, &fontindex );
-#endif
+#elif defined(WIN32)
+    psz_fontfile = Win32_Select( p_filter, psz_fontfamily, false, false,
+                                 p_sys->i_default_font_size, &fontindex );
 
+#endif
     msg_Dbg( p_filter, "Using %s as font from file %s", psz_fontfamily, psz_fontfile );
     p_sys->psz_fontfamily = strdup( psz_fontfamily );
 
@@ -1920,12 +1950,23 @@ static int ProcessLines( filter_t *p_filter,
             {
                 char *psz_fontfile = NULL;
 
+#ifdef HAVE_FONTCONFIG
                 psz_fontfile = FontConfig_Select( NULL,
                                                   p_style->psz_fontname,
                                                   p_style->b_bold,
                                                   p_style->b_italic,
                                                   -1,
                                                   &i_idx );
+#elif defined( WIN32 )
+                psz_fontfile = Win32_Select( p_filter,
+                                            p_style->psz_fontname,
+                                            p_style->b_bold,
+                                            p_style->b_italic,
+                                            -1,
+                                            &i_idx );
+#else
+# error FIXME
+#endif
                 if( psz_fontfile && ! *psz_fontfile )
                 {
                     msg_Warn( p_filter, "Fontconfig was unable to find a font: \"%s\" %s"
@@ -2254,6 +2295,93 @@ static int RenderHtml( filter_t *p_filter, subpicture_region_t *p_region_out,
     return rv;
 }
 
+#ifdef WIN32
+#define UNICODE
+#define FONT_DIR_NT "SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts"
+
+static int GetFileFontByName( const char *font_name, char **psz_filename )
+{
+    HKEY hKey;
+    wchar_t vbuffer[MAX_PATH];
+    wchar_t dbuffer[256];
+
+    if( RegOpenKeyEx(HKEY_LOCAL_MACHINE, FONT_DIR_NT, 0, KEY_READ, &hKey) != ERROR_SUCCESS )
+        return 1;
+
+    for( int index = 0;; index++ )
+    {
+        DWORD vbuflen = MAX_PATH - 1;
+        DWORD dbuflen = 255;
+
+        if( RegEnumValueW( hKey, index, vbuffer, &vbuflen,
+                           NULL, NULL, (LPBYTE)dbuffer, &dbuflen) != ERROR_SUCCESS )
+            return 2;
+
+        char *psz_value = FromWide( vbuffer );
+
+        char *s = strchr( psz_value,'(' );
+        if( s != NULL && s != psz_value ) s[-1] = '\0';
+
+        /* Manage concatenated font names */
+        if( strchr( psz_value, '&') ) {
+            if( strcasestr( psz_value, font_name ) != NULL )
+                break;
+        }
+        else {
+            if( strcasecmp( psz_value, font_name ) == 0 )
+                break;
+        }
+    }
+
+    *psz_filename = FromWide( dbuffer );
+    return 0;
+}
+
+
+static int CALLBACK EnumFontCallback(const ENUMLOGFONTEX *lpelfe, const NEWTEXTMETRICEX *metric,
+                                     DWORD type, LPARAM lParam)
+{
+    VLC_UNUSED( metric );
+    if( (type & RASTER_FONTTYPE) ) return 1;
+    // if( lpelfe->elfScript ) FIXME
+
+    return GetFileFontByName( (const char *)lpelfe->elfFullName, (char **)lParam );
+}
+
+static char* Win32_Select( filter_t *p_filter, const char* family,
+                           bool b_bold, bool b_italic, int i_size, int *i_idx )
+{
+    VLC_UNUSED( i_size );
+    // msg_Dbg( p_filter, "Here in Win32_Select, asking for %s", family );
+
+    /* */
+    LOGFONT lf;
+    lf.lfCharSet = DEFAULT_CHARSET;
+    if( b_italic )
+        lf.lfItalic = true;
+    if( b_bold )
+        lf.lfWeight = FW_BOLD;
+    strncpy( (LPSTR)&lf.lfFaceName, family, 32);
+
+    /* */
+    char *psz_filename = NULL;
+    HDC hDC = GetDC( NULL );
+    EnumFontFamiliesEx(hDC, &lf, (FONTENUMPROC)&EnumFontCallback, (LPARAM)&psz_filename, 0);
+    ReleaseDC(NULL, hDC);
+
+    if( psz_filename == NULL )
+        return NULL;
+
+    /* FIXME: increase i_idx, when concatenated strings  */
+    i_idx = 0;
+
+    /* */
+    char *psz_tmp;
+    if( asprintf( &psz_tmp, "%s\\%s", p_filter->p_sys->psz_win_fonts_path, psz_filename ) == -1 )
+        return NULL;
+    return psz_tmp;
+}
+#endif
 
 #ifdef HAVE_FONTCONFIG
 static void FontConfig_BuildCache( filter_t *p_filter )

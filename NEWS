@@ -10,19 +10,23 @@ Mac OS X Interface:
 
 Audio output:
  * PulseAudio output re-written due to unstability of the current one
+ * Pulseaudio and dummy audio outputs
+
+Win32 port:
+ * Remove the fontconfig dependency from the freetype module
 
 Miscellaneous fixes in:
  * Windows 7 taskbar buttons
  * Qt interface
- * Pulseaudio and dummy audio outputs
- * Asx, live555, dvdnav demuxer
+ * asx, live555, dvdnav demuxer
  * RTP output and XML export
  * Subtitles colours when using GPU decoding on Windows
+ * v4l2 access
 
 Translations:
  * Update of Norwegian Bokmål, Slovak, Afrikaans, Luganda,
    Brazillian Portuguese, Irish, Thai, Estonian, Chinese, Polish,
-   Dutch, German, Galician, Bulgarian and Japanese translations
+   Dutch, German, Galician, Bulgarian, Lithuanian and Japanese translations
  * Initial Basque, Zulu, Peul, Amharic, Acoli, Chiga translations
 
 
