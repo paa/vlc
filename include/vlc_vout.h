@@ -93,7 +93,7 @@ VLC_EXPORT( int, vout_AllocatePicture,( vlc_object_t *p_this, picture_t *p_pic, 
  */
 
 /**
- * Video ouput thread private structure
+ * Video output thread private structure
  */
 typedef struct vout_thread_sys_t vout_thread_sys_t;
 

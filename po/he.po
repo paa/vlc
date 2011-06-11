@@ -24655,7 +24655,7 @@ msgstr " (ברירת מחדל: לא מאופשר)"
 
 #: modules/video_output/yuv.c:49
 msgid ""
-"The YUV4MPEG2 header is compatible with mplayer yuv video ouput and requires "
+"The YUV4MPEG2 header is compatible with mplayer yuv video output and requires "
 "YV12/I420 fourcc. By default vlc writes the fourcc of the picture frame into "
 "the output destination."
 msgstr ""

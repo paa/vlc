@@ -23237,7 +23237,7 @@ msgid "YUV4MPEG2 header (default disabled)"
 msgstr "YUV4MPEG2 header (standaard gedeactiveerd)"
 
 #: modules/video_output/yuv.c:49
-msgid "The YUV4MPEG2 header is compatible with mplayer yuv video ouput and requires YV12/I420 fourcc. By default vlc writes the fourcc of the picture frame into the output destination."
+msgid "The YUV4MPEG2 header is compatible with mplayer yuv video output and requires YV12/I420 fourcc. By default vlc writes the fourcc of the picture frame into the output destination."
 msgstr "De YUV4MPEG2 header is compatibel met de mplayer yuv video-uitvoer en vereist YV12/I420 fourcc. Standaard schrijft vlc de fourcc van de afbeeldingsrand naar het uitvoerdoel."
 
 #: modules/video_output/yuv.c:59

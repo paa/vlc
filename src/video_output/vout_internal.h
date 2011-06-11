@@ -107,12 +107,12 @@ struct vout_thread_sys_t
     vlc_mouse_t     mouse;
 };
 
-/* DO NOT use vout_RenderPicture unless you are in src/video_ouput */
+/* DO NOT use vout_RenderPicture unless you are in src/video_output */
 picture_t *vout_RenderPicture( vout_thread_t *, picture_t *,
                                subpicture_t *,
                                mtime_t render_date );
 
-/* DO NOT use vout_UsePictureLocked unless you are in src/video_ouput
+/* DO NOT use vout_UsePictureLocked unless you are in src/video_output
  *
  * This function supposes that you call it with picture_lock taken.
  */
