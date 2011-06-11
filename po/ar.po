@@ -20520,7 +20520,7 @@ msgstr "اسم الخط الذي تريد استخدامه"
 #: modules/misc/quartztext.c:83 modules/misc/win32text.c:75
 msgid ""
 "This is the relative default size of the fonts that will be rendered on the "
-"video. If absolute font size is set, relative size will be overriden."
+"video. If absolute font size is set, relative size will be overridden."
 msgstr ""
 "هذا هو التخلف النسبي في حجم الخطوط التي ستقدم على الفيديو. اذا حددت حجم الخط "
 "المطلق ،الحجم نسبي سوف ينقضها."

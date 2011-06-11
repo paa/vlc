@@ -20308,7 +20308,7 @@ msgstr "আপনি যে ফন্ট ব্যবহার করতে চ�
 #: modules/misc/quartztext.c:83 modules/misc/win32text.c:75
 msgid ""
 "This is the relative default size of the fonts that will be rendered on the "
-"video. If absolute font size is set, relative size will be overriden."
+"video. If absolute font size is set, relative size will be overridden."
 msgstr ""
 "এটি ফন্টের আপেক্ষিক পূর্বনির্ধারিত আকার যা ভিডিওর ওপর রেন্ডার করা হবে। যদি ফন্টের "
 "সম্পূর্ণ মান নির্ধারণ করা হয় তাহলে আপেক্ষিক আকার উপেক্ষিত হবে।"

@@ -19029,7 +19029,7 @@ msgstr "Naam van lettertype dat u wilt gebruiken"
 
 #: modules/misc/quartztext.c:83
 #: modules/misc/win32text.c:75
-msgid "This is the relative default size of the fonts that will be rendered on the video. If absolute font size is set, relative size will be overriden."
+msgid "This is the relative default size of the fonts that will be rendered on the video. If absolute font size is set, relative size will be overridden."
 msgstr "Dit is de relatieve standaardgrootte van de lettertypen die op de video weergegeven zullen worden. Als de absolute lettertypegrootte ingesteld is, zal de relatieve grootte overschreven worden."
 
 #: modules/misc/quartztext.c:107

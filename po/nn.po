@@ -21236,7 +21236,7 @@ msgstr ""
 #, fuzzy
 msgid ""
 "This is the relative default size of the fonts that will be rendered on the "
-"video. If absolute font size is set, relative size will be overriden."
+"video. If absolute font size is set, relative size will be overridden."
 msgstr "standard på."
 
 #: modules/misc/quartztext.c:107

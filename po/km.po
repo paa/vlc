@@ -19912,7 +19912,7 @@ msgstr "ឈ្មោះ​ពុម្ពអក្សរ​ដែល​អ្ន
 #: modules/misc/quartztext.c:83 modules/misc/win32text.c:75
 msgid ""
 "This is the relative default size of the fonts that will be rendered on the "
-"video. If absolute font size is set, relative size will be overriden."
+"video. If absolute font size is set, relative size will be overridden."
 msgstr ""
 "នេះ​ជា​ទំហំ​ពុម្ពអក្សរ​លំនាំដើម​ដែល​ទាក់ទង​ដែល​នឹង​ត្រូវបាន​បង្ហាញ​នៅលើ​វីដេអូ ។ ប្រសិន​បើ​បាន​កំណត់​ទំហំ​ពុម្ពអក្សរ​"
 "ដាច់ខាត ទំហំ​ដែល​ទាក់ទង​នឹង​ត្រូវបាន​បដិសេធ ។"

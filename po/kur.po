@@ -17037,7 +17037,7 @@ msgstr ""
 #: modules/misc/freetype.c:101
 #: modules/misc/quartztext.c:87
 #: modules/misc/win32text.c:74
-msgid "This is the relative default size of the fonts that will be rendered on the video. If absolute font size is set, relative size will be overriden."
+msgid "This is the relative default size of the fonts that will be rendered on the video. If absolute font size is set, relative size will be overridden."
 msgstr ""
 
 #: modules/misc/freetype.c:107

@@ -20728,7 +20728,7 @@ msgstr "Názov súboru s písmom, ktoré chcete použiť"
 #: modules/misc/quartztext.c:83 modules/misc/win32text.c:75
 msgid ""
 "This is the relative default size of the fonts that will be rendered on the "
-"video. If absolute font size is set, relative size will be overriden."
+"video. If absolute font size is set, relative size will be overridden."
 msgstr ""
 "Tu môžete nastaviť relatívnu veľkosť písma, ktoré sa zobrazí vo vnútri "
 "videa. Ak je nastavená absolútna veľkosť, na relatívnu veľkosť program "

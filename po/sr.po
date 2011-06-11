@@ -20856,7 +20856,7 @@ msgstr "Име фајла за фонт који желите да корист�
 #: modules/misc/quartztext.c:83 modules/misc/win32text.c:75
 msgid ""
 "This is the relative default size of the fonts that will be rendered on the "
-"video. If absolute font size is set, relative size will be overriden."
+"video. If absolute font size is set, relative size will be overridden."
 msgstr ""
 "Ово је релативна подразумевана величина фонтова који ће бити рендеровани на "
 "видеу. Ако је подешена апсолутна величина фонта, релативна величина ће бити "

@@ -19037,7 +19037,7 @@ msgstr "Name für die Schrift, die Sie benutzen möchten"
 
 #: modules/misc/quartztext.c:83
 #: modules/misc/win32text.c:75
-msgid "This is the relative default size of the fonts that will be rendered on the video. If absolute font size is set, relative size will be overriden."
+msgid "This is the relative default size of the fonts that will be rendered on the video. If absolute font size is set, relative size will be overridden."
 msgstr "Dies ist die relative Standardgröße der Schrift, die auf das Video gelegt wird. Wenn eine absolute Schriftgröße angegeben wird, wird diese Einstellung ignoriert."
 
 #: modules/misc/quartztext.c:107

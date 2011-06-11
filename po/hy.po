@@ -22608,10 +22608,10 @@ msgstr "Տառատեսակի անունը, որը ուզում եք օգտագո
 #, fuzzy
 msgid ""
 "This is the relative default size of the fonts that will be rendered on the "
-"video. If absolute font size is set, relative size will be overriden."
+"video. If absolute font size is set, relative size will be overridden."
 msgstr ""
 "Սա հարաբերական լռությամբ չափը տառատեսաӀ¯ների, որ պետք է մատուցված վրա վիդեո. "
-"Եթե բացարձակ տառաչափը է սահմաӀ¶ել, հարաբերակӀ¡ն չաԀը կլինի overriden\"."
+"Եթե բացարձակ տառաչափը է սահմաӀ¶ել, հարաբերակӀ¡ն չաԀը կլինի overridden\"."
 
 #: modules/misc/quartztext.c:107
 #, fuzzy
