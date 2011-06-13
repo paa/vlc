@@ -20619,7 +20619,7 @@ msgstr "Sæt nummeret på den stream i lydsporet du vil bruge (fra 0 til n)"
 #: modules/misc/quartztext.c:83 modules/misc/win32text.c:75
 msgid ""
 "This is the relative default size of the fonts that will be rendered on the "
-"video. If absolute font size is set, relative size will be overridden."
+"video. If absolute font size is set, relative size will be overriden."
 msgstr ""
 "Dette er den relative standardstørrelse af de skrifttyper, der vil blive "
 "anvendt på videoen. Hvis du angiver en fast skriftstørrelse, anvendes dette "

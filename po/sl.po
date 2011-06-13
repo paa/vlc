@@ -20478,7 +20478,7 @@ msgstr "Ime pisave, ki jo želite uporabiti"
 #: modules/misc/quartztext.c:83 modules/misc/win32text.c:75
 msgid ""
 "This is the relative default size of the fonts that will be rendered on the "
-"video. If absolute font size is set, relative size will be overridden."
+"video. If absolute font size is set, relative size will be overriden."
 msgstr ""
 "Relativna velikost besedila, ki bo izrisano na posnetku. Vrednosti so "
 "prezrte v primeru, da je določena absolutna vrednost."

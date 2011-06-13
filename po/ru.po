@@ -20519,7 +20519,7 @@ msgstr "Название используемого шрифта"
 #: modules/misc/quartztext.c:83 modules/misc/win32text.c:75
 msgid ""
 "This is the relative default size of the fonts that will be rendered on the "
-"video. If absolute font size is set, relative size will be overridden."
+"video. If absolute font size is set, relative size will be overriden."
 msgstr ""
 "Относительный размер шрифтов, которые будет выводиться на видео. Если указан "
 "абсолютный размер шрифта, относительный будет проигнорирован."

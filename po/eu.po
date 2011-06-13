@@ -20453,7 +20453,7 @@ msgstr "Erabiltzea nahi duzun hizkiarentzako izena"
 #: modules/misc/quartztext.c:83 modules/misc/win32text.c:75
 msgid ""
 "This is the relative default size of the fonts that will be rendered on the "
-"video. If absolute font size is set, relative size will be overridden."
+"video. If absolute font size is set, relative size will be overriden."
 msgstr ""
 "Hau da bideoan aurkeztuk diren hizkien berezko neurri erlatiboa. Hizkiaren "
 "neurri osoa ezartzen bada, neurri erlatiboa baliogabetua izango da. "

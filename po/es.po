@@ -20426,7 +20426,7 @@ msgstr "Nombre para la fuente que deseas usar"
 #: modules/misc/quartztext.c:83 modules/misc/win32text.c:75
 msgid ""
 "This is the relative default size of the fonts that will be rendered on the "
-"video. If absolute font size is set, relative size will be overridden."
+"video. If absolute font size is set, relative size will be overriden."
 msgstr ""
 "Tamaño relativo predeterminado de las fuentes que se generan en el vídeo."
 

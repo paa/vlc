@@ -19014,7 +19014,7 @@ msgstr "使用したいフォントのファイル名を指定します。"
 
 #: modules/misc/quartztext.c:83
 #: modules/misc/win32text.c:75
-msgid "This is the relative default size of the fonts that will be rendered on the video. If absolute font size is set, relative size will be overridden."
+msgid "This is the relative default size of the fonts that will be rendered on the video. If absolute font size is set, relative size will be overriden."
 msgstr "これはビデオ上に表示されるフォントの相対的なデフォルトサイズです。絶対値でフォントサイズが指定された場合、相対サイズは上書きされます。"
 
 #: modules/misc/quartztext.c:107

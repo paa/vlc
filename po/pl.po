@@ -20444,7 +20444,7 @@ msgstr "Nazwa czcionki której chcesz używać"
 #: modules/misc/quartztext.c:83 modules/misc/win32text.c:75
 msgid ""
 "This is the relative default size of the fonts that will be rendered on the "
-"video. If absolute font size is set, relative size will be overridden."
+"video. If absolute font size is set, relative size will be overriden."
 msgstr ""
 "To jest względny domyślny rozmiar czcionki, który będzie renderowany na "
 "obrazie. Jeśli podałeś całkowity rozmiar czcionki, względny rozmiar zostanie "

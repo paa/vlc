@@ -20030,7 +20030,7 @@ msgstr "Nama font yang ingin Anda gunakan"
 #: modules/misc/quartztext.c:83 modules/misc/win32text.c:75
 msgid ""
 "This is the relative default size of the fonts that will be rendered on the "
-"video. If absolute font size is set, relative size will be overridden."
+"video. If absolute font size is set, relative size will be overriden."
 msgstr ""
 "Ini adalah default ukuran font relatif yang akan dirender pada video. Jika "
 "ukuran font absolut ditetapkan, besar font relatif akan diabaikan."

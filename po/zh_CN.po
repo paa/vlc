@@ -19571,7 +19571,7 @@ msgstr "您要使用的字体名称"
 #: modules/misc/quartztext.c:83 modules/misc/win32text.c:75
 msgid ""
 "This is the relative default size of the fonts that will be rendered on the "
-"video. If absolute font size is set, relative size will be overridden."
+"video. If absolute font size is set, relative size will be overriden."
 msgstr ""
 "这是一个将要在视频上渲染的相对字体默认大小。如果设置了绝对字体大小，相对大小"
 "将被覆盖。"

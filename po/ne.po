@@ -20842,7 +20842,7 @@ msgstr "तपाईँले प्रयोग गर्न चाहनु �
 #: modules/misc/quartztext.c:83 modules/misc/win32text.c:75
 msgid ""
 "This is the relative default size of the fonts that will be rendered on the "
-"video. If absolute font size is set, relative size will be overridden."
+"video. If absolute font size is set, relative size will be overriden."
 msgstr ""
 "भिडियोमा रेन्डर गरिनेसँग यो फन्टको सापेक्षिक पूर्वनिर्धारित साइज हो । यदि पूर्ण साइज सेट "
 "गरेमा, सापेक्षिक साइज अधिरोहण हुन्छ ।"

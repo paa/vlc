@@ -20343,7 +20343,7 @@ msgstr "Път до файла с шрифта, който искате да и�
 #: modules/misc/quartztext.c:83 modules/misc/win32text.c:75
 msgid ""
 "This is the relative default size of the fonts that will be rendered on the "
-"video. If absolute font size is set, relative size will be overridden."
+"video. If absolute font size is set, relative size will be overriden."
 msgstr ""
 "Задаване на относителния размер на шрифта. Ако стандартния размер \n"
 "на шрифта е различен от нула, той ще подмени относителния размер."
