@@ -17357,7 +17357,7 @@ msgstr "Pri&taikyti"
 #: modules/gui/qt4/dialogs/preferences.cpp:86
 #: modules/gui/qt4/dialogs/sout.cpp:98 modules/gui/qt4/dialogs/toolbar.cpp:189
 msgid "&Cancel"
-msgstr "&Atšauti"
+msgstr "&Atšaukti"
 
 #: modules/gui/qt4/components/sout/profile_selector.cpp:41
 #: modules/gui/qt4/dialogs/toolbar.cpp:142
@@ -18225,7 +18225,7 @@ msgstr "Įra&nkiai"
 
 #: modules/gui/qt4/menus.cpp:298 modules/gui/qt4/menus.cpp:1039
 msgid "V&iew"
-msgstr "&Rodinys"
+msgstr "&Rodymas"
 
 #: modules/gui/qt4/menus.cpp:301
 msgid "&Help"
@@ -18289,7 +18289,7 @@ msgstr "&Parinktys"
 
 #: modules/gui/qt4/menus.cpp:431
 msgid "&View"
-msgstr "&Rodinys"
+msgstr "&Rodymas"
 
 #: modules/gui/qt4/menus.cpp:449
 msgid "Play&list"
