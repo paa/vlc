@@ -1110,7 +1110,7 @@ UAC_Success:
   StrCmp $LANGUAGE ${LANG_SPANISH} Spanish 0
   StrCmp $LANGUAGE ${LANG_ESTONIAN} Estonian 0
   StrCmp $LANGUAGE ${LANG_LITHUANIAN} Lithuanian 0
-  StrCmp $LANGUAGE ${LANG_LITHUANIAN} Serbian 0
+  StrCmp $LANGUAGE ${LANG_SERBIAN} Serbian 0
   StrCmp $LANGUAGE ${LANG_PORTUGUESEBR} Brazilian EndLanguageCmp
   French:
   !include "languages\french.nsh"
