@@ -1,6 +1,9 @@
 Changes between 1.1.10 and 1.1.11-git:
 ----------------------------------
 
+Mac OS X Interface:
+ * Fixed scrolling direction if the input device's signal is inverted
+
 Translations:
  * Update of Slovak, Lithunanian
 
