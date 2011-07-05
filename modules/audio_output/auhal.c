@@ -1444,6 +1444,7 @@ static OSStatus StreamListener( AudioObjectID inObjectID,  UInt32 inNumberAddres
         {
             vlc_mutex_lock( &w->lock );
             vlc_cond_signal( &w->cond );
+            vlc_mutex_unlock( &w->lock );
         }
     }
     return( err );
