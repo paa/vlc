@@ -1143,8 +1143,9 @@ void MainInterface::wheelEvent( QWheelEvent *e )
 void MainInterface::closeEvent( QCloseEvent *e )
 {
     //hide();
-    e->ignore();
     emit askToQuit();
+    /* Accept session quit. Otherwise we break the desktop mamager. */
+    e->accept();
 }
 
 void MainInterface::setInterfaceFullScreen( bool fs )
