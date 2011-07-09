@@ -182,6 +182,10 @@ private:
     void unask_for_event(event_t e);
 };
 
+#ifdef XP_WIN
+HMODULE DllGetModule();
+#include "vlc_win32_fullscreen.h"
+#endif
 
 class VlcPlugin
 {
@@ -209,8 +213,7 @@ public:
     char*               getAbsoluteURL(const char *url);
     NPWindow&           getWindow()
                             { return npwindow; };
-    void                setWindow(const NPWindow &window)
-                            { npwindow = window; };
+    void                setWindow(const NPWindow &window);
 
     NPClass*            getScriptClass()
                             { return p_scriptClass; };
@@ -333,6 +336,7 @@ private:
     NPWindow  npwindow;
 #if defined(XP_WIN)
     WNDPROC   pf_wndproc;
+    VLCWindowsManager _WindowsManager;
 #endif
 #if defined(XP_UNIX)
     unsigned int     i_width, i_height;
