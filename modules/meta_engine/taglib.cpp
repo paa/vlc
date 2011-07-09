@@ -159,6 +159,9 @@ static void ReadMetaFromASF( ASF::Tag* tag, demux_meta_t* p_demux_meta, vlc_meta
                 continue;
         }
 
+        msg_Dbg( p_demux_meta, "Found embedded art: %s (%s) is %u bytes",
+                 psz_name, psz_mime, i_data );
+
         p_attachment = vlc_input_attachment_New( psz_name, psz_mime,
                                 psz_name, p_data, i_data );
         if( p_attachment )
@@ -407,6 +410,9 @@ static void ReadMetaFromMP4( MP4::Tag* tag, demux_meta_t *p_demux_meta, vlc_meta
     {
         MP4::CoverArtList list = tag->itemListMap()["covr"].toCoverArtList();
         const char *psz_format = list[0].format() == MP4::CoverArt::PNG ? "image/png" : "image/jpeg";
+
+        msg_Dbg( p_demux_meta, "Found embedded art: cover (%s) is %u bytes",
+                 psz_format, list[0].data().size() );
 
         TAB_INIT( p_demux_meta->i_attachments, p_demux_meta->attachments );
         input_attachment_t *p_attachment =
