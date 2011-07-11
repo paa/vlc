@@ -5,6 +5,7 @@ Mac OS X:
  * Fixed scrolling direction if the input device's signal is inverted
  * Update Auhal audio output to the latest API
  * Fix images disappearing issue on the interface
+ * Reduced installation size by up to 30 MB
 
 Mozilla/ActiveX webplugin:
  * Fullscreen mode is fixed on Win32
