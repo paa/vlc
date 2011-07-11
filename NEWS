@@ -6,6 +6,7 @@ Mac OS X:
  * Update Auhal audio output to the latest API
  * Fix images disappearing issue on the interface
  * Reduced installation size by up to 30 MB
+ * Resolved conflict between iTunes and VLC wrt Media Key handling
 
 Mozilla/ActiveX webplugin:
  * Fullscreen mode is fixed on Win32
