@@ -1,6 +1,10 @@
 Changes between 1.1.10 and 1.1.11-git:
 ----------------------------------
 
+Security:
+ * Fix buffer overflows in the RealMedia demuxer (CVE-2011-2587)
+   and the AVI one (CVE-2011-2588).
+
 Mac OS X:
  * Fixed scrolling direction if the input device's signal is inverted
  * Update Auhal audio output to the latest API
