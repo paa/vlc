@@ -14612,8 +14612,8 @@ msgid "About VLC media player"
 msgstr "Относно VLC media player"
 
 #: modules/gui/macosx/about.m:104
-msgid "Compiled by %s with %@"
-msgstr "Компилирано от %s с %@"
+msgid "Compiled by %@ with %@"
+msgstr "Компилирано от %@ с %@"
 
 #: modules/gui/macosx/about.m:112
 msgid "VLC was brought to you by:"

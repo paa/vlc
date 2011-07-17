@@ -14198,7 +14198,7 @@ msgstr "Ekikwata ku VLC enyimbiso"
 
 #: modules/gui/macosx/about.m:104
 #, fuzzy
-msgid "Compiled by %s with %@"
+msgid "Compiled by %@ with %@"
 msgstr "Pulogulamu egezesedwa ne %s"
 
 #: modules/gui/macosx/about.m:112

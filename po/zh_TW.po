@@ -13935,7 +13935,7 @@ msgstr "關於VLC媒體播放程式"
 
 #: modules/gui/macosx/about.m:104
 #, fuzzy
-msgid "Compiled by %s with %@"
+msgid "Compiled by %@ with %@"
 msgstr "由 %s 編譯"
 
 #: modules/gui/macosx/about.m:112

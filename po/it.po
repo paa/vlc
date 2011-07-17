@@ -14484,7 +14484,7 @@ msgstr "Informazioni su lettore multimediale VLC"
 
 #: modules/gui/macosx/about.m:104
 #, fuzzy
-msgid "Compiled by %s with %@"
+msgid "Compiled by %@ with %@"
 msgstr "Compilato da %s"
 
 #: modules/gui/macosx/about.m:112

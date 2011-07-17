@@ -14216,8 +14216,8 @@ msgstr "Aangaande VLC-mediaspeler"
 
 #: modules/gui/macosx/about.m:104
 #, fuzzy
-msgid "Compiled by %s with %@"
-msgstr "Saamgestel deur %s"
+msgid "Compiled by %@ with %@"
+msgstr "Saamgestel deur %@"
 
 #: modules/gui/macosx/about.m:112
 msgid "VLC was brought to you by:"

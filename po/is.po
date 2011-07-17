@@ -13545,7 +13545,7 @@ msgstr "Um VLC spilarann"
 
 #: modules/gui/macosx/about.m:104
 #, fuzzy
-msgid "Compiled by %s with %@"
+msgid "Compiled by %@ with %@"
 msgstr "Vistþýtt af %s"
 
 #: modules/gui/macosx/about.m:112

@@ -13597,8 +13597,8 @@ msgstr "Пра медыя-прайгравальнік VLC"
 
 #: modules/gui/macosx/about.m:104
 #, fuzzy
-msgid "Compiled by %s with %@"
-msgstr "Зкампілявана  %s"
+msgid "Compiled by %@ with %@"
+msgstr "Зкампілявана  %@"
 
 #: modules/gui/macosx/about.m:112
 msgid "VLC was brought to you by:"

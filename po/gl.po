@@ -14890,8 +14890,8 @@ msgid "About VLC media player"
 msgstr "Sobre o VLC media player"
 
 #: modules/gui/macosx/about.m:104
-msgid "Compiled by %s with %@"
-msgstr "Compilado por %s con %@"
+msgid "Compiled by %@ with %@"
+msgstr "Compilado por %@ con %@"
 
 #: modules/gui/macosx/about.m:112
 msgid "VLC was brought to you by:"

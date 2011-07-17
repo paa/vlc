@@ -14630,7 +14630,7 @@ msgstr "VLC medya oynatıcısı hakkında"
 
 #: modules/gui/macosx/about.m:104
 #, fuzzy
-msgid "Compiled by %s with %@"
+msgid "Compiled by %@ with %@"
 msgstr "Derleyen: %s"
 
 #: modules/gui/macosx/about.m:112

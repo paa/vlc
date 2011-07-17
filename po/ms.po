@@ -14604,7 +14604,7 @@ msgstr "Perihal peman media VLC"
 
 #: modules/gui/macosx/about.m:104
 #, fuzzy
-msgid "Compiled by %s with %@"
+msgid "Compiled by %@ with %@"
 msgstr "Dihimpun oleh %s"
 
 #: modules/gui/macosx/about.m:112

@@ -14879,7 +14879,7 @@ msgstr "Tietoja VLC-mediasoittimesta"
 
 #: modules/gui/macosx/about.m:104
 #, fuzzy
-msgid "Compiled by %s with %@"
+msgid "Compiled by %@ with %@"
 msgstr "Sovelluskäännös: %s"
 
 #: modules/gui/macosx/about.m:112

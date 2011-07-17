@@ -14090,7 +14090,7 @@ msgstr "Ebirakwata ahari enzaana ya VLC"
 
 #: modules/gui/macosx/about.m:104
 #, fuzzy
-msgid "Compiled by %s with %@"
+msgid "Compiled by %@ with %@"
 msgstr "Byakunganizibwa %s"
 
 #: modules/gui/macosx/about.m:112

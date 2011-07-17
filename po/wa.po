@@ -13804,7 +13804,7 @@ msgstr "Å dfwait do djouweu d' media VLC"
 
 #: modules/gui/macosx/about.m:104
 #, fuzzy
-msgid "Compiled by %s with %@"
+msgid "Compiled by %@ with %@"
 msgstr "Compilé pa %s"
 
 #: modules/gui/macosx/about.m:112

@@ -14203,8 +14203,8 @@ msgstr "Mamako gi tuku wer me VLC"
 
 #: modules/gui/macosx/about.m:104
 #, fuzzy
-msgid "Compiled by %s with %@"
-msgstr "%s en aye oyubo"
+msgid "Compiled by %@ with %@"
+msgstr "%@ en aye oyubo"
 
 #: modules/gui/macosx/about.m:112
 msgid "VLC was brought to you by:"

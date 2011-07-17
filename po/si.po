@@ -13643,7 +13643,7 @@ msgstr "VLC මාධ්‍ය ධාවකය ගැන"
 
 #: modules/gui/macosx/about.m:104
 #, fuzzy
-msgid "Compiled by %s with %@"
+msgid "Compiled by %@ with %@"
 msgstr "සම්පාදනය කරන ලද්දේ %s"
 
 #: modules/gui/macosx/about.m:112

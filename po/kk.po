@@ -13829,7 +13829,7 @@ msgstr "VLC мультимедия ойнатқышы туралы"
 
 #: modules/gui/macosx/about.m:104
 #, fuzzy
-msgid "Compiled by %s with %@"
+msgid "Compiled by %@ with %@"
 msgstr "Құрастырған %s"
 
 #: modules/gui/macosx/about.m:112

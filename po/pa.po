@@ -13569,7 +13569,7 @@ msgstr "ਵੀ.ਐਲ.ਸੀ. (VLC) ਮੀਡਿਆ ਪਲੇਅਰ ਬਾਰੇ
 
 #: modules/gui/macosx/about.m:104
 #, fuzzy
-msgid "Compiled by %s with %@"
+msgid "Compiled by %@ with %@"
 msgstr "%s ਨਾਲ ਕੰਪਾਇਲ ਕੀਤਾ"
 
 #: modules/gui/macosx/about.m:112

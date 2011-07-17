@@ -14272,7 +14272,7 @@ msgstr "អំពី​កម្មវិធី​ចាក់​មេឌៀ VL
 
 #: modules/gui/macosx/about.m:104
 #, fuzzy
-msgid "Compiled by %s with %@"
+msgid "Compiled by %@ with %@"
 msgstr "បាន​ចងក្រង​ដោយ %s"
 
 #: modules/gui/macosx/about.m:112

@@ -14037,7 +14037,7 @@ msgstr ""
 
 #: modules/gui/macosx/about.m:104
 #, fuzzy
-msgid "Compiled by %s with %@"
+msgid "Compiled by %@ with %@"
 msgstr "Kompilējis %s@%s.%s\n"
 
 #: modules/gui/macosx/about.m:112

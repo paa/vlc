@@ -14326,7 +14326,7 @@ msgstr "Περί του αναπαραγωγού πολυμέσων VLC"
 
 #: modules/gui/macosx/about.m:104
 #, fuzzy
-msgid "Compiled by %s with %@"
+msgid "Compiled by %@ with %@"
 msgstr "Μεταγλώττιση από %s"
 
 #: modules/gui/macosx/about.m:112

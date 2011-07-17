@@ -14304,7 +14304,7 @@ msgstr "Informazions sul riprodutôr multimediâl VLC"
 
 #: modules/gui/macosx/about.m:104
 #, fuzzy
-msgid "Compiled by %s with %@"
+msgid "Compiled by %@ with %@"
 msgstr "Compilât di %s@%s.%s\n"
 
 #: modules/gui/macosx/about.m:112

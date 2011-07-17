@@ -14933,7 +14933,7 @@ msgstr "O izvođaču medija VLC"
 
 #: modules/gui/macosx/about.m:104
 #, fuzzy
-msgid "Compiled by %s with %@"
+msgid "Compiled by %@ with %@"
 msgstr "Kôd prikupio i preveo %s"
 
 #: modules/gui/macosx/about.m:112

@@ -14437,7 +14437,7 @@ msgstr "VLC მედია დამკვრელის შესახებ
 
 #: modules/gui/macosx/about.m:104
 #, fuzzy
-msgid "Compiled by %s with %@"
+msgid "Compiled by %@ with %@"
 msgstr "კომპაილერი: %s\n"
 
 #: modules/gui/macosx/about.m:112

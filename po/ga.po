@@ -13583,8 +13583,8 @@ msgid "About VLC media player"
 msgstr "Maidir le seinnteoir meán VLC"
 
 #: modules/gui/macosx/about.m:104
-msgid "Compiled by %s with %@"
-msgstr "Tiomsaithe ag %s le %@"
+msgid "Compiled by %@ with %@"
+msgstr "Tiomsaithe ag %@ le %@"
 
 #: modules/gui/macosx/about.m:112
 msgid "VLC was brought to you by:"
