@@ -144,9 +144,12 @@ static void stream_suspended_cb(pa_stream *s, void *userdata)
 static void stream_underflow_cb(pa_stream *s, void *userdata)
 {
     aout_instance_t *aout = userdata;
+    pa_operation *op;
 
-    msg_Dbg(aout, "underflow");
-    (void) s;
+    msg_Warn(aout, "underflow");
+    op = pa_stream_cork(s, 1, NULL, NULL);
+    if (op != NULL)
+        pa_operation_unref(op);
 }
 
 static int stream_wait(pa_threaded_mainloop *mainloop, pa_stream *stream)
@@ -193,6 +196,17 @@ static void Play(aout_instance_t *aout)
     aout_sys_t *sys = aout->output.p_sys;
     pa_stream *s = sys->stream;
 
+    /* This function is called exactly once per block in the output FIFO. */
+    block_t *block = aout_FifoPop(aout, &aout->output.fifo);
+    assert (block != NULL);
+
+    const void *ptr = data_convert(&block);
+    if (unlikely(ptr == NULL))
+        return;
+
+    size_t len = block->i_buffer;
+    //mtime_t pts = block->i_pts + block->i_length;
+
     /* Note: The core already holds the output FIFO lock at this point.
      * Therefore we must not under any circumstances (try to) acquire the
      * output FIFO lock while the PulseAudio threaded main loop lock is held
@@ -200,36 +214,47 @@ static void Play(aout_instance_t *aout)
      * will take place, and sooner or later a deadlock. */
     pa_threaded_mainloop_lock(sys->mainloop);
 
-    if (pa_stream_is_corked(sys->stream) > 0) {
-        pa_operation *op = pa_stream_cork(s, 0, NULL, NULL);
+    if (pa_stream_is_corked(s) > 0) {
+        /* Start or resume the stream. Zeroes are prepended to sync.
+         * This does not really work because PulseAudio latency measurement is
+         * garbage at start. */
+        pa_operation *op;
+        pa_usec_t latency;
+        int negative;
+
+        if (pa_stream_get_latency(s, &latency, &negative) == 0)
+            msg_Dbg(aout, "starting with %c%"PRIu64" us latency",
+                    negative ? '-' : '+', latency);
+        else
+            latency = negative = 0;
+
+        mtime_t advance = block->i_pts - mdate();
+        if (negative)
+            advance += latency;
+        else
+            advance -= latency;
+
+        if (advance > 0) {
+            size_t nb = (advance * aout->output.output.i_rate) / CLOCK_FREQ;
+            size_t size = aout->output.output.i_bytes_per_frame;
+            float *zeroes = calloc (nb, size);
+
+            msg_Dbg(aout, "prepending %zu zeroes", nb);
+            if (likely(zeroes != NULL))
+                if (pa_stream_write(s, zeroes, nb * size, free, 0,
+                                    PA_SEEK_RELATIVE) < 0)
+                    free(zeroes);
+        }
+
+        op = pa_stream_cork(s, 0, NULL, NULL);
+        if (op != NULL)
+            pa_operation_unref(op);
+        op = pa_stream_trigger(s, NULL, NULL);
         if (op != NULL)
             pa_operation_unref(op);
         msg_Dbg(aout, "uncorking");
     }
 
-#if 0
-    /* This function should be called by the LibVLC core a header of time,
-     * but not more than AOUT_MAX_PREPARE. The PulseAudio latency should be
-     * shorter than that (though it might not be the case with some evil piece
-     * of audio output hardware). So we may need to trigger playback early,
-     * (that is to say, short cut the PulseAudio prebuffering). Otherwise,
-     * audio and video may be out of synchronization. */
-    pa_usec_t latency;
-    int negative;
-    if (pa_stream_get_latency(s, &latency, &negative) < 0) {
-        /* Especially at start of stream, latency may not be known (yet). */
-        if (pa_context_errno(sys->context) != PA_ERR_NODATA)
-            error(aout, "cannot determine latency", sys->context);
-    } else {
-        mtime_t gap = aout_FifoFirstDate(aout, &aout->output.fifo) - mdate()
-                - latency;
-
-        if (gap > AOUT_PTS_TOLERANCE)
-            msg_Dbg(aout, "buffer too early (%"PRId64" us)", gap);
-        else if (gap < -AOUT_PTS_TOLERANCE)
-            msg_Err(aout, "buffer too late (%"PRId64" us)", -gap);
-    }
-#endif
 #if 0 /* Fault injector to test underrun recovery */
     static unsigned u = 0;
     if ((++u % 500) == 0) {
@@ -238,32 +263,13 @@ static void Play(aout_instance_t *aout)
     }
 #endif
 
-    /* This function is called exactly once per block in the output FIFO, so
-     * this for-loop is not necessary.
-     * If this function is changed to not always dequeue blocks, be sure to
-     * limit the queue size to a reasonable limit to avoid huge leaks. */
-    for (;;) {
-        block_t *block = aout_FifoPop(aout, &aout->output.fifo);
-        if (block == NULL)
-            break;
-
-        const void *ptr = data_convert(&block);
-        if (unlikely(ptr == NULL))
-            break;
-
-        size_t len = block->i_buffer;
-        //mtime_t pts = block->i_pts, duration = block->i_length;
-
-        if (pa_stream_write(s, ptr, len, data_free, 0, PA_SEEK_RELATIVE) < 0)
-        {
-            error(aout, "cannot write", sys->context);
-            block_Release(block);
-        }
+    if (pa_stream_write(s, ptr, len, data_free, 0, PA_SEEK_RELATIVE) < 0) {
+        error(aout, "cannot write", sys->context);
+        block_Release(block);
     }
 
     pa_threaded_mainloop_unlock(sys->mainloop);
 }
-
 
 /*****************************************************************************
  * Open: open the audio device
@@ -381,15 +387,16 @@ static int Open(vlc_object_t *obj)
         msg_Dbg(aout, "using %s channel map", (name != NULL) ? name : "?");
     }
 
-    const pa_stream_flags_t flags = PA_STREAM_INTERPOLATE_TIMING
-                                  | PA_STREAM_AUTO_TIMING_UPDATE
-                                  | PA_STREAM_START_CORKED;
+    /* Stream parameters */
+    const pa_stream_flags_t flags = PA_STREAM_START_CORKED
+                                  //| PA_STREAM_INTERPOLATE_TIMING
+                                  | PA_STREAM_AUTO_TIMING_UPDATE;
 
     const uint32_t byterate = pa_bytes_per_second(&ss);
     struct pa_buffer_attr attr;
     attr.maxlength = -1;
     attr.tlength = byterate * AOUT_MAX_PREPARE_TIME / CLOCK_FREQ;
-    attr.prebuf = -1;
+    attr.prebuf = 0; /* trigger manually */
     attr.minreq = -1;
     attr.fragsize = 0; /* not used for output */
 
