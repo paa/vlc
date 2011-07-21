@@ -4559,8 +4559,8 @@ then
           if test -n "$i"
           then
             echo "Trying to find $i package" >&AS_MESSAGE_LOG_FD
-            AC_MSG_CHECKING([for $i >= 1.9.2])
-            if $PKG_CONFIG --exists --print-errors "$i >= 1.9.2" 2>&AS_MESSAGE_LOG_FD
+            AC_MSG_CHECKING([for $i >= 1.9.1])
+            if $PKG_CONFIG --exists --print-errors "$i >= 1.9.1" 2>&AS_MESSAGE_LOG_FD
             then
               echo "Using $i pkg-config package." >&AS_MESSAGE_LOG_FD
               echo "Using $i package." >&AS_MESSAGE_FD

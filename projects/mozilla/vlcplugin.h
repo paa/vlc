@@ -29,6 +29,10 @@
 #ifndef __VLCPLUGIN_H__
 #define __VLCPLUGIN_H__
 
+// Changes for compatibility to xulrunner 1.9.1
+#define UTF8Characters utf8characters
+#define UTF8Length utf8length
+
 #include <vlc/vlc.h>
 
 // Setup XP_MACOSX, XP_UNIX, XP_WIN
