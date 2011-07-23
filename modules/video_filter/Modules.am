@@ -17,6 +17,7 @@ SOURCES_scale = scale.c
 SOURCES_marq = marq.c
 SOURCES_rss = rss.c
 SOURCES_motiondetect = motiondetect.c
+SOURCES_rv32 = rv32.c
 
 libosdmenu_plugin_la_SOURCES = osdmenu.c
 libosdmenu_plugin_la_CFLAGS = $(AM_CFLAGS) -DPKGDATADIR=\"$(vlcdatadir)\"
