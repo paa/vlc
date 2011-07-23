@@ -356,8 +356,8 @@ gnutls_HandshakeAndValidate( tls_session_t *session )
         goto error;
     }
 
-    assert( p_sys->psz_hostname != NULL );
-    if ( !gnutls_x509_crt_check_hostname( cert, p_sys->psz_hostname ) )
+    if( p_sys->psz_hostname != NULL
+     && !gnutls_x509_crt_check_hostname( cert, p_sys->psz_hostname ) )
     {
         msg_Err( session, "Certificate does not match \"%s\"",
                  p_sys->psz_hostname );
@@ -731,7 +731,7 @@ static int OpenClient (vlc_object_t *obj)
 
     char *servername = var_GetNonEmptyString (p_session, "tls-server-name");
     if (servername == NULL )
-        msg_Err (p_session, "server name missing for TLS session");
+        abort ();
     else
         gnutls_server_name_set (p_sys->session.session, GNUTLS_NAME_DNS,
                                 servername, strlen (servername));
