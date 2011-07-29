@@ -522,6 +522,10 @@ NPError VlcPlugin::init(int argc, char* const argn[], char* const argv[])
 
 VlcPlugin::~VlcPlugin()
 {
+#ifdef XP_WIN
+    _WindowsManager.DestroyWindows();
+#endif
+
     free(psz_baseURL);
     free(psz_target);
     free(psz_text);
