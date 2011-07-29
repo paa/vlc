@@ -2589,9 +2589,8 @@ end:
 
     o_attr = [NSDictionary dictionaryWithObject: pp_color[i_type]
                                          forKey: NSForegroundColorAttributeName];
-    o_msg = [[[o_notification userInfo] objectForKey: @"Message"] stringByAppendingString: @"\n"];
-    o_msg_color = [[NSAttributedString alloc]
-                   initWithString: o_msg attributes: o_attr];
+    o_msg = [NSString stringWithFormat:@"%@\n", [[o_notification userInfo] objectForKey: @"Message"]];
+    o_msg_color = [[NSAttributedString alloc] initWithString: o_msg attributes: o_attr];
     [o_msg_arr addObject: [o_msg_color autorelease]];
 
     b_msg_arr_changed = YES;

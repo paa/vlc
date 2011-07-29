@@ -104,7 +104,7 @@ struct intf_sys_t
     id o_bookmarks;             /* VLCBookmarks   */
     id o_embedded_list;         /* VLCEmbeddedList*/
     id o_coredialogs;           /* VLCCoreDialogProvider */
-    VLCInformation * o_info;    /* VLCInformation */
+    id o_info;                /* VLCInfo */
     id o_eyetv;                 /* VLCEyeTVController */
     BOOL nib_main_loaded;       /* main nibfile */
     BOOL nib_open_loaded;       /* open nibfile */
