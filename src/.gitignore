@@ -1,3 +1,4 @@
 test_*
 revision.c
 revision.txt
+libvlc_win32_rc.rc

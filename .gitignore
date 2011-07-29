@@ -41,6 +41,8 @@ nvlc
 wxvlc
 vlc
 vlc_install_dir/*
+vlc-*/*
+vlc.exe
 
 # Ignore CMake Stuff
 cmake
