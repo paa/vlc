@@ -639,8 +639,11 @@ static void Close (vlc_object_t *obj)
 
         pa_stream_unref(s);
     }
-    if (ctx != NULL)
+    if (ctx != NULL) {
+        pa_context_disconnect(ctx);
+        pa_context_set_state_callback (ctx, NULL, NULL);
         pa_context_unref(ctx);
+    }
     pa_threaded_mainloop_unlock(mainloop);
     pa_threaded_mainloop_free(mainloop);
     free(sys);
