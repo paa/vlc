@@ -626,15 +626,17 @@ static void Close (vlc_object_t *obj)
 
     pa_threaded_mainloop_lock(mainloop);
     if (s != NULL) {
-        pa_operation *op;
-
-        op = pa_stream_flush(s, NULL, NULL);
-        if (op != NULL)
-            pa_operation_unref(op);
-        op = pa_stream_drain(s, NULL, NULL);
-        if (op != NULL)
-            pa_operation_unref(op);
         pa_stream_disconnect(s);
+
+        /* Clear all callbacks */
+        pa_stream_set_state_callback(s, NULL, NULL);
+        pa_stream_set_latency_update_callback(s, NULL, aout);
+        pa_stream_set_moved_callback(s, NULL, aout);
+        pa_stream_set_overflow_callback(s, NULL, aout);
+        pa_stream_set_started_callback(s, NULL, aout);
+        pa_stream_set_suspended_callback(s, NULL, aout);
+        pa_stream_set_underflow_callback(s, NULL, aout);
+
         pa_stream_unref(s);
     }
     if (ctx != NULL)
