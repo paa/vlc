@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: vlc 1.1.0\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2011-05-20 00:09+0100\n"
-"PO-Revision-Date: 2011-05-21 20:42+0900\n"
+"PO-Revision-Date: 2011-07-19 18:42+0900\n"
 "Last-Translator: Fumio Nakayama <fumio.n6a@gmail.com>\n"
 "Language-Team: VideoLAN's Translators <translators@videolan.org>\n"
 "Language: ja\n"
@@ -16825,7 +16825,7 @@ msgstr "このモジュールはトランスコーディングされたストリ
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:352
 msgid "This module outputs the transcoded stream to a network via RTP."
-msgstr "このもじゅーつはトランスコーディングされたストリームをRTPを使ってネットワークに出力します。"
+msgstr "このモジュールはトランスコーディングされたストリームをRTPを使ってネットワークに出力します。"
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:357
 msgid "Base port"
@@ -24330,17 +24330,4 @@ msgstr "ループ"
 #: modules/gui/qt4/ui/vlm.h:303
 msgid "Media Manager List"
 msgstr "メディアマネージャーリスト"
-
-#~ msgid "Use media key control when VLC is in background"
-#~ msgstr ""
-#~ "VLCをバックグラウンドで実行中に、メディアキーによるコントロールを有効とし"
-#~ "ます"
-#~ msgid ""
-#~ "By default, VLC will accept media key events also when being in "
-#~ "background."
-#~ msgstr ""
-#~ "デフォルトでは、VLCをバクグラウンドで実行中にメディアキーによるコントロー"
-#~ "ルが可能です。"
-#~ msgid "...when VLC is in background"
-#~ msgstr "バックグラウンド実行時のメディアキーによる再生制御"
 
