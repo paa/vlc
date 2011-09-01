@@ -122,6 +122,8 @@ struct event_thread_t
     video_format_t       source;
     vout_display_place_t place;
 
+    HICON vlc_icon;
+
     bool has_moved;
 };
 
@@ -498,7 +500,6 @@ static int DirectXCreateWindow( event_thread_t *p_event )
     HMENU      hMenu;
     RECT       rect_window;
     WNDCLASS   wc;                            /* window class components */
-    HICON      vlc_icon;
     char       vlc_path[MAX_PATH+1];
     int        i_style, i_stylex;
 
@@ -537,11 +538,11 @@ static int DirectXCreateWindow( event_thread_t *p_event )
 #endif
 
     /* Get the Icon from the main app */
-    vlc_icon = NULL;
+    p_event->vlc_icon = NULL;
 #ifndef UNDER_CE
     if( GetModuleFileName( NULL, vlc_path, MAX_PATH ) )
     {
-        vlc_icon = ExtractIcon( hInstance, vlc_path, 0 );
+        p_event->vlc_icon = ExtractIcon( hInstance, vlc_path, 0 );
     }
 #endif
 
@@ -551,7 +552,7 @@ static int DirectXCreateWindow( event_thread_t *p_event )
     wc.cbClsExtra    = 0;                         /* no extra class data */
     wc.cbWndExtra    = 0;                        /* no extra window data */
     wc.hInstance     = hInstance;                            /* instance */
-    wc.hIcon         = vlc_icon;                /* load the vlc big icon */
+    wc.hIcon         = p_event->vlc_icon;       /* load the vlc big icon */
     wc.hCursor       = p_event->is_cursor_hidden ? p_event->cursor_empty :
                                                    p_event->cursor_arrow;
     wc.hbrBackground = GetStockObject(BLACK_BRUSH);  /* background color */
@@ -561,8 +562,8 @@ static int DirectXCreateWindow( event_thread_t *p_event )
     /* Register the window class */
     if( !RegisterClass(&wc) )
     {
-        if( vlc_icon )
-            DestroyIcon( vlc_icon );
+        if( p_event->vlc_icon )
+            DestroyIcon( p_event->vlc_icon );
 
         msg_Err( vd, "DirectXCreateWindow RegisterClass FAILED (err=%lu)", GetLastError() );
         return VLC_EGENERIC;
@@ -716,6 +717,9 @@ static void DirectXCloseWindow( event_thread_t *p_event )
     #endif
         vout_display_DeleteWindow( vd, p_event->parent_window );
     p_event->hwnd = NULL;
+
+    if( p_event->vlc_icon )
+        DestroyIcon( p_event->vlc_icon );
 
     HINSTANCE hInstance = GetModuleHandle(NULL);
     UnregisterClass( p_event->class_video, hInstance );
