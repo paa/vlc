@@ -631,22 +631,26 @@ static int OpenSPDIF( aout_instance_t * p_aout )
     }
 
     /* Set mixable to false if we are allowed to */
-    AudioObjectPropertyAddress audioDeviceSupportsMixingAddress = { kAudioDevicePropertySupportsMixing , kAudioDevicePropertyScopeOutput, kAudioObjectPropertyElementMaster };
-    err = AudioObjectIsPropertySettable( p_sys->i_selected_dev, &audioDeviceSupportsMixingAddress, &b_writeable );
-    err = AudioObjectGetPropertyDataSize( p_sys->i_selected_dev, &audioDeviceSupportsMixingAddress, 0, NULL, &i_param_size );
-    err = AudioObjectGetPropertyData( p_sys->i_selected_dev, &audioDeviceSupportsMixingAddress, 0, NULL, &i_param_size, &b_mix );
-
-    if( !err && b_writeable )
+    AudioObjectPropertyAddress audioDeviceSupportsMixingAddress = { kAudioDevicePropertySupportsMixing , kAudioObjectPropertyScopeGlobal, kAudioObjectPropertyElementMaster };
+    
+    if( AudioObjectHasProperty( p_sys->i_selected_dev, &audioDeviceSupportsMixingAddress ) )
     {
-        b_mix = 0;
-        err = AudioObjectSetPropertyData( p_sys->i_selected_dev, &audioDeviceSupportsMixingAddress, 0, NULL, i_param_size, &b_mix );
-        p_sys->b_changed_mixing = true;
-    }
-
-    if( err != noErr )
-    {
-        msg_Err( p_aout, "failed to set mixmode: [%4.4s]", (char *)&err );
-        return false;
+        err = AudioObjectIsPropertySettable( p_sys->i_selected_dev, &audioDeviceSupportsMixingAddress, &b_writeable );
+        err = AudioObjectGetPropertyDataSize( p_sys->i_selected_dev, &audioDeviceSupportsMixingAddress, 0, NULL, &i_param_size );
+        err = AudioObjectGetPropertyData( p_sys->i_selected_dev, &audioDeviceSupportsMixingAddress, 0, NULL, &i_param_size, &b_mix );
+        
+        if( err == noErr && b_writeable )
+        {
+            b_mix = 0;
+            err = AudioObjectSetPropertyData( p_sys->i_selected_dev, &audioDeviceSupportsMixingAddress, 0, NULL, i_param_size, &b_mix );
+            p_sys->b_changed_mixing = true;
+        }
+        
+        if( err != noErr )
+        {
+            msg_Err( p_aout, "failed to set mixmode: [%4.4s]", (char *)&err );
+            return false;
+        }
     }
 
     /* Get a list of all the streams on this device */
@@ -1171,7 +1175,7 @@ static int AudioStreamChangeFormat( aout_instance_t *p_aout, AudioStreamID i_str
     OSStatus            err = noErr;
     UInt32              i_param_size = 0;
 
-    AudioObjectPropertyAddress physicalFormatAddress = { kAudioStreamPropertyPhysicalFormat, kAudioDevicePropertyScopeOutput, kAudioObjectPropertyElementMaster };
+    AudioObjectPropertyAddress physicalFormatAddress = { kAudioStreamPropertyPhysicalFormat, kAudioObjectPropertyScopeGlobal, kAudioObjectPropertyElementMaster };
 
     struct { vlc_mutex_t lock; vlc_cond_t cond; } w;
 
