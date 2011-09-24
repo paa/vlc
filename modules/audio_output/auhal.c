@@ -728,9 +728,10 @@ static int OpenSPDIF( aout_instance_t * p_aout )
 
             if( !p_sys->b_revert )
             {
+                AudioObjectPropertyAddress currentPhysicalFormatAddress = { kAudioStreamPropertyPhysicalFormat, kAudioObjectPropertyScopeGlobal, kAudioObjectPropertyElementMaster };
                 /* Retrieve the original format of this stream first if not done so already */
                 i_param_size = sizeof( p_sys->sfmt_revert );
-                err = AudioObjectGetPropertyData( p_sys->i_stream_id, &physicalFormatsAddress, 0, NULL, &i_param_size, &p_sys->sfmt_revert );
+                err = AudioObjectGetPropertyData( p_sys->i_stream_id, &currentPhysicalFormatAddress, 0, NULL, &i_param_size, &p_sys->sfmt_revert );
                 if( err != noErr )
                 {
                     msg_Err( p_aout, "could not retrieve the original streamformat: [%4.4s]", (char *)&err );
@@ -1232,7 +1233,7 @@ static int AudioStreamChangeFormat( aout_instance_t *p_aout, AudioStreamID i_str
     }
 
     /* Removing the property listener */
-    err = AudioObjectRemovePropertyListener( i_stream_id, &physicalFormatAddress, StreamListener, NULL );
+    err = AudioObjectRemovePropertyListener( i_stream_id, &physicalFormatAddress, StreamListener, (void *)&w );
     if( err != noErr )
     {
         msg_Err( p_aout, "AudioStreamRemovePropertyListener failed: [%4.4s]", (char *)&err );
@@ -1438,6 +1439,7 @@ static OSStatus StreamListener( AudioObjectID inObjectID,  UInt32 inNumberAddres
             vlc_mutex_lock( &w->lock );
             vlc_cond_signal( &w->cond );
             vlc_mutex_unlock( &w->lock );
+            break;
         }
     }
     return( err );
