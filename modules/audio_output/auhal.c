@@ -709,7 +709,9 @@ static int OpenSPDIF( aout_instance_t * p_aout )
         for( int j = 0; j < i_formats; j++ )
         {
             if( p_format_list[j].mFormat.mFormatID == 'IAC3' ||
-                  p_format_list[j].mFormat.mFormatID == kAudioFormat60958AC3 )
+                p_format_list[j].mFormat.mFormatID == 'iac3' ||
+                p_format_list[j].mFormat.mFormatID == kAudioFormat60958AC3 ||
+                p_format_list[j].mFormat.mFormatID == kAudioFormatAC3 )
             {
                 b_digital = true;
                 break;
@@ -743,7 +745,9 @@ static int OpenSPDIF( aout_instance_t * p_aout )
             for( int j = 0; j < i_formats; j++ )
             {
                 if( p_format_list[j].mFormat.mFormatID == 'IAC3' ||
-                      p_format_list[j].mFormat.mFormatID == kAudioFormat60958AC3 )
+                    p_format_list[j].mFormat.mFormatID == 'iac3' ||
+                    p_format_list[j].mFormat.mFormatID == kAudioFormat60958AC3 ||
+                    p_format_list[j].mFormat.mFormatID == kAudioFormatAC3 )
                 {
                     if( p_format_list[j].mFormat.mSampleRate == p_aout->output.output.i_rate )
                     {
@@ -868,13 +872,13 @@ static void Close( vlc_object_t * p_this )
         if( p_sys->b_changed_mixing && p_sys->sfmt_revert.mFormatID != kAudioFormat60958AC3 )
         {
             int b_mix;
-            Boolean b_writeable;
+            Boolean b_writeable = false;
             /* Revert mixable to true if we are allowed to */
             AudioObjectPropertyAddress audioDeviceSupportsMixingAddress = { kAudioDevicePropertySupportsMixing , kAudioDevicePropertyScopeOutput, kAudioObjectPropertyElementMaster };
             err = AudioObjectIsPropertySettable( p_sys->i_selected_dev, &audioDeviceSupportsMixingAddress, &b_writeable );
             err = AudioObjectGetPropertyData( p_sys->i_selected_dev, &audioDeviceSupportsMixingAddress, 0, NULL, &i_param_size, &b_mix );
 
-            if( !err && b_writeable )
+            if( err == noErr && b_writeable )
             {
                 msg_Dbg( p_aout, "mixable is: %d", b_mix );
                 b_mix = 1;
@@ -1158,7 +1162,9 @@ static int AudioStreamSupportsDigital( aout_instance_t *p_aout, AudioStreamID i_
         msg_Dbg( p_aout, STREAM_FORMAT_MSG( "supported format: ", p_format_list[i].mFormat ) );
 
         if( p_format_list[i].mFormat.mFormatID == 'IAC3' ||
-                  p_format_list[i].mFormat.mFormatID == kAudioFormat60958AC3 )
+           p_format_list[i].mFormat.mFormatID == 'iac3' ||
+           p_format_list[i].mFormat.mFormatID == kAudioFormat60958AC3 ||
+           p_format_list[i].mFormat.mFormatID == kAudioFormatAC3 )
         {
             b_return = true;
         }
@@ -1453,7 +1459,7 @@ static int AudioDeviceCallback( vlc_object_t *p_this, const char *psz_variable,
 {
     aout_instance_t *p_aout = (aout_instance_t *)p_this;
     var_Set( p_aout->p_libvlc, "macosx-audio-device", new_val );
-    msg_Dbg( p_aout, "Set Device: %i", new_val.i_int );
+    msg_Dbg( p_aout, "Set Device: %#"PRIx64, new_val.i_int );
     return aout_ChannelsRestart( p_this, psz_variable, old_val, new_val, param );
 }
 
