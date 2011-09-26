@@ -2,7 +2,8 @@ Changes between 1.1.10 and 1.1.12-git:
 ----------------------------------
 
 Audio outputs:
- * Mac OS X: Auhal, multiple fixes for Digital Audio output
+ * Mac OS X / auhal: multiple fixes for the Digital Audio output (S/PDIF)
+                     including support for OS X Lion
  * PulseAudio: multiple fixes and improvements, notably for sync
 
 Unix port:
@@ -10,7 +11,7 @@ Unix port:
 
 Misc:
  * Fix crashes with Japanese locale on OS X
- * Minor fixes for Webplugin under Win32 and AudioScrobller
+ * Minor fixes for Webplugin under Win32 and AudioScrobbler
 
 
 Changes between 1.1.10 and 1.1.11:
