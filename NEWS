@@ -1,4 +1,4 @@
-Changes between 1.1.10 and 1.1.12-git:
+Changes between 1.1.11 and 1.1.12-git:
 ----------------------------------
 
 Audio outputs:
@@ -11,7 +11,10 @@ Unix port:
 
 Misc:
  * Fix crashes with Japanese locale on OS X
- * Minor fixes for Webplugin under Win32 and AudioScrobbler
+ * Minor fixes for Webplugin under Win32, AVI demuxer, smem and AudioScrobbler
+
+Translations:
+ * Update of Breton, Chinese Simplified and Basque
 
 
 Changes between 1.1.10 and 1.1.11:
