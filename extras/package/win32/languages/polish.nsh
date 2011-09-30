@@ -9,7 +9,7 @@ StrCpy $Name_SectionGroupAudio "Pliki audio"
 StrCpy $Name_SectionGroupVideo "Pliki wideo"
 StrCpy $Name_SectionGroupOther "Inne"
 StrCpy $Name_Section07 "Menu kontekstowe"
-StrCpy $Name_Section08 "Wyczyœciæ pamiêæ podrêczn¹ i ustawienia"
+StrCpy $Name_Section08 "Wyczyœciæ pamiêæ podrêczn¹ i usun¹æ ustawienia"
 
 StrCpy $Desc_Section01 \
     "Pliki samego odtwarzacza"
@@ -34,7 +34,7 @@ StrCpy $Message_AlreadyInstalled  \
 poprzedni¹ wersjê przed zainstalowaniem $(^Name) ?"
 
 StrCpy $Name_Section91 "Odinstaluj"
-StrCpy $Name_Section92 "Wyczyœciæ pamiêæ podrêczn¹ i ustawienia"
+StrCpy $Name_Section92 "Wyczyœciæ pamiêæ podrêczn¹ i usun¹æ ustawienia"
 
 StrCpy $Desc_Section91 \
 "Odinstaluj VLC media player i wszystkie jego sk³adniki"
