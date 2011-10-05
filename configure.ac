@@ -3936,7 +3936,7 @@ if test "${enable_skins2}" = "yes" ||
   if test "${SYS}" != "mingw32" -a "${SYS}" != "darwin"; then
     PKG_CHECK_MODULES([XPM], [xpm],, [skins2_missing_lib="yes"])
     PKG_CHECK_MODULES([XEXT], [xext],, [skins2_missing_lib="yes"])
-    if test "${enable_skins2}" = "yes"; then
+    if test "${skins2_missing_lib}" = "yes" -a "${enable_skins2}" = "yes"; then
       AC_MSG_ERROR([Could not find Xpm and/or Xext (required for skins2)])
     fi
   fi
