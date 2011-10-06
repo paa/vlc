@@ -13,6 +13,7 @@ Unix port:
 Misc:
  * Fix crashes with Japanese locale on OS X
  * Minor fixes for Webplugin under Win32, AVI demuxer, smem and AudioScrobbler
+ * Fix crash in HTTP and RTSP server (stream output or Web interface)
 
 Translations:
  * Update of Breton, Chinese Simplified and Basque
