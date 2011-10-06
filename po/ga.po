@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vlc 1.1.1\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2011-05-31 22:15+0100\n"
+"POT-Creation-Date: 2011-10-06 20:33+0300\n"
 "PO-Revision-Date: 2011-05-23 03:13-0000\n"
 "Last-Translator: Seanán Ó Coistín <seananoc@gmail.com>\n"
 "Language-Team: Irish\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n==2 ? 1 : 2;\n"
 
-#: include/vlc_common.h:923
+#: include/vlc_common.h:931
 msgid ""
 "This program comes with NO WARRANTY, to the extent permitted by law.\n"
 "You may redistribute it under the terms of the GNU General Public License;\n"
@@ -75,7 +75,7 @@ msgstr "Socruithe na heochara aicearra"
 
 #: include/vlc_config_cat.h:52 src/input/es_out.c:2870 src/input/es_out.c:2911
 #: src/libvlc-module.c:1579 modules/access/imem.c:69
-#: modules/gui/macosx/intf.m:671 modules/gui/macosx/output.m:170
+#: modules/gui/macosx/intf.m:673 modules/gui/macosx/output.m:170
 #: modules/gui/macosx/playlistinfo.m:114 modules/gui/macosx/simple_prefs.m:184
 #: modules/gui/macosx/wizard.m:378
 #: modules/gui/qt4/components/info_panels.cpp:507
@@ -104,7 +104,7 @@ msgid "Audio filters are used to process the audio stream."
 msgstr "Baintear feidhm as scagairí fuaime chun an sruth fuaime a chóireáil."
 
 #: include/vlc_config_cat.h:60 src/audio_output/input.c:108
-#: modules/gui/macosx/intf.m:681 modules/gui/macosx/intf.m:682
+#: modules/gui/macosx/intf.m:683 modules/gui/macosx/intf.m:684
 msgid "Visualizations"
 msgstr "Léirshamhluithe"
 
@@ -131,7 +131,7 @@ msgstr "Socruithe fuaime agus modúil ilghnéitheacha."
 
 #: include/vlc_config_cat.h:70 src/input/es_out.c:2873 src/input/es_out.c:2958
 #: src/libvlc-module.c:1632 modules/access/imem.c:69
-#: modules/gui/macosx/intf.m:684 modules/gui/macosx/output.m:160
+#: modules/gui/macosx/intf.m:686 modules/gui/macosx/output.m:160
 #: modules/gui/macosx/playlistinfo.m:103 modules/gui/macosx/simple_prefs.m:188
 #: modules/gui/macosx/wizard.m:379
 #: modules/gui/qt4/components/info_panels.cpp:508
@@ -336,7 +336,7 @@ msgstr "Cur i gníomh VLC Físeán Ar Éileamh"
 #: include/vlc_config_cat.h:175 src/libvlc-module.c:2117
 #: src/playlist/engine.c:131 modules/demux/playlist/playlist.c:69
 #: modules/demux/playlist/playlist.c:70 modules/gui/macosx/embeddedwindow.m:75
-#: modules/gui/macosx/intf.m:612 modules/gui/qt4/components/controller.hpp:106
+#: modules/gui/macosx/intf.m:614 modules/gui/qt4/components/controller.hpp:106
 #: modules/gui/qt4/components/playlist/playlist.cpp:126
 #: modules/gui/qt4/components/playlist/selector.cpp:259
 #: modules/gui/qt4/dialogs/playlist.cpp:41
@@ -511,11 +511,11 @@ msgstr "M&aidir le"
 
 #: include/vlc_intf_strings.h:65 modules/control/rc.c:72
 #: modules/gui/macosx/embeddedwindow.m:69
-#: modules/gui/macosx/embeddedwindow.m:200 modules/gui/macosx/intf.m:605
-#: modules/gui/macosx/intf.m:650 modules/gui/macosx/intf.m:742
-#: modules/gui/macosx/intf.m:749 modules/gui/macosx/intf.m:2033
-#: modules/gui/macosx/intf.m:2034 modules/gui/macosx/intf.m:2035
-#: modules/gui/macosx/intf.m:2036 modules/gui/macosx/playlist.m:466
+#: modules/gui/macosx/embeddedwindow.m:200 modules/gui/macosx/intf.m:607
+#: modules/gui/macosx/intf.m:652 modules/gui/macosx/intf.m:744
+#: modules/gui/macosx/intf.m:751 modules/gui/macosx/intf.m:2038
+#: modules/gui/macosx/intf.m:2039 modules/gui/macosx/intf.m:2040
+#: modules/gui/macosx/intf.m:2041 modules/gui/macosx/playlist.m:466
 #: modules/gui/qt4/components/controller.hpp:104 modules/gui/qt4/menus.cpp:787
 #: modules/gui/qt4/ui/open.h:256
 msgid "Play"
@@ -561,15 +561,15 @@ msgstr "Sruth..."
 msgid "Save..."
 msgstr "Taisc..."
 
-#: include/vlc_intf_strings.h:80 modules/gui/macosx/controls.m:258
-#: modules/gui/macosx/controls.m:328 modules/gui/macosx/controls.m:1013
-#: modules/gui/macosx/intf.m:659
+#: include/vlc_intf_strings.h:80 modules/gui/macosx/controls.m:249
+#: modules/gui/macosx/controls.m:319 modules/gui/macosx/controls.m:1026
+#: modules/gui/macosx/intf.m:661
 msgid "Repeat All"
 msgstr "Athsheinn Uile"
 
-#: include/vlc_intf_strings.h:81 modules/gui/macosx/controls.m:242
-#: modules/gui/macosx/controls.m:300 modules/gui/macosx/controls.m:1006
-#: modules/gui/macosx/intf.m:658
+#: include/vlc_intf_strings.h:81 modules/gui/macosx/controls.m:233
+#: modules/gui/macosx/controls.m:291 modules/gui/macosx/controls.m:1019
+#: modules/gui/macosx/intf.m:660
 msgid "Repeat One"
 msgstr "Athsheinn Ceann Amháin"
 
@@ -578,13 +578,13 @@ msgid "No Repeat"
 msgstr "Gan Athsheinm"
 
 #: include/vlc_intf_strings.h:84 src/libvlc-module.c:1471
-#: modules/gui/macosx/controls.m:999 modules/gui/macosx/intf.m:657
+#: modules/gui/macosx/controls.m:1012 modules/gui/macosx/intf.m:659
 #: modules/gui/qt4/components/controller.hpp:108
 #: modules/gui/qt4/components/controller.hpp:119
 msgid "Random"
 msgstr "Fánach"
 
-#: include/vlc_intf_strings.h:85 modules/gui/macosx/controls.m:180
+#: include/vlc_intf_strings.h:85 modules/gui/macosx/controls.m:174
 msgid "Random Off"
 msgstr "Múch Seinm Fhánach"
 
@@ -778,13 +778,13 @@ msgid "Replay gain"
 msgstr "Athsheinn arís"
 
 #: src/audio_output/output.c:101 src/audio_output/output.c:128
-#: modules/access/vcdx/info.c:86 modules/gui/macosx/intf.m:677
-#: modules/gui/macosx/intf.m:678
+#: modules/access/vcdx/info.c:86 modules/gui/macosx/intf.m:679
+#: modules/gui/macosx/intf.m:680
 msgid "Audio Channels"
 msgstr "Bealaí Fuaime"
 
 #: src/audio_output/output.c:104 src/audio_output/output.c:139
-#: modules/access/alsa.c:67 modules/access/oss.c:64 modules/access/v4l2.c:258
+#: modules/access/alsa.c:67 modules/access/oss.c:64 modules/access/v4l2.c:259
 #: modules/audio_output/alsa.c:198 modules/audio_output/alsa.c:229
 #: modules/audio_output/directx.c:448 modules/audio_output/oss.c:202
 #: modules/audio_output/portaudio.c:403 modules/audio_output/sdl.c:179
@@ -868,8 +868,8 @@ msgstr "díchódóir"
 
 #: src/input/decoder.c:278 src/input/decoder.c:430
 #: modules/codec/avcodec/encoder.c:224 modules/codec/avcodec/encoder.c:232
-#: modules/codec/avcodec/encoder.c:254 modules/codec/avcodec/encoder.c:700
-#: modules/codec/avcodec/encoder.c:709 modules/stream_out/es.c:363
+#: modules/codec/avcodec/encoder.c:254 modules/codec/avcodec/encoder.c:711
+#: modules/codec/avcodec/encoder.c:720 modules/stream_out/es.c:363
 #: modules/stream_out/es.c:378
 msgid "Streaming / Transcoding failed"
 msgstr "Theip ar an Sruthú / Traschódú"
@@ -898,7 +898,7 @@ msgstr ""
 
 #: src/input/es_out.c:954 src/input/es_out.c:959 src/libvlc-module.c:368
 #: modules/access/vcdx/access.c:460 modules/access/vcdx/info.c:226
-#: modules/gui/qt4/components/open_panels.cpp:415
+#: modules/gui/qt4/components/open_panels.cpp:416
 msgid "Track"
 msgstr "Rian"
 
@@ -908,8 +908,8 @@ msgid "%s [%s %d]"
 msgstr "%s [%s %d]"
 
 #: src/input/es_out.c:1165 src/input/es_out.c:1170 src/input/var.c:177
-#: src/libvlc-module.c:698 modules/gui/macosx/intf.m:664
-#: modules/gui/macosx/intf.m:665
+#: src/libvlc-module.c:698 modules/gui/macosx/intf.m:666
+#: modules/gui/macosx/intf.m:667
 msgid "Program"
 msgstr "Ríomhchlár"
 
@@ -981,7 +981,7 @@ msgstr ""
 
 #: src/input/es_out.c:2937 modules/access/pvr.c:96
 #: modules/access_output/shout.c:91 modules/demux/playlist/shoutcast.c:412
-#: modules/gui/qt4/components/open_panels.cpp:940
+#: modules/gui/qt4/components/open_panels.cpp:945
 #: modules/gui/qt4/ui/profiles.h:478 modules/gui/qt4/ui/profiles.h:497
 msgid "Bitrate"
 msgstr "Beartluas"
@@ -1038,10 +1038,10 @@ msgid ""
 "The format of '%s' cannot be detected. Have a look at the log for details."
 msgstr ""
 
-#: src/input/meta.c:51 src/input/var.c:187 modules/gui/macosx/intf.m:666
-#: modules/gui/macosx/intf.m:667 modules/gui/macosx/open.m:191
+#: src/input/meta.c:51 src/input/var.c:187 modules/gui/macosx/intf.m:668
+#: modules/gui/macosx/intf.m:669 modules/gui/macosx/open.m:191
 #: modules/gui/macosx/playlistinfo.m:76 modules/gui/macosx/wizard.m:346
-#: modules/gui/qt4/components/open_panels.cpp:389 modules/mux/asf.c:56
+#: modules/gui/qt4/components/open_panels.cpp:390 modules/mux/asf.c:56
 #: modules/gui/qt4/ui/open_disk.h:302
 msgid "Title"
 msgstr "Teideal"
@@ -1112,8 +1112,8 @@ msgstr "Astal"
 msgid "Programs"
 msgstr "Ríomhchláir"
 
-#: src/input/var.c:192 modules/gui/macosx/intf.m:668
-#: modules/gui/macosx/intf.m:669 modules/gui/macosx/open.m:192
+#: src/input/var.c:192 modules/gui/macosx/intf.m:670
+#: modules/gui/macosx/intf.m:671 modules/gui/macosx/open.m:192
 #: modules/gui/qt4/ui/open_disk.h:303
 msgid "Chapter"
 msgstr "Caibidil"
@@ -1122,19 +1122,19 @@ msgstr "Caibidil"
 msgid "Navigation"
 msgstr "Nascleanúint"
 
-#: src/input/var.c:210 modules/gui/macosx/intf.m:692
-#: modules/gui/macosx/intf.m:693
+#: src/input/var.c:210 modules/gui/macosx/intf.m:694
+#: modules/gui/macosx/intf.m:695
 msgid "Video Track"
 msgstr "Físrian"
 
-#: src/input/var.c:215 modules/gui/macosx/intf.m:675
-#: modules/gui/macosx/intf.m:676
+#: src/input/var.c:215 modules/gui/macosx/intf.m:677
+#: modules/gui/macosx/intf.m:678
 msgid "Audio Track"
 msgstr "Fuaimrian"
 
-#: src/input/var.c:220 modules/gui/macosx/controls.m:783
-#: modules/gui/macosx/controls.m:841 modules/gui/macosx/intf.m:700
-#: modules/gui/macosx/intf.m:701
+#: src/input/var.c:220 modules/gui/macosx/controls.m:796
+#: modules/gui/macosx/controls.m:854 modules/gui/macosx/intf.m:702
+#: modules/gui/macosx/intf.m:703
 msgid "Subtitles Track"
 msgstr "Rian na bhFotheideal"
 
@@ -1169,28 +1169,28 @@ msgstr "Caibidil roimhe"
 msgid "Media: %s"
 msgstr "Meán: %s"
 
-#: src/interface/interface.c:88 modules/gui/macosx/intf.m:624
-#: modules/gui/macosx/intf.m:625
+#: src/interface/interface.c:88 modules/gui/macosx/intf.m:626
+#: modules/gui/macosx/intf.m:627
 msgid "Add Interface"
 msgstr "Cuir Comhéadan Leis"
 
-#: src/interface/interface.c:92
+#: src/interface/interface.c:95
 msgid "Console"
 msgstr "Eallóg"
 
-#: src/interface/interface.c:95
+#: src/interface/interface.c:99
 msgid "Telnet Interface"
 msgstr "Comhéadan Telnet"
 
-#: src/interface/interface.c:98
+#: src/interface/interface.c:102
 msgid "Web Interface"
 msgstr "Comhéadan Gréasáin"
 
-#: src/interface/interface.c:101
+#: src/interface/interface.c:105
 msgid "Debug logging"
 msgstr ""
 
-#: src/interface/interface.c:104
+#: src/interface/interface.c:108
 msgid "Mouse Gestures"
 msgstr "Gothaí na Luchóige"
 
@@ -1327,7 +1327,7 @@ msgid "2:1 Double"
 msgstr "2:1 Faoi Dhó"
 
 #: src/libvlc-module.c:107 src/libvlc-module.c:327 modules/access/bda/bda.c:69
-#: modules/gui/qt4/components/open_panels.cpp:1016
+#: modules/gui/qt4/components/open_panels.cpp:1021
 msgid "Auto"
 msgstr "Uathoibríoch"
 
@@ -1930,14 +1930,14 @@ msgid ""
 msgstr ""
 
 #: src/libvlc-module.c:481 src/libvlc-module.c:483
-#: src/video_output/video_output.c:1974 modules/gui/macosx/intf.m:703
-#: modules/gui/macosx/intf.m:704 modules/gui/qt4/dialogs/convert.cpp:86
+#: src/video_output/video_output.c:1974 modules/gui/macosx/intf.m:705
+#: modules/gui/macosx/intf.m:706 modules/gui/qt4/dialogs/convert.cpp:86
 #: modules/video_filter/deinterlace.c:133
 msgid "Deinterlace"
 msgstr "Díchrosfhigh"
 
 #: src/libvlc-module.c:491 src/video_output/video_output.c:1990
-#: modules/gui/macosx/intf.m:705 modules/gui/macosx/intf.m:706
+#: modules/gui/macosx/intf.m:707 modules/gui/macosx/intf.m:708
 #: modules/video_filter/deinterlace.c:118
 msgid "Deinterlace mode"
 msgstr "Mód díchrosfhite"
@@ -2251,7 +2251,7 @@ msgstr ""
 #: modules/access/dshow/dshow.cpp:86 modules/access/dshow/dshow.cpp:89
 #: modules/access/dshow/dshow.cpp:95 modules/access/v4l2.c:238
 #: modules/audio_output/alsa.c:107 modules/gui/fbosd.c:171
-#: modules/gui/macosx/prefs_widgets.m:1308
+#: modules/gui/macosx/prefs_widgets.m:1311
 #: modules/gui/macosx/simple_prefs.m:415 modules/gui/macosx/simple_prefs.m:541
 #: modules/gui/macosx/simple_prefs.m:788 modules/gui/macosx/vout.m:213
 #: modules/gui/qt4/components/preferences_widgets.cpp:619
@@ -2284,11 +2284,11 @@ msgid ""
 "over the network (in bytes)."
 msgstr ""
 
-#: src/libvlc-module.c:678 modules/stream_out/rtp.c:122
+#: src/libvlc-module.c:678 modules/stream_out/rtp.c:124
 msgid "Hop limit (TTL)"
 msgstr ""
 
-#: src/libvlc-module.c:680 modules/stream_out/rtp.c:124
+#: src/libvlc-module.c:680 modules/stream_out/rtp.c:126
 msgid ""
 "This is the hop limit (also known as \"Time-To-Live\" or TTL) of the "
 "multicast packets sent by the stream output (-1 = use operating system built-"
@@ -3367,10 +3367,10 @@ msgid "These settings are the global VLC key bindings, known as \"hotkeys\"."
 msgstr ""
 
 #: src/libvlc-module.c:1286 src/video_output/vout_intf.c:357
-#: modules/gui/macosx/controls.m:415 modules/gui/macosx/controls.m:471
-#: modules/gui/macosx/controls.m:1048 modules/gui/macosx/controls.m:1081
-#: modules/gui/macosx/embeddedwindow.m:68 modules/gui/macosx/intf.m:609
-#: modules/gui/macosx/intf.m:689 modules/gui/macosx/intf.m:756
+#: modules/gui/macosx/controls.m:406 modules/gui/macosx/controls.m:462
+#: modules/gui/macosx/controls.m:1061 modules/gui/macosx/controls.m:1094
+#: modules/gui/macosx/embeddedwindow.m:68 modules/gui/macosx/intf.m:611
+#: modules/gui/macosx/intf.m:691 modules/gui/macosx/intf.m:758
 #: modules/gui/macosx/simple_prefs.m:294
 #: modules/gui/qt4/components/controller.hpp:105
 #: modules/gui/qt4/ui/sprefs_video.h:311
@@ -3413,8 +3413,8 @@ msgstr "Seinn amháin"
 msgid "Select the hotkey to use to play."
 msgstr "Roghnaigh an cnaipe aicearra chun nithe a sheinnt."
 
-#: src/libvlc-module.c:1296 modules/gui/macosx/controls.m:971
-#: modules/gui/macosx/intf.m:652 modules/gui/qt4/components/controller.hpp:105
+#: src/libvlc-module.c:1296 modules/gui/macosx/controls.m:984
+#: modules/gui/macosx/intf.m:654 modules/gui/qt4/components/controller.hpp:105
 #: modules/gui/qt4/components/controller.hpp:113
 msgid "Faster"
 msgstr "Níos tapúla"
@@ -3423,8 +3423,8 @@ msgstr "Níos tapúla"
 msgid "Select the hotkey to use for fast forward playback."
 msgstr ""
 
-#: src/libvlc-module.c:1298 modules/gui/macosx/controls.m:972
-#: modules/gui/macosx/intf.m:653 modules/gui/qt4/components/controller.hpp:105
+#: src/libvlc-module.c:1298 modules/gui/macosx/controls.m:985
+#: modules/gui/macosx/intf.m:655 modules/gui/qt4/components/controller.hpp:105
 #: modules/gui/qt4/components/controller.hpp:113
 msgid "Slower"
 msgstr "Níos moille"
@@ -3433,8 +3433,8 @@ msgstr "Níos moille"
 msgid "Select the hotkey to use for slow motion playback."
 msgstr ""
 
-#: src/libvlc-module.c:1300 modules/gui/macosx/controls.m:973
-#: modules/gui/macosx/intf.m:654
+#: src/libvlc-module.c:1300 modules/gui/macosx/controls.m:986
+#: modules/gui/macosx/intf.m:656
 msgid "Normal rate"
 msgstr "Gnáth luas"
 
@@ -3451,10 +3451,10 @@ msgid "Slower (fine)"
 msgstr "Níos moille (mín)"
 
 #: src/libvlc-module.c:1306 modules/control/hotkeys.c:696
-#: modules/gui/macosx/about.m:207 modules/gui/macosx/controls.m:993
-#: modules/gui/macosx/embeddedwindow.m:73 modules/gui/macosx/intf.m:608
-#: modules/gui/macosx/intf.m:656 modules/gui/macosx/intf.m:744
-#: modules/gui/macosx/intf.m:752 modules/gui/macosx/wizard.m:307
+#: modules/gui/macosx/about.m:206 modules/gui/macosx/controls.m:1006
+#: modules/gui/macosx/embeddedwindow.m:73 modules/gui/macosx/intf.m:610
+#: modules/gui/macosx/intf.m:658 modules/gui/macosx/intf.m:746
+#: modules/gui/macosx/intf.m:754 modules/gui/macosx/wizard.m:307
 #: modules/gui/macosx/wizard.m:319 modules/gui/macosx/wizard.m:1597
 #: modules/gui/qt4/components/controller.hpp:105
 #: modules/misc/notify/notify.c:339 modules/gui/qt4/ui/sout.h:327
@@ -3467,10 +3467,10 @@ msgid "Select the hotkey to use to skip to the next item in the playlist."
 msgstr ""
 
 #: src/libvlc-module.c:1308 modules/control/hotkeys.c:702
-#: modules/gui/macosx/about.m:208 modules/gui/macosx/controls.m:992
-#: modules/gui/macosx/embeddedwindow.m:71 modules/gui/macosx/intf.m:603
-#: modules/gui/macosx/intf.m:655 modules/gui/macosx/intf.m:745
-#: modules/gui/macosx/intf.m:751 modules/gui/qt4/components/controller.hpp:105
+#: modules/gui/macosx/about.m:207 modules/gui/macosx/controls.m:1005
+#: modules/gui/macosx/embeddedwindow.m:71 modules/gui/macosx/intf.m:605
+#: modules/gui/macosx/intf.m:657 modules/gui/macosx/intf.m:747
+#: modules/gui/macosx/intf.m:753 modules/gui/qt4/components/controller.hpp:105
 #: modules/misc/notify/notify.c:337 modules/gui/qt4/ui/sout.h:337
 #: modules/gui/qt4/ui/sout.h:346
 msgid "Previous"
@@ -3480,10 +3480,10 @@ msgstr "Roimhe"
 msgid "Select the hotkey to use to skip to the previous item in the playlist."
 msgstr ""
 
-#: src/libvlc-module.c:1310 modules/gui/macosx/controls.m:984
-#: modules/gui/macosx/embeddedwindow.m:72 modules/gui/macosx/intf.m:606
-#: modules/gui/macosx/intf.m:651 modules/gui/macosx/intf.m:743
-#: modules/gui/macosx/intf.m:750 modules/gui/qt4/components/controller.hpp:104
+#: src/libvlc-module.c:1310 modules/gui/macosx/controls.m:997
+#: modules/gui/macosx/embeddedwindow.m:72 modules/gui/macosx/intf.m:608
+#: modules/gui/macosx/intf.m:653 modules/gui/macosx/intf.m:745
+#: modules/gui/macosx/intf.m:752 modules/gui/qt4/components/controller.hpp:104
 #: modules/misc/notify/xosd.c:231 modules/gui/qt4/ui/streampanel.h:181
 msgid "Stop"
 msgstr "Stad"
@@ -3494,7 +3494,7 @@ msgstr "Roghnaigh an cnaipe aicearra chun an athsheinm a stad."
 
 #: src/libvlc-module.c:1312 modules/gui/fbosd.c:127 modules/gui/fbosd.c:195
 #: modules/gui/macosx/bookmarks.m:96 modules/gui/macosx/bookmarks.m:105
-#: modules/gui/macosx/embeddedwindow.m:70 modules/gui/macosx/intf.m:611
+#: modules/gui/macosx/embeddedwindow.m:70 modules/gui/macosx/intf.m:613
 #: modules/video_filter/marq.c:158 modules/video_filter/rss.c:201
 #: modules/gui/qt4/ui/video_effects.h:1167
 msgid "Position"
@@ -3716,8 +3716,8 @@ msgid "Select the key to decrease audio volume."
 msgstr ""
 
 #: src/libvlc-module.c:1379 modules/access/v4l2.c:175
-#: modules/gui/macosx/controls.m:1038 modules/gui/macosx/intf.m:674
-#: modules/gui/macosx/intf.m:746 modules/gui/macosx/intf.m:755
+#: modules/gui/macosx/controls.m:1051 modules/gui/macosx/intf.m:676
+#: modules/gui/macosx/intf.m:748 modules/gui/macosx/intf.m:757
 #: modules/gui/qt4/menus.cpp:572
 msgid "Mute"
 msgstr "Balbhaigh"
@@ -4150,8 +4150,8 @@ msgid "Cycle through available audio devices"
 msgstr ""
 
 #: src/libvlc-module.c:1698 src/video_output/vout_intf.c:363
-#: modules/gui/macosx/controls.m:455 modules/gui/macosx/controls.m:1047
-#: modules/gui/macosx/intf.m:691 modules/gui/macosx/intf.m:757
+#: modules/gui/macosx/controls.m:446 modules/gui/macosx/controls.m:1060
+#: modules/gui/macosx/intf.m:693 modules/gui/macosx/intf.m:759
 #: modules/gui/qt4/components/controller.hpp:106
 #: modules/video_output/snapshot.c:73
 msgid "Snapshot"
@@ -4336,7 +4336,7 @@ msgid "Downloading ..."
 msgstr "Ag íosluchtú ..."
 
 #: src/misc/update.c:606 src/misc/update.c:736 modules/access/dvb/scan.c:327
-#: modules/demux/avi/avi.c:656 modules/demux/avi/avi.c:2358
+#: modules/demux/avi/avi.c:656 modules/demux/avi/avi.c:2361
 #: modules/gui/macosx/bookmarks.m:102 modules/gui/macosx/controls.m:60
 #: modules/gui/macosx/coredialogs.m:66 modules/gui/macosx/coredialogs.m:68
 #: modules/gui/macosx/coredialogs.m:186 modules/gui/macosx/open.m:177
@@ -4344,7 +4344,7 @@ msgstr "Ag íosluchtú ..."
 #: modules/gui/macosx/prefs.m:225 modules/gui/macosx/simple_prefs.m:244
 #: modules/gui/macosx/simple_prefs.m:308 modules/gui/macosx/simple_prefs.m:715
 #: modules/gui/macosx/wizard.m:318
-#: modules/gui/qt4/components/open_panels.cpp:1304
+#: modules/gui/qt4/components/open_panels.cpp:1309
 #: modules/gui/qt4/components/preferences_widgets.cpp:1427
 #: modules/gui/qt4/components/sout/profile_selector.cpp:253
 msgid "Cancel"
@@ -4432,7 +4432,7 @@ msgstr "Suiteáil"
 #: modules/access/bda/bda.c:121 modules/access/bda/bda.c:138
 #: modules/access/bda/bda.c:145 modules/access/bda/bda.c:151
 #: modules/access/bda/bda.c:157 modules/access/bda/bda.c:163
-#: modules/access/bda/bda.c:169
+#: modules/access/bda/bda.c:169 modules/access/v4l2.c:257
 msgid "Undefined"
 msgstr "Neamhshainithe"
 
@@ -5096,19 +5096,19 @@ msgstr "Siuáingis"
 msgid "Zulu"
 msgstr "Súlúis"
 
-#: src/video_output/video_output.c:1686 modules/gui/macosx/intf.m:707
-#: modules/gui/macosx/intf.m:708 modules/video_filter/postproc.c:196
+#: src/video_output/video_output.c:1686 modules/gui/macosx/intf.m:709
+#: modules/gui/macosx/intf.m:710 modules/video_filter/postproc.c:196
 msgid "Post processing"
 msgstr "Iar-chóireáil"
 
-#: src/video_output/vout_intf.c:228 modules/gui/macosx/intf.m:696
-#: modules/gui/macosx/intf.m:697 modules/video_filter/crop.c:107
+#: src/video_output/vout_intf.c:228 modules/gui/macosx/intf.m:698
+#: modules/gui/macosx/intf.m:699 modules/video_filter/crop.c:107
 #: modules/video_filter/croppadd.c:86 modules/gui/qt4/ui/video_effects.h:1122
 msgid "Crop"
 msgstr "Bearr"
 
-#: src/video_output/vout_intf.c:295 modules/gui/macosx/controls.m:771
-#: modules/gui/macosx/intf.m:694 modules/gui/macosx/intf.m:695
+#: src/video_output/vout_intf.c:295 modules/gui/macosx/controls.m:784
+#: modules/gui/macosx/intf.m:696 modules/gui/macosx/intf.m:697
 msgid "Aspect-ratio"
 msgstr "Cóimheas treoíochta"
 
@@ -5210,7 +5210,7 @@ msgid ""
 msgstr ""
 
 #: modules/access/bda/bda.c:51 modules/access/dvb/access.c:88
-#: modules/gui/qt4/components/open_panels.cpp:967
+#: modules/gui/qt4/components/open_panels.cpp:972
 msgid "Adapter card to tune"
 msgstr ""
 
@@ -5225,8 +5225,8 @@ msgid "Device number to use on adapter"
 msgstr "Uimhir an ghléis le feidhm a bhaint as ar an gcuibheoir"
 
 #: modules/access/bda/bda.c:58 modules/access/dvb/access.c:94
-#: modules/gui/qt4/components/open_panels.cpp:723
-#: modules/gui/qt4/components/open_panels.cpp:989
+#: modules/gui/qt4/components/open_panels.cpp:728
+#: modules/gui/qt4/components/open_panels.cpp:994
 msgid "Transponder/multiplex frequency"
 msgstr ""
 
@@ -5439,17 +5439,17 @@ msgid "Terrestrial bandwidth [0=auto,6,7,8 in MHz]"
 msgstr ""
 
 #: modules/access/bda/bda.c:151
-#: modules/gui/qt4/components/open_panels.cpp:1017
+#: modules/gui/qt4/components/open_panels.cpp:1022
 msgid "6 MHz"
 msgstr "6 MHz"
 
 #: modules/access/bda/bda.c:151
-#: modules/gui/qt4/components/open_panels.cpp:1018
+#: modules/gui/qt4/components/open_panels.cpp:1023
 msgid "7 MHz"
 msgstr "7 MHz"
 
 #: modules/access/bda/bda.c:151
-#: modules/gui/qt4/components/open_panels.cpp:1019
+#: modules/gui/qt4/components/open_panels.cpp:1024
 msgid "8 MHz"
 msgstr "8 MHz"
 
@@ -5669,8 +5669,8 @@ msgid ""
 msgstr ""
 
 #: modules/access/dshow/dshow.cpp:105 modules/access/v4l.c:81
-#: modules/gui/qt4/components/open_panels.cpp:776
-#: modules/gui/qt4/components/open_panels.cpp:811
+#: modules/gui/qt4/components/open_panels.cpp:781
+#: modules/gui/qt4/components/open_panels.cpp:816
 msgid "Video device name"
 msgstr "Ainm an fhísghléis"
 
@@ -5681,8 +5681,8 @@ msgid ""
 msgstr ""
 
 #: modules/access/dshow/dshow.cpp:110
-#: modules/gui/qt4/components/open_panels.cpp:782
-#: modules/gui/qt4/components/open_panels.cpp:817
+#: modules/gui/qt4/components/open_panels.cpp:787
+#: modules/gui/qt4/components/open_panels.cpp:822
 msgid "Audio device name"
 msgstr "Ainm an ghléis fhuaime"
 
@@ -5693,7 +5693,7 @@ msgid ""
 msgstr ""
 
 #: modules/access/dshow/dshow.cpp:115
-#: modules/gui/qt4/components/open_panels.cpp:686
+#: modules/gui/qt4/components/open_panels.cpp:691
 msgid "Video size"
 msgstr "Méid an fhíseáin"
 
@@ -6165,7 +6165,7 @@ msgstr "Níorbh fhéidir le VLC an comhad a léamh."
 
 #: modules/access/fs.c:33 modules/access/rtsp/access.c:46
 #: modules/access_output/udp.c:64 modules/demux/live555.cpp:75
-#: modules/stream_out/rtp.c:133
+#: modules/stream_out/rtp.c:135
 msgid "Caching value (ms)"
 msgstr ""
 
@@ -6673,8 +6673,8 @@ msgid "PVR radio device"
 msgstr ""
 
 #: modules/access/pvr.c:70 modules/access/v4l.c:96
-#: modules/gui/qt4/components/open_panels.cpp:824
-#: modules/gui/qt4/components/open_panels.cpp:924
+#: modules/gui/qt4/components/open_panels.cpp:829
+#: modules/gui/qt4/components/open_panels.cpp:929
 msgid "Norm"
 msgstr ""
 
@@ -6691,8 +6691,8 @@ msgid "Height of the stream to capture (-1 for autodetection)."
 msgstr ""
 
 #: modules/access/pvr.c:82 modules/access/v4l.c:89 modules/access/v4l2.c:203
-#: modules/gui/qt4/components/open_panels.cpp:831
-#: modules/gui/qt4/components/open_panels.cpp:931
+#: modules/gui/qt4/components/open_panels.cpp:836
+#: modules/gui/qt4/components/open_panels.cpp:936
 msgid "Frequency"
 msgstr "Minicíocht"
 
@@ -6752,7 +6752,7 @@ msgstr ""
 
 #: modules/access/pvr.c:109 modules/access/v4l2.c:169
 #: modules/access/vcdx/info.c:69 modules/gui/macosx/embeddedwindow.m:74
-#: modules/gui/macosx/intf.m:610 modules/gui/qt4/dialogs/toolbar.cpp:347
+#: modules/gui/macosx/intf.m:612 modules/gui/qt4/dialogs/toolbar.cpp:347
 #: modules/stream_out/raop.c:150 modules/gui/qt4/ui/sprefs_audio.h:405
 msgid "Volume"
 msgstr "Airde"
@@ -6851,83 +6851,83 @@ msgstr "Ionchr RTMP"
 msgid "RTMP"
 msgstr "RTMP"
 
-#: modules/access/rtp/rtp.c:44
+#: modules/access/rtp/rtp.c:46
 msgid "RTP de-jitter buffer length (msec)"
 msgstr ""
 
-#: modules/access/rtp/rtp.c:46
+#: modules/access/rtp/rtp.c:48
 msgid "How long to wait for late RTP packets (and delay the performance)."
 msgstr ""
 
-#: modules/access/rtp/rtp.c:48
+#: modules/access/rtp/rtp.c:50
 msgid "RTCP (local) port"
 msgstr "Port RTCP (logánta)"
 
-#: modules/access/rtp/rtp.c:50
+#: modules/access/rtp/rtp.c:52
 msgid ""
 "RTCP packets will be received on this transport protocol port. If zero, "
 "multiplexed RTP/RTCP is used."
 msgstr ""
 
-#: modules/access/rtp/rtp.c:53 modules/stream_out/rtp.c:142
+#: modules/access/rtp/rtp.c:55 modules/stream_out/rtp.c:144
 msgid "SRTP key (hexadecimal)"
 msgstr ""
 
-#: modules/access/rtp/rtp.c:55
+#: modules/access/rtp/rtp.c:57
 msgid ""
 "RTP packets will be authenticated and deciphered with this Secure RTP master "
 "shared secret key."
 msgstr ""
 
-#: modules/access/rtp/rtp.c:58 modules/stream_out/rtp.c:147
+#: modules/access/rtp/rtp.c:60 modules/stream_out/rtp.c:149
 msgid "SRTP salt (hexadecimal)"
 msgstr ""
 
-#: modules/access/rtp/rtp.c:60 modules/stream_out/rtp.c:149
+#: modules/access/rtp/rtp.c:62 modules/stream_out/rtp.c:151
 msgid "Secure RTP requires a (non-secret) master salt value."
 msgstr ""
 
-#: modules/access/rtp/rtp.c:62
+#: modules/access/rtp/rtp.c:64
 msgid "Maximum RTP sources"
 msgstr ""
 
-#: modules/access/rtp/rtp.c:64
+#: modules/access/rtp/rtp.c:66
 msgid "How many distinct active RTP sources are allowed at a time."
 msgstr ""
 
-#: modules/access/rtp/rtp.c:66
+#: modules/access/rtp/rtp.c:68
 msgid "RTP source timeout (sec)"
 msgstr ""
 
-#: modules/access/rtp/rtp.c:68
+#: modules/access/rtp/rtp.c:70
 msgid "How long to wait for any packet before a source is expired."
 msgstr ""
 
-#: modules/access/rtp/rtp.c:70
+#: modules/access/rtp/rtp.c:72
 msgid "Maximum RTP sequence number dropout"
 msgstr ""
 
-#: modules/access/rtp/rtp.c:72
+#: modules/access/rtp/rtp.c:74
 msgid ""
 "RTP packets will be discarded if they are too much ahead (i.e. in the "
 "future) by this many packets from the last received packet."
 msgstr ""
 
-#: modules/access/rtp/rtp.c:75
+#: modules/access/rtp/rtp.c:77
 msgid "Maximum RTP sequence number misordering"
 msgstr ""
 
-#: modules/access/rtp/rtp.c:77
+#: modules/access/rtp/rtp.c:79
 msgid ""
 "RTP packets will be discarded if they are too far behind (i.e. in the past) "
 "by this many packets from the last received packet."
 msgstr ""
 
-#: modules/access/rtp/rtp.c:87 modules/stream_out/rtp.c:170
+#: modules/access/rtp/rtp.c:89 modules/stream_out/rtp.c:172
 msgid "RTP"
 msgstr "RTP"
 
-#: modules/access/rtp/rtp.c:88
+#: modules/access/rtp/rtp.c:90
 msgid "Real-Time Protocol (RTP) input"
 msgstr ""
 
@@ -6963,7 +6963,7 @@ msgid ""
 msgstr ""
 
 #: modules/access/screen/screen.c:46
-#: modules/gui/qt4/components/open_panels.cpp:1055
+#: modules/gui/qt4/components/open_panels.cpp:1060
 msgid "Desired frame rate for the capture."
 msgstr ""
 
@@ -7242,7 +7242,7 @@ msgstr "Codarsnacht"
 msgid "Contrast of the video input."
 msgstr "Codarsnacht an ionchuir fhíseáin."
 
-#: modules/access/v4l.c:120 modules/access/v4l2.c:309
+#: modules/access/v4l.c:120 modules/access/v4l2.c:310
 msgid "Tuner"
 msgstr "Tiúnóir"
 
@@ -7288,7 +7288,7 @@ msgstr "Video4Linux"
 msgid "Video4Linux input"
 msgstr "Ionchur Video4Linux"
 
-#: modules/access/v4l2.c:77 modules/gui/qt4/components/open_panels.cpp:789
+#: modules/access/v4l2.c:77 modules/gui/qt4/components/open_panels.cpp:794
 #: modules/stream_out/standard.c:100
 msgid "Standard"
 msgstr "Caighdeánach"
@@ -7585,50 +7585,50 @@ msgstr "MMAP"
 msgid "USERPTR"
 msgstr ""
 
-#: modules/access/v4l2.c:257 modules/audio_output/alsa.c:192
+#: modules/access/v4l2.c:258 modules/audio_output/alsa.c:192
 #: modules/audio_output/directx.c:466 modules/audio_output/oss.c:222
 #: modules/audio_output/portaudio.c:395 modules/audio_output/sdl.c:180
 #: modules/audio_output/sdl.c:199 modules/audio_output/waveout.c:444
 msgid "Mono"
 msgstr "Aonfhónach"
 
-#: modules/access/v4l2.c:259
+#: modules/access/v4l2.c:260
 msgid "Primary language (Analog TV tuners only)"
 msgstr ""
 
-#: modules/access/v4l2.c:260
+#: modules/access/v4l2.c:261
 msgid "Secondary language (Analog TV tuners only)"
 msgstr ""
 
-#: modules/access/v4l2.c:261
+#: modules/access/v4l2.c:262
 msgid "Second audio program (Analog TV tuners only)"
 msgstr ""
 
-#: modules/access/v4l2.c:262
+#: modules/access/v4l2.c:263
 msgid "Primary language left, Secondary language right"
 msgstr ""
 
-#: modules/access/v4l2.c:278
+#: modules/access/v4l2.c:279
 msgid "Video4Linux2"
 msgstr "Video4Linux2"
 
-#: modules/access/v4l2.c:279
+#: modules/access/v4l2.c:280
 msgid "Video4Linux2 input"
 msgstr "Ionchur Video4Linux2"
 
-#: modules/access/v4l2.c:283
+#: modules/access/v4l2.c:284
 msgid "Video input"
 msgstr "Ionchur físeáin"
 
-#: modules/access/v4l2.c:319
+#: modules/access/v4l2.c:320
 msgid "Controls"
 msgstr "Rialtáin"
 
-#: modules/access/v4l2.c:320
+#: modules/access/v4l2.c:321
 msgid "v4l2 driver controls, if supported by your v4l2 driver."
 msgstr ""
 
-#: modules/access/v4l2.c:386
+#: modules/access/v4l2.c:387
 msgid "Video4Linux2 Compressed A/V"
 msgstr "Video4Linux2 Closamharc Comhbhrúite"
 
@@ -7655,7 +7655,7 @@ msgstr ""
 
 #: modules/access/vcdx/access.c:274 modules/access/vcdx/access.c:354
 #: modules/access/vcdx/access.c:676 modules/access/vcdx/info.c:229
-#: modules/gui/qt4/components/open_panels.cpp:402
+#: modules/gui/qt4/components/open_panels.cpp:403
 msgid "Entry"
 msgstr ""
 
@@ -8657,12 +8657,12 @@ msgstr ""
 msgid "ALSA Device Name"
 msgstr ""
 
-#: modules/audio_output/alsa.c:135 modules/audio_output/auhal.c:154
-#: modules/audio_output/auhal.c:992 modules/audio_output/directx.c:351
+#: modules/audio_output/alsa.c:135 modules/audio_output/auhal.c:137
+#: modules/audio_output/auhal.c:982 modules/audio_output/directx.c:351
 #: modules/audio_output/oss.c:129 modules/audio_output/portaudio.c:389
 #: modules/audio_output/sdl.c:174 modules/audio_output/sdl.c:192
-#: modules/audio_output/waveout.c:374 modules/gui/macosx/intf.m:679
-#: modules/gui/macosx/intf.m:680
+#: modules/audio_output/waveout.c:374 modules/gui/macosx/intf.m:681
+#: modules/gui/macosx/intf.m:682
 msgid "Audio Device"
 msgstr "Gléas Fuaime"
 
@@ -8688,7 +8688,7 @@ msgstr ""
 "chuir isteach."
 
 #: modules/audio_output/alsa.c:459 modules/audio_output/alsa.c:498
-#: modules/audio_output/alsa.c:510 modules/audio_output/auhal.c:269
+#: modules/audio_output/alsa.c:510 modules/audio_output/auhal.c:257
 msgid "Audio output failed"
 msgstr "Theip ar an aschur fuaime"
 
@@ -8706,33 +8706,33 @@ msgstr "Tá feidhm a bhaint as an ngléas fuaime \"%s\" cheana féin."
 msgid "Unknown soundcard"
 msgstr "Cárta fuaime anaithnid"
 
-#: modules/audio_output/auhal.c:155
+#: modules/audio_output/auhal.c:138
 msgid ""
 "Choose a number corresponding to the number of an audio device, as listed in "
 "your 'Audio Device' menu. This device will then be used by default for audio "
 "playback."
 msgstr ""
 
-#: modules/audio_output/auhal.c:161
+#: modules/audio_output/auhal.c:144
 msgid "HAL AudioUnit output"
 msgstr ""
 
-#: modules/audio_output/auhal.c:270
+#: modules/audio_output/auhal.c:258
 msgid ""
 "The selected audio output device is exclusively in use by another program."
 msgstr ""
 
-#: modules/audio_output/auhal.c:454
+#: modules/audio_output/auhal.c:449
 msgid "Audio device is not configured"
 msgstr "Níl an gléas fuaime cumraithe"
 
-#: modules/audio_output/auhal.c:455
+#: modules/audio_output/auhal.c:450
 msgid ""
 "You should configure your speaker layout with the \"Audio Midi Setup\" "
 "utility in /Applications/Utilities. Stereo mode is being used now."
 msgstr ""
 
-#: modules/audio_output/auhal.c:1039
+#: modules/audio_output/auhal.c:1025
 #, c-format
 msgid "%s (Encoded Output)"
 msgstr ""
@@ -8864,7 +8864,7 @@ msgstr "Aschur fuaime PORTAUDIO"
 msgid "5.1"
 msgstr "5.1"
 
-#: modules/audio_output/pulse.c:47
+#: modules/audio_output/pulse.c:49
 msgid "Pulseaudio audio output"
 msgstr "Aschur fuaime Pulseaudio"
 
@@ -9364,7 +9364,7 @@ msgid ""
 "Do not contact the VideoLAN project about this issue.\n"
 msgstr ""
 
-#: modules/codec/avcodec/encoder.c:701 modules/codec/avcodec/encoder.c:710
+#: modules/codec/avcodec/encoder.c:712 modules/codec/avcodec/encoder.c:721
 msgid "VLC could not open the encoder."
 msgstr "Níorbh fhéidir le VLC an t-ionchódóir a oscailt."
 
@@ -9442,24 +9442,24 @@ msgstr "An méid réamhscagadh"
 msgid "Higher value implies more prefiltering"
 msgstr "Ciallaíonn luach níos airde níos mó réamhscagadh"
 
-#: modules/codec/dirac.c:87 modules/codec/schroedinger.c:55
+#: modules/codec/dirac.c:87
 msgid "Chroma format"
 msgstr ""
 
-#: modules/codec/dirac.c:88 modules/codec/schroedinger.c:56
+#: modules/codec/dirac.c:88
 msgid ""
 "Picking chroma format will force a conversion of the video into that format"
 msgstr ""
 
-#: modules/codec/dirac.c:93 modules/codec/schroedinger.c:61
+#: modules/codec/dirac.c:93
 msgid "4:2:0"
 msgstr "4:2:0"
 
-#: modules/codec/dirac.c:93 modules/codec/schroedinger.c:61
+#: modules/codec/dirac.c:93
 msgid "4:2:2"
 msgstr "4:2:2"
 
-#: modules/codec/dirac.c:93 modules/codec/schroedinger.c:61
+#: modules/codec/dirac.c:93
 msgid "4:4:4"
 msgstr "4:4:4"
 
@@ -9658,7 +9658,7 @@ msgstr ""
 msgid "DVB subtitles decoder"
 msgstr ""
 
-#: modules/codec/dvbsub.c:119 modules/demux/ts.c:3493 modules/demux/ts.c:3551
+#: modules/codec/dvbsub.c:119 modules/demux/ts.c:3495 modules/demux/ts.c:3553
 msgid "DVB subtitles"
 msgstr "Fotheidil DVB"
 
@@ -9847,48 +9847,48 @@ msgstr ""
 msgid "Shadow"
 msgstr "Scáth"
 
-#: modules/codec/kate.c:203 modules/misc/freetype.c:135
+#: modules/codec/kate.c:203 modules/misc/freetype.c:145
 msgid "Outline"
 msgstr "Imlíne"
 
 #: modules/codec/kate.c:211 modules/gui/fbosd.c:171
-#: modules/misc/freetype.c:142 modules/misc/quartztext.c:98
+#: modules/misc/freetype.c:153 modules/misc/quartztext.c:98
 #: modules/misc/win32text.c:88 modules/video_filter/marq.c:60
 #: modules/video_filter/rss.c:72
 msgid "Black"
 msgstr "Dubh"
 
 #: modules/codec/kate.c:211 modules/gui/fbosd.c:172
-#: modules/misc/freetype.c:142 modules/misc/quartztext.c:98
+#: modules/misc/freetype.c:153 modules/misc/quartztext.c:98
 #: modules/misc/win32text.c:88 modules/video_filter/marq.c:60
 #: modules/video_filter/rss.c:73
 msgid "Gray"
 msgstr "Liath"
 
 #: modules/codec/kate.c:211 modules/gui/fbosd.c:172
-#: modules/misc/freetype.c:142 modules/misc/quartztext.c:98
+#: modules/misc/freetype.c:153 modules/misc/quartztext.c:98
 #: modules/misc/win32text.c:88 modules/video_filter/marq.c:61
 #: modules/video_filter/rss.c:73
 msgid "Silver"
 msgstr "Airgead"
 
 #: modules/codec/kate.c:211 modules/gui/fbosd.c:172
-#: modules/misc/freetype.c:142 modules/misc/quartztext.c:98
+#: modules/misc/freetype.c:153 modules/misc/quartztext.c:98
 #: modules/misc/win32text.c:88 modules/video_filter/ball.c:132
 #: modules/video_filter/marq.c:61 modules/video_filter/rss.c:73
 msgid "White"
 msgstr "Bán"
 
 #: modules/codec/kate.c:211 modules/gui/fbosd.c:172
-#: modules/misc/freetype.c:142 modules/misc/quartztext.c:98
+#: modules/misc/freetype.c:153 modules/misc/quartztext.c:98
 #: modules/misc/win32text.c:88 modules/video_filter/marq.c:61
 #: modules/video_filter/rss.c:73
 msgid "Maroon"
 msgstr "Marún"
 
 #: modules/codec/kate.c:212 modules/gui/fbosd.c:172
-#: modules/gui/macosx/controls.m:503 modules/gui/macosx/intf.m:712
-#: modules/misc/freetype.c:143 modules/misc/quartztext.c:99
+#: modules/gui/macosx/controls.m:494 modules/gui/macosx/intf.m:714
+#: modules/misc/freetype.c:154 modules/misc/quartztext.c:99
 #: modules/misc/win32text.c:89 modules/video_filter/ball.c:131
 #: modules/video_filter/colorthres.c:64 modules/video_filter/marq.c:61
 #: modules/video_filter/rss.c:73
@@ -9896,66 +9896,66 @@ msgid "Red"
 msgstr "Dearg"
 
 #: modules/codec/kate.c:212 modules/gui/fbosd.c:173
-#: modules/misc/freetype.c:143 modules/misc/quartztext.c:99
+#: modules/misc/freetype.c:154 modules/misc/quartztext.c:99
 #: modules/misc/win32text.c:89 modules/video_filter/colorthres.c:64
 #: modules/video_filter/marq.c:62 modules/video_filter/rss.c:74
 msgid "Fuchsia"
 msgstr "Fiúise"
 
 #: modules/codec/kate.c:212 modules/gui/fbosd.c:173
-#: modules/gui/macosx/controls.m:507 modules/gui/macosx/intf.m:714
-#: modules/misc/freetype.c:143 modules/misc/quartztext.c:99
+#: modules/gui/macosx/controls.m:498 modules/gui/macosx/intf.m:716
+#: modules/misc/freetype.c:154 modules/misc/quartztext.c:99
 #: modules/misc/win32text.c:89 modules/video_filter/colorthres.c:64
 #: modules/video_filter/marq.c:62 modules/video_filter/rss.c:74
 msgid "Yellow"
 msgstr "Buí"
 
 #: modules/codec/kate.c:212 modules/gui/fbosd.c:173
-#: modules/misc/freetype.c:143 modules/misc/quartztext.c:99
+#: modules/misc/freetype.c:154 modules/misc/quartztext.c:99
 #: modules/misc/win32text.c:89 modules/video_filter/marq.c:62
 #: modules/video_filter/rss.c:74
 msgid "Olive"
 msgstr "Glasbhuí"
 
 #: modules/codec/kate.c:212 modules/gui/fbosd.c:173
-#: modules/gui/macosx/controls.m:505 modules/gui/macosx/intf.m:713
-#: modules/misc/freetype.c:143 modules/misc/quartztext.c:99
+#: modules/gui/macosx/controls.m:496 modules/gui/macosx/intf.m:715
+#: modules/misc/freetype.c:154 modules/misc/quartztext.c:99
 #: modules/misc/win32text.c:89 modules/video_filter/ball.c:131
 #: modules/video_filter/marq.c:62 modules/video_filter/rss.c:74
 msgid "Green"
 msgstr "Uaine"
 
 #: modules/codec/kate.c:212 modules/gui/fbosd.c:174
-#: modules/misc/freetype.c:143 modules/misc/quartztext.c:99
+#: modules/misc/freetype.c:154 modules/misc/quartztext.c:99
 #: modules/misc/win32text.c:89 modules/video_filter/marq.c:63
 #: modules/video_filter/rss.c:75
 msgid "Teal"
 msgstr "Téalghorm"
 
 #: modules/codec/kate.c:213 modules/gui/fbosd.c:174
-#: modules/misc/freetype.c:144 modules/misc/quartztext.c:100
+#: modules/misc/freetype.c:155 modules/misc/quartztext.c:100
 #: modules/misc/win32text.c:90 modules/video_filter/colorthres.c:64
 #: modules/video_filter/marq.c:63 modules/video_filter/rss.c:75
 msgid "Lime"
 msgstr "Líoma"
 
 #: modules/codec/kate.c:213 modules/gui/fbosd.c:174
-#: modules/misc/freetype.c:144 modules/misc/quartztext.c:100
+#: modules/misc/freetype.c:155 modules/misc/quartztext.c:100
 #: modules/misc/win32text.c:90 modules/video_filter/marq.c:63
 #: modules/video_filter/rss.c:75
 msgid "Purple"
 msgstr "Corcra"
 
 #: modules/codec/kate.c:213 modules/gui/fbosd.c:174
-#: modules/misc/freetype.c:144 modules/misc/quartztext.c:100
+#: modules/misc/freetype.c:155 modules/misc/quartztext.c:100
 #: modules/misc/win32text.c:90 modules/video_filter/marq.c:63
 #: modules/video_filter/rss.c:75
 msgid "Navy"
 msgstr "Dubhghorm"
 
 #: modules/codec/kate.c:213 modules/gui/fbosd.c:174
-#: modules/gui/macosx/controls.m:509 modules/gui/macosx/intf.m:715
-#: modules/misc/freetype.c:144 modules/misc/quartztext.c:100
+#: modules/gui/macosx/controls.m:500 modules/gui/macosx/intf.m:717
+#: modules/misc/freetype.c:155 modules/misc/quartztext.c:100
 #: modules/misc/win32text.c:90 modules/video_filter/ball.c:132
 #: modules/video_filter/colorthres.c:64 modules/video_filter/marq.c:63
 #: modules/video_filter/rss.c:75
@@ -9963,7 +9963,7 @@ msgid "Blue"
 msgstr "Gorm"
 
 #: modules/codec/kate.c:213 modules/gui/fbosd.c:175
-#: modules/misc/freetype.c:144 modules/misc/quartztext.c:100
+#: modules/misc/freetype.c:155 modules/misc/quartztext.c:100
 #: modules/misc/win32text.c:90 modules/video_filter/colorthres.c:64
 #: modules/video_filter/marq.c:64 modules/video_filter/rss.c:76
 msgid "Aqua"
@@ -10096,7 +10096,7 @@ msgstr "Fotheidil (ardroghanna)"
 msgid "Subtitle renderers using libass"
 msgstr ""
 
-#: modules/codec/libass.c:722 modules/misc/freetype.c:364
+#: modules/codec/libass.c:722 modules/misc/freetype.c:2404
 msgid "Building font cache"
 msgstr ""
 
@@ -10158,22 +10158,8 @@ msgstr "Déantóir ceangaltáin físeán bréag-amh"
 msgid "RealVideo library decoder"
 msgstr ""
 
-#: modules/codec/schroedinger.c:65
-#, fuzzy
-msgid "Automate picture coding mode"
-msgstr "Bearradh uathoibríoch"
-
-#: modules/codec/schroedinger.c:66
-msgid ""
-"Use the input picture to determine how to code it - interlaced or progressive"
-msgstr ""
-
-#: modules/codec/schroedinger.c:74
+#: modules/codec/schroedinger.c:50
 msgid "Schroedinger video decoder"
-msgstr ""
-
-#: modules/codec/schroedinger.c:80
-msgid "Dirac video encoder using libschroedinger"
 msgstr ""
 
 #: modules/codec/sdl_image.c:60
@@ -11523,7 +11509,8 @@ msgstr "Rialú Fuaime"
 msgid "Position Control"
 msgstr ""
 
-#: modules/control/hotkeys.c:92 modules/gui/macosx/intf.m:2471
+#: modules/control/hotkeys.c:92 modules/gui/macosx/intf.m:2476
+#: modules/gui/macosx/intf.m:2859
 msgid "Ignore"
 msgstr "Ná bac leis"
 
@@ -11827,8 +11814,8 @@ msgid "Opening"
 msgstr "Ag oscailt"
 
 #: modules/control/rc.c:73 modules/gui/macosx/embeddedwindow.m:194
-#: modules/gui/macosx/intf.m:2023 modules/gui/macosx/intf.m:2024
-#: modules/gui/macosx/intf.m:2025 modules/gui/macosx/intf.m:2026
+#: modules/gui/macosx/intf.m:2028 modules/gui/macosx/intf.m:2029
+#: modules/gui/macosx/intf.m:2030 modules/gui/macosx/intf.m:2031
 #: modules/gui/qt4/menus.cpp:793 modules/misc/notify/xosd.c:235
 msgid "Pause"
 msgstr "Cuir ar sos"
@@ -12371,7 +12358,7 @@ msgstr ""
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:260
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:310
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:404
-#: modules/misc/lua/vlc.c:77 modules/stream_out/rtp.c:112
+#: modules/misc/lua/vlc.c:77 modules/stream_out/rtp.c:114
 msgid "Port"
 msgstr "Port"
 
@@ -12485,7 +12472,7 @@ msgstr "Deisigh"
 msgid "Don't repair"
 msgstr "Ná deisigh"
 
-#: modules/demux/avi/avi.c:2357
+#: modules/demux/avi/avi.c:2360
 msgid "Fixing AVI Index..."
 msgstr "Ag deisiú an treorán AVI..."
 
@@ -13143,7 +13130,7 @@ msgstr ""
 msgid "Force chroma. This is a four character string."
 msgstr ""
 
-#: modules/demux/rawvid.c:59 modules/stream_out/switcher.c:96
+#: modules/demux/rawvid.c:59 modules/stream_out/switcher.c:98
 msgid "Aspect ratio"
 msgstr "Cóimheas treoíochta"
 
@@ -13344,8 +13331,8 @@ msgstr ""
 msgid "MPEG Transport Stream demuxer"
 msgstr ""
 
-#: modules/demux/ts.c:196 modules/gui/macosx/controls.m:1093
-#: modules/gui/macosx/intf.m:709 modules/gui/qt4/dialogs/toolbar.cpp:407
+#: modules/demux/ts.c:196 modules/gui/macosx/controls.m:1106
+#: modules/gui/macosx/intf.m:711 modules/gui/qt4/dialogs/toolbar.cpp:407
 msgid "Teletext"
 msgstr "Teilithéacs"
 
@@ -13365,19 +13352,19 @@ msgstr ""
 msgid "Teletext subtitles: hearing impaired"
 msgstr ""
 
-#: modules/demux/ts.c:3558
+#: modules/demux/ts.c:3560
 msgid "DVB subtitles: hearing impaired"
 msgstr ""
 
-#: modules/demux/ts.c:3850 modules/demux/ts.c:3892
+#: modules/demux/ts.c:3852 modules/demux/ts.c:3894
 msgid "clean effects"
 msgstr ""
 
-#: modules/demux/ts.c:3854 modules/demux/ts.c:3896
+#: modules/demux/ts.c:3856 modules/demux/ts.c:3898
 msgid "hearing impaired"
 msgstr "lagéisteachta"
 
-#: modules/demux/ts.c:3858 modules/demux/ts.c:3900
+#: modules/demux/ts.c:3860 modules/demux/ts.c:3902
 msgid "visual impaired commentary"
 msgstr "tráchtaireacht lagamhairc"
 
@@ -13393,19 +13380,19 @@ msgstr "TY"
 msgid "TY Stream audio/video demux"
 msgstr ""
 
-#: modules/demux/ty.c:773
+#: modules/demux/ty.c:777
 msgid "Closed captions 1"
 msgstr "Fortheidil dhúnta a 1"
 
-#: modules/demux/ty.c:774
+#: modules/demux/ty.c:778
 msgid "Closed captions 2"
 msgstr "Fortheidil dhúnta a 2"
 
-#: modules/demux/ty.c:775
+#: modules/demux/ty.c:779
 msgid "Closed captions 3"
 msgstr "Fortheidil dhúnta a 3"
 
-#: modules/demux/ty.c:776
+#: modules/demux/ty.c:780
 msgid "Closed captions 4"
 msgstr "Fortheidil dhúnta a 4"
 
@@ -13499,7 +13486,7 @@ msgid ""
 "g. 6=top-right)."
 msgstr ""
 
-#: modules/gui/fbosd.c:133 modules/misc/freetype.c:105
+#: modules/gui/fbosd.c:133 modules/misc/freetype.c:115
 #: modules/misc/win32text.c:65 modules/video_filter/marq.c:116
 #: modules/video_filter/rss.c:147
 msgid "Opacity"
@@ -13563,7 +13550,7 @@ msgid ""
 msgstr ""
 
 #: modules/gui/fbosd.c:203 modules/gui/macosx/simple_prefs.m:283
-#: modules/misc/freetype.c:92 modules/misc/notify/xosd.c:80
+#: modules/misc/freetype.c:102 modules/misc/notify/xosd.c:80
 #: modules/misc/quartztext.c:80 modules/misc/win32text.c:58
 #: modules/video_filter/marq.c:164 modules/video_filter/rss.c:207
 #: modules/gui/qt4/ui/sprefs_subtitles.h:211
@@ -13578,29 +13565,29 @@ msgstr "Orduithe"
 msgid "GNU/Linux osd/overlay framebuffer interface"
 msgstr ""
 
-#: modules/gui/macosx/about.m:92 modules/gui/macosx/intf.m:620
+#: modules/gui/macosx/about.m:92 modules/gui/macosx/intf.m:622
 msgid "About VLC media player"
 msgstr "Maidir le seinnteoir meán VLC"
 
-#: modules/gui/macosx/about.m:104
+#: modules/gui/macosx/about.m:103
 msgid "Compiled by %@ with %@"
 msgstr "Tiomsaithe ag %@ le %@"
 
-#: modules/gui/macosx/about.m:112
+#: modules/gui/macosx/about.m:111
 msgid "VLC was brought to you by:"
 msgstr "Chuir na daoine seo a leanas VLC ar fáil duit:"
 
-#: modules/gui/macosx/about.m:122 modules/gui/macosx/about.m:193
-#: modules/gui/macosx/intf.m:735 modules/gui/qt4/dialogs/help.cpp:166
+#: modules/gui/macosx/about.m:121 modules/gui/macosx/about.m:192
+#: modules/gui/macosx/intf.m:737 modules/gui/qt4/dialogs/help.cpp:166
 msgid "License"
 msgstr "Ceadúnas"
 
-#: modules/gui/macosx/about.m:206
+#: modules/gui/macosx/about.m:205
 msgid "VLC media player Help"
 msgstr "Cabhair do sheinnteoir meán VLC"
 
-#: modules/gui/macosx/about.m:209 modules/gui/macosx/controls.m:501
-#: modules/gui/macosx/intf.m:711
+#: modules/gui/macosx/about.m:208 modules/gui/macosx/controls.m:492
+#: modules/gui/macosx/intf.m:713
 msgid "Index"
 msgstr "Treorán"
 
@@ -13614,14 +13601,14 @@ msgstr "Ceanáin"
 msgid "Add"
 msgstr "Cuir leis"
 
-#: modules/gui/macosx/bookmarks.m:89 modules/gui/macosx/intf.m:646
+#: modules/gui/macosx/bookmarks.m:89 modules/gui/macosx/intf.m:648
 #: modules/gui/macosx/simple_prefs.m:246
 #: modules/gui/qt4/components/preferences_widgets.cpp:1206
 #: modules/gui/qt4/dialogs/bookmarks.cpp:47 modules/gui/qt4/ui/vlm.h:301
 msgid "Clear"
 msgstr "Glan"
 
-#: modules/gui/macosx/bookmarks.m:90 modules/gui/macosx/intf.m:642
+#: modules/gui/macosx/bookmarks.m:90 modules/gui/macosx/intf.m:644
 msgid "Edit"
 msgstr "Eagar"
 
@@ -13652,7 +13639,7 @@ msgstr "Am"
 #: modules/gui/macosx/wizard.m:1126 modules/gui/macosx/wizard.m:1652
 #: modules/gui/macosx/wizard.m:1660 modules/gui/macosx/wizard.m:1841
 #: modules/gui/macosx/wizard.m:1852 modules/gui/macosx/wizard.m:1865
-#: modules/gui/qt4/components/open_panels.cpp:1303
+#: modules/gui/qt4/components/open_panels.cpp:1308
 #: modules/gui/qt4/components/preferences_widgets.cpp:1426
 #: modules/gui/qt4/dialogs/firstrun.cpp:100
 msgid "OK"
@@ -13706,7 +13693,7 @@ msgstr ""
 "Ní mór don sruth bheith ag seinm nó ar shos ionas go bhfeidhmeoidh na "
 "ceanáin."
 
-#: modules/gui/macosx/controls.m:59 modules/gui/macosx/controls.m:1029
+#: modules/gui/macosx/controls.m:59 modules/gui/macosx/controls.m:1042
 msgid "Jump To Time"
 msgstr "Léim Chuig Am"
 
@@ -13718,59 +13705,59 @@ msgstr "soic."
 msgid "Jump to time"
 msgstr "Léim chuig am"
 
-#: modules/gui/macosx/controls.m:175
+#: modules/gui/macosx/controls.m:169
 msgid "Random On"
 msgstr "Fánach Ar Siúl"
 
-#: modules/gui/macosx/controls.m:274 modules/gui/macosx/controls.m:305
-#: modules/gui/macosx/controls.m:333
+#: modules/gui/macosx/controls.m:265 modules/gui/macosx/controls.m:296
+#: modules/gui/macosx/controls.m:324
 msgid "Repeat Off"
 msgstr "Athsheinn As"
 
-#: modules/gui/macosx/controls.m:441 modules/gui/macosx/controls.m:1043
-#: modules/gui/macosx/intf.m:685
+#: modules/gui/macosx/controls.m:432 modules/gui/macosx/controls.m:1056
+#: modules/gui/macosx/intf.m:687
 msgid "Half Size"
 msgstr "Leathmhéid"
 
-#: modules/gui/macosx/controls.m:443 modules/gui/macosx/controls.m:1044
-#: modules/gui/macosx/controls.m:1091 modules/gui/macosx/intf.m:686
+#: modules/gui/macosx/controls.m:434 modules/gui/macosx/controls.m:1057
+#: modules/gui/macosx/controls.m:1104 modules/gui/macosx/intf.m:688
 msgid "Normal Size"
 msgstr "Gnáthmhéid"
 
-#: modules/gui/macosx/controls.m:445 modules/gui/macosx/controls.m:1045
-#: modules/gui/macosx/intf.m:687
+#: modules/gui/macosx/controls.m:436 modules/gui/macosx/controls.m:1058
+#: modules/gui/macosx/intf.m:689
 msgid "Double Size"
 msgstr "Méid Faoi Dhó"
 
-#: modules/gui/macosx/controls.m:447 modules/gui/macosx/controls.m:1049
-#: modules/gui/macosx/controls.m:1061 modules/gui/macosx/intf.m:690
+#: modules/gui/macosx/controls.m:438 modules/gui/macosx/controls.m:1062
+#: modules/gui/macosx/controls.m:1074 modules/gui/macosx/intf.m:692
 msgid "Float on Top"
 msgstr "Cuir ag snámh ar barr"
 
-#: modules/gui/macosx/controls.m:449 modules/gui/macosx/controls.m:1046
-#: modules/gui/macosx/intf.m:688
+#: modules/gui/macosx/controls.m:440 modules/gui/macosx/controls.m:1059
+#: modules/gui/macosx/intf.m:690
 msgid "Fit to Screen"
 msgstr "Oiriúnaigh don Scáileán"
 
-#: modules/gui/macosx/controls.m:774
+#: modules/gui/macosx/controls.m:787
 msgid "Lock Aspect Ratio"
 msgstr "Glasaigh an Cóimheas Treoíochta"
 
-#: modules/gui/macosx/controls.m:786 modules/gui/macosx/intf.m:634
-#: modules/gui/macosx/intf.m:702 modules/gui/qt4/menus.cpp:613
+#: modules/gui/macosx/controls.m:799 modules/gui/macosx/intf.m:636
+#: modules/gui/macosx/intf.m:704 modules/gui/qt4/menus.cpp:613
 msgid "Open File..."
 msgstr "Oscail Comhad..."
 
-#: modules/gui/macosx/controls.m:1020 modules/gui/macosx/intf.m:660
+#: modules/gui/macosx/controls.m:1033 modules/gui/macosx/intf.m:662
 #: modules/gui/qt4/menus.cpp:487
 msgid "Quit after Playback"
 msgstr "Scoir tar éis Athsheinm"
 
-#: modules/gui/macosx/controls.m:1027 modules/gui/macosx/intf.m:661
+#: modules/gui/macosx/controls.m:1040 modules/gui/macosx/intf.m:663
 msgid "Step Forward"
 msgstr "Céim Ar Aghaidh"
 
-#: modules/gui/macosx/controls.m:1028 modules/gui/macosx/intf.m:662
+#: modules/gui/macosx/controls.m:1041 modules/gui/macosx/intf.m:664
 msgid "Step Backward"
 msgstr "Céim Siar"
 
@@ -13791,16 +13778,16 @@ msgstr "Glantachán"
 msgid "Show Details"
 msgstr "Taispeáin Sonraí"
 
-#: modules/gui/macosx/embeddedwindow.m:66 modules/gui/macosx/intf.m:604
+#: modules/gui/macosx/embeddedwindow.m:66 modules/gui/macosx/intf.m:606
 msgid "Rewind"
 msgstr "Cas siar"
 
-#: modules/gui/macosx/embeddedwindow.m:67 modules/gui/macosx/intf.m:607
+#: modules/gui/macosx/embeddedwindow.m:67 modules/gui/macosx/intf.m:609
 msgid "Fast Forward"
 msgstr "Gluais Ar Aghaidh"
 
-#: modules/gui/macosx/embeddedwindow.m:76 modules/gui/macosx/intf.m:599
-#: modules/gui/macosx/intf.m:600 modules/gui/macosx/intf.m:2013
+#: modules/gui/macosx/embeddedwindow.m:76 modules/gui/macosx/intf.m:601
+#: modules/gui/macosx/intf.m:602 modules/gui/macosx/intf.m:2018
 #: modules/gui/qt4/dialogs/help.cpp:99 modules/gui/qt4/main_interface.cpp:884
 #: modules/gui/qt4/main_interface.cpp:888
 #: modules/gui/qt4/main_interface.cpp:928
@@ -13969,218 +13956,218 @@ msgstr ""
 msgid "(no item is being played)"
 msgstr "(níl mír á seinm)"
 
-#: modules/gui/macosx/intf.m:615 modules/gui/qt4/dialogs/messages.cpp:75
+#: modules/gui/macosx/intf.m:617 modules/gui/qt4/dialogs/messages.cpp:75
 #: modules/gui/qt4/dialogs/messages.cpp:95
 msgid "Messages"
 msgstr "Teachtaireachtaí"
 
-#: modules/gui/macosx/intf.m:616
+#: modules/gui/macosx/intf.m:618
 msgid "Open CrashLog..."
 msgstr ""
 
-#: modules/gui/macosx/intf.m:617
+#: modules/gui/macosx/intf.m:619
 msgid "Save this Log..."
 msgstr ""
 
-#: modules/gui/macosx/intf.m:622
+#: modules/gui/macosx/intf.m:624
 msgid "Check for Update..."
 msgstr "Téigh ar thóir Nuashonrú..."
 
-#: modules/gui/macosx/intf.m:623
+#: modules/gui/macosx/intf.m:625
 msgid "Preferences..."
 msgstr "Sainroghanna..."
 
-#: modules/gui/macosx/intf.m:626
+#: modules/gui/macosx/intf.m:628
 msgid "Services"
 msgstr "Seirbhísí"
 
-#: modules/gui/macosx/intf.m:627
+#: modules/gui/macosx/intf.m:629
 msgid "Hide VLC"
 msgstr "Cuir VLC i bhfolach"
 
-#: modules/gui/macosx/intf.m:628
+#: modules/gui/macosx/intf.m:630
 msgid "Hide Others"
 msgstr "Folaigh Eile"
 
-#: modules/gui/macosx/intf.m:629
+#: modules/gui/macosx/intf.m:631
 msgid "Show All"
 msgstr "Taispeáin Uile"
 
-#: modules/gui/macosx/intf.m:630
+#: modules/gui/macosx/intf.m:632
 msgid "Quit VLC"
 msgstr "Scoir ó VLC"
 
-#: modules/gui/macosx/intf.m:632
+#: modules/gui/macosx/intf.m:634
 msgid "1:File"
 msgstr "1:Comhad"
 
-#: modules/gui/macosx/intf.m:633 modules/gui/qt4/menus.cpp:317
+#: modules/gui/macosx/intf.m:635 modules/gui/qt4/menus.cpp:317
 msgid "Advanced Open File..."
 msgstr "Oscail Comhad le Ardroghanna..."
 
-#: modules/gui/macosx/intf.m:635
+#: modules/gui/macosx/intf.m:637
 msgid "Open Disc..."
 msgstr "Oscail Diosca..."
 
-#: modules/gui/macosx/intf.m:636
+#: modules/gui/macosx/intf.m:638
 msgid "Open Network..."
 msgstr "Oscail Líonra..."
 
-#: modules/gui/macosx/intf.m:637
+#: modules/gui/macosx/intf.m:639
 msgid "Open Capture Device..."
 msgstr "Oscail gléas gabhála..."
 
-#: modules/gui/macosx/intf.m:638
+#: modules/gui/macosx/intf.m:640
 msgid "Open Recent"
 msgstr "Oscail Le Déanaí"
 
-#: modules/gui/macosx/intf.m:639 modules/gui/macosx/intf.m:2760
+#: modules/gui/macosx/intf.m:641 modules/gui/macosx/intf.m:2764
 msgid "Clear Menu"
 msgstr "Glan an Roghchlár"
 
-#: modules/gui/macosx/intf.m:640
+#: modules/gui/macosx/intf.m:642
 msgid "Streaming/Exporting Wizard..."
 msgstr ""
 
-#: modules/gui/macosx/intf.m:643
+#: modules/gui/macosx/intf.m:645
 msgid "Cut"
 msgstr "Gearr"
 
-#: modules/gui/macosx/intf.m:644
+#: modules/gui/macosx/intf.m:646
 msgid "Copy"
 msgstr "Macasamhlaigh"
 
-#: modules/gui/macosx/intf.m:645
+#: modules/gui/macosx/intf.m:647
 msgid "Paste"
 msgstr "Greamaigh"
 
-#: modules/gui/macosx/intf.m:647 modules/gui/macosx/playlist.m:469
+#: modules/gui/macosx/intf.m:649 modules/gui/macosx/playlist.m:469
 msgid "Select All"
 msgstr "Roghnaigh Uile"
 
-#: modules/gui/macosx/intf.m:649
+#: modules/gui/macosx/intf.m:651
 msgid "Playback"
 msgstr "Athsheinm"
 
-#: modules/gui/macosx/intf.m:672 modules/gui/qt4/menus.cpp:566
+#: modules/gui/macosx/intf.m:674 modules/gui/qt4/menus.cpp:566
 msgid "Increase Volume"
 msgstr "Méadaigh an Airde"
 
-#: modules/gui/macosx/intf.m:673 modules/gui/qt4/menus.cpp:569
+#: modules/gui/macosx/intf.m:675 modules/gui/qt4/menus.cpp:569
 msgid "Decrease Volume"
 msgstr "Laghdaigh an Airde"
 
-#: modules/gui/macosx/intf.m:698 modules/gui/macosx/intf.m:699
+#: modules/gui/macosx/intf.m:700 modules/gui/macosx/intf.m:701
 #: modules/gui/macosx/simple_prefs.m:291 modules/gui/macosx/vout.m:207
 msgid "Fullscreen Video Device"
 msgstr "Gléas Físeáin Lánscáileáin"
 
-#: modules/gui/macosx/intf.m:710
+#: modules/gui/macosx/intf.m:712
 msgid "Transparent"
 msgstr "Trédhearcach"
 
-#: modules/gui/macosx/intf.m:717
+#: modules/gui/macosx/intf.m:719
 msgid "Window"
 msgstr "Fuinneog"
 
-#: modules/gui/macosx/intf.m:718
+#: modules/gui/macosx/intf.m:720
 msgid "Minimize Window"
 msgstr "Íoslaghdaigh an Fhuinneog"
 
-#: modules/gui/macosx/intf.m:719
+#: modules/gui/macosx/intf.m:721
 msgid "Close Window"
 msgstr "Dún an Fhuinneog"
 
-#: modules/gui/macosx/intf.m:720
+#: modules/gui/macosx/intf.m:722
 msgid "Player..."
 msgstr "Seinnteoir..."
 
-#: modules/gui/macosx/intf.m:721
+#: modules/gui/macosx/intf.m:723
 msgid "Controller..."
 msgstr "Rialaitheoir..."
 
-#: modules/gui/macosx/intf.m:722
+#: modules/gui/macosx/intf.m:724
 msgid "Equalizer..."
 msgstr "Cothromóir..."
 
-#: modules/gui/macosx/intf.m:723
+#: modules/gui/macosx/intf.m:725
 msgid "Extended Controls..."
 msgstr "Rialtáin Bhreisithe..."
 
-#: modules/gui/macosx/intf.m:724
+#: modules/gui/macosx/intf.m:726
 msgid "Bookmarks..."
 msgstr "Ceanáin..."
 
-#: modules/gui/macosx/intf.m:725
+#: modules/gui/macosx/intf.m:727
 msgid "Playlist..."
 msgstr ""
 
-#: modules/gui/macosx/intf.m:726 modules/gui/macosx/playlist.m:470
+#: modules/gui/macosx/intf.m:728 modules/gui/macosx/playlist.m:470
 msgid "Media Information..."
 msgstr "Faisnéis an Mheáin..."
 
-#: modules/gui/macosx/intf.m:727
+#: modules/gui/macosx/intf.m:729
 msgid "Messages..."
 msgstr "Teachtaireachtaí..."
 
-#: modules/gui/macosx/intf.m:728
+#: modules/gui/macosx/intf.m:730
 msgid "Errors and Warnings..."
 msgstr "Botúin agus Rabhaidh"
 
-#: modules/gui/macosx/intf.m:730
+#: modules/gui/macosx/intf.m:732
 msgid "Bring All to Front"
 msgstr "Tabhair Uile chuig an Tosach"
 
-#: modules/gui/macosx/intf.m:732 modules/gui/qt4/dialogs/help.cpp:54
+#: modules/gui/macosx/intf.m:734 modules/gui/qt4/dialogs/help.cpp:54
 #: modules/gui/qt4/menus.cpp:879
 msgid "Help"
 msgstr "Cabhair"
 
-#: modules/gui/macosx/intf.m:733
+#: modules/gui/macosx/intf.m:735
 msgid "VLC media player Help..."
 msgstr "Cabhair do sheinnteoir meán VLC..."
 
-#: modules/gui/macosx/intf.m:734
+#: modules/gui/macosx/intf.m:736
 msgid "ReadMe / FAQ..."
 msgstr "LéighMé / Ceisteanna Coitianta..."
 
-#: modules/gui/macosx/intf.m:736
+#: modules/gui/macosx/intf.m:738
 msgid "Online Documentation..."
 msgstr "Cáipéisí Ar An nGréasán..."
 
-#: modules/gui/macosx/intf.m:737
+#: modules/gui/macosx/intf.m:739
 msgid "VideoLAN Website..."
 msgstr "Suíomh Idirlín VideoLAN..."
 
-#: modules/gui/macosx/intf.m:738
+#: modules/gui/macosx/intf.m:740
 msgid "Make a donation..."
 msgstr "Tabhair airgead..."
 
-#: modules/gui/macosx/intf.m:739
+#: modules/gui/macosx/intf.m:741
 msgid "Online Forum..."
 msgstr "Clár Plé..."
 
-#: modules/gui/macosx/intf.m:753
+#: modules/gui/macosx/intf.m:755
 msgid "Volume Up"
 msgstr "Airde Suas"
 
-#: modules/gui/macosx/intf.m:754
+#: modules/gui/macosx/intf.m:756
 msgid "Volume Down"
 msgstr "Airde Síos"
 
-#: modules/gui/macosx/intf.m:760
+#: modules/gui/macosx/intf.m:762
 msgid "Send"
 msgstr "Seol"
 
-#: modules/gui/macosx/intf.m:761
+#: modules/gui/macosx/intf.m:763
 msgid "Don't Send"
 msgstr "Ná Seol"
 
-#: modules/gui/macosx/intf.m:762 modules/gui/macosx/intf.m:763
+#: modules/gui/macosx/intf.m:764 modules/gui/macosx/intf.m:765
 msgid "VLC crashed previously"
 msgstr "Chlis VLC roimhe seo"
 
-#: modules/gui/macosx/intf.m:764
+#: modules/gui/macosx/intf.m:766
 msgid ""
 "Do you want to send details on the crash to VLC's development team?\n"
 "\n"
@@ -14189,55 +14176,69 @@ msgid ""
 "URL of a network stream, ..."
 msgstr ""
 
-#: modules/gui/macosx/intf.m:765
+#: modules/gui/macosx/intf.m:767
 msgid "I agree to be possibly contacted about this bugreport."
 msgstr ""
 "Aontaím go d'fhéadfaí dul i dteagmháil maidir leis an bhfabhtfhógra seo."
 
-#: modules/gui/macosx/intf.m:766
+#: modules/gui/macosx/intf.m:768
 msgid ""
 "Only your default E-Mail address will be submitted, including no further "
 "information."
 msgstr ""
 "Seolfar do sheoladh ríomhphoist réamhshocraithe amháin gan aon eolas eile."
 
-#: modules/gui/macosx/intf.m:1853
+#: modules/gui/macosx/intf.m:1858
 #, c-format
 msgid "Volume: %d%%"
 msgstr "Airde: %d%%"
 
-#: modules/gui/macosx/intf.m:2351
+#: modules/gui/macosx/intf.m:2356
 msgid "Error when sending the Crash Report"
 msgstr "Tharla botún fad agus a bhí an Fógra Tuairte á seoladh"
 
-#: modules/gui/macosx/intf.m:2442
+#: modules/gui/macosx/intf.m:2447
 msgid "No CrashLog found"
 msgstr ""
 
-#: modules/gui/macosx/intf.m:2442 modules/gui/macosx/prefs.m:226
+#: modules/gui/macosx/intf.m:2447 modules/gui/macosx/prefs.m:226
 #: modules/gui/macosx/simple_prefs.m:716
 msgid "Continue"
 msgstr "Lean ar aghaidh"
 
-#: modules/gui/macosx/intf.m:2442
+#: modules/gui/macosx/intf.m:2447
 msgid "Couldn't find any trace of a previous crash."
 msgstr "Níorbh fhéidir rian ar bith de thuairt a tharla cheana a aimsiú."
 
-#: modules/gui/macosx/intf.m:2469
+#: modules/gui/macosx/intf.m:2474
 msgid "Remove old preferences?"
 msgstr "Bain sean sainroghanna?"
 
-#: modules/gui/macosx/intf.m:2470
+#: modules/gui/macosx/intf.m:2475
 msgid "We just found an older version of VLC's preferences files."
 msgstr "Aimsíodh sean leagan de chomhaid shainroghanna VLC."
 
-#: modules/gui/macosx/intf.m:2471
+#: modules/gui/macosx/intf.m:2476
 msgid "Move To Trash and Relaunch VLC"
 msgstr ""
 
-#: modules/gui/macosx/intf.m:2605
+#: modules/gui/macosx/intf.m:2609
 #, c-format
 msgid "VLC Debug Log (%s).rtfd"
+msgstr ""
+
+#: modules/gui/macosx/intf.m:2857
+msgid "Relaunch required"
+msgstr ""
+
+#: modules/gui/macosx/intf.m:2858
+msgid ""
+"To make sure that VLC no longer listens to your media key events, it needs "
+"to be restarted."
+msgstr ""
+
+#: modules/gui/macosx/intf.m:2859
+msgid "Relaunch VLC"
 msgstr ""
 
 #: modules/gui/macosx/macosx.m:53
@@ -14390,7 +14391,7 @@ msgstr "Gabh"
 
 #: modules/gui/macosx/open.m:184 modules/gui/macosx/open.m:193
 #: modules/gui/macosx/open.m:329 modules/gui/macosx/output.m:145
-#: modules/gui/macosx/prefs_widgets.m:1192
+#: modules/gui/macosx/prefs_widgets.m:1195
 #: modules/gui/macosx/simple_prefs.m:299
 #: modules/gui/qt4/components/preferences_widgets.cpp:299
 #: modules/gui/qt4/components/simple_preferences.cpp:276
@@ -14417,7 +14418,7 @@ msgid "Choose..."
 msgstr "Roghnaigh..."
 
 #: modules/gui/macosx/open.m:190
-#: modules/gui/qt4/components/open_panels.cpp:911
+#: modules/gui/qt4/components/open_panels.cpp:916
 msgid "Device name"
 msgstr "Ainm an ghléis"
 
@@ -14915,15 +14916,15 @@ msgstr ""
 "Bí aidreallach mar athshocróidh seo sainroghanna an tseinnteora meán VLC.\n"
 "An bhfuil tú cinnte gur mian leat leanúint ar aghaidh?"
 
-#: modules/gui/macosx/prefs_widgets.m:1227
+#: modules/gui/macosx/prefs_widgets.m:1230
 msgid "Select a directory"
 msgstr "Roghnaigh comhadlann"
 
-#: modules/gui/macosx/prefs_widgets.m:1227
+#: modules/gui/macosx/prefs_widgets.m:1230
 msgid "Select a file"
 msgstr "Roghnaigh comhad"
 
-#: modules/gui/macosx/prefs_widgets.m:1228
+#: modules/gui/macosx/prefs_widgets.m:1231
 msgid "Select"
 msgstr "Roghnaigh"
 
@@ -15153,7 +15154,7 @@ msgid "No check was performed yet."
 msgstr "Ní dhearnadh dearbháil fós."
 
 #: modules/gui/macosx/simple_prefs.m:577 modules/gui/macosx/simple_prefs.m:621
-#: modules/gui/macosx/simple_prefs.m:1255
+#: modules/gui/macosx/simple_prefs.m:1259
 #: modules/gui/qt4/components/simple_preferences.cpp:468
 msgid "Custom"
 msgstr "Saincheaptha"
@@ -15170,7 +15171,7 @@ msgstr "Aga folaigh íseal"
 
 #: modules/gui/macosx/simple_prefs.m:577
 #: modules/gui/qt4/components/simple_preferences.cpp:471
-#: modules/misc/freetype.c:121 modules/misc/quartztext.c:104
+#: modules/misc/freetype.c:131 modules/misc/quartztext.c:104
 #: modules/misc/win32text.c:81
 msgid "Normal"
 msgstr "Gnáth"
@@ -15218,15 +15219,15 @@ msgstr ""
 msgid "Hotkeys not saved"
 msgstr ""
 
-#: modules/gui/macosx/simple_prefs.m:1185
+#: modules/gui/macosx/simple_prefs.m:1189
 msgid "Choose the folder to save your video snapshots to."
 msgstr "Roghnaigh an fillteán ina gcuirfear i dtaisce na roghbhlúirí físeáin."
 
-#: modules/gui/macosx/simple_prefs.m:1187
+#: modules/gui/macosx/simple_prefs.m:1191
 msgid "Choose"
 msgstr "Roghnaigh"
 
-#: modules/gui/macosx/simple_prefs.m:1273
+#: modules/gui/macosx/simple_prefs.m:1277
 msgid ""
 "Press new keys for\n"
 "\"%@\""
@@ -15234,15 +15235,15 @@ msgstr ""
 "Brúigh cnaipí nua do\n"
 "\"%@\""
 
-#: modules/gui/macosx/simple_prefs.m:1347
+#: modules/gui/macosx/simple_prefs.m:1351
 msgid "Invalid combination"
 msgstr "Teaglaim neamhbhailí"
 
-#: modules/gui/macosx/simple_prefs.m:1348
+#: modules/gui/macosx/simple_prefs.m:1352
 msgid "Regrettably, these keys cannot be assigned as hotkey shortcuts."
 msgstr "Faraor, ní féidir na cnaipí seo a roghnú mar chnaipí aicearra."
 
-#: modules/gui/macosx/simple_prefs.m:1366
+#: modules/gui/macosx/simple_prefs.m:1370
 msgid "This combination is already taken by \"%@\"."
 msgstr "Tá an teaglaim sin gafa cheana ag \"%@\"."
 
@@ -15495,7 +15496,7 @@ msgstr ""
 "Ceadaíonn an leathanach seo conas mar a sheolfar an sruth ionchuir a roghnú."
 
 #: modules/gui/macosx/wizard.m:364 modules/gui/macosx/wizard.m:425
-#: modules/gui/qt4/dialogs/convert.cpp:55 modules/stream_out/rtp.c:74
+#: modules/gui/qt4/dialogs/convert.cpp:55 modules/stream_out/rtp.c:76
 msgid "Destination"
 msgstr "Sprioc"
 
@@ -16263,53 +16264,53 @@ msgstr "Brúigh chun ionad B a shocrú"
 msgid "Stop the A to B loop"
 msgstr "Stad an lúb A go B"
 
-#: modules/gui/qt4/components/extended_panels.cpp:1004
-#: modules/gui/qt4/components/extended_panels.cpp:1061
+#: modules/gui/qt4/components/extended_panels.cpp:1007
+#: modules/gui/qt4/components/extended_panels.cpp:1063
 msgid "Preamp\n"
 msgstr ""
 
-#: modules/gui/qt4/components/extended_panels.cpp:1005
-#: modules/gui/qt4/components/extended_panels.cpp:1062
+#: modules/gui/qt4/components/extended_panels.cpp:1008
+#: modules/gui/qt4/components/extended_panels.cpp:1064
 msgid "dB"
 msgstr "dB"
 
-#: modules/gui/qt4/components/extended_panels.cpp:1143
+#: modules/gui/qt4/components/extended_panels.cpp:1145
 msgid "Enable spatializer"
 msgstr "Cumasaigh an fuaimshuiteoir"
 
-#: modules/gui/qt4/components/extended_panels.cpp:1283
+#: modules/gui/qt4/components/extended_panels.cpp:1285
 msgid "Audio/Video"
 msgstr "Fuaim/Físeán"
 
-#: modules/gui/qt4/components/extended_panels.cpp:1299
+#: modules/gui/qt4/components/extended_panels.cpp:1301
 msgid "Advance of audio over video:"
 msgstr ""
 
-#: modules/gui/qt4/components/extended_panels.cpp:1308
+#: modules/gui/qt4/components/extended_panels.cpp:1310
 msgid ""
 "A positive value means that\n"
 "the audio is ahead of the video"
 msgstr ""
 
-#: modules/gui/qt4/components/extended_panels.cpp:1316
+#: modules/gui/qt4/components/extended_panels.cpp:1318
 msgid "Subtitles/Video"
 msgstr "Fotheidil/Físeán"
 
-#: modules/gui/qt4/components/extended_panels.cpp:1332
+#: modules/gui/qt4/components/extended_panels.cpp:1334
 msgid "Advance of subtitles over video:"
 msgstr ""
 
-#: modules/gui/qt4/components/extended_panels.cpp:1341
+#: modules/gui/qt4/components/extended_panels.cpp:1343
 msgid ""
 "A positive value means that\n"
 "the subtitles are ahead of the video"
 msgstr ""
 
-#: modules/gui/qt4/components/extended_panels.cpp:1360
+#: modules/gui/qt4/components/extended_panels.cpp:1362
 msgid "Speed of the subtitles:"
 msgstr "Luas na bhfotheideal:"
 
-#: modules/gui/qt4/components/extended_panels.cpp:1393
+#: modules/gui/qt4/components/extended_panels.cpp:1395
 msgid "Force update of this dialog's values"
 msgstr ""
 
@@ -16459,63 +16460,63 @@ msgstr "Scagaire:"
 msgid "Open subtitles file"
 msgstr "Oscail comhad na bhfotheideal"
 
-#: modules/gui/qt4/components/open_panels.cpp:339
+#: modules/gui/qt4/components/open_panels.cpp:340
 msgid "Eject the disc"
 msgstr "Díchur an diosc"
 
-#: modules/gui/qt4/components/open_panels.cpp:707
-#: modules/gui/qt4/components/open_panels.cpp:968
+#: modules/gui/qt4/components/open_panels.cpp:712
+#: modules/gui/qt4/components/open_panels.cpp:973
 msgid "DVB Type:"
 msgstr ""
 
-#: modules/gui/qt4/components/open_panels.cpp:733
-#: modules/gui/qt4/components/open_panels.cpp:999
+#: modules/gui/qt4/components/open_panels.cpp:738
+#: modules/gui/qt4/components/open_panels.cpp:1004
 msgid "Transponder symbol rate"
 msgstr ""
 
-#: modules/gui/qt4/components/open_panels.cpp:742
-#: modules/gui/qt4/components/open_panels.cpp:1008
+#: modules/gui/qt4/components/open_panels.cpp:747
+#: modules/gui/qt4/components/open_panels.cpp:1013
 msgid "Bandwidth"
 msgstr "Leithead banda"
 
-#: modules/gui/qt4/components/open_panels.cpp:858
+#: modules/gui/qt4/components/open_panels.cpp:863
 msgid "Channels:"
 msgstr "Bealaí:"
 
-#: modules/gui/qt4/components/open_panels.cpp:869
+#: modules/gui/qt4/components/open_panels.cpp:874
 msgid "Selected ports:"
 msgstr "Poirt roghnaithe:"
 
-#: modules/gui/qt4/components/open_panels.cpp:872
+#: modules/gui/qt4/components/open_panels.cpp:877
 msgid ".*"
 msgstr ".*"
 
-#: modules/gui/qt4/components/open_panels.cpp:879
+#: modules/gui/qt4/components/open_panels.cpp:884
 msgid "Input caching:"
 msgstr ""
 
-#: modules/gui/qt4/components/open_panels.cpp:889
+#: modules/gui/qt4/components/open_panels.cpp:894
 msgid "Use VLC pace"
 msgstr "Bain feidhm as luas VLC"
 
-#: modules/gui/qt4/components/open_panels.cpp:893
+#: modules/gui/qt4/components/open_panels.cpp:898
 msgid "Auto connection"
 msgstr "Nasc uathoibríoch"
 
-#: modules/gui/qt4/components/open_panels.cpp:917
+#: modules/gui/qt4/components/open_panels.cpp:922
 msgid "Radio device name"
 msgstr ""
 
-#: modules/gui/qt4/components/open_panels.cpp:1049
+#: modules/gui/qt4/components/open_panels.cpp:1054
 msgid "Your display will be opened and played in order to stream or save it."
 msgstr ""
 
 #. xgettext: frames per second
-#: modules/gui/qt4/components/open_panels.cpp:1063
+#: modules/gui/qt4/components/open_panels.cpp:1068
 msgid " f/s"
 msgstr " f/s"
 
-#: modules/gui/qt4/components/open_panels.cpp:1276
+#: modules/gui/qt4/components/open_panels.cpp:1281
 msgid "Advanced Options"
 msgstr "Ardroghanna"
 
@@ -16543,15 +16544,15 @@ msgstr "Clóscríobh ainm don chomhadlann nua:"
 msgid "Enter name for new folder:"
 msgstr "Clóscríobh ainm don fillteán nua:"
 
-#: modules/gui/qt4/components/playlist/playlist_model.cpp:973
+#: modules/gui/qt4/components/playlist/playlist_model.cpp:972
 msgid "Sort by"
 msgstr "Scag de réir"
 
-#: modules/gui/qt4/components/playlist/playlist_model.cpp:980
+#: modules/gui/qt4/components/playlist/playlist_model.cpp:979
 msgid "Ascending"
 msgstr "Ardaitheach"
 
-#: modules/gui/qt4/components/playlist/playlist_model.cpp:981
+#: modules/gui/qt4/components/playlist/playlist_model.cpp:980
 msgid "Descending"
 msgstr "Íslitheach"
 
@@ -18589,37 +18590,37 @@ msgstr ""
 msgid "libc memcpy"
 msgstr ""
 
-#: modules/misc/freetype.c:95
+#: modules/misc/freetype.c:105
 msgid "Font family for the font you want to use"
 msgstr ""
 
-#: modules/misc/freetype.c:97
+#: modules/misc/freetype.c:107
 msgid "Fontfile for the font you want to use"
 msgstr ""
 
-#: modules/misc/freetype.c:100 modules/misc/win32text.c:60
+#: modules/misc/freetype.c:110 modules/misc/win32text.c:60
 msgid "Font size in pixels"
 msgstr "Méid na clófhoirne i bpicteilíní"
 
-#: modules/misc/freetype.c:101 modules/misc/win32text.c:61
+#: modules/misc/freetype.c:111 modules/misc/win32text.c:61
 msgid ""
 "This is the default size of the fonts that will be rendered on the video. If "
 "set to something different than 0 this option will override the relative "
 "font size."
 msgstr ""
 
-#: modules/misc/freetype.c:106 modules/misc/win32text.c:66
+#: modules/misc/freetype.c:116 modules/misc/win32text.c:66
 msgid ""
 "The opacity (inverse of transparency) of the text that will be rendered on "
 "the video. 0 = transparent, 255 = totally opaque. "
 msgstr ""
 
-#: modules/misc/freetype.c:109 modules/misc/quartztext.c:86
+#: modules/misc/freetype.c:119 modules/misc/quartztext.c:86
 #: modules/misc/win32text.c:69
 msgid "Text default color"
 msgstr "Dath réamhshocraithe an téacs"
 
-#: modules/misc/freetype.c:110 modules/misc/quartztext.c:87
+#: modules/misc/freetype.c:120 modules/misc/quartztext.c:87
 #: modules/misc/win32text.c:70
 msgid ""
 "The color of the text that will be rendered on the video. This must be an "
@@ -18628,74 +18629,75 @@ msgid ""
 "(red + green), #FFFFFF = white"
 msgstr ""
 
-#: modules/misc/freetype.c:114 modules/misc/quartztext.c:82
+#: modules/misc/freetype.c:124 modules/misc/quartztext.c:82
 #: modules/misc/win32text.c:74
 msgid "Relative font size"
 msgstr ""
 
-#: modules/misc/freetype.c:115
+#: modules/misc/freetype.c:125 modules/misc/quartztext.c:83
+#: modules/misc/win32text.c:75
 msgid ""
 "This is the relative default size of the fonts that will be rendered on the "
 "video. If absolute font size is set, relative size will be overridden."
 msgstr ""
 
-#: modules/misc/freetype.c:121 modules/misc/quartztext.c:104
+#: modules/misc/freetype.c:131 modules/misc/quartztext.c:104
 #: modules/misc/win32text.c:81
 msgid "Smaller"
 msgstr "Níos lú"
 
-#: modules/misc/freetype.c:121 modules/misc/quartztext.c:104
+#: modules/misc/freetype.c:131 modules/misc/quartztext.c:104
 #: modules/misc/win32text.c:81
 msgid "Small"
 msgstr "Beag"
 
-#: modules/misc/freetype.c:121 modules/misc/quartztext.c:104
+#: modules/misc/freetype.c:131 modules/misc/quartztext.c:104
 #: modules/misc/win32text.c:81
 msgid "Large"
 msgstr "Mór"
 
-#: modules/misc/freetype.c:121 modules/misc/quartztext.c:104
+#: modules/misc/freetype.c:131 modules/misc/quartztext.c:104
 #: modules/misc/win32text.c:81
 msgid "Larger"
 msgstr "Níos mó"
 
-#: modules/misc/freetype.c:122
+#: modules/misc/freetype.c:132
 msgid "Use YUVP renderer"
 msgstr ""
 
-#: modules/misc/freetype.c:123
+#: modules/misc/freetype.c:133
 msgid ""
 "This renders the font using \"paletized YUV\". This option is only needed if "
 "you want to encode into DVB subtitles"
 msgstr ""
 
-#: modules/misc/freetype.c:125
+#: modules/misc/freetype.c:135
 msgid "Font Effect"
 msgstr ""
 
-#: modules/misc/freetype.c:126
+#: modules/misc/freetype.c:136
 msgid ""
 "It is possible to apply effects to the rendered text to improve its "
 "readability."
 msgstr ""
 
-#: modules/misc/freetype.c:135
+#: modules/misc/freetype.c:145
 msgid "Background"
 msgstr "Cúlra"
 
-#: modules/misc/freetype.c:135
+#: modules/misc/freetype.c:145
 msgid "Fat Outline"
 msgstr ""
 
-#: modules/misc/freetype.c:147 modules/misc/win32text.c:93
+#: modules/misc/freetype.c:158 modules/misc/win32text.c:93
 msgid "Text renderer"
 msgstr ""
 
-#: modules/misc/freetype.c:148
+#: modules/misc/freetype.c:159
 msgid "Freetype2 font renderer"
 msgstr ""
 
-#: modules/misc/freetype.c:365
+#: modules/misc/freetype.c:2405
 msgid ""
 "Please wait while your font cache is rebuilt.\n"
 "This should take less than a few minutes."
@@ -19048,12 +19050,6 @@ msgstr ""
 #: modules/misc/quartztext.c:81
 msgid "Name for the font you want to use"
 msgstr "Ainm don chlófhoireann ar mian leat feidhm a bhaint as"
-
-#: modules/misc/quartztext.c:83 modules/misc/win32text.c:75
-msgid ""
-"This is the relative default size of the fonts that will be rendered on the "
-"video. If absolute font size is set, relative size will be overriden."
-msgstr ""
 
 #: modules/misc/quartztext.c:107
 msgid "Text renderer for Mac"
@@ -20062,15 +20058,15 @@ msgstr ""
 msgid "Record stream output"
 msgstr ""
 
-#: modules/stream_out/rtp.c:76
+#: modules/stream_out/rtp.c:78
 msgid "This is the output URL that will be used."
 msgstr "Seo é an tURL aschurtha a bhainfear feidhm as."
 
-#: modules/stream_out/rtp.c:77
+#: modules/stream_out/rtp.c:79
 msgid "SDP"
 msgstr "SDP"
 
-#: modules/stream_out/rtp.c:79
+#: modules/stream_out/rtp.c:81
 msgid ""
 "This allows you to specify how the SDP (Session Descriptor) for this RTP "
 "session will be made available. You must use an url: http://location to "
@@ -20078,136 +20074,136 @@ msgid ""
 "SDP to be announced via SAP."
 msgstr ""
 
-#: modules/stream_out/rtp.c:83 modules/stream_out/standard.c:91
+#: modules/stream_out/rtp.c:85 modules/stream_out/standard.c:91
 msgid "SAP announcing"
 msgstr ""
 
-#: modules/stream_out/rtp.c:84 modules/stream_out/standard.c:92
+#: modules/stream_out/rtp.c:86 modules/stream_out/standard.c:92
 msgid "Announce this session with SAP."
 msgstr ""
 
-#: modules/stream_out/rtp.c:85
+#: modules/stream_out/rtp.c:87
 msgid "Muxer"
 msgstr "Ilphléascóir"
 
-#: modules/stream_out/rtp.c:87
+#: modules/stream_out/rtp.c:89
 msgid ""
 "This allows you to specify the muxer used for the streaming output. Default "
 "is to use no muxer (standard RTP stream)."
 msgstr ""
 
-#: modules/stream_out/rtp.c:90 modules/stream_out/standard.c:62
+#: modules/stream_out/rtp.c:92 modules/stream_out/standard.c:62
 msgid "Session name"
 msgstr ""
 
-#: modules/stream_out/rtp.c:92 modules/stream_out/standard.c:64
+#: modules/stream_out/rtp.c:94 modules/stream_out/standard.c:64
 msgid ""
 "This is the name of the session that will be announced in the SDP (Session "
 "Descriptor)."
 msgstr ""
 
-#: modules/stream_out/rtp.c:94 modules/stream_out/standard.c:72
+#: modules/stream_out/rtp.c:96 modules/stream_out/standard.c:72
 msgid "Session description"
 msgstr ""
 
-#: modules/stream_out/rtp.c:96 modules/stream_out/standard.c:74
+#: modules/stream_out/rtp.c:98 modules/stream_out/standard.c:74
 msgid ""
 "This allows you to give a short description with details about the stream, "
 "that will be announced in the SDP (Session Descriptor)."
 msgstr ""
 
-#: modules/stream_out/rtp.c:98 modules/stream_out/standard.c:76
+#: modules/stream_out/rtp.c:100 modules/stream_out/standard.c:76
 msgid "Session URL"
 msgstr ""
 
-#: modules/stream_out/rtp.c:100 modules/stream_out/standard.c:78
+#: modules/stream_out/rtp.c:102 modules/stream_out/standard.c:78
 msgid ""
 "This allows you to give an URL with more details about the stream (often the "
 "website of the streaming organization), that will be announced in the SDP "
 "(Session Descriptor)."
 msgstr ""
 
-#: modules/stream_out/rtp.c:103 modules/stream_out/standard.c:81
+#: modules/stream_out/rtp.c:105 modules/stream_out/standard.c:81
 msgid "Session email"
 msgstr ""
 
-#: modules/stream_out/rtp.c:105 modules/stream_out/standard.c:83
+#: modules/stream_out/rtp.c:107 modules/stream_out/standard.c:83
 msgid ""
 "This allows you to give a contact mail address for the stream, that will be "
 "announced in the SDP (Session Descriptor)."
 msgstr ""
 
-#: modules/stream_out/rtp.c:107 modules/stream_out/standard.c:85
+#: modules/stream_out/rtp.c:109 modules/stream_out/standard.c:85
 msgid "Session phone number"
 msgstr ""
 
-#: modules/stream_out/rtp.c:109 modules/stream_out/standard.c:87
+#: modules/stream_out/rtp.c:111 modules/stream_out/standard.c:87
 msgid ""
 "This allows you to give a contact telephone number for the stream, that will "
 "be announced in the SDP (Session Descriptor)."
 msgstr ""
 
-#: modules/stream_out/rtp.c:114
+#: modules/stream_out/rtp.c:116
 msgid "This allows you to specify the base port for the RTP streaming."
 msgstr ""
 
-#: modules/stream_out/rtp.c:115
+#: modules/stream_out/rtp.c:117
 msgid "Audio port"
 msgstr "Port fuaime"
 
-#: modules/stream_out/rtp.c:117
+#: modules/stream_out/rtp.c:119
 msgid ""
 "This allows you to specify the default audio port for the RTP streaming."
 msgstr ""
 
-#: modules/stream_out/rtp.c:118
+#: modules/stream_out/rtp.c:120
 msgid "Video port"
 msgstr "Port físeáin"
 
-#: modules/stream_out/rtp.c:120
+#: modules/stream_out/rtp.c:122
 msgid ""
 "This allows you to specify the default video port for the RTP streaming."
 msgstr ""
 
-#: modules/stream_out/rtp.c:128
+#: modules/stream_out/rtp.c:130
 msgid "RTP/RTCP multiplexing"
 msgstr "Ilphléacsú RTP/RTCP"
 
-#: modules/stream_out/rtp.c:130
+#: modules/stream_out/rtp.c:132
 msgid ""
 "This sends and receives RTCP packet multiplexed over the same port as RTP "
 "packets."
 msgstr ""
 
-#: modules/stream_out/rtp.c:135
+#: modules/stream_out/rtp.c:137
 msgid ""
 "Default caching value for outbound RTP streams. This value should be set in "
 "milliseconds."
 msgstr ""
 
-#: modules/stream_out/rtp.c:138
+#: modules/stream_out/rtp.c:140
 msgid "Transport protocol"
 msgstr ""
 
-#: modules/stream_out/rtp.c:140
+#: modules/stream_out/rtp.c:142
 msgid "This selects which transport protocol to use for RTP."
 msgstr ""
 
-#: modules/stream_out/rtp.c:144
+#: modules/stream_out/rtp.c:146
 msgid ""
 "RTP packets will be integrity-protected and ciphered with this Secure RTP "
 "master shared secret key."
 msgstr ""
 
-#: modules/stream_out/rtp.c:159
+#: modules/stream_out/rtp.c:161
 msgid "MP4A LATM"
 msgstr "MP4A LATM"
 
-#: modules/stream_out/rtp.c:161
+#: modules/stream_out/rtp.c:163
 msgid "This allows you to stream MPEG4 LATM audio streams (see RFC3016)."
 msgstr ""
 
-#: modules/stream_out/rtp.c:171
+#: modules/stream_out/rtp.c:173
 msgid "RTP stream output"
 msgstr "Aschur an tsrutha RTP"
 
@@ -20336,67 +20332,67 @@ msgstr ""
 msgid "Standard stream output"
 msgstr "Aschur srutha caighdeánach"
 
-#: modules/stream_out/switcher.c:90 modules/gui/qt4/ui/sprefs_input.h:314
+#: modules/stream_out/switcher.c:92 modules/gui/qt4/ui/sprefs_input.h:314
 msgid "Files"
 msgstr "Comhaid"
 
-#: modules/stream_out/switcher.c:92
+#: modules/stream_out/switcher.c:94
 msgid "Full paths of the files separated by colons."
 msgstr "Conairí iomlána na gcomhad scartha le colúin."
 
-#: modules/stream_out/switcher.c:93
+#: modules/stream_out/switcher.c:95
 msgid "Sizes"
 msgstr "Méideanna"
 
-#: modules/stream_out/switcher.c:95
+#: modules/stream_out/switcher.c:97
 msgid "List of sizes separated by colons (720x576:480x576)."
 msgstr ""
 
-#: modules/stream_out/switcher.c:98
+#: modules/stream_out/switcher.c:100
 msgid "Aspect ratio (4:3, 16:9)."
 msgstr "Cóimheas treoíochta (4:3, 16:9)"
 
-#: modules/stream_out/switcher.c:99
+#: modules/stream_out/switcher.c:101
 msgid "Command UDP port"
 msgstr ""
 
-#: modules/stream_out/switcher.c:101
+#: modules/stream_out/switcher.c:103
 msgid "UDP port to listen to for commands."
 msgstr ""
 
-#: modules/stream_out/switcher.c:102
+#: modules/stream_out/switcher.c:104
 msgid "Command"
 msgstr ""
 
-#: modules/stream_out/switcher.c:104
+#: modules/stream_out/switcher.c:106
 msgid "Initial command to execute."
 msgstr ""
 
-#: modules/stream_out/switcher.c:105
+#: modules/stream_out/switcher.c:107
 msgid "GOP size"
 msgstr "Méid GOP"
 
-#: modules/stream_out/switcher.c:107
+#: modules/stream_out/switcher.c:109
 msgid "Number of P frames between two I frames."
 msgstr ""
 
-#: modules/stream_out/switcher.c:108
+#: modules/stream_out/switcher.c:110
 msgid "Quantizer scale"
 msgstr ""
 
-#: modules/stream_out/switcher.c:110
+#: modules/stream_out/switcher.c:112
 msgid "Fixed quantizer scale to use."
 msgstr ""
 
-#: modules/stream_out/switcher.c:111
+#: modules/stream_out/switcher.c:113
 msgid "Mute audio"
 msgstr "Balbhaigh an fhuaim"
 
-#: modules/stream_out/switcher.c:113
+#: modules/stream_out/switcher.c:115
 msgid "Mute audio when command is not 0."
 msgstr ""
 
-#: modules/stream_out/switcher.c:116
+#: modules/stream_out/switcher.c:118
 msgid "MPEG2 video switcher stream output"
 msgstr ""
 
@@ -23548,9 +23544,9 @@ msgstr ""
 
 #: modules/video_output/yuv.c:49
 msgid ""
-"The YUV4MPEG2 header is compatible with mplayer yuv video output and requires "
-"YV12/I420 fourcc. By default vlc writes the fourcc of the picture frame into "
-"the output destination."
+"The YUV4MPEG2 header is compatible with mplayer yuv video output and "
+"requires YV12/I420 fourcc. By default vlc writes the fourcc of the picture "
+"frame into the output destination."
 msgstr ""
 
 #: modules/video_output/yuv.c:59
@@ -23826,8 +23822,9 @@ msgid "Show &more options"
 msgstr "Taispeáin tuilleadh roghanna"
 
 #: modules/gui/qt4/ui/open.h:237
+#, fuzzy
 msgid "Change the caching for the media"
-msgstr ""
+msgstr "Athraigh am tosaithe don meán"
 
 #: modules/gui/qt4/ui/open.h:239
 msgid " ms"
@@ -24123,8 +24120,9 @@ msgid "Stream all elementary streams"
 msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:343
+#, fuzzy
 msgid "Group name"
-msgstr ""
+msgstr "Ainm úsáideora"
 
 #: modules/gui/qt4/ui/sout.h:345
 #, fuzzy
@@ -24694,6 +24692,10 @@ msgstr "Lúb"
 #, fuzzy
 msgid "Media Manager List"
 msgstr "Meán go dtí Zip"
+
+#, fuzzy
+#~ msgid "Automate picture coding mode"
+#~ msgstr "Bearradh uathoibríoch"
 
 #~ msgid "...when VLC is in background"
 #~ msgstr "...nuair atá VLC sa chúlra"
