@@ -1,10 +1,10 @@
 # Translation to Simplified Chinese.
-# Copyright (C) 2008-2010 the VideoLAN team
+# Copyright (C) 2008-2011 the VideoLAN team
 # This file is distributed under the same license as the VLC package.
 #
 # Yoyo <admin@wisestudio.org>, 2008.
 # Wei Mingzhi <whistler@openoffice.org>, 2009.
-# Dean Lee <xslidian@gmail.com>, 2010.
+# Dean Lee <xslidian@gmail.com>, 2010-2011.
 #
 msgid ""
 msgstr ""
@@ -14639,17 +14639,17 @@ msgstr "VLC 调试记录 (%s).rtfd"
 
 #: modules/gui/macosx/intf.m:2857
 msgid "Relaunch required"
-msgstr ""
+msgstr "需要重启"
 
 #: modules/gui/macosx/intf.m:2858
 msgid ""
 "To make sure that VLC no longer listens to your media key events, it needs "
 "to be restarted."
-msgstr ""
+msgstr "要确保 VLC 不再监听您的媒体键事件，需要重新启动 VLC。"
 
 #: modules/gui/macosx/intf.m:2859
 msgid "Relaunch VLC"
-msgstr ""
+msgstr "重新启动 VLC"
 
 #: modules/gui/macosx/macosx.m:53
 msgid "Video device"
