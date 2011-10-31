@@ -134,9 +134,6 @@ static bool CheckXVideo (vout_display_t *vd, xcb_connection_t *conn)
 static vlc_fourcc_t ParseFormat (vout_display_t *vd,
                                  const xcb_xv_image_format_info_t *restrict f)
 {
-    if (f->byte_order != ORDER && f->bpp != 8)
-        return 0; /* Argh! */
-
     switch (f->type)
     {
       case XCB_XV_IMAGE_FORMAT_INFO_TYPE_RGB:
@@ -156,6 +153,8 @@ static vlc_fourcc_t ParseFormat (vout_display_t *vd,
                     return VLC_CODEC_RGB24;
                 break;
               case 16:
+                if (f->byte_order != ORDER)
+                    return 0; /* Mixed endian! */
                 if (f->depth == 16)
                     return VLC_CODEC_RGB16;
                 if (f->depth == 15)
