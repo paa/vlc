@@ -398,6 +398,7 @@ static int Open (vlc_object_t *obj)
                 continue; /* OMAP framebuffer sucks at YUV 4:2:0 */
             }
 
+            free (p_sys->att);
             xfmt = FindFormat (vd, chroma, &fmt, a->base_id, r, &p_sys->att);
             if (xfmt != NULL)
             {
@@ -414,6 +415,8 @@ static int Open (vlc_object_t *obj)
                 }
                 break;
             }
+            else
+                p_sys->att = NULL;
         }
         free (r);
         if (xfmt == NULL) /* No acceptable image formats */
