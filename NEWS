@@ -1,3 +1,24 @@
+Changes between 1.1.12 and 1.1.13-git:
+----------------------------------
+
+Audio output:
+ * improvements for PulseAudio 1.0 and fixes
+
+Qt interface:
+ * fix potential crash and v4l2 opening panel
+
+XCB/XVideo:
+ * Turn on XVideo color key automatic painting
+ * Allow mixed endian format if 8 or 4 bits per component
+
+Misc:
+ * Build and packaging fixes
+ * Fix RTP crash on initialization error
+
+Translations:
+ * Update of Polish, Simplified Chinese, Estonian and German
+
+
 Changes between 1.1.11 and 1.1.12:
 ----------------------------------
 
