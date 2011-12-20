@@ -1,22 +1,27 @@
-Changes between 1.1.12 and 1.1.13-git:
+Changes between 1.1.12 and 1.1.13:
 ----------------------------------
 
-Audio output:
- * improvements for PulseAudio 1.0 and fixes
+Security:
+ * Same default ACL for HTTP requests as for the rest of the HTTP interface.
+
+Audio outputs:
+ * PulseAudio channels mapping (non-stereo) fix.
+ * PulseAudio stream accidental overflow recovery.
+
+Video outputs:
+ * XVideo support for mixed CPU/GPU endianess (especially on PowerPC).
+ * XVideo support for automatic color keying.
+ * xosd Xlib initialization failure fix.
+
+Decoders:
+ * Camtasia decoding fix.
 
 Qt interface:
- * fix potential crash and v4l2 opening panel
-
-XCB/XVideo:
- * Turn on XVideo color key automatic painting
- * Allow mixed endian format if 8 or 4 bits per component
-
-Misc:
- * Build and packaging fixes
- * Fix RTP crash on initialization error
+ * Rare crash while seeking fixed.
+ * V4L2 video standard selection fixed.
 
 Translations:
- * Update of Polish, Simplified Chinese, Estonian and German
+ * Update of Chinese simplified, Estonian, German and Polish languages.
 
 
 Changes between 1.1.11 and 1.1.12:
