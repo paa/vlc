@@ -3365,7 +3365,6 @@ AC_ARG_ENABLE(glx,
   enable_glx="$enable_xcb"
 ])
 AS_IF([test "${enable_glx}" != "no"], [
-  PKG_CHECK_MODULES(XLIB_XCB, [x11-xcb])
   PKG_CHECK_MODULES(GL, [gl],, [
     AC_CHECK_HEADER([GL/gl.h], [
       GL_CFLAGS=""
