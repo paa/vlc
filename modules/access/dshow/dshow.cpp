@@ -331,8 +331,8 @@ static void DeleteDirectShowGraph( access_sys_t *p_sys )
     {
         p_sys->p_graph->RemoveFilter( p_sys->pp_streams[i]->p_capture_filter );
         p_sys->p_graph->RemoveFilter( p_sys->pp_streams[i]->p_device_filter );
-        p_sys->pp_streams[i]->p_capture_filter->Release();
-        p_sys->pp_streams[i]->p_device_filter->Release();
+        p_sys->pp_streams[i]->p_capture_filter = NULL;
+        p_sys->pp_streams[i]->p_device_filter = NULL;
     }
 
     /* Release directshow objects */
@@ -1148,9 +1148,9 @@ static int OpenDevice( vlc_object_t *p_this, access_sys_t *p_sys,
     p_sys->p_graph->RemoveFilter( p_device_filter );
     p_sys->p_graph->RemoveFilter( p_capture_filter );
 
-    /* Release objects */
-    p_device_filter->Release();
-    p_capture_filter->Release();
+    /* Nullify objects */
+    p_device_filter = NULL;
+    p_capture_filter = NULL;
 
     return VLC_EGENERIC;
 }

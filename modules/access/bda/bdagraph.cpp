@@ -1570,7 +1570,10 @@ HRESULT BDAGraph::FindFilter( REFCLSID clsid, long* i_moniker_used,
             return S_OK;
         }
         /* Not the filter we want so unload and try the next one */
+        /* Warning: RemoveFilter does an undocumented Release()
+         * on pointer but does not set it to NULL */
         hr = p_filter_graph->RemoveFilter( l.p_filter );
+        l.p_filter = NULL;
         if( FAILED( hr ) )
         {
             msg_Warn( p_access, "FindFilter: "\
@@ -1847,32 +1850,29 @@ HRESULT BDAGraph::Destroy()
 
     if( p_transport_info )
     {
+        /* Warning: RemoveFilter does an undocumented Release()
+         * on pointer but does not set it to NULL */
         p_filter_graph->RemoveFilter( p_transport_info );
-        p_transport_info->Release();
         p_transport_info = NULL;
     }
     if( p_mpeg_demux )
     {
         p_filter_graph->RemoveFilter( p_mpeg_demux );
-        p_mpeg_demux->Release();
         p_mpeg_demux = NULL;
     }
     if( p_sample_grabber )
     {
         p_filter_graph->RemoveFilter( p_sample_grabber );
-        p_sample_grabber->Release();
         p_sample_grabber = NULL;
     }
     if( p_capture_device )
     {
         p_filter_graph->RemoveFilter( p_capture_device );
-        p_capture_device->Release();
         p_capture_device = NULL;
     }
     if( p_tuner_device )
     {
         p_filter_graph->RemoveFilter( p_tuner_device );
-        p_tuner_device->Release();
         p_tuner_device = NULL;
     }
     if( p_scanning_tuner )
@@ -1883,7 +1883,6 @@ HRESULT BDAGraph::Destroy()
     if( p_network_provider )
     {
         p_filter_graph->RemoveFilter( p_network_provider );
-        p_network_provider->Release();
         p_network_provider = NULL;
     }
 
