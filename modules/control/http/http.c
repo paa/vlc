@@ -110,6 +110,7 @@ static int Open( vlc_object_t *p_this )
                   *psz_crl = NULL;
     int           i_port       = 0;
     char          *psz_src = NULL;
+    httpd_handler_sys_t *p_art_handler_sys = NULL;
 
     psz_address = var_CreateGetNonEmptyString( p_intf, "http-host" );
     if( psz_address != NULL )
@@ -261,18 +262,20 @@ static int Open( vlc_object_t *p_this )
 
     if( var_InheritBool( p_intf, "http-album-art" ) )
     {
-        /* FIXME: we're leaking h */
-        httpd_handler_sys_t *h = malloc( sizeof( httpd_handler_sys_t ) );
-        if( !h )
+        httpd_handler_sys_t *p_art_handler_sys = malloc( sizeof( httpd_handler_sys_t ) );
+        if( !p_art_handler_sys )
+        {
+            msg_Err( p_intf, "out of memory: could not allocate /art URL" );
             goto failed;
-        h->file.p_intf = p_intf;
-        h->file.file = NULL;
-        h->file.name = NULL;
+        }
+
+        p_art_handler_sys->file.p_intf = p_intf;
+        p_art_handler_sys->file.file = NULL;
+        p_art_handler_sys->file.name = NULL;
         /* TODO: use ACL and login/password stuff here too */
-        h->p_handler = httpd_HandlerNew( p_sys->p_httpd_host,
+        p_sys->p_art_handler =  httpd_HandlerNew( p_sys->p_httpd_host,
                                          "/art", NULL, NULL, NULL,
-                                         ArtCallback, h );
-        p_sys->p_art_handler = h->p_handler;
+                                         ArtCallback, p_art_handler_sys );
     }
 
     free( psz_src );
@@ -284,6 +287,7 @@ failed:
     httpd_HostDelete( p_sys->p_httpd_host );
     free( p_sys->psz_address );
     free( p_sys );
+    free( p_art_handler_sys );
     return VLC_EGENERIC;
 }
 
@@ -295,6 +299,7 @@ static void Close ( vlc_object_t *p_this )
     intf_thread_t *p_intf = (intf_thread_t *)p_this;
     intf_sys_t    *p_sys = p_intf->p_sys;
     int i;
+    httpd_handler_sys_t *p_art_handler_sys = NULL;
 
 #ifdef ENABLE_VLM
     if( p_sys->p_vlm )
@@ -330,10 +335,11 @@ static void Close ( vlc_object_t *p_this )
     if( p_sys->i_handlers )
         free( p_sys->pp_handlers );
     if( p_sys->p_art_handler )
-        httpd_HandlerDelete( p_sys->p_art_handler );
+        p_art_handler_sys = httpd_HandlerDelete( p_sys->p_art_handler );
     httpd_HostDelete( p_sys->p_httpd_host );
     free( p_sys->psz_address );
     free( p_sys );
+    free( p_art_handler_sys );
 }
 
 /****************************************************************************
@@ -429,7 +435,7 @@ static void ParseExecute( httpd_file_sys_t *p_args, char *p_buffer,
     /* Stats */
     if( p_sys->p_input )
     {
-        /* FIXME: Workarround a stupid assert in input_GetItem */
+        /* Workaround a stupid assert in input_GetItem */
         input_item_t *p_item = p_sys->p_input && p_sys->p_input->p
                                ? input_GetItem( p_sys->p_input )
                                : NULL;
@@ -754,34 +760,16 @@ int  ArtCallback( httpd_handler_sys_t *p_args,
     VLC_UNUSED(p_handler); VLC_UNUSED(_p_url); VLC_UNUSED(i_type); 
     VLC_UNUSED(p_in); VLC_UNUSED(i_in); VLC_UNUSED(psz_remote_addr); 
     VLC_UNUSED(psz_remote_host); 
+    VLC_UNUSED(p_request);
 
     char *psz_art = NULL;
     intf_thread_t *p_intf = p_args->file.p_intf;
     intf_sys_t *p_sys = p_intf->p_sys;
-    char psz_id[16];
     input_item_t *p_item = NULL;
-    int i_id;
-
-    psz_id[0] = '\0';
-    if( p_request )
-        ExtractURIValue( (char *)p_request, "id", psz_id, 15 );
-    i_id = atoi( psz_id );
-    if( i_id )
-    {
-        playlist_Lock( p_sys->p_playlist );
-        playlist_item_t *p_pl_item = playlist_ItemGetById( p_sys->p_playlist,
-                                                           i_id );
-        if( p_pl_item )
-            p_item = p_pl_item->p_input;
-        playlist_Unlock( p_sys->p_playlist );
-    }
-    else
-    {
-        /* FIXME: Workarround a stupid assert in input_GetItem */
+    p_sys->p_input = playlist_CurrentInput( p_sys->p_playlist );
+        /* Workaround a stupid assert in input_GetItem */
         if( p_sys->p_input && p_sys->p_input->p )
             p_item = input_GetItem( p_sys->p_input );
-    }
-
     if( p_item )
     {
         psz_art = input_item_GetArtURL( p_item );
@@ -796,15 +784,23 @@ int  ArtCallback( httpd_handler_sys_t *p_args,
 
     if( psz_art == NULL )
     {
-        msg_Dbg( p_intf, "No album art found" );
-        Callback404( &p_args->file, (char**)pp_data, pi_data );
-        return VLC_SUCCESS;
+        msg_Dbg( p_intf, "didn't find any art, so use default" );
+        char *psz_src = var_InheritString( p_intf, "http-src" );
+        if( psz_src == NULL )
+        {
+            char *data_path = config_GetDataDir( p_intf );
+            if( asprintf( &psz_src, "%s" DIR_SEP "http", data_path ) == -1 )
+                psz_src = NULL;
+            free( data_path );
+        }
+        if( asprintf( &psz_art, "%s" DIR_SEP "images" DIR_SEP "default_album_art.png", psz_src ) == -1 )
+                psz_art = NULL;
+        free( psz_src );
     }
 
     FILE *f = vlc_fopen( psz_art, "r" );
     if( f == NULL )
     {
-        msg_Dbg( p_intf, "Couldn't open album art file %s", psz_art );
         Callback404( &p_args->file, (char**)pp_data, pi_data );
         free( psz_art );
         return VLC_SUCCESS;

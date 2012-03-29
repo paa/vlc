@@ -1043,11 +1043,11 @@ function browse_path( p )
 }
 function refresh_albumart( force )
 {
-    if( albumart_id != pl_cur_id || force )
+    if( ( albumart_id != pl_cur_id ) || force )
     {
         var now = new Date();
         var albumart = document.getElementById( 'albumart' );
-        albumart.src = '/art?timestamp=' + now.getTime();
+        albumart.src = '/art?timestamp=' + now.getTime() + '&id=' + pl_cur_id;
         albumart_id = pl_cur_id;
     }
 }

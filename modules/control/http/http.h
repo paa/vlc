@@ -355,10 +355,12 @@ struct intf_sys_t
 };
 
 /** This function is the main HTTPD Callback used by the HTTP Interface */
-int HttpCallback( httpd_file_sys_t *p_args,
-                      httpd_file_t *,
-                      uint8_t *p_request,
-                      uint8_t **pp_data, int *pi_data );
+
+int  HttpCallback( httpd_file_sys_t *p_args,
+                       httpd_file_t *p_file,
+                       uint8_t *_p_request,
+                       uint8_t **_pp_data, int *pi_data );
+
 /** This function is the HTTPD Callback used for CGIs */
 int  HandlerCallback( httpd_handler_sys_t *p_args,
                           httpd_handler_t *p_handler, char *_p_url,
