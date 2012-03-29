@@ -1043,7 +1043,7 @@ void EvaluateRPN( intf_thread_t *p_intf, mvar_t  *vars,
                 }
                 else if( !strcmp( psz_meta, "ART_URL" ) )
                 {
-                    psz_val = input_item_GetEncodedBy( p_item );
+                    psz_val = input_item_GetArtURL( p_item );
                 }
                 else if( !strcmp( psz_meta, "TRACK_ID" ) )
                 {
