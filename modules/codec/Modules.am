@@ -35,6 +35,7 @@ SOURCES_kate = kate.c
 SOURCES_schroedinger = schroedinger.c
 SOURCES_libass = libass.c
 SOURCES_aes3 = aes3.c
+SOURCES_fdkaac = fdkaac.c
 
 libvlc_LTLIBRARIES += \
 	liba52_plugin.la \

@@ -23,7 +23,7 @@ AC_CANONICAL_BUILD
 AC_CANONICAL_HOST
 AC_PRESERVE_HELP_ORDER
 
-AM_INIT_AUTOMAKE(tar-ustar)
+AM_INIT_AUTOMAKE(tar-ustar subdir-objects)
 AM_CONFIG_HEADER(config.h)
 
 # Disable with "./configure --disable-silent-rules" or "make V=1"
@@ -2890,6 +2890,11 @@ dnl
 dnl twolame encoder plugin
 dnl
 PKG_ENABLE_MODULES_VLC([TWOLAME], [], [twolame], [MPEG Audio Layer 2 encoder], [auto], [], [], [ -DLIBTWOLAME_STATIC])
+
+dnl
+dnl fdk-aac encoder plugin
+dnl
+PKG_ENABLE_MODULES_VLC([FDKAAC], [], [fdk-aac], [FDK-AAC encoder], [disabled])
 
 dnl
 dnl  QuickTime plugin
